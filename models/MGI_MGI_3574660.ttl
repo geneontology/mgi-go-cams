@@ -34,21 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2005-11-18" ;
     dc:title "Sp9 (MGI:MGI:3574660)" ;
     dct:created "2005-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_3574660> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_3574660/0451a285-26c1-492a-9019-dc4d65e9cce1> a GO:0003677,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3574660/b61a9b2b-dcc1-4de4-ad85-02318e4b16eb> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-11-18" ;
-    dct:created "2005-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_3574660/c488ab9e-6151-4a50-99db-030659b36fcd> a ECO:0000250,
+<http://model.geneontology.org/MGI_MGI_3574660/55add1b0-da5e-4045-a8f4-e811ba1aa66b> a ECO:0000250,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-11-18" ;
@@ -57,25 +48,34 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "DNA binding domain" .
 
+<http://model.geneontology.org/MGI_MGI_3574660/6afaade1-06c0-4cb3-86e4-f980d60b4d76> a GO:0003677,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3574660/ba0aa380-225e-4dee-a597-0cddbad60fd8> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-11-18" ;
+    dct:created "2005-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_3574660/b61a9b2b-dcc1-4de4-ad85-02318e4b16eb> a MGI:MGI:3574660,
+<http://model.geneontology.org/MGI_MGI_3574660/ba0aa380-225e-4dee-a597-0cddbad60fd8> a MGI:MGI:3574660,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-11-18" ;
     dct:created "2005-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3574660/c488ab9e-6151-4a50-99db-030659b36fcd> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3574660/55add1b0-da5e-4045-a8f4-e811ba1aa66b> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-11-18" ;
     dct:created "2005-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3574660  RO:0002327 GO:0003677 MGI:MGI:3575608|PMID:15820306 ECO:0000250   2005-11-18 MGI  creation-date=2005-11-18|modification-date=2005-11-18|comment=DNA binding domain|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3574660/0451a285-26c1-492a-9019-dc4d65e9cce1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3574660/b61a9b2b-dcc1-4de4-ad85-02318e4b16eb> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3574660/6afaade1-06c0-4cb3-86e4-f980d60b4d76> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3574660/ba0aa380-225e-4dee-a597-0cddbad60fd8> .
 

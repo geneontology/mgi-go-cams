@@ -34,21 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2010-02-02" ;
     dc:title "Ccdc93 (MGI:MGI:1918079)" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1918079> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1918079/7a31c8ec-8c65-496f-85d1-16bce5db9178> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1918079/135d4e51-a167-4599-87c2-faed4958de30> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-02" ;
-    dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1918079/8b3cdc88-70c0-4473-a501-1560420cf5a0> a ECO:0000307,
+<http://model.geneontology.org/MGI_MGI_1918079/00d3331d-a7f5-44fa-9222-2d3423d1d6b8> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
@@ -56,25 +47,34 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2010-02-02" ;
     ns2:providedBy "http://informatics.jax.org" .
 
+<http://model.geneontology.org/MGI_MGI_1918079/ffaf5a40-82bb-432f-a2ab-81e1dde9972f> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1918079/5930cfef-d107-4987-84e1-4f893bacd6bb> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-02" ;
+    dct:created "2010-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1918079/135d4e51-a167-4599-87c2-faed4958de30> a MGI:MGI:1918079,
+<http://model.geneontology.org/MGI_MGI_1918079/5930cfef-d107-4987-84e1-4f893bacd6bb> a MGI:MGI:1918079,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1918079/8b3cdc88-70c0-4473-a501-1560420cf5a0> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1918079/00d3331d-a7f5-44fa-9222-2d3423d1d6b8> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1918079  RO:0002327 GO:0003674 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2010-02-02 MGI  creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1918079/7a31c8ec-8c65-496f-85d1-16bce5db9178> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1918079/135d4e51-a167-4599-87c2-faed4958de30> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1918079/ffaf5a40-82bb-432f-a2ab-81e1dde9972f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1918079/5930cfef-d107-4987-84e1-4f893bacd6bb> .
 

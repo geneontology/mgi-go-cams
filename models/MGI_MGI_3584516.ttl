@@ -35,12 +35,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2011-03-18" ;
     dc:title "Lrp3 (MGI:MGI:3584516)" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_3584516> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_3584516/3a1f29ea-b2eb-49c6-b292-60e2a131561d> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_3584516/ae4e3fd7-48fe-46b9-a1aa-0ed28deb6f57> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:O88307" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -52,7 +52,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence ECO:0000070 ; inferred from co-immunoprecipitation",
         "transfected" .
 
-<http://model.geneontology.org/MGI_MGI_3584516/d4a09c1e-a4a8-4754-a1c0-ed3c18d2712f> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_3584516/b762accd-af0c-4fe6-9d3b-4ce98b9d4d1b> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:O88307" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -68,53 +68,53 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_3584516/0d1b78a8-baa8-4181-916d-f784f6900c5e> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_3584516/1e5a695d-ce11-47be-afe4-96b0a0b99717> a MGI:MGI:3584516,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_3584516/81cc0035-f5e7-4a5f-9507-86341be23edc> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3584516/a018b3ba-d756-4206-9518-4ce63bce51dc> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-03-18" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3584516/81cc0035-f5e7-4a5f-9507-86341be23edc> a PR:O88307,
+<http://model.geneontology.org/MGI_MGI_3584516/656da948-6a71-4cc1-bc7b-088f11348bac> a PR:O88307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-03-18" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3584516/a018b3ba-d756-4206-9518-4ce63bce51dc> a MGI:MGI:3584516,
+<http://model.geneontology.org/MGI_MGI_3584516/663e3272-5e08-4d92-9476-9c74037c0d8e> a GO:0005515,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_3584516/656da948-6a71-4cc1-bc7b-088f11348bac> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3584516/1e5a695d-ce11-47be-afe4-96b0a0b99717> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-03-18" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3584516/d4a09c1e-a4a8-4754-a1c0-ed3c18d2712f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3584516/ae4e3fd7-48fe-46b9-a1aa-0ed28deb6f57> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-03-18" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3584516  RO:0002327 GO:0005515 MGI:MGI:3847372|PMID:19047013 ECO:0000353 PR:O88307  2011-03-18 MGI  creation-date=2011-03-18|modification-date=2011-03-18|comment=cell type CLO:0000019 ; permanent cell line cell   N2A ; ATTC:CCL-131|comment=evidence ECO:0000070 ; inferred from co-immunoprecipitation|comment=transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3584516/0d1b78a8-baa8-4181-916d-f784f6900c5e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3584516/81cc0035-f5e7-4a5f-9507-86341be23edc> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3584516/663e3272-5e08-4d92-9476-9c74037c0d8e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3584516/656da948-6a71-4cc1-bc7b-088f11348bac> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3584516/3a1f29ea-b2eb-49c6-b292-60e2a131561d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3584516/b762accd-af0c-4fe6-9d3b-4ce98b9d4d1b> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-03-18" ;
     dct:created "2011-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3584516  RO:0002327 GO:0005515 MGI:MGI:3847372|PMID:19047013 ECO:0000353 PR:O88307  2011-03-18 MGI  creation-date=2011-03-18|modification-date=2011-03-18|comment=cell type CLO:0000019 ; permanent cell line cell   N2A ; ATTC:CCL-131|comment=evidence ECO:0000070 ; inferred from co-immunoprecipitation|comment=transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3584516/0d1b78a8-baa8-4181-916d-f784f6900c5e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3584516/a018b3ba-d756-4206-9518-4ce63bce51dc> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3584516/663e3272-5e08-4d92-9476-9c74037c0d8e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3584516/1e5a695d-ce11-47be-afe4-96b0a0b99717> .
 

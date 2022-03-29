@@ -36,41 +36,31 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2009-10-21" ;
     dc:title "Gps2 (MGI:MGI:1891751)" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1891751> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1891751/153cc38f-9040-49e1-91e5-84f761f11907> a MGI:MGI:1891751,
+<http://model.geneontology.org/MGI_MGI_1891751/0847f0cd-4662-47fc-b066-02b8a3dd0cd8> a ECO:0000353,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1891751/5b95a64b-b71a-4d22-92ba-29cb6294e90f> ;
+    ns1:evidence-with "PR:Q7TNK1" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2009-10-21" ;
+    dc:source "PMID:18218630" ;
+    dct:created "2009-10-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from yeast 2-hybrid assay ; ECO:0000068" .
+
+<http://model.geneontology.org/MGI_MGI_1891751/2d30fec8-58be-4769-a785-1ca0e0d2e9ef> a MGI:MGI:1891751,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1891751/7945b9d9-c716-470b-b8b7-918a249b5432> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/26352d8e-8413-4c2d-8c9c-f97eceaed10b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2009-10-21" ;
-    dc:source "PMID:18218630" ;
-    dct:created "2009-10-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "evidence inferred from fluorescence ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_1891751/6b9372ed-002e-40b5-a49b-6a068097ddff> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2009-10-21" ;
-    dc:source "PMID:18218630" ;
-    dct:created "2009-10-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "evidence inferred from fluorescence ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_1891751/93fe43f8-9df2-4609-b956-7a039841c5bf> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1891751/82ec2605-01b5-44e6-80f9-5accedaa6205> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q7TNK1" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -80,15 +70,25 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence inferred from yeast 2-hybrid assay ; ECO:0000068" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/99a827b8-d5ee-4806-8fe4-60a515c6d942> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1891751/96937bda-d2ef-48ff-af06-eea2acf4b440> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q7TNK1" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dc:source "PMID:18218630" ;
     dct:created "2009-10-21" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from yeast 2-hybrid assay ; ECO:0000068" .
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "evidence inferred from fluorescence ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_1891751/fa2d7e64-8c4f-4bfa-a68f-14f4e26beb37> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2009-10-21" ;
+    dc:source "PMID:18218630" ;
+    dct:created "2009-10-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "evidence inferred from fluorescence ; ECO:0000007" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
@@ -98,94 +98,94 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1891751/2dfdce86-98b8-488f-a618-87f916e73a1a> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_1891751/6c7519fe-0dbc-4493-b71e-3005b57a7e0d> a MGI:MGI:1891751,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1891751/81f92ab4-ef3c-4fbc-9798-41fb07ec9459> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1891751/580c2c45-3e0e-4ea7-a922-4ce856c625d2> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/580c2c45-3e0e-4ea7-a922-4ce856c625d2> a MGI:MGI:1891751,
+<http://model.geneontology.org/MGI_MGI_1891751/80fe429e-2cd5-4b3e-a9de-814a727cf549> a EMAPA:16894,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/81f92ab4-ef3c-4fbc-9798-41fb07ec9459> a PR:Q7TNK1,
+<http://model.geneontology.org/MGI_MGI_1891751/a3fc2583-940d-4234-a5c1-dbd6c950508b> a PR:Q7TNK1,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/975a175b-4d1f-4567-9bce-a90f79c25489> a EMAPA:16894,
+<http://model.geneontology.org/MGI_MGI_1891751/ac77653d-3ddb-4120-97c7-287692e145d6> a GO:0005515,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1891751/a3fc2583-940d-4234-a5c1-dbd6c950508b> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1891751/6c7519fe-0dbc-4493-b71e-3005b57a7e0d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1891751/5b95a64b-b71a-4d22-92ba-29cb6294e90f> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_1891751/7945b9d9-c716-470b-b8b7-918a249b5432> a GO:0005634,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1891751/975a175b-4d1f-4567-9bce-a90f79c25489> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1891751/80fe429e-2cd5-4b3e-a9de-814a727cf549> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/6b9372ed-002e-40b5-a49b-6a068097ddff> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/96937bda-d2ef-48ff-af06-eea2acf4b440> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1891751  RO:0001025 GO:0005634 MGI:MGI:3790945|PMID:18218630 ECO:0000314   2009-10-21 MGI BFO:0000050(EMAPA:16894) creation-date=2009-10-21|modification-date=2009-10-21|comment=anatomy brain ; MA:0000168|comment=evidence inferred from fluorescence ; ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/153cc38f-9040-49e1-91e5-84f761f11907> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/5b95a64b-b71a-4d22-92ba-29cb6294e90f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/26352d8e-8413-4c2d-8c9c-f97eceaed10b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2009-10-21" ;
-    dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1891751  RO:0001025 GO:0005634 MGI:MGI:3790945|PMID:18218630 ECO:0000314   2009-10-21 MGI BFO:0000050(EMAPA:16894) creation-date=2009-10-21|modification-date=2009-10-21|comment=anatomy brain ; MA:0000168|comment=evidence inferred from fluorescence ; ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/5b95a64b-b71a-4d22-92ba-29cb6294e90f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/975a175b-4d1f-4567-9bce-a90f79c25489> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/7945b9d9-c716-470b-b8b7-918a249b5432> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/80fe429e-2cd5-4b3e-a9de-814a727cf549> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/99a827b8-d5ee-4806-8fe4-60a515c6d942> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/0847f0cd-4662-47fc-b066-02b8a3dd0cd8> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-10-21" ;
     dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1891751  RO:0002327 GO:0005515 MGI:MGI:3790945|PMID:18218630 ECO:0000353 PR:Q7TNK1  2009-10-21 MGI  creation-date=2009-10-21|modification-date=2009-10-21|comment=evidence inferred from yeast 2-hybrid assay ; ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/2dfdce86-98b8-488f-a618-87f916e73a1a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/81f92ab4-ef3c-4fbc-9798-41fb07ec9459> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/93fe43f8-9df2-4609-b956-7a039841c5bf> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2009-10-21" ;
-    dct:created "2009-10-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1891751  RO:0002327 GO:0005515 MGI:MGI:3790945|PMID:18218630 ECO:0000353 PR:Q7TNK1  2009-10-21 MGI  creation-date=2009-10-21|modification-date=2009-10-21|comment=evidence inferred from yeast 2-hybrid assay ; ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/2dfdce86-98b8-488f-a618-87f916e73a1a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/580c2c45-3e0e-4ea7-a922-4ce856c625d2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/ac77653d-3ddb-4120-97c7-287692e145d6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/6c7519fe-0dbc-4493-b71e-3005b57a7e0d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/fa2d7e64-8c4f-4bfa-a68f-14f4e26beb37> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2009-10-21" ;
+    dct:created "2009-10-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1891751  RO:0001025 GO:0005634 MGI:MGI:3790945|PMID:18218630 ECO:0000314   2009-10-21 MGI BFO:0000050(EMAPA:16894) creation-date=2009-10-21|modification-date=2009-10-21|comment=anatomy brain ; MA:0000168|comment=evidence inferred from fluorescence ; ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/2d30fec8-58be-4769-a785-1ca0e0d2e9ef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/7945b9d9-c716-470b-b8b7-918a249b5432> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1891751/82ec2605-01b5-44e6-80f9-5accedaa6205> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2009-10-21" ;
+    dct:created "2009-10-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1891751  RO:0002327 GO:0005515 MGI:MGI:3790945|PMID:18218630 ECO:0000353 PR:Q7TNK1  2009-10-21 MGI  creation-date=2009-10-21|modification-date=2009-10-21|comment=evidence inferred from yeast 2-hybrid assay ; ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1891751/ac77653d-3ddb-4120-97c7-287692e145d6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1891751/a3fc2583-940d-4234-a5c1-dbd6c950508b> .
 

@@ -37,20 +37,31 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-06-22" ;
     dc:title "Scn10a (MGI:MGI:108029)" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_108029> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_108029/0b742a55-694e-4110-9e38-c2135c8fc1bc> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_108029/01a00d75-8efc-49c1-a847-eba147b3e12a> a MGI:MGI:108029,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/a0424d16-203e-422a-9e99-b10706aad894> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/034f37ca-f976-412b-8a74-4873ad18e8aa> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dc:source "PMID:16029194" ;
     dct:created "2010-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
+        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
 
-<http://model.geneontology.org/MGI_MGI_108029/10820634-4ea4-414d-bb8e-f179485b2ebd> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_108029/03f26308-a7c0-4ebc-a963-602682828781> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2180183" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -60,7 +71,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy impulse conducting system ; MA:0000094" .
 
-<http://model.geneontology.org/MGI_MGI_108029/20e45102-717c-415c-9e5f-5e48d19b5ede> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_108029/0ad35d11-eedd-48cb-a5f4-7646709fad50> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
@@ -70,16 +81,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
         "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
 
-<http://model.geneontology.org/MGI_MGI_108029/22f57b1e-b168-4cc5-b826-8ab54937ea85> a MGI:MGI:108029,
+<http://model.geneontology.org/MGI_MGI_108029/1b297aca-b9f6-44c9-89e6-a9e02167a25e> a MGI:MGI:108029,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/79e1ba0d-0cf9-4f51-a1e1-2dbd7e15de4b> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/c4d1a2f9-afae-4b9f-8ee3-fce432333664> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/298fbd10-10f5-423c-8010-11a0427cdbab> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_108029/426c74d9-362a-4567-9637-e98e775e432b> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
@@ -87,9 +98,18 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2010-06-22" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
-        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
+        "dorsal root ganglion neuron" .
 
-<http://model.geneontology.org/MGI_MGI_108029/3566d5f1-7673-4d61-99ad-42a66f811bb1> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_108029/4ee9139a-b90b-41a3-a97d-5ad073f90276> a MGI:MGI:108029,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/f72eef0f-5af3-47f6-881e-74ff885caf25> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/526731da-f1ed-4c8f-bc38-8c5e0b59f2c1> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2180183" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -99,65 +119,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy impulse conducting system ; MA:0000094" .
 
-<http://model.geneontology.org/MGI_MGI_108029/3632c7fd-5974-4101-8d22-d171a2bd5572> a MGI:MGI:108029,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/e70f0c0f-43a2-45d3-9d8e-a55b12fd19ad> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/3705e88e-fadf-48c0-aac6-4091d6f872fe> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dc:source "PMID:16029194" ;
-    dct:created "2010-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
-        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
-
-<http://model.geneontology.org/MGI_MGI_108029/6de8895e-d222-47b6-bb37-1f6f03119a12> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dc:source "PMID:16029194" ;
-    dct:created "2010-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
-        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
-
-<http://model.geneontology.org/MGI_MGI_108029/788f84c3-0439-4ec8-b94e-385413c74e2c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dc:source "PMID:16029194" ;
-    dct:created "2010-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
-        "dorsal root ganglion neuron" .
-
-<http://model.geneontology.org/MGI_MGI_108029/7993b513-ec36-43ba-bf5b-47e07a07820a> a MGI:MGI:108029,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_108029/1c59caab-1ac8-4fbc-854c-3c972698a997> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/8a5af187-fba2-4ee0-9f3e-b947af35eae5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dc:source "PMID:16029194" ;
-    dct:created "2010-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
-        "dorsal root ganglion neuron" .
-
-<http://model.geneontology.org/MGI_MGI_108029/94376a06-c2b3-40df-863a-7e41bb28a89b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_108029/7111ec36-2097-4d10-810f-9535dfb3d825> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2180183" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -166,7 +128,54 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/9c2fce82-3620-4008-9e1c-7aa4e06674c2> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_108029/7f9f73b0-634c-429b-aee1-d76441fc69fe> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dc:source "PMID:16029194" ;
+    dct:created "2010-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/8879ad14-c075-4ee9-806f-c9aa2c0e958a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2180183" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dc:source "PMID:20062061" ;
+    dct:created "2012-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy impulse conducting system ; MA:0000094" .
+
+<http://model.geneontology.org/MGI_MGI_108029/9c7cf962-f20c-45bf-91d6-5b00dc9fd47e> a GO:0005248,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/4dfb6247-7e27-4fbb-b715-3a80c32c7b91> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/a335e7e2-0601-4ecf-bd11-e64c7ff00fc5> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dc:source "PMID:16029194" ;
+    dct:created "2010-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
+        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
+
+<http://model.geneontology.org/MGI_MGI_108029/a4440745-1dcf-4012-b53f-0925e426546d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dc:source "PMID:16029194" ;
+    dct:created "2010-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
+        "dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons" .
+
+<http://model.geneontology.org/MGI_MGI_108029/aa259226-c9b2-4eba-80e1-8b5c03e22c2a> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
@@ -175,7 +184,16 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "whole-cell voltage-clamp recordings" .
 
-<http://model.geneontology.org/MGI_MGI_108029/a631593f-931a-4069-aeae-c23378183b92> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_108029/b7f9d661-bcc4-4183-87eb-fd7475346753> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2180183" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dc:source "PMID:20062061" ;
+    dct:created "2012-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/d4e8af01-4da6-4817-a059-ec0ba4e2d230> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
@@ -185,182 +203,164 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
         "dorsal root ganglion neuron" .
 
-<http://model.geneontology.org/MGI_MGI_108029/aae170a5-4a5e-4019-9d2d-80f332a761ca> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_108029/db0242f7-d4eb-45db-af9a-fd988b2ad6e7> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2180183" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dc:source "PMID:20062061" ;
-    dct:created "2012-06-22" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dc:source "PMID:16029194" ;
+    dct:created "2010-06-22" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy impulse conducting system ; MA:0000094" .
+    rdfs:comment "cell type neuron ; CL:0000540   CL:0000001",
+        "dorsal root ganglion neuron" .
 
-<http://model.geneontology.org/MGI_MGI_108029/ccf57fac-0d80-4414-932d-8b85832e36f5> a GO:0005248,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/918f241e-de2a-434a-b046-c0b4e79e2bb8> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/f0ee45e8-7ca9-428c-89bd-20000ace79a4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2180183" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dc:source "PMID:20062061" ;
-    dct:created "2012-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/1c59caab-1ac8-4fbc-854c-3c972698a997> a GO:0005886,
+<http://model.geneontology.org/MGI_MGI_108029/4dfb6247-7e27-4fbb-b715-3a80c32c7b91> a MGI:MGI:108029,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/3f334625-e3b6-429a-95a7-3b12a3495d07> a MGI:MGI:108029,
+<http://model.geneontology.org/MGI_MGI_108029/5464e4db-7df4-4941-813d-bf9f0f020f6a> a CL:0000540,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/420cc777-64ad-41b6-8d82-42ecf1b723a6> a MGI:MGI:108029,
+<http://model.geneontology.org/MGI_MGI_108029/5c6edcd4-f952-4fb8-932d-e089597a4f70> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/ce5a4502-b969-4337-9051-47f8feb39d8d> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/38755b63-2eb1-4f06-beed-c0a18084b487> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/6b84f41c-4d0a-4d77-a659-7e123fec0a01> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/b44e45e0-cdfb-4bf2-be50-89f6aa811f34> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/8d574a10-11aa-476c-a45c-7d86ca0e1513> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/7730d801-9d61-439f-b5dc-134a57ad104b> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/3f334625-e3b6-429a-95a7-3b12a3495d07> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/cd30dbfc-6190-45d7-b9c1-bc5aa6dfafba> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/78fbb909-ddc8-4861-a732-adadf584f760> a EMAPA:35428,
+<http://model.geneontology.org/MGI_MGI_108029/8d574a10-11aa-476c-a45c-7d86ca0e1513> a GO:0060371,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/892be3eb-9d0d-449b-8637-ef823fdcbb07> a CL:0000540,
+<http://model.geneontology.org/MGI_MGI_108029/9c309f2a-e1c6-470c-89d3-fdbcb4d92605> a CL:0000540,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/918f241e-de2a-434a-b046-c0b4e79e2bb8> a MGI:MGI:108029,
+<http://model.geneontology.org/MGI_MGI_108029/a0424d16-203e-422a-9e99-b10706aad894> a GO:0005886,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/919f415d-f4c7-42df-a738-4a938c7a5a22> a CL:0000540,
+<http://model.geneontology.org/MGI_MGI_108029/a2f43da4-6903-4553-a236-30b061c42b88> a CL:0000540,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/b85db425-0b1b-42bf-ae3e-f4f75866f2f8> a MGI:MGI:108029,
+<http://model.geneontology.org/MGI_MGI_108029/b44e45e0-cdfb-4bf2-be50-89f6aa811f34> a MGI:MGI:108029,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/c413b0ad-bc9f-4f0e-bcbe-99b248aaf13f> a GO:0060371,
+<http://model.geneontology.org/MGI_MGI_108029/b81a25da-f005-473e-8767-f015797b2e5a> a EMAPA:35428,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/cbf19a5c-e21a-4aa8-8c0f-b50ce38900f1> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/b85db425-0b1b-42bf-ae3e-f4f75866f2f8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/c413b0ad-bc9f-4f0e-bcbe-99b248aaf13f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/f01928b9-d836-41bd-b379-455ab23cfb56> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/420cc777-64ad-41b6-8d82-42ecf1b723a6> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/ba2f8c96-c06c-4e88-96d2-a82b0d467a3c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_108029/f107234e-19ed-49ff-8c5a-6f4b2f9de86f> a CL:0000540,
+<http://model.geneontology.org/MGI_MGI_108029/ce5a4502-b969-4337-9051-47f8feb39d8d> a MGI:MGI:108029,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/d830c3f1-4a3f-4b33-8ef5-1811d9dc373e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_108029/e0ce7eea-8b2f-4c9a-9bbb-d46396a17af5> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_108029/bfcc1917-331b-49d0-8207-0920b3f265a0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dct:created "2012-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_108029/e0ce7eea-8b2f-4c9a-9bbb-d46396a17af5> a MGI:MGI:108029,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dct:created "2012-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_108029/79e1ba0d-0cf9-4f51-a1e1-2dbd7e15de4b> a GO:0044299,
+<http://model.geneontology.org/MGI_MGI_108029/38755b63-2eb1-4f06-beed-c0a18084b487> a GO:0006814,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_108029/919f415d-f4c7-42df-a738-4a938c7a5a22> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_108029/9c309f2a-e1c6-470c-89d3-fdbcb4d92605> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/ba2f8c96-c06c-4e88-96d2-a82b0d467a3c> a GO:0061337,
+<http://model.geneontology.org/MGI_MGI_108029/bfcc1917-331b-49d0-8207-0920b3f265a0> a GO:0061337,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_108029/78fbb909-ddc8-4861-a732-adadf584f760> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_108029/b81a25da-f005-473e-8767-f015797b2e5a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/cd30dbfc-6190-45d7-b9c1-bc5aa6dfafba> a GO:0006814,
+<http://model.geneontology.org/MGI_MGI_108029/c4d1a2f9-afae-4b9f-8ee3-fce432333664> a GO:0044299,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_108029/f107234e-19ed-49ff-8c5a-6f4b2f9de86f> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_108029/5464e4db-7df4-4941-813d-bf9f0f020f6a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_108029/e70f0c0f-43a2-45d3-9d8e-a55b12fd19ad> a GO:0030424,
+<http://model.geneontology.org/MGI_MGI_108029/f72eef0f-5af3-47f6-881e-74ff885caf25> a GO:0030424,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_108029/892be3eb-9d0d-449b-8637-ef823fdcbb07> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_108029/a2f43da4-6903-4553-a236-30b061c42b88> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
@@ -370,170 +370,170 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/9c2fce82-3620-4008-9e1c-7aa4e06674c2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/426c74d9-362a-4567-9637-e98e775e432b> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0002327 GO:0005248 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI  creation-date=2010-06-22|modification-date=2010-06-22|comment=whole-cell voltage-clamp recordings|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/ccf57fac-0d80-4414-932d-8b85832e36f5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/918f241e-de2a-434a-b046-c0b4e79e2bb8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/8a5af187-fba2-4ee0-9f3e-b947af35eae5> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0006814 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000066(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/7730d801-9d61-439f-b5dc-134a57ad104b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/3f334625-e3b6-429a-95a7-3b12a3495d07> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/5c6edcd4-f952-4fb8-932d-e089597a4f70> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/ce5a4502-b969-4337-9051-47f8feb39d8d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/f0ee45e8-7ca9-428c-89bd-20000ace79a4> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/0ad35d11-eedd-48cb-a5f4-7646709fad50> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0030424 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/4ee9139a-b90b-41a3-a97d-5ad073f90276> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/f72eef0f-5af3-47f6-881e-74ff885caf25> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/b7f9d661-bcc4-4183-87eb-fd7475346753> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0060371 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI  creation-date=2012-06-22|modification-date=2012-06-22|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/cbf19a5c-e21a-4aa8-8c0f-b50ce38900f1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/c413b0ad-bc9f-4f0e-bcbe-99b248aaf13f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/6b84f41c-4d0a-4d77-a659-7e123fec0a01> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/8d574a10-11aa-476c-a45c-7d86ca0e1513> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/298fbd10-10f5-423c-8010-11a0427cdbab> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/db0242f7-d4eb-45db-af9a-fd988b2ad6e7> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0044299 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/79e1ba0d-0cf9-4f51-a1e1-2dbd7e15de4b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/919f415d-f4c7-42df-a738-4a938c7a5a22> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/3566d5f1-7673-4d61-99ad-42a66f811bb1> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0061337 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI BFO:0000066(EMAPA:35428) creation-date=2012-06-22|modification-date=2012-06-22|comment=anatomy impulse conducting system ; MA:0000094|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/f01928b9-d836-41bd-b379-455ab23cfb56> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/ba2f8c96-c06c-4e88-96d2-a82b0d467a3c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/20e45102-717c-415c-9e5f-5e48d19b5ede> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0044299 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/22f57b1e-b168-4cc5-b826-8ab54937ea85> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/79e1ba0d-0cf9-4f51-a1e1-2dbd7e15de4b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/10820634-4ea4-414d-bb8e-f179485b2ebd> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-06-22" ;
-    dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0061337 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI BFO:0000066(EMAPA:35428) creation-date=2012-06-22|modification-date=2012-06-22|comment=anatomy impulse conducting system ; MA:0000094|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/ba2f8c96-c06c-4e88-96d2-a82b0d467a3c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/78fbb909-ddc8-4861-a732-adadf584f760> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/a631593f-931a-4069-aeae-c23378183b92> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0006814 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000066(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/7730d801-9d61-439f-b5dc-134a57ad104b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/cd30dbfc-6190-45d7-b9c1-bc5aa6dfafba> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/5c6edcd4-f952-4fb8-932d-e089597a4f70> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/38755b63-2eb1-4f06-beed-c0a18084b487> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/aae170a5-4a5e-4019-9d2d-80f332a761ca> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/03f26308-a7c0-4ebc-a963-602682828781> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0061337 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI BFO:0000066(EMAPA:35428) creation-date=2012-06-22|modification-date=2012-06-22|comment=anatomy impulse conducting system ; MA:0000094|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/f01928b9-d836-41bd-b379-455ab23cfb56> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/420cc777-64ad-41b6-8d82-42ecf1b723a6> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/d830c3f1-4a3f-4b33-8ef5-1811d9dc373e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/bfcc1917-331b-49d0-8207-0920b3f265a0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/788f84c3-0439-4ec8-b94e-385413c74e2c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/7f9f73b0-634c-429b-aee1-d76441fc69fe> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0006814 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000066(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/cd30dbfc-6190-45d7-b9c1-bc5aa6dfafba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/f107234e-19ed-49ff-8c5a-6f4b2f9de86f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/6de8895e-d222-47b6-bb37-1f6f03119a12> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0030424 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/e70f0c0f-43a2-45d3-9d8e-a55b12fd19ad> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/892be3eb-9d0d-449b-8637-ef823fdcbb07> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/0b742a55-694e-4110-9e38-c2135c8fc1bc> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-06-22" ;
-    dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0005886 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI  creation-date=2010-06-22|modification-date=2010-06-22|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/7993b513-ec36-43ba-bf5b-47e07a07820a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/1c59caab-1ac8-4fbc-854c-3c972698a997> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/01a00d75-8efc-49c1-a847-eba147b3e12a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/a0424d16-203e-422a-9e99-b10706aad894> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/94376a06-c2b3-40df-863a-7e41bb28a89b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/8879ad14-c075-4ee9-806f-c9aa2c0e958a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-06-22" ;
     dct:created "2012-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0060371 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI  creation-date=2012-06-22|modification-date=2012-06-22|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/cbf19a5c-e21a-4aa8-8c0f-b50ce38900f1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/b85db425-0b1b-42bf-ae3e-f4f75866f2f8> .
+    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0061337 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI BFO:0000066(EMAPA:35428) creation-date=2012-06-22|modification-date=2012-06-22|comment=anatomy impulse conducting system ; MA:0000094|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/bfcc1917-331b-49d0-8207-0920b3f265a0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/b81a25da-f005-473e-8767-f015797b2e5a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/3705e88e-fadf-48c0-aac6-4091d6f872fe> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/aa259226-c9b2-4eba-80e1-8b5c03e22c2a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-06-22" ;
     dct:created "2010-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0002327 GO:0005248 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI  creation-date=2010-06-22|modification-date=2010-06-22|comment=whole-cell voltage-clamp recordings|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/9c7cf962-f20c-45bf-91d6-5b00dc9fd47e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/4dfb6247-7e27-4fbb-b715-3a80c32c7b91> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/7111ec36-2097-4d10-810f-9535dfb3d825> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dct:created "2012-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0060371 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI  creation-date=2012-06-22|modification-date=2012-06-22|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/6b84f41c-4d0a-4d77-a659-7e123fec0a01> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/b44e45e0-cdfb-4bf2-be50-89f6aa811f34> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/034f37ca-f976-412b-8a74-4873ad18e8aa> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0044299 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/1b297aca-b9f6-44c9-89e6-a9e02167a25e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/c4d1a2f9-afae-4b9f-8ee3-fce432333664> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/d4e8af01-4da6-4817-a059-ec0ba4e2d230> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0006814 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000066(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/38755b63-2eb1-4f06-beed-c0a18084b487> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/9c309f2a-e1c6-470c-89d3-fdbcb4d92605> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/a4440745-1dcf-4012-b53f-0925e426546d> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0030424 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/3632c7fd-5974-4101-8d22-d171a2bd5572> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/e70f0c0f-43a2-45d3-9d8e-a55b12fd19ad> .
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/f72eef0f-5af3-47f6-881e-74ff885caf25> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/a2f43da4-6903-4553-a236-30b061c42b88> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/526731da-f1ed-4c8f-bc38-8c5e0b59f2c1> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-06-22" ;
+    dct:created "2012-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0002264 GO:0061337 MGI:MGI:4848026|PMID:20062061 ECO:0000315 MGI:MGI:2180183  2012-06-22 MGI BFO:0000066(EMAPA:35428) creation-date=2012-06-22|modification-date=2012-06-22|comment=anatomy impulse conducting system ; MA:0000094|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/d830c3f1-4a3f-4b33-8ef5-1811d9dc373e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/e0ce7eea-8b2f-4c9a-9bbb-d46396a17af5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_108029/a335e7e2-0601-4ecf-bd11-e64c7ff00fc5> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-06-22" ;
+    dct:created "2010-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:108029  RO:0001025 GO:0044299 MGI:MGI:3590477|PMID:16029194 ECO:0000314   2010-06-22 MGI BFO:0000050(CL:0000540) creation-date=2010-06-22|modification-date=2010-06-22|comment=cell type neuron ; CL:0000540   CL:0000001|comment=dorsal root ganglion neuron ; nonmyelinated fibers of DRG neurons ; axons|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_108029/c4d1a2f9-afae-4b9f-8ee3-fce432333664> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_108029/5464e4db-7df4-4941-813d-bf9f0f020f6a> .
 

@@ -34,12 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2019-09-16" ;
     dc:title "Zfp143 (MGI:MGI:1277969)" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1277969> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1277969/1c537168-d83d-4a0f-afa9-f19c99158b7a> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1277969/586bf9cb-05d4-42b8-a8ad-0a92dfb0846c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
@@ -49,7 +49,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence gel shift assay",
         "target Trsp ; MGI:4414022 enhancer ; SO:0000165" .
 
-<http://model.geneontology.org/MGI_MGI_1277969/a45e4585-8f07-4818-8763-21e34473385a> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1277969/84c5ef69-c6b2-4178-af94-b1ac5efc0fe6> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
@@ -63,53 +63,53 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1277969/0f22e152-455f-4b6e-9f99-3ab72b30d83d> a MGI:MGI:4414022,
+<http://model.geneontology.org/MGI_MGI_1277969/0089cc57-674a-4c02-ae75-1bb728466abe> a MGI:MGI:1277969,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1277969/527aa089-9445-4f80-a105-22011526832d> a GO:0000978,
+<http://model.geneontology.org/MGI_MGI_1277969/0c8d8131-5ef2-40f5-9740-34f482909843> a MGI:MGI:4414022,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1277969/0f22e152-455f-4b6e-9f99-3ab72b30d83d> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1277969/6c2fbd75-6d7a-41e4-9671-46b00247c82e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1277969/6c2fbd75-6d7a-41e4-9671-46b00247c82e> a MGI:MGI:1277969,
+<http://model.geneontology.org/MGI_MGI_1277969/a84eb299-d425-44f6-8a33-e164912ed0b0> a GO:0000978,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1277969/0c8d8131-5ef2-40f5-9740-34f482909843> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1277969/0089cc57-674a-4c02-ae75-1bb728466abe> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1277969/a45e4585-8f07-4818-8763-21e34473385a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1277969/586bf9cb-05d4-42b8-a8ad-0a92dfb0846c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1277969  RO:0002327 GO:0000978 MGI:MGI:2684045|PMID:14667815 ECO:0000314   2019-09-16 MGI RO:0002233(MGI:MGI:4414022) creation-date=2005-05-26|modification-date=2019-09-16|comment=evidence gel shift assay|comment=target Trsp ; MGI:4414022 enhancer ; SO:0000165|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1277969/527aa089-9445-4f80-a105-22011526832d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1277969/0f22e152-455f-4b6e-9f99-3ab72b30d83d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1277969/a84eb299-d425-44f6-8a33-e164912ed0b0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1277969/0c8d8131-5ef2-40f5-9740-34f482909843> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1277969/1c537168-d83d-4a0f-afa9-f19c99158b7a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1277969/84c5ef69-c6b2-4178-af94-b1ac5efc0fe6> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-09-16" ;
     dct:created "2005-05-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1277969  RO:0002327 GO:0000978 MGI:MGI:2684045|PMID:14667815 ECO:0000314   2019-09-16 MGI RO:0002233(MGI:MGI:4414022) creation-date=2005-05-26|modification-date=2019-09-16|comment=evidence gel shift assay|comment=target Trsp ; MGI:4414022 enhancer ; SO:0000165|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1277969/527aa089-9445-4f80-a105-22011526832d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1277969/6c2fbd75-6d7a-41e4-9671-46b00247c82e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1277969/a84eb299-d425-44f6-8a33-e164912ed0b0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1277969/0089cc57-674a-4c02-ae75-1bb728466abe> .
 

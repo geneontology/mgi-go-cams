@@ -40,12 +40,22 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2014-01-09" ;
     dc:title "Nfkb2 (MGI:MGI:1099800)" ;
     dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1099800> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1099800/14294c6e-65b7-428f-891d-e6b6447dba91> a ECO:0000304,
+<http://model.geneontology.org/MGI_MGI_1099800/079224e0-4fc4-4fd8-b48c-bf2f5c918d17> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/10ed537c-4df4-49f2-88cb-dffbeb79a4cf> a ECO:0000304,
         owl:NamedIndividual ;
     dc:contributor "GOC:tc",
         "http://orcid.org/0000-0003-2689-5511",
@@ -56,7 +66,78 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "lymph gland development obsoleted" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/149d2c92-0326-4ae4-8825-4df32084c86d> a ECO:0000304,
+<http://model.geneontology.org/MGI_MGI_1099800/1eebf2df-2656-41d5-b745-0bfc66caaf9b> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-12-13" ;
+    dc:source "PMID:10402669" ;
+    dct:created "2006-12-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000351",
+        "evidence ECO:0000087" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/21a4e3fd-ed82-47fe-afcc-bf35312aecf3> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
+        "has_participant(EMAPA:35803 TS28)" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/375752fd-2dc2-47e4-a1a7-158cf4f4d243> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2014-01-09" ;
+    dc:source "PMID:23583643" ;
+    dct:created "2014-01-09" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/3b567598-b232-49fa-845f-10a93ce49011> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
+        "has_participant(EMAPA:35803 TS28)" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/3d220d1b-80db-44a6-a29a-e2ab9ac70eee> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-12-13" ;
+    dc:source "PMID:10402669" ;
+    dct:created "2006-12-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000351",
+        "evidence ECO:0000087" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/5edd2301-b4b2-4c56-9706-c98802a85cfd> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/63e6845a-e3a3-44b2-9602-182925068159> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
+        "cell type follicular dendritic cell ; CL:0000442" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/63fc88ab-a358-41c5-b8ae-80ee1307a408> a ECO:0000304,
         owl:NamedIndividual ;
     dc:contributor "GOC:tc",
         "http://orcid.org/0000-0003-2689-5511",
@@ -67,7 +148,38 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "lymph gland development obsoleted" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/15ce3ced-f7d1-408d-bdff-36837d9e4119> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1099800/667db88d-0dfc-4348-91bb-14127fd4de0a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
+        "cell type follicular dendritic cell ; CL:0000442" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/77017417-6ea9-4d78-ba6f-b9e184ed69c1> a MGI:MGI:1099800,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1099800/1ce9e5b3-0a94-4560-b47a-33d1985411df> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-12-13" ;
+    dct:created "2006-12-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/a0a1fd9d-a5f0-4dfc-b5ab-a6a50efa613a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2179705" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dc:source "PMID:10586052" ;
+    dct:created "2006-12-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
+        "cell type follicular dendritic cell ; CL:0000442" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/be0851a4-718e-47a3-90aa-898033e2ce8a> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2179705" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -77,7 +189,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/2addbfb8-bfa5-417e-89ac-e77ac2648d36> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1099800/c04498a9-34e5-4c03-a978-6c7367b9719a> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2179705" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -85,10 +197,9 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10586052" ;
     dct:created "2006-12-29" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
-        "cell type follicular dendritic cell ; CL:0000442" .
+    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/30ed7dac-fdff-4c34-b1af-3904e8514b56> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1099800/d2a19a4e-12c2-459e-b329-37eeeee5a172> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2179705" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -96,10 +207,9 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10586052" ;
     dct:created "2006-12-29" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
-        "cell type follicular dendritic cell ; CL:0000442" .
+    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/4fb6b0ba-d52c-4a8a-8cca-e6bc635f0740> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1099800/ddca7dd1-34ed-41ed-a58c-d59a3f6fba6e> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
@@ -107,7 +217,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2014-01-09" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/5c57139d-f5bd-4df7-94a7-8421e66cc47b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1099800/e02ed62b-e561-4468-9bce-7e7bcd9f2cdd> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2179705" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -115,10 +225,9 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10586052" ;
     dct:created "2006-12-29" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
-        "has_participant(EMAPA:35803 TS28)" .
+    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/644fb9c2-bd96-4f4c-913c-8253830f9dba> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1099800/e18b031b-5a0e-4516-898c-eb9ff3e17eef> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
@@ -126,7 +235,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2014-01-09" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/70fb8e43-c35a-4530-8174-f5bdb6ed57b1> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1099800/e6ef487d-2fa7-4b28-8f8e-ffb71f63a76f> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2179705" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -136,115 +245,6 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy spleen germinal center ; MA:0000764",
         "cell type follicular dendritic cell ; CL:0000442" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/730a689c-25ad-4b50-b815-55b8787febcd> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-12-13" ;
-    dc:source "PMID:10402669" ;
-    dct:created "2006-12-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000351",
-        "evidence ECO:0000087" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/83fa0904-5510-4721-8ee1-d3878471ef7c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-12-13" ;
-    dc:source "PMID:10402669" ;
-    dct:created "2006-12-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000351",
-        "evidence ECO:0000087" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/bea63e8a-51e0-4d35-a314-7d023c90e4e5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2014-01-09" ;
-    dc:source "PMID:23583643" ;
-    dct:created "2014-01-09" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/cdd4e62a-1414-4576-a53b-6ce8924bacdd> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/d0155cd6-04fd-4dec-9c50-66712e7a40b9> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/d684bad7-51cb-4e30-9efc-74b0780f0f9e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/e3b85cdd-0fd6-4b89-80ce-0333f8f004f7> a MGI:MGI:1099800,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1099800/2df11be4-1511-403e-b124-9ae8637e368f> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-12-13" ;
-    dct:created "2006-12-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/e6a7a59a-6df1-4bdf-b17d-3959766f243e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/ecb6dbd3-69fc-4437-89fb-834ca4d36a85> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
-        "cell type follicular dendritic cell ; CL:0000442" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/f15081e1-e355-4387-9ba6-026172050ddb> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen germinal center ; MA:0000764",
-        "has_participant(EMAPA:35803 TS28)" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/fd40e955-4044-417a-bf56-1ca8813b713b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2179705" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dc:source "PMID:10586052" ;
-    dct:created "2006-12-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy spleen marginal sinus ; MA:0000754" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
@@ -254,230 +254,230 @@ obo:RO_0002296 a owl:ObjectProperty .
 
 obo:RO_0002315 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1099800/02b1393a-3862-4425-a937-dafe12ff01c3> a GO:0002467,
+<http://model.geneontology.org/MGI_MGI_1099800/0e9ad94d-5f4c-4f6e-b272-34b30d69e853> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/dfdf1793-f4f1-4c82-8e79-a5713062247b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/b5820fe9-c514-4baf-8192-1f057776d381> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/210f92e5-d4b1-4c49-bccc-280732f6551e> a MGI:MGI:1099800,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/095e9b69-cd8f-4679-a6ce-c8875ff1574c> a MGI:MGI:1099800,
+<http://model.geneontology.org/MGI_MGI_1099800/296e5d82-c4d1-4cfd-bafe-a969f46f120f> a MGI:MGI:1099800,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/1859b68a-e49a-4c59-8758-a668d9b55ed7> a MGI:MGI:1099800,
+<http://model.geneontology.org/MGI_MGI_1099800/2e4a807a-ba42-401c-9a01-9f7b2b2c4b94> a MGI:MGI:1099800,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/2c5771fb-d580-44d6-85c7-8e0cee216546> a CL:0000442,
+<http://model.geneontology.org/MGI_MGI_1099800/4c6ff40d-f51f-43ad-808b-fa70db95e185> a GO:0003674,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/34e91eae-f9fb-4874-b1a5-0ef8bd98ba50> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/1859b68a-e49a-4c59-8758-a668d9b55ed7> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/085b4026-a4a0-44d5-8552-19f12eae03f7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/3dd1281a-3b7a-49e8-affa-5d95c4d2e6ec> a MGI:MGI:1099800,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/4848c98e-9109-4b70-8852-bd37fbbbb232> a MGI:MGI:1099800,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/494c9710-5c32-4e8b-9e68-f36229a3e21f> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/095e9b69-cd8f-4679-a6ce-c8875ff1574c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/02b1393a-3862-4425-a937-dafe12ff01c3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/49a37160-d06c-4109-b4ff-5fb64e1379be> a GO:0048535,
-        owl:NamedIndividual ;
-    dc:contributor "GOC:tc",
-        "http://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2005-06-13" ;
-    dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/4e021464-16a6-40c9-9f39-60e5c00e43d8> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/56bfe8cd-0a2b-499d-ab9c-438ad44b036d> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/49a37160-d06c-4109-b4ff-5fb64e1379be> ;
-    dc:contributor "GOC:tc",
-        "http://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2005-06-13" ;
-    dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/56bfe8cd-0a2b-499d-ab9c-438ad44b036d> a MGI:MGI:1099800,
-        owl:NamedIndividual ;
-    dc:contributor "GOC:tc",
-        "http://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2005-06-13" ;
-    dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/66e979cf-e6e2-4bfc-82ba-4e5e58e7df0e> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/91de800d-f211-4ed2-bb84-7421f511820f> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/e3c8fd7e-78e1-422a-91f3-863b3c302130> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/b4d0727c-a207-464d-bd71-c779cf542d2c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/a6741141-881c-4682-9ee5-c33502d8d486> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
     dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/7043a094-cdf1-4965-9da8-439a6f0ac535> a EMAPA:36650,
+<http://model.geneontology.org/MGI_MGI_1099800/54d846db-1c89-4a7d-a474-84070d225dc9> a CL:0000442,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/744cf76c-9b46-4ddb-9131-7bdf12f70be9> a EMAPA:36650,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/91de800d-f211-4ed2-bb84-7421f511820f> a MGI:MGI:1099800,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2014-01-09" ;
-    dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/ab45ecc2-d07b-4c73-bce4-3d3280dd8ab0> a CL:0000351,
+<http://model.geneontology.org/MGI_MGI_1099800/54dc8d9d-2973-48b4-970e-e76e2a1e50e5> a CL:0000351,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-12-13" ;
     dct:created "2006-12-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/af13c4ba-41c0-415e-9522-ac559de30826> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1099800/559f3479-17c9-4b0d-ac75-cb0683d0cf90> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/3dd1281a-3b7a-49e8-affa-5d95c4d2e6ec> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/d7e9765f-e777-4d85-bdc2-beb85777ea42> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/2e4a807a-ba42-401c-9a01-9f7b2b2c4b94> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/ecd1f037-69d0-4cf9-8db2-641a40694c5d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/d43137bc-c4f9-49c9-8f89-0181a9840a81> a EMAPA:35803,
+<http://model.geneontology.org/MGI_MGI_1099800/83617fce-fc44-46c0-ae39-3e3c7c0d1c08> a EMAPA:36650,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/e1352f87-5bcd-4e9a-aac0-1a8c3c214e02> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1099800/8375a892-b650-4cac-97b4-8f53af9f04d6> a EMAPA:36650,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/4848c98e-9109-4b70-8852-bd37fbbbb232> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/6dcdd0c9-8d9b-4be3-99f3-d43ca8e11f84> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/efcfa906-6bf4-424f-a3be-bf828288b20b> a CL:0000084,
+<http://model.geneontology.org/MGI_MGI_1099800/959a60b4-15cf-40a8-895d-26a96c3c59fa> a CL:0000084,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
     dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/2df11be4-1511-403e-b124-9ae8637e368f> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_1099800/98cd79d4-b22e-421c-8ca0-2fa9cbc08c2b> a MGI:MGI:1099800,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1099800/ab45ecc2-d07b-4c73-bce4-3d3280dd8ab0> ;
+    dc:contributor "GOC:tc",
+        "http://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2005-06-13" ;
+    dct:created "2000-08-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/9c629691-b5ed-4639-bf06-f34755567f5b> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/296e5d82-c4d1-4cfd-bafe-a969f46f120f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/110fe38f-363a-4286-8ad5-d83fb88e945d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/b4d0727c-a207-464d-bd71-c779cf542d2c> a MGI:MGI:1099800,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2014-01-09" ;
+    dct:created "2014-01-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/d35d7e8f-7b42-480a-b471-15f27052fb2b> a GO:0048535,
+        owl:NamedIndividual ;
+    dc:contributor "GOC:tc",
+        "http://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2005-06-13" ;
+    dct:created "2000-08-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/dfdf1793-f4f1-4c82-8e79-a5713062247b> a MGI:MGI:1099800,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/e9ad3f26-f0c8-42c4-9f26-7ad2b074d660> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/98cd79d4-b22e-421c-8ca0-2fa9cbc08c2b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/d35d7e8f-7b42-480a-b471-15f27052fb2b> ;
+    dc:contributor "GOC:tc",
+        "http://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2005-06-13" ;
+    dct:created "2000-08-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/ecd1f037-69d0-4cf9-8db2-641a40694c5d> a GO:0002467,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/f7eaa331-cc72-455c-a67e-c8a1b156f911> a EMAPA:35803,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/f8c7fffb-1b7a-46cb-9988-4994a5ac4036> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1099800/210f92e5-d4b1-4c49-bccc-280732f6551e> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1099800/669a2553-a356-48b2-a037-641942467420> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/1ce9e5b3-0a94-4560-b47a-33d1985411df> a GO:0005634,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1099800/54dc8d9d-2973-48b4-970e-e76e2a1e50e5> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-12-13" ;
     dct:created "2006-12-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/6dcdd0c9-8d9b-4be3-99f3-d43ca8e11f84> a GO:0030198,
+<http://model.geneontology.org/MGI_MGI_1099800/669a2553-a356-48b2-a037-641942467420> a GO:0030198,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/7043a094-cdf1-4965-9da8-439a6f0ac535> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/83617fce-fc44-46c0-ae39-3e3c7c0d1c08> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1099800/d7e9765f-e777-4d85-bdc2-beb85777ea42> a GO:0048536,
+<http://model.geneontology.org/MGI_MGI_1099800/a6741141-881c-4682-9ee5-c33502d8d486> a GO:0038061,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1099800/744cf76c-9b46-4ddb-9131-7bdf12f70be9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1099800/e3c8fd7e-78e1-422a-91f3-863b3c302130> a GO:0038061,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/efcfa906-6bf4-424f-a3be-bf828288b20b> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/959a60b4-15cf-40a8-895d-26a96c3c59fa> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
     dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1099800/b5820fe9-c514-4baf-8192-1f057776d381> a GO:0048536,
+        owl:NamedIndividual ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1099800/8375a892-b650-4cac-97b4-8f53af9f04d6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1099800/085b4026-a4a0-44d5-8552-19f12eae03f7> a GO:0002268,
+<http://model.geneontology.org/MGI_MGI_1099800/110fe38f-363a-4286-8ad5-d83fb88e945d> a GO:0002268,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/d43137bc-c4f9-49c9-8f89-0181a9840a81> ;
-    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_1099800/2c5771fb-d580-44d6-85c7-8e0cee216546> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1099800/f7eaa331-cc72-455c-a67e-c8a1b156f911> ;
+    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_1099800/54d846db-1c89-4a7d-a474-84070d225dc9> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
@@ -485,234 +485,234 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0002418 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/83fa0904-5510-4721-8ee1-d3878471ef7c> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-12-13" ;
-    dct:created "2006-12-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0001025 GO:0005634 MGI:MGI:1340147|PMID:10402669 ECO:0000314   2006-12-13 MGI BFO:0000050(CL:0000351) creation-date=2006-12-13|modification-date=2006-12-13|comment=cell type CL:0000351|comment=evidence ECO:0000087|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e3b85cdd-0fd6-4b89-80ce-0333f8f004f7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/2df11be4-1511-403e-b124-9ae8637e368f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/4fb6b0ba-d52c-4a8a-8cca-e6bc635f0740> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/ddca7dd1-34ed-41ed-a58c-d59a3f6fba6e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2014-01-09" ;
     dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0038061 MGI:MGI:5486592|PMID:23583643 ECO:0000314   2014-01-09 MGI BFO:0000066(CL:0000084) creation-date=2014-01-09|modification-date=2014-01-09|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/66e979cf-e6e2-4bfc-82ba-4e5e58e7df0e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/e3c8fd7e-78e1-422a-91f3-863b3c302130> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/d0155cd6-04fd-4dec-9c50-66712e7a40b9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0030198 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e1352f87-5bcd-4e9a-aac0-1a8c3c214e02> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/6dcdd0c9-8d9b-4be3-99f3-d43ca8e11f84> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/149d2c92-0326-4ae4-8825-4df32084c86d> ;
-    dc:contributor "GOC:tc",
-        "http://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2005-06-13" ;
-    dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048535 MGI:MGI:1353335|PMID:10687308 ECO:0000304   2005-06-13 MGI  creation-date=2000-08-07|modification-date=2005-06-13|comment=lymph gland development obsoleted|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=http://orcid.org/0000-0003-2689-5511|contributor-id=GOC:tc" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/4e021464-16a6-40c9-9f39-60e5c00e43d8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/56bfe8cd-0a2b-499d-ab9c-438ad44b036d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/e6a7a59a-6df1-4bdf-b17d-3959766f243e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048536 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI RO:0002296(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/af13c4ba-41c0-415e-9522-ac559de30826> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/d7e9765f-e777-4d85-bdc2-beb85777ea42> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/d684bad7-51cb-4e30-9efc-74b0780f0f9e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0030198 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/6dcdd0c9-8d9b-4be3-99f3-d43ca8e11f84> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/7043a094-cdf1-4965-9da8-439a6f0ac535> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/bea63e8a-51e0-4d35-a314-7d023c90e4e5> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2014-01-09" ;
-    dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0038061 MGI:MGI:5486592|PMID:23583643 ECO:0000314   2014-01-09 MGI BFO:0000066(CL:0000084) creation-date=2014-01-09|modification-date=2014-01-09|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e3c8fd7e-78e1-422a-91f3-863b3c302130> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/efcfa906-6bf4-424f-a3be-bf828288b20b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/30ed7dac-fdff-4c34-b1af-3904e8514b56> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/34e91eae-f9fb-4874-b1a5-0ef8bd98ba50> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/1859b68a-e49a-4c59-8758-a668d9b55ed7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/2addbfb8-bfa5-417e-89ac-e77ac2648d36> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002315 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/085b4026-a4a0-44d5-8552-19f12eae03f7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/2c5771fb-d580-44d6-85c7-8e0cee216546> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/730a689c-25ad-4b50-b815-55b8787febcd> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-12-13" ;
-    dct:created "2006-12-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0001025 GO:0005634 MGI:MGI:1340147|PMID:10402669 ECO:0000314   2006-12-13 MGI BFO:0000050(CL:0000351) creation-date=2006-12-13|modification-date=2006-12-13|comment=cell type CL:0000351|comment=evidence ECO:0000087|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/2df11be4-1511-403e-b124-9ae8637e368f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/ab45ecc2-d07b-4c73-bce4-3d3280dd8ab0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/70fb8e43-c35a-4530-8174-f5bdb6ed57b1> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/085b4026-a4a0-44d5-8552-19f12eae03f7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/d43137bc-c4f9-49c9-8f89-0181a9840a81> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/fd40e955-4044-417a-bf56-1ca8813b713b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048536 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI RO:0002296(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/af13c4ba-41c0-415e-9522-ac559de30826> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/3dd1281a-3b7a-49e8-affa-5d95c4d2e6ec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/14294c6e-65b7-428f-891d-e6b6447dba91> ;
-    dc:contributor "GOC:tc",
-        "http://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2005-06-13" ;
-    dct:created "2000-08-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048535 MGI:MGI:1353335|PMID:10687308 ECO:0000304   2005-06-13 MGI  creation-date=2000-08-07|modification-date=2005-06-13|comment=lymph gland development obsoleted|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=http://orcid.org/0000-0003-2689-5511|contributor-id=GOC:tc" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/4e021464-16a6-40c9-9f39-60e5c00e43d8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/49a37160-d06c-4109-b4ff-5fb64e1379be> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/644fb9c2-bd96-4f4c-913c-8253830f9dba> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2014-01-09" ;
-    dct:created "2014-01-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0038061 MGI:MGI:5486592|PMID:23583643 ECO:0000314   2014-01-09 MGI BFO:0000066(CL:0000084) creation-date=2014-01-09|modification-date=2014-01-09|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/66e979cf-e6e2-4bfc-82ba-4e5e58e7df0e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/91de800d-f211-4ed2-bb84-7421f511820f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/4c6ff40d-f51f-43ad-808b-fa70db95e185> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/b4d0727c-a207-464d-bd71-c779cf542d2c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/f15081e1-e355-4387-9ba6-026172050ddb> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/d2a19a4e-12c2-459e-b329-37eeeee5a172> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002467 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI  creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=has_participant(EMAPA:35803 TS28)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/494c9710-5c32-4e8b-9e68-f36229a3e21f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/02b1393a-3862-4425-a937-dafe12ff01c3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/ecb6dbd3-69fc-4437-89fb-834ca4d36a85> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/34e91eae-f9fb-4874-b1a5-0ef8bd98ba50> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/085b4026-a4a0-44d5-8552-19f12eae03f7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/cdd4e62a-1414-4576-a53b-6ce8924bacdd> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0030198 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e1352f87-5bcd-4e9a-aac0-1a8c3c214e02> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/4848c98e-9109-4b70-8852-bd37fbbbb232> .
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/669a2553-a356-48b2-a037-641942467420> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/83617fce-fc44-46c0-ae39-3e3c7c0d1c08> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/5c57139d-f5bd-4df7-94a7-8421e66cc47b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/be0851a4-718e-47a3-90aa-898033e2ce8a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-12-29" ;
     dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002467 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI  creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=has_participant(EMAPA:35803 TS28)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/494c9710-5c32-4e8b-9e68-f36229a3e21f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/095e9b69-cd8f-4679-a6ce-c8875ff1574c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/15ce3ced-f7d1-408d-bdff-36837d9e4119> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-12-29" ;
-    dct:created "2006-12-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048536 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI RO:0002296(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/d7e9765f-e777-4d85-bdc2-beb85777ea42> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/744cf76c-9b46-4ddb-9131-7bdf12f70be9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/b5820fe9-c514-4baf-8192-1f057776d381> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/8375a892-b650-4cac-97b4-8f53af9f04d6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/c04498a9-34e5-4c03-a978-6c7367b9719a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048536 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI RO:0002296(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/0e9ad94d-5f4c-4f6e-b272-34b30d69e853> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/dfdf1793-f4f1-4c82-8e79-a5713062247b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/63e6845a-e3a3-44b2-9602-182925068159> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/110fe38f-363a-4286-8ad5-d83fb88e945d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/f7eaa331-cc72-455c-a67e-c8a1b156f911> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/3d220d1b-80db-44a6-a29a-e2ab9ac70eee> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-12-13" ;
+    dct:created "2006-12-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0001025 GO:0005634 MGI:MGI:1340147|PMID:10402669 ECO:0000314   2006-12-13 MGI BFO:0000050(CL:0000351) creation-date=2006-12-13|modification-date=2006-12-13|comment=cell type CL:0000351|comment=evidence ECO:0000087|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/1ce9e5b3-0a94-4560-b47a-33d1985411df> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/54dc8d9d-2973-48b4-970e-e76e2a1e50e5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/10ed537c-4df4-49f2-88cb-dffbeb79a4cf> ;
+    dc:contributor "GOC:tc",
+        "http://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2005-06-13" ;
+    dct:created "2000-08-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048535 MGI:MGI:1353335|PMID:10687308 ECO:0000304   2005-06-13 MGI  creation-date=2000-08-07|modification-date=2005-06-13|comment=lymph gland development obsoleted|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=http://orcid.org/0000-0003-2689-5511|contributor-id=GOC:tc" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e9ad3f26-f0c8-42c4-9f26-7ad2b074d660> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/98cd79d4-b22e-421c-8ca0-2fa9cbc08c2b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/3b567598-b232-49fa-845f-10a93ce49011> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002467 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI  creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=has_participant(EMAPA:35803 TS28)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/559f3479-17c9-4b0d-ac75-cb0683d0cf90> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/2e4a807a-ba42-401c-9a01-9f7b2b2c4b94> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/63fc88ab-a358-41c5-b8ae-80ee1307a408> ;
+    dc:contributor "GOC:tc",
+        "http://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2005-06-13" ;
+    dct:created "2000-08-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048535 MGI:MGI:1353335|PMID:10687308 ECO:0000304   2005-06-13 MGI  creation-date=2000-08-07|modification-date=2005-06-13|comment=lymph gland development obsoleted|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=http://orcid.org/0000-0003-2689-5511|contributor-id=GOC:tc" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/e9ad3f26-f0c8-42c4-9f26-7ad2b074d660> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/d35d7e8f-7b42-480a-b471-15f27052fb2b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/21a4e3fd-ed82-47fe-afcc-bf35312aecf3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002467 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI  creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=has_participant(EMAPA:35803 TS28)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/559f3479-17c9-4b0d-ac75-cb0683d0cf90> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/ecd1f037-69d0-4cf9-8db2-641a40694c5d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/e6ef487d-2fa7-4b28-8f8e-ffb71f63a76f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002315 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/110fe38f-363a-4286-8ad5-d83fb88e945d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/54d846db-1c89-4a7d-a474-84070d225dc9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/e02ed62b-e561-4468-9bce-7e7bcd9f2cdd> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0030198 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/f8c7fffb-1b7a-46cb-9988-4994a5ac4036> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/210f92e5-d4b1-4c49-bccc-280732f6551e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/5edd2301-b4b2-4c56-9706-c98802a85cfd> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0030198 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/f8c7fffb-1b7a-46cb-9988-4994a5ac4036> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/669a2553-a356-48b2-a037-641942467420> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/375752fd-2dc2-47e4-a1a7-158cf4f4d243> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2014-01-09" ;
+    dct:created "2014-01-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0038061 MGI:MGI:5486592|PMID:23583643 ECO:0000314   2014-01-09 MGI BFO:0000066(CL:0000084) creation-date=2014-01-09|modification-date=2014-01-09|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/a6741141-881c-4682-9ee5-c33502d8d486> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/959a60b4-15cf-40a8-895d-26a96c3c59fa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/1eebf2df-2656-41d5-b745-0bfc66caaf9b> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-12-13" ;
+    dct:created "2006-12-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0001025 GO:0005634 MGI:MGI:1340147|PMID:10402669 ECO:0000314   2006-12-13 MGI BFO:0000050(CL:0000351) creation-date=2006-12-13|modification-date=2006-12-13|comment=cell type CL:0000351|comment=evidence ECO:0000087|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/77017417-6ea9-4d78-ba6f-b9e184ed69c1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/1ce9e5b3-0a94-4560-b47a-33d1985411df> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/e18b031b-5a0e-4516-898c-eb9ff3e17eef> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2014-01-09" ;
+    dct:created "2014-01-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0038061 MGI:MGI:5486592|PMID:23583643 ECO:0000314   2014-01-09 MGI BFO:0000066(CL:0000084) creation-date=2014-01-09|modification-date=2014-01-09|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/4c6ff40d-f51f-43ad-808b-fa70db95e185> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/a6741141-881c-4682-9ee5-c33502d8d486> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/079224e0-4fc4-4fd8-b48c-bf2f5c918d17> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0048536 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI RO:0002296(EMAPA:36650) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen marginal sinus ; MA:0000754|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/0e9ad94d-5f4c-4f6e-b272-34b30d69e853> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/b5820fe9-c514-4baf-8192-1f057776d381> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/667db88d-0dfc-4348-91bb-14127fd4de0a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/9c629691-b5ed-4639-bf06-f34755567f5b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/296e5d82-c4d1-4cfd-bafe-a969f46f120f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1099800/a0a1fd9d-a5f0-4dfc-b5ab-a6a50efa613a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-12-29" ;
+    dct:created "2006-12-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1099800  RO:0002264 GO:0002268 MGI:MGI:3655550|PMID:10586052 ECO:0000315 MGI:MGI:2179705  2006-12-29 MGI BFO:0000066(EMAPA:35803),RO:0002315(CL:0000442) creation-date=2006-12-29|modification-date=2006-12-29|comment=anatomy spleen germinal center ; MA:0000764|comment=cell type follicular dendritic cell ; CL:0000442|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1099800/9c629691-b5ed-4639-bf06-f34755567f5b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1099800/110fe38f-363a-4286-8ad5-d83fb88e945d> .
 

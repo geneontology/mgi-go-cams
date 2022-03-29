@@ -39,12 +39,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2015-09-14" ;
     dc:title "Phf21a (MGI:MGI:2384756)" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2384756> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2384756/04fa33fb-48fa-4e86-b53a-24e3215589d2> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2384756/001b0c57-f580-4032-a727-5eb4ce82c1e6> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
@@ -61,34 +61,232 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type spermatocyte ; CL:0000017",
         "cell type spermatogonium ; CL:0000020" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/05ddbb34-0df8-4a76-90b7-5864f15a5322> a PR:Q6ZPK0-8,
+<http://model.geneontology.org/MGI_MGI_2384756/00489925-81f5-4bc7-9ac2-d16cad5f9025> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/026c0bc2-6212-4f80-a63a-bca423b786f0> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/0674841a-93f8-4d3f-b7b6-d6487ee9b283> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2384756/0347b0ad-5060-4783-a38e-db018c8ad792> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3629054" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dc:source "PMID:16684532" ;
     dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844" .
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/10b0cd64-ad97-4ff6-ba75-7c21b2d0c5bb> a PR:Q6ZPK0-8,
+<http://model.geneontology.org/MGI_MGI_2384756/0a7d23df-5d0a-423c-917a-c1f83d9918d9> a PR:Q6ZPK0-8,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/49b1bac1-c6c3-4d56-ac83-bc82f6d7d09e> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/b37f3525-35dd-4153-b879-85f6cd5a4141> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/17d8bd43-bf2d-40e8-a5cf-5e471ad4cfbd> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_2384756/14618387-81eb-432b-ba8b-13480ec3b2ba> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q96BD5" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:15325272 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/1866d741-f100-46b4-a21d-9451c2ca580d> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/7b9d7275-9073-445b-8399-6115a5e567ff> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/22d7c2bf-621b-48b4-bfc5-edd5a1858580> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/29b54238-796e-4f50-922d-270e1483b709> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/9538fe28-2b1c-41fd-a198-235f3f3d5fc3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/34217b36-f020-4ed8-9fc2-38838355b77a> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/cb909569-e432-4a63-8ecf-e2210bf1821b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/3641ba56-faf3-45fb-aed3-637f6a306644> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/38c1cb2c-1272-4ce9-822e-5dcd43d995bb> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/4d434a04-c664-4866-8abf-1f5533f7b37e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2014-05-02" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/506d7469-6e72-4b80-86cf-cdcfe889daec> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/551be3c5-8f06-4202-877e-12d3cc5ffbe3> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/4508322a-06f0-4155-aff4-c461eeefaa21> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/557beb59-6c09-4efb-bfef-82bdb375753b> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2014-05-02" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/596bc031-08f9-4ece-8145-59faaff60a85> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/5c4a8375-b4bb-49bb-9fc3-9e9e348efbd9> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/63bc021d-7c03-4e99-aa9c-2f1687a45fb2> a MGI:MGI:2384756,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/942c149a-b2b1-4478-a1b1-f9f9b74c2ca1> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/64a28c7b-7ea1-495f-ad97-5806bfc20f7d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/68c08e10-0afe-4e4d-9224-9f5888733193> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:Q96BD5-2" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -98,7 +296,15 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "external ref PMID:15325272 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/1867fe62-08f8-47d5-b0ff-ce6a6e0f9afe> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2384756/69eeb523-248d-467c-a2cd-e6007cfbbf65> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2014-05-02" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/76f75d6f-8487-4b10-b5d9-469df0fe6323> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
@@ -115,15 +321,190 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type spermatocyte ; CL:0000017",
         "cell type spermatogonium ; CL:0000020" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/264e386d-2e56-4249-91f4-62688f4881b8> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2384756/7f94c854-0e2a-40bb-a2db-e8835260eaf0> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
     dc:source "PMID:15325272" ;
-    dct:created "2014-05-02" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/8b81c6c6-4a14-47b0-ba33-ee903262b5f6> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/8f6fea31-a592-41e2-9540-022eb6d4551f> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q96BD5-2" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:15325272 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/a0436f7e-350e-45d0-ae58-050d0b526c4c> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/681fd99b-e3bb-4168-94f4-b20bed01b548> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/354a95bd-a703-45c6-a6be-8ae9f36fa698> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_2384756/a9cee2f0-899a-4b40-8ffc-1c118282af78> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/ae0ce3d0-bb51-4856-9f51-ff5af03a9c8e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dc:source "PMID:16684532" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/ae133bd7-6ae3-4141-bfde-88afc00a2bc8> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dc:source "PMID:16684532" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/b4881fc9-a5a9-4e7b-87af-36f3614b913f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3629054" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dc:source "PMID:16684532" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/b814db5b-eb53-47e0-ac98-601327dc43da> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/bcd71a2c-3a60-41bd-8bfe-84ecf92e9724> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/bdb2394a-d434-4b0e-b85d-d7b783449250> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/c74aa8f4-adf3-4c9a-9523-5918fe333a59> a MGI:MGI:2384756,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/f0f4e37d-8e77-4985-b3a7-36149ade28fd> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-09-14" ;
+    dct:created "2015-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/d66e6a91-cffd-461e-aa26-70bbb89d270d> a PR:Q6ZPK0-3,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/1868152e-9edc-423a-9f56-7e00bda17a6d> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dct:created "2014-05-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/d86b1d1b-129b-4531-836b-1ac092838416> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/da1cf4e2-5a18-4e93-bf82-a024f598f7dd> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:Q96BD5" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -133,716 +514,335 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "external ref PMID:24217620 ; IDA" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/3deacaa2-b2c2-4f1a-a97b-bafe494f747a> a PR:Q6ZPK0-8,
+<http://model.geneontology.org/MGI_MGI_2384756/e829767f-2960-441a-b546-a65fbf6fae3b> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/dc2a666a-5e2d-478b-b8a1-4493c4acb1af> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/f4d84265-9e9e-4564-bee7-d5053bdb6940> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dc:source "PMID:15325272" ;
+    dct:created "2006-07-25" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy brain ; MA:0000168",
+        "anatomy cerebellum granule cell layer ; MA:0000993",
+        "anatomy dentate gyrus ;MA:0002429",
+        "anatomy seminiferous tubule ; MA:0000412",
+        "anatomy testis ; MA:0000411",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "cell type spermatid; CL:0000018",
+        "cell type spermatocyte ; CL:0000017",
+        "cell type spermatogonium ; CL:0000020" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fcd46db2-2862-4076-b05f-2fa0b1c862db> a PR:Q6ZPK0-8,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/22513c95-6905-4716-8bd4-70e843803aa2> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/40de863b-e1ba-46e1-b273-3f4b3295d41b> a PR:Q6ZPK0-8,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/7864cc58-65a4-42e4-ad2d-07c7e37bc072> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/43722b1b-8e82-4252-8803-464ee643d29c> a PR:Q6ZPK0-8,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/4b8eb9fd-a852-4eeb-8e88-ca36f801a51c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/46ad839a-7052-491d-a65d-a0f1932f22a2> a PR:Q6ZPK0-8,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/a72af7f0-da61-4680-a1dc-939fcc2e3d1f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/49b7cf00-d95d-449d-9120-37e5b9beed3b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/53e7a4ed-1e15-4520-9378-812e4ffc6a65> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dc:source "PMID:16684532" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/60d41b87-8dd8-41e9-968c-f6ed87479492> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/67dd294e-dc3b-4bb9-8a73-ac52a692c1d3> a MGI:MGI:2384756,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/7b68f2a6-73b4-4797-866c-15197b9d05e9> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-09-14" ;
-    dct:created "2015-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/6b2b6556-6e61-4983-90ce-b817eb543fc6> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2014-05-02" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/7081dd64-5388-4e56-97ab-d3f45b1dbe0b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/774efa79-69e0-4ce7-9e60-88941f5de88c> a MGI:MGI:2384756,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/850ffaeb-baef-4c58-bb9e-95dedf0619ca> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/7ae51fe6-d033-4a09-a9f6-3b072f07391d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2014-05-02" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/7e838f77-0d5e-4978-8534-644568e49aac> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/80575063-a334-4ac7-b8a3-b8d40c274e08> a PR:Q6ZPK0-3,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/2d1f67a6-056c-4d55-8598-7d5a58bafe9d> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
-    dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/811988b8-81cb-4690-958a-eb209a357aae> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/85cf19cc-0824-4a49-800f-a9a253b6e7cc> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3629054" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dc:source "PMID:16684532" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/8db3f3bf-d703-4201-93f8-3f142e26e2d9> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/96647388-9054-420e-9f96-e47f49043acd> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3629054" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dc:source "PMID:16684532" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/9b718b34-d0a4-4477-8d67-d5f6df758af2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/9eff8fb7-4e86-4b92-9941-34ecec9fd7ea> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q96BD5" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:15325272 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/a1586f1f-01fa-4f1d-bd46-45b2870459ac> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q96BD5-2" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:15325272 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/a6538bdf-062f-4f5f-910b-de0c1344a739> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/aad47150-43a5-4892-9e4d-b34db65f46a4> a PR:Q6ZPK0-8,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2384756/694217ec-8b08-49a1-b316-eff4ab4b1f7d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/aae85e42-8ab7-4a0b-a2b5-23299e6cbad4> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/c82193af-2b1d-472b-aefa-d45b5dfbb47d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/cbb3c08f-36ae-49dd-962e-103d22dd47eb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/d250dc5b-dae8-4934-9a8d-123f67942a40> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/d4581fc6-c46f-4611-9721-1c501a3e298a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/dc4298a6-7e01-488f-b460-97314825955f> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/dd9fa2eb-8f6d-45f1-9fed-0c3b9d0fe605> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/e6b508b1-fea0-4cf0-adb3-066839e7a43d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/f0e3844e-5f5f-4465-b1a3-c3f89abdf278> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dc:source "PMID:15325272" ;
-    dct:created "2006-07-25" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy brain ; MA:0000168",
-        "anatomy cerebellum granule cell layer ; MA:0000993",
-        "anatomy dentate gyrus ;MA:0002429",
-        "anatomy seminiferous tubule ; MA:0000412",
-        "anatomy testis ; MA:0000411",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "cell type spermatid; CL:0000018",
-        "cell type spermatocyte ; CL:0000017",
-        "cell type spermatogonium ; CL:0000020" .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2384756/01c4a7f5-1589-4bb0-875a-35144d0a7880> a GO:0003682,
+<http://model.geneontology.org/MGI_MGI_2384756/1c57f1cc-f20d-4b98-b882-90289d92e2f6> a GO:0003682,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2384756/4755a06c-7157-4848-8870-1f326affc330> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/9ee79094-b4c7-4741-acfe-28164d90d1b6> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2384756/e0c7c84c-dfeb-4010-a3c1-ea7f64f94748> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/fe3cba9e-fb4b-4230-a697-b252e38b9f67> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/0ba73fe3-d487-48b9-88c7-18ab5d6aa581> a MGI:MGI:2384756,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/1681c14d-3306-4c9d-9250-609079875259> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/0ba73fe3-d487-48b9-88c7-18ab5d6aa581> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2384756/553fb0d0-0d2b-47a6-b553-ba5c74f35959> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/3e172191-07b6-4c6f-84b5-dca2a7a2f12d> a GO:0001967,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/44c1f4c5-b150-44e5-b083-aa19409ddb8c> a MGI:MGI:2384756,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/4755a06c-7157-4848-8870-1f326affc330> a MGI:MGI:98460,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/553fb0d0-0d2b-47a6-b553-ba5c74f35959> a GO:0000122,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/56b7cf7f-0304-4bc6-b2fc-b6c55bbefac8> a EMAPA:31476,
+<http://model.geneontology.org/MGI_MGI_2384756/25fc3af1-5dbe-41a1-b434-795ac66fdae9> a EMAPA:35278,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/65931858-a981-49c3-8317-c9a2db624166> a EMAPA:31476,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/77a59d9b-e54f-4467-903e-65f902adf0a4> a EMAPA:17972,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/7b68f2a6-73b4-4797-866c-15197b9d05e9> a GO:1990391,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-09-14" ;
-    dct:created "2015-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/8209464a-da2e-4419-abff-65120e3d9abd> a EMAPA:35217,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/850ffaeb-baef-4c58-bb9e-95dedf0619ca> a GO:0000118,
+<http://model.geneontology.org/MGI_MGI_2384756/2bea94d4-2f1e-4f3d-baf9-9378bcdfa2dc> a GO:0001967,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/97715fb3-3cb1-4d1a-b46b-22c20a380735> a EMAPA:35278,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/9ee79094-b4c7-4741-acfe-28164d90d1b6> a MGI:MGI:2384756,
+<http://model.geneontology.org/MGI_MGI_2384756/48b17715-7729-4b28-ad16-b11033568888> a MGI:MGI:2384756,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/be2c779c-66e7-4449-a3b4-6f6ada3e95de> a EMAPA:16894,
+<http://model.geneontology.org/MGI_MGI_2384756/65b36cec-0bca-42ff-b304-2845a9008082> a EMAPA:16894,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/daec8abb-6465-4fcb-ab3e-b01b58cb0709> a EMAPA:35217,
+<http://model.geneontology.org/MGI_MGI_2384756/65bc5ca4-4cad-45ed-8988-fa33fbb02c0e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/fbb7ecea-25c9-4f95-bda3-32a020a5cc4f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2384756/2bea94d4-2f1e-4f3d-baf9-9378bcdfa2dc> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/942c149a-b2b1-4478-a1b1-f9f9b74c2ca1> a GO:0000118,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/a6c3a36f-000c-4147-abb6-86c871c7f869> a GO:0000122,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/b72ab36d-fd83-436d-93dd-bae119951f67> a EMAPA:31476,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/c83938da-bf6b-4435-ac0f-9a33c792824a> a EMAPA:31476,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/cf64dd13-40ec-46a5-bbbd-791701cc28ec> a EMAPA:35217,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2014-05-02" ;
     dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/ddf41bfe-3aea-4616-b364-f20728bdd186> a EMAPA:31476,
+<http://model.geneontology.org/MGI_MGI_2384756/dde79763-f6c7-4fe6-a122-aaceb31c2523> a EMAPA:17972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/eeea492c-ec5c-4300-8fb6-2da1995466db> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2384756/e0c7c84c-dfeb-4010-a3c1-ea7f64f94748> a MGI:MGI:98460,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/44c1f4c5-b150-44e5-b083-aa19409ddb8c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2384756/3e172191-07b6-4c6f-84b5-dca2a7a2f12d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/f0f4e37d-8e77-4985-b3a7-36149ade28fd> a GO:1990391,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-09-14" ;
+    dct:created "2015-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fbb7ecea-25c9-4f95-bda3-32a020a5cc4f> a MGI:MGI:2384756,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fd262506-35ce-485d-b074-c812d06c3598> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384756/48b17715-7729-4b28-ad16-b11033568888> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2384756/a6c3a36f-000c-4147-abb6-86c871c7f869> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fe3cba9e-fb4b-4230-a697-b252e38b9f67> a MGI:MGI:2384756,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fe480c01-2b56-4621-8077-1793c51d6fd5> a EMAPA:31476,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fecfeca5-db5c-4c36-aad4-fea9548f213c> a EMAPA:35217,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2384756/026c0bc2-6212-4f80-a63a-bca423b786f0> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2384756/183a8737-775a-4728-953e-e3e0089bae10> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/d4010678-551f-4d05-8aea-4aa899576024> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/2d1f67a6-056c-4d55-8598-7d5a58bafe9d> a GO:0005634,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/a1b7c677-fe60-4158-9cc2-6c6e3e1b50d4> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/cf64dd13-40ec-46a5-bbbd-791701cc28ec> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2014-05-02" ;
     dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/49b1bac1-c6c3-4d56-ac83-bc82f6d7d09e> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2384756/1868152e-9edc-423a-9f56-7e00bda17a6d> a GO:0005634,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/6ba58dc4-735c-4d29-adc2-8e39ec9740b6> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/4b8eb9fd-a852-4eeb-8e88-ca36f801a51c> a GO:0005634,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/77a59d9b-e54f-4467-903e-65f902adf0a4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/694217ec-8b08-49a1-b316-eff4ab4b1f7d> a GO:0005634,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/fa57f748-f930-45c9-b5bd-cdf5d40add03> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/6ba58dc4-735c-4d29-adc2-8e39ec9740b6> a CL:0000020,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/56b7cf7f-0304-4bc6-b2fc-b6c55bbefac8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/7864cc58-65a4-42e4-ad2d-07c7e37bc072> a GO:0005634,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/8664e1f6-069e-40c1-b592-4a388da3de19> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/8664e1f6-069e-40c1-b592-4a388da3de19> a CL:0000018,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/65931858-a981-49c3-8317-c9a2db624166> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2384756/a1b7c677-fe60-4158-9cc2-6c6e3e1b50d4> a CL:0000117,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/daec8abb-6465-4fcb-ab3e-b01b58cb0709> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/183a8737-775a-4728-953e-e3e0089bae10> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2014-05-02" ;
     dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/a60d7810-a8a1-4b91-b79a-f2aafb5af95b> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_2384756/224d7c91-a994-433a-8c75-32739600d72d> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/97715fb3-3cb1-4d1a-b46b-22c20a380735> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/fecfeca5-db5c-4c36-aad4-fea9548f213c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/a72af7f0-da61-4680-a1dc-939fcc2e3d1f> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2384756/22513c95-6905-4716-8bd4-70e843803aa2> a GO:0005634,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/be2c779c-66e7-4449-a3b4-6f6ada3e95de> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/fb111383-51f4-446b-9c24-dd1a9f08a2b0> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/d4010678-551f-4d05-8aea-4aa899576024> a CL:0000017,
+<http://model.geneontology.org/MGI_MGI_2384756/4508322a-06f0-4155-aff4-c461eeefaa21> a GO:0005634,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/ddf41bfe-3aea-4616-b364-f20728bdd186> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/5c9c9ad1-2b3b-4f08-b972-aeee7760e06a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/dc2a666a-5e2d-478b-b8a1-4493c4acb1af> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2384756/5c9c9ad1-2b3b-4f08-b972-aeee7760e06a> a CL:0000020,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/a60d7810-a8a1-4b91-b79a-f2aafb5af95b> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/fe480c01-2b56-4621-8077-1793c51d6fd5> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384756/fa57f748-f930-45c9-b5bd-cdf5d40add03> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_2384756/681fd99b-e3bb-4168-94f4-b20bed01b548> a GO:0005634,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/8209464a-da2e-4419-abff-65120e3d9abd> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/224d7c91-a994-433a-8c75-32739600d72d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/7b9d7275-9073-445b-8399-6115a5e567ff> a GO:0005634,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/9f51defc-9fb4-4f21-ad15-ad951939574a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/8292d10d-d1e7-4f22-83af-940dd7267cc3> a CL:0000018,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/b72ab36d-fd83-436d-93dd-bae119951f67> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/9538fe28-2b1c-41fd-a198-235f3f3d5fc3> a GO:0005634,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/65b36cec-0bca-42ff-b304-2845a9008082> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/9f51defc-9fb4-4f21-ad15-ad951939574a> a CL:0000017,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/c83938da-bf6b-4435-ac0f-9a33c792824a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/b37f3525-35dd-4153-b879-85f6cd5a4141> a GO:0005634,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/8292d10d-d1e7-4f22-83af-940dd7267cc3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/cb909569-e432-4a63-8ecf-e2210bf1821b> a GO:0005634,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/dde79763-f6c7-4fe6-a122-aaceb31c2523> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2384756/fb111383-51f4-446b-9c24-dd1a9f08a2b0> a CL:0000117,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2384756/25fc3af1-5dbe-41a1-b434-795ac66fdae9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
@@ -852,362 +852,362 @@ obo:RO_0001025 a owl:ObjectProperty .
 obo:BFO_0000050 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/8db3f3bf-d703-4201-93f8-3f142e26e2d9> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/001b0c57-f580-4032-a727-5eb4ce82c1e6> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/cb909569-e432-4a63-8ecf-e2210bf1821b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/dde79763-f6c7-4fe6-a122-aaceb31c2523> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/596bc031-08f9-4ece-8145-59faaff60a85> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/8292d10d-d1e7-4f22-83af-940dd7267cc3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/b72ab36d-fd83-436d-93dd-bae119951f67> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/22d7c2bf-621b-48b4-bfc5-edd5a1858580> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/aad47150-43a5-4892-9e4d-b34db65f46a4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/694217ec-8b08-49a1-b316-eff4ab4b1f7d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/0a7d23df-5d0a-423c-917a-c1f83d9918d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/b37f3525-35dd-4153-b879-85f6cd5a4141> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/354a95bd-a703-45c6-a6be-8ae9f36fa698> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-09-14" ;
-    dct:created "2015-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2384756  BFO:0000050 GO:1990391 MGI:MGI:5559380|PMID:24190971 ECO:0000266 UniProtKB:Q96BD5  2015-09-14 MGI  creation-date=2015-09-14|modification-date=2015-09-14|comment=external ref PMID:24217620 ; IDA|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/67dd294e-dc3b-4bb9-8a73-ac52a692c1d3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/7b68f2a6-73b4-4797-866c-15197b9d05e9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/6b2b6556-6e61-4983-90ce-b817eb543fc6> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
-    dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-3  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2014-05-02 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217) creation-date=2014-05-02|modification-date=2014-05-02|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/2d1f67a6-056c-4d55-8598-7d5a58bafe9d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/a1b7c677-fe60-4158-9cc2-6c6e3e1b50d4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/811988b8-81cb-4690-958a-eb209a357aae> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/10b0cd64-ad97-4ff6-ba75-7c21b2d0c5bb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/49b1bac1-c6c3-4d56-ac83-bc82f6d7d09e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/1867fe62-08f8-47d5-b0ff-ce6a6e0f9afe> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/46ad839a-7052-491d-a65d-a0f1932f22a2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/a72af7f0-da61-4680-a1dc-939fcc2e3d1f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/f0e3844e-5f5f-4465-b1a3-c3f89abdf278> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/694217ec-8b08-49a1-b316-eff4ab4b1f7d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fa57f748-f930-45c9-b5bd-cdf5d40add03> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/cbb3c08f-36ae-49dd-962e-103d22dd47eb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/05ddbb34-0df8-4a76-90b7-5864f15a5322> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/026c0bc2-6212-4f80-a63a-bca423b786f0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/7ae51fe6-d033-4a09-a9f6-3b072f07391d> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2014-05-02" ;
-    dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-3  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2014-05-02 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217) creation-date=2014-05-02|modification-date=2014-05-02|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/a1b7c677-fe60-4158-9cc2-6c6e3e1b50d4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/daec8abb-6465-4fcb-ab3e-b01b58cb0709> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/a6538bdf-062f-4f5f-910b-de0c1344a739> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/026c0bc2-6212-4f80-a63a-bca423b786f0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/d4010678-551f-4d05-8aea-4aa899576024> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/aae85e42-8ab7-4a0b-a2b5-23299e6cbad4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/fa57f748-f930-45c9-b5bd-cdf5d40add03> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/8209464a-da2e-4419-abff-65120e3d9abd> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/d250dc5b-dae8-4934-9a8d-123f67942a40> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/a60d7810-a8a1-4b91-b79a-f2aafb5af95b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/97715fb3-3cb1-4d1a-b46b-22c20a380735> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/a1586f1f-01fa-4f1d-bd46-45b2870459ac> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/0347b0ad-5060-4783-a38e-db018c8ad792> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0000122 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q96BD5-2  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|comment=external ref PMID:15325272 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0001967 MGI:MGI:3625674|PMID:16684532 ECO:0000315 MGI:MGI:3629054  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1681c14d-3306-4c9d-9250-609079875259> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/0ba73fe3-d487-48b9-88c7-18ab5d6aa581> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/65bc5ca4-4cad-45ed-8988-fa33fbb02c0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fbb7ecea-25c9-4f95-bda3-32a020a5cc4f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/04fa33fb-48fa-4e86-b53a-24e3215589d2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/557beb59-6c09-4efb-bfef-82bdb375753b> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dct:created "2014-05-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/40de863b-e1ba-46e1-b273-3f4b3295d41b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/7864cc58-65a4-42e4-ad2d-07c7e37bc072> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/c82193af-2b1d-472b-aefa-d45b5dfbb47d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "PR:Q6ZPK0-3  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2014-05-02 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217) creation-date=2014-05-02|modification-date=2014-05-02|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/7864cc58-65a4-42e4-ad2d-07c7e37bc072> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/8664e1f6-069e-40c1-b592-4a388da3de19> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/183a8737-775a-4728-953e-e3e0089bae10> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/cf64dd13-40ec-46a5-bbbd-791701cc28ec> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/0674841a-93f8-4d3f-b7b6-d6487ee9b283> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/ae0ce3d0-bb51-4856-9f51-ff5af03a9c8e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2384756  RO:0002327 GO:0003682 MGI:MGI:3625674|PMID:16684532 ECO:0000314   2006-07-25 MGI RO:0002233(MGI:MGI:98460) creation-date=2006-07-25|modification-date=2006-07-25|comment=target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/01c4a7f5-1589-4bb0-875a-35144d0a7880> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/4755a06c-7157-4848-8870-1f326affc330> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1c57f1cc-f20d-4b98-b882-90289d92e2f6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/e0c7c84c-dfeb-4010-a3c1-ea7f64f94748> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/9eff8fb7-4e86-4b92-9941-34ecec9fd7ea> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2384756  BFO:0000050 GO:0000118 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q96BD5  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|comment=external ref PMID:15325272 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/774efa79-69e0-4ce7-9e60-88941f5de88c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/850ffaeb-baef-4c58-bb9e-95dedf0619ca> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/60d41b87-8dd8-41e9-968c-f6ed87479492> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/8664e1f6-069e-40c1-b592-4a388da3de19> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/65931858-a981-49c3-8317-c9a2db624166> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/49b7cf00-d95d-449d-9120-37e5b9beed3b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/3deacaa2-b2c2-4f1a-a97b-bafe494f747a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/dc2a666a-5e2d-478b-b8a1-4493c4acb1af> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/9b718b34-d0a4-4477-8d67-d5f6df758af2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/49b1bac1-c6c3-4d56-ac83-bc82f6d7d09e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/6ba58dc4-735c-4d29-adc2-8e39ec9740b6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/264e386d-2e56-4249-91f4-62688f4881b8> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/4d434a04-c664-4866-8abf-1f5533f7b37e> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2014-05-02" ;
     dct:created "2014-05-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q6ZPK0-3  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2014-05-02 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217) creation-date=2014-05-02|modification-date=2014-05-02|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/80575063-a334-4ac7-b8a3-b8d40c274e08> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/2d1f67a6-056c-4d55-8598-7d5a58bafe9d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/d66e6a91-cffd-461e-aa26-70bbb89d270d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/1868152e-9edc-423a-9f56-7e00bda17a6d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/53e7a4ed-1e15-4520-9378-812e4ffc6a65> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2384756  RO:0002327 GO:0003682 MGI:MGI:3625674|PMID:16684532 ECO:0000314   2006-07-25 MGI RO:0002233(MGI:MGI:98460) creation-date=2006-07-25|modification-date=2006-07-25|comment=target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/01c4a7f5-1589-4bb0-875a-35144d0a7880> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/9ee79094-b4c7-4741-acfe-28164d90d1b6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/7081dd64-5388-4e56-97ab-d3f45b1dbe0b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/64a28c7b-7ea1-495f-ad97-5806bfc20f7d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/43722b1b-8e82-4252-8803-464ee643d29c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/4b8eb9fd-a852-4eeb-8e88-ca36f801a51c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1866d741-f100-46b4-a21d-9451c2ca580d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/7b9d7275-9073-445b-8399-6115a5e567ff> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/dc4298a6-7e01-488f-b460-97314825955f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/69eeb523-248d-467c-a2cd-e6007cfbbf65> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2014-05-02" ;
+    dct:created "2014-05-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-3  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2014-05-02 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217) creation-date=2014-05-02|modification-date=2014-05-02|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1868152e-9edc-423a-9f56-7e00bda17a6d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/183a8737-775a-4728-953e-e3e0089bae10> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/a9cee2f0-899a-4b40-8ffc-1c118282af78> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/a72af7f0-da61-4680-a1dc-939fcc2e3d1f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/be2c779c-66e7-4449-a3b4-6f6ada3e95de> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/4508322a-06f0-4155-aff4-c461eeefaa21> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/5c9c9ad1-2b3b-4f08-b972-aeee7760e06a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/e6b508b1-fea0-4cf0-adb3-066839e7a43d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/3641ba56-faf3-45fb-aed3-637f6a306644> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/fcd46db2-2862-4076-b05f-2fa0b1c862db> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/22513c95-6905-4716-8bd4-70e843803aa2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/da1cf4e2-5a18-4e93-bf82-a024f598f7dd> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-09-14" ;
+    dct:created "2015-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2384756  BFO:0000050 GO:1990391 MGI:MGI:5559380|PMID:24190971 ECO:0000266 UniProtKB:Q96BD5  2015-09-14 MGI  creation-date=2015-09-14|modification-date=2015-09-14|comment=external ref PMID:24217620 ; IDA|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/c74aa8f4-adf3-4c9a-9523-5918fe333a59> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/f0f4e37d-8e77-4985-b3a7-36149ade28fd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/76f75d6f-8487-4b10-b5d9-469df0fe6323> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/d4010678-551f-4d05-8aea-4aa899576024> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/ddf41bfe-3aea-4616-b364-f20728bdd186> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/5c9c9ad1-2b3b-4f08-b972-aeee7760e06a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fe480c01-2b56-4621-8077-1793c51d6fd5> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/96647388-9054-420e-9f96-e47f49043acd> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/38c1cb2c-1272-4ce9-822e-5dcd43d995bb> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-25" ;
+    dc:date "2008-08-11" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0001967 MGI:MGI:3625674|PMID:16684532 ECO:0000315 MGI:MGI:3629054  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/eeea492c-ec5c-4300-8fb6-2da1995466db> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/44c1f4c5-b150-44e5-b083-aa19409ddb8c> .
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/224d7c91-a994-433a-8c75-32739600d72d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fecfeca5-db5c-4c36-aad4-fea9548f213c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/17d8bd43-bf2d-40e8-a5cf-5e471ad4cfbd> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/14618387-81eb-432b-ba8b-13480ec3b2ba> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2384756  BFO:0000050 GO:0000118 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q96BD5  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|comment=external ref PMID:15325272 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/63bc021d-7c03-4e99-aa9c-2f1687a45fb2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/942c149a-b2b1-4478-a1b1-f9f9b74c2ca1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/f4d84265-9e9e-4564-bee7-d5053bdb6940> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/7b9d7275-9073-445b-8399-6115a5e567ff> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/9f51defc-9fb4-4f21-ad15-ad951939574a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/b814db5b-eb53-47e0-ac98-601327dc43da> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/29b54238-796e-4f50-922d-270e1483b709> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/9538fe28-2b1c-41fd-a198-235f3f3d5fc3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/506d7469-6e72-4b80-86cf-cdcfe889daec> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/34217b36-f020-4ed8-9fc2-38838355b77a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/cb909569-e432-4a63-8ecf-e2210bf1821b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/d86b1d1b-129b-4531-836b-1ac092838416> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/681fd99b-e3bb-4168-94f4-b20bed01b548> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/224d7c91-a994-433a-8c75-32739600d72d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/bdb2394a-d434-4b0e-b85d-d7b783449250> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/fb111383-51f4-446b-9c24-dd1a9f08a2b0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/25fc3af1-5dbe-41a1-b434-795ac66fdae9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/5c4a8375-b4bb-49bb-9fc3-9e9e348efbd9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/a0436f7e-350e-45d0-ae58-050d0b526c4c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/681fd99b-e3bb-4168-94f4-b20bed01b548> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/00489925-81f5-4bc7-9ac2-d16cad5f9025> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/22513c95-6905-4716-8bd4-70e843803aa2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fb111383-51f4-446b-9c24-dd1a9f08a2b0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/8f6fea31-a592-41e2-9540-022eb6d4551f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0000122 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q96BD5-2  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|comment=external ref PMID:15325272 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1681c14d-3306-4c9d-9250-609079875259> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/553fb0d0-0d2b-47a6-b553-ba5c74f35959> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/fd262506-35ce-485d-b074-c812d06c3598> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/a6c3a36f-000c-4147-abb6-86c871c7f869> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/85cf19cc-0824-4a49-800f-a9a253b6e7cc> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/e829767f-2960-441a-b546-a65fbf6fae3b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/b37f3525-35dd-4153-b879-85f6cd5a4141> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/8292d10d-d1e7-4f22-83af-940dd7267cc3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/8b81c6c6-4a14-47b0-ba33-ee903262b5f6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/9538fe28-2b1c-41fd-a198-235f3f3d5fc3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/65b36cec-0bca-42ff-b304-2845a9008082> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/68c08e10-0afe-4e4d-9224-9f5888733193> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-25" ;
     dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0000122 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q96BD5-2  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|comment=external ref PMID:15325272 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/fd262506-35ce-485d-b074-c812d06c3598> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/48b17715-7729-4b28-ad16-b11033568888> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/bcd71a2c-3a60-41bd-8bfe-84ecf92e9724> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/551be3c5-8f06-4202-877e-12d3cc5ffbe3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/4508322a-06f0-4155-aff4-c461eeefaa21> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/ae133bd7-6ae3-4141-bfde-88afc00a2bc8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2384756  RO:0002327 GO:0003682 MGI:MGI:3625674|PMID:16684532 ECO:0000314   2006-07-25 MGI RO:0002233(MGI:MGI:98460) creation-date=2006-07-25|modification-date=2006-07-25|comment=target Syn1 ; MGI:98460 RNA_II_promotor_region ; SO:0000844|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/1c57f1cc-f20d-4b98-b882-90289d92e2f6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/fe3cba9e-fb4b-4230-a697-b252e38b9f67> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/7f94c854-0e2a-40bb-a2db-e8835260eaf0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2008-08-11" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/9f51defc-9fb4-4f21-ad15-ad951939574a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/c83938da-bf6b-4435-ac0f-9a33c792824a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/b4881fc9-a5a9-4e7b-87af-36f3614b913f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-25" ;
+    dct:created "2006-07-25" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2384756  RO:0002264 GO:0001967 MGI:MGI:3625674|PMID:16684532 ECO:0000315 MGI:MGI:3629054  2006-07-25 MGI  creation-date=2006-07-25|modification-date=2006-07-25|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/eeea492c-ec5c-4300-8fb6-2da1995466db> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/3e172191-07b6-4c6f-84b5-dca2a7a2f12d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/d4581fc6-c46f-4611-9721-1c501a3e298a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/6ba58dc4-735c-4d29-adc2-8e39ec9740b6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/56b7cf7f-0304-4bc6-b2fc-b6c55bbefac8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/7e838f77-0d5e-4978-8534-644568e49aac> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/4b8eb9fd-a852-4eeb-8e88-ca36f801a51c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/77a59d9b-e54f-4467-903e-65f902adf0a4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384756/dd9fa2eb-8f6d-45f1-9fed-0c3b9d0fe605> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2008-08-11" ;
-    dct:created "2006-07-25" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q6ZPK0-8  RO:0001025 GO:0005634 MGI:MGI:3051428|PMID:15325272 ECO:0000314   2008-08-11 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35217)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:35278)|BFO:0000050(CL:0000020),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000017),BFO:0000050(EMAPA:31476)|BFO:0000050(CL:0000018),BFO:0000050(EMAPA:31476)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17972) creation-date=2006-07-25|modification-date=2008-08-11|comment=anatomy brain ; MA:0000168|comment=anatomy cerebellum granule cell layer ; MA:0000993|comment=anatomy dentate gyrus ;MA:0002429|comment=anatomy seminiferous tubule ; MA:0000412|comment=anatomy testis ; MA:0000411|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=cell type spermatid; CL:0000018|comment=cell type spermatocyte ; CL:0000017|comment=cell type spermatogonium ; CL:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/dc2a666a-5e2d-478b-b8a1-4493c4acb1af> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/a60d7810-a8a1-4b91-b79a-f2aafb5af95b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384756/65bc5ca4-4cad-45ed-8988-fa33fbb02c0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384756/2bea94d4-2f1e-4f3d-baf9-9378bcdfa2dc> .
 

@@ -37,21 +37,84 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-05-30" ;
     dc:title "Cd79b (MGI:MGI:96431)" ;
     dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_96431> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_96431/0480837b-c248-48c1-ae24-cc58750450c8> a MGI:MGI:96431,
+<http://model.geneontology.org/MGI_MGI_96431/07ea4cce-87d3-402b-a637-57113b63f190> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/27fe4997-0aec-47de-a6f1-7e80e03c4102> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2005-01-21" ;
+    dc:source "PMID:8626447" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/10be614c-82b4-4aa0-be91-4fb76f37525e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/2d8a6361-1525-49c3-a420-1ef2c2b3326c> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P11911" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dc:source "PMID:8626447" ;
+    dct:created "2005-01-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/2da56e75-14ca-4b57-8e28-34f1cec8e8a1> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dc:source "PMID:8626447" ;
+    dct:created "2005-01-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/398cf5e5-f720-4c0d-a5f9-534d4168205e> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P11911" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP following surface iodination" .
+
+<http://model.geneontology.org/MGI_MGI_96431/51633f45-0a4d-49de-a46f-8728c72d1976> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P11911" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dc:source "PMID:8626447" ;
+    dct:created "2005-01-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/65dc6507-f8ff-47da-9396-39423aad5a5d> a MGI:MGI:96431,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_96431/863a60fa-bacf-4a89-a7ee-eac86f426fd0> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/22a4b960-5fac-4047-8f11-71b01acf52fa> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_96431/6b5829be-7899-429d-8a7d-ccbc1e33c51c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2005-01-21" ;
@@ -61,149 +124,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
         "evidence IP-IB" .
 
-<http://model.geneontology.org/MGI_MGI_96431/287a24d4-6eea-4ef8-9cf3-e9eebd2dd630> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/2eeee4be-e539-476d-9b43-27a4ef6d2934> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/33794305-ee1f-4707-a25a-1103c633fabc> a MGI:MGI:96431,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/7b9d740f-967a-47a6-bf7a-466c6bfb3c5c> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/3b7a928f-5e2f-434a-a565-abdcea5a34cf> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P11911" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/3d305c49-d87d-4e0f-a73e-9e97de37f337> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/461ae658-4bf2-4918-a0b4-c2566de3422f> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P11911" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP following surface iodination" .
-
-<http://model.geneontology.org/MGI_MGI_96431/4abe0c07-ef23-4cbe-94d4-ab1417a5a340> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/4dcbe96a-114a-42e3-8221-c84c7bc4354e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP following surface iodination" .
-
-<http://model.geneontology.org/MGI_MGI_96431/5c4a0433-a10c-413e-bd29-e7c0a4d7475c> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P11911" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP following surface iodination" .
-
-<http://model.geneontology.org/MGI_MGI_96431/639d4783-acc3-42ae-977e-1d81f7dd3e0c> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P11911" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/67aee16b-6e0b-4a6f-99e2-b4c884293c95> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/8b7edefc-044d-43bf-8113-2eb5a192b4d9> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dc:source "PMID:1373499" ;
-    dct:created "2005-01-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP following surface iodination" .
-
-<http://model.geneontology.org/MGI_MGI_96431/904770a7-e733-467c-8a6a-b0bdd729faeb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dc:source "PMID:8626447" ;
-    dct:created "2005-01-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
-        "evidence IP-IB" .
-
-<http://model.geneontology.org/MGI_MGI_96431/bfaed70c-bbdf-41b8-bbc9-4e0121ef50c5> a MGI:MGI:96431,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_96431/5fc65fef-501a-4eb3-b661-8a94b2a38e31> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/d7555260-eb33-4b1c-b64a-751509d4b965> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_96431/71ec822a-e854-4072-beac-9347f8ccb100> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
@@ -212,7 +133,37 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "Lactobacillus paracasei CNCM I-3689" .
 
-<http://model.geneontology.org/MGI_MGI_96431/f3470796-0b48-493e-bb03-375406c37ec7> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_96431/7f930c24-e934-4296-a82b-ca87eaa2f5d0> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P11911" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dc:source "PMID:8626447" ;
+    dct:created "2005-01-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/7fdd8f7a-93f5-4adf-8444-44e54928e95c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP following surface iodination" .
+
+<http://model.geneontology.org/MGI_MGI_96431/8f2c8797-fad6-428a-a3fc-b4252fe40bfd> a MGI:MGI:96431,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/aa5a4150-d8db-4e83-916a-b4c121d93ddb> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/952bb56c-746f-4632-9169-d17d59e4c316> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
@@ -221,11 +172,60 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "Lactobacillus paracasei CNCM I-3689" .
 
-<http://model.geneontology.org/MGI_MGI_96431/f452bec0-2148-4318-a60e-24c0ae6faacb> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_96431/af74337b-94c5-4939-aebf-d05cf226b34d> a MGI:MGI:96431,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/fce85d5e-e0f4-419e-bba9-51b71180ea10> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/b0b23e63-7c9b-4c57-b785-15a2e37b77db> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P11911" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-08-29" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP following surface iodination" .
+
+<http://model.geneontology.org/MGI_MGI_96431/ca5d0b27-605f-4aed-8936-e006bb162315> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP following surface iodination" .
+
+<http://model.geneontology.org/MGI_MGI_96431/cb7adf1f-396a-4210-b8bc-08ab403ab671> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dc:source "PMID:8626447" ;
+    dct:created "2005-01-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/d78b0bcf-5a90-4d5f-a27e-6e2a92c183af> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dc:source "PMID:1373499" ;
+    dct:created "2005-01-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)",
+        "evidence IP-IB" .
+
+<http://model.geneontology.org/MGI_MGI_96431/fa80712d-4ee9-4442-817b-80c1da789a00> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
     dc:source "PMID:8626447" ;
     dct:created "2005-01-21" ;
     ns2:providedBy "http://informatics.jax.org" ;
@@ -234,189 +234,189 @@ ns2:providedBy a owl:AnnotationProperty .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_96431/0f2b121f-7987-4ddd-849d-45200060fb27> a CL:0000236,
+<http://model.geneontology.org/MGI_MGI_96431/1dfe0a30-80be-4e38-b1df-9f071f8f2961> a MGI:MGI:96431,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
+    dc:date "2005-01-21" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/1cb772a3-e5d1-4abe-822c-017416d37686> a MGI:MGI:96431,
+<http://model.geneontology.org/MGI_MGI_96431/5887cb42-6733-4703-aa90-16970154ff36> a MGI:MGI:96431,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
     dct:created "2018-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/2aa11bcd-b0b1-4542-ac44-c50d55be616f> a PR:P11911,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/45ed0f44-cc2b-4729-955f-ea1f9d3012bc> a CL:0000236,
+<http://model.geneontology.org/MGI_MGI_96431/5f500312-76f5-43ee-b9c3-2ba5aa56a20a> a CL:0000236,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2005-01-21" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/5ada82c2-8864-4e18-90bc-d17a6650ff37> a CL:0000236,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/5fc65fef-501a-4eb3-b661-8a94b2a38e31> a GO:0009897,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/65321e8e-e37f-4fcb-b339-9ca8143ebaa6> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/d9e4721a-4f79-45ff-904d-9500033f06af> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/d71b4850-4d4d-4fd0-b4e8-29c2b50edcb0> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/74236385-41bb-45ab-bef1-1f5872002d06> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_96431/feafa6d7-059c-44b0-bd59-8bd0d2c3c8e2> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/bdfe89b9-dec8-4408-b242-c5adfb225fe0> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/7b9d740f-967a-47a6-bf7a-466c6bfb3c5c> a GO:0019815,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/80d34891-3c8c-42f4-9a32-9368402e1c49> a MGI:MGI:96431,
+<http://model.geneontology.org/MGI_MGI_96431/642e553f-6a50-48e4-b146-12439156e830> a MGI:MGI:96431,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-08-29" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/ad374164-aaac-4d92-9bf0-c1d7321a0882> a GO:0009617,
+<http://model.geneontology.org/MGI_MGI_96431/7370b5b3-3ee4-4421-83c5-2c1e463eaa92> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_96431/a70b8fad-0c50-402c-bdff-65aca134458e> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/e60629f2-f99e-489a-b117-49ba4335b3f7> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/863a60fa-bacf-4a89-a7ee-eac86f426fd0> a GO:0009897,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/86c9f89b-5833-46fb-a9e0-ca2a2edef255> a GO:0050853,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/98bc693e-3a70-4b59-9e51-bd3771526996> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/9c3198a2-98e2-4f40-a845-0a762182ad8b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/86c9f89b-5833-46fb-a9e0-ca2a2edef255> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/9c3198a2-98e2-4f40-a845-0a762182ad8b> a MGI:MGI:96431,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/a70b8fad-0c50-402c-bdff-65aca134458e> a PR:P11911,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/aa5a4150-d8db-4e83-916a-b4c121d93ddb> a GO:0019815,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/b758595e-de3c-4271-91c4-833fe98b6d51> a CL:0000236,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/be4a5099-d663-4999-8bca-8759e3b4d26f> a GO:0009617,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
     dct:created "2018-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/bdfe89b9-dec8-4408-b242-c5adfb225fe0> a MGI:MGI:96431,
+<http://model.geneontology.org/MGI_MGI_96431/c2210239-23c2-4ad8-90a1-f1926addce0a> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/1dfe0a30-80be-4e38-b1df-9f071f8f2961> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/3ab09391-aeed-407d-ab9c-65b593935ffb> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/d32eca48-cd9a-4b7c-836e-77d40c60fb3b> a PR:P11911,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-08-29" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/c75400b4-e68a-4c22-8501-6f1436947a34> a MGI:MGI:96431,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/cb308a96-3a58-41fd-8e0e-27cd65d39046> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_96431/dd26de18-5ce6-471c-9dee-2bb10dda7293> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/c75400b4-e68a-4c22-8501-6f1436947a34> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/1ced0813-1b26-4324-97c2-23ec14c01045> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/d71b4850-4d4d-4fd0-b4e8-29c2b50edcb0> a GO:0050853,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/d7b00e55-13d2-4cd8-aa9b-4084356fe417> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/1cb772a3-e5d1-4abe-822c-017416d37686> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/ad374164-aaac-4d92-9bf0-c1d7321a0882> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/5887cb42-6733-4703-aa90-16970154ff36> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96431/be4a5099-d663-4999-8bca-8759e3b4d26f> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
     dct:created "2018-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/d9e4721a-4f79-45ff-904d-9500033f06af> a MGI:MGI:96431,
+<http://model.geneontology.org/MGI_MGI_96431/e5844033-66a1-4881-a7d0-b9bef59e6b25> a CL:0000236,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/feafa6d7-059c-44b0-bd59-8bd0d2c3c8e2> a PR:P11911,
+<http://model.geneontology.org/MGI_MGI_96431/e60629f2-f99e-489a-b117-49ba4335b3f7> a MGI:MGI:96431,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-08-29" ;
     dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_96431/1ced0813-1b26-4324-97c2-23ec14c01045> a GO:0050853,
+<http://model.geneontology.org/MGI_MGI_96431/3ab09391-aeed-407d-ab9c-65b593935ffb> a GO:0050853,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_96431/45ed0f44-cc2b-4729-955f-ea1f9d3012bc> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_96431/e5844033-66a1-4881-a7d0-b9bef59e6b25> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2005-01-21" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96431/27fe4997-0aec-47de-a6f1-7e80e03c4102> a GO:0019815,
+<http://model.geneontology.org/MGI_MGI_96431/863d03e8-52bb-40d5-bc71-4516032439b7> a GO:0005515,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/5ada82c2-8864-4e18-90bc-d17a6650ff37> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_96431/7cf795f3-b819-4ed5-8db5-8b6c5346861b> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_96431/0f2b121f-7987-4ddd-849d-45200060fb27> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_96431/2aa11bcd-b0b1-4542-ac44-c50d55be616f> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/80d34891-3c8c-42f4-9a32-9368402e1c49> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_96431/b758595e-de3c-4271-91c4-833fe98b6d51> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_96431/d32eca48-cd9a-4b7c-836e-77d40c60fb3b> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96431/642e553f-6a50-48e4-b146-12439156e830> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-08-29" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_96431/fce85d5e-e0f4-419e-bba9-51b71180ea10> a GO:0019815,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_96431/5f500312-76f5-43ee-b9c3-2ba5aa56a20a> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -426,194 +426,194 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/2eeee4be-e539-476d-9b43-27a4ef6d2934> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/ca5d0b27-605f-4aed-8936-e006bb162315> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2005-01-20" ;
     dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/65321e8e-e37f-4fcb-b339-9ca8143ebaa6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/d9e4721a-4f79-45ff-904d-9500033f06af> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/287a24d4-6eea-4ef8-9cf3-e9eebd2dd630> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/1ced0813-1b26-4324-97c2-23ec14c01045> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/45ed0f44-cc2b-4729-955f-ea1f9d3012bc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/4abe0c07-ef23-4cbe-94d4-ab1417a5a340> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/65321e8e-e37f-4fcb-b339-9ca8143ebaa6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/d71b4850-4d4d-4fd0-b4e8-29c2b50edcb0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/3d305c49-d87d-4e0f-a73e-9e97de37f337> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/cb308a96-3a58-41fd-8e0e-27cd65d39046> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/1ced0813-1b26-4324-97c2-23ec14c01045> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/904770a7-e733-467c-8a6a-b0bdd729faeb> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/cb308a96-3a58-41fd-8e0e-27cd65d39046> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/c75400b4-e68a-4c22-8501-6f1436947a34> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/5c4a0433-a10c-413e-bd29-e7c0a4d7475c> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:3521842|PMID:1373499 ECO:0000353 PR:P11911  2008-08-29 MGI  creation-date=2005-01-20|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/74236385-41bb-45ab-bef1-1f5872002d06> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/bdfe89b9-dec8-4408-b242-c5adfb225fe0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/22a4b960-5fac-4047-8f11-71b01acf52fa> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  BFO:0000050 GO:0019815 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000050(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/27fe4997-0aec-47de-a6f1-7e80e03c4102> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/5ada82c2-8864-4e18-90bc-d17a6650ff37> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/8b7edefc-044d-43bf-8113-2eb5a192b4d9> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0001025 GO:0009897 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/bfaed70c-bbdf-41b8-bbc9-4e0121ef50c5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/5fc65fef-501a-4eb3-b661-8a94b2a38e31> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/67aee16b-6e0b-4a6f-99e2-b4c884293c95> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-21" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  BFO:0000050 GO:0019815 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000050(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/0480837b-c248-48c1-ae24-cc58750450c8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/27fe4997-0aec-47de-a6f1-7e80e03c4102> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/3b7a928f-5e2f-434a-a565-abdcea5a34cf> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/7cf795f3-b819-4ed5-8db5-8b6c5346861b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/0f2b121f-7987-4ddd-849d-45200060fb27> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/639d4783-acc3-42ae-977e-1d81f7dd3e0c> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/7cf795f3-b819-4ed5-8db5-8b6c5346861b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/2aa11bcd-b0b1-4542-ac44-c50d55be616f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/4dcbe96a-114a-42e3-8221-c84c7bc4354e> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2005-01-20" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:96431  BFO:0000050 GO:0019815 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/33794305-ee1f-4707-a25a-1103c633fabc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/7b9d740f-967a-47a6-bf7a-466c6bfb3c5c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/8f2c8797-fad6-428a-a3fc-b4252fe40bfd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/aa5a4150-d8db-4e83-916a-b4c121d93ddb> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/461ae658-4bf2-4918-a0b4-c2566de3422f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/fa80712d-4ee9-4442-817b-80c1da789a00> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
-    dct:created "2005-01-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:3521842|PMID:1373499 ECO:0000353 PR:P11911  2008-08-29 MGI  creation-date=2005-01-20|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/74236385-41bb-45ab-bef1-1f5872002d06> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/feafa6d7-059c-44b0-bd59-8bd0d2c3c8e2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/f452bec0-2148-4318-a60e-24c0ae6faacb> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-08-29" ;
+    dc:date "2005-01-21" ;
     dct:created "2005-01-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/7cf795f3-b819-4ed5-8db5-8b6c5346861b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/80d34891-3c8c-42f4-9a32-9368402e1c49> .
+    rdfs:comment "MGI:MGI:96431  BFO:0000050 GO:0019815 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000050(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/af74337b-94c5-4939-aebf-d05cf226b34d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/fce85d5e-e0f4-419e-bba9-51b71180ea10> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/f3470796-0b48-493e-bb03-375406c37ec7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/d78b0bcf-5a90-4d5f-a27e-6e2a92c183af> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/98bc693e-3a70-4b59-9e51-bd3771526996> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/9c3198a2-98e2-4f40-a845-0a762182ad8b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/71ec822a-e854-4072-beac-9347f8ccb100> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
     dct:created "2018-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0009617 MGI:MGI:5448596|PMID:23012479 ECO:0000270   2018-05-30 MGI  creation-date=2018-05-30|modification-date=2018-05-30|comment=Lactobacillus paracasei CNCM I-3689|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/d7b00e55-13d2-4cd8-aa9b-4084356fe417> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/ad374164-aaac-4d92-9bf0-c1d7321a0882> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/dd26de18-5ce6-471c-9dee-2bb10dda7293> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/be4a5099-d663-4999-8bca-8759e3b4d26f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/d7555260-eb33-4b1c-b64a-751509d4b965> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/10be614c-82b4-4aa0-be91-4fb76f37525e> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/98bc693e-3a70-4b59-9e51-bd3771526996> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/86c9f89b-5833-46fb-a9e0-ca2a2edef255> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/2da56e75-14ca-4b57-8e28-34f1cec8e8a1> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/3ab09391-aeed-407d-ab9c-65b593935ffb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/e5844033-66a1-4881-a7d0-b9bef59e6b25> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/7fdd8f7a-93f5-4adf-8444-44e54928e95c> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-20" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0001025 GO:0009897 MGI:MGI:3521842|PMID:1373499 ECO:0000314   2005-01-20 MGI  creation-date=2005-01-20|modification-date=2005-01-20|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/65dc6507-f8ff-47da-9396-39423aad5a5d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/863a60fa-bacf-4a89-a7ee-eac86f426fd0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/2d8a6361-1525-49c3-a420-1ef2c2b3326c> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/863d03e8-52bb-40d5-bc71-4516032439b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/b758595e-de3c-4271-91c4-833fe98b6d51> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/6b5829be-7899-429d-8a7d-ccbc1e33c51c> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  BFO:0000050 GO:0019815 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000050(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/fce85d5e-e0f4-419e-bba9-51b71180ea10> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/5f500312-76f5-43ee-b9c3-2ba5aa56a20a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/b0b23e63-7c9b-4c57-b785-15a2e37b77db> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:3521842|PMID:1373499 ECO:0000353 PR:P11911  2008-08-29 MGI  creation-date=2005-01-20|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/7370b5b3-3ee4-4421-83c5-2c1e463eaa92> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/e60629f2-f99e-489a-b117-49ba4335b3f7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/7f930c24-e934-4296-a82b-ca87eaa2f5d0> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/863d03e8-52bb-40d5-bc71-4516032439b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/642e553f-6a50-48e4-b146-12439156e830> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/398cf5e5-f720-4c0d-a5f9-534d4168205e> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:3521842|PMID:1373499 ECO:0000353 PR:P11911  2008-08-29 MGI  creation-date=2005-01-20|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP following surface iodination|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/7370b5b3-3ee4-4421-83c5-2c1e463eaa92> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/a70b8fad-0c50-402c-bdff-65aca134458e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/07ea4cce-87d3-402b-a637-57113b63f190> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/c2210239-23c2-4ad8-90a1-f1926addce0a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/3ab09391-aeed-407d-ab9c-65b593935ffb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/952bb56c-746f-4632-9169-d17d59e4c316> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-05-30" ;
     dct:created "2018-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0009617 MGI:MGI:5448596|PMID:23012479 ECO:0000270   2018-05-30 MGI  creation-date=2018-05-30|modification-date=2018-05-30|comment=Lactobacillus paracasei CNCM I-3689|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/d7b00e55-13d2-4cd8-aa9b-4084356fe417> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/1cb772a3-e5d1-4abe-822c-017416d37686> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/dd26de18-5ce6-471c-9dee-2bb10dda7293> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/5887cb42-6733-4703-aa90-16970154ff36> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/51633f45-0a4d-49de-a46f-8728c72d1976> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-08-29" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002327 GO:0005515 MGI:MGI:79455|PMID:8626447 ECO:0000353 PR:P11911  2008-08-29 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2008-08-29|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/863d03e8-52bb-40d5-bc71-4516032439b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/d32eca48-cd9a-4b7c-836e-77d40c60fb3b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96431/cb7adf1f-396a-4210-b8bc-08ab403ab671> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2005-01-21" ;
+    dct:created "2005-01-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96431  RO:0002264 GO:0050853 MGI:MGI:79455|PMID:8626447 ECO:0000314   2005-01-21 MGI BFO:0000066(CL:0000236) creation-date=2005-01-21|modification-date=2005-01-21|comment=cell type permanent_cell_line ; CLO:0000019 B_lymphocyte ; CL:0000236 ATCC:CRL-1702 (WEHI-231  mouse) permanent_cell_line ; CLO:0000019 ATCC:CCL-89 (AtT-20  mouse  transfected)|comment=evidence IP-IB|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96431/c2210239-23c2-4ad8-90a1-f1926addce0a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96431/1dfe0a30-80be-4e38-b1df-9f071f8f2961> .
 

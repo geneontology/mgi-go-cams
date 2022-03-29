@@ -35,12 +35,22 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2006-01-12" ;
     dc:title "Pkd1l2 (MGI:MGI:2664668)" ;
     dct:created "2005-09-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2664668> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2664668/6789eec9-29e6-4650-8890-fbc23aaa77be> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_2664668/a90bfdd9-86c6-4115-a7ba-0cd34c3b923e> a GO:0001965,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2664668/a69079fd-deb1-4d8f-9b59-dfc629ca23c4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-09-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2664668/cb98f357-1cc1-49c5-ab5c-fcc489898913> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AY371495" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -52,37 +62,27 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "external ref PMID:15203210 IDA",
         "target G proteins  G alpha subunits" .
 
-<http://model.geneontology.org/MGI_MGI_2664668/7c002e15-c0af-41e8-b872-7c267ec34048> a GO:0001965,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2664668/3e11fd68-cbbe-4ebf-a011-fafa60fbeed2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-09-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2664668/3e11fd68-cbbe-4ebf-a011-fafa60fbeed2> a MGI:MGI:2664668,
+<http://model.geneontology.org/MGI_MGI_2664668/a69079fd-deb1-4d8f-9b59-dfc629ca23c4> a MGI:MGI:2664668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-09-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2664668/6789eec9-29e6-4650-8890-fbc23aaa77be> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2664668/cb98f357-1cc1-49c5-ab5c-fcc489898913> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-09-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2664668  RO:0002327 GO:0001965 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AY371495  2006-01-12 MGI  creation-date=2005-09-15|modification-date=2006-01-12|comment=external ref PMID:15203210 IDA|comment=target G proteins  G alpha subunits|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2664668/7c002e15-c0af-41e8-b872-7c267ec34048> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2664668/3e11fd68-cbbe-4ebf-a011-fafa60fbeed2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2664668/a90bfdd9-86c6-4115-a7ba-0cd34c3b923e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2664668/a69079fd-deb1-4d8f-9b59-dfc629ca23c4> .
 

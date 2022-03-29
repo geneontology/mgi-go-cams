@@ -35,12 +35,42 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-02-13" ;
     dc:title "Lemd2 (MGI:MGI:2385045)" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2385045> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2385045/0a959e80-3681-496c-a662-5e80c298b92f> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2385045/2b7f4e80-b868-4ef6-bc73-e1889d60e0b8> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q8NC56" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:19720741 IGI UniProtKB:O08579" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/57c6e7a6-e086-4c20-ab7c-20aa7b9312e8> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q8NC56" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:19720741 IGI UniProtKB:O08579" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/7f53ba07-db14-4fdc-8276-ea92dfc82edb> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "PMID:19720741" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/807100c8-9d68-4c66-8954-948190e78748> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
@@ -49,7 +79,54 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/157717d2-0e6d-41f2-9377-74e4b5b601e4> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_2385045/94281eb2-b19e-4d86-a2f4-77c278f8a957> a MGI:MGI:2385045,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2385045/9e435ab9-49e7-44c8-8fb4-d0f9eba540ed> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/aa99098b-3bc3-4cb6-abd0-c5a9e9932204> a MGI:MGI:2385045,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2385045/ddd3a380-561c-4d18-ae69-20b6f5316dbe> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/acacef06-b0b4-4232-9834-f2b81c38770e> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "PMID:19720741" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/b8abf0c1-d061-41af-bad4-1e1b03be05c1> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "PMID:16339967" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/bc80ee32-491a-4a80-8e56-afb0ed2b7727> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dc:source "PMID:19720741" ;
+    dct:created "2012-02-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2385045/c1110334-452d-407d-9adc-a1cf07b0f8ae> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:Q8NC56" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -59,84 +136,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "external ref PMID:16339967 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/1689e4a5-34b1-4594-a4a1-39538e657b56> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "PMID:19720741" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/337a8774-ec93-4065-8fdb-641f9473827b> a MGI:MGI:2385045,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2385045/bd817aa8-812a-4faf-bed7-559f5f8c6335> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/3b3bc8f5-3687-4d00-a7ee-0aa52cc08f15> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q8NC56" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:19720741 IGI UniProtKB:O08579" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/5dd7e724-dfe0-448c-9fbe-ccee02392e40> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "PMID:16339967" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/b4954354-a0ca-4bac-a9ca-96b88df58418> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "PMID:19720741" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/d42225f6-a96a-494d-b0f9-a23584756410> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "PMID:19720741" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/e178b754-33da-4e2d-a45c-74d23dfb977d> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q8NC56" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2012-02-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:19720741 IGI UniProtKB:O08579" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/e550a37e-6cdb-4c63-a398-3f71191e11d4> a MGI:MGI:2385045,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2385045/4058fc9a-8f22-4a82-ad1f-e2d6938a277d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2385045/fd34bced-30cc-4102-9040-3c447531f864> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2385045/d505c1bf-2f82-4dd0-b822-b89f5eb6bdff> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
@@ -148,72 +148,72 @@ ns2:providedBy a owl:AnnotationProperty .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2385045/01740c34-3844-4bc7-88da-aedcaab070be> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2385045/0cbaf318-5ab7-4613-96e7-156c7c880a64> a MGI:MGI:2385045,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2385045/54e6f195-2491-4cd5-b66a-d7deef21b090> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2385045/11cd9260-ebda-49ee-b901-8bb5e84bb0c4> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/08721355-f6ed-40a5-a1b4-fa6c8d59a233> a CL:0000057,
+<http://model.geneontology.org/MGI_MGI_2385045/4350b714-dc62-4bd9-a5ee-580cdd94143c> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2385045/0cbaf318-5ab7-4613-96e7-156c7c880a64> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2385045/9ca29c60-02e2-4eb6-8cda-5702b3c1f2de> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/11cd9260-ebda-49ee-b901-8bb5e84bb0c4> a GO:0043409,
+<http://model.geneontology.org/MGI_MGI_2385045/8257cab0-b131-4f18-a23d-0b54a8bf56b7> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2385045/8582e9d9-249e-409d-966a-c76011ee0858> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2385045/96d265e1-6943-4654-801e-a83e0ab79702> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/4058fc9a-8f22-4a82-ad1f-e2d6938a277d> a GO:0005639,
+<http://model.geneontology.org/MGI_MGI_2385045/8582e9d9-249e-409d-966a-c76011ee0858> a MGI:MGI:2385045,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/54e6f195-2491-4cd5-b66a-d7deef21b090> a MGI:MGI:2385045,
+<http://model.geneontology.org/MGI_MGI_2385045/96d265e1-6943-4654-801e-a83e0ab79702> a GO:0043409,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/58b9af67-4a19-434d-82e2-6a95e7c22036> a MGI:MGI:2385045,
+<http://model.geneontology.org/MGI_MGI_2385045/9ca29c60-02e2-4eb6-8cda-5702b3c1f2de> a GO:0035914,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/64f65ac1-5e60-43e1-b3b7-d8123660d79f> a GO:0035914,
+<http://model.geneontology.org/MGI_MGI_2385045/d738fc90-65ef-407d-a4af-32c33af4c0d2> a CL:0000057,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2385045/d27dd373-1c7e-4a85-bb93-8e0f754afa61> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2385045/ddd3a380-561c-4d18-ae69-20b6f5316dbe> a GO:0005639,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2385045/58b9af67-4a19-434d-82e2-6a95e7c22036> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2385045/64f65ac1-5e60-43e1-b3b7-d8123660d79f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
@@ -222,100 +222,100 @@ obo:RO_0002333 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2385045/bd817aa8-812a-4faf-bed7-559f5f8c6335> a GO:0031965,
+<http://model.geneontology.org/MGI_MGI_2385045/9e435ab9-49e7-44c8-8fb4-d0f9eba540ed> a GO:0031965,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2385045/08721355-f6ed-40a5-a1b4-fa6c8d59a233> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2385045/d738fc90-65ef-407d-a4af-32c33af4c0d2> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/d42225f6-a96a-494d-b0f9-a23584756410> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/2b7f4e80-b868-4ef6-bc73-e1889d60e0b8>,
+        <http://model.geneontology.org/MGI_MGI_2385045/bc80ee32-491a-4a80-8e56-afb0ed2b7727> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0043409 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/01740c34-3844-4bc7-88da-aedcaab070be> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/54e6f195-2491-4cd5-b66a-d7deef21b090> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/157717d2-0e6d-41f2-9377-74e4b5b601e4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2385045  RO:0001025 GO:0005639 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q8NC56  2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=external ref PMID:16339967 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/e550a37e-6cdb-4c63-a398-3f71191e11d4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/4058fc9a-8f22-4a82-ad1f-e2d6938a277d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/3b3bc8f5-3687-4d00-a7ee-0aa52cc08f15>,
-        <http://model.geneontology.org/MGI_MGI_2385045/fd34bced-30cc-4102-9040-3c447531f864> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q8NC56  2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=external ref PMID:19720741 IGI UniProtKB:O08579|contributor-id=https://orcid.org/0000-0001-7476-6306",
         "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/d27dd373-1c7e-4a85-bb93-8e0f754afa61> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/64f65ac1-5e60-43e1-b3b7-d8123660d79f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/4350b714-dc62-4bd9-a5ee-580cdd94143c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/9ca29c60-02e2-4eb6-8cda-5702b3c1f2de> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/b4954354-a0ca-4bac-a9ca-96b88df58418> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/b8abf0c1-d061-41af-bad4-1e1b03be05c1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-02-13" ;
     dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0043409 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/01740c34-3844-4bc7-88da-aedcaab070be> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/11cd9260-ebda-49ee-b901-8bb5e84bb0c4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/1689e4a5-34b1-4594-a4a1-39538e657b56>,
-        <http://model.geneontology.org/MGI_MGI_2385045/e178b754-33da-4e2d-a45c-74d23dfb977d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q8NC56  2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=external ref PMID:19720741 IGI UniProtKB:O08579|contributor-id=https://orcid.org/0000-0001-7476-6306",
-        "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/d27dd373-1c7e-4a85-bb93-8e0f754afa61> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/58b9af67-4a19-434d-82e2-6a95e7c22036> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/0a959e80-3681-496c-a662-5e80c298b92f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2385045  RO:0001025 GO:0031965 MGI:MGI:3616114|PMID:16339967 ECO:0000314   2012-02-13 MGI BFO:0000050(CL:0000057) creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/337a8774-ec93-4065-8fdb-641f9473827b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/bd817aa8-812a-4faf-bed7-559f5f8c6335> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/5dd7e724-dfe0-448c-9fbe-ccee02392e40> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-02-13" ;
-    dct:created "2012-02-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2385045  RO:0001025 GO:0031965 MGI:MGI:3616114|PMID:16339967 ECO:0000314   2012-02-13 MGI BFO:0000050(CL:0000057) creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/bd817aa8-812a-4faf-bed7-559f5f8c6335> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/08721355-f6ed-40a5-a1b4-fa6c8d59a233> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/9e435ab9-49e7-44c8-8fb4-d0f9eba540ed> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/d738fc90-65ef-407d-a4af-32c33af4c0d2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/acacef06-b0b4-4232-9834-f2b81c38770e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0043409 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/8257cab0-b131-4f18-a23d-0b54a8bf56b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/96d265e1-6943-4654-801e-a83e0ab79702> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/57c6e7a6-e086-4c20-ab7c-20aa7b9312e8>,
+        <http://model.geneontology.org/MGI_MGI_2385045/d505c1bf-2f82-4dd0-b822-b89f5eb6bdff> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q8NC56  2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=external ref PMID:19720741 IGI UniProtKB:O08579|contributor-id=https://orcid.org/0000-0001-7476-6306",
+        "MGI:MGI:2385045  RO:0002264 GO:0035914 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/4350b714-dc62-4bd9-a5ee-580cdd94143c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/0cbaf318-5ab7-4613-96e7-156c7c880a64> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/c1110334-452d-407d-9adc-a1cf07b0f8ae> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2385045  RO:0001025 GO:0005639 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q8NC56  2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=external ref PMID:16339967 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/aa99098b-3bc3-4cb6-abd0-c5a9e9932204> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/ddd3a380-561c-4d18-ae69-20b6f5316dbe> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/7f53ba07-db14-4fdc-8276-ea92dfc82edb> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2385045  RO:0002264 GO:0043409 MGI:MGI:4366679|PMID:19720741 ECO:0000315   2012-02-13 MGI  creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type permanent cell line cell ; CLO:0000019 C2C12 ; ATCC:CRL-1772|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/8257cab0-b131-4f18-a23d-0b54a8bf56b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/8582e9d9-249e-409d-966a-c76011ee0858> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2385045/807100c8-9d68-4c66-8954-948190e78748> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-02-13" ;
+    dct:created "2012-02-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2385045  RO:0001025 GO:0031965 MGI:MGI:3616114|PMID:16339967 ECO:0000314   2012-02-13 MGI BFO:0000050(CL:0000057) creation-date=2012-02-13|modification-date=2012-02-13|comment=cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2385045/94281eb2-b19e-4d86-a2f4-77c278f8a957> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2385045/9e435ab9-49e7-44c8-8fb4-d0f9eba540ed> .
 

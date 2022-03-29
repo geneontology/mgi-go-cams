@@ -34,21 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2008-10-31" ;
     dc:title "Mrgpra1 (MGI:MGI:3033095)" ;
     dct:created "2008-10-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_3033095> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_3033095/22e834ff-807c-4706-8698-d1710528cc9f> a GO:0008188,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3033095/9c866958-5766-4392-ab94-afc8c48510c9> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-31" ;
-    dct:created "2008-10-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_3033095/714ed889-2b41-4379-95f2-0632d9d4f821> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_3033095/638806bc-cd32-4e35-8885-6c10cf10c23f> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-31" ;
@@ -57,25 +48,34 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "intracellular Ca2+ release assay; transfected HEK cells" .
 
+<http://model.geneontology.org/MGI_MGI_3033095/80c2f9a9-05c1-4887-8f9f-28888c25b242> a GO:0008188,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3033095/a53a3003-fbe7-4eef-92b1-dfee1c4af9e8> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-31" ;
+    dct:created "2008-10-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_3033095/9c866958-5766-4392-ab94-afc8c48510c9> a MGI:MGI:3033095,
+<http://model.geneontology.org/MGI_MGI_3033095/a53a3003-fbe7-4eef-92b1-dfee1c4af9e8> a MGI:MGI:3033095,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-31" ;
     dct:created "2008-10-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3033095/714ed889-2b41-4379-95f2-0632d9d4f821> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3033095/638806bc-cd32-4e35-8885-6c10cf10c23f> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-31" ;
     dct:created "2008-10-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3033095  RO:0002327 GO:0008188 MGI:MGI:2150459|PMID:11551509 ECO:0000314   2008-10-31 MGI  creation-date=2008-10-31|modification-date=2008-10-31|comment=intracellular Ca2+ release assay; transfected HEK cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3033095/22e834ff-807c-4706-8698-d1710528cc9f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3033095/9c866958-5766-4392-ab94-afc8c48510c9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3033095/80c2f9a9-05c1-4887-8f9f-28888c25b242> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3033095/a53a3003-fbe7-4eef-92b1-dfee1c4af9e8> .
 

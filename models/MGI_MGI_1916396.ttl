@@ -34,12 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2008-11-11" ;
     dc:title "Gsdmd (MGI:MGI:1916396)" ;
     dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1916396> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1916396/b5b03e60-15e5-4791-ad08-bc46c1ff090b> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1916396/32511105-9731-44cc-99d4-c478d68ca918> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
@@ -48,7 +48,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "changed expression in mesenchymes cultured with the dorsal" .
 
-<http://model.geneontology.org/MGI_MGI_1916396/dfbaa8db-e276-4c6b-b7fb-9c8f85505d9b> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1916396/cbb2030b-1929-440e-bd0c-62f4f8766f77> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
@@ -61,53 +61,53 @@ obo:RO_0002333 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1916396/2118692e-7cf9-4f1e-8a5d-157667674e46> a GO:0031668,
+<http://model.geneontology.org/MGI_MGI_1916396/81939c03-f8e7-4072-82bd-9f3d9161fbb5> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1916396/890f5966-1630-4e80-913c-50ae65a7b074> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1916396/998d6e8c-dd3a-42a8-8edd-05cc801c2c4e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
     dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1916396/5a7dfa47-7759-43e3-ab63-97b40111da72> a MGI:MGI:1916396,
+<http://model.geneontology.org/MGI_MGI_1916396/890f5966-1630-4e80-913c-50ae65a7b074> a MGI:MGI:1916396,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
     dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1916396/d17e8537-3098-45d8-85fe-bd997ac210d4> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1916396/998d6e8c-dd3a-42a8-8edd-05cc801c2c4e> a GO:0031668,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1916396/5a7dfa47-7759-43e3-ab63-97b40111da72> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1916396/2118692e-7cf9-4f1e-8a5d-157667674e46> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
     dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1916396/dfbaa8db-e276-4c6b-b7fb-9c8f85505d9b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1916396/cbb2030b-1929-440e-bd0c-62f4f8766f77> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-11" ;
     dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1916396  RO:0002264 GO:0031668 MGI:MGI:1335904|PMID:10322635 ECO:0000314   2008-11-11 MGI  creation-date=2008-11-11|modification-date=2008-11-11|comment=changed expression in mesenchymes cultured with the dorsal|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1916396/d17e8537-3098-45d8-85fe-bd997ac210d4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1916396/2118692e-7cf9-4f1e-8a5d-157667674e46> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1916396/b5b03e60-15e5-4791-ad08-bc46c1ff090b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-11" ;
-    dct:created "2008-11-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1916396  RO:0002264 GO:0031668 MGI:MGI:1335904|PMID:10322635 ECO:0000314   2008-11-11 MGI  creation-date=2008-11-11|modification-date=2008-11-11|comment=changed expression in mesenchymes cultured with the dorsal|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1916396/d17e8537-3098-45d8-85fe-bd997ac210d4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1916396/5a7dfa47-7759-43e3-ab63-97b40111da72> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1916396/81939c03-f8e7-4072-82bd-9f3d9161fbb5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1916396/890f5966-1630-4e80-913c-50ae65a7b074> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1916396/32511105-9731-44cc-99d4-c478d68ca918> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-11" ;
+    dct:created "2008-11-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1916396  RO:0002264 GO:0031668 MGI:MGI:1335904|PMID:10322635 ECO:0000314   2008-11-11 MGI  creation-date=2008-11-11|modification-date=2008-11-11|comment=changed expression in mesenchymes cultured with the dorsal|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1916396/81939c03-f8e7-4072-82bd-9f3d9161fbb5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1916396/998d6e8c-dd3a-42a8-8edd-05cc801c2c4e> .
 

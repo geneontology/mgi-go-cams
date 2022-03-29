@@ -34,21 +34,41 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2004-10-13" ;
     dc:title "Olfr585 (MGI:MGI:3030419)" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_3030419> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_3030419/098adf7d-35f3-427d-940f-a727ddd72630> a GO:0004984,
+<http://model.geneontology.org/MGI_MGI_3030419/01cc8c8f-6934-4292-bf0c-85f0a0c33a2f> a ECO:0000247,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/fa9de14a-64d2-47b3-934b-31098be37a06> ;
+    ns1:evidence-with "protein_id:AAD03349" ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dc:source "PMID:14611657" ;
+    dct:created "2004-10-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
+
+<http://model.geneontology.org/MGI_MGI_3030419/09a29400-aea6-4610-aa92-d011bf5c87b0> a ECO:0000247,
+        owl:NamedIndividual ;
+    ns1:evidence-with "protein_id:AAD03349" ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dc:source "PMID:14611657" ;
+    dct:created "2004-10-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
+
+<http://model.geneontology.org/MGI_MGI_3030419/2b108beb-7e8c-4dc9-8572-42030e8352ed> a MGI:MGI:3030419,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_3030419/8dbcd154-d28e-429d-a89c-3865185d9e82> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/1db7328b-f7ce-45e0-a769-37d55bc4838e> a ECO:0000247,
+<http://model.geneontology.org/MGI_MGI_3030419/4977a1be-5af3-4346-a1cf-1f884eae4b7f> a ECO:0000247,
         owl:NamedIndividual ;
     ns1:evidence-with "protein_id:AAD03349" ;
     dc:contributor "GOC:bobs" ;
@@ -58,7 +78,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/339fadac-770b-493e-bb3b-5e1df01e985f> a ECO:0000247,
+<http://model.geneontology.org/MGI_MGI_3030419/6a193199-ff2e-4910-87a6-fbb08c4993be> a ECO:0000247,
         owl:NamedIndividual ;
     ns1:evidence-with "protein_id:AAD03349" ;
     dc:contributor "GOC:bobs" ;
@@ -68,46 +88,26 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/661496e3-9cea-4adb-a700-88480437a585> a MGI:MGI:3030419,
+<http://model.geneontology.org/MGI_MGI_3030419/d3840319-aa6d-461e-aacc-281d1a5ed92d> a ECO:0000247,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_3030419/95120413-fac2-478e-850e-e68cc20747f1> ;
+    ns1:evidence-with "protein_id:AAD03349" ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dc:source "PMID:14611657" ;
+    dct:created "2004-10-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
+
+<http://model.geneontology.org/MGI_MGI_3030419/d571e3fa-de3a-487b-886c-3baf80a9abaa> a GO:0004984,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/c3dd1096-5ff6-4055-b43c-bd5e42ff9669> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/6f436031-e872-4254-8d75-237373af5b7c> a ECO:0000247,
-        owl:NamedIndividual ;
-    ns1:evidence-with "protein_id:AAD03349" ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dc:source "PMID:14611657" ;
-    dct:created "2004-10-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
-
-<http://model.geneontology.org/MGI_MGI_3030419/97cbcf50-80e8-42b4-a53b-e8ea3bc78596> a ECO:0000247,
-        owl:NamedIndividual ;
-    ns1:evidence-with "protein_id:AAD03349" ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dc:source "PMID:14611657" ;
-    dct:created "2004-10-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
-
-<http://model.geneontology.org/MGI_MGI_3030419/bda15c30-bbb3-4be2-9f32-77f61895e825> a ECO:0000247,
-        owl:NamedIndividual ;
-    ns1:evidence-with "protein_id:AAD03349" ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dc:source "PMID:14611657" ;
-    dct:created "2004-10-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656" .
-
-<http://model.geneontology.org/MGI_MGI_3030419/f672bf45-1be2-4cdd-89e9-b7d96f6a482c> a ECO:0000247,
+<http://model.geneontology.org/MGI_MGI_3030419/f7b60e33-f215-4425-99f0-01c33818968a> a ECO:0000247,
         owl:NamedIndividual ;
     ns1:evidence-with "protein_id:AAD03349" ;
     dc:contributor "GOC:bobs" ;
@@ -119,72 +119,72 @@ ns2:providedBy a owl:AnnotationProperty .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_3030419/0ae8c252-6da4-4085-8fbe-0273db818875> a GO:0007186,
+<http://model.geneontology.org/MGI_MGI_3030419/1277e10d-7812-45ba-8c04-9dc70fd6416c> a MGI:MGI:3030419,
         owl:NamedIndividual ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/30148ef0-1dce-4bf0-a28f-194f2bf2c3ca> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_3030419/2137b2e2-15ff-432d-ab2d-ce8f47e3e28c> a GO:0007186,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/659f048d-2b8e-473b-9b6a-dbf142953822> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_3030419/f0dc1931-0742-4fbb-a3d6-34ab22495a23> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/4707ee6d-07d0-4103-bed2-9faf7ddae6de> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_3030419/77c54f07-8754-48aa-a3f5-1ef7b79a5849> a GO:0007608,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/ad71c5b6-ea59-407c-953a-7d60d90aa45e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_3030419/0ae8c252-6da4-4085-8fbe-0273db818875> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/659f048d-2b8e-473b-9b6a-dbf142953822> a MGI:MGI:3030419,
+<http://model.geneontology.org/MGI_MGI_3030419/8dbcd154-d28e-429d-a89c-3865185d9e82> a GO:0016021,
         owl:NamedIndividual ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/95120413-fac2-478e-850e-e68cc20747f1> a GO:0016021,
+<http://model.geneontology.org/MGI_MGI_3030419/c3dd1096-5ff6-4055-b43c-bd5e42ff9669> a MGI:MGI:3030419,
         owl:NamedIndividual ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/ad71c5b6-ea59-407c-953a-7d60d90aa45e> a MGI:MGI:3030419,
+<http://model.geneontology.org/MGI_MGI_3030419/d9d06061-16a4-49ea-b847-66da9f05e07a> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/1277e10d-7812-45ba-8c04-9dc70fd6416c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_3030419/77c54f07-8754-48aa-a3f5-1ef7b79a5849> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/f0dc1931-0742-4fbb-a3d6-34ab22495a23> a GO:0007608,
+<http://model.geneontology.org/MGI_MGI_3030419/ed9876f3-bb4a-4dbf-829f-33d593844fd2> a MGI:MGI:3030419,
         owl:NamedIndividual ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_3030419/fa9de14a-64d2-47b3-934b-31098be37a06> a MGI:MGI:3030419,
+<http://model.geneontology.org/MGI_MGI_3030419/f0eb389b-802c-4015-b053-7205658fca91> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_3030419/ed9876f3-bb4a-4dbf-829f-33d593844fd2> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_3030419/2137b2e2-15ff-432d-ab2d-ce8f47e3e28c> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -192,74 +192,74 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/6f436031-e872-4254-8d75-237373af5b7c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/4977a1be-5af3-4346-a1cf-1f884eae4b7f> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007186 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/f0eb389b-802c-4015-b053-7205658fca91> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/ed9876f3-bb4a-4dbf-829f-33d593844fd2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/09a29400-aea6-4610-aa92-d011bf5c87b0> ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dct:created "2004-10-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007186 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/f0eb389b-802c-4015-b053-7205658fca91> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/2137b2e2-15ff-432d-ab2d-ce8f47e3e28c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/f7b60e33-f215-4425-99f0-01c33818968a> ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dct:created "2004-10-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007608 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/d9d06061-16a4-49ea-b847-66da9f05e07a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/1277e10d-7812-45ba-8c04-9dc70fd6416c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/01cc8c8f-6934-4292-bf0c-85f0a0c33a2f> ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dct:created "2004-10-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007608 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/d9d06061-16a4-49ea-b847-66da9f05e07a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/77c54f07-8754-48aa-a3f5-1ef7b79a5849> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/6a193199-ff2e-4910-87a6-fbb08c4993be> ;
+    dc:contributor "GOC:bobs" ;
+    dc:date "2004-10-13" ;
+    dct:created "2004-10-13" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3030419  RO:0002327 GO:0004984 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/098adf7d-35f3-427d-940f-a727ddd72630> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/fa9de14a-64d2-47b3-934b-31098be37a06> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/d571e3fa-de3a-487b-886c-3baf80a9abaa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/c3dd1096-5ff6-4055-b43c-bd5e42ff9669> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/339fadac-770b-493e-bb3b-5e1df01e985f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/d3840319-aa6d-461e-aacc-281d1a5ed92d> ;
     dc:contributor "GOC:bobs" ;
     dc:date "2004-10-13" ;
     dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:3030419  RO:0001025 GO:0016021 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/661496e3-9cea-4adb-a700-88480437a585> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/95120413-fac2-478e-850e-e68cc20747f1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/1db7328b-f7ce-45e0-a769-37d55bc4838e> ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007186 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/4707ee6d-07d0-4103-bed2-9faf7ddae6de> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/ad71c5b6-ea59-407c-953a-7d60d90aa45e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/bda15c30-bbb3-4be2-9f32-77f61895e825> ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007186 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/4707ee6d-07d0-4103-bed2-9faf7ddae6de> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/0ae8c252-6da4-4085-8fbe-0273db818875> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/f672bf45-1be2-4cdd-89e9-b7d96f6a482c> ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007608 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/30148ef0-1dce-4bf0-a28f-194f2bf2c3ca> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/f0dc1931-0742-4fbb-a3d6-34ab22495a23> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_3030419/97cbcf50-80e8-42b4-a53b-e8ea3bc78596> ;
-    dc:contributor "GOC:bobs" ;
-    dc:date "2004-10-13" ;
-    dct:created "2004-10-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:3030419  RO:0002264 GO:0007608 MGI:MGI:3029684|PMID:14611657 ECO:0000247 protein_id:AAD03349  2004-10-13 MGI  creation-date=2004-10-13|modification-date=2004-10-13|comment=homol_start_in_CDS=34 homol_end_in_CDS=939 homol_start_in_pep=6 homol_end_in_pep=306 percent_ident(pep)=51.656|contributor-id=GOC:bobs" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/30148ef0-1dce-4bf0-a28f-194f2bf2c3ca> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/659f048d-2b8e-473b-9b6a-dbf142953822> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_3030419/2b108beb-7e8c-4dc9-8572-42030e8352ed> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_3030419/8dbcd154-d28e-429d-a89c-3865185d9e82> .
 

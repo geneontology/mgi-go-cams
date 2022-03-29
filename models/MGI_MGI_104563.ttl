@@ -40,22 +40,85 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2011-02-23" ;
     dc:title "Napa (MGI:MGI:104563)" ;
     dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_104563> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_104563/0a64eb92-b0a5-4340-9b3b-e25586a7a27d> a GO:0000149,
+<http://model.geneontology.org/MGI_MGI_104563/03134cf9-3b8a-4763-9e59-5edb5be16b01> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/e00998f2-3b20-4718-bd92-f2b568b1fbb9> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2009-03-24" ;
-    dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dc:source "PMID:14758363" ;
+    dct:created "2004-04-21" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/0f6e5ab6-4787-48cf-9ce8-4816c1e1b3ca> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_104563/09f64f3d-ca0f-4af2-beef-70d326ce1728> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/0bd7bf55-da81-4ad2-9d56-173975eb23df> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P63044" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/0e039e80-440d-450c-8726-fd73a4940f74> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P60879" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/16409406-3707-4466-9ca6-79b8056eeb7a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dc:source "PMID:11706940" ;
+    dct:created "2002-04-17" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/16bc9f15-e855-4777-b17d-cb4613ec3fef> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P60879" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/261a1e02-864f-49fa-82cd-b954816272e4> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/2e523876-0956-419a-bc49-c9159067ae82> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:P54921" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
@@ -67,18 +130,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "external ref PMID:7553862 IDA",
         "rat" .
 
-<http://model.geneontology.org/MGI_MGI_104563/18e5db65-6827-44d7-a5b2-51b01a7d433d> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/1b2638b9-fb4a-497e-8307-ef4dd4563ea8> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/3063b878-03c2-4495-aaf8-3ef50efacc86> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P63044" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -89,25 +141,28 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/1fe0e086-c87f-4c5d-a9ff-1a44ab817c5a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_104563/37e5a03d-b999-4f96-8347-793e63e9ea92> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dc:source "PMID:14758363" ;
-    dct:created "2004-04-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/21e885cb-b058-4b93-95b6-0e20e40738f3> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_104563/40db9462-63db-4578-ac22-b73d2f4d8bf3> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
+    ns1:evidence-with "PR:P63044" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dc:source "PMID:14758363" ;
-    dct:created "2004-04-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/25f1546a-a40b-4601-b76a-a65dd87ea224> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_104563/495ac9f7-6c30-47e0-b63e-8b11e908a935> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:1856610" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -116,28 +171,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2002-04-17" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/25f5c92d-c0bd-4774-b426-f9e2a3e89b74> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/2c58b2d0-4865-4192-8c6d-febaa02b78f3> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/2ca4793a-65c4-488e-9c44-37958498d356> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/495dfb9b-7331-4caa-9902-eb1e428e049d> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P28663" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -148,28 +182,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/35598b87-7a2c-4784-9640-9c8e1672279b> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/3717ee1c-f93e-418d-93db-254699f68fde> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/37e29ffe-0af2-4b53-abf4-5b9a377ded8a> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_104563/4f454036-b87f-4e3b-90f6-fdd5087bb874> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:104562" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -181,79 +194,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
         "has_participant(CL:0000117)" .
 
-<http://model.geneontology.org/MGI_MGI_104563/3a002642-6d5c-4efc-945a-374dc32583b0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dc:source "PMID:14755058" ;
-    dct:created "2004-07-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/3c8049e4-1f51-4d56-a8e9-5b8976d9acaa> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dc:source "PMID:14755058" ;
-    dct:created "2004-07-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/450bb192-1f95-4765-8444-4e9cd776c12f> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P28663" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/45d0639b-fd4d-4bbe-a463-ce3807aeafc0> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/500d0320-abeb-4058-9cb9-121d1ab91f28> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "has_participant(CL:0000117)" .
-
-<http://model.geneontology.org/MGI_MGI_104563/56ff436d-9b6a-4160-a5bf-0c2f9587a2ea> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P28663" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/5885bc00-1b4c-4847-b96b-2bbd85d38b1a> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P63044" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/5ec64cb7-8601-4fe8-97e2-d61480a18d57> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_104563/596d02d5-142e-4060-8b9a-4471b69c8b1d> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:104562" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -264,9 +205,9 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/6519abc8-2de1-44c2-9900-2b2f220d86f3> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/5e1e0b1e-f205-4da0-9266-c6a370213c81> a ECO:0000316,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:P63044" ;
+    ns1:evidence-with "MGI:MGI:104562" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dc:source "PMID:21040848" ;
@@ -275,7 +216,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/66004391-0fa5-4f8f-a604-f46d225bc520> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/5f7339e3-b803-4b62-be21-ed0030f81e32> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:O35526" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -286,183 +227,17 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/6ec7f841-3520-4a39-a07c-bfd9dd4d3754> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/6580eb60-3fc3-4dfd-941e-7be02cbb06a6> a MGI:MGI:104563,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/818f773e-8dda-4197-a117-e7e50af2c93a> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/1f437ba8-f6f2-4efb-a160-c240c8b1fd25> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-03-24" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/73d6d3be-d761-4c15-bc56-9558880d6b4e> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/75dc6991-754e-4921-9dd3-e024702c08a3> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P60879" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/7f2b5182-a6ea-4d72-ad7f-2f9c7b28cce0> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/80f4172b-aba0-4be4-bff1-a24f48fe49bb> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/895e06e3-9563-423b-837c-12bad9772cea> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:O35526" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/89d23dcc-3c31-4f00-9948-b4188291e091> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/89dfadf5-1e92-4f00-8147-976fc728a86e> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P60879" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/98122f61-f254-441f-8351-c4353baad84d> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dc:source "PMID:11706940" ;
-    dct:created "2002-04-17" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/a4171f66-c619-4cd5-91e4-b117b607e427> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/1cf7eafb-9af7-4424-8a4e-8fd802f2e72c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/a6b53e99-f396-46c6-8a07-905c3b818819> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P60879" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/b0baceb0-5dc5-4dfd-8dd7-306031bb60e7> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dc:source "PMID:14758363" ;
-    dct:created "2004-04-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/be2cb61c-06a3-44a1-8e9d-36f2985b3ffc> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P60879" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/cfd46488-c86a-46e2-b504-5d9c4b122564> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dc:source "PMID:14758363" ;
-    dct:created "2004-04-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/d12ad8c7-98ba-4f65-b017-119465694aba> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/d4277d65-632f-4d24-bc97-1949fd54ac54> a GO:0019905,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/bae8843b-1efc-495c-8cc2-48a46d4877b8> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/d492cd41-405b-40b7-9175-0bea80688ce8> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:O35526" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_104563/dc4aef56-46ca-4516-b068-deaa2e85417e> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/68a94ff6-926b-4b18-9197-1f2143a17e2f> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P28663" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -473,7 +248,182 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e38cee21-3b0a-4ceb-8916-7a7a682b7aa6> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_104563/69ea6fca-b844-4906-bbd5-38db42d06bb9> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/7186b869-e5dd-4702-902b-8ab053de5b3e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dc:source "PMID:14755058" ;
+    dct:created "2004-07-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/71f2a94e-ae8b-414d-b1db-052c171475e1> a GO:0000149,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/d52ab2be-c5ce-4f0b-83fb-168bc1fe209a> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2009-03-24" ;
+    dct:created "2008-10-01" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/7b85836e-c8a6-46ea-b988-c5bbb8e49c1e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dc:source "PMID:14755058" ;
+    dct:created "2004-07-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/7e8f4b87-4874-4844-b2be-d417d7461d73> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/820612d3-710c-4897-bbe9-0ea6f02855b8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dc:source "PMID:14755058" ;
+    dct:created "2004-07-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/8bdccbc1-fd52-4c46-aaed-9218052295d6> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/8e7d163b-5d74-4cc1-bdbd-1107a7c917c7> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P28663" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/954a374c-66de-448a-9222-3708c540a264> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:O35526" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/971fd0a6-bd55-4e7e-8bc1-68759d9cdc11> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dc:source "PMID:14758363" ;
+    dct:created "2004-04-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/97744c9a-4d47-4e07-a274-fe084188a50c> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/9c7af78d-f23f-4e6d-bd66-362d62220562> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dc:source "PMID:14758363" ;
+    dct:created "2004-04-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/9d49f3f6-aa69-45f7-812e-8f2a575bb70f> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "has_participant(CL:0000117)" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a059ebdd-d9ce-4604-abf7-c278aacb091e> a GO:0019905,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/a2efa233-f675-48ac-89a6-7cd384d64948> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a1717585-94b8-4272-8091-cd0bd686c0df> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a3696bb4-81c9-48b7-b1a6-56ca953d2770> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
+        "has_participant(CL:0000117)" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a8d58c37-72de-4323-9ce1-5280be1c4bc9> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:O35526" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/bbf5cb8f-9406-4b11-9877-ba88cb6c28e0> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:P54921" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
@@ -485,30 +435,9 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "external ref PMID:7553862 IDA",
         "rat" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e58715c0-ae28-4e13-ac53-e410e08d0948> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_104563/bcf01a29-c4e6-4383-b55b-9be2c4c08cdc> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dc:source "PMID:21040848" ;
-    dct:created "2011-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy hippocampus ; MA:0000191",
-        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117",
-        "has_participant(CL:0000117)" .
-
-<http://model.geneontology.org/MGI_MGI_104563/e5c699e7-00d0-4f43-a198-a46a5c507ff7> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856610" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dc:source "PMID:14755058" ;
-    dct:created "2004-07-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/ea1cd12d-0521-46f9-8300-36c017aa98ae> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:104562" ;
+    ns1:evidence-with "PR:P28663" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dc:source "PMID:21040848" ;
@@ -517,7 +446,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/effc860f-6f6d-49ec-8971-6565fdab64a7> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/c6513bc2-dede-4549-88f7-66b0aba56ed0> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:O35526" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -528,9 +457,80 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy hippocampus ; MA:0000191",
         "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_104563/fbf82314-5057-4cec-9925-795d8c9f752e> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_104563/c93a6402-08d0-4348-b34f-a92d2fb8af5f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856610" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dc:source "PMID:14758363" ;
+    dct:created "2004-04-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/cba6dd02-a52c-43d3-8869-025eb32859ba> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/d6d21a27-2f1f-45b1-b685-114ea34de88d> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P60879" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/ea2e45f9-fdf3-44fa-b2b3-8ee5082a0eb8> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/ef122f37-ca03-4504-a806-8caf03f4418f> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:104562" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/f0f2165f-b2a8-4d42-82fd-ffd814a70550> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P63044" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dc:source "PMID:21040848" ;
+    dct:created "2011-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy hippocampus ; MA:0000191",
+        "cell type CNS neuron (sensu Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_104563/f93ce01e-4afa-4e8d-a417-7fd970998991> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/bfe0886f-8826-4533-a438-7fda470bb520> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/feb62ce0-c303-441d-9b55-c6642e5b2dd6> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P60879" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dc:source "PMID:21040848" ;
@@ -541,479 +541,479 @@ ns2:providedBy a owl:AnnotationProperty .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_104563/006f800a-53cb-4231-9c9e-c0c22f415558> a EMAPA:32845,
+<http://model.geneontology.org/MGI_MGI_104563/0653becb-61d9-4d3c-8378-0c7ce6053273> a PR:P63044,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/00d354e1-f150-46c5-b75d-2cfb46938025> a GO:0007420,
+<http://model.geneontology.org/MGI_MGI_104563/0c29cf4e-c8c4-471d-81e1-ff734b2bf056> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/dd73fa35-2810-4639-912f-be4f053bdf21> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/b37f5d41-c8a6-494c-baa8-167a27bb8d06> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/04a2d131-58ed-42e3-9c9a-20bc3e3663c8> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/04d121f4-b57f-489b-bda3-257d5683b64a> a EMAPA:32845,
+<http://model.geneontology.org/MGI_MGI_104563/14693101-9c9d-48ca-a60f-3abbfe6263a7> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/0a8ba18f-2d15-44a5-ba85-23649925fd91> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/417e6eed-8a59-4b3e-a4f4-82e4751ebc11> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/d98e843f-c971-4504-9948-12254694a40e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/1029e6a7-e311-40f8-8bc4-fb6821bb8821> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/19025c95-0708-468b-8e57-13be16468223> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/1217d39d-0cd9-4d78-9aa9-c5cf99075aab> a PR:P28663,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/1ab96c3c-c197-407d-a08b-93bfa6f89d99> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/04a2d131-58ed-42e3-9c9a-20bc3e3663c8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/00d354e1-f150-46c5-b75d-2cfb46938025> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/224074e4-6770-48d0-8745-6d13931bc0da> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/3a38e838-8490-478b-aca2-cc1bd2afa437> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/4d62baa5-eac5-4a51-8ad6-a44412817194> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/2a94c828-ca08-4fb7-b27a-cd5ec213b60f> a EMAPA:32845,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/3a38e838-8490-478b-aca2-cc1bd2afa437> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/40281577-2a2e-46d4-9085-bda901455ce3> a EMAPA:32845,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/417e6eed-8a59-4b3e-a4f4-82e4751ebc11> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/4240bb1c-57df-45c5-97a1-6ff31690e89b> a PR:P60879,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/44c1300f-1485-4c02-bd3c-0f9b4be30926> a EMAPA:32845,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/661b8c5d-87bd-4da5-ba33-cb4dac0cceec> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/7bd700fc-0383-42f6-9abd-b521a3feb55b> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/7df2d172-f12c-4dd7-86c0-bd589a21b5a8> a EMAPA:32845,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/7f194aa2-b68d-4dcc-b6a4-5698671fc2d6> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/818f773e-8dda-4197-a117-e7e50af2c93a> a GO:0070044,
+<http://model.geneontology.org/MGI_MGI_104563/1f437ba8-f6f2-4efb-a160-c240c8b1fd25> a GO:0070044,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-03-24" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/946513a3-c0e7-48ab-bb90-b80119d7a4c9> a PR:O35526,
+<http://model.geneontology.org/MGI_MGI_104563/256411c6-caaf-47d8-ab34-27fde60369ed> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/36197812-221e-4e00-8986-9ddcc54320c2> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/a0e05073-4d27-4f0c-a3e3-5254fe1c819e> a GO:0045176,
+<http://model.geneontology.org/MGI_MGI_104563/3d11b6a6-de69-4868-bf29-7ae9b5eb419d> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/7ef4c0c1-637e-447c-99a2-6fff2e762f7f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/d2a03c09-f2d0-4df3-8620-def5e964dd5d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/b673d06c-b315-4019-b89d-3c1d01631ec3> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/3de58180-5d87-41c3-9be7-81b45538e304> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/b9a88979-4187-4661-b257-036bb3c706ad> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/3f010fcb-9b7d-4987-91d1-abc8199298cd> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/a13b4b46-d4cb-4d10-aedf-8127dfd7a723> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/f0c31ab3-cb96-40e0-89ca-b751f39c0fa4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/4845e193-3f7e-4554-b0d4-4094d794d28f> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/4b826319-3a0b-45bb-91e5-103a1d4b3061> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/bae8843b-1efc-495c-8cc2-48a46d4877b8> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/4b889c7e-f60d-4d3e-a50b-cbdb91207a35> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/6909a3e3-390b-4322-bc85-41b41c447d5a> a CL:0000117,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/71445386-38e5-40ee-96d9-86989a9d247c> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dct:created "2002-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/73032f10-bae4-4fa8-bb01-834262d93e43> a GO:0007420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dct:created "2002-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/7ef4c0c1-637e-447c-99a2-6fff2e762f7f> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/8cbc251d-b667-45ba-8bc8-09b6e442021b> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a13b4b46-d4cb-4d10-aedf-8127dfd7a723> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/a2efa233-f675-48ac-89a6-7cd384d64948> a MGI:MGI:104563,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2004-07-16" ;
     dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/bd576988-7f95-4329-81f1-1bab91e73981> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/ace50414-0c2c-4e9d-9d7a-c0c743e79b05> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/ad69281e-61d0-417a-8168-2bdcfc656a38> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/256411c6-caaf-47d8-ab34-27fde60369ed> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/befb02a0-ba52-4cbf-b0cd-48e94b1f5c9b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/ad95a264-535f-43bc-93dc-696e445ebe0e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/ace50414-0c2c-4e9d-9d7a-c0c743e79b05> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/16ae3b7d-7adb-4a14-87fa-3881e409d3d8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/b678fa3c-aa76-49e2-b97b-5f5d393ae53d> a PR:P28663,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/bef87e46-7bad-4129-898d-46eea83e1f6b> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/befb02a0-ba52-4cbf-b0cd-48e94b1f5c9b> a GO:0045176,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2004-04-21" ;
     dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/c0e4e339-5a44-45fc-8780-142afb9b3e62> a GO:0006886,
+<http://model.geneontology.org/MGI_MGI_104563/bf9f87aa-1603-434d-aa56-0f7110c0c719> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/71445386-38e5-40ee-96d9-86989a9d247c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/73032f10-bae4-4fa8-bb01-834262d93e43> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dct:created "2002-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/c020633c-fad8-4582-908c-38e2bfac479f> a MGI:MGI:104563,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/c586728c-80fc-49fc-b58a-8f3ec9bc5602> a GO:0006886,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2004-07-16" ;
     dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/c1c5fca5-1083-4bbb-a44c-afd9db44814b> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/e1cbac5e-9893-4a1f-a0bd-4a8a1f5f10a9> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/c0e4e339-5a44-45fc-8780-142afb9b3e62> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/c5c57285-4e2a-4221-bd21-4441ae0168b1> a GO:0030182,
+<http://model.geneontology.org/MGI_MGI_104563/cd2416a8-7a7c-4518-952c-9959a9f29b1a> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/d1bbb1b8-cf5e-4b5d-b2c8-deb5348e9d71> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/d2623168-29c4-4f15-b268-7d6c2cc1044e> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/d2789b4d-0198-447f-bac3-5eb978ea0a0a> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_104563/d3633447-0f59-4d41-a2c3-487cdfea65f0> a PR:P60879,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/bd576988-7f95-4329-81f1-1bab91e73981> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/a0e05073-4d27-4f0c-a3e3-5254fe1c819e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e00998f2-3b20-4718-bd92-f2b568b1fbb9> a MGI:MGI:104563,
+<http://model.geneontology.org/MGI_MGI_104563/d44fb319-e467-4f35-85ee-f685e27b9170> a EMAPA:32845,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_104563/d52ab2be-c5ce-4f0b-83fb-168bc1fe209a> a MGI:MGI:104563,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-03-24" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e1cbac5e-9893-4a1f-a0bd-4a8a1f5f10a9> a MGI:MGI:104563,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/e4068fbe-4c1d-4ff0-9486-db8c9fb81ae2> a EMAPA:32845,
+<http://model.geneontology.org/MGI_MGI_104563/dd73fa35-2810-4639-912f-be4f053bdf21> a MGI:MGI:104563,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e4fc1e73-d70a-47e7-9061-9442793819e4> a EMAPA:32845,
+<http://model.geneontology.org/MGI_MGI_104563/e5a5e1ef-0122-483d-b7fc-32f0d447df36> a PR:O35526,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e8ed96a6-d9d8-4545-b255-a275e222ec7a> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_104563/f0c31ab3-cb96-40e0-89ca-b751f39c0fa4> a GO:0030182,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/d1bbb1b8-cf5e-4b5d-b2c8-deb5348e9d71> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/c5c57285-4e2a-4221-bd21-4441ae0168b1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2004-04-21" ;
     dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/eb1efb22-907f-451c-9f1c-353bec9c5acf> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_104563/f6a6c55d-6a14-452e-b905-00286c5ef7be> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/661b8c5d-87bd-4da5-ba33-cb4dac0cceec> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/8fd0ac80-51a1-4ba7-9f81-8cc9f488ea26> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_104563/ecc2916f-c97e-45ad-9037-f4741ccbd90b> a PR:P63044,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/4845e193-3f7e-4554-b0d4-4094d794d28f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_104563/c586728c-80fc-49fc-b58a-8f3ec9bc5602> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002211 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_104563/0bd43b1b-fcf0-4125-a97e-f5902ea2d68f> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_104563/1d819d70-1402-4cd0-a981-7ec79925eb48> a GO:0005515,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/c301c7fd-2e64-4462-b57f-87990cc69161> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/946513a3-c0e7-48ab-bb90-b80119d7a4c9> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/7f194aa2-b68d-4dcc-b6a4-5698671fc2d6> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/7fd6106f-981f-4077-a1c2-84bd0f5c8271> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/b678fa3c-aa76-49e2-b97b-5f5d393ae53d> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/bef87e46-7bad-4129-898d-46eea83e1f6b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/1cf7eafb-9af7-4424-8a4e-8fd802f2e72c> a GO:0070044,
+<http://model.geneontology.org/MGI_MGI_104563/246cc901-0d80-4abc-9bb9-54922504d63e> a CL:0000117,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_104563/ee328cde-effe-4081-a9b1-acc5e15fd9d7> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/d44fb319-e467-4f35-85ee-f685e27b9170> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/24849250-3e9c-4e08-b2e0-f1b6b9b75f59> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_104563/2cccfa87-b637-4dd5-a487-2984274c9991> a GO:0016082,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/2e580490-5d4d-4785-9dee-e24eca025102> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/1217d39d-0cd9-4d78-9aa9-c5cf99075aab> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/7bd700fc-0383-42f6-9abd-b521a3feb55b> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/4b826319-3a0b-45bb-91e5-103a1d4b3061> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/266b926e-1bbd-4efe-867a-fb2c34767744> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_104563/383654a0-98d9-4769-9849-4d5cf7b7096d> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/e94bed9e-056e-497a-be7d-0a7ef2f0c72b> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/4240bb1c-57df-45c5-97a1-6ff31690e89b> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/b9a88979-4187-4661-b257-036bb3c706ad> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/19025c95-0708-468b-8e57-13be16468223> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/2e580490-5d4d-4785-9dee-e24eca025102> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/550a9072-ce06-4f0f-bfd3-dd62763aca68> a GO:0005515,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/2a94c828-ca08-4fb7-b27a-cd5ec213b60f> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/383654a0-98d9-4769-9849-4d5cf7b7096d> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/0653becb-61d9-4d3c-8378-0c7ce6053273> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/8cbc251d-b667-45ba-8bc8-09b6e442021b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/4d62baa5-eac5-4a51-8ad6-a44412817194> a GO:0035494,
+<http://model.geneontology.org/MGI_MGI_104563/7cecc681-556f-4242-978a-4a276909ec00> a GO:0005515,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/656907f4-a54f-4e0b-9f43-32f7b8ec3581> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/abb15cf6-e6d5-4ff0-bdf0-d0bd696f4db1> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/e5a5e1ef-0122-483d-b7fc-32f0d447df36> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/c020633c-fad8-4582-908c-38e2bfac479f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/5ccf99db-99ee-4277-96d0-028c41e8d2c5> a GO:0016082,
+<http://model.geneontology.org/MGI_MGI_104563/7fd6106f-981f-4077-a1c2-84bd0f5c8271> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/b673d06c-b315-4019-b89d-3c1d01631ec3> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/cd2416a8-7a7c-4518-952c-9959a9f29b1a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/656907f4-a54f-4e0b-9f43-32f7b8ec3581> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/8b5e0ada-2e1d-4a5f-a42a-2483350c6f6a> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/04d121f4-b57f-489b-bda3-257d5683b64a> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/d2623168-29c4-4f15-b268-7d6c2cc1044e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/8a3175a3-1918-4a10-9362-e1b47ab4f315> a GO:0016082,
+<http://model.geneontology.org/MGI_MGI_104563/8b9b08b9-af7e-4707-928c-0e8752026c1d> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/006f800a-53cb-4231-9c9e-c0c22f415558> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/3de58180-5d87-41c3-9be7-81b45538e304> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/c301c7fd-2e64-4462-b57f-87990cc69161> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/92a40f91-ba95-4e08-ace2-a43a2b20744f> a GO:0005515,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/7df2d172-f12c-4dd7-86c0-bd589a21b5a8> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/8b9b08b9-af7e-4707-928c-0e8752026c1d> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/d3633447-0f59-4d41-a2c3-487cdfea65f0> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/4b889c7e-f60d-4d3e-a50b-cbdb91207a35> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/cf81a103-653d-4def-bb94-e7a4f973653c> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_104563/aa01a0f4-fff6-4d6b-bf33-7fbeead9ed6f> a GO:0016082,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/f9b8d7b1-1b35-482b-8ac4-6130db458eb4> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_104563/ecc2916f-c97e-45ad-9037-f4741ccbd90b> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_104563/1029e6a7-e311-40f8-8bc4-fb6821bb8821> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/6909a3e3-390b-4322-bc85-41b41c447d5a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/d98e843f-c971-4504-9948-12254694a40e> a GO:0035249,
+<http://model.geneontology.org/MGI_MGI_104563/abb15cf6-e6d5-4ff0-bdf0-d0bd696f4db1> a CL:0000117,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/e4068fbe-4c1d-4ff0-9486-db8c9fb81ae2> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/14693101-9c9d-48ca-a60f-3abbfe6263a7> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/e94bed9e-056e-497a-be7d-0a7ef2f0c72b> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/b37f5d41-c8a6-494c-baa8-167a27bb8d06> a GO:0035494,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/40281577-2a2e-46d4-9085-bda901455ce3> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/246cc901-0d80-4abc-9bb9-54922504d63e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/ee328cde-effe-4081-a9b1-acc5e15fd9d7> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/bfe0886f-8826-4533-a438-7fda470bb520> a GO:0070044,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/e4fc1e73-d70a-47e7-9061-9442793819e4> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_104563/8b5e0ada-2e1d-4a5f-a42a-2483350c6f6a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/f9b8d7b1-1b35-482b-8ac4-6130db458eb4> a CL:0000117,
+<http://model.geneontology.org/MGI_MGI_104563/d2a03c09-f2d0-4df3-8620-def5e964dd5d> a GO:0035249,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_104563/44c1300f-1485-4c02-bd3c-0f9b4be30926> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_104563/36197812-221e-4e00-8986-9ddcc54320c2> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_104563/8fd0ac80-51a1-4ba7-9f81-8cc9f488ea26> a GO:0010807,
+<http://model.geneontology.org/MGI_MGI_104563/16ae3b7d-7adb-4a14-87fa-3881e409d3d8> a GO:0010807,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_104563/5ccf99db-99ee-4277-96d0-028c41e8d2c5>,
-        <http://model.geneontology.org/MGI_MGI_104563/8a3175a3-1918-4a10-9362-e1b47ab4f315> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_104563/2cccfa87-b637-4dd5-a487-2984274c9991>,
+        <http://model.geneontology.org/MGI_MGI_104563/aa01a0f4-fff6-4d6b-bf33-7fbeead9ed6f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
@@ -1027,520 +1027,520 @@ obo:BFO_0000066 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/fbf82314-5057-4cec-9925-795d8c9f752e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/f9b8d7b1-1b35-482b-8ac4-6130db458eb4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/44c1300f-1485-4c02-bd3c-0f9b4be30926> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/5ec64cb7-8601-4fe8-97e2-d61480a18d57> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/8a3175a3-1918-4a10-9362-e1b47ab4f315> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/006f800a-53cb-4231-9c9e-c0c22f415558> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/1b2638b9-fb4a-497e-8307-ef4dd4563ea8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/cf81a103-653d-4def-bb94-e7a4f973653c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/ecc2916f-c97e-45ad-9037-f4741ccbd90b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/98122f61-f254-441f-8351-c4353baad84d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0007420 MGI:MGI:2157723|PMID:11706940 ECO:0000315 MGI:MGI:1856610  2002-04-17 MGI  creation-date=2002-04-17|modification-date=2002-04-17|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1ab96c3c-c197-407d-a08b-93bfa6f89d99> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/04a2d131-58ed-42e3-9c9a-20bc3e3663c8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/ea1cd12d-0521-46f9-8300-36c017aa98ae> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/224074e4-6770-48d0-8745-6d13931bc0da> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/4d62baa5-eac5-4a51-8ad6-a44412817194> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/cfd46488-c86a-46e2-b504-5d9c4b122564> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0045176 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/d2789b4d-0198-447f-bac3-5eb978ea0a0a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/bd576988-7f95-4329-81f1-1bab91e73981> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/5885bc00-1b4c-4847-b96b-2bbd85d38b1a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/cf81a103-653d-4def-bb94-e7a4f973653c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/f9b8d7b1-1b35-482b-8ac4-6130db458eb4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/89dfadf5-1e92-4f00-8147-976fc728a86e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/266b926e-1bbd-4efe-867a-fb2c34767744> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/b9a88979-4187-4661-b257-036bb3c706ad> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/effc860f-6f6d-49ec-8971-6565fdab64a7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0bd43b1b-fcf0-4125-a97e-f5902ea2d68f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/c301c7fd-2e64-4462-b57f-87990cc69161> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/6519abc8-2de1-44c2-9900-2b2f220d86f3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/cf81a103-653d-4def-bb94-e7a4f973653c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/1029e6a7-e311-40f8-8bc4-fb6821bb8821> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/73d6d3be-d761-4c15-bc56-9558880d6b4e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/224074e4-6770-48d0-8745-6d13931bc0da> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/3a38e838-8490-478b-aca2-cc1bd2afa437> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/2c58b2d0-4865-4192-8c6d-febaa02b78f3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/656907f4-a54f-4e0b-9f43-32f7b8ec3581> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/04d121f4-b57f-489b-bda3-257d5683b64a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/2ca4793a-65c4-488e-9c44-37958498d356> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/24849250-3e9c-4e08-b2e0-f1b6b9b75f59> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/1217d39d-0cd9-4d78-9aa9-c5cf99075aab> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/89d23dcc-3c31-4f00-9948-b4188291e091> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/5ccf99db-99ee-4277-96d0-028c41e8d2c5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/b673d06c-b315-4019-b89d-3c1d01631ec3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/25f1546a-a40b-4601-b76a-a65dd87ea224> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2002-04-17" ;
-    dct:created "2002-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0007420 MGI:MGI:2157723|PMID:11706940 ECO:0000315 MGI:MGI:1856610  2002-04-17 MGI  creation-date=2002-04-17|modification-date=2002-04-17|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1ab96c3c-c197-407d-a08b-93bfa6f89d99> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/00d354e1-f150-46c5-b75d-2cfb46938025> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/80f4172b-aba0-4be4-bff1-a24f48fe49bb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/8fd0ac80-51a1-4ba7-9f81-8cc9f488ea26> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/5ccf99db-99ee-4277-96d0-028c41e8d2c5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/3c8049e4-1f51-4d56-a8e9-5b8976d9acaa> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0019905 MGI:MGI:3029642|PMID:14755058 ECO:0000314   2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/d4277d65-632f-4d24-bc97-1949fd54ac54> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/bae8843b-1efc-495c-8cc2-48a46d4877b8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/895e06e3-9563-423b-837c-12bad9772cea> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/c301c7fd-2e64-4462-b57f-87990cc69161> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/7df2d172-f12c-4dd7-86c0-bd589a21b5a8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/66004391-0fa5-4f8f-a604-f46d225bc520> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0bd43b1b-fcf0-4125-a97e-f5902ea2d68f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/946513a3-c0e7-48ab-bb90-b80119d7a4c9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/45d0639b-fd4d-4bbe-a463-ce3807aeafc0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/ee328cde-effe-4081-a9b1-acc5e15fd9d7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e4fc1e73-d70a-47e7-9061-9442793819e4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/7f2b5182-a6ea-4d72-ad7f-2f9c7b28cce0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/eb1efb22-907f-451c-9f1c-353bec9c5acf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/661b8c5d-87bd-4da5-ba33-cb4dac0cceec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/75dc6991-754e-4921-9dd3-e024702c08a3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/e94bed9e-056e-497a-be7d-0a7ef2f0c72b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/40281577-2a2e-46d4-9085-bda901455ce3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/25f5c92d-c0bd-4774-b426-f9e2a3e89b74> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1cf7eafb-9af7-4424-8a4e-8fd802f2e72c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/ee328cde-effe-4081-a9b1-acc5e15fd9d7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/3717ee1c-f93e-418d-93db-254699f68fde> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/a4171f66-c619-4cd5-91e4-b117b607e427> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/1cf7eafb-9af7-4424-8a4e-8fd802f2e72c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/3a002642-6d5c-4efc-945a-374dc32583b0> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0006886 MGI:MGI:3029642|PMID:14755058 ECO:0000315 MGI:MGI:1856610  2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/c1c5fca5-1083-4bbb-a44c-afd9db44814b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/c0e4e339-5a44-45fc-8780-142afb9b3e62> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/be2cb61c-06a3-44a1-8e9d-36f2985b3ffc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/266b926e-1bbd-4efe-867a-fb2c34767744> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e94bed9e-056e-497a-be7d-0a7ef2f0c72b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/0f6e5ab6-4787-48cf-9ce8-4816c1e1b3ca> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/2e523876-0956-419a-bc49-c9159067ae82> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-03-24" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0000149 MGI:MGI:76787|PMID:7553862 ECO:0000266 UniProtKB:P54921  2009-03-24 MGI  creation-date=2008-10-01|modification-date=2009-03-24|comment=external ref PMID:7553862 IDA|comment=rat|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0a64eb92-b0a5-4340-9b3b-e25586a7a27d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e00998f2-3b20-4718-bd92-f2b568b1fbb9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/71f2a94e-ae8b-414d-b1db-052c171475e1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d52ab2be-c5ce-4f0b-83fb-168bc1fe209a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/35598b87-7a2c-4784-9640-9c8e1672279b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/d6d21a27-2f1f-45b1-b685-114ea34de88d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/8fd0ac80-51a1-4ba7-9f81-8cc9f488ea26> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/8a3175a3-1918-4a10-9362-e1b47ab4f315> .
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/92a40f91-ba95-4e08-ace2-a43a2b20744f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/4b889c7e-f60d-4d3e-a50b-cbdb91207a35> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/18e5db65-6827-44d7-a5b2-51b01a7d433d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/4d62baa5-eac5-4a51-8ad6-a44412817194> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/656907f4-a54f-4e0b-9f43-32f7b8ec3581> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/1fe0e086-c87f-4c5d-a9ff-1a44ab817c5a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/971fd0a6-bd55-4e7e-8bc1-68759d9cdc11> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2004-04-21" ;
     dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0030182 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/e8ed96a6-d9d8-4545-b255-a275e222ec7a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/c5c57285-4e2a-4221-bd21-4441ae0168b1> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/3f010fcb-9b7d-4987-91d1-abc8199298cd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/f0c31ab3-cb96-40e0-89ca-b751f39c0fa4> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/e58715c0-ae28-4e13-ac53-e410e08d0948> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/5e1e0b1e-f205-4da0-9266-c6a370213c81> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035249 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=has_participant(CL:0000117)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/d98e843f-c971-4504-9948-12254694a40e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e4068fbe-4c1d-4ff0-9486-db8c9fb81ae2> .
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/246cc901-0d80-4abc-9bb9-54922504d63e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d44fb319-e467-4f35-85ee-f685e27b9170> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/d12ad8c7-98ba-4f65-b017-119465694aba> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/ea2e45f9-fdf3-44fa-b2b3-8ee5082a0eb8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/8b5e0ada-2e1d-4a5f-a42a-2483350c6f6a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d2623168-29c4-4f15-b268-7d6c2cc1044e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/3063b878-03c2-4495-aaf8-3ef50efacc86> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/550a9072-ce06-4f0f-bfd3-dd62763aca68> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/383654a0-98d9-4769-9849-4d5cf7b7096d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/495ac9f7-6c30-47e0-b63e-8b11e908a935> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dct:created "2002-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0007420 MGI:MGI:2157723|PMID:11706940 ECO:0000315 MGI:MGI:1856610  2002-04-17 MGI  creation-date=2002-04-17|modification-date=2002-04-17|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/bf9f87aa-1603-434d-aa56-0f7110c0c719> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/73032f10-bae4-4fa8-bb01-834262d93e43> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/596d02d5-142e-4060-8b9a-4471b69c8b1d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/eb1efb22-907f-451c-9f1c-353bec9c5acf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/8fd0ac80-51a1-4ba7-9f81-8cc9f488ea26> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/ad95a264-535f-43bc-93dc-696e445ebe0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/ace50414-0c2c-4e9d-9d7a-c0c743e79b05> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/e38cee21-3b0a-4ceb-8916-7a7a682b7aa6> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/7b85836e-c8a6-46ea-b988-c5bbb8e49c1e> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0006886 MGI:MGI:3029642|PMID:14755058 ECO:0000315 MGI:MGI:1856610  2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/f6a6c55d-6a14-452e-b905-00286c5ef7be> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/c586728c-80fc-49fc-b58a-8f3ec9bc5602> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/37e5a03d-b999-4f96-8347-793e63e9ea92> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/f93ce01e-4afa-4e8d-a417-7fd970998991> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/bfe0886f-8826-4533-a438-7fda470bb520> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/69ea6fca-b844-4906-bbd5-38db42d06bb9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0c29cf4e-c8c4-471d-81e1-ff734b2bf056> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/dd73fa35-2810-4639-912f-be4f053bdf21> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/8bdccbc1-fd52-4c46-aaed-9218052295d6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/2cccfa87-b637-4dd5-a487-2984274c9991> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/4b826319-3a0b-45bb-91e5-103a1d4b3061> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/16409406-3707-4466-9ca6-79b8056eeb7a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2002-04-17" ;
+    dct:created "2002-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0007420 MGI:MGI:2157723|PMID:11706940 ECO:0000315 MGI:MGI:1856610  2002-04-17 MGI  creation-date=2002-04-17|modification-date=2002-04-17|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/bf9f87aa-1603-434d-aa56-0f7110c0c719> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/71445386-38e5-40ee-96d9-86989a9d247c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/0bd7bf55-da81-4ad2-9d56-173975eb23df> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/550a9072-ce06-4f0f-bfd3-dd62763aca68> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/8cbc251d-b667-45ba-8bc8-09b6e442021b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/bcf01a29-c4e6-4383-b55b-9be2c4c08cdc> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1d819d70-1402-4cd0-a981-7ec79925eb48> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/7fd6106f-981f-4077-a1c2-84bd0f5c8271> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/03134cf9-3b8a-4763-9e59-5edb5be16b01> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0045176 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/ad69281e-61d0-417a-8168-2bdcfc656a38> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/befb02a0-ba52-4cbf-b0cd-48e94b1f5c9b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/97744c9a-4d47-4e07-a274-fe084188a50c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/b37f5d41-c8a6-494c-baa8-167a27bb8d06> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/246cc901-0d80-4abc-9bb9-54922504d63e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/820612d3-710c-4897-bbe9-0ea6f02855b8> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0006886 MGI:MGI:3029642|PMID:14755058 ECO:0000315 MGI:MGI:1856610  2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/f6a6c55d-6a14-452e-b905-00286c5ef7be> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/4845e193-3f7e-4554-b0d4-4094d794d28f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/a1717585-94b8-4272-8091-cd0bd686c0df> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/aa01a0f4-fff6-4d6b-bf33-7fbeead9ed6f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/6909a3e3-390b-4322-bc85-41b41c447d5a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/9c7af78d-f23f-4e6d-bd66-362d62220562> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0030182 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/3f010fcb-9b7d-4987-91d1-abc8199298cd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/a13b4b46-d4cb-4d10-aedf-8127dfd7a723> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/bbf5cb8f-9406-4b11-9877-ba88cb6c28e0> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2009-03-24" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:76787|PMID:7553862 ECO:0000266 UniProtKB:P54921  2009-03-24 MGI  creation-date=2008-10-01|modification-date=2009-03-24|comment=external ref PMID:7553862 IDA|comment=rat|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/6ec7f841-3520-4a39-a07c-bfd9dd4d3754> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/818f773e-8dda-4197-a117-e7e50af2c93a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/6580eb60-3fc3-4dfd-941e-7be02cbb06a6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/1f437ba8-f6f2-4efb-a160-c240c8b1fd25> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/37e29ffe-0af2-4b53-abf4-5b9a377ded8a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/9d49f3f6-aa69-45f7-812e-8f2a575bb70f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035249 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=has_participant(CL:0000117)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0a8ba18f-2d15-44a5-ba85-23649925fd91> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/417e6eed-8a59-4b3e-a4f4-82e4751ebc11> .
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/d2a03c09-f2d0-4df3-8620-def5e964dd5d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/36197812-221e-4e00-8986-9ddcc54320c2> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/b0baceb0-5dc5-4dfd-8dd7-306031bb60e7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/7e8f4b87-4874-4844-b2be-d417d7461d73> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0045176 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/d2789b4d-0198-447f-bac3-5eb978ea0a0a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/a0e05073-4d27-4f0c-a3e3-5254fe1c819e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/ad95a264-535f-43bc-93dc-696e445ebe0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/16ae3b7d-7adb-4a14-87fa-3881e409d3d8> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/dc4aef56-46ca-4516-b068-deaa2e85417e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/0e039e80-440d-450c-8726-fd73a4940f74> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/24849250-3e9c-4e08-b2e0-f1b6b9b75f59> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/7bd700fc-0383-42f6-9abd-b521a3feb55b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/a6b53e99-f396-46c6-8a07-905c3b818819> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/266b926e-1bbd-4efe-867a-fb2c34767744> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/4240bb1c-57df-45c5-97a1-6ff31690e89b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/92a40f91-ba95-4e08-ace2-a43a2b20744f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d3633447-0f59-4d41-a2c3-487cdfea65f0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/500d0320-abeb-4058-9cb9-121d1ab91f28> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/16bc9f15-e855-4777-b17d-cb4613ec3fef> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035249 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=has_participant(CL:0000117)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0a8ba18f-2d15-44a5-ba85-23649925fd91> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d98e843f-c971-4504-9948-12254694a40e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/21e885cb-b058-4b93-95b6-0e20e40738f3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2004-04-21" ;
-    dct:created "2004-04-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0030182 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/e8ed96a6-d9d8-4545-b255-a275e222ec7a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d1bbb1b8-cf5e-4b5d-b2c8-deb5348e9d71> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/56ff436d-9b6a-4160-a5bf-0c2f9587a2ea> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2011-02-23" ;
-    dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/24849250-3e9c-4e08-b2e0-f1b6b9b75f59> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/2e580490-5d4d-4785-9dee-e24eca025102> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/92a40f91-ba95-4e08-ace2-a43a2b20744f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/8b9b08b9-af7e-4707-928c-0e8752026c1d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/e5c699e7-00d0-4f43-a198-a46a5c507ff7> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2004-07-16" ;
-    dct:created "2004-07-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0006886 MGI:MGI:3029642|PMID:14755058 ECO:0000315 MGI:MGI:1856610  2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/c1c5fca5-1083-4bbb-a44c-afd9db44814b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e1cbac5e-9893-4a1f-a0bd-4a8a1f5f10a9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/d492cd41-405b-40b7-9175-0bea80688ce8> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/261a1e02-864f-49fa-82cd-b954816272e4> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035494 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0c29cf4e-c8c4-471d-81e1-ff734b2bf056> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/b37f5d41-c8a6-494c-baa8-167a27bb8d06> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/c93a6402-08d0-4348-b34f-a92d2fb8af5f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2004-04-21" ;
+    dct:created "2004-04-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0045176 MGI:MGI:3033551|PMID:14758363 ECO:0000315 MGI:MGI:1856610  2004-04-21 MGI  creation-date=2004-04-21|modification-date=2004-04-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/ad69281e-61d0-417a-8168-2bdcfc656a38> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/256411c6-caaf-47d8-ab34-27fde60369ed> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/5f7339e3-b803-4b62-be21-ed0030f81e32> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/0bd43b1b-fcf0-4125-a97e-f5902ea2d68f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/7f194aa2-b68d-4dcc-b6a4-5698671fc2d6> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/7cecc681-556f-4242-978a-4a276909ec00> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/c020633c-fad8-4582-908c-38e2bfac479f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/450bb192-1f95-4765-8444-4e9cd776c12f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/09f64f3d-ca0f-4af2-beef-70d326ce1728> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-02-23" ;
     dct:created "2011-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/16ae3b7d-7adb-4a14-87fa-3881e409d3d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/aa01a0f4-fff6-4d6b-bf33-7fbeead9ed6f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/c6513bc2-dede-4549-88f7-66b0aba56ed0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/2e580490-5d4d-4785-9dee-e24eca025102> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/2a94c828-ca08-4fb7-b27a-cd5ec213b60f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/abb15cf6-e6d5-4ff0-bdf0-d0bd696f4db1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/14693101-9c9d-48ca-a60f-3abbfe6263a7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/a3696bb4-81c9-48b7-b1a6-56ca953d2770> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035249 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=has_participant(CL:0000117)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/3d11b6a6-de69-4868-bf29-7ae9b5eb419d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/d2a03c09-f2d0-4df3-8620-def5e964dd5d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/40db9462-63db-4578-ac22-b73d2f4d8bf3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/383654a0-98d9-4769-9849-4d5cf7b7096d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/19025c95-0708-468b-8e57-13be16468223> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/feb62ce0-c303-441d-9b55-c6642e5b2dd6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/8b9b08b9-af7e-4707-928c-0e8752026c1d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/3de58180-5d87-41c3-9be7-81b45538e304> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/cba6dd02-a52c-43d3-8869-025eb32859ba> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  BFO:0000050 GO:0070044 MGI:MGI:4879076|PMID:21040848 ECO:0000314   2011-02-23 MGI BFO:0000050(CL:0000117),BFO:0000050(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/bfe0886f-8826-4533-a438-7fda470bb520> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/8b5e0ada-2e1d-4a5f-a42a-2483350c6f6a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/68a94ff6-926b-4b18-9197-1f2143a17e2f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1d819d70-1402-4cd0-a981-7ec79925eb48> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/bef87e46-7bad-4129-898d-46eea83e1f6b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/8e7d163b-5d74-4cc1-bdbd-1107a7c917c7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/1d819d70-1402-4cd0-a981-7ec79925eb48> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/b678fa3c-aa76-49e2-b97b-5f5d393ae53d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/f0f2165f-b2a8-4d42-82fd-ffd814a70550> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/550a9072-ce06-4f0f-bfd3-dd62763aca68> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/0653becb-61d9-4d3c-8378-0c7ce6053273> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/495dfb9b-7331-4caa-9902-eb1e428e049d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/7fd6106f-981f-4077-a1c2-84bd0f5c8271> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/cd2416a8-7a7c-4518-952c-9959a9f29b1a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/954a374c-66de-448a-9222-3708c540a264> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/7cecc681-556f-4242-978a-4a276909ec00> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/e5a5e1ef-0122-483d-b7fc-32f0d447df36> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/ef122f37-ca03-4504-a806-8caf03f4418f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0010807 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI GOREL:0001004(CL:0000117),GOREL:0001004(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/16ae3b7d-7adb-4a14-87fa-3881e409d3d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/2cccfa87-b637-4dd5-a487-2984274c9991> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/7186b869-e5dd-4702-902b-8ab053de5b3e> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2004-07-16" ;
+    dct:created "2004-07-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0019905 MGI:MGI:3029642|PMID:14755058 ECO:0000314   2004-07-16 MGI  creation-date=2004-07-16|modification-date=2004-07-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/a059ebdd-d9ce-4604-abf7-c278aacb091e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/a2efa233-f675-48ac-89a6-7cd384d64948> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/4f454036-b87f-4e3b-90f6-fdd5087bb874> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002264 GO:0035249 MGI:MGI:4879076|PMID:21040848 ECO:0000316 MGI:MGI:104562  2011-02-23 MGI BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|comment=has_participant(CL:0000117)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/3d11b6a6-de69-4868-bf29-7ae9b5eb419d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/7ef4c0c1-637e-447c-99a2-6fff2e762f7f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_104563/a8d58c37-72de-4323-9ce1-5280be1c4bc9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2011-02-23" ;
+    dct:created "2011-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:104563  RO:0002327 GO:0005515 MGI:MGI:4879076|PMID:21040848 ECO:0000353 PR:P63044|PR:P60879|PR:O35526|PR:P28663  2011-02-23 MGI BFO:0000066(CL:0000117),BFO:0000066(EMAPA:32845) creation-date=2011-02-23|modification-date=2011-02-23|comment=anatomy hippocampus ; MA:0000191|comment=cell type CNS neuron (sensu Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_104563/7cecc681-556f-4242-978a-4a276909ec00> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_104563/abb15cf6-e6d5-4ff0-bdf0-d0bd696f4db1> .
 

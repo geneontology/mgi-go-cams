@@ -36,12 +36,21 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-12-04" ;
     dc:title "Tas2r108 (MGI:MGI:2681210)" ;
     dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2681210> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2681210/13b5785d-4820-4389-85d0-eb4862cfcca7> a ECO:0000247,
+<http://model.geneontology.org/MGI_MGI_2681210/0c5bedd4-6d2d-4c71-9c68-07fa8b171853> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-04" ;
+    dc:source "PMID:21606356" ;
+    dct:created "2012-12-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Tas2R108 agonist evoked a drop in respiratory rate" .
+
+<http://model.geneontology.org/MGI_MGI_2681210/7719b3fc-25e8-4ea7-944d-0e868c2b3112> a ECO:0000247,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:Q67ES7" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
@@ -51,7 +60,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-08-04" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/587c87b3-e614-4220-9fa2-fe79b336db38> a ECO:0000247,
+<http://model.geneontology.org/MGI_MGI_2681210/7ad442e0-e601-4214-b44a-0b7c590f7b3d> a ECO:0000247,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:Q67ES7" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
@@ -61,7 +70,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-08-04" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/83f5c8bf-5dd3-407c-8d7e-934bf51955f8> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2681210/f9a28d70-d5c1-4bf7-aa05-df0353fd7cc1> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-04" ;
@@ -70,68 +79,59 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "Tas2R108 agonist evoked a drop in respiratory rate" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/d4f6511c-2f33-466c-a1f2-a8d01ea40c60> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2681210/06f86e42-c991-4eab-93ce-36fa21e5666e> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2681210/c45d9a3d-b85b-4659-a7ac-682ca2cc5675> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2681210/c556f762-5e54-4ade-8d33-c5641729694a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-04" ;
-    dc:source "PMID:21606356" ;
     dct:created "2012-12-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Tas2R108 agonist evoked a drop in respiratory rate" .
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/42cc46e0-9b13-49a0-804a-594716f6747c> a MGI:MGI:2681210,
+<http://model.geneontology.org/MGI_MGI_2681210/21dc82e4-eccb-4ceb-8429-fe050e78b020> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2681210/4a42f992-a8d3-4ac1-bac4-907533306291> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2681210/da0dfdb3-a04f-49a5-b155-0eff43603857> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-11-09" ;
+    dct:created "2006-08-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2681210/4a42f992-a8d3-4ac1-bac4-907533306291> a MGI:MGI:2681210,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-11-09" ;
     dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/495b285d-f26b-40bf-9f7d-fb642d69122c> a GO:0007585,
+<http://model.geneontology.org/MGI_MGI_2681210/c45d9a3d-b85b-4659-a7ac-682ca2cc5675> a MGI:MGI:2681210,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-04" ;
     dct:created "2012-12-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/499c7328-0040-407b-8a55-753f27a57136> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2681210/967bd45a-2926-442f-a23d-8b30b57248d3> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2681210/495b285d-f26b-40bf-9f7d-fb642d69122c> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-04" ;
-    dct:created "2012-12-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2681210/7d31abcf-8914-4e0f-b4b9-462809c6f040> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2681210/42cc46e0-9b13-49a0-804a-594716f6747c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2681210/b35cf823-386b-48c9-bf7c-b46892bf1a67> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-11-09" ;
-    dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2681210/967bd45a-2926-442f-a23d-8b30b57248d3> a MGI:MGI:2681210,
+<http://model.geneontology.org/MGI_MGI_2681210/c556f762-5e54-4ade-8d33-c5641729694a> a GO:0007585,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-04" ;
     dct:created "2012-12-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2681210/b35cf823-386b-48c9-bf7c-b46892bf1a67> a GO:0001580,
+<http://model.geneontology.org/MGI_MGI_2681210/da0dfdb3-a04f-49a5-b155-0eff43603857> a GO:0001580,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-11-09" ;
     dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
@@ -139,52 +139,52 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0002418 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/83f5c8bf-5dd3-407c-8d7e-934bf51955f8> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/f9a28d70-d5c1-4bf7-aa05-df0353fd7cc1> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-04" ;
     dct:created "2012-12-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2681210  RO:0002264 GO:0007585 MGI:MGI:5013879|PMID:21606356 ECO:0000315   2012-12-04 MGI  creation-date=2012-12-04|modification-date=2012-12-04|comment=Tas2R108 agonist evoked a drop in respiratory rate|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/499c7328-0040-407b-8a55-753f27a57136> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/967bd45a-2926-442f-a23d-8b30b57248d3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/d4f6511c-2f33-466c-a1f2-a8d01ea40c60> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-04" ;
-    dct:created "2012-12-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2681210  RO:0002264 GO:0007585 MGI:MGI:5013879|PMID:21606356 ECO:0000315   2012-12-04 MGI  creation-date=2012-12-04|modification-date=2012-12-04|comment=Tas2R108 agonist evoked a drop in respiratory rate|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/499c7328-0040-407b-8a55-753f27a57136> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/495b285d-f26b-40bf-9f7d-fb642d69122c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/06f86e42-c991-4eab-93ce-36fa21e5666e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/c556f762-5e54-4ade-8d33-c5641729694a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/13b5785d-4820-4389-85d0-eb4862cfcca7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/7719b3fc-25e8-4ea7-944d-0e868c2b3112> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-11-09" ;
     dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2681210  RO:0002264 GO:0001580 MGI:MGI:3589711|PMID:15886333 ECO:0000247 UniProtKB:Q67ES7  2009-11-09 MGI  creation-date=2006-08-04|modification-date=2009-11-09|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/7d31abcf-8914-4e0f-b4b9-462809c6f040> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/b35cf823-386b-48c9-bf7c-b46892bf1a67> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/21dc82e4-eccb-4ceb-8429-fe050e78b020> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/da0dfdb3-a04f-49a5-b155-0eff43603857> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/587c87b3-e614-4220-9fa2-fe79b336db38> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/7ad442e0-e601-4214-b44a-0b7c590f7b3d> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-11-09" ;
     dct:created "2006-08-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2681210  RO:0002264 GO:0001580 MGI:MGI:3589711|PMID:15886333 ECO:0000247 UniProtKB:Q67ES7  2009-11-09 MGI  creation-date=2006-08-04|modification-date=2009-11-09|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/7d31abcf-8914-4e0f-b4b9-462809c6f040> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/42cc46e0-9b13-49a0-804a-594716f6747c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/21dc82e4-eccb-4ceb-8429-fe050e78b020> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/4a42f992-a8d3-4ac1-bac4-907533306291> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2681210/0c5bedd4-6d2d-4c71-9c68-07fa8b171853> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-04" ;
+    dct:created "2012-12-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2681210  RO:0002264 GO:0007585 MGI:MGI:5013879|PMID:21606356 ECO:0000315   2012-12-04 MGI  creation-date=2012-12-04|modification-date=2012-12-04|comment=Tas2R108 agonist evoked a drop in respiratory rate|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2681210/06f86e42-c991-4eab-93ce-36fa21e5666e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2681210/c45d9a3d-b85b-4659-a7ac-682ca2cc5675> .
 

@@ -38,31 +38,36 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2015-05-04" ;
     dc:title "Fabp7 (MGI:MGI:101916)" ;
     dct:created "2006-07-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_101916> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_101916/0258163e-48c2-48fa-8a5f-fcdfcf2929c2> a MGI:MGI:101916,
+<http://model.geneontology.org/MGI_MGI_101916/01df7a6f-9af3-4058-90df-a958ef887841> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/ebbb45c9-fc45-47b8-9213-82ff151663e9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/089c1227-b1c3-4e4a-bc64-0d9412c5f86b> a ECO:0000314,
-        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-05-04" ;
-    dc:source "PMID:25433207" ;
-    dct:created "2015-05-04" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type glial cell (sensu Vertebrata) ; CL:0000243" .
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
 
-<http://model.geneontology.org/MGI_MGI_101916/1bf2a7ab-d7d2-434f-b202-43db48c93e2c> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/20cc9263-0e5c-4f22-9fa0-7085a2a1b013> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
+
+<http://model.geneontology.org/MGI_MGI_101916/293cb22b-88f3-4130-abaa-344e23f42520> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -82,19 +87,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(EMAPA:19037 TS28)",
         "has_participant(EMAPA:32845 TS28)" .
 
-<http://model.geneontology.org/MGI_MGI_101916/2662a516-cbb2-4180-a39d-ffc675235f19> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dc:source "PMID:12971893" ;
-    dct:created "2008-10-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ optic chiasma ; EMAP:7820",
-        "cell type CL:0000740 CL:0000001",
-        "evidence ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_101916/286e1af7-6485-4ab3-b28d-13851d28dca1> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_101916/29fb9b02-f16e-4d23-aa3e-a99b0f50c6ff> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
@@ -105,7 +98,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CL:0000125 CL:0000001",
         "evidence ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_101916/2b102667-07ff-4824-b4be-dab853bf4cce> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/47b81aa4-1c8f-48d4-98e3-dc75343b473b> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -113,64 +106,20 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:18001149" ;
     dct:created "2008-01-31" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Fabp7-deficient mice showed decreased PPI" .
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
 
-<http://model.geneontology.org/MGI_MGI_101916/3750d071-89f0-4013-8079-ae806ff1cb39> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/52751144-74e6-41db-bd04-88ad799a13c6> a MGI:MGI:101916,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Fabp7-deficient mice showed decreased PPI" .
-
-<http://model.geneontology.org/MGI_MGI_101916/3ba80eba-c5bc-4957-b243-c990499ca640> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/927629ce-ff02-4c27-b2ef-0bd2f8c17f01> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/3cdf9dc4-a874-4bb9-86ad-5dd284029c4f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
     dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/3db0d0e1-8f25-48ae-b177-1619786e29b6> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/41691378-6a04-48d5-a0f6-b7138be90eb4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/45a77f40-211d-46b5-8f4e-4140e7022d5f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/4abd3e78-8069-471e-8f38-8493c6651818> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/54ee97da-d0d0-4eb9-9e4a-875c39248fe7> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -180,59 +129,24 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "shortened startle response latency" .
 
-<http://model.geneontology.org/MGI_MGI_101916/4b23a2bc-52fb-497b-8f97-0576bd32c30f> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_101916/63746806-5f6b-4e2e-b356-b26268fd4cd4> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dc:source "PMID:11133151" ;
-    dct:created "2013-03-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy telencephalon;MA:0000183",
-        "cell type CL:0000125 CL:0000001",
-        "evidence ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_101916/5175b967-aee8-45d0-98b1-4dd7ccb55365> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/88650df9-6939-4ab2-98bc-466d51aefcb1> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-05-04" ;
+    dc:source "PMID:25433207" ;
     dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/563e25f0-a2db-49a4-bfd7-004f97c079ae> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dc:source "PMID:12971893" ;
-    dct:created "2008-10-07" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ optic chiasma ; EMAP:7820",
-        "cell type CL:0000740 CL:0000001",
-        "evidence ECO:0000040" .
+    rdfs:comment "cell type glial cell (sensu Vertebrata) ; CL:0000243" .
 
-<http://model.geneontology.org/MGI_MGI_101916/566cb069-e53b-4d61-a797-4340301a5a67> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/6c814c66-1958-429a-b345-dfacb167f634> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/5829e79e-e928-42b2-b71b-e31d7a810e9e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2006-07-07" ;
     dc:source "PMID:15965470" ;
-    dct:created "2013-03-29" ;
+    dct:created "2006-07-07" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/6e644828-1458-4978-9681-8def314efc9e> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/6d6afd85-9b5f-4f65-80b0-0963214c7742> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -252,7 +166,62 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(EMAPA:19037 TS28)",
         "has_participant(EMAPA:32845 TS28)" .
 
-<http://model.geneontology.org/MGI_MGI_101916/8c9e5adc-ae41-4894-b994-a33cf126cec0> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_101916/75b2ea9d-3e5a-475e-82a1-559890839fcc> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
+
+<http://model.geneontology.org/MGI_MGI_101916/7a2ca0d5-3c50-49f7-87ad-19a0842ce549> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/7fecfa5f-1ee7-4a3d-9966-c2282427e899> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dct:created "2008-10-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/7a987ef2-b0bf-4984-be3d-aa088f8a6e61> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/59c094f7-ce55-4994-b0bf-901c5f516732> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2006-07-07" ;
+    dct:created "2006-07-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/7ae64185-897a-4de9-acec-7ecfe5d68df2> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
+
+<http://model.geneontology.org/MGI_MGI_101916/7f9903b4-0be2-4cd5-a6f6-39370ddb4368> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dentate gyrus;MA:0000190",
+        "anatomy hippocampus;MA:0000191",
+        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
+
+<http://model.geneontology.org/MGI_MGI_101916/a0de43de-1a87-4d77-8baf-2701d8bb61c6> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
@@ -264,16 +233,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CL:0000740 CL:0000001",
         "evidence ECO:0000040" .
 
-<http://model.geneontology.org/MGI_MGI_101916/8eade4e3-0193-47b2-ab43-8a07cefdaef1> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/9f47be6c-c266-4d24-8541-03783add1ae6> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2006-07-07" ;
-    dct:created "2006-07-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/950440dc-c194-4bb0-8c52-dda00382341f> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_101916/b870238e-35a8-42c4-b1fb-f1d74ba22c69> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665437" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -281,9 +241,18 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:18001149" ;
     dct:created "2008-01-31" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "shortened startle response latency" .
+    rdfs:comment "Fabp7-deficient mice showed decreased PPI" .
 
-<http://model.geneontology.org/MGI_MGI_101916/c867c654-eb3c-4a75-9025-6b780034c5a5> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_101916/b8a9fdc5-c041-43da-9ad9-27d1335a97ea> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/e654abac-25cc-425f-a780-a9301ac9efea> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-05-04" ;
+    dct:created "2015-05-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/ba55be34-cfea-4fcb-bf79-c2724ff5840b> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
@@ -294,48 +263,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CL:0000125 CL:0000001",
         "evidence ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_101916/d666a2df-558f-4f9d-8545-0364a08e53f4> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2006-07-07" ;
-    dc:source "PMID:15965470" ;
-    dct:created "2006-07-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/da529631-809a-4b8f-8007-92ea9708337b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/df3b4a9d-7c4d-47e8-ab67-a4e8c3703cbc> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665437" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dc:source "PMID:18001149" ;
-    dct:created "2008-01-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dentate gyrus;MA:0000190",
-        "anatomy hippocampus;MA:0000191",
-        "mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS." .
-
-<http://model.geneontology.org/MGI_MGI_101916/e2f6088c-29f0-41e3-b49c-dfb0a0958813> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/d9b11799-d923-46da-957e-866278cf1593> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/f689c2bc-8e23-4503-b46b-6fa970a92a9a> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_101916/c91dff79-0d62-45e9-8038-268c30820b0a> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-05-04" ;
@@ -344,250 +272,322 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type glial cell (sensu Vertebrata) ; CL:0000243" .
 
-<http://model.geneontology.org/MGI_MGI_101916/fad2e254-b704-477f-a8e6-6c010cf8c049> a MGI:MGI:101916,
+<http://model.geneontology.org/MGI_MGI_101916/dbe2099d-6917-48c1-98a0-11db3905bfd2> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/a1d29642-2de4-4eb6-82aa-33c04cdc24fd> ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Fabp7-deficient mice showed decreased PPI" .
+
+<http://model.geneontology.org/MGI_MGI_101916/decf8d57-c63c-4130-ac9b-2feda99d11d8> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dc:source "PMID:12971893" ;
+    dct:created "2008-10-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ optic chiasma ; EMAP:7820",
+        "cell type CL:0000740 CL:0000001",
+        "evidence ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_101916/e6287eb9-8b7a-4558-8029-c8881d392547> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665437" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dc:source "PMID:18001149" ;
+    dct:created "2008-01-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "shortened startle response latency" .
+
+<http://model.geneontology.org/MGI_MGI_101916/eba2e4a4-4ea8-4cd1-8f0c-90372dbe9b5f> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dc:source "PMID:12971893" ;
+    dct:created "2008-10-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ optic chiasma ; EMAP:7820",
+        "cell type CL:0000740 CL:0000001",
+        "evidence ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_101916/ed560e10-b4f4-4882-89ec-51d4296d5a5f> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/fef144c1-14c0-4846-a67f-fd022748e53c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-05-04" ;
     dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/14d21962-aeed-4209-b75f-981b2e06699c> a EMAPA:17603,
+<http://model.geneontology.org/MGI_MGI_101916/f247b9f3-257e-4729-95e7-8c003b60188c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dc:source "PMID:11133151" ;
+    dct:created "2013-03-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy telencephalon;MA:0000183",
+        "cell type CL:0000125 CL:0000001",
+        "evidence ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_101916/f8a3b1d9-2093-4928-8b38-771d1ec136af> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_101916/7fbec817-8b5d-4b22-b717-aa7d59bdeaaf> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/fc08ed76-9027-416c-af66-62fbeb6b1cca> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dc:source "PMID:15965470" ;
+    dct:created "2013-03-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/15b9152e-46ec-4676-9d2c-9c794b259f78> a EMAPA:19037,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/1a475937-0342-4ea2-9487-96b59f45d406> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/83a6b8a2-cc4f-4ddc-b74f-db40873bbeb5> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/2c01a6bd-c687-409a-a2db-168675dbe168> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/274c1347-f688-4e09-b1fd-3d18ee9ab24e> a EMAPA:17603,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-03-29" ;
     dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/3858ce90-c482-429a-830a-9dfba02f264a> a EMAPA:16910,
+<http://model.geneontology.org/MGI_MGI_101916/2c01a6bd-c687-409a-a2db-168675dbe168> a GO:0001964,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/3cdf9dc4-a874-4bb9-86ad-5dd284029c4f> a GO:0043025,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
     dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/4465a957-b5a0-413f-99c4-910b4df10546> a MGI:MGI:101916,
+<http://model.geneontology.org/MGI_MGI_101916/58224e35-f559-4b66-bac6-9af2f4d69f80> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/a6b3aa42-3c7b-43d2-9e73-1e2cd9783894> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/f9cc77e1-49fa-4a5f-8646-a1fb85c5fb40> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/45670ab4-b110-4c3e-b814-218183fe77b0> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/9b5b178e-7340-43ea-814b-e7ec5349de9e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/d1076feb-3078-46a8-ad70-cf9bc2714f62> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/88650df9-6939-4ab2-98bc-466d51aefcb1> a GO:0005911,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-05-04" ;
-    dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/8d8e3dde-7d18-49f0-9202-c4692f47c2a8> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/927629ce-ff02-4c27-b2ef-0bd2f8c17f01> a GO:0043025,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/9b5b178e-7340-43ea-814b-e7ec5349de9e> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/9f47be6c-c266-4d24-8541-03783add1ae6> a GO:0042995,
+<http://model.geneontology.org/MGI_MGI_101916/59c094f7-ce55-4994-b0bf-901c5f516732> a GO:0042995,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2006-07-07" ;
     dct:created "2006-07-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/a1d29642-2de4-4eb6-82aa-33c04cdc24fd> a GO:0071944,
+<http://model.geneontology.org/MGI_MGI_101916/6f0b0735-2143-43ef-82df-c03d3905ddfd> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/7620f535-f14c-4f9f-86b4-be0955371b92> a GO:0022008,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/7e374f93-2b05-48e5-8f96-dc5d3c7d6be3> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/6f0b0735-2143-43ef-82df-c03d3905ddfd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/be8b77a5-e854-457d-be1e-88d410468fbe> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/83a6b8a2-cc4f-4ddc-b74f-db40873bbeb5> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/97639ecd-389f-4dd8-8644-1d1ae76d7c19> a EMAPA:16910,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/99a94025-5b0c-4c4b-beb8-abccba2ca16b> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/ea215955-82be-44c3-ab30-1955d573b31b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/7620f535-f14c-4f9f-86b4-be0955371b92> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/a6b3aa42-3c7b-43d2-9e73-1e2cd9783894> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/ab687291-5703-4cb1-9bf6-7318576cdb38> a MGI:MGI:101916,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/db0577e6-ad01-4e16-9273-d9ca74be8be8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/ab687291-5703-4cb1-9bf6-7318576cdb38> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/1a36997a-bdec-4195-8ba0-bdfbfd92ead0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/e654abac-25cc-425f-a780-a9301ac9efea> a GO:0071944,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-05-04" ;
     dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/abdddfeb-d133-4b84-85b7-9f520f3452e2> a EMAPA:19037,
+<http://model.geneontology.org/MGI_MGI_101916/ea215955-82be-44c3-ab30-1955d573b31b> a MGI:MGI:101916,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/bbac5ddd-5175-4b87-8288-3f2b5aea44af> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/8d8e3dde-7d18-49f0-9202-c4692f47c2a8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/3c9e5a8a-40e4-4696-b759-ef690dbe1abe> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/beac801f-2555-4132-b769-a20753bd9ab9> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/4465a957-b5a0-413f-99c4-910b4df10546> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/ca8de3ac-a3d3-4bd7-97a6-5fa2d10f8ae7> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/c84e4dfc-e8f0-45ac-ac40-4f077f055ba5> a GO:0060134,
+<http://model.geneontology.org/MGI_MGI_101916/ee253fef-fec6-4917-ba1e-b748653049f0> a EMAPA:32845,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/d1076feb-3078-46a8-ad70-cf9bc2714f62> a GO:0001964,
+<http://model.geneontology.org/MGI_MGI_101916/f9cc77e1-49fa-4a5f-8646-a1fb85c5fb40> a GO:0060134,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/d6d0e92d-a879-4a0f-91f7-b76cb4dce769> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/f6c1df6e-134c-410a-bbb0-93d71b923f9a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/ede65027-8472-4525-904e-c9551a5b2f43> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/d8a08288-c2f4-4a2e-845f-00c23df97dee> a MGI:MGI:101916,
+<http://model.geneontology.org/MGI_MGI_101916/fef144c1-14c0-4846-a67f-fd022748e53c> a GO:0005911,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/d9c64467-8b28-40a4-a88a-bce8b37e062c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_101916/d8a08288-c2f4-4a2e-845f-00c23df97dee> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_101916/c84e4dfc-e8f0-45ac-ac40-4f077f055ba5> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/ede65027-8472-4525-904e-c9551a5b2f43> a GO:0022008,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/f6c1df6e-134c-410a-bbb0-93d71b923f9a> a MGI:MGI:101916,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/ff783a98-cd67-4014-94ad-2b78eecbcef3> a EMAPA:32845,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2015-05-04" ;
+    dct:created "2015-05-04" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_101916/3c9e5a8a-40e4-4696-b759-ef690dbe1abe> a GO:0021846,
+<http://model.geneontology.org/MGI_MGI_101916/1a36997a-bdec-4195-8ba0-bdfbfd92ead0> a GO:0021846,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_101916/abdddfeb-d133-4b84-85b7-9f520f3452e2> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_101916/ee253fef-fec6-4917-ba1e-b748653049f0> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/6755d055-414a-4d5c-b952-258b1fe6230a> a CL:0000740,
+<http://model.geneontology.org/MGI_MGI_101916/7fbec817-8b5d-4b22-b717-aa7d59bdeaaf> a GO:0043025,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/14d21962-aeed-4209-b75f-981b2e06699c> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/a5a61ce9-4b4f-49a1-9c68-db26bfc7df17> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/7fecfa5f-1ee7-4a3d-9966-c2282427e899> a GO:0044297,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/d281b263-02e2-46ec-9099-b39b7e6f9fc3> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-03-29" ;
     dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/ca8de3ac-a3d3-4bd7-97a6-5fa2d10f8ae7> a GO:0021846,
+<http://model.geneontology.org/MGI_MGI_101916/a5a61ce9-4b4f-49a1-9c68-db26bfc7df17> a CL:0000125,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_101916/ff783a98-cd67-4014-94ad-2b78eecbcef3> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/d9b11799-d923-46da-957e-866278cf1593> a GO:0043025,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/f5ca3483-0c99-4d95-acec-dad92eddabb1> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/97639ecd-389f-4dd8-8644-1d1ae76d7c19> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
     dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_101916/ebbb45c9-fc45-47b8-9213-82ff151663e9> a GO:0044297,
+<http://model.geneontology.org/MGI_MGI_101916/be8b77a5-e854-457d-be1e-88d410468fbe> a GO:0021846,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/6755d055-414a-4d5c-b952-258b1fe6230a> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_101916/15b9152e-46ec-4676-9d2c-9c794b259f78> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_101916/d281b263-02e2-46ec-9099-b39b7e6f9fc3> a CL:0000740,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/274c1347-f688-4e09-b1fd-3d18ee9ab24e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-03-29" ;
     dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_101916/f5ca3483-0c99-4d95-acec-dad92eddabb1> a CL:0000125,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_101916/3858ce90-c482-429a-830a-9dfba02f264a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -599,269 +599,269 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0001025 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/089c1227-b1c3-4e4a-bc64-0d9412c5f86b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-05-04" ;
-    dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0005911 MGI:MGI:5618041|PMID:25433207 ECO:0000314   2015-05-04 MGI  creation-date=2015-05-04|modification-date=2015-05-04|comment=cell type glial cell (sensu Vertebrata) ; CL:0000243|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/5175b967-aee8-45d0-98b1-4dd7ccb55365> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/88650df9-6939-4ab2-98bc-466d51aefcb1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/5829e79e-e928-42b2-b71b-e31d7a810e9e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:3583881|PMID:15965470 ECO:0000314   2013-03-29 MGI  creation-date=2013-03-29|modification-date=2013-03-29|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/3ba80eba-c5bc-4957-b243-c990499ca640> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/927629ce-ff02-4c27-b2ef-0bd2f8c17f01> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/45a77f40-211d-46b5-8f4e-4140e7022d5f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/7f9903b4-0be2-4cd5-a6f6-39370ddb4368> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/bbac5ddd-5175-4b87-8288-3f2b5aea44af> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/3c9e5a8a-40e4-4696-b759-ef690dbe1abe> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/df3b4a9d-7c4d-47e8-ab67-a4e8c3703cbc> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/bbac5ddd-5175-4b87-8288-3f2b5aea44af> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/8d8e3dde-7d18-49f0-9202-c4692f47c2a8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/c867c654-eb3c-4a75-9025-6b780034c5a5> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:1930520|PMID:11133151 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000125),BFO:0000050(EMAPA:16910) creation-date=2013-03-29|modification-date=2013-03-29|comment=anatomy telencephalon;MA:0000183|comment=cell type CL:0000125 CL:0000001|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d9b11799-d923-46da-957e-866278cf1593> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/f5ca3483-0c99-4d95-acec-dad92eddabb1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/8c9e5adc-ae41-4894-b994-a33cf126cec0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/ebbb45c9-fc45-47b8-9213-82ff151663e9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/6755d055-414a-4d5c-b952-258b1fe6230a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/4abd3e78-8069-471e-8f38-8493c6651818> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0001964 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=shortened startle response latency|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/45670ab4-b110-4c3e-b814-218183fe77b0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/d1076feb-3078-46a8-ad70-cf9bc2714f62> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/950440dc-c194-4bb0-8c52-dda00382341f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0001964 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=shortened startle response latency|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/45670ab4-b110-4c3e-b814-218183fe77b0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/9b5b178e-7340-43ea-814b-e7ec5349de9e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/d666a2df-558f-4f9d-8545-0364a08e53f4> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2006-07-07" ;
-    dct:created "2006-07-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0042995 MGI:MGI:3583881|PMID:15965470 ECO:0000314   2006-07-07 MGI  creation-date=2006-07-07|modification-date=2006-07-07|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/8eade4e3-0193-47b2-ab43-8a07cefdaef1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/9f47be6c-c266-4d24-8541-03783add1ae6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/2b102667-07ff-4824-b4be-dab853bf4cce> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0060134 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=Fabp7-deficient mice showed decreased PPI|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d9c64467-8b28-40a4-a88a-bce8b37e062c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/c84e4dfc-e8f0-45ac-ac40-4f077f055ba5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/566cb069-e53b-4d61-a797-4340301a5a67> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/beac801f-2555-4132-b769-a20753bd9ab9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ca8de3ac-a3d3-4bd7-97a6-5fa2d10f8ae7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/1bf2a7ab-d7d2-434f-b202-43db48c93e2c> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0022008 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=cell type astrocyte;CL:0000127 primary cell line cell;CL:0000001|comment=cell type early progenitor cells|comment=cell type neural stem cells|comment=evidence inferred from immunological assay;ECO:0000040|comment=has_participant(CL:0000127)|comment=has_participant(EMAPA:19037 TS28)|comment=has_participant(EMAPA:32845 TS28)|comment=affects neurogenesis (defined as the proliferation of neural stem cells to produce new neurons).|comment=Fabp7 deficiency impairs the maintenance of neural stem/progenitor cells.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d6d0e92d-a879-4a0f-91f7-b76cb4dce769> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ede65027-8472-4525-904e-c9551a5b2f43> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/3db0d0e1-8f25-48ae-b177-1619786e29b6> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/beac801f-2555-4132-b769-a20753bd9ab9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/4465a957-b5a0-413f-99c4-910b4df10546> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/2662a516-cbb2-4180-a39d-ffc675235f19> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/6755d055-414a-4d5c-b952-258b1fe6230a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/14d21962-aeed-4209-b75f-981b2e06699c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/4b23a2bc-52fb-497b-8f97-0576bd32c30f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-03-29" ;
-    dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:1930520|PMID:11133151 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000125),BFO:0000050(EMAPA:16910) creation-date=2013-03-29|modification-date=2013-03-29|comment=anatomy telencephalon;MA:0000183|comment=cell type CL:0000125 CL:0000001|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/f5ca3483-0c99-4d95-acec-dad92eddabb1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/3858ce90-c482-429a-830a-9dfba02f264a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/3750d071-89f0-4013-8079-ae806ff1cb39> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0060134 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=Fabp7-deficient mice showed decreased PPI|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d9c64467-8b28-40a4-a88a-bce8b37e062c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/d8a08288-c2f4-4a2e-845f-00c23df97dee> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/563e25f0-a2db-49a4-bfd7-004f97c079ae> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-03-29" ;
-    dct:created "2008-10-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/0258163e-48c2-48fa-8a5f-fcdfcf2929c2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ebbb45c9-fc45-47b8-9213-82ff151663e9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/6e644828-1458-4978-9681-8def314efc9e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0022008 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=cell type astrocyte;CL:0000127 primary cell line cell;CL:0000001|comment=cell type early progenitor cells|comment=cell type neural stem cells|comment=evidence inferred from immunological assay;ECO:0000040|comment=has_participant(CL:0000127)|comment=has_participant(EMAPA:19037 TS28)|comment=has_participant(EMAPA:32845 TS28)|comment=affects neurogenesis (defined as the proliferation of neural stem cells to produce new neurons).|comment=Fabp7 deficiency impairs the maintenance of neural stem/progenitor cells.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d6d0e92d-a879-4a0f-91f7-b76cb4dce769> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/f6c1df6e-134c-410a-bbb0-93d71b923f9a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/41691378-6a04-48d5-a0f6-b7138be90eb4> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-01-31" ;
-    dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/ca8de3ac-a3d3-4bd7-97a6-5fa2d10f8ae7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ff783a98-cd67-4014-94ad-2b78eecbcef3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/be8b77a5-e854-457d-be1e-88d410468fbe> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/15b9152e-46ec-4676-9d2c-9c794b259f78> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/286e1af7-6485-4ab3-b28d-13851d28dca1> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/6d6afd85-9b5f-4f65-80b0-0963214c7742> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0022008 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=cell type astrocyte;CL:0000127 primary cell line cell;CL:0000001|comment=cell type early progenitor cells|comment=cell type neural stem cells|comment=evidence inferred from immunological assay;ECO:0000040|comment=has_participant(CL:0000127)|comment=has_participant(EMAPA:19037 TS28)|comment=has_participant(EMAPA:32845 TS28)|comment=affects neurogenesis (defined as the proliferation of neural stem cells to produce new neurons).|comment=Fabp7 deficiency impairs the maintenance of neural stem/progenitor cells.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/99a94025-5b0c-4c4b-beb8-abccba2ca16b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/7620f535-f14c-4f9f-86b4-be0955371b92> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/eba2e4a4-4ea8-4cd1-8f0c-90372dbe9b5f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dct:created "2008-10-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7a2ca0d5-3c50-49f7-87ad-19a0842ce549> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/7fecfa5f-1ee7-4a3d-9966-c2282427e899> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/f247b9f3-257e-4729-95e7-8c003b60188c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-03-29" ;
     dct:created "2013-03-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:1930520|PMID:11133151 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000125),BFO:0000050(EMAPA:16910) creation-date=2013-03-29|modification-date=2013-03-29|comment=anatomy telencephalon;MA:0000183|comment=cell type CL:0000125 CL:0000001|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7fbec817-8b5d-4b22-b717-aa7d59bdeaaf> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/a5a61ce9-4b4f-49a1-9c68-db26bfc7df17> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/ba55be34-cfea-4fcb-bf79-c2724ff5840b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:1930520|PMID:11133151 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000125),BFO:0000050(EMAPA:16910) creation-date=2013-03-29|modification-date=2013-03-29|comment=anatomy telencephalon;MA:0000183|comment=cell type CL:0000125 CL:0000001|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/e2f6088c-29f0-41e3-b49c-dfb0a0958813> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/d9b11799-d923-46da-957e-866278cf1593> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/f8a3b1d9-2093-4928-8b38-771d1ec136af> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/7fbec817-8b5d-4b22-b717-aa7d59bdeaaf> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/f689c2bc-8e23-4503-b46b-6fa970a92a9a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/20cc9263-0e5c-4f22-9fa0-7085a2a1b013> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/db0577e6-ad01-4e16-9273-d9ca74be8be8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/1a36997a-bdec-4195-8ba0-bdfbfd92ead0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/dbe2099d-6917-48c1-98a0-11db3905bfd2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0060134 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=Fabp7-deficient mice showed decreased PPI|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/58224e35-f559-4b66-bac6-9af2f4d69f80> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/a6b3aa42-3c7b-43d2-9e73-1e2cd9783894> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/c91dff79-0d62-45e9-8038-268c30820b0a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-05-04" ;
     dct:created "2015-05-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0071944 MGI:MGI:5618041|PMID:25433207 ECO:0000314   2015-05-04 MGI  creation-date=2015-05-04|modification-date=2015-05-04|comment=cell type glial cell (sensu Vertebrata) ; CL:0000243|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/fad2e254-b704-477f-a8e6-6c010cf8c049> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/a1d29642-2de4-4eb6-82aa-33c04cdc24fd> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/b8a9fdc5-c041-43da-9ad9-27d1335a97ea> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/e654abac-25cc-425f-a780-a9301ac9efea> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/da529631-809a-4b8f-8007-92ea9708337b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/293cb22b-88f3-4130-abaa-344e23f42520> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-01-31" ;
     dct:created "2008-01-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0022008 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=cell type astrocyte;CL:0000127 primary cell line cell;CL:0000001|comment=cell type early progenitor cells|comment=cell type neural stem cells|comment=evidence inferred from immunological assay;ECO:0000040|comment=has_participant(CL:0000127)|comment=has_participant(EMAPA:19037 TS28)|comment=has_participant(EMAPA:32845 TS28)|comment=affects neurogenesis (defined as the proliferation of neural stem cells to produce new neurons).|comment=Fabp7 deficiency impairs the maintenance of neural stem/progenitor cells.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/99a94025-5b0c-4c4b-beb8-abccba2ca16b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ea215955-82be-44c3-ab30-1955d573b31b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/75b2ea9d-3e5a-475e-82a1-559890839fcc> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/3c9e5a8a-40e4-4696-b759-ef690dbe1abe> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/abdddfeb-d133-4b84-85b7-9f520f3452e2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/1a36997a-bdec-4195-8ba0-bdfbfd92ead0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ee253fef-fec6-4917-ba1e-b748653049f0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/b870238e-35a8-42c4-b1fb-f1d74ba22c69> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0060134 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=Fabp7-deficient mice showed decreased PPI|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/58224e35-f559-4b66-bac6-9af2f4d69f80> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/f9cc77e1-49fa-4a5f-8646-a1fb85c5fb40> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/decf8d57-c63c-4130-ac9b-2feda99d11d8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dct:created "2008-10-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/d281b263-02e2-46ec-9099-b39b7e6f9fc3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/274c1347-f688-4e09-b1fd-3d18ee9ab24e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/6c814c66-1958-429a-b345-dfacb167f634> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2006-07-07" ;
+    dct:created "2006-07-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0042995 MGI:MGI:3583881|PMID:15965470 ECO:0000314   2006-07-07 MGI  creation-date=2006-07-07|modification-date=2006-07-07|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7a987ef2-b0bf-4984-be3d-aa088f8a6e61> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/59c094f7-ce55-4994-b0bf-901c5f516732> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/54ee97da-d0d0-4eb9-9e4a-875c39248fe7> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0001964 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=shortened startle response latency|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/1a475937-0342-4ea2-9487-96b59f45d406> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/2c01a6bd-c687-409a-a2db-168675dbe168> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/fc08ed76-9027-416c-af66-62fbeb6b1cca> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:3583881|PMID:15965470 ECO:0000314   2013-03-29 MGI  creation-date=2013-03-29|modification-date=2013-03-29|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/52751144-74e6-41db-bd04-88ad799a13c6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/3cdf9dc4-a874-4bb9-86ad-5dd284029c4f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/01df7a6f-9af3-4058-90df-a958ef887841> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/db0577e6-ad01-4e16-9273-d9ca74be8be8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/ab687291-5703-4cb1-9bf6-7318576cdb38> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/47b81aa4-1c8f-48d4-98e3-dc75343b473b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7e374f93-2b05-48e5-8f96-dc5d3c7d6be3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/be8b77a5-e854-457d-be1e-88d410468fbe> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/a0de43de-1a87-4d77-8baf-2701d8bb61c6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-03-29" ;
+    dct:created "2008-10-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0044297 MGI:MGI:2675767|PMID:12971893 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000740),BFO:0000050(EMAPA:17603) creation-date=2008-10-07|modification-date=2013-03-29|comment=anatomy TS23\\ optic chiasma ; EMAP:7820|comment=cell type CL:0000740 CL:0000001|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7fecfa5f-1ee7-4a3d-9966-c2282427e899> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/d281b263-02e2-46ec-9099-b39b7e6f9fc3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/7ae64185-897a-4de9-acec-7ecfe5d68df2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0021846 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI BFO:0000066(EMAPA:32845)|BFO:0000066(EMAPA:19037) creation-date=2008-01-31|modification-date=2008-01-31|comment=anatomy dentate gyrus;MA:0000190|comment=anatomy hippocampus;MA:0000191|comment=mutants showed about 30% REDUCTION IN THE NUMBER OF DIVIDING CELLS.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/7e374f93-2b05-48e5-8f96-dc5d3c7d6be3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/6f0b0735-2143-43ef-82df-c03d3905ddfd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/29fb9b02-f16e-4d23-aa3e-a99b0f50c6ff> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-03-29" ;
+    dct:created "2013-03-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0043025 MGI:MGI:1930520|PMID:11133151 ECO:0000314   2013-03-29 MGI BFO:0000050(CL:0000125),BFO:0000050(EMAPA:16910) creation-date=2013-03-29|modification-date=2013-03-29|comment=anatomy telencephalon;MA:0000183|comment=cell type CL:0000125 CL:0000001|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/a5a61ce9-4b4f-49a1-9c68-db26bfc7df17> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/97639ecd-389f-4dd8-8644-1d1ae76d7c19> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/63746806-5f6b-4e2e-b356-b26268fd4cd4> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-05-04" ;
+    dct:created "2015-05-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0001025 GO:0005911 MGI:MGI:5618041|PMID:25433207 ECO:0000314   2015-05-04 MGI  creation-date=2015-05-04|modification-date=2015-05-04|comment=cell type glial cell (sensu Vertebrata) ; CL:0000243|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/ed560e10-b4f4-4882-89ec-51d4296d5a5f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/fef144c1-14c0-4846-a67f-fd022748e53c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_101916/e6287eb9-8b7a-4558-8029-c8881d392547> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-01-31" ;
+    dct:created "2008-01-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:101916  RO:0002264 GO:0001964 MGI:MGI:3767388|PMID:18001149 ECO:0000315 MGI:MGI:3665437  2008-01-31 MGI  creation-date=2008-01-31|modification-date=2008-01-31|comment=shortened startle response latency|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_101916/1a475937-0342-4ea2-9487-96b59f45d406> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_101916/83a6b8a2-cc4f-4ddc-b74f-db40873bbeb5> .
 

@@ -39,12 +39,39 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2016-09-28" ;
     dc:title "Miat (MGI:MGI:2444886)" ;
     dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2444886> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2444886/0c572a12-f9cf-4778-8e86-0f29b4442b27> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2444886/000565ae-cb97-4fd3-ac3e-066f16dcd5cd> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dc:source "PMID:25145264" ;
+    dct:created "2016-09-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/0443d2d4-9e35-421e-8173-6651e1b56c20> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dc:source "PMID:20459797" ;
+    dct:created "2012-04-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type amacrine cell ; CL:0000561",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/0b6f9579-f81b-4cc1-bab5-f4346029cc45> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-04-15" ;
+    dc:source "PMID:20026622" ;
+    dct:created "2015-04-15" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence RNAi evidence ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/1a13ef5a-5d8b-4c34-b559-fe528edf20fe> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -54,20 +81,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy Retina ; MA:0000276",
         "cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/24dbc072-6447-448c-ab94-fb0503f7c2c9> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665263" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dc:source "PMID:16877424" ;
-    dct:created "2007-09-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina ; MA:0000276",
-        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
-        "evidence inferred from immunological assay ; ECO:0000040",
-        "immunohistochemical staining" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/27940ba6-215d-4c19-a53a-7aacd86bde9a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444886/22465559-c842-4c70-8ae2-58f2a8b24ab8> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -77,24 +91,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type Muller cell ; CL:0000636",
         "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/35b7869c-14b6-4613-a9f0-03f331dce85b> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-04-15" ;
-    dc:source "PMID:20026622" ;
-    dct:created "2015-04-15" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence RNAi evidence ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/41f5a887-e753-42f0-994e-e9375f53674a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dc:source "PMID:25145264" ;
-    dct:created "2016-09-28" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/4ae032be-2c64-4ec3-9920-1dbf82fbc339> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2444886/2999bb08-f33b-42a6-ba6b-742688a50fa1> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q64213" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -103,35 +100,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2016-09-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/531cbd80-d293-4c73-853c-73832e0b0814> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dc:source "PMID:20459797" ;
-    dct:created "2012-04-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type Muller cell ; CL:0000636",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/54ead763-4043-4d20-a440-7a3245f3bd4a> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-04-15" ;
-    dc:source "PMID:20026622" ;
-    dct:created "2015-04-15" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence RNAi evidence ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/5df7d49b-f869-4f24-8a9f-3d14ff768ed9> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444886/263e43ef-ce1a-4169-afc2-152755e5e98f> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/5f6e3843-1939-4082-a06e-8198312508ac> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444886/5606047e-16d8-43f7-aa65-b2688533bed8> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3665263" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -144,7 +113,91 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence inferred from immunological assay ; ECO:0000040",
         "immunohistochemical staining" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/6f36ff41-4541-42bb-84bf-595dc455510d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444886/5e841b2a-ad39-4fba-b187-f4bbfd7eccce> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665263" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dc:source "PMID:16877424" ;
+    dct:created "2007-09-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy retina ; MA:0000276",
+        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
+        "evidence inferred from immunological assay ; ECO:0000040",
+        "immunohistochemical staining" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/7accd9cc-c197-4d9c-9a02-0dc77d801689> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444886/391f36cd-7b10-4fe2-a5b9-57a39af9cf03> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/99d7063c-9264-4893-9801-32848e3bd66d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dc:source "PMID:25145264" ;
+    dct:created "2016-09-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/9a0590e9-e3a7-4194-8236-b5a6aeaab0f2> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665263" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dc:source "PMID:16877424" ;
+    dct:created "2007-09-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy retina ; MA:0000276",
+        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
+        "evidence inferred from immunological assay ; ECO:0000040",
+        "immunohistochemical staining" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/aa6189cc-c888-4f33-ac68-1a40ee44c254> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444886/77895d23-139d-4ce7-816c-b6501fca67b2> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/b39f1a33-a227-43a5-b713-f1b0ac62d828> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dc:source "PMID:20459797" ;
+    dct:created "2012-04-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type Muller cell ; CL:0000636",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/bc8e329b-2b3b-4b63-a44e-04e29a0699cc> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q8CIN6" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dc:source "PMID:25145264" ;
+    dct:created "2016-09-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/c546b4ec-e429-42f8-aa3b-fdcd4838b328> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3665263" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dc:source "PMID:16877424" ;
+    dct:created "2007-09-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy retina ; MA:0000276",
+        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
+        "evidence inferred from immunological assay ; ECO:0000040",
+        "immunohistochemical staining" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/ca8e5187-1a83-4ffc-9c76-2b064e0d19d5> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -154,16 +207,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type amacrine cell ; CL:0000561",
         "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/74185df4-7e2f-4e4b-9b99-165c7ef4e9b2> a MGI:MGI:2444886,
+<http://model.geneontology.org/MGI_MGI_2444886/d040ad59-3706-4134-b04a-323db9b6e609> a ECO:0000353,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444886/30b7e5bf-eb60-493c-bcbf-8e6d5683e28a> ;
+    ns1:evidence-with "PR:Q64213" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2016-09-28" ;
+    dc:source "PMID:25145264" ;
+    dct:created "2016-09-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/7aaf753c-3573-4c1c-8d45-2183b2d5fe46> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2444886/d0f934e7-9e6b-483c-ada4-c9e71e3bc501> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -173,16 +226,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy Retina ; MA:0000276",
         "cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/87bc2822-d3dd-43ff-83cf-0f1a33302c00> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2444886/d17e13f0-2746-4864-88d7-6a1e0ca2327d> a ECO:0000315,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8CIN6" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dc:source "PMID:25145264" ;
-    dct:created "2016-09-28" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-04-15" ;
+    dc:source "PMID:20026622" ;
+    dct:created "2015-04-15" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence RNAi evidence ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/8b42b85a-7882-4fc9-add3-6e7b8c8e3dfe> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444886/e2424d06-a12a-4503-aead-6f30f3180c7f> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -192,7 +245,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type Muller cell ; CL:0000636",
         "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/ab7759de-e81c-4883-9c3d-bd1876f9ceb2> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444886/eade4cc2-4533-423d-8190-0d5439654c42> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
@@ -202,28 +255,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type amacrine cell ; CL:0000561",
         "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/b8010210-1322-4c55-84c6-67d34e5b3526> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dc:source "PMID:25145264" ;
-    dct:created "2016-09-28" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/bb9a4adc-868c-4a51-b1f5-eb5c90491c19> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665263" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dc:source "PMID:16877424" ;
-    dct:created "2007-09-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina ; MA:0000276",
-        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
-        "evidence inferred from immunological assay ; ECO:0000040",
-        "immunohistochemical staining" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/c091328d-ad4c-4325-b95d-445382ed9ae5> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2444886/eb04fbe5-9d05-4e27-baf5-f10f0ae890ed> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8CIN6" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -231,221 +263,189 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:25145264" ;
     dct:created "2016-09-28" ;
     ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/c596fb42-cfc1-4064-8a42-8d1f5943bb47> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dc:source "PMID:20459797" ;
-    dct:created "2012-04-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type amacrine cell ; CL:0000561",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/eff21ed1-86ae-4b3f-a5af-9963b2a6aacd> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q64213" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dc:source "PMID:25145264" ;
-    dct:created "2016-09-28" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/fa231b56-06b4-48a3-86ad-44dabd35cb5b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3665263" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dc:source "PMID:16877424" ;
-    dct:created "2007-09-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina ; MA:0000276",
-        "cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001",
-        "evidence inferred from immunological assay ; ECO:0000040",
-        "immunohistochemical staining" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
 obo:RO_0002296 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2444886/2753f88b-e5db-411a-aefa-184370a00cb4> a CL:0000636,
+<http://model.geneontology.org/MGI_MGI_2444886/0745d6d2-fa65-4649-87b8-7bb2fccc9953> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444886/ff9bd35c-5f09-4289-82d5-01689f9f92fd> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/f4cc23d7-0a5a-4281-aac8-8be0c5917dd7> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/093ecb0a-e4ba-40fd-96e4-c1abed991600> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/489b8066-b954-4dcc-94db-458ace996455> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/75a68b2d-a34b-4013-af44-035c6f211137> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/1056d03c-8ff3-49d1-bc63-9b34ac5842b5> a EMAPA:17168,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dct:created "2007-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/2c564ef8-d17e-48c3-b798-67fd024a1507> a PR:Q8CIN6,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/2ebef475-9cd0-4c12-b29b-d19b852a9485> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/f60a4207-ed06-4cd2-bd36-8b8a93e20918> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/898da260-cd8f-4e45-a042-e16a12c7b3b9> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/34a1a107-6374-4e4e-ace6-73200ef11708> a EMAPA:17168,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
     dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/4b5656a4-04f2-4b22-9b6b-c58c37641454> a GO:0019827,
+<http://model.geneontology.org/MGI_MGI_2444886/426061d0-ce2f-45ea-b8e4-c25f52430be3> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/489b8066-b954-4dcc-94db-458ace996455> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/4951ba34-c7b0-4001-906f-0dd3912017eb> a CL:0000636,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/76b56788-700d-449e-8b43-8eebb5531d8e> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dct:created "2007-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/99eb56fb-d3c4-4491-b7d3-147d6a9a10fd> a MGI:MGI:2444886,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2015-04-15" ;
     dct:created "2015-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/51aa23bb-5f6e-4430-ab1e-c453be10b253> a EMAPA:17168,
+<http://model.geneontology.org/MGI_MGI_2444886/acc2b215-4bbe-4acc-9d2b-5f1486b6b048> a CL:0000561,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
     dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/64dd18c8-b65e-45f1-b9d6-5e2567218cb1> a PR:Q64213,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/777b431a-97a1-4278-88de-55ef42042467> a EMAPA:17168,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/8274aabe-4088-4a8c-9a3f-c1562722c976> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/a41d4f6a-787a-4903-8162-8d705aae100b> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/04b132bb-c824-4f5a-97c6-c6cc1b1dde25> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/926500d7-26c5-4aa0-a2e3-390dd8a89ec7> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/b3523af4-8a17-46d5-8391-231f82aec0cf> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/b865338f-a1e6-4b0a-9124-a6d7f3b98346> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/97da3f9d-c781-4160-a439-be25f3220f1d> a CL:0000561,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/a0c58d80-7a67-4c22-8d3c-b18f59a7a6ac> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444886/64dd18c8-b65e-45f1-b9d6-5e2567218cb1> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/b0432779-3777-46c3-886c-94db40bb1765> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/a41d4f6a-787a-4903-8162-8d705aae100b> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/a5c75c39-e9d7-4415-8fbb-4874d856743e> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/af8016bb-5171-4b82-9c2c-aa9e83423986> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/ea063f3e-2a97-491e-8e70-d347493086c9> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/af8016bb-5171-4b82-9c2c-aa9e83423986> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/b0432779-3777-46c3-886c-94db40bb1765> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/b3523af4-8a17-46d5-8391-231f82aec0cf> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/bd75b073-3cdd-42c2-a5e6-20acf22d0988> a MGI:MGI:2444886,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/be415fde-c196-4468-be9a-15ada8a897da> a CL:0000031,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/c0949909-7991-4574-ae93-1fa86e14b219> a MGI:MGI:2444886,
+<http://model.geneontology.org/MGI_MGI_2444886/b9c9df63-b551-4ef6-b5c8-71d88a9a35a9> a GO:0019827,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2015-04-15" ;
     dct:created "2015-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/da9cf9f4-f12f-411d-bc36-9eb3d57ab05d> a CL:0000604,
+<http://model.geneontology.org/MGI_MGI_2444886/baaf99d3-8e33-4c27-9489-3d912ae15bb0> a CL:0000604,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-09-14" ;
     dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/e087bdc0-0cbb-4981-9f59-30a13ba54880> a PR:Q8CIN6,
+<http://model.geneontology.org/MGI_MGI_2444886/cd27d75d-e56d-481d-8fce-db329f6c13a1> a CL:0000031,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/ec530bb1-226a-4dee-8d65-563d2f8127fb> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444886/eef68e86-a8e9-474d-aa1c-87ad5acfd863> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/c0949909-7991-4574-ae93-1fa86e14b219> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/4b5656a4-04f2-4b22-9b6b-c58c37641454> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/76b56788-700d-449e-8b43-8eebb5531d8e> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/e26added-6c82-4e94-bdcb-db016e30efef> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dct:created "2007-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/f4cc23d7-0a5a-4281-aac8-8be0c5917dd7> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/f4dae953-3558-4492-9a41-9f011b5cab6a> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444886/2c564ef8-d17e-48c3-b798-67fd024a1507> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/426061d0-ce2f-45ea-b8e4-c25f52430be3> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/f60a4207-ed06-4cd2-bd36-8b8a93e20918> a MGI:MGI:2444886,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/fa88bf05-ad03-45ed-8247-663b891a4cc4> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/99eb56fb-d3c4-4491-b7d3-147d6a9a10fd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444886/b9c9df63-b551-4ef6-b5c8-71d88a9a35a9> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2015-04-15" ;
     dct:created "2015-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/ec700377-fc33-405e-8f89-50f440d67664> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_2444886/ff9bd35c-5f09-4289-82d5-01689f9f92fd> a PR:Q64213,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444886/e087bdc0-0cbb-4981-9f59-30a13ba54880> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444886/bd75b073-3cdd-42c2-a5e6-20acf22d0988> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -456,50 +456,50 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002315 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2444886/04b132bb-c824-4f5a-97c6-c6cc1b1dde25> a GO:0010001,
+<http://model.geneontology.org/MGI_MGI_2444886/391f36cd-7b10-4fe2-a5b9-57a39af9cf03> a GO:0016604,
         owl:NamedIndividual ;
-    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_2444886/2753f88b-e5db-411a-aefa-184370a00cb4> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2444886/263e43ef-ce1a-4169-afc2-152755e5e98f> a GO:0016604,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444886/be415fde-c196-4468-be9a-15ada8a897da> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444886/cd27d75d-e56d-481d-8fce-db329f6c13a1> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/30b7e5bf-eb60-493c-bcbf-8e6d5683e28a> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2444886/75a68b2d-a34b-4013-af44-035c6f211137> a GO:0010001,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444886/51aa23bb-5f6e-4430-ab1e-c453be10b253> ;
+    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_2444886/4951ba34-c7b0-4001-906f-0dd3912017eb> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
     dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/ea063f3e-2a97-491e-8e70-d347493086c9> a GO:0035881,
+<http://model.geneontology.org/MGI_MGI_2444886/77895d23-139d-4ce7-816c-b6501fca67b2> a GO:0005634,
         owl:NamedIndividual ;
-    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_2444886/97da3f9d-c781-4160-a439-be25f3220f1d> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444886/34a1a107-6374-4e4e-ace6-73200ef11708> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
     dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444886/b865338f-a1e6-4b0a-9124-a6d7f3b98346> a GO:0046548,
+<http://model.geneontology.org/MGI_MGI_2444886/898da260-cd8f-4e45-a042-e16a12c7b3b9> a GO:0035881,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444886/777b431a-97a1-4278-88de-55ef42042467> ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2444886/da9cf9f4-f12f-411d-bc36-9eb3d57ab05d> ;
+    obo:RO_0002315 <http://model.geneontology.org/MGI_MGI_2444886/acc2b215-4bbe-4acc-9d2b-5f1486b6b048> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2444886/e26added-6c82-4e94-bdcb-db016e30efef> a GO:0046548,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444886/1056d03c-8ff3-49d1-bc63-9b34ac5842b5> ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2444886/baaf99d3-8e33-4c27-9489-3d912ae15bb0> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-09-14" ;
     dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -507,242 +507,242 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/0c572a12-f9cf-4778-8e86-0f29b4442b27> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/22465559-c842-4c70-8ae2-58f2a8b24ab8> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-04-17" ;
     dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0005634 MGI:MGI:4458994|PMID:20459797 ECO:0000314   2012-04-17 MGI BFO:0000050(EMAPA:17168) creation-date=2012-04-17|modification-date=2012-04-17|comment=anatomy Retina ; MA:0000276|comment=cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/74185df4-7e2f-4e4b-9b99-165c7ef4e9b2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/30b7e5bf-eb60-493c-bcbf-8e6d5683e28a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/531cbd80-d293-4c73-853c-73832e0b0814> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0010001 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000636) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type Muller cell ; CL:0000636|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/8274aabe-4088-4a8c-9a3f-c1562722c976> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/04b132bb-c824-4f5a-97c6-c6cc1b1dde25> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/ab7759de-e81c-4883-9c3d-bd1876f9ceb2> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002315 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/ea063f3e-2a97-491e-8e70-d347493086c9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/97da3f9d-c781-4160-a439-be25f3220f1d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/c596fb42-cfc1-4064-8a42-8d1f5943bb47> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/a5c75c39-e9d7-4415-8fbb-4874d856743e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/af8016bb-5171-4b82-9c2c-aa9e83423986> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/093ecb0a-e4ba-40fd-96e4-c1abed991600> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/489b8066-b954-4dcc-94db-458ace996455> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/54ead763-4043-4d20-a440-7a3245f3bd4a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-04-15" ;
-    dct:created "2015-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0019827 MGI:MGI:5629676|PMID:20026622 ECO:0000315   2015-04-15 MGI  creation-date=2015-04-15|modification-date=2015-04-15|comment=evidence RNAi evidence ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/ec530bb1-226a-4dee-8d65-563d2f8127fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/c0949909-7991-4574-ae93-1fa86e14b219> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/87bc2822-d3dd-43ff-83cf-0f1a33302c00> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/eb04fbe5-9d05-4e27-baf5-f10f0ae890ed> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q8CIN6  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/ec700377-fc33-405e-8f89-50f440d67664> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/bd75b073-3cdd-42c2-a5e6-20acf22d0988> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/41f5a887-e753-42f0-994e-e9375f53674a> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0016604 MGI:MGI:5755769|PMID:25145264 ECO:0000314   2016-09-28 MGI BFO:0000050(CL:0000031) creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/5df7d49b-f869-4f24-8a9f-3d14ff768ed9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/263e43ef-ce1a-4169-afc2-152755e5e98f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/5f6e3843-1939-4082-a06e-8198312508ac> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/926500d7-26c5-4aa0-a2e3-390dd8a89ec7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/b865338f-a1e6-4b0a-9124-a6d7f3b98346> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/c091328d-ad4c-4325-b95d-445382ed9ae5> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q8CIN6  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/ec700377-fc33-405e-8f89-50f440d67664> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/e087bdc0-0cbb-4981-9f59-30a13ba54880> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/f4dae953-3558-4492-9a41-9f011b5cab6a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/2c564ef8-d17e-48c3-b798-67fd024a1507> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/7aaf753c-3573-4c1c-8d45-2183b2d5fe46> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0005634 MGI:MGI:4458994|PMID:20459797 ECO:0000314   2012-04-17 MGI BFO:0000050(EMAPA:17168) creation-date=2012-04-17|modification-date=2012-04-17|comment=anatomy Retina ; MA:0000276|comment=cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/30b7e5bf-eb60-493c-bcbf-8e6d5683e28a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/51aa23bb-5f6e-4430-ab1e-c453be10b253> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/fa231b56-06b4-48a3-86ad-44dabd35cb5b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/5606047e-16d8-43f7-aa65-b2688533bed8> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-09-14" ;
     dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/eef68e86-a8e9-474d-aa1c-87ad5acfd863> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/e26added-6c82-4e94-bdcb-db016e30efef> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/d17e13f0-2746-4864-88d7-6a1e0ca2327d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-04-15" ;
+    dct:created "2015-04-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0019827 MGI:MGI:5629676|PMID:20026622 ECO:0000315   2015-04-15 MGI  creation-date=2015-04-15|modification-date=2015-04-15|comment=evidence RNAi evidence ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/fa88bf05-ad03-45ed-8247-663b891a4cc4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/99eb56fb-d3c4-4491-b7d3-147d6a9a10fd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/d040ad59-3706-4134-b04a-323db9b6e609> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q64213  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/0745d6d2-fa65-4649-87b8-7bb2fccc9953> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/f4cc23d7-0a5a-4281-aac8-8be0c5917dd7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/d0f934e7-9e6b-483c-ada4-c9e71e3bc501> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0005634 MGI:MGI:4458994|PMID:20459797 ECO:0000314   2012-04-17 MGI BFO:0000050(EMAPA:17168) creation-date=2012-04-17|modification-date=2012-04-17|comment=anatomy Retina ; MA:0000276|comment=cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/aa6189cc-c888-4f33-ac68-1a40ee44c254> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/77895d23-139d-4ce7-816c-b6501fca67b2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/0443d2d4-9e35-421e-8173-6651e1b56c20> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/2ebef475-9cd0-4c12-b29b-d19b852a9485> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/898da260-cd8f-4e45-a042-e16a12c7b3b9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/b39f1a33-a227-43a5-b713-f1b0ac62d828> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0010001 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000636) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type Muller cell ; CL:0000636|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002315 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/75a68b2d-a34b-4013-af44-035c6f211137> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/4951ba34-c7b0-4001-906f-0dd3912017eb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/000565ae-cb97-4fd3-ac3e-066f16dcd5cd> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0016604 MGI:MGI:5755769|PMID:25145264 ECO:0000314   2016-09-28 MGI BFO:0000050(CL:0000031) creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/7accd9cc-c197-4d9c-9a02-0dc77d801689> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/391f36cd-7b10-4fe2-a5b9-57a39af9cf03> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/9a0590e9-e3a7-4194-8236-b5a6aeaab0f2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dct:created "2007-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/eef68e86-a8e9-474d-aa1c-87ad5acfd863> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/76b56788-700d-449e-8b43-8eebb5531d8e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/5e841b2a-ad39-4fba-b187-f4bbfd7eccce> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-09-14" ;
+    dct:created "2007-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/b865338f-a1e6-4b0a-9124-a6d7f3b98346> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/da9cf9f4-f12f-411d-bc36-9eb3d57ab05d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/e26added-6c82-4e94-bdcb-db016e30efef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/baaf99d3-8e33-4c27-9489-3d912ae15bb0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/b8010210-1322-4c55-84c6-67d34e5b3526> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/2999bb08-f33b-42a6-ba6b-742688a50fa1> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0016604 MGI:MGI:5755769|PMID:25145264 ECO:0000314   2016-09-28 MGI BFO:0000050(CL:0000031) creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/263e43ef-ce1a-4169-afc2-152755e5e98f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/be415fde-c196-4468-be9a-15ada8a897da> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/27940ba6-215d-4c19-a53a-7aacd86bde9a> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0010001 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000636) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type Muller cell ; CL:0000636|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/8274aabe-4088-4a8c-9a3f-c1562722c976> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/a41d4f6a-787a-4903-8162-8d705aae100b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/8b42b85a-7882-4fc9-add3-6e7b8c8e3dfe> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0010001 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000636) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type Muller cell ; CL:0000636|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002315 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/04b132bb-c824-4f5a-97c6-c6cc1b1dde25> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/2753f88b-e5db-411a-aefa-184370a00cb4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/bb9a4adc-868c-4a51-b1f5-eb5c90491c19> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-09-14" ;
-    dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/926500d7-26c5-4aa0-a2e3-390dd8a89ec7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/b3523af4-8a17-46d5-8391-231f82aec0cf> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/eff21ed1-86ae-4b3f-a5af-9963b2a6aacd> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-09-28" ;
-    dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q64213  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/a0c58d80-7a67-4c22-8d3c-b18f59a7a6ac> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/64dd18c8-b65e-45f1-b9d6-5e2567218cb1> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/0745d6d2-fa65-4649-87b8-7bb2fccc9953> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/ff9bd35c-5f09-4289-82d5-01689f9f92fd> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/6f36ff41-4541-42bb-84bf-595dc455510d> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-04-17" ;
-    dct:created "2012-04-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/a5c75c39-e9d7-4415-8fbb-4874d856743e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/ea063f3e-2a97-491e-8e70-d347493086c9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/4ae032be-2c64-4ec3-9920-1dbf82fbc339> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/bc8e329b-2b3b-4b63-a44e-04e29a0699cc> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-09-28" ;
     dct:created "2016-09-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q64213  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002327 GO:0005515 MGI:MGI:5755769|PMID:25145264 ECO:0000353 PR:Q8CIN6  2016-09-28 MGI  creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/a0c58d80-7a67-4c22-8d3c-b18f59a7a6ac> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/b0432779-3777-46c3-886c-94db40bb1765> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/f4dae953-3558-4492-9a41-9f011b5cab6a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/426061d0-ce2f-45ea-b8e4-c25f52430be3> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/35b7869c-14b6-4613-a9f0-03f331dce85b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-04-15" ;
-    dct:created "2015-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/eade4cc2-4533-423d-8190-0d5439654c42> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0019827 MGI:MGI:5629676|PMID:20026622 ECO:0000315   2015-04-15 MGI  creation-date=2015-04-15|modification-date=2015-04-15|comment=evidence RNAi evidence ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/ec530bb1-226a-4dee-8d65-563d2f8127fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/4b5656a4-04f2-4b22-9b6b-c58c37641454> .
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/2ebef475-9cd0-4c12-b29b-d19b852a9485> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/f60a4207-ed06-4cd2-bd36-8b8a93e20918> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/24dbc072-6447-448c-ab94-fb0503f7c2c9> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/c546b4ec-e429-42f8-aa3b-fdcd4838b328> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-09-14" ;
     dct:created "2007-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0046548 MGI:MGI:3655931|PMID:16877424 ECO:0000315 MGI:MGI:3665263  2007-09-14 MGI BFO:0000066(EMAPA:17168),RO:0002296(CL:0000604) creation-date=2007-09-14|modification-date=2007-09-14|comment=anatomy retina ; MA:0000276|comment=cell type retinal rod cell ; CL:0000604 primary cell line cell ; CL:0000001|comment=evidence inferred from immunological assay ; ECO:0000040|comment=immunohistochemical staining|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/b865338f-a1e6-4b0a-9124-a6d7f3b98346> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/777b431a-97a1-4278-88de-55ef42042467> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/e26added-6c82-4e94-bdcb-db016e30efef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/1056d03c-8ff3-49d1-bc63-9b34ac5842b5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/1a13ef5a-5d8b-4c34-b559-fe528edf20fe> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0005634 MGI:MGI:4458994|PMID:20459797 ECO:0000314   2012-04-17 MGI BFO:0000050(EMAPA:17168) creation-date=2012-04-17|modification-date=2012-04-17|comment=anatomy Retina ; MA:0000276|comment=cell type permanent cell line cell ; CLO:0000019 HeLa ; ATCC:0000011|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/77895d23-139d-4ce7-816c-b6501fca67b2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/34a1a107-6374-4e4e-ace6-73200ef11708> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/ca8e5187-1a83-4ffc-9c76-2b064e0d19d5> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0035881 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000561) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type amacrine cell ; CL:0000561|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002315 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/898da260-cd8f-4e45-a042-e16a12c7b3b9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/acc2b215-4bbe-4acc-9d2b-5f1486b6b048> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/0b6f9579-f81b-4cc1-bab5-f4346029cc45> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-04-15" ;
+    dct:created "2015-04-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0019827 MGI:MGI:5629676|PMID:20026622 ECO:0000315   2015-04-15 MGI  creation-date=2015-04-15|modification-date=2015-04-15|comment=evidence RNAi evidence ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/fa88bf05-ad03-45ed-8247-663b891a4cc4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/b9c9df63-b551-4ef6-b5c8-71d88a9a35a9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/e2424d06-a12a-4503-aead-6f30f3180c7f> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-04-17" ;
+    dct:created "2012-04-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0002264 GO:0010001 MGI:MGI:4458994|PMID:20459797 ECO:0000315   2012-04-17 MGI RO:0002315(CL:0000636) creation-date=2012-04-17|modification-date=2012-04-17|comment=cell type Muller cell ; CL:0000636|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/093ecb0a-e4ba-40fd-96e4-c1abed991600> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/75a68b2d-a34b-4013-af44-035c6f211137> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444886/99d7063c-9264-4893-9801-32848e3bd66d> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-09-28" ;
+    dct:created "2016-09-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444886  RO:0001025 GO:0016604 MGI:MGI:5755769|PMID:25145264 ECO:0000314   2016-09-28 MGI BFO:0000050(CL:0000031) creation-date=2016-09-28|modification-date=2016-09-28|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444886/391f36cd-7b10-4fe2-a5b9-57a39af9cf03> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444886/cd27d75d-e56d-481d-8fce-db329f6c13a1> .
 

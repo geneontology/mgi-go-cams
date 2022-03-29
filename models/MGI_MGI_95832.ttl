@@ -40,12 +40,21 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2021-02-23" ;
     dc:title "Grn (MGI:MGI:95832)" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_95832> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_95832/01bd3bc8-f6eb-48be-8e85-dfe21219eb5d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_95832/03813f04-9ba2-462c-9ca9-690a5c487992> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/0444e0b9-a6b5-4781-bb0a-9b16027f53d9> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3762618" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -54,38 +63,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2020-10-16" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/0d4155ad-0628-48b2-b66b-15d130616fa5> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/10b81002-2839-452f-a3ca-0fae73c6daff> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/9a9fece0-defc-4f24-a74b-e0ad44cfba6a> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/1302ba26-e574-497c-a3e9-1a0001914662> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/18506217-0806-42f9-a74e-c98164f0a1bf> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/09f86f7f-1023-45a0-91cc-a73c203b53c4> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -99,7 +77,16 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
         "cell type trophectodermal cell ; CL:1000274" .
 
-<http://model.geneontology.org/MGI_MGI_95832/18c308c8-8205-45af-a3fd-0624c2d9b75b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_95832/0d40aba0-8d2d-4681-8dbe-9927d0d0ef7f> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/3906b5c6-6351-435d-9552-717116c8a8bd> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/10fa8bcc-d947-454a-a92e-fb6f1eb9e5d6> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3762618" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -108,7 +95,42 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2020-10-16" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/1b159236-a025-42ef-b42b-6484771c0fca> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/154066d2-1da4-483d-8bea-3b51a41f5de6> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/15ef1fa3-7c30-4b14-ba00-4cf7bcd034e6> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/2708df8d-f7cf-42de-97df-af390bdd09f9> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/29cf900f-6adb-4447-be0c-b1c8ab2815f8> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -118,7 +140,81 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
         "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
 
-<http://model.geneontology.org/MGI_MGI_95832/2669a586-3490-4491-b818-f3ea77d3ce21> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_95832/29fa9567-841d-4b15-9d8a-5f7dcc95e9ce> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/2d79c7fc-cc20-4e7f-810b-ad94a691fe89> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/3e4f2087-1630-4d54-9162-6d32da94ff5c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/4a5344f3-386c-46a8-8112-97185d3c11e9> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/62253537-7775-4b48-9bac-982e9e5ea519> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/4ebb8197-95f6-47b4-a21f-af9b011291bc> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/51218766-c3dc-457f-80ef-354e17393cc6> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/54aa51e1-f546-4a9f-ba11-eb33d795bcf0> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/565a5782-dd65-4449-9254-4592c35cd9d3> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q9R0G6" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -127,7 +223,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2018-09-12" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/317e04f6-89c8-4243-9e57-59dc2258c570> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/58804efb-ebc7-4374-8204-4ab0f277f66b> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -141,7 +237,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
         "cell type trophectodermal cell ; CL:1000274" .
 
-<http://model.geneontology.org/MGI_MGI_95832/35af308e-441f-4778-ac2a-3ccc1ece0066> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/598a83c4-17e0-4750-b2bb-e3dd3c449770> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -149,22 +245,182 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2005-11-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
+        "has_participant(EMAPA:16039 TS05)" .
 
-<http://model.geneontology.org/MGI_MGI_95832/3789a756-bc20-4c67-bcd0-bdd2d4c6635b> a MGI:MGI:95832,
+<http://model.geneontology.org/MGI_MGI_95832/605dd54f-fa5d-4f2e-bc59-063716ab662a> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/a7a4c333-d12d-4991-8e3d-f1155bb4c39b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/37cc8465-438c-4a15-aa1f-da1fcb32d9e1> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_95832/61421b13-eefd-4aba-ae98-61f13edfab3d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/63433d33-cf5b-4f29-b938-cb1776283cb0> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/cd63fa09-673d-4361-bbe9-9571ca833f3b> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/665286c3-15f0-4888-9d69-5f1f11c82f3e> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/1d9f4788-609f-4949-b6c6-4ab5546b15a2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/6e67f714-38ff-48c7-ad5a-1c62908c013a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/70df4f8e-647f-4dd5-b955-56ea2fffbe76> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/71af3739-e578-4df3-89c6-a5e594452111> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/02bfc14d-6fe1-4136-9746-7057a76dd273> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/73af11aa-ce1c-490f-a6a5-bc705165e64d> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/842d1790-d920-48ff-afc8-45ea4db2a01b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/854f472b-646f-4ee6-b6b5-a5ca4fbd7a90> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/86e5474a-be4c-4cdc-abbe-f791d735e698> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/8c623ecb-f824-48e7-88e6-ef87245fd68a> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/d118bd3c-b435-43da-a62e-e6328b2a9360> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/8e75376c-b98a-41f3-a2f3-795ea7ed5ca1> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/9d4c9e26-3126-431e-ab02-8e829ab35850> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/5484935e-54d9-49de-b70d-4c88dd178cdd> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/a1158ad4-03b2-468d-81bb-dff1789cbc41> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "has_participant(EMAPA:16039 TS05)" .
+
+<http://model.geneontology.org/MGI_MGI_95832/a49cb583-93e5-4718-bed5-b3aa1406df91> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/aa895f4e-9c88-45f5-837f-0cfb7e2d72dd> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q9R0G6" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -173,25 +429,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2018-09-12" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/412a5911-db18-4951-bb7c-807ee6596e54> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/44ec7164-f681-4df2-bbae-590bdfb63ee2> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/e57c872c-731c-4e45-94f2-ec5e3a4eb28e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/4bb74166-dc05-4240-9ebe-de56e3ba5b7b> a ECO:0007005,
+<http://model.geneontology.org/MGI_MGI_95832/b5cc06a1-bf9b-475f-9bf4-33291d74d204> a ECO:0007005,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
@@ -204,39 +442,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "anatomy kidney ; MA:0000368",
         "anatomy liver ; MA:0000358" .
 
-<http://model.geneontology.org/MGI_MGI_95832/59e50a45-3ae0-45ab-a244-8b11987d38cb> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/2ca95c61-c95f-4afa-9eef-abce458fe998> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/5aef3677-1825-461e-9b56-362f39706f60> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/5d397372-c4df-4c8c-9168-c5088e1c8ebf> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/5eefd9d4-2862-4ce4-ad44-cfe64c2f1822> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_95832/b96ae978-c98c-4c84-b7a3-66f1e43423dd> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3762618" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -245,7 +451,16 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2020-10-16" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/67facabe-9e70-4b6d-b203-e3fda039bcdc> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/bec8b2a7-171d-4295-924f-7942dc61e542> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/c24cd51b-792d-47c2-96d6-b7a4955303f8> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -259,7 +474,56 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
         "cell type trophectodermal cell ; CL:1000274" .
 
-<http://model.geneontology.org/MGI_MGI_95832/6eaa5356-5375-4baf-9fe9-71d86433dbc5> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/c25a5df6-aef9-4929-86f0-cf7421ec2d97> a ECO:0007005,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dc:source "PMID:14651853" ;
+    dct:created "2004-03-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "RefSeq:NP_032201",
+        "anatomy brain ; MA:0000168",
+        "anatomy heart ; MA:0000072",
+        "anatomy kidney ; MA:0000368",
+        "anatomy liver ; MA:0000358" .
+
+<http://model.geneontology.org/MGI_MGI_95832/c6049006-0b53-4dfb-847f-31992ad13ba8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d07b80ec-1a26-4aad-8ab9-ff3cfb309203> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d1ed9b1d-78c5-4ae2-9a64-344e014bb669> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d3984037-3eff-46a5-8635-88e24becc9b9> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d97dc736-f92a-4062-aa5f-6d7aa908cc9c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -269,62 +533,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
         "has_participant(EMAPA:16039 TS05)" .
 
-<http://model.geneontology.org/MGI_MGI_95832/733e8392-642c-492b-a833-a113cf06823c> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/760f375c-04bf-4cf5-b998-37cbb7ec4fc2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/840c3d53-a0b2-493a-8d3c-1801d9ea1a31> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/b6be3f83-9097-43e7-974d-f3e930d22bc8> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/84cf5085-84d7-4286-8543-cd6e781fdd4b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/8d160987-96ae-4b10-95c2-4e9b96e2d67e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/93e9e3e4-26e8-43ba-ac4f-155690c57d56> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/a5c4fff2-b5f9-4de7-b86f-d8b94a2f0cc0> a ECO:0007005,
+<http://model.geneontology.org/MGI_MGI_95832/e0b1ec2e-0d25-4006-a939-c231816b08b2> a ECO:0007005,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
@@ -337,7 +546,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "anatomy kidney ; MA:0000368",
         "anatomy liver ; MA:0000358" .
 
-<http://model.geneontology.org/MGI_MGI_95832/a709ca55-af92-41ff-8ec1-4c317bed0ed5> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/e4a6df7f-8a48-421b-8605-3deb459d05dd> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -347,7 +556,40 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
         "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
 
-<http://model.geneontology.org/MGI_MGI_95832/a82b99b3-2168-4750-9a74-46c1bf746fba> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_95832/e81306ad-93e7-4e12-b42a-792fc7581a9d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3762618" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dc:source "PMID:28728022" ;
+    dct:created "2020-10-16" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/ef98d77e-dc73-419d-8ab7-a4e6e3dcd853> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/f6ab2a36-468f-4b91-8f7b-202d539ed9b4> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dc:source "PMID:15901638" ;
+    dct:created "2005-11-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
+        "anatomy TS5\\ trophectoderm; EMAP:28",
+        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
+        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
+        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
+        "cell type trophectodermal cell ; CL:1000274" .
+
+<http://model.geneontology.org/MGI_MGI_95832/f784490c-7a55-4a86-acc4-f5f8650c8afa> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
@@ -356,725 +598,483 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
         "has_participant(EMAPA:16039 TS05)" .
-
-<http://model.geneontology.org/MGI_MGI_95832/a91bcbaa-d34e-49e9-8c83-c3a748693a8c> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/af0d5fce-3b34-4fff-b996-737310550c87> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/b0894e87-b060-43bc-9e76-13dbfc9b7c3a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/b2edba44-ba38-4b86-a89f-3af33d678147> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/b7399589-1001-489e-884b-5e1dd2012ee1> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/bcbe2484-a6c6-4508-bf46-7f8fab1f0dad> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/be0df4de-8806-4c55-b5c2-270a807d4327> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/c2480889-6628-4aec-ae6d-701a3e411de0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/c653799f-5bfa-4087-b1eb-e3cccb7d1362> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/cb9f5afd-f7c3-461c-aef2-fb986545582e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "has_participant(EMAPA:16039 TS05)" .
-
-<http://model.geneontology.org/MGI_MGI_95832/cfc0cd5b-cd4f-4aef-a844-91daf69328a8> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/dc406060-4d0e-42b0-b6f1-c3099f9b7b89> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/e15bd335-963b-43f6-92b7-e5e524bd5ff9> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/e8136ee8-c730-427f-b4b3-4cdab6bb82eb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "has_participant(EMAPA:16039 TS05)" .
-
-<http://model.geneontology.org/MGI_MGI_95832/f2ef8a22-f999-4621-ade9-425b64dbe4cc> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/aab82509-ba07-4fee-9add-799cd5628962> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/f50c594d-e332-4fc5-a67d-6bfc22fedb6d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/f77ac81b-06dc-4056-9ffb-8ecd2b11cd8e> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/fa3d08cd-f04c-4f5c-a645-4b7e73abcf76> a ECO:0007005,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dc:source "PMID:14651853" ;
-    dct:created "2004-03-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "RefSeq:NP_032201",
-        "anatomy brain ; MA:0000168",
-        "anatomy heart ; MA:0000072",
-        "anatomy kidney ; MA:0000368",
-        "anatomy liver ; MA:0000358" .
-
-<http://model.geneontology.org/MGI_MGI_95832/faccce05-4a97-4233-b9e9-f754a49dec01> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3762618" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dc:source "PMID:28728022" ;
-    dct:created "2020-10-16" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/fb62652f-e3e6-4f70-8df2-6ec89f4b0fab> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
-
-<http://model.geneontology.org/MGI_MGI_95832/fc198a7e-59ff-4b73-a033-ed07eca04656> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_95832/adfeb379-ba78-4a06-a6d6-ab02af7b139b> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/fd8f16bb-a3fd-4eb4-a140-828b38498cb9> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dc:source "PMID:15901638" ;
-    dct:created "2005-11-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS5\\ embryo; EMAP:23",
-        "anatomy TS5\\ trophectoderm; EMAP:28",
-        "cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658",
-        "cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352",
-        "cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274",
-        "cell type trophectodermal cell ; CL:1000274" .
 
 obo:RO_0002213 a owl:ObjectProperty .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_95832/01a42f5c-09cb-4b31-916b-1d26782e215f> a PR:Q9ET22,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/040a189b-6469-4773-a277-a0ab754ce0f8> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_95832/a29fedd5-41cc-4d20-b427-680af817e135> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/2ae21817-d0d2-414d-9464-8f0f69f1df5c> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-09-12" ;
-    dct:created "2018-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/04beea52-c4f4-4a76-8294-32746089792b> a GO:1905671,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/07526acb-d7c5-4126-8082-6ba7430e093c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/8b924977-6061-41d0-a8ad-9efa1c10fcdb> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/138305b2-373a-48d8-a652-7a4f2c44a458> a EMAPA:16046,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/2ae21817-d0d2-414d-9464-8f0f69f1df5c> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-09-12" ;
-    dct:created "2018-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/309df2a2-98e5-4c26-945e-4f54edaabf7c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/c5073019-e5c5-45b0-9f04-771951b70a85> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/346b20b2-1f64-4094-b0e3-0efc7581ea76> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/346b20b2-1f64-4094-b0e3-0efc7581ea76> a GO:0001835,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/35ec6f25-7268-45e5-aafe-8f17dd40ddf3> a GO:0060041,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/3aaa14e2-c5dc-4b95-8225-4a9d1394d761> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/9181b38e-8058-4011-a32b-8f3092766772> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/d7372423-a694-430a-9936-581a0eab3ef7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/3bf565c9-3cab-45f1-8a7b-b8322e005664> a EMAPA:17373,
+<http://model.geneontology.org/MGI_MGI_95832/03d20066-c84a-43c3-a981-c430195ad854> a EMAPA:16894,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/3c3fcb93-5271-43f0-ba2d-9aa2f3be169f> a CL:0000540,
+<http://model.geneontology.org/MGI_MGI_95832/0b7d9adc-346f-4ff5-9b18-c56900f6d29c> a MGI:MGI:95832,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/3dc24152-86a0-485f-ab33-400ac7485bc0> a EMAPA:16105,
+<http://model.geneontology.org/MGI_MGI_95832/0edf148f-0053-4b04-84c9-587dd5fc0300> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/d64aedde-e47e-4992-96d3-3bc6e8e00688> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/9cc97aa1-b8e1-4676-90e1-c3b32b83f944> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/1dc0728d-1dd5-415b-ad4e-3c606900d951> a EMAPA:16105,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/3e7e1859-291d-411f-a14d-70c496682aa2> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/6b2db2e0-5a6e-4cc1-96ab-15fc065903dd> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/35ec6f25-7268-45e5-aafe-8f17dd40ddf3> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/4bd3fd54-9f84-421d-b756-a814047ae065> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/4c518ef9-4694-4d14-829a-d9a44ebaee57> a PR:P20060,
+<http://model.geneontology.org/MGI_MGI_95832/1ec266ce-56b5-4d85-b2d8-eb7036fb15c2> a EMAPA:16894,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/4e4ff67d-9ba3-4c6e-8ee2-665730c67c11> a PR:P29416,
+<http://model.geneontology.org/MGI_MGI_95832/2056017c-e5e6-42d0-be7e-5761338e3121> a EMAPA:16046,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/210cd34c-f8b0-4072-8a1a-c7233e097521> a CL:0000540,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/23ed4800-6b16-4411-b7e3-5f11fb471437> a PR:P20060,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/546b9c7b-db56-4fba-a749-287d73770a46> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/559567e3-ada8-4a50-9f52-096a44a8032b> a EMAPA:16039,
+<http://model.geneontology.org/MGI_MGI_95832/2e17bd9b-1f41-4bbb-852b-624b6f4518af> a EMAPA:16039,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/645e7873-2f4a-4def-bd89-30f8f56c4616> a EMAPA:16046,
+<http://model.geneontology.org/MGI_MGI_95832/387afecc-37c7-425f-8a54-6921187572a3> a CL:1000274,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/6498044e-83f7-4f52-b6f2-4f96beaeae44> a MGI:MGI:95832,
+<http://model.geneontology.org/MGI_MGI_95832/3d409230-df64-4a25-8e33-b454885dc815> a GO:0035641,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/66f0ef7e-054f-4011-97dd-0468b041c145> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/6498044e-83f7-4f52-b6f2-4f96beaeae44> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/c253c8cc-ede7-4948-8497-621271733d15> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/6b2db2e0-5a6e-4cc1-96ab-15fc065903dd> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/6bb021d0-1750-4956-8be4-378d503ea9a1> a EMAPA:16039,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/8b924977-6061-41d0-a8ad-9efa1c10fcdb> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/9181b38e-8058-4011-a32b-8f3092766772> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/a29fedd5-41cc-4d20-b427-680af817e135> a PR:Q9R0G6,
+<http://model.geneontology.org/MGI_MGI_95832/3eb3ccc6-9c8c-46de-864f-d31899c7cd6a> a PR:Q9R0G6,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-09-12" ;
     dct:created "2018-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/aaa36bc7-eb67-4bb7-8125-51c37fc60004> a PR:P10605,
+<http://model.geneontology.org/MGI_MGI_95832/41aef915-fa73-4165-9a04-bcb160980785> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/41e59856-95b7-4a89-96b3-1000045e9cc8> a MGI:MGI:95832,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/ad1c4303-d6ee-453d-b516-5f074402b2ba> a GO:0007566,
+<http://model.geneontology.org/MGI_MGI_95832/4998bc15-f539-4787-9e1f-fa28ee8eda37> a GO:0005515,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_95832/3eb3ccc6-9c8c-46de-864f-d31899c7cd6a> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/7cae8fda-75ed-4c2c-8a09-9ec98a6d0fee> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-09-12" ;
+    dct:created "2018-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/b09607c5-72b6-4918-850b-6ff9c6315711> a EMAPA:16894,
+<http://model.geneontology.org/MGI_MGI_95832/57129fd4-c071-4eb7-9ee8-2efbe9c014ed> a EMAPA:17373,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/b2e98392-4c2d-4937-99c7-cbad2cda6413> a EMAPA:16894,
+<http://model.geneontology.org/MGI_MGI_95832/581907b4-321d-4369-b93c-7430a1e0e018> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/60d122cd-6c59-447b-b017-61f41431b014> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/c5b32bba-a4d8-4772-97fb-d62974d7decd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/3d409230-df64-4a25-8e33-b454885dc815> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/6907ae46-8e5c-4faf-aa45-3814c19218b9> a EMAPA:16046,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/74f9f87f-0306-4260-b2a9-5b5bce70dfd0> a GO:0060041,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/7ba8c895-5a90-4c4b-8e17-a89665153876> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/9da00204-5d70-4f57-a598-5fcc9279890b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/e9a476dd-bae4-4296-9371-815d352fb641> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/7cae8fda-75ed-4c2c-8a09-9ec98a6d0fee> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-09-12" ;
+    dct:created "2018-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/86dcbe07-7ed2-4d19-a238-0fecff8fa450> a GO:0007566,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/91b267ba-324a-435f-adc8-8b11505608b8> a GO:0001835,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/97a3c1e0-782d-4a85-895e-99b8b99f297d> a PR:P10605,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/c253c8cc-ede7-4948-8497-621271733d15> a GO:0035641,
+<http://model.geneontology.org/MGI_MGI_95832/9cc97aa1-b8e1-4676-90e1-c3b32b83f944> a GO:1905671,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/c5073019-e5c5-45b0-9f04-771951b70a85> a MGI:MGI:95832,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/c629d537-6105-4322-81fa-2d50d210c186> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/df6e847e-c2c5-483c-bbb2-0150407234b4> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/04beea52-c4f4-4a76-8294-32746089792b> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/c685311c-c72c-4084-a2ab-c6d0214d6428> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/4bd3fd54-9f84-421d-b756-a814047ae065> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/ad1c4303-d6ee-453d-b516-5f074402b2ba> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/d126cfef-94a2-4c6b-9ccc-8193a7705a93> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/546b9c7b-db56-4fba-a749-287d73770a46> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/ad4eb071-d825-477d-aed6-b73d6e2033ce> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/da2002bf-6f50-4110-8223-3dab332cdb30> a EMAPA:16846,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/df6e847e-c2c5-483c-bbb2-0150407234b4> a MGI:MGI:95832,
+<http://model.geneontology.org/MGI_MGI_95832/9da00204-5d70-4f57-a598-5fcc9279890b> a MGI:MGI:95832,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/f5450d93-5347-4733-b33e-70cc1cf6e81b> a CL:1000274,
+<http://model.geneontology.org/MGI_MGI_95832/a4e16187-a185-4f68-8f8f-8c0e7d335c22> a EMAPA:16846,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/2ca95c61-c95f-4afa-9eef-abce458fe998> a GO:0005615,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/487bd84a-5cf6-4979-bd3f-3a6f7221f1b7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/487bd84a-5cf6-4979-bd3f-3a6f7221f1b7> a CL:1000274,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/559567e3-ada8-4a50-9f52-096a44a8032b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/6590a1ca-797b-49ce-b7ec-4ed938ad106a> a CL:1000274,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/645e7873-2f4a-4def-bd89-30f8f56c4616> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/8bdcfe1f-4d13-4d3c-81c0-6e777c82463e> a CL:0000352,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/6bb021d0-1750-4956-8be4-378d503ea9a1> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/9a9fece0-defc-4f24-a74b-e0ad44cfba6a> a GO:0005739,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/b09607c5-72b6-4918-850b-6ff9c6315711> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/a7a4c333-d12d-4991-8e3d-f1155bb4c39b> a GO:0005615,
+<http://model.geneontology.org/MGI_MGI_95832/a6f8a147-1a93-43a6-8444-0be22e7b65cf> a GO:0003674,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/6590a1ca-797b-49ce-b7ec-4ed938ad106a> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/e3c48b5c-7706-4bb5-a4d4-e0aae1277ac3> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/7069ec29-ad04-4c58-bc18-80303a40d326> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/a9eceba7-4054-4e09-b6a3-ab533a336993> a GO:0050673,
+<http://model.geneontology.org/MGI_MGI_95832/b1415ced-d604-4a4d-8231-b8502afe7fe7> a PR:Q9ET22,
         owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_95832/f5450d93-5347-4733-b33e-70cc1cf6e81b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/aab82509-ba07-4fee-9add-799cd5628962> a GO:0005739,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/3bf565c9-3cab-45f1-8a7b-b8322e005664> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/ad4eb071-d825-477d-aed6-b73d6e2033ce> a GO:1905146,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/3c3fcb93-5271-43f0-ba2d-9aa2f3be169f> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/adfeb379-ba78-4a06-a6d6-ab02af7b139b> a GO:0005739,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/da2002bf-6f50-4110-8223-3dab332cdb30> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/b6be3f83-9097-43e7-974d-f3e930d22bc8> a GO:0005739,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/3dc24152-86a0-485f-ab33-400ac7485bc0> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_95832/bbcb200f-2aa4-4cd1-8de6-64697d633acf> a GO:0005764,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/b2e98392-4c2d-4937-99c7-cbad2cda6413> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95832/e57c872c-731c-4e45-94f2-ec5e3a4eb28e> a GO:0005615,
+<http://model.geneontology.org/MGI_MGI_95832/b38c77e4-8d93-46ae-9695-c6e9a3e80cc8> a GO:0003674,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/8bdcfe1f-4d13-4d3c-81c0-6e777c82463e> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/41aef915-fa73-4165-9a04-bcb160980785> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/91b267ba-324a-435f-adc8-8b11505608b8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/b3dd68f8-9ff4-4cab-9d42-d5a213bda692> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/581907b4-321d-4369-b93c-7430a1e0e018> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/86dcbe07-7ed2-4d19-a238-0fecff8fa450> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/b7b0298b-0e9b-4130-9cc4-149abec81c63> a PR:P29416,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/c5b32bba-a4d8-4772-97fb-d62974d7decd> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d64aedde-e47e-4992-96d3-3bc6e8e00688> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/dd3b55b2-ea4e-45ba-af19-500785e8b916> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/0b7d9adc-346f-4ff5-9b18-c56900f6d29c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/74f9f87f-0306-4260-b2a9-5b5bce70dfd0> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/e3c48b5c-7706-4bb5-a4d4-e0aae1277ac3> a MGI:MGI:95832,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/ea04b83f-daf8-41c8-9aed-e1c840d47555> a EMAPA:16039,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/ef8549a0-bebf-4449-8963-51267879f771> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95832/41e59856-95b7-4a89-96b3-1000045e9cc8> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/02bfc14d-6fe1-4136-9746-7057a76dd273> a GO:0005739,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/57129fd4-c071-4eb7-9ee8-2efbe9c014ed> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/09a2d804-f1d3-4203-9dd7-448460444f97> a GO:0050673,
+        owl:NamedIndividual ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_95832/387afecc-37c7-425f-8a54-6921187572a3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/10f29ebe-d4b5-4787-a6d2-ea38102c3839> a CL:1000274,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/ea04b83f-daf8-41c8-9aed-e1c840d47555> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/1d9f4788-609f-4949-b6c6-4ab5546b15a2> a GO:0005615,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/10f29ebe-d4b5-4787-a6d2-ea38102c3839> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/3906b5c6-6351-435d-9552-717116c8a8bd> a GO:0005739,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/a4e16187-a185-4f68-8f8f-8c0e7d335c22> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/5484935e-54d9-49de-b70d-4c88dd178cdd> a GO:0005739,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/1dc0728d-1dd5-415b-ad4e-3c606900d951> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/62253537-7775-4b48-9bac-982e9e5ea519> a GO:0005615,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/c2690849-0b86-4dde-8708-0c1379d3028c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/97ab7d76-26d6-451b-b483-8cef3b3edb1b> a CL:1000274,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/2056017c-e5e6-42d0-be7e-5761338e3121> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/c2690849-0b86-4dde-8708-0c1379d3028c> a CL:0000352,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/2e17bd9b-1f41-4bbb-852b-624b6f4518af> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/c8b65cf5-7738-4416-9197-7b41892488e3> a GO:0005764,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/1ec266ce-56b5-4d85-b2d8-eb7036fb15c2> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/cd63fa09-673d-4361-bbe9-9571ca833f3b> a GO:0005739,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/03d20066-c84a-43c3-a981-c430195ad854> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/d118bd3c-b435-43da-a62e-e6328b2a9360> a GO:0005615,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_95832/97ab7d76-26d6-451b-b483-8cef3b3edb1b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_95832/e9a476dd-bae4-4296-9371-815d352fb641> a GO:1905146,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/210cd34c-f8b0-4072-8a1a-c7233e097521> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_95832/d7372423-a694-430a-9936-581a0eab3ef7> a GO:0050679,
+<http://model.geneontology.org/MGI_MGI_95832/7069ec29-ad04-4c58-bc18-80303a40d326> a GO:0050679,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/138305b2-373a-48d8-a652-7a4f2c44a458> ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_95832/a9eceba7-4054-4e09-b6a3-ab533a336993> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/6907ae46-8e5c-4faf-aa45-3814c19218b9> ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_95832/09a2d804-f1d3-4203-9dd7-448460444f97> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> a GO:0051346,
+<http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> a GO:0051346,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/bbcb200f-2aa4-4cd1-8de6-64697d633acf> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_95832/01a42f5c-09cb-4b31-916b-1d26782e215f>,
-        <http://model.geneontology.org/MGI_MGI_95832/4c518ef9-4694-4d14-829a-d9a44ebaee57>,
-        <http://model.geneontology.org/MGI_MGI_95832/4e4ff67d-9ba3-4c6e-8ee2-665730c67c11>,
-        <http://model.geneontology.org/MGI_MGI_95832/aaa36bc7-eb67-4bb7-8125-51c37fc60004> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_95832/c8b65cf5-7738-4416-9197-7b41892488e3> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_95832/23ed4800-6b16-4411-b7e3-5f11fb471437>,
+        <http://model.geneontology.org/MGI_MGI_95832/97a3c1e0-782d-4a85-895e-99b8b99f297d>,
+        <http://model.geneontology.org/MGI_MGI_95832/b1415ced-d604-4a4d-8231-b8502afe7fe7>,
+        <http://model.geneontology.org/MGI_MGI_95832/b7b0298b-0e9b-4130-9cc4-149abec81c63> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
@@ -1086,542 +1086,542 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:BFO_0000050 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/8d160987-96ae-4b10-95c2-4e9b96e2d67e> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/70df4f8e-647f-4dd5-b955-56ea2fffbe76> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/62253537-7775-4b48-9bac-982e9e5ea519> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/c2690849-0b86-4dde-8708-0c1379d3028c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/61421b13-eefd-4aba-ae98-61f13edfab3d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/4a5344f3-386c-46a8-8112-97185d3c11e9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/62253537-7775-4b48-9bac-982e9e5ea519> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/565a5782-dd65-4449-9254-4592c35cd9d3> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-09-12" ;
+    dct:created "2018-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002327 GO:0005515 MGI:MGI:3709418|PMID:17307734 ECO:0000353 PR:Q9R0G6  2018-09-12 MGI  creation-date=2018-09-12|modification-date=2018-09-12|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/01a42f5c-09cb-4b31-916b-1d26782e215f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/4998bc15-f539-4787-9e1f-fa28ee8eda37> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3eb3ccc6-9c8c-46de-864f-d31899c7cd6a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/c653799f-5bfa-4087-b1eb-e3cccb7d1362> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/c24cd51b-792d-47c2-96d6-b7a4955303f8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3aaa14e2-c5dc-4b95-8225-4a9d1394d761> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/9181b38e-8058-4011-a32b-8f3092766772> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/e15bd335-963b-43f6-92b7-e5e524bd5ff9> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/10b81002-2839-452f-a3ca-0fae73c6daff> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/9a9fece0-defc-4f24-a74b-e0ad44cfba6a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/4bb74166-dc05-4240-9ebe-de56e3ba5b7b> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/b6be3f83-9097-43e7-974d-f3e930d22bc8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3dc24152-86a0-485f-ab33-400ac7485bc0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/0d4155ad-0628-48b2-b66b-15d130616fa5> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/adfeb379-ba78-4a06-a6d6-ab02af7b139b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/da2002bf-6f50-4110-8223-3dab332cdb30> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/f50c594d-e332-4fc5-a67d-6bfc22fedb6d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/d7372423-a694-430a-9936-581a0eab3ef7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/138305b2-373a-48d8-a652-7a4f2c44a458> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/35af308e-441f-4778-ac2a-3ccc1ece0066> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/59e50a45-3ae0-45ab-a244-8b11987d38cb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/2ca95c61-c95f-4afa-9eef-abce458fe998> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/8c623ecb-f824-48e7-88e6-ef87245fd68a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/d118bd3c-b435-43da-a62e-e6328b2a9360> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/6eaa5356-5375-4baf-9fe9-71d86433dbc5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/f6ab2a36-468f-4b91-8f7b-202d539ed9b4> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0001835 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/309df2a2-98e5-4c26-945e-4f54edaabf7c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/346b20b2-1f64-4094-b0e3-0efc7581ea76> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/f77ac81b-06dc-4056-9ffb-8ecd2b11cd8e> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aab82509-ba07-4fee-9add-799cd5628962> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3bf565c9-3cab-45f1-8a7b-b8322e005664> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/97ab7d76-26d6-451b-b483-8cef3b3edb1b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/2056017c-e5e6-42d0-be7e-5761338e3121> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/5eefd9d4-2862-4ce4-ad44-cfe64c2f1822> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/3e4f2087-1630-4d54-9162-6d32da94ff5c> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905671 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c629d537-6105-4322-81fa-2d50d210c186> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/df6e847e-c2c5-483c-bbb2-0150407234b4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/fd8f16bb-a3fd-4eb4-a140-828b38498cb9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/a7a4c333-d12d-4991-8e3d-f1155bb4c39b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/6590a1ca-797b-49ce-b7ec-4ed938ad106a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/b2edba44-ba38-4b86-a89f-3af33d678147> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/f2ef8a22-f999-4621-ade9-425b64dbe4cc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/aab82509-ba07-4fee-9add-799cd5628962> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a91bcbaa-d34e-49e9-8c83-c3a748693a8c> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/9a9fece0-defc-4f24-a74b-e0ad44cfba6a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/b09607c5-72b6-4918-850b-6ff9c6315711> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/cb9f5afd-f7c3-461c-aef2-fb986545582e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0007566 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c685311c-c72c-4084-a2ab-c6d0214d6428> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/4bd3fd54-9f84-421d-b756-a814047ae065> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/01bd3bc8-f6eb-48be-8e85-dfe21219eb5d> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/aaa36bc7-eb67-4bb7-8125-51c37fc60004> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/412a5911-db18-4951-bb7c-807ee6596e54> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0035641 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/66f0ef7e-054f-4011-97dd-0468b041c145> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/6498044e-83f7-4f52-b6f2-4f96beaeae44> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/317e04f6-89c8-4243-9e57-59dc2258c570> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/44ec7164-f681-4df2-bbae-590bdfb63ee2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/e57c872c-731c-4e45-94f2-ec5e3a4eb28e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/18506217-0806-42f9-a74e-c98164f0a1bf> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/8bdcfe1f-4d13-4d3c-81c0-6e777c82463e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/6bb021d0-1750-4956-8be4-378d503ea9a1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/c2480889-6628-4aec-ae6d-701a3e411de0> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0060041 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3e7e1859-291d-411f-a14d-70c496682aa2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/35ec6f25-7268-45e5-aafe-8f17dd40ddf3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/dd3b55b2-ea4e-45ba-af19-500785e8b916> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/74f9f87f-0306-4260-b2a9-5b5bce70dfd0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a709ca55-af92-41ff-8ec1-4c317bed0ed5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/29cf900f-6adb-4447-be0c-b1c8ab2815f8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3aaa14e2-c5dc-4b95-8225-4a9d1394d761> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/d7372423-a694-430a-9936-581a0eab3ef7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/733e8392-642c-492b-a833-a113cf06823c> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/07526acb-d7c5-4126-8082-6ba7430e093c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a5c4fff2-b5f9-4de7-b86f-d8b94a2f0cc0> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2007-10-29" ;
-    dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/840c3d53-a0b2-493a-8d3c-1801d9ea1a31> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/b6be3f83-9097-43e7-974d-f3e930d22bc8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/84cf5085-84d7-4286-8543-cd6e781fdd4b> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/bbcb200f-2aa4-4cd1-8de6-64697d633acf> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/bcbe2484-a6c6-4508-bf46-7f8fab1f0dad> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/2ca95c61-c95f-4afa-9eef-abce458fe998> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/487bd84a-5cf6-4979-bd3f-3a6f7221f1b7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/cfc0cd5b-cd4f-4aef-a844-91daf69328a8> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905146 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI BFO:0000066(CL:0000540) creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/d126cfef-94a2-4c6b-9ccc-8193a7705a93> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/ad4eb071-d825-477d-aed6-b73d6e2033ce> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/be0df4de-8806-4c55-b5c2-270a807d4327> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/e57c872c-731c-4e45-94f2-ec5e3a4eb28e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/8bdcfe1f-4d13-4d3c-81c0-6e777c82463e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/760f375c-04bf-4cf5-b998-37cbb7ec4fc2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/d7372423-a694-430a-9936-581a0eab3ef7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/a9eceba7-4054-4e09-b6a3-ab533a336993> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7069ec29-ad04-4c58-bc18-80303a40d326> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/09a2d804-f1d3-4203-9dd7-448460444f97> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/af0d5fce-3b34-4fff-b996-737310550c87> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/605dd54f-fa5d-4f2e-bc59-063716ab662a> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/c8b65cf5-7738-4416-9197-7b41892488e3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/d3984037-3eff-46a5-8635-88e24becc9b9> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0035641 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/66f0ef7e-054f-4011-97dd-0468b041c145> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/c253c8cc-ede7-4948-8497-621271733d15> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/60d122cd-6c59-447b-b017-61f41431b014> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3d409230-df64-4a25-8e33-b454885dc815> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/1b159236-a025-42ef-b42b-6484771c0fca> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/29fa9567-841d-4b15-9d8a-5f7dcc95e9ce> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/a9eceba7-4054-4e09-b6a3-ab533a336993> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/f5450d93-5347-4733-b33e-70cc1cf6e81b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/67facabe-9e70-4b6d-b203-e3fda039bcdc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/487bd84a-5cf6-4979-bd3f-3a6f7221f1b7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/559567e3-ada8-4a50-9f52-096a44a8032b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/b0894e87-b060-43bc-9e76-13dbfc9b7c3a> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0060041 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3e7e1859-291d-411f-a14d-70c496682aa2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/6b2db2e0-5a6e-4cc1-96ab-15fc065903dd> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/a6f8a147-1a93-43a6-8444-0be22e7b65cf> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/e3c48b5c-7706-4bb5-a4d4-e0aae1277ac3> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/5d397372-c4df-4c8c-9168-c5088e1c8ebf> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/4e4ff67d-9ba3-4c6e-8ee2-665730c67c11> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/93e9e3e4-26e8-43ba-ac4f-155690c57d56> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/aafcaf85-4885-4e60-8ec9-6b646a76f17e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/4c518ef9-4694-4d14-829a-d9a44ebaee57> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/fb62652f-e3e6-4f70-8df2-6ec89f4b0fab> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/d97dc736-f92a-4062-aa5f-6d7aa908cc9c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3789a756-bc20-4c67-bcd0-bdd2d4c6635b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/a7a4c333-d12d-4991-8e3d-f1155bb4c39b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/1302ba26-e574-497c-a3e9-1a0001914662> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2021-02-23" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/bbcb200f-2aa4-4cd1-8de6-64697d633acf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/b2e98392-4c2d-4937-99c7-cbad2cda6413> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/e8136ee8-c730-427f-b4b3-4cdab6bb82eb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0007566 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c685311c-c72c-4084-a2ab-c6d0214d6428> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/ad1c4303-d6ee-453d-b516-5f074402b2ba> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/b3dd68f8-9ff4-4cab-9d42-d5a213bda692> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/86dcbe07-7ed2-4d19-a238-0fecff8fa450> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a82b99b3-2168-4750-9a74-46c1bf746fba> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-11-28" ;
-    dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0001835 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/309df2a2-98e5-4c26-945e-4f54edaabf7c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/c5073019-e5c5-45b0-9f04-771951b70a85> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/37cc8465-438c-4a15-aa1f-da1fcb32d9e1> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-09-12" ;
-    dct:created "2018-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002327 GO:0005515 MGI:MGI:3709418|PMID:17307734 ECO:0000353 PR:Q9R0G6  2018-09-12 MGI  creation-date=2018-09-12|modification-date=2018-09-12|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/040a189b-6469-4773-a277-a0ab754ce0f8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/2ae21817-d0d2-414d-9464-8f0f69f1df5c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/2669a586-3490-4491-b818-f3ea77d3ce21> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-09-12" ;
-    dct:created "2018-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002327 GO:0005515 MGI:MGI:3709418|PMID:17307734 ECO:0000353 PR:Q9R0G6  2018-09-12 MGI  creation-date=2018-09-12|modification-date=2018-09-12|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/040a189b-6469-4773-a277-a0ab754ce0f8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/a29fedd5-41cc-4d20-b427-680af817e135> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/18c308c8-8205-45af-a3fd-0624c2d9b75b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/d1ed9b1d-78c5-4ae2-9a64-344e014bb669> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2021-02-23" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/07526acb-d7c5-4126-8082-6ba7430e093c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/8b924977-6061-41d0-a8ad-9efa1c10fcdb> .
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/97a3c1e0-782d-4a85-895e-99b8b99f297d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/b7399589-1001-489e-884b-5e1dd2012ee1> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2020-10-16" ;
-    dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905146 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI BFO:0000066(CL:0000540) creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/d126cfef-94a2-4c6b-9ccc-8193a7705a93> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/546b9c7b-db56-4fba-a749-287d73770a46> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/5aef3677-1825-461e-9b56-362f39706f60> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a49cb583-93e5-4718-bed5-b3aa1406df91> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-11-28" ;
     dct:created "2005-11-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/6590a1ca-797b-49ce-b7ec-4ed938ad106a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/645e7873-2f4a-4def-bd89-30f8f56c4616> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c2690849-0b86-4dde-8708-0c1379d3028c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/2e17bd9b-1f41-4bbb-852b-624b6f4518af> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/faccce05-4a97-4233-b9e9-f754a49dec01> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/a1158ad4-03b2-468d-81bb-dff1789cbc41> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0001835 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/b38c77e4-8d93-46ae-9695-c6e9a3e80cc8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/91b267ba-324a-435f-adc8-8b11505608b8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/854f472b-646f-4ee6-b6b5-a5ca4fbd7a90> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905671 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905146 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI BFO:0000066(CL:0000540) creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c629d537-6105-4322-81fa-2d50d210c186> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/04beea52-c4f4-4a76-8294-32746089792b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7ba8c895-5a90-4c4b-8e17-a89665153876> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/e9a476dd-bae4-4296-9371-815d352fb641> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/fa3d08cd-f04c-4f5c-a645-4b7e73abcf76> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/54aa51e1-f546-4a9f-ba11-eb33d795bcf0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/665286c3-15f0-4888-9d69-5f1f11c82f3e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/1d9f4788-609f-4949-b6c6-4ab5546b15a2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/15ef1fa3-7c30-4b14-ba00-4cf7bcd034e6> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905671 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/0edf148f-0053-4b04-84c9-587dd5fc0300> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/d64aedde-e47e-4992-96d3-3bc6e8e00688> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/10fa8bcc-d947-454a-a92e-fb6f1eb9e5d6> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/b1415ced-d604-4a4d-8231-b8502afe7fe7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/b96ae978-c98c-4c84-b7a3-66f1e43423dd> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905146 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI BFO:0000066(CL:0000540) creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7ba8c895-5a90-4c4b-8e17-a89665153876> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/9da00204-5d70-4f57-a598-5fcc9279890b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/51218766-c3dc-457f-80ef-354e17393cc6> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2007-10-29" ;
     dct:created "2004-03-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/fc198a7e-59ff-4b73-a033-ed07eca04656> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/adfeb379-ba78-4a06-a6d6-ab02af7b139b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/9d4c9e26-3126-431e-ab02-8e829ab35850> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/5484935e-54d9-49de-b70d-4c88dd178cdd> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/dc406060-4d0e-42b0-b6f1-c3099f9b7b89> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/c25a5df6-aef9-4929-86f0-cf7421ec2d97> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/5484935e-54d9-49de-b70d-4c88dd178cdd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/1dc0728d-1dd5-415b-ad4e-3c606900d951> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/0444e0b9-a6b5-4781-bb0a-9b16027f53d9> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/23ed4800-6b16-4411-b7e3-5f11fb471437> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/58804efb-ebc7-4374-8204-4ab0f277f66b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/d118bd3c-b435-43da-a62e-e6328b2a9360> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/97ab7d76-26d6-451b-b483-8cef3b3edb1b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/86e5474a-be4c-4cdc-abbe-f791d735e698> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/3906b5c6-6351-435d-9552-717116c8a8bd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/a4e16187-a185-4f68-8f8f-8c0e7d335c22> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/598a83c4-17e0-4750-b2bb-e3dd3c449770> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0007566 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/b3dd68f8-9ff4-4cab-9d42-d5a213bda692> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/581907b4-321d-4369-b93c-7430a1e0e018> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/ef98d77e-dc73-419d-8ab7-a4e6e3dcd853> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/a6f8a147-1a93-43a6-8444-0be22e7b65cf> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/7069ec29-ad04-4c58-bc18-80303a40d326> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/09f86f7f-1023-45a0-91cc-a73c203b53c4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/1d9f4788-609f-4949-b6c6-4ab5546b15a2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/10f29ebe-d4b5-4787-a6d2-ea38102c3839> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/bec8b2a7-171d-4295-924f-7942dc61e542> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2020-10-16" ;
     dct:created "2020-10-16" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0060041 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/dd3b55b2-ea4e-45ba-af19-500785e8b916> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/0b7d9adc-346f-4ff5-9b18-c56900f6d29c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/d07b80ec-1a26-4aad-8ab9-ff3cfb309203> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0035641 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/60d122cd-6c59-447b-b017-61f41431b014> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/c5b32bba-a4d8-4772-97fb-d62974d7decd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/03813f04-9ba2-462c-9ca9-690a5c487992> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905671 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI  creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/0edf148f-0053-4b04-84c9-587dd5fc0300> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/9cc97aa1-b8e1-4676-90e1-c3b32b83f944> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/73af11aa-ce1c-490f-a6a5-bc705165e64d> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/cd63fa09-673d-4361-bbe9-9571ca833f3b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/03d20066-c84a-43c3-a981-c430195ad854> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/f784490c-7a55-4a86-acc4-f5f8650c8afa> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0001835 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI  creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=has_participant(EMAPA:16039 TS05)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/b38c77e4-8d93-46ae-9695-c6e9a3e80cc8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/41aef915-fa73-4165-9a04-bcb160980785> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/842d1790-d920-48ff-afc8-45ea4db2a01b> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/c8b65cf5-7738-4416-9197-7b41892488e3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/1ec266ce-56b5-4d85-b2d8-eb7036fb15c2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/2d79c7fc-cc20-4e7f-810b-ad94a691fe89> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2020-10-16" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95832  RO:0002264 GO:1905146 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2020-10-16 MGI BFO:0000066(CL:0000540) creation-date=2020-10-16|modification-date=2020-10-16|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/ad4eb071-d825-477d-aed6-b73d6e2033ce> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3c3fcb93-5271-43f0-ba2d-9aa2f3be169f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/e9a476dd-bae4-4296-9371-815d352fb641> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/210cd34c-f8b0-4072-8a1a-c7233e097521> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/aa895f4e-9c88-45f5-837f-0cfb7e2d72dd> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-09-12" ;
+    dct:created "2018-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002327 GO:0005515 MGI:MGI:3709418|PMID:17307734 ECO:0000353 PR:Q9R0G6  2018-09-12 MGI  creation-date=2018-09-12|modification-date=2018-09-12|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/4998bc15-f539-4787-9e1f-fa28ee8eda37> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/7cae8fda-75ed-4c2c-8a09-9ec98a6d0fee> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/b5cc06a1-bf9b-475f-9bf4-33291d74d204> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/71af3739-e578-4df3-89c6-a5e594452111> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/02bfc14d-6fe1-4136-9746-7057a76dd273> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/154066d2-1da4-483d-8bea-3b51a41f5de6> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/0d40aba0-8d2d-4681-8dbe-9927d0d0ef7f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/3906b5c6-6351-435d-9552-717116c8a8bd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/e4a6df7f-8a48-421b-8605-3deb459d05dd> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7069ec29-ad04-4c58-bc18-80303a40d326> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/6907ae46-8e5c-4faf-aa45-3814c19218b9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/6e67f714-38ff-48c7-ad5a-1c62908c013a> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/ef8549a0-bebf-4449-8963-51267879f771> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/e81306ad-93e7-4e12-b42a-792fc7581a9d> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/7089a0e0-1f12-474b-8a07-120082ffa2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/b7b0298b-0e9b-4130-9cc4-149abec81c63> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/2708df8d-f7cf-42de-97df-af390bdd09f9> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/63433d33-cf5b-4f29-b938-cb1776283cb0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/cd63fa09-673d-4361-bbe9-9571ca833f3b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/c6049006-0b53-4dfb-847f-31992ad13ba8> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2021-02-23" ;
+    dct:created "2020-10-16" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0051346 MGI:MGI:6101836|PMID:28728022 ECO:0000315 MGI:MGI:3762618  2021-02-23 MGI BFO:0000066(EMAPA:16894),BFO:0000066(GO:0005764),RO:0002233(PR:P10605),RO:0002233(PR:Q9ET22),RO:0002233(PR:P29416),RO:0002233(PR:P20060) creation-date=2020-10-16|modification-date=2021-02-23|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/ef8549a0-bebf-4449-8963-51267879f771> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/41e59856-95b7-4a89-96b3-1000045e9cc8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/4ebb8197-95f6-47b4-a21f-af9b011291bc> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0002264 GO:0050679 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000066(EMAPA:16046),GOREL:0001008(CL:1000274) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/09a2d804-f1d3-4203-9dd7-448460444f97> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/387afecc-37c7-425f-8a54-6921187572a3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/e0b1ec2e-0d25-4006-a939-c231816b08b2> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2007-10-29" ;
+    dct:created "2004-03-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005739 MGI:MGI:2682130|PMID:14651853 ECO:0007005   2007-10-29 MGI BFO:0000050(EMAPA:16846)|BFO:0000050(EMAPA:16894)|BFO:0000050(EMAPA:17373)|BFO:0000050(EMAPA:16105) creation-date=2004-03-31|modification-date=2007-10-29|comment=anatomy brain ; MA:0000168|comment=anatomy heart ; MA:0000072|comment=anatomy kidney ; MA:0000368|comment=anatomy liver ; MA:0000358|comment=RefSeq:NP_032201|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/02bfc14d-6fe1-4136-9746-7057a76dd273> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/57129fd4-c071-4eb7-9ee8-2efbe9c014ed> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95832/8e75376c-b98a-41f3-a2f3-795ea7ed5ca1> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-11-28" ;
+    dct:created "2005-11-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:95832  RO:0001025 GO:0005615 MGI:MGI:3589098|PMID:15901638 ECO:0000314   2005-11-28 MGI BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:0000352),BFO:0000050(EMAPA:16039)|BFO:0000050(CL:1000274),BFO:0000050(EMAPA:16046) creation-date=2005-11-28|modification-date=2005-11-28|comment=anatomy TS5\\ embryo; EMAP:23|comment=anatomy TS5\\ trophectoderm; EMAP:28|comment=cell type permanent cell line cell ; CLO:0000019 NIH/3T3 ; ATCC:CRL-1658|comment=cell type primary cell line cell ; CL:0000001 epiblast cell ; CL:0000352|comment=cell type primary cell line cell ; CL:0000001 trophectodermal cell ; CL:1000274|comment=cell type trophectodermal cell ; CL:1000274|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95832/10f29ebe-d4b5-4787-a6d2-ea38102c3839> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95832/ea04b83f-daf8-41c8-9aed-e1c840d47555> .
 

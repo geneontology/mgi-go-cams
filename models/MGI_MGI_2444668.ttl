@@ -36,36 +36,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-12-31" ;
     dc:title "Fnip1 (MGI:MGI:2444668)" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2444668> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2444668/1888b840-3a16-448b-bdee-9d779f14e55e> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:97250" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/23e3653a-5cf3-4b17-9749-07323635601a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/2a289615-f16b-40ba-b773-3e40d36ba1b4> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444668/00a7bc09-bdad-4afc-8e61-f25c9c0261f6> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:5437714" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -74,10 +50,37 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-12-31" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence Western blot evidence ; ECO:0000112",
+        "evidence immunological assay data ; ECO:0000040",
+        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/047346fe-a93e-4112-bdc5-485daa39a093> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
         "evidence flow cytometry data ; ECO:0000268",
         "evidence immunological assay data ; ECO:0000040" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/3171890d-be03-413d-be75-5c26600b9c9f> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_2444668/0a7092b8-bc55-4d1b-9e38-dbd331a2e7a0> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence Western blot evidence ; ECO:0000112",
+        "evidence immunological assay data ; ECO:0000040",
+        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/1e6fd96c-3f4c-4497-a7a8-04e4654c4e19> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:88138" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -90,16 +93,193 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence flow cytometry data ; ECO:0000268",
         "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/3702b9f5-853a-4342-ad0b-68b6d576989c> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/22f02259-ac85-4ae6-9fc9-9820e9120a21> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444668/eac187ff-0afd-4694-9387-733b320f2608> ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/29ebb660-efc8-4eb8-9748-7a88b5b9f166> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/30a9969a-5017-4553-b1f7-cdf302341f8f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/387b397b-0965-4929-b65b-e6cf5073041d> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:97250" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/45b87752-e698-43e6-862e-8b5e19138508> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/5139eaac-053f-49b7-ad4c-ab42ad973aa6> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/5cfb6ada-a083-47ce-a117-03f64aefdaee> a MGI:MGI:2444668,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2444668/1af7c8c0-da80-47b8-8853-d6daed88f45a> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/3c8a07ea-31bf-47b2-a9a9-3bd4235e7a71> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2444668/610078a1-9ab5-4dce-825b-680d2b51d447> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/61eee298-6f98-4363-a397-129438815599> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/62bf539c-f4fe-4e1c-962c-1e88e32e9f3c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/710f9ebf-2cf9-468e-9ce2-4226dbf04e5d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/75556d61-4a30-4571-a0fc-7820b96a3e61> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/796be4d5-e633-4179-b3ff-0f5f500720f5> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/842d9f04-d5bd-4b92-bd2e-a8d579aa0928> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/89fb97e7-b8ac-4b6a-a574-ee53fe529f34> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/8ae5d933-c9db-46bf-8a9f-900cdb6fd1da> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
@@ -108,33 +288,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/3dae0123-1e97-4bde-82d8-b0640a9020eb> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:88138" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/3dec1419-d6d2-4bf3-947f-acc71b23f942> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/43cdd8a2-e28b-4901-8edf-a2640df6603b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444668/8bab1402-9050-4416-999a-b005d19e5849> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:5445116" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -147,7 +301,58 @@ ns2:providedBy a owl:AnnotationProperty .
         "anatomy thymus ; MA:0000142",
         "evidence flow cytometry data ; ECO:0000268" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/4d5a32e8-b975-49a0-aace-7de879fef65d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444668/93efd5ec-093e-46e7-81e2-7025d6bddc1a> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:88138" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/a09faced-caba-4975-92a3-9255b758818b> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:88138" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/ae26d389-cb1f-4dd9-a01c-683eab6294e4> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/b0e69950-fc73-4a03-af72-47ef1c4efe4e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/b11be9c7-0b2d-4622-bfde-06822f78d555> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:5445116" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -158,33 +363,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type precursor B cell ; CL:0000817",
         "evidence flow cytometry data ; ECO:0000268" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/4e8e39a7-7b30-46a0-85e1-eb3bee680334> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/4efc32c6-2b6e-4b4d-8970-abbb18c28afb> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/5056ee03-983f-4f19-beed-bf3dd0ce7a87> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2444668/bb91eb00-847e-43fa-8b7d-cb442f413a9c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:5445116" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -195,219 +374,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type precursor B cell ; CL:0000817",
         "evidence flow cytometry data ; ECO:0000268" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/53a140c4-39f5-47b1-be00-d9035ed40128> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/57bae830-9b45-4128-b7cc-9da963505e9d> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/5a79ed9b-eac4-4413-acd5-43b2feb5d8d2> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/5d4ef359-4780-486c-bf70-cf3cfd732fa3> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/63682c59-b81d-42cb-87b3-1dbd8d61424e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/661c000d-0653-4800-ac87-2b4b15cfcf8e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/6e64de8c-fea8-4d71-924f-b380ebcace29> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/7a4c1c31-ecc7-46a2-b861-2fe3907bc62f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/8ca562ba-9b43-417b-99b1-e9649c498cb5> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/90b6343d-e733-449f-a565-b4076913c6fa> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence Western blot evidence ; ECO:0000112",
-        "evidence immunological assay data ; ECO:0000040",
-        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/914d1393-b1bc-44f4-bf16-885c35d5d41c> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/916e4763-81db-48d4-8aa1-8d492d2d8fa0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/964898f1-24fd-4475-86ac-c694d446876a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/9840006c-17b0-4fea-b421-6dd643dd39e5> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/98dbb81a-b5bb-4ea2-8439-397358726e7f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence Western blot evidence ; ECO:0000112",
-        "evidence immunological assay data ; ECO:0000040",
-        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/a460c422-6ce1-4995-b792-c9d77e5e6630> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/b19adf0c-c191-450f-96bf-f10d54fe935f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence Western blot evidence ; ECO:0000112",
-        "evidence immunological assay data ; ECO:0000040",
-        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/b1c08d87-14dc-44b6-a259-6e8ee2b149ea> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_2444668/bbe6d7fb-5f49-4256-b157-bad797c20408> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:88138" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -420,161 +387,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence flow cytometry data ; ECO:0000268",
         "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/b8fe1628-a659-423b-aa3a-43f8cf7ba4be> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:88138" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/ba46595e-7830-4d6a-8480-d4a5980edbb5> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/c0c6a331-7aff-4236-abf2-8560127a0d39> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:88138" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/c72af00a-6f1f-4dd8-be24-0cd3bc5a5b37> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/cacd0a9e-d065-4023-825e-c3decfd25f98> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/cbd04198-b6ae-4110-b69b-b435913c287e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/ceafd798-0ab7-40ba-b9bc-40d9ae015cdd> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/e8ffb735-5b30-4948-96bd-a0baaa612320> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/edafae84-7b8d-4f66-84e6-901eec94868e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "evidence flow cytometry data ; ECO:0000268",
-        "evidence immunological assay data ; ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/edf50c6a-c175-4495-9467-64d66a23a75c> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5445116" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "anatomy spleen ; MA:0000141",
-        "anatomy thymus ; MA:0000142",
-        "evidence flow cytometry data ; ECO:0000268" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/f2b80a04-aca0-4d17-98fd-634339dd3b4b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:5437714" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22608497" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
-        "evidence Western blot evidence ; ECO:0000112",
-        "evidence immunological assay data ; ECO:0000040",
-        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/faa55068-b270-4b61-889a-61af4e5d2212> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:88138" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dc:source "PMID:22709692" ;
-    dct:created "2012-12-31" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy bone marrow ; MA:0000134",
-        "cell type precursor B cell ; CL:0000817",
-        "evidence flow cytometry data ; ECO:0000268",
-        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
-
-<http://model.geneontology.org/MGI_MGI_2444668/fbaf3e91-ce77-4eec-9c98-7e0ee24823ea> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_2444668/c19d5f2a-5ff8-4484-8534-4cb782304d53> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:97250" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -583,6 +396,193 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-12-31" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/c28eec55-e870-4a55-b859-05c9f568228c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/c2e59651-bfe7-4686-8833-b974a5907f0b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence Western blot evidence ; ECO:0000112",
+        "evidence immunological assay data ; ECO:0000040",
+        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/c34254ac-d9f1-4efb-8246-09f94ec4d298> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/caec570f-997d-41d0-a738-6dbebe77d2ae> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/ce10d3a9-9783-414c-bfd1-621f1ad40c57> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/cebc41bd-61ea-4665-9dc6-cf41906af9df> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence Western blot evidence ; ECO:0000112",
+        "evidence immunological assay data ; ECO:0000040",
+        "immunoblotting for phophotyrosine to identify markers of TOR signaling activation" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e4115855-4886-4072-a82c-3dbec3e9905e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e4727c98-3b86-43b4-a879-4ffc044e2fed> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:88138" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e4a8a7bc-0fa4-40b4-a8c7-01e3bc5e8a00> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e631368d-4876-4139-9b10-95ab572ea180> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e679198c-179b-4664-934f-9baf23362da9> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/e99ca0d2-b827-4533-9ea1-08ae06563c95> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817",
+        "cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration",
+        "evidence flow cytometry data ; ECO:0000268",
+        "evidence immunological assay data ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/ea885c82-0482-4796-a611-4ba30783a121> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:88138" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "cell type precursor B cell ; CL:0000817",
+        "evidence flow cytometry data ; ECO:0000268",
+        "extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/eab0390e-7598-449f-8b73-b4d19b4008ea> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5445116" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22709692" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "anatomy thymus ; MA:0000142",
+        "evidence flow cytometry data ; ECO:0000268" .
+
+<http://model.geneontology.org/MGI_MGI_2444668/fe6bb564-9da1-405d-9733-70dc2728b155> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:5437714" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dc:source "PMID:22608497" ;
+    dct:created "2012-12-31" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy bone marrow ; MA:0000134",
+        "anatomy spleen ; MA:0000141",
+        "evidence flow cytometry data ; ECO:0000268",
         "evidence immunological assay data ; ECO:0000040" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -591,480 +591,480 @@ obo:RO_0001025 a owl:ObjectProperty .
 
 obo:RO_0002213 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2444668/05c10235-5a42-4f35-b94c-68ba483f757d> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/1bb08872-d8e7-4b3a-b72b-6cd771205d4c> a MGI:MGI:2444668,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/60d17d3a-4a36-4fc6-b760-6a1b458e0a92> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/e789d869-f6ac-478d-9c4f-25c715d94220> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/071798d4-b658-433f-82cf-48357c321597> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/1c4ca476-4390-4117-82f4-b305d3549afd> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/0c2b4d8f-f5b6-4331-910a-2307b62c6ff8> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/1e70a99f-5f6e-4c7b-90a0-9a9733c3d677> a EMAPA:32760,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/0fef268f-fe45-439e-bcb2-93ed2af5a904> a EMAPA:32760,
+<http://model.geneontology.org/MGI_MGI_2444668/222250ba-0c3e-4db8-94b9-eda01be4cfc5> a CL:0000817,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/305c454c-e816-4714-adb2-97f685835e18> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/2303b455-f2cf-42d6-ba48-b7566d1a0d1f> a MGI:MGI:2444668,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/cd2988dd-74b0-4108-9905-325822a5e84f> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/b463f6eb-9020-4241-9f1d-8ecf6329246a> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/339e44b8-eca7-41b5-b366-52c61fe9bcb8> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/2aabf61a-e851-425c-b1c8-6e83135f26f5> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/3b3c9b65-34fc-4bcb-a79d-4f9112620126> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/365fc1ca-0521-4eef-bb55-88808bd8a7a9> a MGI:MGI:2444668,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/fd080525-8456-4c38-9c5c-57a223c00f41> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/4086a40f-94e6-4266-8d2f-b8aabe169c8e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/43e40465-3600-407c-9d64-d8c520bc0b33> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/4f9f9a2b-356e-461a-8945-73160adad0a4> a EMAPA:18767,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/071798d4-b658-433f-82cf-48357c321597> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/8e45d617-74dc-4d0d-a4ac-7a1aac8cccaf> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/49b49305-2669-4f5d-a511-0e1e8657fa1d> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/51007529-c8b1-4624-ae31-2af1f2bce0b6> a MGI:MGI:2444668,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/d26e9a4f-4740-4181-95e9-66e9cc91ad1e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/cb1961f9-8956-489c-a8a7-35b8a7617280> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/4f888c01-cfca-4d09-b6dd-09302e2883e6> a CL:0000236,
+<http://model.geneontology.org/MGI_MGI_2444668/607e61df-5d06-4202-9ada-2dbb2f9b9c7e> a CL:0000817,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/5b433301-284c-4981-9e32-5937b7bcd59a> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/6855dacf-c0d3-4051-906a-3681be109674> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/dc7f0029-e1ae-4942-b8c7-ebc411d2ea20> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/cd8d09c6-ece6-4719-a2b0-ae8769215be3> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/faddecab-ec60-4898-8522-9650e7e4afc4> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/2c79aaad-c12e-4414-a1e3-41e8b906a1f8> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/60d17d3a-4a36-4fc6-b760-6a1b458e0a92> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/6a886ccf-3f7e-4c65-b0e6-690ecf3dc866> a EMAPA:32760,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/65ea3bfd-1331-49a2-a9b5-649f9e8d0682> a EMAPA:32760,
+<http://model.geneontology.org/MGI_MGI_2444668/70acfd38-4636-4773-9488-5cf1ac8fd3e4> a CL:0000817,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/75701b96-f2e4-4e13-b3e3-af09a3abe0d2> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/743ddbf4-0183-4565-b206-1bdfcca96337> a GO:0002904,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/ae2d0e48-7dc5-4154-b3c9-aa229b2528e0> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/57baa54f-131d-4311-9ed8-343974cd23ec> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/8524c076-69de-45d9-92ba-52bea37f9933> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/88a814c8-9170-4052-901c-40d764ed6da1> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/0c2b4d8f-f5b6-4331-910a-2307b62c6ff8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/23ff3aa1-eade-407f-85ef-3f37269643e5> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/1bb08872-d8e7-4b3a-b72b-6cd771205d4c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/886c3af0-c20a-46f4-88c9-98fd4dbc9ba8> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/8e45d617-74dc-4d0d-a4ac-7a1aac8cccaf> a GO:0002904,
+<http://model.geneontology.org/MGI_MGI_2444668/8cb27b11-ae9e-4a18-8e91-8d8cdcbbf78c> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/365fc1ca-0521-4eef-bb55-88808bd8a7a9> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/c4477f21-f1d4-447f-9764-44fb3cb6d86e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/8ea31acb-ea65-4beb-9076-84440c2826d3> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/9018e657-4829-4301-a76a-05135d5b7571> a CL:0000817,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/f216d4ed-2492-4077-b904-1b5a9044e295> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/d5c1ce1c-912e-4663-abaf-796a949eee6c> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/90b359fa-95eb-4819-8b43-7c33f838b710> a CL:0000817,
+<http://model.geneontology.org/MGI_MGI_2444668/988c7d95-d26e-477e-adb7-9c867db6f2e0> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/2303b455-f2cf-42d6-ba48-b7566d1a0d1f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/743ddbf4-0183-4565-b206-1bdfcca96337> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/96369c21-50f2-4c44-8190-47d81b439b87> a CL:0000817,
+<http://model.geneontology.org/MGI_MGI_2444668/9b15a6a5-63e0-4eac-af8f-466c93b3169f> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/dc99db27-b8da-4033-ba98-96e7af51d14f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/8ef27a0b-b635-445e-977a-d0c352ca87f4> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/9a6c9ced-a71f-4d2a-a8af-8ce6aa69675f> a CL:0000817,
+<http://model.geneontology.org/MGI_MGI_2444668/a05bfe37-aa77-4ebe-81fb-9a9d9ae9b782> a EMAPA:18768,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/9f1eea94-9ca9-492e-9970-d8c2bc472fe9> a EMAPA:18768,
+<http://model.geneontology.org/MGI_MGI_2444668/a7e1a9a2-9f27-42fb-836d-d7551f0855ef> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/a8b663a4-a18e-4fcf-a405-538f4c402af4> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/492ed3eb-56a2-4afe-8ef7-ad4808f5bd27> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/a1430cfb-8aa2-4b1c-82b6-ca301a55a320> a CL:0000817,
+<http://model.geneontology.org/MGI_MGI_2444668/a8b663a4-a18e-4fcf-a405-538f4c402af4> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/a1db8a6b-b895-4752-b234-8c6cbdd06908> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/b6e528b5-dffd-4cf8-9067-599583ca492e> a EMAPA:32760,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/da2a2efc-d0bd-4286-a7e1-f27321684a9c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/a8a0823c-83cd-46ac-9d27-f7966a0edac0> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/a5eba8b7-f8c8-4c6e-aadb-2fd1a9305325> a CL:0000817,
+<http://model.geneontology.org/MGI_MGI_2444668/bdc9e6c7-caaa-4d0f-ab74-605c869e92f7> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/ae2d0e48-7dc5-4154-b3c9-aa229b2528e0> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/be21e09b-4caf-4bae-9825-0db7793ecf89> a CL:0000817,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/cd2988dd-74b0-4108-9905-325822a5e84f> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/c57c838d-55ad-4760-bbd1-2207accdbddc> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/bdc9e6c7-caaa-4d0f-ab74-605c869e92f7> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/8ceb5dd6-2dce-46fd-9c74-e96790bf03bc> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/d26e9a4f-4740-4181-95e9-66e9cc91ad1e> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/cbfcd163-7e00-4c2b-9005-639f38ad83a7> a CL:0000236,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/da2a2efc-d0bd-4286-a7e1-f27321684a9c> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/d5722ff9-5585-4866-b77f-c372c4d53406> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/51007529-c8b1-4624-ae31-2af1f2bce0b6> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/6c525eba-bec2-4309-a5eb-5fddff2177bb> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/dc7f0029-e1ae-4942-b8c7-ebc411d2ea20> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/dbc77ff7-b037-44e5-af83-6ab8edb8e68c> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/2aabf61a-e851-425c-b1c8-6e83135f26f5> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/7cbfc876-45d6-4ff1-b319-b6d384bb5412> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/e035e3c0-fc3d-4c17-86f2-6105dfa87814> a EMAPA:32760,
+<http://model.geneontology.org/MGI_MGI_2444668/dc99db27-b8da-4033-ba98-96e7af51d14f> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/e475975c-b0f3-4d2b-a46a-c44876b63907> a EMAPA:18767,
+<http://model.geneontology.org/MGI_MGI_2444668/e59897b1-0c52-4828-b6d9-4a813aac4772> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/1c4ca476-4390-4117-82f4-b305d3549afd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/0555acbf-b600-462c-b630-7571131ad075> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/e7bc6b87-ee90-40b1-b79c-b28833890073> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2444668/ec788dc5-2d4a-42a8-8899-75c2ab205bf9> a EMAPA:18767,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/339e44b8-eca7-41b5-b366-52c61fe9bcb8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/70e8ac9e-d382-48b8-8053-19d043ef4aff> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/f1605668-2187-47db-88a3-39865f58b187> a EMAPA:18767,
+<http://model.geneontology.org/MGI_MGI_2444668/f05ec7e4-9908-4f08-9803-42fee53682b0> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444668/f1842138-11b0-4c83-b849-b1f3ad6522a7> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2444668/5f1639b7-248f-458b-ae83-856c9c2d31b1> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/f216d4ed-2492-4077-b904-1b5a9044e295> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/f1842138-11b0-4c83-b849-b1f3ad6522a7> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/fd080525-8456-4c38-9c5c-57a223c00f41> a MGI:MGI:2444668,
+<http://model.geneontology.org/MGI_MGI_2444668/faddecab-ec60-4898-8522-9650e7e4afc4> a MGI:MGI:2444668,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/208d973a-3086-4bd8-8f92-4edbc7c56a73> a GO:0031929,
+<http://model.geneontology.org/MGI_MGI_2444668/0555acbf-b600-462c-b630-7571131ad075> a GO:2000973,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/a1430cfb-8aa2-4b1c-82b6-ca301a55a320> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/1290681b-e86c-4740-bf73-816e96530344> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/4086a40f-94e6-4266-8d2f-b8aabe169c8e> a GO:0009267,
+<http://model.geneontology.org/MGI_MGI_2444668/1290681b-e86c-4740-bf73-816e96530344> a GO:0002328,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/9a6c9ced-a71f-4d2a-a8af-8ce6aa69675f> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/a05bfe37-aa77-4ebe-81fb-9a9d9ae9b782> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/4762997f-eacd-4a51-a07b-6b2c19d36e63> a GO:0097153,
+<http://model.geneontology.org/MGI_MGI_2444668/1af7c8c0-da80-47b8-8853-d6daed88f45a> a GO:0005737,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/e035e3c0-fc3d-4c17-86f2-6105dfa87814> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444668/cbfcd163-7e00-4c2b-9005-639f38ad83a7> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/57baa54f-131d-4311-9ed8-343974cd23ec> a GO:2000973,
+<http://model.geneontology.org/MGI_MGI_2444668/2c79aaad-c12e-4414-a1e3-41e8b906a1f8> a GO:2000973,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/c59e79ff-11c6-462a-99ec-612e2addeae6> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/e9f44cfb-ad3f-4a1b-a023-2776511744bf> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/5efd1cbf-d31f-4336-b084-8a320f22751d> a GO:0002328,
+<http://model.geneontology.org/MGI_MGI_2444668/3f2c5209-3bfe-45b2-9433-a73fec3fbffe> a GO:0097153,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/f1605668-2187-47db-88a3-39865f58b187> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/222250ba-0c3e-4db8-94b9-eda01be4cfc5> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/65ac3486-fd51-421d-9ae9-3f2e11470c49> a GO:0097153,
+<http://model.geneontology.org/MGI_MGI_2444668/492ed3eb-56a2-4afe-8ef7-ad4808f5bd27> a GO:0002904,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/96369c21-50f2-4c44-8190-47d81b439b87> ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_2444668/f72cf2bf-e264-4663-b903-67b5d5e02622> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/6ba5b6e8-f754-449a-a155-f81cb55623be> a GO:0001783,
+<http://model.geneontology.org/MGI_MGI_2444668/5f1639b7-248f-458b-ae83-856c9c2d31b1> a GO:0043154,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/a5eba8b7-f8c8-4c6e-aadb-2fd1a9305325> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/eea7f59a-b09e-459e-9e91-ef8ac1d9d537> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/70e8ac9e-d382-48b8-8053-19d043ef4aff> a GO:2000973,
+<http://model.geneontology.org/MGI_MGI_2444668/627bb9c5-1d0e-4f93-9ff5-cb4b7a07696e> a GO:0097153,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/5efd1cbf-d31f-4336-b084-8a320f22751d> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/b6e528b5-dffd-4cf8-9067-599583ca492e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/80b2a255-a12b-4aa5-8402-ac2b961c4778> a GO:0097153,
+<http://model.geneontology.org/MGI_MGI_2444668/6c525eba-bec2-4309-a5eb-5fddff2177bb> a GO:0009267,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/90b359fa-95eb-4819-8b43-7c33f838b710> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/70acfd38-4636-4773-9488-5cf1ac8fd3e4> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/a8a0823c-83cd-46ac-9d27-f7966a0edac0> a GO:0002327,
+<http://model.geneontology.org/MGI_MGI_2444668/886c3af0-c20a-46f4-88c9-98fd4dbc9ba8> a GO:0032007,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/65ea3bfd-1331-49a2-a9b5-649f9e8d0682> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/972f17ea-31f8-46e4-bd0f-828e873d655e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/b463f6eb-9020-4241-9f1d-8ecf6329246a> a GO:0043154,
+<http://model.geneontology.org/MGI_MGI_2444668/8ceb5dd6-2dce-46fd-9c74-e96790bf03bc> a GO:0002327,
         owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/80b2a255-a12b-4aa5-8402-ac2b961c4778> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/4f9f9a2b-356e-461a-8945-73160adad0a4> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/c3720cd2-5f79-4a52-9ff8-b2c851d8b463> a GO:0002328,
+<http://model.geneontology.org/MGI_MGI_2444668/8ef27a0b-b635-445e-977a-d0c352ca87f4> a GO:2000973,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/0fef268f-fe45-439e-bcb2-93ed2af5a904> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/c87fcf7c-95a4-4844-9ead-1eaa1c2c129a> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/c59e79ff-11c6-462a-99ec-612e2addeae6> a GO:0002328,
+<http://model.geneontology.org/MGI_MGI_2444668/972f17ea-31f8-46e4-bd0f-828e873d655e> a GO:0031929,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/9f1eea94-9ca9-492e-9970-d8c2bc472fe9> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/607e61df-5d06-4202-9ada-2dbb2f9b9c7e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/cb1961f9-8956-489c-a8a7-35b8a7617280> a GO:2000973,
+<http://model.geneontology.org/MGI_MGI_2444668/c4477f21-f1d4-447f-9764-44fb3cb6d86e> a GO:0002327,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_2444668/c3720cd2-5f79-4a52-9ff8-b2c851d8b463> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/1e70a99f-5f6e-4c7b-90a0-9a9733c3d677> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/cd8d09c6-ece6-4719-a2b0-ae8769215be3> a GO:0002327,
+<http://model.geneontology.org/MGI_MGI_2444668/c87fcf7c-95a4-4844-9ead-1eaa1c2c129a> a GO:0002328,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/e475975c-b0f3-4d2b-a46a-c44876b63907> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/ec788dc5-2d4a-42a8-8899-75c2ab205bf9> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/d5c1ce1c-912e-4663-abaf-796a949eee6c> a GO:0002904,
+<http://model.geneontology.org/MGI_MGI_2444668/e9f44cfb-ad3f-4a1b-a023-2776511744bf> a GO:0002328,
         owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_2444668/6ba5b6e8-f754-449a-a155-f81cb55623be> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/6a886ccf-3f7e-4c65-b0e6-690ecf3dc866> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/e789d869-f6ac-478d-9c4f-25c715d94220> a GO:0032007,
+<http://model.geneontology.org/MGI_MGI_2444668/eea7f59a-b09e-459e-9e91-ef8ac1d9d537> a GO:0097153,
         owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/208d973a-3086-4bd8-8f92-4edbc7c56a73> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/be21e09b-4caf-4bae-9825-0db7793ecf89> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444668/eac187ff-0afd-4694-9387-733b320f2608> a GO:0005737,
+<http://model.geneontology.org/MGI_MGI_2444668/f72cf2bf-e264-4663-b903-67b5d5e02622> a GO:0001783,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2444668/4f888c01-cfca-4d09-b6dd-09302e2883e6> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2444668/9018e657-4829-4301-a76a-05135d5b7571> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002211 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2444668/23ff3aa1-eade-407f-85ef-3f37269643e5> a GO:0043154,
+<http://model.geneontology.org/MGI_MGI_2444668/7cbfc876-45d6-4ff1-b319-b6d384bb5412> a GO:0043154,
         owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/4762997f-eacd-4a51-a07b-6b2c19d36e63>,
-        <http://model.geneontology.org/MGI_MGI_2444668/65ac3486-fd51-421d-9ae9-3f2e11470c49> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_2444668/3f2c5209-3bfe-45b2-9433-a73fec3fbffe>,
+        <http://model.geneontology.org/MGI_MGI_2444668/627bb9c5-1d0e-4f93-9ff5-cb4b7a07696e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002212 a owl:ObjectProperty .
@@ -1076,518 +1076,518 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0002418 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/8ca562ba-9b43-417b-99b1-e9649c498cb5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/22f02259-ac85-4ae6-9fc9-9820e9120a21> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8ea31acb-ea65-4beb-9076-84440c2826d3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/d5c1ce1c-912e-4663-abaf-796a949eee6c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/ba46595e-7830-4d6a-8480-d4a5980edbb5> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/4086a40f-94e6-4266-8d2f-b8aabe169c8e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/9a6c9ced-a71f-4d2a-a8af-8ce6aa69675f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/3dae0123-1e97-4bde-82d8-b0640a9020eb> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/23ff3aa1-eade-407f-85ef-3f37269643e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/65ac3486-fd51-421d-9ae9-3f2e11470c49> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/3171890d-be03-413d-be75-5c26600b9c9f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8524c076-69de-45d9-92ba-52bea37f9933> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/23ff3aa1-eade-407f-85ef-3f37269643e5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/cbd04198-b6ae-4110-b69b-b435913c287e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/a1db8a6b-b895-4752-b234-8c6cbdd06908> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/a8a0823c-83cd-46ac-9d27-f7966a0edac0> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c57c838d-55ad-4760-bbd1-2207accdbddc> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/8ceb5dd6-2dce-46fd-9c74-e96790bf03bc> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/f2b80a04-aca0-4d17-98fd-634339dd3b4b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/b0e69950-fc73-4a03-af72-47ef1c4efe4e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/6855dacf-c0d3-4051-906a-3681be109674> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/2c79aaad-c12e-4414-a1e3-41e8b906a1f8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/0a7092b8-bc55-4d1b-9e38-dbd331a2e7a0> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/05c10235-5a42-4f35-b94c-68ba483f757d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/e789d869-f6ac-478d-9c4f-25c715d94220> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/661c000d-0653-4800-ac87-2b4b15cfcf8e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8ea31acb-ea65-4beb-9076-84440c2826d3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/f216d4ed-2492-4077-b904-1b5a9044e295> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c0c6a331-7aff-4236-abf2-8560127a0d39> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8524c076-69de-45d9-92ba-52bea37f9933> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/0c2b4d8f-f5b6-4331-910a-2307b62c6ff8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/63682c59-b81d-42cb-87b3-1dbd8d61424e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0001025 GO:0005737 MGI:MGI:5436190|PMID:22608497 ECO:0000314   2012-12-31 MGI BFO:0000050(CL:0000236) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/eac187ff-0afd-4694-9387-733b320f2608> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/4f888c01-cfca-4d09-b6dd-09302e2883e6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/cacd0a9e-d065-4023-825e-c3decfd25f98> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/49b49305-2669-4f5d-a511-0e1e8657fa1d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/d26e9a4f-4740-4181-95e9-66e9cc91ad1e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/4efc32c6-2b6e-4b4d-8970-abbb18c28afb> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e7bc6b87-ee90-40b1-b79c-b28833890073> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/339e44b8-eca7-41b5-b366-52c61fe9bcb8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/5056ee03-983f-4f19-beed-bf3dd0ce7a87> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/80b2a255-a12b-4aa5-8402-ac2b961c4778> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/90b359fa-95eb-4819-8b43-7c33f838b710> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/972f17ea-31f8-46e4-bd0f-828e873d655e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/607e61df-5d06-4202-9ada-2dbb2f9b9c7e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/4d5a32e8-b975-49a0-aace-7de879fef65d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/387b397b-0965-4929-b65b-e6cf5073041d> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/305c454c-e816-4714-adb2-97f685835e18> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/b463f6eb-9020-4241-9f1d-8ecf6329246a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/916e4763-81db-48d4-8aa1-8d492d2d8fa0> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/5b433301-284c-4981-9e32-5937b7bcd59a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/dc7f0029-e1ae-4942-b8c7-ebc411d2ea20> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/6e64de8c-fea8-4d71-924f-b380ebcace29> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/5b433301-284c-4981-9e32-5937b7bcd59a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/cd8d09c6-ece6-4719-a2b0-ae8769215be3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/964898f1-24fd-4475-86ac-c694d446876a> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/70e8ac9e-d382-48b8-8053-19d043ef4aff> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/5efd1cbf-d31f-4336-b084-8a320f22751d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c72af00a-6f1f-4dd8-be24-0cd3bc5a5b37> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e7bc6b87-ee90-40b1-b79c-b28833890073> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/70e8ac9e-d382-48b8-8053-19d043ef4aff> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/3dec1419-d6d2-4bf3-947f-acc71b23f942> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/3b3c9b65-34fc-4bcb-a79d-4f9112620126> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/fd080525-8456-4c38-9c5c-57a223c00f41> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/edafae84-7b8d-4f66-84e6-901eec94868e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/a1db8a6b-b895-4752-b234-8c6cbdd06908> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/da2a2efc-d0bd-4286-a7e1-f27321684a9c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/b1c08d87-14dc-44b6-a259-6e8ee2b149ea> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/4762997f-eacd-4a51-a07b-6b2c19d36e63> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/e035e3c0-fc3d-4c17-86f2-6105dfa87814> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/7a4c1c31-ecc7-46a2-b861-2fe3907bc62f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c59e79ff-11c6-462a-99ec-612e2addeae6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/9f1eea94-9ca9-492e-9970-d8c2bc472fe9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/4e8e39a7-7b30-46a0-85e1-eb3bee680334> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/3b3c9b65-34fc-4bcb-a79d-4f9112620126> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/4086a40f-94e6-4266-8d2f-b8aabe169c8e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/57bae830-9b45-4128-b7cc-9da963505e9d> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/d5c1ce1c-912e-4663-abaf-796a949eee6c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/6ba5b6e8-f754-449a-a155-f81cb55623be> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/90b6343d-e733-449f-a565-b4076913c6fa> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/05c10235-5a42-4f35-b94c-68ba483f757d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/60d17d3a-4a36-4fc6-b760-6a1b458e0a92> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/2a289615-f16b-40ba-b773-3e40d36ba1b4> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/6ba5b6e8-f754-449a-a155-f81cb55623be> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/a5eba8b7-f8c8-4c6e-aadb-2fd1a9305325> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/98dbb81a-b5bb-4ea2-8439-397358726e7f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e789d869-f6ac-478d-9c4f-25c715d94220> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/208d973a-3086-4bd8-8f92-4edbc7c56a73> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/53a140c4-39f5-47b1-be00-d9035ed40128> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/cb1961f9-8956-489c-a8a7-35b8a7617280> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/c3720cd2-5f79-4a52-9ff8-b2c851d8b463> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e8ffb735-5b30-4948-96bd-a0baaa612320> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/cd8d09c6-ece6-4719-a2b0-ae8769215be3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/e475975c-b0f3-4d2b-a46a-c44876b63907> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/9840006c-17b0-4fea-b421-6dd643dd39e5> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/5efd1cbf-d31f-4336-b084-8a320f22751d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/f1605668-2187-47db-88a3-39865f58b187> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/1888b840-3a16-448b-bdee-9d779f14e55e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000316 MGI:MGI:97250  2012-12-31 MGI  creation-date=2012-12-31|modification-date=2012-12-31|comment=evidence immunological assay data ; ECO:0000040|comment=Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/43e40465-3600-407c-9d64-d8c520bc0b33> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/071798d4-b658-433f-82cf-48357c321597> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/edf50c6a-c175-4495-9467-64d66a23a75c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c3720cd2-5f79-4a52-9ff8-b2c851d8b463> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/0fef268f-fe45-439e-bcb2-93ed2af5a904> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/faa55068-b270-4b61-889a-61af4e5d2212> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/65ac3486-fd51-421d-9ae9-3f2e11470c49> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/96369c21-50f2-4c44-8190-47d81b439b87> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/fbaf3e91-ce77-4eec-9c98-7e0ee24823ea> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000316 MGI:MGI:97250  2012-12-31 MGI  creation-date=2012-12-31|modification-date=2012-12-31|comment=evidence immunological assay data ; ECO:0000040|comment=Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/43e40465-3600-407c-9d64-d8c520bc0b33> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/8e45d617-74dc-4d0d-a4ac-7a1aac8cccaf> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/988c7d95-d26e-477e-adb7-9c867db6f2e0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/743ddbf4-0183-4565-b206-1bdfcca96337> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/23e3653a-5cf3-4b17-9749-07323635601a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c34254ac-d9f1-4efb-8246-09f94ec4d298> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/75701b96-f2e4-4e13-b3e3-af09a3abe0d2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/57baa54f-131d-4311-9ed8-343974cd23ec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/5a79ed9b-eac4-4413-acd5-43b2feb5d8d2> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/75701b96-f2e4-4e13-b3e3-af09a3abe0d2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/ae2d0e48-7dc5-4154-b3c9-aa229b2528e0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/a460c422-6ce1-4995-b792-c9d77e5e6630> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/b463f6eb-9020-4241-9f1d-8ecf6329246a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/80b2a255-a12b-4aa5-8402-ac2b961c4778> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/43cdd8a2-e28b-4901-8edf-a2640df6603b> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/49b49305-2669-4f5d-a511-0e1e8657fa1d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/cb1961f9-8956-489c-a8a7-35b8a7617280> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/3c8a07ea-31bf-47b2-a9a9-3bd4235e7a71> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0001025 GO:0005737 MGI:MGI:5436190|PMID:22608497 ECO:0000314   2012-12-31 MGI BFO:0000050(CL:0000236) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/3702b9f5-853a-4342-ad0b-68b6d576989c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/eac187ff-0afd-4694-9387-733b320f2608> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/5cfb6ada-a083-47ce-a117-03f64aefdaee> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/1af7c8c0-da80-47b8-8853-d6daed88f45a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/b8fe1628-a659-423b-aa3a-43f8cf7ba4be> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/842d9f04-d5bd-4b92-bd2e-a8d579aa0928> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/23ff3aa1-eade-407f-85ef-3f37269643e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/4762997f-eacd-4a51-a07b-6b2c19d36e63> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/b19adf0c-c191-450f-96bf-f10d54fe935f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/208d973a-3086-4bd8-8f92-4edbc7c56a73> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/a1430cfb-8aa2-4b1c-82b6-ca301a55a320> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/914d1393-b1bc-44f4-bf16-885c35d5d41c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-31" ;
-    dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/57baa54f-131d-4311-9ed8-343974cd23ec> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/c59e79ff-11c6-462a-99ec-612e2addeae6> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/6855dacf-c0d3-4051-906a-3681be109674> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/faddecab-ec60-4898-8522-9650e7e4afc4> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/ceafd798-0ab7-40ba-b9bc-40d9ae015cdd> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/b11be9c7-0b2d-4622-bfde-06822f78d555> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/305c454c-e816-4714-adb2-97f685835e18> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/cd2988dd-74b0-4108-9905-325822a5e84f> .
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/5f1639b7-248f-458b-ae83-856c9c2d31b1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/eea7f59a-b09e-459e-9e91-ef8ac1d9d537> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/5d4ef359-4780-486c-bf70-cf3cfd732fa3> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/cebc41bd-61ea-4665-9dc6-cf41906af9df> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-31" ;
     dct:created "2012-12-31" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/88a814c8-9170-4052-901c-40d764ed6da1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/886c3af0-c20a-46f4-88c9-98fd4dbc9ba8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/1e6fd96c-3f4c-4497-a7a8-04e4654c4e19> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/dbc77ff7-b037-44e5-af83-6ab8edb8e68c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/2aabf61a-e851-425c-b1c8-6e83135f26f5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/610078a1-9ab5-4dce-825b-680d2b51d447> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/1290681b-e86c-4740-bf73-816e96530344> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/a05bfe37-aa77-4ebe-81fb-9a9d9ae9b782> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e4a8a7bc-0fa4-40b4-a8c7-01e3bc5e8a00> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/a8a0823c-83cd-46ac-9d27-f7966a0edac0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/65ea3bfd-1331-49a2-a9b5-649f9e8d0682> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8ceb5dd6-2dce-46fd-9c74-e96790bf03bc> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/4f9f9a2b-356e-461a-8945-73160adad0a4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c28eec55-e870-4a55-b859-05c9f568228c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/eea7f59a-b09e-459e-9e91-ef8ac1d9d537> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/be21e09b-4caf-4bae-9825-0db7793ecf89> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/bbe6d7fb-5f49-4256-b157-bad797c20408> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/7cbfc876-45d6-4ff1-b319-b6d384bb5412> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/627bb9c5-1d0e-4f93-9ff5-cb4b7a07696e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e631368d-4876-4139-9b10-95ab572ea180> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c4477f21-f1d4-447f-9764-44fb3cb6d86e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/1e70a99f-5f6e-4c7b-90a0-9a9733c3d677> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c19d5f2a-5ff8-4484-8534-4cb782304d53> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000316 MGI:MGI:97250  2012-12-31 MGI  creation-date=2012-12-31|modification-date=2012-12-31|comment=evidence immunological assay data ; ECO:0000040|comment=Fnip1 deletion suppresses production of lymphomas induced by expression of Myc transgene under control of Ig heavy chain enhancer Emu (TgN(IgHMyc) (MGI:2447604)|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/988c7d95-d26e-477e-adb7-9c867db6f2e0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/2303b455-f2cf-42d6-ba48-b7566d1a0d1f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/30a9969a-5017-4553-b1f7-cdf302341f8f> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/9b15a6a5-63e0-4eac-af8f-466c93b3169f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/dc99db27-b8da-4033-ba98-96e7af51d14f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/a09faced-caba-4975-92a3-9255b758818b> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/3f2c5209-3bfe-45b2-9433-a73fec3fbffe> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/222250ba-0c3e-4db8-94b9-eda01be4cfc5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/fe6bb564-9da1-405d-9733-70dc2728b155> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c57c838d-55ad-4760-bbd1-2207accdbddc> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/bdc9e6c7-caaa-4d0f-ab74-605c869e92f7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/eab0390e-7598-449f-8b73-b4d19b4008ea> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/c87fcf7c-95a4-4844-9ead-1eaa1c2c129a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/ec788dc5-2d4a-42a8-8899-75c2ab205bf9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e99ca0d2-b827-4533-9ea1-08ae06563c95> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/6c525eba-bec2-4309-a5eb-5fddff2177bb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/70acfd38-4636-4773-9488-5cf1ac8fd3e4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/75556d61-4a30-4571-a0fc-7820b96a3e61> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/f05ec7e4-9908-4f08-9803-42fee53682b0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/f1842138-11b0-4c83-b849-b1f3ad6522a7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/bb91eb00-847e-43fa-8b7d-cb442f413a9c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/f05ec7e4-9908-4f08-9803-42fee53682b0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/5f1639b7-248f-458b-ae83-856c9c2d31b1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e4115855-4886-4072-a82c-3dbec3e9905e> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/492ed3eb-56a2-4afe-8ef7-ad4808f5bd27> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/f72cf2bf-e264-4663-b903-67b5d5e02622> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/710f9ebf-2cf9-468e-9ce2-4226dbf04e5d> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8cb27b11-ae9e-4a18-8e91-8d8cdcbbf78c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/c4477f21-f1d4-447f-9764-44fb3cb6d86e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/00a7bc09-bdad-4afc-8e61-f25c9c0261f6> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/88a814c8-9170-4052-901c-40d764ed6da1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/1bb08872-d8e7-4b3a-b72b-6cd771205d4c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e679198c-179b-4664-934f-9baf23362da9> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002327 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(EMAPA:18767)|BFO:0000066(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8cb27b11-ae9e-4a18-8e91-8d8cdcbbf78c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/365fc1ca-0521-4eef-bb55-88808bd8a7a9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/e4727c98-3b86-43b4-a879-4ffc044e2fed> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/7cbfc876-45d6-4ff1-b319-b6d384bb5412> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/3f2c5209-3bfe-45b2-9433-a73fec3fbffe> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/45b87752-e698-43e6-862e-8b5e19138508> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/9b15a6a5-63e0-4eac-af8f-466c93b3169f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/8ef27a0b-b635-445e-977a-d0c352ca87f4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/89fb97e7-b8ac-4b6a-a574-ee53fe529f34> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/a7e1a9a2-9f27-42fb-836d-d7551f0855ef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/492ed3eb-56a2-4afe-8ef7-ad4808f5bd27> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/c2e59651-bfe7-4686-8833-b974a5907f0b> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0032007 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence immunological assay data ; ECO:0000040|comment=evidence Western blot evidence ; ECO:0000112|comment=immunoblotting for phophotyrosine to identify markers of TOR signaling activation|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/886c3af0-c20a-46f4-88c9-98fd4dbc9ba8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/972f17ea-31f8-46e4-bd0f-828e873d655e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/93efd5ec-093e-46e7-81e2-7025d6bddc1a> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/dbc77ff7-b037-44e5-af83-6ab8edb8e68c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/7cbfc876-45d6-4ff1-b319-b6d384bb5412> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/796be4d5-e633-4179-b3ff-0f5f500720f5> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/d5722ff9-5585-4866-b77f-c372c4d53406> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/6c525eba-bec2-4309-a5eb-5fddff2177bb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/29ebb660-efc8-4eb8-9748-7a88b5b9f166> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e59897b1-0c52-4828-b6d9-4a813aac4772> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/0555acbf-b600-462c-b630-7571131ad075> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/ce10d3a9-9783-414c-bfd1-621f1ad40c57> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/2c79aaad-c12e-4414-a1e3-41e8b906a1f8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/e9f44cfb-ad3f-4a1b-a023-2776511744bf> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/ea885c82-0482-4796-a611-4ba30783a121> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0043154 MGI:MGI:5444323|PMID:22709692 ECO:0000316 MGI:MGI:88138  2012-12-31 MGI GOREL:0001004(CL:0000817),GOREL:0001004(EMAPA:32760) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=cell type precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=extopic overexpression of Bcl2 in ex vivo cultures of bone marrow cells from Fnip1-/- mice|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/627bb9c5-1d0e-4f93-9ff5-cb4b7a07696e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/b6e528b5-dffd-4cf8-9067-599583ca492e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/047346fe-a93e-4112-bdc5-485daa39a093> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0009267 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI BFO:0000066(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|comment=cultured Fnip1-/- pre-B cells in glucose-free or glutamine-free media  or with ATP synthase and oxidative phosphorylation blocked via oligomycin administration|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/d5722ff9-5585-4866-b77f-c372c4d53406> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/51007529-c8b1-4624-ae31-2af1f2bce0b6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/62bf539c-f4fe-4e1c-962c-1e88e32e9f3c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/8ef27a0b-b635-445e-977a-d0c352ca87f4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/c87fcf7c-95a4-4844-9ead-1eaa1c2c129a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/caec570f-997d-41d0-a738-6dbebe77d2ae> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/a7e1a9a2-9f27-42fb-836d-d7551f0855ef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/a8b663a4-a18e-4fcf-a405-538f4c402af4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/8bab1402-9050-4416-999a-b005d19e5849> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/0555acbf-b600-462c-b630-7571131ad075> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/1290681b-e86c-4740-bf73-816e96530344> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/ae26d389-cb1f-4dd9-a01c-683eab6294e4> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:0002904 MGI:MGI:5436190|PMID:22608497 ECO:0000315 MGI:MGI:5437714  2012-12-31 MGI GOREL:0001004(CL:0000817) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type primary cell culture cell ; CL:0000001 precursor B cell ; CL:0000817|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunological assay data ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/f72cf2bf-e264-4663-b903-67b5d5e02622> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/9018e657-4829-4301-a76a-05135d5b7571> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/8ae5d933-c9db-46bf-8a9f-900cdb6fd1da> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0001025 GO:0005737 MGI:MGI:5436190|PMID:22608497 ECO:0000314   2012-12-31 MGI BFO:0000050(CL:0000236) creation-date=2012-12-31|modification-date=2012-12-31|comment=cell type permanent cell line cell ; CLO:0000019 B cell ; CL:0000236|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/1af7c8c0-da80-47b8-8853-d6daed88f45a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/cbfcd163-7e00-4c2b-9005-639f38ad83a7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/5139eaac-053f-49b7-ad4c-ab42ad973aa6> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e59897b1-0c52-4828-b6d9-4a813aac4772> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/1c4ca476-4390-4117-82f4-b305d3549afd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444668/61eee298-6f98-4363-a397-129438815599> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-31" ;
+    dct:created "2012-12-31" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444668  RO:0002264 GO:2000973 MGI:MGI:5444323|PMID:22709692 ECO:0000315 MGI:MGI:5445116  2012-12-31 MGI GOREL:0001004(EMAPA:18768)|GOREL:0001004(EMAPA:32760)|GOREL:0001004(EMAPA:18767) creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy bone marrow ; MA:0000134|comment=anatomy spleen ; MA:0000141|comment=anatomy thymus ; MA:0000142|comment=evidence flow cytometry data ; ECO:0000268|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444668/e9f44cfb-ad3f-4a1b-a023-2776511744bf> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444668/6a886ccf-3f7e-4c65-b0e6-690ecf3dc866> .
 
