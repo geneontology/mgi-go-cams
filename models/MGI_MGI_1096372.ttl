@@ -39,39 +39,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-03-13" ;
     dc:title "Ybx2 (MGI:MGI:1096372)" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1096372> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1096372/1c27da42-2905-4f35-b78c-f71a9e9b0d0a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2002-11-07" ;
-    dc:source "PMID:12297523" ;
-    dct:created "2002-11-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/20f6bb4a-c7ae-4039-a9e5-d44aa1f3fb94> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Acr;MGI:87884",
-        "target csda;MGI:2137670" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/21c1b589-d5c5-4dff-9fd6-eca924d43cc9> a GO:0008289,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/bc0b7ffb-8ed3-4007-bcc0-9bf719c608e0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/248569cf-560e-4a6d-963e-12d97c085bd8> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/02519bdb-dae1-4a85-bc26-70a64498380d> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
@@ -79,7 +52,28 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-08-21" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/2ec5b87d-d8c0-4679-b000-08c8d5bb4489> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/09e693a1-746f-4aca-ab8f-b3c5c9f96847> a GO:0003729,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/a61b6144-7d28-43ae-812d-80007574d916> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2006-08-21" ;
+    dct:created "2002-11-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/0c7bc92f-ed58-466a-bbf1-21f7ef4b918d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15824319" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy testis ; MA:0000411",
+        "cell type spermatid ; CL:0000018" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/1708b279-abba-4e90-a455-c750caa54059> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -91,7 +85,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type oocyte ; CL:0000023",
         "has_participant(CL:0000023)" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/3cb46d29-3f3c-43f9-ad9a-2e0f6d17fc29> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/1a251e6a-769b-4f28-a87a-2864a26c7a70> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -99,10 +93,62 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:17035640" ;
     dct:created "2008-04-02" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes",
-        "evidence inferred from fractionation;ECO:0000100" .
+    rdfs:comment "Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice",
+        "anatomy testis;MA:0000411",
+        "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
+        "evidence inferred from PCR experiment;ECO:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/43c69e2f-2b6d-4d38-9883-581b441b6606> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/1c2f49fc-c053-468f-962b-17cbf18099e4> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Acr;MGI:87884",
+        "target csda;MGI:2137670" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/1ff99144-dfef-48eb-a730-8c182c0616c0> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Acr;MGI:87884",
+        "target csda;MGI:2137670" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/20dcd453-accd-4152-95e9-4527ff1e28f7> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Acr;MGI:87884",
+        "target csda;MGI:2137670" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/25d0ea84-5196-4e79-b4a2-92d80d07ec3f> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1096372/1e9932ac-b9f3-423f-8ba5-a7cfd2eee6db> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2002-11-07" ;
+    dct:created "2002-11-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/2a860ba5-3508-47d5-9bad-76450b84df76> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
+        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/2b1df474-377f-4651-905f-46fe87d7c0d8> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
@@ -111,7 +157,16 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type oocyte ; CL:0000023" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/44d5a18e-6cee-41e6-aad4-e50eed528b16> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/2fbde3d6-6e5f-472f-863e-9ee47ec9fa67> a GO:0003682,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/23b6ce56-4fae-40c5-a1f8-8cd7d25e91b0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/3b9cd9b6-140e-4056-bc2d-971f52ecfdaf> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2002-11-07" ;
@@ -119,48 +174,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2002-11-07" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/47467adc-cb1e-4022-8cb3-417f101f8573> a GO:0003729,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/acabc391-cbe8-4e0c-987d-c48df72ff8a7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2006-08-21" ;
-    dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/54c91b32-3729-4330-b279-0a78618e5d52> a GO:0043021,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/e0d7de01-8163-47ee-a80e-5491cb407645> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/6bccc497-bc36-4eb0-a9c1-909cd004777f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice",
-        "anatomy testis;MA:0000411",
-        "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
-        "evidence inferred from PCR experiment;ECO:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/6f94a177-efb1-4019-b945-b1669fade689> a GO:0003682,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/c0871752-0389-4b4e-a993-4ef353d378db> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/6fa2dfef-d234-47a4-9476-ea4adbe4477e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/3f46b9a9-d115-4d98-824c-7f26c2ace306> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
@@ -168,7 +182,27 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-08-21" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/76e7fa9f-5f36-41e5-8179-9e6525b3f129> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/4888fa97-a211-433f-827a-bc719942cb64> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
+        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/4ef504d9-94cb-46ad-a95a-2cf55fa2d277> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:12648488" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type oocyte ; CL:0000023" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/5c232972-e56e-471b-9a21-57fbbd531c30> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -179,32 +213,40 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy testis ; MA:0000411",
         "cell type spermatid ; CL:0000018" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/796a3945-ad84-4869-8ed8-c5f9a619c78c> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/5ea74e91-e99c-400a-951b-dea65d7e79b8> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
-    dc:source "PMID:15665108" ;
+    dc:source "PMID:12648488" ;
     dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target prm1 ; MGI:97765" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/7dd872cc-fe57-4c44-a801-6c010f07dfe4> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/61492d7f-7e25-4021-8b23-e473c16335d2> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/0562e280-0b0c-49ba-8fc6-fed17f7abef7> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/87d74718-0436-4b11-a151-8e7344f4a57a> a ECO:0000314,
-        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
-    dc:source "PMID:15665108" ;
+    dc:source "PMID:15824319" ;
     dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ovary ; MA:0000384",
+        "cell type oocyte ; CL:0000023",
+        "has_participant(CL:0000023)" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/938c6e62-1dbe-437d-8d02-5673b482a0dd> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/6257b408-d54c-42ca-bd3c-a6bdd78095ab> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15824319" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ovary ; MA:0000384",
+        "cell type oocyte ; CL:0000023",
+        "has_participant(CL:0000023)" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/66952887-28b2-4d1a-878a-aa44e61e23e4> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -217,7 +259,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
         "evidence inferred from PCR experiment;ECO:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/94282420-994b-42e6-8192-53d041944f18> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/68ac0d59-836c-423a-887d-5b5cfe6cb982> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
@@ -227,36 +269,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "target Acr;MGI:87884",
         "target csda;MGI:2137670" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/988915e8-80e9-4e97-82f2-3916e55c0ade> a GO:0045182,
+<http://model.geneontology.org/MGI_MGI_1096372/69e9420f-654b-4f97-9b9f-99cfbb23a24d> a GO:0045182,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/48d346b0-fc62-448a-9b7c-93d1cc979108> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/3218be0b-f180-4be8-8b83-ce09a575f4cd> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2002-11-07" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/9ac47939-5f7e-42ac-b3af-03092710d504> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1096372/f8c24e70-9301-4997-8286-86d0ceec04ec> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/9cda021b-ae27-4f65-a510-e7423b5cdc70> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:15824319" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy testis ; MA:0000411",
-        "cell type spermatid ; CL:0000018" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/9d3c76a7-d439-43fa-9fac-baee5e9e85c1> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/6a6ac4e3-e98a-4fda-a58a-f5851cdb5f6d> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -267,16 +289,25 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes",
         "evidence inferred from fractionation;ECO:0000100" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a17d9ca0-7107-461b-b728-21408b99df1a> a GO:0003730,
+<http://model.geneontology.org/MGI_MGI_1096372/74258b24-f50d-4907-9346-cc2000c34bf3> a MGI:MGI:1096372,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/b9988bca-ce66-4f37-a5e9-f758deade6bf> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-07-30" ;
-    dct:created "2009-07-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/a5de9181-4129-4d11-b4c3-76d9e44a5a16> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-13" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a1e8f6cf-2883-4957-b6b0-4554a47d9894> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/7d4f01c3-1496-4e3a-891f-960039f0e84b> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/56798f19-1e93-4725-90cf-fec820b67c1c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/915a8115-3e0d-42d0-b48e-c69cf36993c8> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
@@ -285,18 +316,16 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence inferred from fractionation;ECO:0000100" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a25d2743-cee4-4438-8459-68c3064f2716> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/a2cacab7-74fa-41c5-a74a-62af215ac41c> a GO:0043021,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/112090b8-519c-462f-a73a-8ccec90d3542> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
     dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
-        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a6a004ff-9d51-4da3-ba9d-e25507028298> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/ab055d6c-f5b8-4e58-b3e8-96fa1d51568c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -309,16 +338,28 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
         "evidence inferred from PCR experiment;ECO:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a899d5bb-df82-4952-87a2-f1d1ad737dfe> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/af2b1458-7255-4330-ba95-91a543654916> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1096372/96c2fd3d-71f9-4acb-957f-1ac4fbeffbfa> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2002-11-07" ;
-    dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15665108" ;
+    dct:created "2006-08-21" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a9e6b1b1-6a6d-4ba2-a27f-bba371c2fa58> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1096372/b109dbec-fe4f-4c28-a034-3cf4ce9fc47e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice",
+        "anatomy testis;MA:0000411",
+        "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
+        "evidence inferred from PCR experiment;ECO:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/b93b2ff4-eabc-43d2-a04c-aae7c379da83> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3576937" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -329,17 +370,27 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy testis ; MA:0000411",
         "cell type spermatid ; CL:0000018" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/ae255a4c-8d17-46df-ab24-8d6f9692a040> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/c000f3f9-257c-43b3-95e4-0e6c13189fcd> a ECO:0000315,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15824319" ;
+    dct:created "2006-08-21" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Acr;MGI:87884",
-        "target csda;MGI:2137670" .
+    rdfs:comment "anatomy testis ; MA:0000411",
+        "cell type spermatid ; CL:0000018" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/b3362af7-1539-4abd-8fa9-2dcc61374365> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/c7858dd4-0abc-465b-b161-1a0aceda6028> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:12648488" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target prm1 ; MGI:97765" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/c7c6d503-5aa1-46ef-846a-9cd886153d55> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2002-11-07" ;
@@ -347,147 +398,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2002-11-07" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/b38262b0-5f9f-47d5-ba3d-9505bb2e694d> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/679e6fee-0e37-48e6-a335-f764b071f7ca> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-13" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/ba577a2d-d6b7-43d9-94b5-75d93259aa54> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:12648488" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target prm1 ; MGI:97765" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/bd9ba93c-7eaf-4007-b046-b8ede1f0214a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:15824319" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ovary ; MA:0000384",
-        "cell type oocyte ; CL:0000023",
-        "has_participant(CL:0000023)" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/bdaf75f0-b718-47ff-be52-04065f71709c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:12648488" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type oocyte ; CL:0000023" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/bec6def8-44b0-4298-a0b9-1d177f8782e5> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:15824319" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy testis ; MA:0000411",
-        "cell type spermatid ; CL:0000018" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/c202b426-5c75-4fb1-a8f3-fa052fc4fbcb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:12648488" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target prm1 ; MGI:97765" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/c38f895d-1b5f-44f5-b408-846319753d62> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-13" ;
-    dc:source "PMID:15665108" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/ca697e34-7630-449c-a744-912a9fc37aef> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-07-30" ;
-    dc:source "PMID:10772793" ;
-    dct:created "2009-07-30" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/cff11a72-add8-4b75-ae69-261f8e0428c8> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
-        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/d75e0082-7ade-4c1f-a470-e3bc3e7804e5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:15665108" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/d98064a8-d973-4fc8-b6cb-4022cd262580> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dc:source "PMID:15824319" ;
-    dct:created "2006-08-21" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ovary ; MA:0000384",
-        "cell type oocyte ; CL:0000023",
-        "has_participant(CL:0000023)" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/da28ad28-0e16-4d87-88ca-7529faa3ac0e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
-        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/e0b7648e-5034-4d6a-9629-6d633d5b1221> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3576937" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice",
-        "anatomy testis;MA:0000411",
-        "cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001",
-        "evidence inferred from PCR experiment;ECO:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/f29b75cf-30c8-4c74-8e7b-dcbf19594d9e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dc:source "PMID:17035640" ;
-    dct:created "2008-04-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Acr;MGI:87884",
-        "target csda;MGI:2137670" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/f3346653-4f68-4c77-b738-0258d65c1b76> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1096372/cabdea64-9d95-4162-b95b-abf9d4db50eb> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
@@ -496,384 +407,473 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence inferred from fractionation;ECO:0000100" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/0562e280-0b0c-49ba-8fc6-fed17f7abef7> a GO:0005844,
+<http://model.geneontology.org/MGI_MGI_1096372/ce157f1e-302d-4d1d-b0eb-659a19124929> a GO:0003730,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/c0b9c6d3-e86e-4aeb-8f55-8d37d090d628> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-07-30" ;
+    dct:created "2009-07-30" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/10ddb15c-8739-45ac-bb04-cc73e9e9b0ff> a GO:0051100,
+<http://model.geneontology.org/MGI_MGI_1096372/d0e99810-ddef-4909-a554-9d746e86116e> a MGI:MGI:1096372,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/1ad1c372-9677-4264-8faa-60aa18711702> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/1b2a7deb-05d8-4321-8ab4-a8a3af3ac6ee> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/3208b719-fb51-4e41-8bfa-33c039c0a4bd> a GO:0003729,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/57993fb2-87b9-48d3-b5bc-4bbf4237e291> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/7de1405d-f941-436f-b242-0c48cfbe00d4> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1096372/c64af296-747b-4104-bf2d-a97156c52cd4> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/48d346b0-fc62-448a-9b7c-93d1cc979108> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/d28aeb28-b177-482f-a758-47852bde6352> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15665108" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/e09719d6-d004-4c6f-bbc6-70ce2f92f4e1> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2002-11-07" ;
+    dc:source "PMID:12297523" ;
+    dct:created "2002-11-07" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/e271ae61-1507-4c03-bf0b-5b8ca66955f3> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dc:source "PMID:15665108" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/e2cbf162-5a63-469d-a6da-8cdfb26b1efe> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-13" ;
+    dc:source "PMID:15665108" ;
+    dct:created "2006-08-21" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/e2d3b5a6-fa30-438b-af3d-be15042df16e> a GO:0008289,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/5d0e32da-782e-41a6-a1d3-ef3c047dea70> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/ec438fa5-0c57-48ec-9434-536c39fea7c2> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes",
+        "evidence inferred from fractionation;ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/f3ec90fc-abe6-4347-a6e0-17710383e85d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3576937" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dc:source "PMID:17035640" ;
+    dct:created "2008-04-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration",
+        "cell type spermatid;CL:0000018 primary cell line cell;CL:0000001" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/f6619f09-d96c-4993-be0c-efb2911fdeb5> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-07-30" ;
+    dc:source "PMID:10772793" ;
+    dct:created "2009-07-30" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/112090b8-519c-462f-a73a-8ccec90d3542> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/1e9932ac-b9f3-423f-8ba5-a7cfd2eee6db> a GO:0005737,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2002-11-07" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/49467b86-071c-4ab1-ad3f-86914db5bd94> a EMAPA:17972,
+<http://model.geneontology.org/MGI_MGI_1096372/23363c9f-192c-465d-b6b9-ef5537fda19e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/ef0c49ca-413c-4bc0-ad0b-fdf81fc8987f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/aa863acc-f1a6-47ec-8b7f-67fd24264707> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/23b6ce56-4fae-40c5-a1f8-8cd7d25e91b0> a MGI:MGI:1096372,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/57993fb2-87b9-48d3-b5bc-4bbf4237e291> a MGI:MGI:97765,
+<http://model.geneontology.org/MGI_MGI_1096372/29f83856-d0ee-4546-aa6f-82785637b813> a EMAPA:17972,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/2d83d6f7-43e8-43fa-b25b-b54e18a73458> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/2ff4c751-e5c1-4b95-a88c-fd601e4d368c> a EMAPA:17972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/585f4239-d9f5-48b7-bce6-5e147c78ed00> a MGI:MGI:87884,
+<http://model.geneontology.org/MGI_MGI_1096372/305fd1f1-2286-406f-812c-112e8138fb18> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/2d83d6f7-43e8-43fa-b25b-b54e18a73458> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/81448ab0-5c6e-4efb-a6da-41c18c30fef2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/3218be0b-f180-4be8-8b83-ce09a575f4cd> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2002-11-07" ;
+    dct:created "2002-11-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/4fc86470-489d-4952-beec-1fd56f09a334> a MGI:MGI:1096372,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/6196a585-d5e6-4fde-a5a6-a39d54be6188> a GO:0003729,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/d57eba7c-b57a-4bb0-a1fc-bdc4d1e8110a> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/6e556962-f50e-46bb-a5e7-5b0607f8b757> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/65a2d8f3-ff93-464a-b4ec-f11b8d0f5a6a> a EMAPA:17972,
+<http://model.geneontology.org/MGI_MGI_1096372/56798f19-1e93-4725-90cf-fec820b67c1c> a GO:0005844,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/679e6fee-0e37-48e6-a335-f764b071f7ca> a GO:1990904,
+<http://model.geneontology.org/MGI_MGI_1096372/59482413-7b17-4fa2-99f2-bd1c1a063abd> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/5c19ed06-97d1-4090-89e0-a00eb708e22e> a CL:0000023,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/5d0e32da-782e-41a6-a1d3-ef3c047dea70> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/5d28ff80-0b8a-4ac3-b2ff-b93b9125d391> a MGI:MGI:97765,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/63338e04-cb8a-414c-8c1a-f9fa3f7857a5> a GO:0003729,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/db247c5f-b599-485e-8b09-426616afdd84> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/4fc86470-489d-4952-beec-1fd56f09a334> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/68f73e6d-ab09-4bf1-a967-2b129f721619> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/6acedd3e-1e66-4cd4-b07e-bf57094f1b1c> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/6e42e536-3d4c-4506-ae10-21712614f4b5> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/59482413-7b17-4fa2-99f2-bd1c1a063abd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/ae96197f-3d53-49f8-8eb7-d760165c1010> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/6fafe83c-2e93-4ce6-b1b5-e300baab2f0e> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/81448ab0-5c6e-4efb-a6da-41c18c30fef2> a GO:0051100,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/8b82fbd8-6522-474b-befd-6549dc2a3490> a MGI:MGI:1096372,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/9ce2265f-9956-41e8-a4bf-d84005f04e68> a GO:0017148,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/a5196075-6d5e-4083-883c-825ec03c3987> a MGI:MGI:2137670,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/a5de9181-4129-4d11-b4c3-76d9e44a5a16> a GO:1990904,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-13" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/6be9b4ab-a899-4c71-b056-1058fb4e1778> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/7e73ef5f-cf2a-466f-b1d8-d02cb332d7d1> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/cbd5a998-6214-4215-8c83-896b7bb5224b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/6e556962-f50e-46bb-a5e7-5b0607f8b757> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/7409fd0d-11e2-4661-8ce4-d73d6a4fef0a> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/782fd542-c66c-4ea2-838c-dbecf0e55296> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/1ad1c372-9677-4264-8faa-60aa18711702> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/10ddb15c-8739-45ac-bb04-cc73e9e9b0ff> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/7d67f0bd-555d-41e5-ac9b-6bc9eeebbbc8> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/7409fd0d-11e2-4661-8ce4-d73d6a4fef0a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/4e238448-a8e5-45d0-8266-0b66695436f0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/7de1405d-f941-436f-b242-0c48cfbe00d4> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/7e73ef5f-cf2a-466f-b1d8-d02cb332d7d1> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/8a3af7a7-98e0-45c3-b98f-79a094b2391f> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/96c2fd3d-71f9-4acb-957f-1ac4fbeffbfa> a GO:0005737,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2002-11-07" ;
-    dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/97149973-a831-4967-aad6-e89befd6c9d7> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/ba08f888-917a-47b6-ad46-eb28510921cc> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/a30c2747-f140-4ff2-b302-2b3e5a04b1a4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/a8fe7c42-dcc6-47d3-8f77-1f4473111e7d> a GO:0003729,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/585f4239-d9f5-48b7-bce6-5e147c78ed00> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/e5228505-c0b9-4d69-b80d-7c0cf252b377> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/ac8358bb-2462-42c3-8d69-8e8f18e311d6> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/1b2a7deb-05d8-4321-8ab4-a8a3af3ac6ee> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/e3b84cb0-52db-4846-a8be-724d4803debe> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/acabc391-cbe8-4e0c-987d-c48df72ff8a7> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/a61b6144-7d28-43ae-812d-80007574d916> a MGI:MGI:1096372,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2006-08-21" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/b9988bca-ce66-4f37-a5e9-f758deade6bf> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/b077ce2b-fbd7-4ab3-8c35-8cc03714cc3e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/68f73e6d-ab09-4bf1-a967-2b129f721619> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/234ca840-d34d-4842-be2c-d70ad8f155b6> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/b78afad4-ad0d-4a2f-bc5e-c0ba90ecf3ae> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/6acedd3e-1e66-4cd4-b07e-bf57094f1b1c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/39ec51b3-ad9c-49df-9141-fb74d643e195> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/c0b9c6d3-e86e-4aeb-8f55-8d37d090d628> a MGI:MGI:1096372,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-07-30" ;
     dct:created "2009-07-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/ba08f888-917a-47b6-ad46-eb28510921cc> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/c6d523ef-7a48-4df7-b071-a113f8c199b4> a GO:0003729,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/5d28ff80-0b8a-4ac3-b2ff-b93b9125d391> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/6fafe83c-2e93-4ce6-b1b5-e300baab2f0e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/bc0b7ffb-8ed3-4007-bcc0-9bf719c608e0> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/c0871752-0389-4b4e-a993-4ef353d378db> a MGI:MGI:1096372,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/c4b25542-3bd9-4b89-86f6-7353aa829e10> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/8a3af7a7-98e0-45c3-b98f-79a094b2391f> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/965aefd7-c33b-45b6-93d5-2d00784a8f38> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/cbd5a998-6214-4215-8c83-896b7bb5224b> a GO:0017148,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/d57eba7c-b57a-4bb0-a1fc-bdc4d1e8110a> a MGI:MGI:2137670,
+<http://model.geneontology.org/MGI_MGI_1096372/c924ae70-e25f-4e13-8a50-73ad398b2daf> a CL:0000018,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/dd1c5de5-7ee6-4a90-85eb-7d5ea7b593c2> a CL:0000018,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/dd33d359-6c0e-4a21-9004-4623e74e0592> a EMAPA:17962,
+<http://model.geneontology.org/MGI_MGI_1096372/d948d76d-2789-4208-b9f0-43d22bb0c495> a EMAPA:17962,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/e0d7de01-8163-47ee-a80e-5491cb407645> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/db247c5f-b599-485e-8b09-426616afdd84> a MGI:MGI:87884,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/e5228505-c0b9-4d69-b80d-7c0cf252b377> a MGI:MGI:1096372,
+<http://model.geneontology.org/MGI_MGI_1096372/e12fa734-d315-40ad-8ef0-736c77794908> a GO:0003729,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1096372/a5196075-6d5e-4083-883c-825ec03c3987> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/f4da3a26-6be0-4527-9440-17b9e55baf13> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/ef0c49ca-413c-4bc0-ad0b-fdf81fc8987f> a MGI:MGI:1096372,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/ec8262c1-ced2-4401-a5eb-117320c36017> a CL:0000023,
+<http://model.geneontology.org/MGI_MGI_1096372/f4da3a26-6be0-4527-9440-17b9e55baf13> a MGI:MGI:1096372,
         owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/fa35571a-5b0f-49bd-8301-d1c0d1fafa81> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1096372/8b82fbd8-6522-474b-befd-6549dc2a3490> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1096372/9ce2265f-9956-41e8-a4bf-d84005f04e68> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1096372/4e238448-a8e5-45d0-8266-0b66695436f0> a GO:0048477,
+<http://model.geneontology.org/MGI_MGI_1096372/234ca840-d34d-4842-be2c-d70ad8f155b6> a GO:0007286,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/dd33d359-6c0e-4a21-9004-4623e74e0592> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/7e53fcd0-af83-4fba-9648-def16b3d89cf> a CL:0000018,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/49467b86-071c-4ab1-ad3f-86914db5bd94> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/965aefd7-c33b-45b6-93d5-2d00784a8f38> a GO:0007286,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/dd1c5de5-7ee6-4a90-85eb-7d5ea7b593c2> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/c924ae70-e25f-4e13-8a50-73ad398b2daf> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/a30c2747-f140-4ff2-b302-2b3e5a04b1a4> a GO:0007286,
+<http://model.geneontology.org/MGI_MGI_1096372/39ec51b3-ad9c-49df-9141-fb74d643e195> a GO:0048477,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/7e53fcd0-af83-4fba-9648-def16b3d89cf> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/d948d76d-2789-4208-b9f0-43d22bb0c495> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1096372/c9781943-541d-4d64-b14c-68655c9f78f1> a CL:0000017,
+<http://model.geneontology.org/MGI_MGI_1096372/617586ff-bd81-46b4-90e2-201e8cc587a6> a CL:0000018,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/65a2d8f3-ff93-464a-b4ec-f11b8d0f5a6a> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/e3b84cb0-52db-4846-a8be-724d4803debe> a GO:0048255,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/c9781943-541d-4d64-b14c-68655c9f78f1> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1096372/f8c24e70-9301-4997-8286-86d0ceec04ec> a GO:0005737,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/ec8262c1-ced2-4401-a5eb-117320c36017> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/2ff4c751-e5c1-4b95-a88c-fd601e4d368c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/7a21e3b3-63c8-43ea-b2fa-2e931a24f022> a CL:0000017,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/29f83856-d0ee-4546-aa6f-82785637b813> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/aa863acc-f1a6-47ec-8b7f-67fd24264707> a GO:0048255,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/7a21e3b3-63c8-43ea-b2fa-2e931a24f022> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/ae96197f-3d53-49f8-8eb7-d760165c1010> a GO:0007286,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1096372/617586ff-bd81-46b4-90e2-201e8cc587a6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1096372/c64af296-747b-4104-bf2d-a97156c52cd4> a GO:0005737,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1096372/5c19ed06-97d1-4090-89e0-a00eb708e22e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
@@ -887,425 +887,425 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/e0b7648e-5034-4d6a-9629-6d633d5b1221> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/2a860ba5-3508-47d5-9bad-76450b84df76> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c9781943-541d-4d64-b14c-68655c9f78f1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/65a2d8f3-ff93-464a-b4ec-f11b8d0f5a6a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/cff11a72-add8-4b75-ae69-261f8e0428c8> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000018) creation-date=2008-04-02|modification-date=2008-04-02|comment=cell type spermatid;CL:0000018 primary cell line cell;CL:0000001|comment=In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c4b25542-3bd9-4b89-86f6-7353aa829e10> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/8a3af7a7-98e0-45c3-b98f-79a094b2391f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/b077ce2b-fbd7-4ab3-8c35-8cc03714cc3e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/68f73e6d-ab09-4bf1-a967-2b129f721619> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/938c6e62-1dbe-437d-8d02-5673b482a0dd> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/1a251e6a-769b-4f28-a87a-2864a26c7a70> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/ac8358bb-2462-42c3-8d69-8e8f18e311d6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/1b2a7deb-05d8-4321-8ab4-a8a3af3ac6ee> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/a6a004ff-9d51-4da3-ba9d-e25507028298> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/ac8358bb-2462-42c3-8d69-8e8f18e311d6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/e3b84cb0-52db-4846-a8be-724d4803debe> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/d75e0082-7ade-4c1f-a470-e3bc3e7804e5> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0008289 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/21c1b589-d5c5-4dff-9fd6-eca924d43cc9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/bc0b7ffb-8ed3-4007-bcc0-9bf719c608e0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/6bccc497-bc36-4eb0-a9c1-909cd004777f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/e3b84cb0-52db-4846-a8be-724d4803debe> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/c9781943-541d-4d64-b14c-68655c9f78f1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/ae255a4c-8d17-46df-ab24-8d6f9692a040> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a8fe7c42-dcc6-47d3-8f77-1f4473111e7d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/585f4239-d9f5-48b7-bce6-5e147c78ed00> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/bec6def8-44b0-4298-a0b9-1d177f8782e5> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(CL:0000018),BFO:0000066(EMAPA:17972) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy testis ; MA:0000411|comment=cell type spermatid ; CL:0000018|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7e53fcd0-af83-4fba-9648-def16b3d89cf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/49467b86-071c-4ab1-ad3f-86914db5bd94> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7a21e3b3-63c8-43ea-b2fa-2e931a24f022> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/29f83856-d0ee-4546-aa6f-82785637b813> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/b3362af7-1539-4abd-8fa9-2dcc61374365> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2002-11-07" ;
-    dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/4ef504d9-94cb-46ad-a95a-2cf55fa2d277> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0045182 MGI:MGI:2387497|PMID:12297523 ECO:0000314   2002-11-07 MGI  creation-date=2002-11-07|modification-date=2002-11-07|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/988915e8-80e9-4e97-82f2-3916e55c0ade> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/48d346b0-fc62-448a-9b7c-93d1cc979108> .
+    rdfs:comment "MGI:MGI:1096372  RO:0001025 GO:0005737 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI BFO:0000050(CL:0000023) creation-date=2006-08-21|modification-date=2006-08-21|comment=cell type oocyte ; CL:0000023|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c64af296-747b-4104-bf2d-a97156c52cd4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/5c19ed06-97d1-4090-89e0-a00eb708e22e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/9d3c76a7-d439-43fa-9fac-baee5e9e85c1> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/f6619f09-d96c-4993-be0c-efb2911fdeb5> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-07-30" ;
+    dct:created "2009-07-30" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003730 MGI:MGI:1930944|PMID:10772793 ECO:0000314   2009-07-30 MGI  creation-date=2009-07-30|modification-date=2009-07-30|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/ce157f1e-302d-4d1d-b0eb-659a19124929> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/c0b9c6d3-e86e-4aeb-8f55-8d37d090d628> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/1708b279-abba-4e90-a455-c750caa54059> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/b78afad4-ad0d-4a2f-bc5e-c0ba90ecf3ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/6acedd3e-1e66-4cd4-b07e-bf57094f1b1c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/5ea74e91-e99c-400a-951b-dea65d7e79b8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI RO:0002233(MGI:MGI:97765) creation-date=2006-08-21|modification-date=2006-08-21|comment=target prm1 ; MGI:97765|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c6d523ef-7a48-4df7-b071-a113f8c199b4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/5d28ff80-0b8a-4ac3-b2ff-b93b9125d391> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/66952887-28b2-4d1a-878a-aa44e61e23e4> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0051100 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|comment=In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/782fd542-c66c-4ea2-838c-dbecf0e55296> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/1ad1c372-9677-4264-8faa-60aa18711702> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/23363c9f-192c-465d-b6b9-ef5537fda19e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/ef0c49ca-413c-4bc0-ad0b-fdf81fc8987f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/c38f895d-1b5f-44f5-b408-846319753d62> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/d28aeb28-b177-482f-a758-47852bde6352> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0017148 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/fa35571a-5b0f-49bd-8301-d1c0d1fafa81> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/8b82fbd8-6522-474b-befd-6549dc2a3490> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/e2cbf162-5a63-469d-a6da-8cdfb26b1efe> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-13" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  BFO:0000050 GO:1990904 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2018-03-13 MGI  creation-date=2006-08-21|modification-date=2018-03-13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/b38262b0-5f9f-47d5-ba3d-9505bb2e694d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/679e6fee-0e37-48e6-a335-f764b071f7ca> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/74258b24-f50d-4907-9346-cc2000c34bf3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/a5de9181-4129-4d11-b4c3-76d9e44a5a16> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/ba577a2d-d6b7-43d9-94b5-75d93259aa54> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/c000f3f9-257c-43b3-95e4-0e6c13189fcd> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI RO:0002233(MGI:MGI:97765) creation-date=2006-08-21|modification-date=2006-08-21|comment=target prm1 ; MGI:97765|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/3208b719-fb51-4e41-8bfa-33c039c0a4bd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/57993fb2-87b9-48d3-b5bc-4bbf4237e291> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/248569cf-560e-4a6d-963e-12d97c085bd8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0017148 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6be9b4ab-a899-4c71-b056-1058fb4e1778> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/cbd5a998-6214-4215-8c83-896b7bb5224b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/f29b75cf-30c8-4c74-8e7b-dcbf19594d9e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6196a585-d5e6-4fde-a5a6-a39d54be6188> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/6e556962-f50e-46bb-a5e7-5b0607f8b757> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/a25d2743-cee4-4438-8459-68c3064f2716> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000018) creation-date=2008-04-02|modification-date=2008-04-02|comment=cell type spermatid;CL:0000018 primary cell line cell;CL:0000001|comment=In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/965aefd7-c33b-45b6-93d5-2d00784a8f38> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/dd1c5de5-7ee6-4a90-85eb-7d5ea7b593c2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/da28ad28-0e16-4d87-88ca-7529faa3ac0e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000018) creation-date=2008-04-02|modification-date=2008-04-02|comment=cell type spermatid;CL:0000018 primary cell line cell;CL:0000001|comment=In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c4b25542-3bd9-4b89-86f6-7353aa829e10> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/965aefd7-c33b-45b6-93d5-2d00784a8f38> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/f3346653-4f68-4c77-b738-0258d65c1b76> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-02" ;
-    dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0043021 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/54c91b32-3729-4330-b279-0a78618e5d52> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/e0d7de01-8163-47ee-a80e-5491cb407645> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/796a3945-ad84-4869-8ed8-c5f9a619c78c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0017148 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6be9b4ab-a899-4c71-b056-1058fb4e1778> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/7e73ef5f-cf2a-466f-b1d8-d02cb332d7d1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/76e7fa9f-5f36-41e5-8179-9e6525b3f129> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(CL:0000018),BFO:0000066(EMAPA:17972) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy testis ; MA:0000411|comment=cell type spermatid ; CL:0000018|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/97149973-a831-4967-aad6-e89befd6c9d7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/ba08f888-917a-47b6-ad46-eb28510921cc> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6e42e536-3d4c-4506-ae10-21712614f4b5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/ae96197f-3d53-49f8-8eb7-d760165c1010> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/20f6bb4a-c7ae-4039-a9e5-d44aa1f3fb94> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/ab055d6c-f5b8-4e58-b3e8-96fa1d51568c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a8fe7c42-dcc6-47d3-8f77-1f4473111e7d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/e5228505-c0b9-4d69-b80d-7c0cf252b377> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/23363c9f-192c-465d-b6b9-ef5537fda19e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/aa863acc-f1a6-47ec-8b7f-67fd24264707> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/6fa2dfef-d234-47a4-9476-ea4adbe4477e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/1ff99144-dfef-48eb-a730-8c182c0616c0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/e12fa734-d315-40ad-8ef0-736c77794908> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/a5196075-6d5e-4083-883c-825ec03c3987> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/6257b408-d54c-42ca-bd3c-a6bdd78095ab> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003682 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6f94a177-efb1-4019-b945-b1669fade689> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/c0871752-0389-4b4e-a993-4ef353d378db> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/39ec51b3-ad9c-49df-9141-fb74d643e195> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/d948d76d-2789-4208-b9f0-43d22bb0c495> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/44d5a18e-6cee-41e6-aad4-e50eed528b16> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/3b9cd9b6-140e-4056-bc2d-971f52ecfdaf> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2002-11-07" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0001025 GO:0005737 MGI:MGI:2151306|PMID:11566752 ECO:0000314   2002-11-07 MGI  creation-date=2002-11-07|modification-date=2002-11-07|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a899d5bb-df82-4952-87a2-f1d1ad737dfe> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/96c2fd3d-71f9-4acb-957f-1ac4fbeffbfa> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/25d0ea84-5196-4e79-b4a2-92d80d07ec3f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/1e9932ac-b9f3-423f-8ba5-a7cfd2eee6db> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/9cda021b-ae27-4f65-a510-e7423b5cdc70> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/0c7bc92f-ed58-466a-bbf1-21f7ef4b918d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(CL:0000018),BFO:0000066(EMAPA:17972) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy testis ; MA:0000411|comment=cell type spermatid ; CL:0000018|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/97149973-a831-4967-aad6-e89befd6c9d7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/a30c2747-f140-4ff2-b302-2b3e5a04b1a4> .
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/ae96197f-3d53-49f8-8eb7-d760165c1010> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/617586ff-bd81-46b4-90e2-201e8cc587a6> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/bdaf75f0-b718-47ff-be52-04065f71709c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/b93b2ff4-eabc-43d2-a04c-aae7c379da83> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0001025 GO:0005737 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI BFO:0000050(CL:0000023) creation-date=2006-08-21|modification-date=2006-08-21|comment=cell type oocyte ; CL:0000023|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(CL:0000018),BFO:0000066(EMAPA:17972) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy testis ; MA:0000411|comment=cell type spermatid ; CL:0000018|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/f8c24e70-9301-4997-8286-86d0ceec04ec> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/ec8262c1-ced2-4401-a5eb-117320c36017> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/617586ff-bd81-46b4-90e2-201e8cc587a6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/2ff4c751-e5c1-4b95-a88c-fd601e4d368c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/2ec5b87d-d8c0-4679-b000-08c8d5bb4489> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7d67f0bd-555d-41e5-ac9b-6bc9eeebbbc8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/7409fd0d-11e2-4661-8ce4-d73d6a4fef0a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/c202b426-5c75-4fb1-a8f3-fa052fc4fbcb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI RO:0002233(MGI:MGI:97765) creation-date=2006-08-21|modification-date=2006-08-21|comment=target prm1 ; MGI:97765|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/3208b719-fb51-4e41-8bfa-33c039c0a4bd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/7de1405d-f941-436f-b242-0c48cfbe00d4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/43c69e2f-2b6d-4d38-9883-581b441b6606> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0001025 GO:0005737 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI BFO:0000050(CL:0000023) creation-date=2006-08-21|modification-date=2006-08-21|comment=cell type oocyte ; CL:0000023|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/9ac47939-5f7e-42ac-b3af-03092710d504> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/f8c24e70-9301-4997-8286-86d0ceec04ec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/d98064a8-d973-4fc8-b6cb-4022cd262580> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-08-21" ;
-    dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7d67f0bd-555d-41e5-ac9b-6bc9eeebbbc8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/4e238448-a8e5-45d0-8266-0b66695436f0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/3cb46d29-3f3c-43f9-ad9a-2e0f6d17fc29> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/20dcd453-accd-4152-95e9-4527ff1e28f7> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0051100 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|comment=In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/782fd542-c66c-4ea2-838c-dbecf0e55296> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/10ddb15c-8739-45ac-bb04-cc73e9e9b0ff> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/63338e04-cb8a-414c-8c1a-f9fa3f7857a5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/4fc86470-489d-4952-beec-1fd56f09a334> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/1c27da42-2905-4f35-b78c-f71a9e9b0d0a>,
-        <http://model.geneontology.org/MGI_MGI_1096372/87d74718-0436-4b11-a151-8e7344f4a57a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/e09719d6-d004-4c6f-bbc6-70ce2f92f4e1> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2002-11-07" ;
+    dct:created "2002-11-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0045182 MGI:MGI:2387497|PMID:12297523 ECO:0000314   2002-11-07 MGI  creation-date=2002-11-07|modification-date=2002-11-07|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/69e9420f-654b-4f97-9b9f-99cfbb23a24d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/3218be0b-f180-4be8-8b83-ce09a575f4cd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/02519bdb-dae1-4a85-bc26-70a64498380d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003682 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/2fbde3d6-6e5f-472f-863e-9ee47ec9fa67> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/23b6ce56-4fae-40c5-a1f8-8cd7d25e91b0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/ec438fa5-0c57-48ec-9434-536c39fea7c2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0051100 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|comment=In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/305fd1f1-2286-406f-812c-112e8138fb18> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/2d83d6f7-43e8-43fa-b25b-b54e18a73458> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/e271ae61-1507-4c03-bf0b-5b8ca66955f3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0017148 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/fa35571a-5b0f-49bd-8301-d1c0d1fafa81> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/9ce2265f-9956-41e8-a4bf-d84005f04e68> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/4888fa97-a211-433f-827a-bc719942cb64> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000018) creation-date=2008-04-02|modification-date=2008-04-02|comment=cell type spermatid;CL:0000018 primary cell line cell;CL:0000001|comment=In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/b077ce2b-fbd7-4ab3-8c35-8cc03714cc3e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/234ca840-d34d-4842-be2c-d70ad8f155b6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/cabdea64-9d95-4162-b95b-abf9d4db50eb> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  BFO:0000050 GO:0005844 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7d4f01c3-1496-4e3a-891f-960039f0e84b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/56798f19-1e93-4725-90cf-fec820b67c1c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/1c2f49fc-c053-468f-962b-17cbf18099e4> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/63338e04-cb8a-414c-8c1a-f9fa3f7857a5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/db247c5f-b599-485e-8b09-426616afdd84> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/61492d7f-7e25-4021-8b23-e473c16335d2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/b78afad4-ad0d-4a2f-bc5e-c0ba90ecf3ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/39ec51b3-ad9c-49df-9141-fb74d643e195> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/2b1df474-377f-4651-905f-46fe87d7c0d8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0001025 GO:0005737 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI BFO:0000050(CL:0000023) creation-date=2006-08-21|modification-date=2006-08-21|comment=cell type oocyte ; CL:0000023|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/d0e99810-ddef-4909-a554-9d746e86116e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/c64af296-747b-4104-bf2d-a97156c52cd4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/68ac0d59-836c-423a-887d-5b5cfe6cb982> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/e12fa734-d315-40ad-8ef0-736c77794908> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/f4da3a26-6be0-4527-9440-17b9e55baf13> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/af2b1458-7255-4330-ba95-91a543654916>,
+        <http://model.geneontology.org/MGI_MGI_1096372/c7c6d503-5aa1-46ef-846a-9cd886153d55> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2006-08-21" ;
     dct:created "2002-11-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:2387497|PMID:12297523 ECO:0000314   2002-11-07 MGI  creation-date=2002-11-07|modification-date=2002-11-07|contributor-id=https://orcid.org/0000-0002-9796-7693",
         "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/47467adc-cb1e-4022-8cb3-417f101f8573> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/acabc391-cbe8-4e0c-987d-c48df72ff8a7> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/09e693a1-746f-4aca-ab8f-b3c5c9f96847> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/a61b6144-7d28-43ae-812d-80007574d916> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/94282420-994b-42e6-8192-53d041944f18> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/b109dbec-fe4f-4c28-a034-3cf4ce9fc47e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI RO:0002233(MGI:MGI:2137670)|RO:0002233(MGI:MGI:87884) creation-date=2008-04-02|modification-date=2008-04-02|comment=target Acr;MGI:87884|comment=target csda;MGI:2137670|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6196a585-d5e6-4fde-a5a6-a39d54be6188> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/d57eba7c-b57a-4bb0-a1fc-bdc4d1e8110a> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048255 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000017),BFO:0000066(EMAPA:17972) creation-date=2008-04-02|modification-date=2008-04-02|comment=anatomy testis;MA:0000411|comment=cell type spermatocyte;CL:0000017 primary cell line cell;CL:0000001|comment=evidence inferred from PCR experiment;ECO:0000082|comment=Meiotic and Postmeiotic Germ Cell mRNAs Are Markedly Reduced in Msy2-Null Mice|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/aa863acc-f1a6-47ec-8b7f-67fd24264707> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/7a21e3b3-63c8-43ea-b2fa-2e931a24f022> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/a9e6b1b1-6a6d-4ba2-a27f-bba371c2fa58> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/3f46b9a9-d115-4d98-824c-7f26c2ace306> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0008289 MGI:MGI:3529406|PMID:15665108 ECO:0000314   2006-08-21 MGI  creation-date=2006-08-21|modification-date=2006-08-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/e2d3b5a6-fa30-438b-af3d-be15042df16e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/5d0e32da-782e-41a6-a1d3-ef3c047dea70> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/5c232972-e56e-471b-9a21-57fbbd531c30> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-08-21" ;
+    dct:created "2006-08-21" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(CL:0000018),BFO:0000066(EMAPA:17972) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy testis ; MA:0000411|comment=cell type spermatid ; CL:0000018|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a30c2747-f140-4ff2-b302-2b3e5a04b1a4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/7e53fcd0-af83-4fba-9648-def16b3d89cf> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/6e42e536-3d4c-4506-ae10-21712614f4b5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/59482413-7b17-4fa2-99f2-bd1c1a063abd> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/a1e8f6cf-2883-4957-b6b0-4554a47d9894> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/f3ec90fc-abe6-4347-a6e0-17710383e85d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-02" ;
     dct:created "2008-04-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  BFO:0000050 GO:0005844 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/7dd872cc-fe57-4c44-a801-6c010f07dfe4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/0562e280-0b0c-49ba-8fc6-fed17f7abef7> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0007286 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI BFO:0000066(CL:0000018) creation-date=2008-04-02|modification-date=2008-04-02|comment=cell type spermatid;CL:0000018 primary cell line cell;CL:0000001|comment=In the Absence of MSY2  Spermatids Show Incomplete Nuclear Condensation and Degeneration|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/234ca840-d34d-4842-be2c-d70ad8f155b6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/c924ae70-e25f-4e13-8a50-73ad398b2daf> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/bd9ba93c-7eaf-4007-b046-b8ede1f0214a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/c7858dd4-0abc-465b-b161-1a0aceda6028> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-08-21" ;
     dct:created "2006-08-21" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0048477 MGI:MGI:3576442|PMID:15824319 ECO:0000315 MGI:MGI:3576937  2006-08-21 MGI BFO:0000066(EMAPA:17962) creation-date=2006-08-21|modification-date=2006-08-21|comment=anatomy ovary ; MA:0000384|comment=cell type oocyte ; CL:0000023|comment=has_participant(CL:0000023)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/4e238448-a8e5-45d0-8266-0b66695436f0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/dd33d359-6c0e-4a21-9004-4623e74e0592> .
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003729 MGI:MGI:2654284|PMID:12648488 ECO:0000314   2006-08-21 MGI RO:0002233(MGI:MGI:97765) creation-date=2006-08-21|modification-date=2006-08-21|comment=target prm1 ; MGI:97765|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/c6d523ef-7a48-4df7-b071-a113f8c199b4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/6fafe83c-2e93-4ce6-b1b5-e300baab2f0e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/ca697e34-7630-449c-a744-912a9fc37aef> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-07-30" ;
-    dct:created "2009-07-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/915a8115-3e0d-42d0-b48e-c69cf36993c8> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0003730 MGI:MGI:1930944|PMID:10772793 ECO:0000314   2009-07-30 MGI  creation-date=2009-07-30|modification-date=2009-07-30|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002327 GO:0043021 MGI:MGI:3696301|PMID:17035640 ECO:0000314   2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a17d9ca0-7107-461b-b728-21408b99df1a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/b9988bca-ce66-4f37-a5e9-f758deade6bf> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/a2cacab7-74fa-41c5-a74a-62af215ac41c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/112090b8-519c-462f-a73a-8ccec90d3542> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1096372/6a6ac4e3-e98a-4fda-a58a-f5851cdb5f6d> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-02" ;
+    dct:created "2008-04-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1096372  RO:0002264 GO:0051100 MGI:MGI:3696301|PMID:17035640 ECO:0000315 MGI:MGI:3576937  2008-04-02 MGI  creation-date=2008-04-02|modification-date=2008-04-02|comment=evidence inferred from fractionation;ECO:0000100|comment=In the Absence of MSY2  There Is an Enrichment of Msy2- Bound mRNAs on Polysomes|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1096372/305fd1f1-2286-406f-812c-112e8138fb18> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1096372/81448ab0-5c6e-4efb-a6da-41c18c30fef2> .
 

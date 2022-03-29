@@ -37,21 +37,31 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-12-07" ;
     dc:title "Sh2d1b1 (MGI:MGI:1349420)" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1349420> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1349420/082c4e58-8b62-49d5-af4e-c192b8ed9249> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/027ade59-f72e-4409-a490-e90c857c31bc> a GO:0001784,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q9QUM4" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/f17eefb2-1214-4d17-aa7a-b58a22dd32f2> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
     dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/088d8463-ad44-4f4b-8657-4d282172198a> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/09a8df09-29c9-45cd-958e-1425e4325ee8> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1328352" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dc:source "PMID:19648922" ;
+    dct:created "2013-06-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/0bac91df-b487-4ed0-9b05-1cf02a70efc4> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3622649" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -61,7 +71,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/0b5bdf8c-56da-45b7-a143-99501ebf78d9> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/0d29d768-b597-45ff-8470-55080fba6ab6> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -73,19 +83,26 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.",
         "increased ability to kill target cells" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/0f0630ab-fc2f-4003-b41c-b84b1eaeee4d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/10e6c659-43b8-43a3-b9b9-987c4fb90de9> a ECO:0000316,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
+    ns1:evidence-with "MGI:MGI:3622649" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
+    dc:date "2013-06-24" ;
+    dc:source "PMID:19648922" ;
+    dct:created "2013-06-24" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
-        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "inhibiting proximal events in NK cell signaling." .
+    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/2cced26e-483d-4ecc-9b7a-80b37e1595e0> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/138ac7a0-d1aa-41f7-a2c4-8106ed801335> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Slamf1 ; MGI:1351314" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/159b538c-5b5f-447e-8567-48ceebf8f0b5> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q9QUM4" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -94,36 +111,28 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/2f242f6c-6e67-4dac-b8a9-2fedcdd46880> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/2102c1c2-1757-41cf-a865-96e1138a941d> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:P14234" ;
+    ns1:evidence-with "PR:P06240" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dc:source "PMID:16425036" ;
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/3408438c-04f8-4daa-a2ce-964290c3bc18> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/303c76af-c2c6-408a-abc2-9edd1b042b77> a ECO:0000315,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q07763" ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dc:source "PMID:16127454" ;
     dct:created "2008-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+        "evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.",
+        "increased ability to kill target cells" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/34d67bad-e37d-4850-9e98-1466ea620e92> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P14234" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/3785d19b-e9d3-4047-a367-3f09e55107a9> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/337e7da1-bd1a-4c6f-8284-e92808882348> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P39688" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -132,38 +141,16 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/41e3eadd-db06-40d8-9761-a8a535accf3b> a GO:0001784,
+<http://model.geneontology.org/MGI_MGI_1349420/3465b9f1-af7a-4a70-8f90-1425a6958453> a ECO:0000316,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/47b70f35-13f6-4962-900b-fdee13e11d78> ;
+    ns1:evidence-with "MGI:MGI:3622649" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2015-01-19" ;
+    dc:source "PMID:20962259" ;
+    dct:created "2015-01-19" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/46df8e3d-2037-4a1d-8e51-5af211f888c3> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1328352" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dc:source "PMID:19648922" ;
-    dct:created "2013-06-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/47d46935-6608-48ba-838b-1e2b163e0142> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
-        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "inhibiting proximal events in NK cell signaling." .
-
-<http://model.geneontology.org/MGI_MGI_1349420/4a8de608-bcf6-4a21-b2ee-a62a55a19b6c> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1349420/3b2044ca-8f26-4999-9235-9fed4e1d4e78> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
@@ -171,53 +158,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/4fa4589d-cb73-4c84-8fac-ed5a2b07d3a9> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P25911" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/59fe8356-c883-42c8-b683-d2b45ae0d65f> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3622649" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dc:source "PMID:20962259" ;
-    dct:created "2015-01-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/5d959b32-705a-4972-ad3a-d9fd61bcadf8> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Slamf1 ; MGI:1351314" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/60442b7a-cda3-4c34-8f5e-e173b85e3a3c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Slamf1 ; MGI:1351314" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/64329b85-1bf2-41e8-ac78-54a5606e28b2> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1328352" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dc:source "PMID:19648922" ;
-    dct:created "2013-06-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/726992fd-1b94-4be6-bd8e-8745e970d544> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/3d4b66ff-090e-447a-990b-abd148ccb6b6> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3622649" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -227,16 +168,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/73215b0f-5fa9-4104-b9f6-41535e2840e5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Slamf1 ; MGI:1351314" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/73da7164-db9c-46ba-a9a7-ef919e4127a5> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/4443237b-6ec0-4174-bef3-68ce2dce084c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -247,35 +179,39 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
         "inhibiting proximal events in NK cell signaling." .
 
-<http://model.geneontology.org/MGI_MGI_1349420/7482c99e-cacd-4209-b69c-be2a0d9118b8> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/4d9f3a4d-ad80-402f-b565-e5cb840de8e2> a ECO:0000315,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3622649" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dc:source "PMID:19648922" ;
-    dct:created "2013-06-24" ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "substantial increase (four- to fivefold) in IFN-g secretion" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/784e0dbe-7bd7-4430-9bce-c27dae87eeb1> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/5924c978-a4d7-4db8-983b-4f531a7bd7ad> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:P06240" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dc:source "PMID:16425036" ;
     dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Slamf1 ; MGI:1351314" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/7b21fc94-1129-4418-bc02-bb6dbbf5010c> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/5ad46798-5777-4caa-a856-1a923ec240e2> a ECO:0000315,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:98923" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dc:source "PMID:20962259" ;
-    dct:created "2015-01-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "inhibiting proximal events in NK cell signaling." .
 
-<http://model.geneontology.org/MGI_MGI_1349420/7b9a3b3e-97a0-4fd3-beb9-1adbb39a5c8e> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/60a82da2-f621-45a4-a108-da366639c184> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -287,7 +223,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.",
         "increased ability to kill target cells" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/7e549294-5068-4007-a950-512de754d5e0> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/7059cbc6-41b9-4c47-8bf0-d20928617e0e> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -295,52 +231,20 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:16127454" ;
     dct:created "2008-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.",
-        "increased ability to kill target cells" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/864f834b-bd1a-42e7-9f8a-8cf43f3955bd> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
+        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
         "inhibiting proximal events in NK cell signaling." .
 
-<http://model.geneontology.org/MGI_MGI_1349420/8b82c06d-f7de-4316-b6fa-eb78e4fdda06> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/735fffe1-82b7-464f-a07d-958222162ebe> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q07763" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "evidence inferred from co-immunoprecipitation;ECO:0000070" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/9267f7a5-77ca-46dc-8b07-70e12fe15619> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "evidence inferred from Western blot assay;ECO:0000112" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/982b7c15-63b8-4820-afb7-e4056cceaa8e> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P08103" ;
+    ns1:evidence-with "PR:P14234" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dc:source "PMID:16425036" ;
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/99b73539-a9cf-4537-8ffc-891c9806a62e> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/73ff6ddf-0f97-43a8-ac34-0172999cc7f2> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:1328352" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -350,27 +254,17 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/9f1e99b1-0654-4fb5-b7c5-0abf4efd1586> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/7930c8c9-451b-482a-a1c6-9ef582c5a47a> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dc:source "PMID:16127454" ;
     dct:created "2008-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "inhibiting proximal events in NK cell signaling." .
+        "evidence inferred from Western blot assay;ECO:0000112" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/a224aa4e-1a06-4f7c-aaca-59460121789d> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3622649" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dc:source "PMID:20962259" ;
-    dct:created "2015-01-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/a5252a23-0fa5-4f0c-844d-8bc117ba5ca1> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/7b7c3927-50a4-45c2-a3c7-73b21ac8aa42> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P06240" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -379,112 +273,16 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/a900e0d7-2cd4-4323-bd01-0d63f0242b40> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "evidence inferred from Western blot assay;ECO:0000112" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/b0dd0941-992d-45bc-8898-b0898960101c> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P08103" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/b0fe55cd-b8fd-412f-90c4-41d2cf4baf8c> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "substantial increase (four- to fivefold) in IFN-g secretion" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/bf80a0e4-4b02-445a-996a-d85b583d1288> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
-        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "inhibiting proximal events in NK cell signaling." .
-
-<http://model.geneontology.org/MGI_MGI_1349420/c17282fe-2a5c-4f5d-ab33-d7fb5dfed99a> a ECO:0000316,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1328352" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dc:source "PMID:19648922" ;
-    dct:created "2013-06-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/cc3d645c-0cf0-478d-8c81-48d238df5ab0> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P25911" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/cf8d4b66-b7b0-490f-95ba-2aa556ab4ca4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
-        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "inhibiting proximal events in NK cell signaling." .
-
-<http://model.geneontology.org/MGI_MGI_1349420/d2cf7896-b8c0-471c-a7c4-8c9aba792b6d> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/80c54ac4-3b2a-4dab-9398-f7c9d10ce4fc> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3622649" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dc:source "PMID:19648922" ;
-    dct:created "2013-06-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/da02df43-1d1a-45ba-a8bf-ea6b3b83d0ae> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "substantial increase (four- to fivefold) in IFN-g secretion" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/dfd7fe31-f07e-463f-9df3-594e21762b6e> a ECO:0000314,
-        owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dc:source "PMID:16425036" ;
-    dct:created "2006-05-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Slamf1 ; MGI:1351314" .
+    dc:date "2015-01-19" ;
+    dc:source "PMID:20962259" ;
+    dct:created "2015-01-19" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/e68647b4-236a-450c-9e8d-33daba480b57> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/83229789-5bcd-43c4-934e-061468d013ba> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -496,7 +294,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
         "substantial increase (four- to fivefold) in IFN-g secretion" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/e778d75b-b83f-4939-bf64-5b54e9a12bbc> a ECO:0000316,
+<http://model.geneontology.org/MGI_MGI_1349420/863da3e9-3cff-4680-9c62-0457dcbdc419> a ECO:0000316,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:98923" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -505,7 +303,28 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2015-01-19" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/ee7376ed-43f9-4345-a77c-9b96b1c4e942> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/91736fe6-6872-4193-8770-11bdd980f456> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Slamf1 ; MGI:1351314" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/94d9edf2-8c08-47fb-82c0-c8dcce51bcd4> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
+        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "inhibiting proximal events in NK cell signaling." .
+
+<http://model.geneontology.org/MGI_MGI_1349420/9551a4a8-8f8f-4b1b-a68e-9edaed6330c7> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P39688" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -514,19 +333,26 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/f4e70097-41bd-49ee-a788-fd80dd292cde> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/9e461c82-eae6-4fe3-989c-27bd858158d9> a ECO:0000316,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3641174" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dc:source "PMID:16127454" ;
-    dct:created "2008-03-28" ;
+    ns1:evidence-with "MGI:MGI:1328352" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dc:source "PMID:19648922" ;
+    dct:created "2013-06-24" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
-        "substantial increase (four- to fivefold) in IFN-g secretion" .
+    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/f80d2692-215d-4f67-bd3a-a6db72cae25e> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1349420/a5f391a4-b715-4418-a598-1f1cff1659b7> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P25911" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/b12e86ae-d040-4000-8c05-1e05eb368699> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3641174" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -538,7 +364,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.",
         "increased ability to kill target cells" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/fc141c32-a94c-4a27-8fbf-2bdee45c28a8> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1349420/b1c10196-89b0-457d-a81c-30908f135a62> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
@@ -548,7 +374,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
         "evidence inferred from Western blot assay;ECO:0000112" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/fd07474f-53c4-4cc2-ba01-3b37fdd4dbe7> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1349420/b9857f8c-7ff2-4679-978e-8c79481cfbb7> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P08103" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/bb4aa2cd-95cd-46be-97fc-b1fc7db5bf31> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q07763" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -559,526 +394,691 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
         "evidence inferred from co-immunoprecipitation;ECO:0000070" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/14fd77ba-7e98-4941-b9e4-e8fbf4b76407> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1349420/bcc3cf9c-0bce-40ab-9f14-af46de92dc93> a ECO:0000353,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/18b11531-174b-474b-935f-98dbd3525c70> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/d2383770-91df-4319-844f-886503a5e404> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence-with "PR:Q9QUM4" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/184f06c6-11f3-4451-8f1f-7b18c7e46bb8> a PR:P25911,
+<http://model.geneontology.org/MGI_MGI_1349420/c0d80fa1-f6bc-4a42-ab81-60a54a9b214e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "substantial increase (four- to fivefold) in IFN-g secretion" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/c7995715-846b-40d6-b4e7-1cdf04eb8c38> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P14234" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/c8714dd0-395e-4b45-b4ff-8fcf27417e6a> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3622649" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dc:source "PMID:19648922" ;
+    dct:created "2013-06-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/ce0a704a-3f8e-4dc0-b2fa-de73323ecd82> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1328352" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dc:source "PMID:19648922" ;
+    dct:created "2013-06-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/d1c05477-fe5c-425e-a529-85d420383924> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q07763" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/d57d31c5-6949-444a-99ed-f73e24ea607b> a ECO:0000316,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:98923" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dc:source "PMID:20962259" ;
+    dct:created "2015-01-19" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/d66debdf-46c2-4c59-baaf-8d19ac106541> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Slamf1 ; MGI:1351314" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/da598e3a-72f4-4526-8002-e99493c096b2> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P25911" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/18b11531-174b-474b-935f-98dbd3525c70> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/e37efa9e-c50d-4172-b1ab-1c791020472c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
+        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "inhibiting proximal events in NK cell signaling." .
+
+<http://model.geneontology.org/MGI_MGI_1349420/e720a73f-d2c1-4cd6-9919-d26c12bbd06f> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q07763" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f1cbf0a5-2227-49e8-b485-d4f767d34bfb> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "inhibiting proximal events in NK cell signaling." .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f367e230-f421-4b96-aebe-a1c11baacf17> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P08103" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dc:source "PMID:16425036" ;
+    dct:created "2006-05-18" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f45b9961-5a88-4870-8122-9c74be28f612> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.",
+        "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "inhibiting proximal events in NK cell signaling." .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f56c99bb-0f44-4972-989e-1fd4f4ccc86f> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
+    dc:source "PMID:16127454" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "evidence inferred from Western blot assay;ECO:0000112" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/1e6c059c-f1f2-4ff3-83cd-3f26b5e9a2e2> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/fcc9d2b1-7c76-494d-8502-0967b0c6a0b9> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3641174" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
+    dc:source "PMID:16127454" ;
+    dct:created "2008-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001",
+        "substantial increase (four- to fivefold) in IFN-g secretion" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/07b257c0-5c7b-429f-a4ba-d4f6e73c854e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/352997a0-39dd-4429-be73-41260d4b415d> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/7fea6c77-57bb-41f2-9191-e4312175ea39> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/2ab8deca-1f40-4197-aaad-f774591d58ae> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/0dbbc94f-e391-49e6-a97d-18f8b0502890> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/2ba025b1-658e-49e9-a62e-76beaa734aee> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/10545bb1-4b4e-4606-ac2a-4e81b36420e7> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/30c81e2b-ec48-488a-b5b3-64d0dcc979fa> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/11d5781e-5252-4421-93ef-7de047ec3942> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/1bd97ba0-8585-4a92-99ac-eaabcd5d1fb2> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/9c6f7952-3537-4e34-b528-21ede2ee1d81> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/18f1673f-ee60-46bc-bd8e-fcc4f71cd84d> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/36968bdc-343e-432a-bbc8-d584d094081f> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/1bc5cb29-533a-4dc5-a39f-7ba625e59f16> a GO:0003674,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/3a7a3fd3-af73-4bc7-9ca5-f73c145325ed> a GO:0045954,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dct:created "2015-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/40dc3a03-2521-4718-8f04-5207b1e4afab> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/8152791e-687e-44be-a9b0-95b7426e7603> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/bd256b73-edb2-4910-a67a-382c62c0e519> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/440941f1-3cb2-44ac-af52-024f6f267df6> a MGI:MGI:1349420,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/44acec92-0b03-4b90-961e-5c5d8ae3d11c> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/9c36ad47-eada-459c-aa33-2694b115fe52> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/730963b2-241a-40d3-9221-9a134feefcd8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/47b70f35-13f6-4962-900b-fdee13e11d78> a MGI:MGI:1349420,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/4be92816-22c1-4239-bdde-1ee2c93e5632> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/c72c9cbf-0ce4-4dc6-8677-1f5b6a25eff3> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/440941f1-3cb2-44ac-af52-024f6f267df6> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/54601bab-7744-4eea-a621-253c0d3bfc2d> a MGI:MGI:1349420,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dct:created "2015-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/60bc87d6-33ed-4764-a830-105f6d732184> a MGI:MGI:1351314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/657fbf17-9045-4ffc-9dda-fec9c63e9958> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/6fb247db-7fde-43a4-aa99-da2f6a9896cc> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/c6d54e1d-d16d-49f4-ab20-efd08b476917> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/65c0fe0a-6d86-417a-8a41-a6435cb4e90e> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/1e6c059c-f1f2-4ff3-83cd-3f26b5e9a2e2> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/ff3f5c84-2ea2-4887-a979-8e01f1c236ad> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/b6a2f3dc-2a2c-43e5-9e31-0079d999586e> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/51eae087-e240-449d-bd03-c9a97389958d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/68af9645-c49a-414a-98fb-1bb56b7153fb> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_1349420/1bd97ba0-8585-4a92-99ac-eaabcd5d1fb2> a MGI:MGI:1349420,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/e0decff9-9292-4cbe-8fe1-c985a164d4c1> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/2ba025b1-658e-49e9-a62e-76beaa734aee> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/6fb247db-7fde-43a4-aa99-da2f6a9896cc> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/1c378bfc-2533-491c-95f0-7f84e62526f1> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/20537344-7d09-4cbe-9405-d4b588dbe6a8> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/fff35ef8-122c-42e3-b6e1-58d353235176> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/730963b2-241a-40d3-9221-9a134feefcd8> a MGI:MGI:1349420,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/74549f39-6d2b-49ea-b8c3-902928743c7c> a CL:0000623,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/7cc8a1a6-120c-47e3-aab8-e9ad34bff8ba> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/54601bab-7744-4eea-a621-253c0d3bfc2d> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/3a7a3fd3-af73-4bc7-9ca5-f73c145325ed> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dct:created "2015-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/8152791e-687e-44be-a9b0-95b7426e7603> a PR:P06240,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/8166cb88-f8c7-46b8-ade2-1eedc6f1dd07> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/184f06c6-11f3-4451-8f1f-7b18c7e46bb8> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/f7e2928e-fda4-498f-b184-352fc54e0882> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/845bb378-30e8-41b6-9c98-fb2b54825671> a PR:P39688,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/8a6e15db-f6cd-4c31-9e55-7b5feb02a8c4> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/9c3ddec6-d93f-47e5-afb3-a13f1358cc87> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/2d6a1f6e-0989-46ff-8a5c-d0b1ae8fbd5f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/8ca10d69-bff6-4378-b4c7-5561c2836d5f> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/20537344-7d09-4cbe-9405-d4b588dbe6a8> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/8faea2a7-a001-42a6-b106-d812267421d3> a PR:Q07763,
+<http://model.geneontology.org/MGI_MGI_1349420/282de084-e94f-4324-96da-411a0ddd17d5> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/9c36ad47-eada-459c-aa33-2694b115fe52> a PR:P14234,
+<http://model.geneontology.org/MGI_MGI_1349420/2887f6d9-8d6e-4671-adf9-d109ad407460> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/9c3ddec6-d93f-47e5-afb3-a13f1358cc87> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/2c16a901-27e6-446b-b257-a7129ba2454e> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/b79c1329-a802-4d9a-83cd-2194f8d89885> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/2d9a6b76-185f-43fa-b543-9b5835bd3960> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/bc34e1ef-1937-49d8-bfda-58a866e93d72> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1349420/33cef77e-fae3-4e37-ab3b-6d69c11f44e0> a GO:0005515,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/2ab8deca-1f40-4197-aaad-f774591d58ae> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/b04c1052-8bfa-4faf-83af-bc60202b278b> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/fe689613-999b-4bda-93dc-6b9f8288f7ee> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/d1bc0ca2-8716-4382-80f9-da32a6fe99a7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/352997a0-39dd-4429-be73-41260d4b415d> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/39138c44-dc42-4329-b3ac-e35849820a90> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/8f14cfda-31fb-4868-8f4e-0ab4beff39e0> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/b6ff59bb-db09-4eac-8792-0d237ebff2e2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/3fc1e406-7dc0-4e6d-a7b2-018029d8281e> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/752b4104-23b9-41d8-bce0-49942aa383b8> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/473f81ea-85e8-417d-807b-f280b58bf332> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/42328c75-ad1a-4068-851d-577c2518cc53> a PR:P08103,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/473f81ea-85e8-417d-807b-f280b58bf332> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/4be3eedd-e5b2-42af-b7ff-2b22989b64c6> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/abacea26-f809-4c57-a04c-c21bb5399076> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/50766e8c-8b11-408a-ab84-5dbb8e4d190e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/bd256b73-edb2-4910-a67a-382c62c0e519> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/59ae28ca-f7b4-48d7-af41-70b85b5ab6f4> a MGI:MGI:1349420,
         owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/5b3b136e-e1df-43a6-928a-57e5e6ed955f> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/cf4dfab5-38d8-46c5-9dcb-620a8aa6414f> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/2c16a901-27e6-446b-b257-a7129ba2454e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/c2ba1e04-d0d4-4294-ac54-48b55e9050a2> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/6b54e48b-42e6-4f64-b5f6-ebeb1778f42e> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/c72c9cbf-0ce4-4dc6-8677-1f5b6a25eff3> a PR:P08103,
+<http://model.geneontology.org/MGI_MGI_1349420/752b4104-23b9-41d8-bce0-49942aa383b8> a PR:Q9QUM4,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/cc19535c-23b2-4a50-8326-26cae1024093> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/76ccd33d-2798-4cdd-9e4b-7de1f4308b5c> a GO:0045954,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dct:created "2015-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/798098f6-2690-4066-bf4f-45351e125c2f> a CL:0000623,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/ce0840be-bb64-41c9-a898-2e1bd6d4267e> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/7f68a5ec-0524-409a-89ad-9880b721ff17> a GO:0003674,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/a55dcf2c-443c-46b0-919f-4a5d477525f8> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/76ccd33d-2798-4cdd-9e4b-7de1f4308b5c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dct:created "2015-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/dc5e0df3-8dc6-457d-bf8b-574d70821616> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_1349420/8f14cfda-31fb-4868-8f4e-0ab4beff39e0> a PR:P06240,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/845bb378-30e8-41b6-9c98-fb2b54825671> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/36968bdc-343e-432a-bbc8-d584d094081f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/e0decff9-9292-4cbe-8fe1-c985a164d4c1> a PR:Q9QUM4,
+<http://model.geneontology.org/MGI_MGI_1349420/9efa9df0-97c0-4314-9dd8-98f834c35113> a CL:0000623,
         owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/a55dcf2c-443c-46b0-919f-4a5d477525f8> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dct:created "2015-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/a820b26d-3222-4c78-b13d-ae2346cdbe3c> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/42328c75-ad1a-4068-851d-577c2518cc53> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/2887f6d9-8d6e-4671-adf9-d109ad407460> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/e5105d5d-abcd-4bb7-8d2d-7c2a5d05dede> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/cc19535c-23b2-4a50-8326-26cae1024093> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/91b933a8-5060-4c45-a5dc-c66fe54dbb3b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/e90b30f1-a215-4f82-8e2c-db4d66fe3762> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/abacea26-f809-4c57-a04c-c21bb5399076> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/ea4ecf75-7ead-44ad-9cef-0df8e5a3f364> a CL:0000623,
+<http://model.geneontology.org/MGI_MGI_1349420/aec05d11-754b-4c12-b9f8-8aa8bc7a1d58> a GO:0005515,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/e3790b84-cec1-4049-a001-0c123384f8ef> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/10545bb1-4b4e-4606-ac2a-4e81b36420e7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/eeec4c0e-0bd5-426a-9ff7-99782b1cb160> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/fe0b33c7-72b0-4caa-bf73-851e18cecd52> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/dc3e12e5-39cc-4d25-bc9c-d11c0af9a1be> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/f7e2928e-fda4-498f-b184-352fc54e0882> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/b3203c45-47ba-4d9e-a1b7-b78612b6ec24> a MGI:MGI:1351314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/fe0b33c7-72b0-4caa-bf73-851e18cecd52> a MGI:MGI:1349420,
+<http://model.geneontology.org/MGI_MGI_1349420/b601c8d0-76fe-41f0-b929-61381b50189b> a MGI:MGI:1349420,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/b6a2f3dc-2a2c-43e5-9e31-0079d999586e> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/b6ff59bb-db09-4eac-8792-0d237ebff2e2> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/c55fcefd-e604-4c6c-bc6f-780019bb0d80> a PR:Q07763,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/cf4dfab5-38d8-46c5-9dcb-620a8aa6414f> a PR:P25911,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/d1bc0ca2-8716-4382-80f9-da32a6fe99a7> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/e3790b84-cec1-4049-a001-0c123384f8ef> a PR:P39688,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/eac73bfc-aa61-4116-8f8e-90a598de6d86> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/59ae28ca-f7b4-48d7-af41-70b85b5ab6f4> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/f0092f92-2992-4ffc-92a4-837ff8978564> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f17eefb2-1214-4d17-aa7a-b58a22dd32f2> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f9c1c161-93c5-4656-b998-99509f2f8c08> a MGI:MGI:1349420,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/fdcd4d63-f2b4-40d3-8ef4-c5310e11f1d2> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/f9c1c161-93c5-4656-b998-99509f2f8c08> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1349420/e2ed2e7c-1834-46a5-b084-a54ab3361a1b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/fe689613-999b-4bda-93dc-6b9f8288f7ee> a PR:P14234,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002213 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1349420/187b2aa2-a9fc-42ad-b3a4-beb4382f72b4> a GO:0018108,
+<http://model.geneontology.org/MGI_MGI_1349420/50766e8c-8b11-408a-ab84-5dbb8e4d190e> a GO:0032689,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/ea4ecf75-7ead-44ad-9cef-0df8e5a3f364> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/2d6a1f6e-0989-46ff-8a5c-d0b1ae8fbd5f> a GO:0050731,
-        owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1349420/df9465aa-c78d-451e-9cef-ff8c425d1114> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/3424cf59-8e84-4009-a2bc-dcbf82a14930> a GO:0032609,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/e90b30f1-a215-4f82-8e2c-db4d66fe3762> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/df6b7a3c-80f4-4584-9a13-de2d17216daa> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/6c07031f-082e-4ea9-b1b1-435bbd4fd2ea> a GO:0042267,
+<http://model.geneontology.org/MGI_MGI_1349420/51eae087-e240-449d-bd03-c9a97389958d> a GO:0045953,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/b79c1329-a802-4d9a-83cd-2194f8d89885> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/5b16144c-2cd6-491c-8dc2-874fab18aa7c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/7647de8f-0474-4bb9-9f65-ebd92edf1a00> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_1349420/537bc1af-354d-45b1-b450-ad0a523ca4c1> a GO:0018108,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/c2ba1e04-d0d4-4294-ac54-48b55e9050a2> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/8faea2a7-a001-42a6-b106-d812267421d3> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/ce0840be-bb64-41c9-a898-2e1bd6d4267e> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/2d9a6b76-185f-43fa-b543-9b5835bd3960> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/91b933a8-5060-4c45-a5dc-c66fe54dbb3b> a GO:0050732,
+<http://model.geneontology.org/MGI_MGI_1349420/5b16144c-2cd6-491c-8dc2-874fab18aa7c> a GO:0042267,
         owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/187b2aa2-a9fc-42ad-b3a4-beb4382f72b4> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/18f1673f-ee60-46bc-bd8e-fcc4f71cd84d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/b04c1052-8bfa-4faf-83af-bc60202b278b> a GO:0032689,
+<http://model.geneontology.org/MGI_MGI_1349420/7fea6c77-57bb-41f2-9191-e4312175ea39> a GO:0018108,
         owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/3424cf59-8e84-4009-a2bc-dcbf82a14930> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/282de084-e94f-4324-96da-411a0ddd17d5> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/8e8bb1a7-e658-4f36-ac5b-f5f211279045> a GO:0018108,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/b3203c45-47ba-4d9e-a1b7-b78612b6ec24> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/9c6f7952-3537-4e34-b528-21ede2ee1d81> a GO:0050731,
+        owl:NamedIndividual ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1349420/8e8bb1a7-e658-4f36-ac5b-f5f211279045> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/cf5524c3-5832-41e8-863e-f10b4588cbd2> a GO:0042267,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/9efa9df0-97c0-4314-9dd8-98f834c35113> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/d2fab542-be3b-4d94-b870-3ad74a4941ae> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/798098f6-2690-4066-bf4f-45351e125c2f> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/c55fcefd-e604-4c6c-bc6f-780019bb0d80> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1349420/b601c8d0-76fe-41f0-b929-61381b50189b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/df6b7a3c-80f4-4584-9a13-de2d17216daa> a GO:0032609,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/0dbbc94f-e391-49e6-a97d-18f8b0502890> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/b2fa9d61-9736-437c-8f77-9dd9e2b9fa2b> a GO:0042267,
+<http://model.geneontology.org/MGI_MGI_1349420/e2ed2e7c-1834-46a5-b084-a54ab3361a1b> a GO:0050732,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/74549f39-6d2b-49ea-b8c3-902928743c7c> ;
+    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/537bc1af-354d-45b1-b450-ad0a523ca4c1> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1349420/f0092f92-2992-4ffc-92a4-837ff8978564> a GO:0045954,
+        owl:NamedIndividual ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1349420/cf5524c3-5832-41e8-863e-f10b4588cbd2> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-24" ;
     dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1349420/c6d54e1d-d16d-49f4-ab20-efd08b476917> a GO:0045954,
+<http://model.geneontology.org/MGI_MGI_1349420/fff35ef8-122c-42e3-b6e1-58d353235176> a GO:0002769,
         owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1349420/b2fa9d61-9736-437c-8f77-9dd9e2b9fa2b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/d2383770-91df-4319-844f-886503a5e404> a GO:0018108,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/30c81e2b-ec48-488a-b5b3-64d0dcc979fa> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/6b54e48b-42e6-4f64-b5f6-ebeb1778f42e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/dc3e12e5-39cc-4d25-bc9c-d11c0af9a1be> a GO:0045953,
-        owl:NamedIndividual ;
-    obo:RO_0002212 <http://model.geneontology.org/MGI_MGI_1349420/6c07031f-082e-4ea9-b1b1-435bbd4fd2ea> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/df9465aa-c78d-451e-9cef-ff8c425d1114> a GO:0018108,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1349420/60bc87d6-33ed-4764-a830-105f6d732184> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1349420/ff3f5c84-2ea2-4887-a979-8e01f1c236ad> a GO:0002769,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1349420/8ca10d69-bff6-4378-b4c7-5561c2836d5f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002212 a owl:ObjectProperty .
@@ -1092,540 +1092,540 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7b21fc94-1129-4418-bc02-bb6dbbf5010c>,
-        <http://model.geneontology.org/MGI_MGI_1349420/a224aa4e-1a06-4f7c-aaca-59460121789d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dct:created "2015-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4839659|PMID:20962259 ECO:0000316 MGI:MGI:3622649|MGI:MGI:98923  2015-01-19 MGI  creation-date=2015-01-19|modification-date=2015-01-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7cc8a1a6-120c-47e3-aab8-e9ad34bff8ba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/3a7a3fd3-af73-4bc7-9ca5-f73c145325ed> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/dfd7fe31-f07e-463f-9df3-594e21762b6e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/8a6e15db-f6cd-4c31-9e55-7b5feb02a8c4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2d6a1f6e-0989-46ff-8a5c-d0b1ae8fbd5f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/4fa4589d-cb73-4c84-8fac-ed5a2b07d3a9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/8166cb88-f8c7-46b8-ade2-1eedc6f1dd07> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/f7e2928e-fda4-498f-b184-352fc54e0882> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7e549294-5068-4007-a950-512de754d5e0> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/dc3e12e5-39cc-4d25-bc9c-d11c0af9a1be> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/6c07031f-082e-4ea9-b1b1-435bbd4fd2ea> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/2f242f6c-6e67-4dac-b8a9-2fedcdd46880> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/44acec92-0b03-4b90-961e-5c5d8ae3d11c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/9c36ad47-eada-459c-aa33-2694b115fe52> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/e68647b4-236a-450c-9e8d-33daba480b57> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/bc34e1ef-1937-49d8-bfda-58a866e93d72> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2ab8deca-1f40-4197-aaad-f774591d58ae> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/0f0630ab-fc2f-4003-b41c-b84b1eaeee4d> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/187b2aa2-a9fc-42ad-b3a4-beb4382f72b4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/ea4ecf75-7ead-44ad-9cef-0df8e5a3f364> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/726992fd-1b94-4be6-bd8e-8745e970d544>,
-        <http://model.geneontology.org/MGI_MGI_1349420/99b73539-a9cf-4537-8ffc-891c9806a62e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/3d4b66ff-090e-447a-990b-abd148ccb6b6>,
+        <http://model.geneontology.org/MGI_MGI_1349420/9e461c82-eae6-4fe3-989c-27bd858158d9> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-24" ;
     dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/b2fa9d61-9736-437c-8f77-9dd9e2b9fa2b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/74549f39-6d2b-49ea-b8c3-902928743c7c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/73215b0f-5fa9-4104-b9f6-41535e2840e5> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/df9465aa-c78d-451e-9cef-ff8c425d1114> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/60bc87d6-33ed-4764-a830-105f6d732184> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/cf8d4b66-b7b0-490f-95ba-2aa556ab4ca4> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/e5105d5d-abcd-4bb7-8d2d-7c2a5d05dede> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/91b933a8-5060-4c45-a5dc-c66fe54dbb3b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/da02df43-1d1a-45ba-a8bf-ea6b3b83d0ae> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/3424cf59-8e84-4009-a2bc-dcbf82a14930> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/e90b30f1-a215-4f82-8e2c-db4d66fe3762> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7482c99e-cacd-4209-b69c-be2a0d9118b8>,
-        <http://model.geneontology.org/MGI_MGI_1349420/c17282fe-2a5c-4f5d-ab33-d7fb5dfed99a> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/657fbf17-9045-4ffc-9dda-fec9c63e9958> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/6fb247db-7fde-43a4-aa99-da2f6a9896cc> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/eac73bfc-aa61-4116-8f8e-90a598de6d86> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/59ae28ca-f7b4-48d7-af41-70b85b5ab6f4> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/47d46935-6608-48ba-838b-1e2b163e0142> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/4443237b-6ec0-4174-bef3-68ce2dce084c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/e5105d5d-abcd-4bb7-8d2d-7c2a5d05dede> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/cc19535c-23b2-4a50-8326-26cae1024093> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/8b82c06d-f7de-4316-b6fa-eb78e4fdda06> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7647de8f-0474-4bb9-9f65-ebd92edf1a00> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/ce0840be-bb64-41c9-a898-2e1bd6d4267e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/2cced26e-483d-4ecc-9b7a-80b37e1595e0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/68af9645-c49a-414a-98fb-1bb56b7153fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2ba025b1-658e-49e9-a62e-76beaa734aee> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/3785d19b-e9d3-4047-a367-3f09e55107a9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/dc5e0df3-8dc6-457d-bf8b-574d70821616> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/36968bdc-343e-432a-bbc8-d584d094081f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/082c4e58-8b62-49d5-af4e-c192b8ed9249> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/68af9645-c49a-414a-98fb-1bb56b7153fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/e0decff9-9292-4cbe-8fe1-c985a164d4c1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f4e70097-41bd-49ee-a788-fd80dd292cde> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-07" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/bc34e1ef-1937-49d8-bfda-58a866e93d72> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b04c1052-8bfa-4faf-83af-bc60202b278b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/0b5bdf8c-56da-45b7-a143-99501ebf78d9> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/6c07031f-082e-4ea9-b1b1-435bbd4fd2ea> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b79c1329-a802-4d9a-83cd-2194f8d89885> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/ee7376ed-43f9-4345-a77c-9b96b1c4e942> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/dc5e0df3-8dc6-457d-bf8b-574d70821616> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/845bb378-30e8-41b6-9c98-fb2b54825671> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/5d959b32-705a-4972-ad3a-d9fd61bcadf8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/2d6a1f6e-0989-46ff-8a5c-d0b1ae8fbd5f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/df9465aa-c78d-451e-9cef-ff8c425d1114> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/784e0dbe-7bd7-4430-9bce-c27dae87eeb1> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/40dc3a03-2521-4718-8f04-5207b1e4afab> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/8152791e-687e-44be-a9b0-95b7426e7603> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/64329b85-1bf2-41e8-ac78-54a5606e28b2>,
-        <http://model.geneontology.org/MGI_MGI_1349420/d2cf7896-b8c0-471c-a7c4-8c9aba792b6d> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/657fbf17-9045-4ffc-9dda-fec9c63e9958> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/c6d54e1d-d16d-49f4-ab20-efd08b476917> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/864f834b-bd1a-42e7-9f8a-8cf43f3955bd> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0002769 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/65c0fe0a-6d86-417a-8a41-a6435cb4e90e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/1e6c059c-f1f2-4ff3-83cd-3f26b5e9a2e2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/1c378bfc-2533-491c-95f0-7f84e62526f1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/20537344-7d09-4cbe-9405-d4b588dbe6a8> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7b9a3b3e-97a0-4fd3-beb9-1adbb39a5c8e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/d1c05477-fe5c-425e-a529-85d420383924> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/eeec4c0e-0bd5-426a-9ff7-99782b1cb160> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/dc3e12e5-39cc-4d25-bc9c-d11c0af9a1be> .
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/d2fab542-be3b-4d94-b870-3ad74a4941ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/c55fcefd-e604-4c6c-bc6f-780019bb0d80> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/a900e0d7-2cd4-4323-bd01-0d63f0242b40> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/b1c10196-89b0-457d-a81c-30908f135a62> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0018108 MGI:MGI:3639618|PMID:16127454 ECO:0000314   2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from Western blot assay;ECO:0000112|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/14fd77ba-7e98-4941-b9e4-e8fbf4b76407> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/d2383770-91df-4319-844f-886503a5e404> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/07b257c0-5c7b-429f-a4ba-d4f6e73c854e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/7fea6c77-57bb-41f2-9191-e4312175ea39> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/9f1e99b1-0654-4fb5-b7c5-0abf4efd1586> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0002769 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/ff3f5c84-2ea2-4887-a979-8e01f1c236ad> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/8ca10d69-bff6-4378-b4c7-5561c2836d5f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/a5252a23-0fa5-4f0c-844d-8bc117ba5ca1> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/337e7da1-bd1a-4c6f-8284-e92808882348> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/40dc3a03-2521-4718-8f04-5207b1e4afab> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/bd256b73-edb2-4910-a67a-382c62c0e519> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/aec05d11-754b-4c12-b9f8-8aa8bc7a1d58> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/10545bb1-4b4e-4606-ac2a-4e81b36420e7> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f80d2692-215d-4f67-bd3a-a6db72cae25e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/83229789-5bcd-43c4-934e-061468d013ba> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/eeec4c0e-0bd5-426a-9ff7-99782b1cb160> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/fe0b33c7-72b0-4caa-bf73-851e18cecd52> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/4be3eedd-e5b2-42af-b7ff-2b22989b64c6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/abacea26-f809-4c57-a04c-c21bb5399076> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/4a8de608-bcf6-4a21-b2ee-a62a55a19b6c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/a5f391a4-b715-4418-a598-1f1cff1659b7> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-05-18" ;
     dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/5b3b136e-e1df-43a6-928a-57e5e6ed955f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2c16a901-27e6-446b-b257-a7129ba2454e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/da598e3a-72f4-4526-8002-e99493c096b2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/5b3b136e-e1df-43a6-928a-57e5e6ed955f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/cf4dfab5-38d8-46c5-9dcb-620a8aa6414f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/09a8df09-29c9-45cd-958e-1425e4325ee8>,
+        <http://model.geneontology.org/MGI_MGI_1349420/c8714dd0-395e-4b45-b4ff-8fcf27417e6a> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/cf5524c3-5832-41e8-863e-f10b4588cbd2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/9efa9df0-97c0-4314-9dd8-98f834c35113> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/138ac7a0-d1aa-41f7-a2c4-8106ed801335> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/11d5781e-5252-4421-93ef-7de047ec3942> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/9c6f7952-3537-4e34-b528-21ede2ee1d81> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f56c99bb-0f44-4972-989e-1fd4f4ccc86f> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0018108 MGI:MGI:3639618|PMID:16127454 ECO:0000314   2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from Western blot assay;ECO:0000112|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/07b257c0-5c7b-429f-a4ba-d4f6e73c854e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/352997a0-39dd-4429-be73-41260d4b415d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/60a82da2-f621-45a4-a108-da366639c184> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/5b16144c-2cd6-491c-8dc2-874fab18aa7c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/18f1673f-ee60-46bc-bd8e-fcc4f71cd84d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/c7995715-846b-40d6-b4e7-1cdf04eb8c38> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/33cef77e-fae3-4e37-ab3b-6d69c11f44e0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/d1bc0ca2-8716-4382-80f9-da32a6fe99a7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/80c54ac4-3b2a-4dab-9398-f7c9d10ce4fc>,
+        <http://model.geneontology.org/MGI_MGI_1349420/863da3e9-3cff-4680-9c62-0457dcbdc419> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dct:created "2015-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4839659|PMID:20962259 ECO:0000316 MGI:MGI:3622649|MGI:MGI:98923  2015-01-19 MGI  creation-date=2015-01-19|modification-date=2015-01-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7f68a5ec-0524-409a-89ad-9880b721ff17> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/a55dcf2c-443c-46b0-919f-4a5d477525f8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7b7c3927-50a4-45c2-a3c7-73b21ac8aa42> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/39138c44-dc42-4329-b3ac-e35849820a90> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/8f14cfda-31fb-4868-8f4e-0ab4beff39e0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/e720a73f-d2c1-4cd6-9919-d26c12bbd06f> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/d2fab542-be3b-4d94-b870-3ad74a4941ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/798098f6-2690-4066-bf4f-45351e125c2f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/e37efa9e-c50d-4172-b1ab-1c791020472c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/fdcd4d63-f2b4-40d3-8ef4-c5310e11f1d2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/e2ed2e7c-1834-46a5-b084-a54ab3361a1b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/0bac91df-b487-4ed0-9b05-1cf02a70efc4>,
+        <http://model.geneontology.org/MGI_MGI_1349420/ce0a704a-3f8e-4dc0-b2fa-de73323ecd82> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/eac73bfc-aa61-4116-8f8e-90a598de6d86> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/f0092f92-2992-4ffc-92a4-837ff8978564> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/91736fe6-6872-4193-8770-11bdd980f456> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/8e8bb1a7-e658-4f36-ac5b-f5f211279045> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b3203c45-47ba-4d9e-a1b7-b78612b6ec24> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/10e6c659-43b8-43a3-b9b9-987c4fb90de9>,
+        <http://model.geneontology.org/MGI_MGI_1349420/73ff6ddf-0f97-43a8-ac34-0172999cc7f2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-24" ;
+    dct:created "2013-06-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/f0092f92-2992-4ffc-92a4-837ff8978564> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/cf5524c3-5832-41e8-863e-f10b4588cbd2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/2102c1c2-1757-41cf-a865-96e1138a941d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/39138c44-dc42-4329-b3ac-e35849820a90> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b6ff59bb-db09-4eac-8792-0d237ebff2e2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/3465b9f1-af7a-4a70-8f90-1425a6958453>,
+        <http://model.geneontology.org/MGI_MGI_1349420/d57d31c5-6949-444a-99ed-f73e24ea607b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2015-01-19" ;
+    dct:created "2015-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4839659|PMID:20962259 ECO:0000316 MGI:MGI:3622649|MGI:MGI:98923  2015-01-19 MGI  creation-date=2015-01-19|modification-date=2015-01-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7f68a5ec-0524-409a-89ad-9880b721ff17> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/76ccd33d-2798-4cdd-9e4b-7de1f4308b5c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/303c76af-c2c6-408a-abc2-9edd1b042b77> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/51eae087-e240-449d-bd03-c9a97389958d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/5b16144c-2cd6-491c-8dc2-874fab18aa7c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/5924c978-a4d7-4db8-983b-4f531a7bd7ad> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/11d5781e-5252-4421-93ef-7de047ec3942> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/1bd97ba0-8585-4a92-99ac-eaabcd5d1fb2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f1cbf0a5-2227-49e8-b485-d4f767d34bfb> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0002769 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/fff35ef8-122c-42e3-b6e1-58d353235176> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/6b54e48b-42e6-4f64-b5f6-ebeb1778f42e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f45b9961-5a88-4870-8122-9c74be28f612> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/e2ed2e7c-1834-46a5-b084-a54ab3361a1b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/537bc1af-354d-45b1-b450-ad0a523ca4c1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/f367e230-f421-4b96-aebe-a1c11baacf17> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/a820b26d-3222-4c78-b13d-ae2346cdbe3c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/42328c75-ad1a-4068-851d-577c2518cc53> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/c0d80fa1-f6bc-4a42-ab81-60a54a9b214e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/df6b7a3c-80f4-4584-9a13-de2d17216daa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/0dbbc94f-e391-49e6-a97d-18f8b0502890> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/94d9edf2-8c08-47fb-82c0-c8dcce51bcd4> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/fdcd4d63-f2b4-40d3-8ef4-c5310e11f1d2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/f9c1c161-93c5-4656-b998-99509f2f8c08> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/bcc3cf9c-0bce-40ab-9f14-af46de92dc93> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/3fc1e406-7dc0-4e6d-a7b2-018029d8281e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/752b4104-23b9-41d8-bce0-49942aa383b8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/5ad46798-5777-4caa-a856-1a923ec240e2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0002769 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/1c378bfc-2533-491c-95f0-7f84e62526f1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/fff35ef8-122c-42e3-b6e1-58d353235176> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/735fffe1-82b7-464f-a07d-958222162ebe> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/33cef77e-fae3-4e37-ab3b-6d69c11f44e0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/fe689613-999b-4bda-93dc-6b9f8288f7ee> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/fcc9d2b1-7c76-494d-8502-0967b0c6a0b9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-07" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002212 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/50766e8c-8b11-408a-ab84-5dbb8e4d190e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/df6b7a3c-80f4-4584-9a13-de2d17216daa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7930c8c9-451b-482a-a1c6-9ef582c5a47a> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0018108 MGI:MGI:3639618|PMID:16127454 ECO:0000314   2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from Western blot assay;ECO:0000112|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7fea6c77-57bb-41f2-9191-e4312175ea39> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/282de084-e94f-4324-96da-411a0ddd17d5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/9551a4a8-8f8f-4b1b-a68e-9edaed6330c7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/aec05d11-754b-4c12-b9f8-8aa8bc7a1d58> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/e3790b84-cec1-4049-a001-0c123384f8ef> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/d66debdf-46c2-4c59-baaf-8d19ac106541> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/9c6f7952-3537-4e34-b528-21ede2ee1d81> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/8e8bb1a7-e658-4f36-ac5b-f5f211279045> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/3b2044ca-8f26-4999-9235-9fed4e1d4e78> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0001784 MGI:MGI:1326821|PMID:9000139 ECO:0000314   2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/41e3eadd-db06-40d8-9761-a8a535accf3b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/47b70f35-13f6-4962-900b-fdee13e11d78> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/027ade59-f72e-4409-a490-e90c857c31bc> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/f17eefb2-1214-4d17-aa7a-b58a22dd32f2> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/cc3d645c-0cf0-478d-8c81-48d238df5ab0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/0d29d768-b597-45ff-8470-55080fba6ab6> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/8166cb88-f8c7-46b8-ade2-1eedc6f1dd07> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/184f06c6-11f3-4451-8f1f-7b18c7e46bb8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/60442b7a-cda3-4c34-8f5e-e173b85e3a3c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050731 MGI:MGI:3618579|PMID:16425036 ECO:0000314   2006-05-18 MGI GOREL:0001030(MGI:MGI:1351314) creation-date=2006-05-18|modification-date=2006-05-18|comment=target Slamf1 ; MGI:1351314|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/8a6e15db-f6cd-4c31-9e55-7b5feb02a8c4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/9c3ddec6-d93f-47e5-afb3-a13f1358cc87> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/1bc5cb29-533a-4dc5-a39f-7ba625e59f16> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b6a2f3dc-2a2c-43e5-9e31-0079d999586e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/088d8463-ad44-4f4b-8657-4d282172198a>,
-        <http://model.geneontology.org/MGI_MGI_1349420/46df8e3d-2037-4a1d-8e51-5af211f888c3> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-24" ;
-    dct:created "2013-06-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4355255|PMID:19648922 ECO:0000316 MGI:MGI:1328352|MGI:MGI:3622649  2013-06-24 MGI GOREL:0001004(CL:0000623) creation-date=2013-06-24|modification-date=2013-06-24|comment=cell type CL:0000623 ; natural killer cell   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/c6d54e1d-d16d-49f4-ab20-efd08b476917> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b2fa9d61-9736-437c-8f77-9dd9e2b9fa2b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/73da7164-db9c-46ba-a9a7-ef919e4127a5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/7059cbc6-41b9-4c47-8bf0-d20928617e0e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-28" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0002769 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/65c0fe0a-6d86-417a-8a41-a6435cb4e90e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/ff3f5c84-2ea2-4887-a979-8e01f1c236ad> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/bf80a0e4-4b02-445a-996a-d85b583d1288> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0050732 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=EAT-2-deficient NK cells had an increase in CD16-induced protein tyrosine phosphorylation.|comment=inhibiting proximal events in NK cell signaling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/91b933a8-5060-4c45-a5dc-c66fe54dbb3b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/187b2aa2-a9fc-42ad-b3a4-beb4382f72b4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/9267f7a5-77ca-46dc-8b07-70e12fe15619> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0018108 MGI:MGI:3639618|PMID:16127454 ECO:0000314   2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from Western blot assay;ECO:0000112|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/14fd77ba-7e98-4941-b9e4-e8fbf4b76407> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/18b11531-174b-474b-935f-98dbd3525c70> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/fd07474f-53c4-4cc2-ba01-3b37fdd4dbe7> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7647de8f-0474-4bb9-9f65-ebd92edf1a00> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/8faea2a7-a001-42a6-b106-d812267421d3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/b0dd0941-992d-45bc-8898-b0898960101c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/4be92816-22c1-4239-bdde-1ee2c93e5632> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/c72c9cbf-0ce4-4dc6-8677-1f5b6a25eff3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/34d67bad-e37d-4850-9e98-1466ea620e92> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/44acec92-0b03-4b90-961e-5c5d8ae3d11c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/730963b2-241a-40d3-9221-9a134feefcd8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/982b7c15-63b8-4820-afb7-e4056cceaa8e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-05-18" ;
-    dct:created "2006-05-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/4be92816-22c1-4239-bdde-1ee2c93e5632> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/440941f1-3cb2-44ac-af52-024f6f267df6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/3408438c-04f8-4daa-a2ce-964290c3bc18> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7647de8f-0474-4bb9-9f65-ebd92edf1a00> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/c2ba1e04-d0d4-4294-ac54-48b55e9050a2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/537bc1af-354d-45b1-b450-ad0a523ca4c1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2d9a6b76-185f-43fa-b543-9b5835bd3960> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/b0fe55cd-b8fd-412f-90c4-41d2cf4baf8c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/b12e86ae-d040-4000-8c05-1e05eb368699> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045953 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2008-03-28 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence measured target cell killing by monitoring the release of 51Cr in the supernatant.|comment=increased ability to kill target cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/1bc5cb29-533a-4dc5-a39f-7ba625e59f16> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/51eae087-e240-449d-bd03-c9a97389958d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/bb4aa2cd-95cd-46be-97fc-b1fc7db5bf31> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-28" ;
+    dct:created "2008-03-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3639618|PMID:16127454 ECO:0000353 PR:Q07763  2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/d2fab542-be3b-4d94-b870-3ad74a4941ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/b601c8d0-76fe-41f0-b929-61381b50189b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/159b538c-5b5f-447e-8567-48ceebf8f0b5> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/3fc1e406-7dc0-4e6d-a7b2-018029d8281e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/473f81ea-85e8-417d-807b-f280b58bf332> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/b9857f8c-7ff2-4679-978e-8c79481cfbb7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-05-18" ;
+    dct:created "2006-05-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1349420  RO:0002327 GO:0005515 MGI:MGI:3618579|PMID:16425036 ECO:0000353 PR:Q9QUM4|PR:P08103|PR:P06240|PR:P25911|PR:P14234|PR:P39688  2006-05-18 MGI  creation-date=2006-05-18|modification-date=2006-05-18|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/a820b26d-3222-4c78-b13d-ae2346cdbe3c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/2887f6d9-8d6e-4671-adf9-d109ad407460> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/4d9f3a4d-ad80-402f-b565-e5cb840de8e2> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-07" ;
     dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0032689 MGI:MGI:3639618|PMID:16127454 ECO:0000315 MGI:MGI:3641174  2020-12-07 MGI GOREL:0001004(CL:0000623) creation-date=2008-03-28|modification-date=2020-12-07|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=substantial increase (four- to fivefold) in IFN-g secretion|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002212 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/b04c1052-8bfa-4faf-83af-bc60202b278b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/3424cf59-8e84-4009-a2bc-dcbf82a14930> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/59fe8356-c883-42c8-b683-d2b45ae0d65f>,
-        <http://model.geneontology.org/MGI_MGI_1349420/e778d75b-b83f-4939-bf64-5b54e9a12bbc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2015-01-19" ;
-    dct:created "2015-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0045954 MGI:MGI:4839659|PMID:20962259 ECO:0000316 MGI:MGI:3622649|MGI:MGI:98923  2015-01-19 MGI  creation-date=2015-01-19|modification-date=2015-01-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/7cc8a1a6-120c-47e3-aab8-e9ad34bff8ba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/54601bab-7744-4eea-a621-253c0d3bfc2d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1349420/fc141c32-a94c-4a27-8fbf-2bdee45c28a8> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-28" ;
-    dct:created "2008-03-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1349420  RO:0002264 GO:0018108 MGI:MGI:3639618|PMID:16127454 ECO:0000314   2008-03-28 MGI BFO:0000066(CL:0000623) creation-date=2008-03-28|modification-date=2008-03-28|comment=cell type natural killer cell;CL:0000623 primary cell line cell;CL:0000001|comment=evidence inferred from Western blot assay;ECO:0000112|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/d2383770-91df-4319-844f-886503a5e404> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/30c81e2b-ec48-488a-b5b3-64d0dcc979fa> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1349420/4be3eedd-e5b2-42af-b7ff-2b22989b64c6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1349420/50766e8c-8b11-408a-ab84-5dbb8e4d190e> .
 

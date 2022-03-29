@@ -36,42 +36,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-12-19" ;
     dc:title "Col14a1 (MGI:MGI:1341272)" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1341272> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1341272/18e25089-195b-4572-8796-876dc5f1e152> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
-        "anatomy ventricle myocardium ; MA:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/4941535c-7fad-4bfd-8dce-1d599378ff07> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
-        "anatomy ventricle myocardium ; MA:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/49834937-a9c6-4fd8-928e-eb7599776cdc> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
-        "anatomy ventricle myocardium ; MA:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/500627d0-8c4a-42bb-8652-31a5759230e4> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/0dc18089-9a1b-439b-8c92-f3a459ed96b6> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -80,9 +50,31 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-12-19" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type fibroblast ; CL:0000057" .
+        "cell type cardiac muscle cell ; CL:0000746",
+        "regulates_o_has_participant(CL:0000746)" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/5ccb22b7-0873-4b20-b315-4586d953f2ad> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/1d5535b8-b4c1-4725-afac-f209837c6fb6> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3846440" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
+        "cell type cardiac muscle cell ; CL:0000746",
+        "regulates_o_has_participant(CL:0000746)" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/20f5bb8a-8f0b-4a46-a19c-d83879216a33> a MGI:MGI:1341272,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/ecdbfe59-4a42-4c0f-9113-f07b62a8139b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/275590b2-3703-47a8-8dd1-79687b733e47> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -92,16 +84,120 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/63dad1cd-f323-4289-be2b-96d76726f940> a MGI:MGI:1341272,
+<http://model.geneontology.org/MGI_MGI_1341272/285b399e-9333-4d8a-acb4-dd411bc7cde3> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/ed085602-64dd-497b-b93d-b510b778e8f8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
+        "anatomy ventricle myocardium ; MA:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/350d3c94-dd25-4c53-ba58-e7628788fa87> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3846440" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
+        "cell type cardiac muscle cell ; CL:0000746",
+        "regulates_o_has_participant(CL:0000746)" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/3cda14e1-e769-45fd-9962-2cdcbc564eec> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
+        "anatomy ventricle myocardium ; MA:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/3d754a34-72ee-4ab2-812b-44d286e2bffa> a MGI:MGI:1341272,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/21d45cbc-4e78-4a0e-a432-823579b5cd95> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/849a0652-fd85-4790-8f7e-a7999bf0bcc4> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/4ffcda93-a8f8-40bc-a5f8-190658703384> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3846440" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
+        "cell type fibroblast ; CL:0000057" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/56212b09-003a-4c01-ba65-042dc02fb12a> a MGI:MGI:1341272,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/3c66e9ac-7f4d-4d39-8145-8917433607ed> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/6ef35e0d-f059-4ea2-aa35-a6a735dc9efb> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3846440" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
+        "cell type fibroblast ; CL:0000057" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/6f81e191-57d9-4251-84d7-6fa9f77f9a57> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
+        "anatomy ventricle myocardium ; MA:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/8e8f1137-38e5-459b-bd0e-785afbc25b34> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3846440" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
+        "cell type fibroblast ; CL:0000057" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/967bd1a2-519a-4a7d-88dc-0ef005fa6be0> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
+        "anatomy ventricle myocardium ; MA:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/a7fe9acd-bf0f-4a6b-bafa-e0902f9288f4> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:22906538" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
+        "anatomy ventricle myocardium ; MA:0000082" .
+
+<http://model.geneontology.org/MGI_MGI_1341272/c9777545-1dcb-4838-aab2-e43d8c96376f> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -111,7 +207,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/8505ea41-0ce6-43fe-9e02-293d810a8e96> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1341272/ccb7bae2-a7e6-4c3a-8881-5b6ae4c7a4b0> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
@@ -121,7 +217,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
         "anatomy ventricle myocardium ; MA:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/949ca5ba-cb4d-4173-96e8-d7c7dd8a35fd> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/d7ffb4d6-66e4-4e0d-8858-1917b70b44da> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -132,17 +228,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
         "cell type fibroblast ; CL:0000057" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/a5ca12fb-d40d-4705-8a05-f8ff581ff0d4> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
-        "anatomy ventricle myocardium ; MA:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/a757cb03-1e64-4952-a030-06c772229180> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/f02e0d98-5f6f-4dae-b4e9-bd4f3a430c3b> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -151,74 +237,19 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-12-19" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type fibroblast ; CL:0000057" .
+        "cell type cardiac muscle cell ; CL:0000746",
+        "regulates_o_has_participant(CL:0000746)" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/b6176702-0aef-4fc4-9780-653e20dfa192> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/f1801083-78e2-4342-a6e4-845ce7155df8> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dc:source "PMID:22906538" ;
     dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type fibroblast ; CL:0000057" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/b94d9f9d-e0cd-4d96-9614-748a082fc3fb> a MGI:MGI:1341272,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/da189972-cdf7-46c7-8c02-2f2bcc2215e9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/ba98d6dd-a626-44ad-a63f-c2e6c9776514> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3846440" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type cardiac muscle cell ; CL:0000746",
-        "regulates_o_has_participant(CL:0000746)" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/bb8ee6c1-232a-404b-a6a1-a82c69daaaab> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3846440" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type cardiac muscle cell ; CL:0000746",
-        "regulates_o_has_participant(CL:0000746)" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/c8df6f72-1365-48ad-ba40-676840e47501> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3846440" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type cardiac muscle cell ; CL:0000746",
-        "regulates_o_has_participant(CL:0000746)" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/cba516a9-5ce9-49cc-bb50-f6ca05c1c9f1> a MGI:MGI:1341272,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1341272/909aa35b-cb62-43d7-9de8-c679a49ec1dc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/cca461ef-5d83-4bc4-a00b-a2e0d0d874e9> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/f1df186b-6d31-426a-8156-a82c14d42eba> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -228,38 +259,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy ventricle myocardium ; MA:0000082" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/e32dc3c7-9ccd-4eeb-9ed9-5299a93f9de4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3846440" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ventricle myocardium ; MA:0000082",
-        "cell type cardiac muscle cell ; CL:0000746",
-        "regulates_o_has_participant(CL:0000746)" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/e66536e2-eb91-43f3-b1c2-219e6e80d9ab> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449",
-        "anatomy ventricle myocardium ; MA:0000082" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/e714c860-e336-44c5-a28c-f242bbcb41e4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3846440" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:22906538" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1341272/f16171ff-b87b-4552-a2cf-7dc9bf9c7e97> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1341272/f6cd522e-0aeb-43be-8e53-5f2fb5cc5b09> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3846440" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -272,194 +272,194 @@ obo:RO_0002211 a owl:ObjectProperty .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1341272/069dedd4-426d-49c5-b1e0-efac992df22f> a GO:0003229,
+<http://model.geneontology.org/MGI_MGI_1341272/2860377e-7bd7-4a43-abbd-74064fdbac88> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/73d02f01-77f8-43dd-bb9d-b119928d5090> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/69c8d02a-64be-4efe-a02c-a438d35b5107> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/192080b6-06ef-4c50-a5dd-bbf6c6a9c67d> a EMAPA:17339,
+<http://model.geneontology.org/MGI_MGI_1341272/381cdd81-73de-4eed-9469-fbd349648f79> a EMAPA:17339,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/3e0e6b61-a633-430d-b315-ef1c138fda59> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1341272/3fd7ec9b-415a-4268-abd3-1fdae7f11be8> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/94f7d711-96d8-431f-a451-ad0acb0866c2> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/069dedd4-426d-49c5-b1e0-efac992df22f> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/c726b60a-4b21-4fe5-9b82-b3d8a659f81f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/8ebcd9eb-22d8-4d27-8a4b-487b774cd3d8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/55a30932-ca16-43cb-a554-8970cb539b3d> a EMAPA:32748,
+<http://model.geneontology.org/MGI_MGI_1341272/4334f7bf-3090-47ee-9fea-64d6f7b35234> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/b2b18643-d22f-4605-b573-b6db7a487d97> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/feb2542b-ac53-4765-ab7e-c9b375836b7e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/5db9ba23-e166-4909-a5fb-7c4ac1f3940d> a EMAPA:17342,
+<http://model.geneontology.org/MGI_MGI_1341272/69c8d02a-64be-4efe-a02c-a438d35b5107> a GO:0003229,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/6f8c75e5-0692-473a-9fbf-52fa7109628c> a EMAPA:32748,
+<http://model.geneontology.org/MGI_MGI_1341272/6e342db3-8117-474d-b956-afd092666e15> a CL:0000057,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/72b1e09f-3b93-49d0-9133-b23d1d2cd0f8> a MGI:MGI:1341272,
+<http://model.geneontology.org/MGI_MGI_1341272/73d02f01-77f8-43dd-bb9d-b119928d5090> a MGI:MGI:1341272,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/7f32d60a-74b9-4f0f-98ab-fbdbd3fb3218> a CL:0000057,
+<http://model.geneontology.org/MGI_MGI_1341272/837109a0-9f68-4eb3-b4dd-8c580f372516> a EMAPA:32748,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/94f7d711-96d8-431f-a451-ad0acb0866c2> a MGI:MGI:1341272,
+<http://model.geneontology.org/MGI_MGI_1341272/87a9b230-8810-4031-98b3-2c3ba621a650> a EMAPA:17342,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/a186f876-083d-4794-a60b-014b5d43bf14> a MGI:MGI:1341272,
+<http://model.geneontology.org/MGI_MGI_1341272/9e329779-6753-483d-902a-5e3c0e05b8d1> a EMAPA:32748,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/aac6e365-039d-45fa-b5e1-f6e366726e27> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1341272/adef31e3-723d-4ffd-9a8d-3eee2154cf06> a EMAPA:32748,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/a186f876-083d-4794-a60b-014b5d43bf14> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/27dbb0d9-e58f-4bff-a407-f882d1319245> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/b59a9129-a5f9-4f83-baef-2032b7cd33f7> a EMAPA:32748,
+<http://model.geneontology.org/MGI_MGI_1341272/b2b18643-d22f-4605-b573-b6db7a487d97> a MGI:MGI:1341272,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/cd53b1c5-05a8-4591-a7a7-765de4f79ea2> a EMAPA:32748,
+<http://model.geneontology.org/MGI_MGI_1341272/be362b85-5b79-423f-9c84-03389f1f3d39> a MGI:MGI:1341272,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/ed702f8c-9aac-4d6a-86f8-4f2e269e2f1d> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1341272/c49a0e34-1921-4a68-988a-2d2391fdb509> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/fe5c8f0f-2b18-4ea2-bf41-23a4015795e5> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/0c2971d3-0451-4990-bd38-ab00511d3ad5> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/be362b85-5b79-423f-9c84-03389f1f3d39> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/1d5d7108-22a1-4ef4-94b8-0ce178758f72> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/f3b3991a-3772-4293-a576-16c4c19d3693> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1341272/c726b60a-4b21-4fe5-9b82-b3d8a659f81f> a MGI:MGI:1341272,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1341272/72b1e09f-3b93-49d0-9133-b23d1d2cd0f8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1341272/cb36c1da-b372-4de6-885b-5c0edf7d5ccc> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/fe5c8f0f-2b18-4ea2-bf41-23a4015795e5> a MGI:MGI:1341272,
+<http://model.geneontology.org/MGI_MGI_1341272/e4ce4dce-8e9f-4531-84fb-4ffe82d35d9e> a EMAPA:32748,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/27dbb0d9-e58f-4bff-a407-f882d1319245> a GO:0030199,
+<http://model.geneontology.org/MGI_MGI_1341272/1d5d7108-22a1-4ef4-94b8-0ce178758f72> a GO:0061050,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/cd53b1c5-05a8-4591-a7a7-765de4f79ea2> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1341272/67919ed9-3f01-4cc2-9d39-77cff801ca2b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/909aa35b-cb62-43d7-9de8-c679a49ec1dc> a GO:0005614,
+<http://model.geneontology.org/MGI_MGI_1341272/21d45cbc-4e78-4a0e-a432-823579b5cd95> a GO:0005614,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/5db9ba23-e166-4909-a5fb-7c4ac1f3940d> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/381cdd81-73de-4eed-9469-fbd349648f79> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/a2c004f8-5317-4529-af1e-5b32970a64b9> a GO:0061049,
+<http://model.geneontology.org/MGI_MGI_1341272/3c66e9ac-7f4d-4d39-8145-8917433607ed> a GO:0005614,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/6f8c75e5-0692-473a-9fbf-52fa7109628c> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/87a9b230-8810-4031-98b3-2c3ba621a650> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/cb36c1da-b372-4de6-885b-5c0edf7d5ccc> a GO:0061050,
+<http://model.geneontology.org/MGI_MGI_1341272/67919ed9-3f01-4cc2-9d39-77cff801ca2b> a GO:0061049,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1341272/a2c004f8-5317-4529-af1e-5b32970a64b9> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/9e329779-6753-483d-902a-5e3c0e05b8d1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/da189972-cdf7-46c7-8c02-2f2bcc2215e9> a GO:0005614,
+<http://model.geneontology.org/MGI_MGI_1341272/ecdbfe59-4a42-4c0f-9113-f07b62a8139b> a GO:0005614,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/b59a9129-a5f9-4f83-baef-2032b7cd33f7> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/adef31e3-723d-4ffd-9a8d-3eee2154cf06> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1341272/ed085602-64dd-497b-b93d-b510b778e8f8> a GO:0005614,
+<http://model.geneontology.org/MGI_MGI_1341272/feb2542b-ac53-4765-ab7e-c9b375836b7e> a GO:0030199,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1341272/192080b6-06ef-4c50-a5dd-bbf6c6a9c67d> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/837109a0-9f68-4eb3-b4dd-8c580f372516> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -468,14 +468,14 @@ obo:BFO_0000066 a owl:ObjectProperty .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1341272/0c2971d3-0451-4990-bd38-ab00511d3ad5> a GO:0048873,
+<http://model.geneontology.org/MGI_MGI_1341272/8ebcd9eb-22d8-4d27-8a4b-487b774cd3d8> a GO:0048873,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/55a30932-ca16-43cb-a554-8970cb539b3d> ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1341272/7f32d60a-74b9-4f0f-98ab-fbdbd3fb3218> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1341272/e4ce4dce-8e9f-4531-84fb-4ffe82d35d9e> ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1341272/6e342db3-8117-474d-b956-afd092666e15> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
@@ -483,230 +483,230 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0002418 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/bb8ee6c1-232a-404b-a6a1-a82c69daaaab> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/275590b2-3703-47a8-8dd1-79687b733e47> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/a2c004f8-5317-4529-af1e-5b32970a64b9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/6f8c75e5-0692-473a-9fbf-52fa7109628c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/18e25089-195b-4572-8796-876dc5f1e152> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/b94d9f9d-e0cd-4d96-9614-748a082fc3fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/da189972-cdf7-46c7-8c02-2f2bcc2215e9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/849a0652-fd85-4790-8f7e-a7999bf0bcc4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0030199 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/27dbb0d9-e58f-4bff-a407-f882d1319245> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/cd53b1c5-05a8-4591-a7a7-765de4f79ea2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/c8df6f72-1365-48ad-ba40-676840e47501> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/f3b3991a-3772-4293-a576-16c4c19d3693> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/72b1e09f-3b93-49d0-9133-b23d1d2cd0f8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/500627d0-8c4a-42bb-8652-31a5759230e4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/0c2971d3-0451-4990-bd38-ab00511d3ad5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/7f32d60a-74b9-4f0f-98ab-fbdbd3fb3218> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/a5ca12fb-d40d-4705-8a05-f8ff581ff0d4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/909aa35b-cb62-43d7-9de8-c679a49ec1dc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/5db9ba23-e166-4909-a5fb-7c4ac1f3940d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/a757cb03-1e64-4952-a030-06c772229180> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/0c2971d3-0451-4990-bd38-ab00511d3ad5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/55a30932-ca16-43cb-a554-8970cb539b3d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/e714c860-e336-44c5-a28c-f242bbcb41e4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0003229 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI  creation-date=2012-12-19|modification-date=2012-12-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3e0e6b61-a633-430d-b315-ef1c138fda59> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/069dedd4-426d-49c5-b1e0-efac992df22f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/8505ea41-0ce6-43fe-9e02-293d810a8e96> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/63dad1cd-f323-4289-be2b-96d76726f940> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/ed085602-64dd-497b-b93d-b510b778e8f8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/e32dc3c7-9ccd-4eeb-9ed9-5299a93f9de4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/f3b3991a-3772-4293-a576-16c4c19d3693> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/cb36c1da-b372-4de6-885b-5c0edf7d5ccc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/49834937-a9c6-4fd8-928e-eb7599776cdc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/da189972-cdf7-46c7-8c02-2f2bcc2215e9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/b59a9129-a5f9-4f83-baef-2032b7cd33f7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/b6176702-0aef-4fc4-9780-653e20dfa192> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/ed702f8c-9aac-4d6a-86f8-4f2e269e2f1d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/0c2971d3-0451-4990-bd38-ab00511d3ad5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/5ccb22b7-0873-4b20-b315-4586d953f2ad> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0030199 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/aac6e365-039d-45fa-b5e1-f6e366726e27> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/27dbb0d9-e58f-4bff-a407-f882d1319245> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/4334f7bf-3090-47ee-9fea-64d6f7b35234> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/feb2542b-ac53-4765-ab7e-c9b375836b7e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/e66536e2-eb91-43f3-b1c2-219e6e80d9ab> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/f02e0d98-5f6f-4dae-b4e9-bd4f3a430c3b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/ed085602-64dd-497b-b93d-b510b778e8f8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/192080b6-06ef-4c50-a5dd-bbf6c6a9c67d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/ba98d6dd-a626-44ad-a63f-c2e6c9776514> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/cb36c1da-b372-4de6-885b-5c0edf7d5ccc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/a2c004f8-5317-4529-af1e-5b32970a64b9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/1d5d7108-22a1-4ef4-94b8-0ce178758f72> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/67919ed9-3f01-4cc2-9d39-77cff801ca2b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/cca461ef-5d83-4bc4-a00b-a2e0d0d874e9> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/6ef35e0d-f059-4ea2-aa35-a6a735dc9efb> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0030199 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/aac6e365-039d-45fa-b5e1-f6e366726e27> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/a186f876-083d-4794-a60b-014b5d43bf14> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/4941535c-7fad-4bfd-8dce-1d599378ff07> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/cba516a9-5ce9-49cc-bb50-f6ca05c1c9f1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/909aa35b-cb62-43d7-9de8-c679a49ec1dc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/949ca5ba-cb4d-4173-96e8-d7c7dd8a35fd> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/ed702f8c-9aac-4d6a-86f8-4f2e269e2f1d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/fe5c8f0f-2b18-4ea2-bf41-23a4015795e5> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3fd7ec9b-415a-4268-abd3-1fdae7f11be8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/c726b60a-4b21-4fe5-9b82-b3d8a659f81f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/f16171ff-b87b-4552-a2cf-7dc9bf9c7e97> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/d7ffb4d6-66e4-4e0d-8858-1917b70b44da> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/8ebcd9eb-22d8-4d27-8a4b-487b774cd3d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/6e342db3-8117-474d-b956-afd092666e15> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/4ffcda93-a8f8-40bc-a5f8-190658703384> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3fd7ec9b-415a-4268-abd3-1fdae7f11be8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/8ebcd9eb-22d8-4d27-8a4b-487b774cd3d8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/285b399e-9333-4d8a-acb4-dd411bc7cde3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/20f5bb8a-8f0b-4a46-a19c-d83879216a33> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/ecdbfe59-4a42-4c0f-9113-f07b62a8139b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/967bd1a2-519a-4a7d-88dc-0ef005fa6be0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3d754a34-72ee-4ab2-812b-44d286e2bffa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/21d45cbc-4e78-4a0e-a432-823579b5cd95> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/3cda14e1-e769-45fd-9962-2cdcbc564eec> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/ecdbfe59-4a42-4c0f-9113-f07b62a8139b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/adef31e3-723d-4ffd-9a8d-3eee2154cf06> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/c9777545-1dcb-4838-aab2-e43d8c96376f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0030199 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/feb2542b-ac53-4765-ab7e-c9b375836b7e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/837109a0-9f68-4eb3-b4dd-8c580f372516> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/6f81e191-57d9-4251-84d7-6fa9f77f9a57> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3c66e9ac-7f4d-4d39-8145-8917433607ed> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/87a9b230-8810-4031-98b3-2c3ba621a650> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/350d3c94-dd25-4c53-ba58-e7628788fa87> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/c49a0e34-1921-4a68-988a-2d2391fdb509> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/be362b85-5b79-423f-9c84-03389f1f3d39> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/f1801083-78e2-4342-a6e4-845ce7155df8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0003229 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI  creation-date=2012-12-19|modification-date=2012-12-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/3e0e6b61-a633-430d-b315-ef1c138fda59> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/94f7d711-96d8-431f-a451-ad0acb0866c2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/2860377e-7bd7-4a43-abbd-74064fdbac88> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/73d02f01-77f8-43dd-bb9d-b119928d5090> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/ccb7bae2-a7e6-4c3a-8881-5b6ae4c7a4b0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/21d45cbc-4e78-4a0e-a432-823579b5cd95> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/381cdd81-73de-4eed-9469-fbd349648f79> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/8e8f1137-38e5-459b-bd0e-785afbc25b34> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0048873 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748),RO:0012003(CL:0000057) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/8ebcd9eb-22d8-4d27-8a4b-487b774cd3d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/e4ce4dce-8e9f-4531-84fb-4ffe82d35d9e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/f1df186b-6d31-426a-8156-a82c14d42eba> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0030199 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI BFO:0000066(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/4334f7bf-3090-47ee-9fea-64d6f7b35234> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/b2b18643-d22f-4605-b573-b6db7a487d97> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/f6cd522e-0aeb-43be-8e53-5f2fb5cc5b09> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0003229 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI  creation-date=2012-12-19|modification-date=2012-12-19|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/2860377e-7bd7-4a43-abbd-74064fdbac88> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/69c8d02a-64be-4efe-a02c-a438d35b5107> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/1d5535b8-b4c1-4725-afac-f209837c6fb6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/67919ed9-3f01-4cc2-9d39-77cff801ca2b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/9e329779-6753-483d-902a-5e3c0e05b8d1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/0dc18089-9a1b-439b-8c92-f3a459ed96b6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0002264 GO:0061050 MGI:MGI:5444801|PMID:22906538 ECO:0000315 MGI:MGI:3846440  2012-12-19 MGI GOREL:0001004(EMAPA:32748) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy ventricle myocardium ; MA:0000082|comment=cell type cardiac muscle cell ; CL:0000746|comment=regulates_o_has_participant(CL:0000746)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/c49a0e34-1921-4a68-988a-2d2391fdb509> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/1d5d7108-22a1-4ef4-94b8-0ce178758f72> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1341272/a7fe9acd-bf0f-4a6b-bafa-e0902f9288f4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1341272  RO:0001025 GO:0005614 MGI:MGI:5444801|PMID:22906538 ECO:0000314   2012-12-19 MGI BFO:0000050(EMAPA:32748)|BFO:0000050(EMAPA:17339)|BFO:0000050(EMAPA:17342) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy cardiac muscle ; EMAP:6446 cardiac muscle ; EMAP:6449|comment=anatomy ventricle myocardium ; MA:0000082|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1341272/56212b09-003a-4c01-ba65-042dc02fb12a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1341272/3c66e9ac-7f4d-4d39-8145-8917433607ed> .
 

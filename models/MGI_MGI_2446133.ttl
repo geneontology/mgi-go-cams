@@ -34,12 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2017-06-07" ;
     dc:title "Parp16 (MGI:MGI:2446133)" ;
     dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2446133> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2446133/22f599db-e8d2-4769-8368-21a2b2c671dc> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_2446133/fcd5e1d8-eb2c-4a5c-9818-a3037a2dda43> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
@@ -48,7 +48,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "mouse embryonic stem cells; expression decreased upon the induction of differentiation" .
 
-<http://model.geneontology.org/MGI_MGI_2446133/4cb31d76-fcaa-4d1c-a9b2-a062995a256e> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_2446133/febb3cc5-64cd-42ce-b3f0-c0d943127acc> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
@@ -61,53 +61,53 @@ obo:RO_0002333 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2446133/4a298799-9605-4147-8169-f380b8a83fd0> a GO:1990830,
+<http://model.geneontology.org/MGI_MGI_2446133/3048df98-5682-406d-ad00-5aaddd57e62f> a MGI:MGI:2446133,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
     dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2446133/8dff586d-1a01-42a1-8a4c-b64f97456bd5> a MGI:MGI:2446133,
+<http://model.geneontology.org/MGI_MGI_2446133/a5503b71-43a0-4362-ac48-194144a03106> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2446133/3048df98-5682-406d-ad00-5aaddd57e62f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2446133/cc5657ac-a539-4ca9-b89e-89c1f8362067> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
     dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2446133/f9d3bb9c-c5a3-4185-9cb6-65308f560aa4> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2446133/cc5657ac-a539-4ca9-b89e-89c1f8362067> a GO:1990830,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2446133/8dff586d-1a01-42a1-8a4c-b64f97456bd5> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2446133/4a298799-9605-4147-8169-f380b8a83fd0> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
     dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2446133/22f599db-e8d2-4769-8368-21a2b2c671dc> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2446133/fcd5e1d8-eb2c-4a5c-9818-a3037a2dda43> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2017-06-07" ;
     dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2446133  RO:0002264 GO:1990830 MGI:MGI:4822296|PMID:20439489 ECO:0000270   2017-06-07 MGI  creation-date=2017-06-07|modification-date=2017-06-07|comment=mouse embryonic stem cells; expression decreased upon the induction of differentiation|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2446133/f9d3bb9c-c5a3-4185-9cb6-65308f560aa4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2446133/8dff586d-1a01-42a1-8a4c-b64f97456bd5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2446133/4cb31d76-fcaa-4d1c-a9b2-a062995a256e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2017-06-07" ;
-    dct:created "2017-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2446133  RO:0002264 GO:1990830 MGI:MGI:4822296|PMID:20439489 ECO:0000270   2017-06-07 MGI  creation-date=2017-06-07|modification-date=2017-06-07|comment=mouse embryonic stem cells; expression decreased upon the induction of differentiation|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2446133/f9d3bb9c-c5a3-4185-9cb6-65308f560aa4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2446133/4a298799-9605-4147-8169-f380b8a83fd0> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2446133/a5503b71-43a0-4362-ac48-194144a03106> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2446133/cc5657ac-a539-4ca9-b89e-89c1f8362067> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2446133/febb3cc5-64cd-42ce-b3f0-c0d943127acc> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2017-06-07" ;
+    dct:created "2017-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2446133  RO:0002264 GO:1990830 MGI:MGI:4822296|PMID:20439489 ECO:0000270   2017-06-07 MGI  creation-date=2017-06-07|modification-date=2017-06-07|comment=mouse embryonic stem cells; expression decreased upon the induction of differentiation|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2446133/a5503b71-43a0-4362-ac48-194144a03106> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2446133/3048df98-5682-406d-ad00-5aaddd57e62f> .
 

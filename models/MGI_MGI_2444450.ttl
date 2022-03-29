@@ -35,12 +35,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2016-09-14" ;
     dc:title "Fbxl18 (MGI:MGI:2444450)" ;
     dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2444450> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2444450/2a62abd2-d785-45e3-9e39-f4cae6f101a4> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2444450/a5c43b36-abef-4c9f-8fbd-6e4be875f910> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P23611" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -50,7 +50,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "retrovirus-based protein complementation assay screen in a mouse pre-B cell line" .
 
-<http://model.geneontology.org/MGI_MGI_2444450/bf813002-ee65-4bf2-9fb0-19dc3e67808c> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2444450/c397239e-55df-4273-8ec3-3611f4da6521> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P23611" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -64,53 +64,53 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2444450/295951be-232c-4fa1-a833-c36f48b87453> a PR:P23611,
+<http://model.geneontology.org/MGI_MGI_2444450/436d0338-d041-419f-81e1-4c14b2ce5988> a GO:0005515,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444450/a15392ee-702b-4548-a669-48095949501c> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444450/c8e76076-1bee-4421-a5d0-7c2e0a59303d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2016-09-14" ;
     dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444450/4ed6fdd0-db91-4f56-942a-f25c1aa722ac> a MGI:MGI:2444450,
+<http://model.geneontology.org/MGI_MGI_2444450/a15392ee-702b-4548-a669-48095949501c> a PR:P23611,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2016-09-14" ;
     dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2444450/d066e989-6f63-4744-9d22-9763988fad9c> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_2444450/c8e76076-1bee-4421-a5d0-7c2e0a59303d> a MGI:MGI:2444450,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2444450/295951be-232c-4fa1-a833-c36f48b87453> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2444450/4ed6fdd0-db91-4f56-942a-f25c1aa722ac> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2016-09-14" ;
     dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444450/2a62abd2-d785-45e3-9e39-f4cae6f101a4> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444450/a5c43b36-abef-4c9f-8fbd-6e4be875f910> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2016-09-14" ;
     dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2444450  RO:0002327 GO:0005515 MGI:MGI:5618398|PMID:25331958 ECO:0000353 PR:P23611  2016-09-14 MGI  creation-date=2016-09-14|modification-date=2016-09-14|comment=retrovirus-based protein complementation assay screen in a mouse pre-B cell line|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444450/d066e989-6f63-4744-9d22-9763988fad9c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444450/295951be-232c-4fa1-a833-c36f48b87453> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444450/bf813002-ee65-4bf2-9fb0-19dc3e67808c> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2016-09-14" ;
-    dct:created "2016-09-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2444450  RO:0002327 GO:0005515 MGI:MGI:5618398|PMID:25331958 ECO:0000353 PR:P23611  2016-09-14 MGI  creation-date=2016-09-14|modification-date=2016-09-14|comment=retrovirus-based protein complementation assay screen in a mouse pre-B cell line|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444450/d066e989-6f63-4744-9d22-9763988fad9c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444450/4ed6fdd0-db91-4f56-942a-f25c1aa722ac> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444450/436d0338-d041-419f-81e1-4c14b2ce5988> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444450/c8e76076-1bee-4421-a5d0-7c2e0a59303d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2444450/c397239e-55df-4273-8ec3-3611f4da6521> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2016-09-14" ;
+    dct:created "2016-09-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2444450  RO:0002327 GO:0005515 MGI:MGI:5618398|PMID:25331958 ECO:0000353 PR:P23611  2016-09-14 MGI  creation-date=2016-09-14|modification-date=2016-09-14|comment=retrovirus-based protein complementation assay screen in a mouse pre-B cell line|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2444450/436d0338-d041-419f-81e1-4c14b2ce5988> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2444450/a15392ee-702b-4548-a669-48095949501c> .
 

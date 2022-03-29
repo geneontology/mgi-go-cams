@@ -35,12 +35,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2011-03-25" ;
     dc:title "Cdc42ep3 (MGI:MGI:2384718)" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2384718> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2384718/612e0244-0a3a-4ae3-8488-693cd1c42220> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2384718/a483012d-321a-4440-be38-f0d70fbb53d1> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8R527" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -50,7 +50,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence yeast 2-hybrid assay ; ECO:0000068" .
 
-<http://model.geneontology.org/MGI_MGI_2384718/ca6da7ed-b30f-43d6-936a-f7609174c69f> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_2384718/f416bca0-cd8b-4622-a039-283dd9908e53> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8R527" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -64,53 +64,53 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2384718/12a4d4d9-2497-4f47-90cd-ba47213f933b> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_2384718/03d6f665-cc7e-49aa-ac00-2981e9b7c6aa> a MGI:MGI:2384718,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2384718/7abdc8d4-3ef8-485f-b250-9b7a776a5010> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384718/7926f632-25dd-4a14-bb56-ab31b3c58263> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2011-03-25" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384718/7926f632-25dd-4a14-bb56-ab31b3c58263> a MGI:MGI:2384718,
+<http://model.geneontology.org/MGI_MGI_2384718/484bad72-d39a-4aa0-9b55-a4a9839cf267> a GO:0005515,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2384718/8074882f-422b-4ebe-bdaf-7cce5dcf8ff9> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2384718/03d6f665-cc7e-49aa-ac00-2981e9b7c6aa> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2011-03-25" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2384718/7abdc8d4-3ef8-485f-b250-9b7a776a5010> a PR:Q8R527,
+<http://model.geneontology.org/MGI_MGI_2384718/8074882f-422b-4ebe-bdaf-7cce5dcf8ff9> a PR:Q8R527,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2011-03-25" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384718/ca6da7ed-b30f-43d6-936a-f7609174c69f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384718/a483012d-321a-4440-be38-f0d70fbb53d1> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2011-03-25" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2384718  RO:0002327 GO:0005515 MGI:MGI:1929482|PMID:10490598 ECO:0000353 PR:Q8R527  2011-03-25 MGI  creation-date=2003-07-14|modification-date=2011-03-25|comment=evidence yeast 2-hybrid assay ; ECO:0000068|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384718/12a4d4d9-2497-4f47-90cd-ba47213f933b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384718/7abdc8d4-3ef8-485f-b250-9b7a776a5010> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384718/484bad72-d39a-4aa0-9b55-a4a9839cf267> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384718/8074882f-422b-4ebe-bdaf-7cce5dcf8ff9> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384718/612e0244-0a3a-4ae3-8488-693cd1c42220> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2384718/f416bca0-cd8b-4622-a039-283dd9908e53> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2011-03-25" ;
     dct:created "2003-07-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2384718  RO:0002327 GO:0005515 MGI:MGI:1929482|PMID:10490598 ECO:0000353 PR:Q8R527  2011-03-25 MGI  creation-date=2003-07-14|modification-date=2011-03-25|comment=evidence yeast 2-hybrid assay ; ECO:0000068|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384718/12a4d4d9-2497-4f47-90cd-ba47213f933b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384718/7926f632-25dd-4a14-bb56-ab31b3c58263> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2384718/484bad72-d39a-4aa0-9b55-a4a9839cf267> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2384718/03d6f665-cc7e-49aa-ac00-2981e9b7c6aa> .
 

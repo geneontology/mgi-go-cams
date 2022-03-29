@@ -41,21 +41,77 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2019-11-21" ;
     dc:title "Nectin1 (MGI:MGI:1926483)" ;
     dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1926483> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1926483/00e5051c-8903-4c93-818a-0898a3a239a4> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/01812755-2b40-4304-a486-018a57369f5b> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-08" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/07fe08f4-e757-4557-a518-e3c40ecdd2e4> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/35e2a7c5-33a2-49cc-9a89-4968ad874066> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
-    dc:source "PMID:23533177" ;
     dct:created "2016-05-27" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/02be2d4c-6982-4ede-833a-a36a2bb421ba> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/0b14f2fe-adcb-4218-9a49-6a9ddfff7d6b> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/0dbbb231-0c73-4a56-bc21-551ed7b922fb> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-08" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy tooth enamel organ ; MA:0001604" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/1053a469-91ab-4c04-a49a-3a77f3a83e92> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3605480" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dc:source "PMID:15728677" ;
+    dct:created "2008-10-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy lens;MA:0000275",
+        "has_participant(EMAPA:17838 TS28)",
+        "lenses are somewhat deformed" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/133df8de-3afd-4283-a493-a7c9970b8e8c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/16a30df2-8b22-43dc-92d0-4103d0ea96b2> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/ef86722d-d5d0-49c0-9ae3-bbdd2b9ce794> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2001-02-15" ;
+    dct:created "2001-02-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/16b72b94-9731-4654-ab21-206c84c52b38> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -65,15 +121,15 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/070988dc-2f1a-4ffd-88df-f181372b365c> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/1a6583b9-23b9-4a0e-8d3d-2070eaad7ba1> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:12515806" ;
-    dct:created "2003-03-18" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:11090177" ;
+    dct:created "2001-02-15" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/081ca5b7-83d0-4005-9b52-fd9c822dd15c> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/1f67a90b-75ed-416f-b85b-74993e3cb528> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3814719" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -84,72 +140,27 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type amelioblast ; CL:0000059",
         "has_participant(CL:0000059)" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/0937a156-5873-4132-bd6c-c1fbe6115c36> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/2305c941-9ff5-4bc2-ae39-a4b807e1971a> a ECO:0000315,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:15328010" ;
-    dct:created "2004-11-19" ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2017-08-14" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-08" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
-        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
+    rdfs:comment "cell type amelioblast ; CL:0000059",
+        "has_participant(CL:0000059)" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/0b72cabb-514a-4f35-b8ff-dde54853d96e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/2a21cdcd-d8d7-4cc6-88f0-9a4f459ba4e3> a ECO:0000315,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-08" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/0ced758c-311b-45f6-817b-6013dad96e1c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:15328010" ;
-    dct:created "2004-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
-        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/109bf04b-d8a6-4451-b339-7de1de76c7e9> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/148db28d-dc0b-4e51-a8c2-c5087a33eab8> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dc:source "PMID:23533177" ;
-    dct:created "2016-05-27" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/1ab861fd-b109-4638-a006-527e0e4b931b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3605480" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina;MA:0000276",
-        "retinal layers are undulating" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/276a112c-2677-413a-96dd-2dbb92e301f2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dc:source "PMID:23533177" ;
-    dct:created "2016-05-27" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/28927b30-8cb0-4629-81f0-256baf468aaa> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/2a80bd7a-4a28-4046-b1d9-b8ee042bdf1d> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3605480" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -162,61 +173,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(EMAPA:16198 TS28)",
         "has_participant(EMAPA:17829 TS24)" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/305c3e79-70cb-498c-92fe-cf0469151888> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/3d9a2a0c-22e1-45d3-be89-c44a50eb458b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy tooth enamel organ ; MA:0001604" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/3ffa60a6-af99-417f-9a2b-57321a84c235> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/a568a88b-6cdb-4a20-8f1e-4ab11d2ffdf7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/422fcf5c-1f24-4bab-a02f-c7e6b1009f14> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/c7b78901-c930-41f4-b711-7e8c5dfdfb28> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/43dee3b1-0402-4794-a19b-291e38d9f982> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy tooth enamel organ ; MA:0001604" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/4b0769bc-7ef8-471d-8da4-962b8c61ba28> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:11090177" ;
-    dct:created "2001-02-15" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/6a289924-c036-4f08-bb0e-0f525e8feb6b> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/2ced2a39-b030-4c8f-bf06-dcd7731d58b3> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -226,16 +183,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/6c308960-8c51-42d2-a0d5-7e12974a8b82> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/1613754f-cacc-4436-a8c5-c3908eb19062> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/7124e293-2801-4911-b188-d0de1fdbc568> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/31ea617a-a91b-4df4-a149-59386178037b> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2019-11-21" ;
@@ -245,47 +193,29 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy ciliary epithelium;MA:0001238",
         "evidence ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/7391b0f2-d2c3-44fd-a343-e11e89227e87> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
-        "evidence ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/749cb329-5c65-4a95-9d79-7238803d4357> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2017-08-14" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type amelioblast ; CL:0000059",
-        "has_participant(CL:0000059)" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/7a2905f3-949e-4786-8ee2-b02f6b94b3b0> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/7b73a262-9a6e-4752-a47b-c357ff86de07> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/37266196-4726-4e2b-b920-8cde46c39881> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3605480" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
+    dct:created "2008-10-01" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina;MA:0000276",
-        "retinal layers are undulating" .
+    rdfs:comment "abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body",
+        "anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222",
+        "has_participant(EMAPA:16198 TS28)",
+        "has_participant(EMAPA:17829 TS24)" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/7f0cc06f-7640-45e3-ad3b-c21297480a37> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/417d415d-5e7d-4948-9364-857ed191cd05> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-09" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/429ac399-7f7d-4644-9383-b0af0cc1e1ac> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -295,27 +225,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/82ddc22b-5b4c-4892-963f-a8bb1f9a42ae> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/8a090a01-35d1-48ba-8353-710de3f66cef> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3605480" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy retina;MA:0000276",
-        "retinal layers are undulating" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/8a42fc71-8b25-451b-b7a9-48f0b38509d5> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/4eb506f4-05ca-4fac-b869-8044f468679d> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -325,7 +235,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/8c019143-fe88-4f8f-989c-80383d4b41b8> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1926483/4ebed069-c6c6-4456-a122-d3fcce9d94f8> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8C0V9" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -334,25 +244,25 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2016-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/8d85a1d1-c0d3-4516-94ef-1a9207dfa23b> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/55948c36-e975-4b8f-802a-679e00f7e75c> a ECO:0000353,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/8cfcbe61-f496-4eed-b14e-ebe4f92b1fe6> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence-with "PR:Q8C0V9" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/95fab159-b310-4022-824d-4063f16f64ca> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/59f9b1ad-c33b-4d77-b3a4-d20409dfba16> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dc:source "PMID:23533177" ;
+    dct:created "2016-05-27" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/99853702-d2b0-426c-8876-488d2bd7fdfa> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/5aecf2e3-ce28-4d0d-8a6f-1cc69f65a23d> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
@@ -360,7 +270,119 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2016-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/a34a6a7a-c342-422a-b6a9-93ad26805ec7> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1926483/5d4a3edb-523c-4566-99e7-54546cceebda> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dc:source "PMID:23533177" ;
+    dct:created "2016-05-27" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/5e181824-164c-49ef-8d6a-7dd80e132ab8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-09" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/5e9a4b69-f599-4df4-874a-42a9bbcef8d3> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/9a8f5b01-1836-4660-b9e3-202632e3e735> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2003-03-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/5f159236-34ef-4eec-b1a8-a629649ddf9e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/635d5c4d-7548-42d7-8bd7-0da8e95637b8> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/fdbe7b4b-5b08-42e0-8feb-5023046d589f> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2019-11-21" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/6d661697-519a-48ec-a673-e48365635ca6> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:15328010" ;
+    dct:created "2004-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
+        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/6ea4bf0f-ab4c-4bde-8e76-2e8f6a46a35f> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/2717c214-c2c5-4cdf-be6e-c6cd16d4386e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/726bf83f-5767-4e01-93e9-3b8b276566c7> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3814719" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dc:source "PMID:18703497" ;
+    dct:created "2012-05-08" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy tooth enamel organ ; MA:0001604" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/77a8b754-18b6-4c0e-871f-dd4a30e5c903> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/7f4a49f3-6f03-4d15-8791-d3d018bf530a> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:15328010" ;
+    dct:created "2004-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
+        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/8993cd4e-6819-4c4a-b667-0048e845b756> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3605480" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dc:source "PMID:15728677" ;
+    dct:created "2008-10-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy retina;MA:0000276",
+        "retinal layers are undulating" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/89a419af-1ca9-4804-9d2b-487ea2f2fb9e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:15328010" ;
+    dct:created "2004-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
+        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/8bba9f1d-866e-4d27-a4de-efe789a1b751> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:X76400" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -369,81 +391,33 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2001-02-15" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/a4a5d0b2-6adb-4320-a82f-3c75874caf36> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/905aa005-b062-48a2-afaa-8c513111ea0a> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-09" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/a7cc0158-79b0-4f88-adfa-4b8f93a52490> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:15328010" ;
-    dct:created "2004-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
-        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/aa697b0b-15b1-442e-a929-27dd92ec1d47> a GO:0038023,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/695b6ba7-f2a2-4e0b-99bb-7f5eecea3f71> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/acfb6a42-f2c5-4dfe-a630-3df6ddef2d92> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/8e5b1970-ebc4-407b-b85b-77035cdc22dc> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b1230d59-45c1-403d-835b-8384821bc4f0> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/5ba1d1ab-de05-4b2a-b7d8-9f80ce4ebcc9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b3638238-68a7-42d6-a679-1440936e4770> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dc:source "PMID:15328010" ;
-    dct:created "2004-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
-        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b84dbf4c-1a47-4783-979b-14f1a22dcbe5> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8C0V9" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dc:source "PMID:22512338" ;
     dct:created "2016-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/bac32333-fe1c-40cf-bcdb-653904d26640> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/a26b9225-5326-4137-992d-7747e2d137d3> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/8e2bd4af-ca15-4735-904e-5830ff4fc208> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/cab6d1a5-287d-4a00-89a5-a77aea0aaf26> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/a277d968-a00e-495b-82f7-1acb23da1e14> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:15728677" ;
+    dct:created "2008-10-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
+        "evidence ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/a743d145-9187-42cb-a1d0-38bbc1d2d1ec> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -453,7 +427,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/ce0b3d70-bc08-44f3-877c-9cb51815a9c5> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/ab5d7fa9-ee66-49b9-9ead-412df6bb20ba> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/7dd5b886-68b2-4c8e-bcce-9897d92fb16f> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/ab8ee1f1-867e-4444-80b4-0b7ff07e523e> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3605480" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -465,7 +448,16 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(EMAPA:17838 TS28)",
         "lenses are somewhat deformed" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/d2c373c8-dd9a-463c-b225-6eb78e118f73> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/ad62dc80-bf84-45a5-8c9e-ee8af4e61691> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dc:source "PMID:23533177" ;
+    dct:created "2016-05-27" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/bab88cdd-2673-442f-8260-b60fb3d9cfbd> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -475,15 +467,37 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/d4850cd9-5856-42d6-8243-eec09c797bfa> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/bad3819c-1a88-4d66-b0ef-316411e403a0> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:15328010" ;
+    dct:created "2004-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
+        "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/bdd2a040-f105-4067-8fb8-4baea70a0852> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3605480" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dc:source "PMID:15728677" ;
+    dct:created "2008-10-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy retina;MA:0000276",
+        "retinal layers are undulating" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/c39971dc-5033-4550-8321-eb3c4cd6ab4a> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/ac8b2ee7-4c91-4f30-8400-4506841d00b7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/d670ffa9-8f71-470f-bcd0-d454d0c70d8a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/ca6de966-8c20-460a-a9d8-6de7cc9de096> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3814719" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -493,20 +507,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy tooth enamel organ ; MA:0001604" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/e10e9025-f909-4fd4-812c-f64af9211cdb> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3605480" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-01" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body",
-        "anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222",
-        "has_participant(EMAPA:16198 TS28)",
-        "has_participant(EMAPA:17829 TS24)" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/e4e78b23-07d9-418f-bbd6-bb4732f40305> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/cab3794f-38f4-4f6e-9a95-bd7314ef38e6> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -516,24 +517,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/e50c69e1-b119-4ad1-97a5-6a10590826cb> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/d74225a5-936a-48a2-a034-9678f0f2fb7e> a GO:0038023,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/e8eae964-cda6-41b5-b84e-bbb21f5f4d6f> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/a50f0cf3-af10-4b27-ae64-1486c3fa38a7> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/71081463-5ca9-4842-ac4a-81f1f56723d1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2001-02-15" ;
+    dc:date "2018-03-05" ;
     dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/e9250fb6-a720-4a8c-a1e3-56b85373171c> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1926483/e68d6e9f-5ae9-4374-b345-8c037dd2ca58> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
@@ -543,25 +536,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204",
         "cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/ed066bd0-3282-4007-a37f-6cea51ad6cc2> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/b130190e-1661-4e7c-bf22-ef281141a0ec> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2003-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/ee5d17ea-b022-442d-abd5-a915734c584b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3814719" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dc:source "PMID:18703497" ;
-    dct:created "2012-05-09" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/f9326f46-235a-4a7a-bc3d-56033f7f486a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1926483/f96f97bc-5273-434d-9bb1-d4b3f0a23290> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3605480" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -569,9 +544,34 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:15728677" ;
     dct:created "2008-10-02" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy lens;MA:0000275",
-        "has_participant(EMAPA:17838 TS28)",
-        "lenses are somewhat deformed" .
+    rdfs:comment "anatomy retina;MA:0000276",
+        "retinal layers are undulating" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/f9a78c64-605a-434b-b6f9-f7c7c6f98175> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/5b791572-17cb-47a9-806e-ba51144808f6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/fc41fc91-0173-4c49-a423-a0d604510b58> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dc:source "PMID:12515806" ;
+    dct:created "2003-03-18" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/fe9efbbe-4f41-4104-92d8-c2f31dd8e9f7> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1926483/b17b9e33-39a8-4059-b827-7d37548114a6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
@@ -579,481 +579,481 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002296 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1926483/0668f8af-f089-40b3-9b81-46ca60cb349b> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/086bf65f-8004-44bf-8b6f-2cd3a05c40fd> a GO:0070166,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/10face6a-35f6-4da7-8353-1bbca8c40948> a MGI:MGI:1926483,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/07f4bb06-76e2-45f6-8110-634c4c19686c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/17d7eb63-d4c7-48ba-927c-5ff9578e2eec> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/2eb03c41-29e3-4a36-9c2d-6651cf1a1013> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/09d58275-1dfa-4d85-873b-c731a10e6085> a EMAPA:17551,
+<http://model.geneontology.org/MGI_MGI_1926483/17cb653f-9a4f-41bb-868c-a17c2b0e02f3> a EMAPA:17551,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/17d7eb63-d4c7-48ba-927c-5ff9578e2eec> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/1ef8c958-ee7d-4287-9845-7f0d17e0cd17> a MGI:MGI:1926483,
         owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-01" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/24c41b88-8b41-4b4d-aa2a-782424af3f21> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2017-08-14" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/27a90e6c-0a61-48ad-adcd-e4bdd6a72b52> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1926483/75bd19f4-1d05-4e62-b611-e6e2c3df0bf6> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/10face6a-35f6-4da7-8353-1bbca8c40948> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/202afee7-336e-48f6-8bec-6fa234e6e486> a GO:0048593,
+<http://model.geneontology.org/MGI_MGI_1926483/31acf4cd-0e6f-4a71-9bb4-32e36d7bc6a2> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/1ef8c958-ee7d-4287-9845-7f0d17e0cd17> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/5b41431e-2392-467a-87c9-e256201f2ed9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-01" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/3a9fe8e0-d34d-4bc7-b7b1-8b0cb0eeed7d> a EMAPA:17258,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/5b41431e-2392-467a-87c9-e256201f2ed9> a GO:0048593,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/24b0067e-c07d-49d8-a07b-91ec70fa3675> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1926483/5e663caa-2e5d-4107-b05a-18131971f4b5> a EMAPA:17168,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/5acc4601-859d-462a-90fd-06d630cbb6bf> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/7454f21c-ff08-46b0-9c7e-17ddecc8a91c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/2afed92e-7881-45cf-be34-9bbe7c43fb77> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1926483/5e6857e8-3692-4509-82da-de1fad8ce2ea> a EMAPA:35239,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/b1576a7e-6f87-4bcc-b80a-474485280516> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/202afee7-336e-48f6-8bec-6fa234e6e486> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2019-11-21" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/46fb5e82-7326-4bee-8a58-71e541a93c2c> a EMAPA:19061,
+<http://model.geneontology.org/MGI_MGI_1926483/65837719-706d-44d6-9909-1041c7927325> a EMAPA:19061,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
     dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/498a9301-8e24-4b3b-ba63-055cfb9a98e6> a GO:0002934,
+<http://model.geneontology.org/MGI_MGI_1926483/6b1a47b1-54a5-462e-9796-da0f15f1de17> a MGI:MGI:1926483,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dct:created "2012-05-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/4af2ce77-de23-4667-9cef-6213a57e0206> a EMAPA:17551,
+<http://model.geneontology.org/MGI_MGI_1926483/6c9b63b1-0873-4ebb-bdfd-d88473bff531> a EMAPA:17551,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/52e9b1d0-7510-434f-b69f-8b1a49b785d5> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/7bd3583e-5354-4b8e-97fd-77c7386e8cb3> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/21313d84-599a-4a1d-9678-801fd44ae54e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/5580185c-9307-4677-a63f-28b90aa2ea44> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/7af01491-fd17-4c72-af0d-a677e831f4c1> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/1ef53d57-c52d-4f17-8478-5d2ca9aa2ee3> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/59abb3bf-f9e1-4a59-a554-c42d55958c71> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dct:created "2012-05-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/5acc4601-859d-462a-90fd-06d630cbb6bf> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/61959b04-0cd6-4bac-810d-b5f84378a3c9> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/59abb3bf-f9e1-4a59-a554-c42d55958c71> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/498a9301-8e24-4b3b-ba63-055cfb9a98e6> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dct:created "2012-05-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/67b3dcef-b7cf-41f2-9d10-c7749c150b46> a EMAPA:35239,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/695b6ba7-f2a2-4e0b-99bb-7f5eecea3f71> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/71081463-5ca9-4842-ac4a-81f1f56723d1> a MGI:MGI:1926483,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/6960a737-0d27-47f2-8479-8a176b22ff16> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1926483/b20fff47-8901-4db2-8dd2-4d2f565a5df0> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/0668f8af-f089-40b3-9b81-46ca60cb349b> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/7454f21c-ff08-46b0-9c7e-17ddecc8a91c> a GO:0002089,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/7af01491-fd17-4c72-af0d-a677e831f4c1> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/75bd19f4-1d05-4e62-b611-e6e2c3df0bf6> a PR:Q8C0V9,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/7bd3583e-5354-4b8e-97fd-77c7386e8cb3> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/7dd5b886-68b2-4c8e-bcce-9897d92fb16f> a GO:0043296,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/7e4031a0-9cde-4392-83e0-d0c915344a3e> a EMAPA:17258,
+<http://model.geneontology.org/MGI_MGI_1926483/7e247311-ab24-43f1-8653-3b31ffb6c153> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/abcc5b31-2114-419b-bb81-01ee6af3388c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/dc6fbfbf-f3df-4fb1-a2a1-3789361b2fe3> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dct:created "2012-05-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/888c499e-45f5-428d-ba24-46ead644e34d> a EMAPA:17258,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/8e2bd4af-ca15-4735-904e-5830ff4fc208> a GO:0043296,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/9261d428-0321-4a62-8e4b-980b50403719> a GO:0070166,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/92859f77-6223-4b4c-b61a-74094e13c3a1> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/f86c6d5c-8cda-4830-be51-9575c0702eed> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/ccaac9b4-2799-472f-9c43-78110af7b188> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/9349f524-832b-480b-8350-ee94e01aee3e> a GO:0098609,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2017-08-14" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/9a2aaeb9-3be2-493f-9464-3a1f9377376b> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/a50f0cf3-af10-4b27-ae64-1486c3fa38a7> a GO:0016021,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2001-02-15" ;
-    dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b130190e-1661-4e7c-bf22-ef281141a0ec> a GO:0005912,
+<http://model.geneontology.org/MGI_MGI_1926483/9a8f5b01-1836-4660-b9e3-202632e3e735> a GO:0005912,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2003-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/b1576a7e-6f87-4bcc-b80a-474485280516> a MGI:MGI:1926483,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b20fff47-8901-4db2-8dd2-4d2f565a5df0> a PR:Q8C0V9,
+<http://model.geneontology.org/MGI_MGI_1926483/9f0a4a55-b04e-4a32-a408-2f0055d07f64> a MGI:MGI:2135608,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/baceb626-e7b2-419d-84b6-72d48a148cbc> a EMAPA:17258,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/cf600a9c-a698-41d7-a451-43e8862d71f5> a EMAPA:32888,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/d32813e2-0764-4f6d-9e5f-3252bb32628c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/9a2aaeb9-3be2-493f-9464-3a1f9377376b> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/9261d428-0321-4a62-8e4b-980b50403719> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/db341909-36bf-44bc-8baa-03ddad49dbe2> a EMAPA:17168,
+<http://model.geneontology.org/MGI_MGI_1926483/a3d4cbaf-1c99-4fd6-9493-63332e54addb> a GO:0002089,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/e24ac1a3-996d-4608-9f79-dd3d12ebcb3d> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/a62e05ea-b719-4a20-9abe-acf00bc5cbaa> a GO:0003674,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2017-08-14" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/d666e02e-3355-46fb-b4df-3e9e0e07234a> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/a3d4cbaf-1c99-4fd6-9493-63332e54addb> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/e2caf8f1-bcc2-4f21-ac5a-9ef663064982> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/e24ac1a3-996d-4608-9f79-dd3d12ebcb3d> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/9349f524-832b-480b-8350-ee94e01aee3e> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2017-08-14" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/e68f78eb-28ef-49b0-9ca4-0030fb8703c1> a MGI:MGI:2135608,
+<http://model.geneontology.org/MGI_MGI_1926483/a64417f7-69f8-4177-852b-a34d0c509cb0> a MGI:MGI:1926483,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/f86c6d5c-8cda-4830-be51-9575c0702eed> a MGI:MGI:1926483,
+<http://model.geneontology.org/MGI_MGI_1926483/a8b8ac42-0596-4184-972f-dab070d4eb14> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/ee894481-389b-4146-a0d1-414114ea1a35> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/b12c6c69-af65-43e7-b33b-7e7a3b0d3e66> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/abcc5b31-2114-419b-bb81-01ee6af3388c> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dct:created "2012-05-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/b9431b12-cf0f-4b38-9f67-0bd1eb7e8fdb> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/f55a0ee7-851a-468e-a3e8-65277f613e43> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/086bf65f-8004-44bf-8b6f-2cd3a05c40fd> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/bac897fe-e341-441b-986e-259408fe06d9> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/6b1a47b1-54a5-462e-9796-da0f15f1de17> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/d0282dfc-098f-4d25-b60a-76cfe6a79df8> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/c7ce996e-83e5-45a1-816e-a9ef0deabd3d> a MGI:MGI:2442579,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/ce692854-f3b7-4882-bd01-be96d42cdde8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/e69f9ba0-0a4c-4d7e-8fe1-6c38a9cd6c2b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/14f4b545-e2dc-40ff-add3-8c2d9c6075f5> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/cfa990b7-4c8a-4dd3-af21-e3d82c2f6625> a EMAPA:32888,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2012-05-08" ;
     dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/fddf0942-7bc4-4a6a-9e0b-52e2ad8c75f7> a MGI:MGI:2442579,
+<http://model.geneontology.org/MGI_MGI_1926483/d36d969a-64e6-4511-94c0-3afbb05fb791> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/24c41b88-8b41-4b4d-aa2a-782424af3f21> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/f8f712a5-dfb6-4282-bcd5-ed0aa06bbadd> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2017-08-14" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/d666e02e-3355-46fb-b4df-3e9e0e07234a> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/dc6fbfbf-f3df-4fb1-a2a1-3789361b2fe3> a GO:0002934,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dct:created "2012-05-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/e103822d-2937-4217-bf2c-60771f72216a> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1926483/a64417f7-69f8-4177-852b-a34d0c509cb0> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1926483/3e82f7dd-e350-4938-a571-2e2dd34d742c> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/e69f9ba0-0a4c-4d7e-8fe1-6c38a9cd6c2b> a MGI:MGI:1926483,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/ee894481-389b-4146-a0d1-414114ea1a35> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/ef86722d-d5d0-49c0-9ae3-bbdd2b9ce794> a GO:0016021,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2001-02-15" ;
+    dct:created "2001-02-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/f55a0ee7-851a-468e-a3e8-65277f613e43> a MGI:MGI:1926483,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/f8f712a5-dfb6-4282-bcd5-ed0aa06bbadd> a GO:0098609,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2017-08-14" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0004009 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1926483/1613754f-cacc-4436-a8c5-c3908eb19062> a GO:0005912,
+<http://model.geneontology.org/MGI_MGI_1926483/14f4b545-e2dc-40ff-add3-8c2d9c6075f5> a GO:1902414,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/9068dd74-9c3e-4d76-8d97-bccea5df0b4a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/1ac9814c-64b6-4a6f-9ae2-7a9bd760effe> a CL:0000117,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/09d58275-1dfa-4d85-873b-c731a10e6085> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/1ef53d57-c52d-4f17-8478-5d2ca9aa2ee3> a GO:1902414,
-        owl:NamedIndividual ;
-    obo:RO_0004009 <http://model.geneontology.org/MGI_MGI_1926483/e68f78eb-28ef-49b0-9ca4-0030fb8703c1> ;
+    obo:RO_0004009 <http://model.geneontology.org/MGI_MGI_1926483/9f0a4a55-b04e-4a32-a408-2f0055d07f64> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/21313d84-599a-4a1d-9678-801fd44ae54e> a GO:0060041,
+<http://model.geneontology.org/MGI_MGI_1926483/206a7717-13f8-483d-a66b-2d352906cf98> a CL:0000678,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1926483/db341909-36bf-44bc-8baa-03ddad49dbe2> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/888c499e-45f5-428d-ba24-46ead644e34d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/2717c214-c2c5-4cdf-be6e-c6cd16d4386e> a GO:0005912,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/9c8f407e-e805-4c42-9aca-82bb54028c53> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/2eabdcf3-4ae1-48e3-8b63-a04888b18f74> a CL:0000117,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/17cb653f-9a4f-41bb-868c-a17c2b0e02f3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/34856bed-b4db-41d9-9be3-fab1a094c206> a CL:0000589,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/65837719-706d-44d6-9909-1041c7927325> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/35e2a7c5-33a2-49cc-9a89-4968ad874066> a GO:0044291,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/34856bed-b4db-41d9-9be3-fab1a094c206> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/3e82f7dd-e350-4938-a571-2e2dd34d742c> a GO:1902414,
+        owl:NamedIndividual ;
+    obo:RO_0004009 <http://model.geneontology.org/MGI_MGI_1926483/c7ce996e-83e5-45a1-816e-a9ef0deabd3d> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/418a898f-231d-48ff-8235-08ffa57e4c75> a CL:0000678,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/6c9b63b1-0873-4ebb-bdfd-d88473bff531> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/5b791572-17cb-47a9-806e-ba51144808f6> a GO:0005912,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/206a7717-13f8-483d-a66b-2d352906cf98> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/9c8f407e-e805-4c42-9aca-82bb54028c53> a CL:0000117,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/3a9fe8e0-d34d-4bc7-b7b1-8b0cb0eeed7d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/ac8b2ee7-4c91-4f30-8400-4506841d00b7> a GO:0005912,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/2eabdcf3-4ae1-48e3-8b63-a04888b18f74> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1926483/b12c6c69-af65-43e7-b33b-7e7a3b0d3e66> a GO:0060041,
+        owl:NamedIndividual ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1926483/5e663caa-2e5d-4107-b05a-18131971f4b5> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/2d99941a-dc21-4505-865d-8b32862fb3ba> a CL:0000678,
+<http://model.geneontology.org/MGI_MGI_1926483/b17b9e33-39a8-4059-b827-7d37548114a6> a GO:0005912,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/4af2ce77-de23-4667-9cef-6213a57e0206> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/418a898f-231d-48ff-8235-08ffa57e4c75> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/2eb03c41-29e3-4a36-9c2d-6651cf1a1013> a GO:1902414,
+<http://model.geneontology.org/MGI_MGI_1926483/d0282dfc-098f-4d25-b60a-76cfe6a79df8> a GO:0006826,
         owl:NamedIndividual ;
-    obo:RO_0004009 <http://model.geneontology.org/MGI_MGI_1926483/fddf0942-7bc4-4a6a-9e0b-52e2ad8c75f7> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/5ba1d1ab-de05-4b2a-b7d8-9f80ce4ebcc9> a GO:0005912,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/b7aa74ad-2ab4-4386-b868-894f48540ca6> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/8cfcbe61-f496-4eed-b14e-ebe4f92b1fe6> a GO:0005912,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/1ac9814c-64b6-4a6f-9ae2-7a9bd760effe> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/8e5b1970-ebc4-407b-b85b-77035cdc22dc> a GO:0005912,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/67b3dcef-b7cf-41f2-9d10-c7749c150b46> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/9068dd74-9c3e-4d76-8d97-bccea5df0b4a> a CL:0000678,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/baceb626-e7b2-419d-84b6-72d48a148cbc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/a568a88b-6cdb-4a20-8f1e-4ab11d2ffdf7> a GO:0005912,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/2d99941a-dc21-4505-865d-8b32862fb3ba> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/b7aa74ad-2ab4-4386-b868-894f48540ca6> a CL:0000117,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/7e4031a0-9cde-4392-83e0-d0c915344a3e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/c7b78901-c930-41f4-b711-7e8c5dfdfb28> a GO:0044291,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/d959ff1e-b318-4f16-a3e4-ba4b13d366e4> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1926483/ccaac9b4-2799-472f-9c43-78110af7b188> a GO:0006826,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1926483/cf600a9c-a698-41d7-a451-43e8862d71f5> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1926483/cfa990b7-4c8a-4dd3-af21-e3d82c2f6625> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2012-05-08" ;
     dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1926483/d959ff1e-b318-4f16-a3e4-ba4b13d366e4> a CL:0000589,
+<http://model.geneontology.org/MGI_MGI_1926483/fdbe7b4b-5b08-42e0-8feb-5023046d589f> a GO:0005912,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/46fb5e82-7326-4bee-8a58-71e541a93c2c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1926483/5e6857e8-3692-4509-82da-de1fad8ce2ea> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2019-11-21" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
@@ -1065,542 +1065,542 @@ obo:BFO_0000050 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/99853702-d2b0-426c-8876-488d2bd7fdfa> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/5580185c-9307-4677-a63f-28b90aa2ea44> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/7af01491-fd17-4c72-af0d-a677e831f4c1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7391b0f2-d2c3-44fd-a343-e11e89227e87> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2019-11-21 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2019-11-21|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/acfb6a42-f2c5-4dfe-a630-3df6ddef2d92> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/8e5b1970-ebc4-407b-b85b-77035cdc22dc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/0937a156-5873-4132-bd6c-c1fbe6115c36> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b7aa74ad-2ab4-4386-b868-894f48540ca6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/7e4031a0-9cde-4392-83e0-d0c915344a3e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/02be2d4c-6982-4ede-833a-a36a2bb421ba> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/9068dd74-9c3e-4d76-8d97-bccea5df0b4a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/baceb626-e7b2-419d-84b6-72d48a148cbc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/3d9a2a0c-22e1-45d3-be89-c44a50eb458b> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0006826 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI BFO:0000066(EMAPA:32888) creation-date=2012-05-08|modification-date=2012-05-08|comment=anatomy tooth enamel organ ; MA:0001604|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ccaac9b4-2799-472f-9c43-78110af7b188> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/cf600a9c-a698-41d7-a451-43e8862d71f5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/8a090a01-35d1-48ba-8353-710de3f66cef> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0060041 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI RO:0002296(EMAPA:17168) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy retina;MA:0000276|comment=retinal layers are undulating|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/52e9b1d0-7510-434f-b69f-8b1a49b785d5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/21313d84-599a-4a1d-9678-801fd44ae54e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/e4e78b23-07d9-418f-bbd6-bb4732f40305> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/8cfcbe61-f496-4eed-b14e-ebe4f92b1fe6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/1ac9814c-64b6-4a6f-9ae2-7a9bd760effe> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/f9326f46-235a-4a7a-bc3d-56033f7f486a> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002089 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy lens;MA:0000275|comment=has_participant(EMAPA:17838 TS28)|comment=lenses are somewhat deformed|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/24b0067e-c07d-49d8-a07b-91ec70fa3675> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5acc4601-859d-462a-90fd-06d630cbb6bf> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/d4850cd9-5856-42d6-8243-eec09c797bfa> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/07f4bb06-76e2-45f6-8110-634c4c19686c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/2eb03c41-29e3-4a36-9c2d-6651cf1a1013> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/305c3e79-70cb-498c-92fe-cf0469151888> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/5580185c-9307-4677-a63f-28b90aa2ea44> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/1ef53d57-c52d-4f17-8478-5d2ca9aa2ee3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/d2c373c8-dd9a-463c-b225-6eb78e118f73> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/8d85a1d1-c0d3-4516-94ef-1a9207dfa23b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/8cfcbe61-f496-4eed-b14e-ebe4f92b1fe6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7f0cc06f-7640-45e3-ad3b-c21297480a37> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/5ba1d1ab-de05-4b2a-b7d8-9f80ce4ebcc9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b7aa74ad-2ab4-4386-b868-894f48540ca6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/0ced758c-311b-45f6-817b-6013dad96e1c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/a568a88b-6cdb-4a20-8f1e-4ab11d2ffdf7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/2d99941a-dc21-4505-865d-8b32862fb3ba> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/cab6d1a5-287d-4a00-89a5-a77aea0aaf26> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/1613754f-cacc-4436-a8c5-c3908eb19062> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9068dd74-9c3e-4d76-8d97-bccea5df0b4a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/e50c69e1-b119-4ad1-97a5-6a10590826cb> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/07f4bb06-76e2-45f6-8110-634c4c19686c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/17d7eb63-d4c7-48ba-927c-5ff9578e2eec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/081ca5b7-83d0-4005-9b52-fd9c822dd15c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/2305c941-9ff5-4bc2-ae39-a4b807e1971a> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2017-08-14" ;
     dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0098609 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2017-08-14 MGI  creation-date=2012-05-08|modification-date=2017-08-14|comment=cell type amelioblast ; CL:0000059|comment=has_participant(CL:0000059)|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/e2caf8f1-bcc2-4f21-ac5a-9ef663064982> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/e24ac1a3-996d-4608-9f79-dd3d12ebcb3d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d36d969a-64e6-4511-94c0-3afbb05fb791> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/24c41b88-8b41-4b4d-aa2a-782424af3f21> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/1ab861fd-b109-4638-a006-527e0e4b931b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/16b72b94-9731-4654-ab21-206c84c52b38> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2717c214-c2c5-4cdf-be6e-c6cd16d4386e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9c8f407e-e805-4c42-9aca-82bb54028c53> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/59f9b1ad-c33b-4d77-b3a4-d20409dfba16> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/35e2a7c5-33a2-49cc-9a89-4968ad874066> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/34856bed-b4db-41d9-9be3-fab1a094c206> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/89a419af-1ca9-4804-9d2b-487ea2f2fb9e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ac8b2ee7-4c91-4f30-8400-4506841d00b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/2eabdcf3-4ae1-48e3-8b63-a04888b18f74> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/55948c36-e975-4b8f-802a-679e00f7e75c> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0005515 MGI:MGI:5586967|PMID:22512338 ECO:0000353 PR:Q8C0V9  2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/27a90e6c-0a61-48ad-adcd-e4bdd6a72b52> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/10face6a-35f6-4da7-8353-1bbca8c40948> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/905aa005-b062-48a2-afaa-8c513111ea0a> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ce692854-f3b7-4882-bd01-be96d42cdde8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/14f4b545-e2dc-40ff-add3-8c2d9c6075f5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/2a80bd7a-4a28-4046-b1d9-b8ee042bdf1d> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-01" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0048593 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-01|modification-date=2008-10-02|comment=anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222|comment=has_participant(EMAPA:16198 TS28)|comment=has_participant(EMAPA:17829 TS24)|comment=abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/31acf4cd-0e6f-4a71-9bb4-32e36d7bc6a2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5b41431e-2392-467a-87c9-e256201f2ed9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/5d4a3edb-523c-4566-99e7-54546cceebda> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/34856bed-b4db-41d9-9be3-fab1a094c206> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/65837719-706d-44d6-9909-1041c7927325> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/f96f97bc-5273-434d-9bb1-d4b3f0a23290> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0060041 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI RO:0002296(EMAPA:17168) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy retina;MA:0000276|comment=retinal layers are undulating|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/21313d84-599a-4a1d-9678-801fd44ae54e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/db341909-36bf-44bc-8baa-03ddad49dbe2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b12c6c69-af65-43e7-b33b-7e7a3b0d3e66> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5e663caa-2e5d-4107-b05a-18131971f4b5> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/ce0b3d70-bc08-44f3-877c-9cb51815a9c5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/bab88cdd-2673-442f-8260-b60fb3d9cfbd> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/206a7717-13f8-483d-a66b-2d352906cf98> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/888c499e-45f5-428d-ba24-46ead644e34d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/1053a469-91ab-4c04-a49a-3a77f3a83e92> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002089 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy lens;MA:0000275|comment=has_participant(EMAPA:17838 TS28)|comment=lenses are somewhat deformed|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/24b0067e-c07d-49d8-a07b-91ec70fa3675> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/7454f21c-ff08-46b0-9c7e-17ddecc8a91c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/a62e05ea-b719-4a20-9abe-acf00bc5cbaa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/a3d4cbaf-1c99-4fd6-9493-63332e54addb> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/43dee3b1-0402-4794-a19b-291e38d9f982> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/01812755-2b40-4304-a486-018a57369f5b> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2012-05-08" ;
     dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0006826 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI BFO:0000066(EMAPA:32888) creation-date=2012-05-08|modification-date=2012-05-08|comment=anatomy tooth enamel organ ; MA:0001604|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/92859f77-6223-4b4c-b61a-74094e13c3a1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/ccaac9b4-2799-472f-9c43-78110af7b188> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/4b0769bc-7ef8-471d-8da4-962b8c61ba28> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0038023 MGI:MGI:1927368|PMID:11090177 ECO:0000314   2018-03-05 MGI  creation-date=2001-02-15|modification-date=2018-03-05|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0070166 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI  creation-date=2012-05-08|modification-date=2012-05-08|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/aa697b0b-15b1-442e-a929-27dd92ec1d47> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/695b6ba7-f2a2-4e0b-99bb-7f5eecea3f71> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b9431b12-cf0f-4b38-9f67-0bd1eb7e8fdb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/f55a0ee7-851a-468e-a3e8-65277f613e43> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/b84dbf4c-1a47-4783-979b-14f1a22dcbe5> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0005515 MGI:MGI:5586967|PMID:22512338 ECO:0000353 PR:Q8C0V9  2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/6960a737-0d27-47f2-8479-8a176b22ff16> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/0668f8af-f089-40b3-9b81-46ca60cb349b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/8c019143-fe88-4f8f-989c-80383d4b41b8> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0005515 MGI:MGI:5586967|PMID:22512338 ECO:0000353 PR:Q8C0V9  2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/6960a737-0d27-47f2-8479-8a176b22ff16> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b20fff47-8901-4db2-8dd2-4d2f565a5df0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a7cc0158-79b0-4f88-adfa-4b8f93a52490> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/4eb506f4-05ca-4fac-b869-8044f468679d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b1230d59-45c1-403d-835b-8384821bc4f0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5ba1d1ab-de05-4b2a-b7d8-9f80ce4ebcc9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/f9a78c64-605a-434b-b6f9-f7c7c6f98175> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5b791572-17cb-47a9-806e-ba51144808f6> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a34a6a7a-c342-422a-b6a9-93ad26805ec7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/6d661697-519a-48ec-a673-e48365635ca6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/6ea4bf0f-ab4c-4bde-8e76-2e8f6a46a35f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/2717c214-c2c5-4cdf-be6e-c6cd16d4386e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/8bba9f1d-866e-4d27-a4de-efe789a1b751> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2001-02-15" ;
     dct:created "2001-02-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0016021 MGI:MGI:1927368|PMID:11090177 ECO:0000266 EMBL:X76400  2001-02-15 MGI  creation-date=2001-02-15|modification-date=2001-02-15|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/e8eae964-cda6-41b5-b84e-bbb21f5f4d6f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/a50f0cf3-af10-4b27-ae64-1486c3fa38a7> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/16a30df2-8b22-43dc-92d0-4103d0ea96b2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/ef86722d-d5d0-49c0-9ae3-bbdd2b9ce794> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/28927b30-8cb0-4629-81f0-256baf468aaa> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0048593 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-01|modification-date=2008-10-02|comment=anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222|comment=has_participant(EMAPA:16198 TS28)|comment=has_participant(EMAPA:17829 TS24)|comment=abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2afed92e-7881-45cf-be34-9bbe7c43fb77> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/202afee7-336e-48f6-8bec-6fa234e6e486> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a4a5d0b2-6adb-4320-a82f-3c75874caf36> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/0dbbb231-0c73-4a56-bc21-551ed7b922fb> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-09" ;
-    dct:created "2012-05-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002934 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-09 MGI  creation-date=2012-05-09|modification-date=2012-05-09|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/61959b04-0cd6-4bac-810d-b5f84378a3c9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/59abb3bf-f9e1-4a59-a554-c42d55958c71> .
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0006826 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI BFO:0000066(EMAPA:32888) creation-date=2012-05-08|modification-date=2012-05-08|comment=anatomy tooth enamel organ ; MA:0001604|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d0282dfc-098f-4d25-b60a-76cfe6a79df8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/cfa990b7-4c8a-4dd3-af21-e3d82c2f6625> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/109bf04b-d8a6-4451-b339-7de1de76c7e9> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/bad3819c-1a88-4d66-b0ef-316411e403a0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2eabdcf3-4ae1-48e3-8b63-a04888b18f74> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/17cb653f-9a4f-41bb-868c-a17c2b0e02f3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/0b14f2fe-adcb-4218-9a49-6a9ddfff7d6b> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ce692854-f3b7-4882-bd01-be96d42cdde8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/e69f9ba0-0a4c-4d7e-8fe1-6c38a9cd6c2b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/1a6583b9-23b9-4a0e-8d3d-2070eaad7ba1> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2001-02-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0038023 MGI:MGI:1927368|PMID:11090177 ECO:0000314   2018-03-05 MGI  creation-date=2001-02-15|modification-date=2018-03-05|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d74225a5-936a-48a2-a034-9678f0f2fb7e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/71081463-5ca9-4842-ac4a-81f1f56723d1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/cab3794f-38f4-4f6e-9a95-bd7314ef38e6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/9c8f407e-e805-4c42-9aca-82bb54028c53> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/3a9fe8e0-d34d-4bc7-b7b1-8b0cb0eeed7d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/5f159236-34ef-4eec-b1a8-a629649ddf9e> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0004009 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2eb03c41-29e3-4a36-9c2d-6651cf1a1013> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/fddf0942-7bc4-4a6a-9e0b-52e2ad8c75f7> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/3e82f7dd-e350-4938-a571-2e2dd34d742c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/c7ce996e-83e5-45a1-816e-a9ef0deabd3d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/95fab159-b310-4022-824d-4063f16f64ca> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0070166 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI  creation-date=2012-05-08|modification-date=2012-05-08|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d32813e2-0764-4f6d-9e5f-3252bb32628c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9a2aaeb9-3be2-493f-9464-3a1f9377376b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/749cb329-5c65-4a95-9d79-7238803d4357> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2017-08-14" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0098609 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2017-08-14 MGI  creation-date=2012-05-08|modification-date=2017-08-14|comment=cell type amelioblast ; CL:0000059|comment=has_participant(CL:0000059)|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/e2caf8f1-bcc2-4f21-ac5a-9ef663064982> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9349f524-832b-480b-8350-ee94e01aee3e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/8a42fc71-8b25-451b-b7a9-48f0b38509d5> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2d99941a-dc21-4505-865d-8b32862fb3ba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/4af2ce77-de23-4667-9cef-6213a57e0206> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/070988dc-2f1a-4ffd-88df-f181372b365c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2003-03-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:2450499|PMID:12515806 ECO:0000314   2019-11-21 MGI  creation-date=2003-03-18|modification-date=2019-11-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ed066bd0-3282-4007-a37f-6cea51ad6cc2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b130190e-1661-4e7c-bf22-ef281141a0ec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/e10e9025-f909-4fd4-812c-f64af9211cdb> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-01" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0048593 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-01|modification-date=2008-10-02|comment=anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222|comment=has_participant(EMAPA:16198 TS28)|comment=has_participant(EMAPA:17829 TS24)|comment=abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/2afed92e-7881-45cf-be34-9bbe7c43fb77> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b1576a7e-6f87-4bcc-b80a-474485280516> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/b3638238-68a7-42d6-a679-1440936e4770> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2019-11-21" ;
-    dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/1ac9814c-64b6-4a6f-9ae2-7a9bd760effe> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/09d58275-1dfa-4d85-873b-c731a10e6085> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7b73a262-9a6e-4752-a47b-c357ff86de07> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/ab8ee1f1-867e-4444-80b4-0b7ff07e523e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0060041 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI RO:0002296(EMAPA:17168) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy retina;MA:0000276|comment=retinal layers are undulating|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002089 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy lens;MA:0000275|comment=has_participant(EMAPA:17838 TS28)|comment=lenses are somewhat deformed|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/52e9b1d0-7510-434f-b69f-8b1a49b785d5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/7bd3583e-5354-4b8e-97fd-77c7386e8cb3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/a62e05ea-b719-4a20-9abe-acf00bc5cbaa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/d666e02e-3355-46fb-b4df-3e9e0e07234a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/82ddc22b-5b4c-4892-963f-a8bb1f9a42ae> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2012-05-08" ;
-    dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0070166 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI  creation-date=2012-05-08|modification-date=2012-05-08|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d32813e2-0764-4f6d-9e5f-3252bb32628c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9261d428-0321-4a62-8e4b-980b50403719> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/e9250fb6-a720-4a8c-a1e3-56b85373171c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7f4a49f3-6f03-4d15-8791-d3d018bf530a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/3ffa60a6-af99-417f-9a2b-57321a84c235> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/a568a88b-6cdb-4a20-8f1e-4ab11d2ffdf7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/00e5051c-8903-4c93-818a-0898a3a239a4> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/c7b78901-c930-41f4-b711-7e8c5dfdfb28> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/d959ff1e-b318-4f16-a3e4-ba4b13d366e4> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/418a898f-231d-48ff-8235-08ffa57e4c75> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/6c9b63b1-0873-4ebb-bdfd-d88473bff531> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7124e293-2801-4911-b188-d0de1fdbc568> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2019-11-21" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2019-11-21 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2019-11-21|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/8e5b1970-ebc4-407b-b85b-77035cdc22dc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/67b3dcef-b7cf-41f2-9d10-c7749c150b46> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/7a2905f3-949e-4786-8ee2-b02f6b94b3b0> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/77a8b754-18b6-4c0e-871f-dd4a30e5c903> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/e103822d-2937-4217-bf2c-60771f72216a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/3e82f7dd-e350-4938-a571-2e2dd34d742c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/5aecf2e3-ce28-4d0d-8a6f-1cc69f65a23d> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/e103822d-2937-4217-bf2c-60771f72216a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/a64417f7-69f8-4177-852b-a34d0c509cb0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/429ac399-7f7d-4644-9383-b0af0cc1e1ac> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b17b9e33-39a8-4059-b827-7d37548114a6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/418a898f-231d-48ff-8235-08ffa57e4c75> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/4ebed069-c6c6-4456-a122-d3fcce9d94f8> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002327 GO:0005515 MGI:MGI:5586967|PMID:22512338 ECO:0000353 PR:Q8C0V9  2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/27a90e6c-0a61-48ad-adcd-e4bdd6a72b52> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/75bd19f4-1d05-4e62-b611-e6e2c3df0bf6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/133df8de-3afd-4283-a493-a7c9970b8e8c> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0043296 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/bac32333-fe1c-40cf-bcdb-653904d26640> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/8e2bd4af-ca15-4735-904e-5830ff4fc208> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/ab5d7fa9-ee66-49b9-9ead-412df6bb20ba> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/7dd5b886-68b2-4c8e-bcce-9897d92fb16f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/148db28d-dc0b-4e51-a8c2-c5087a33eab8> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/bdd2a040-f105-4067-8fb8-4baea70a0852> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/422fcf5c-1f24-4bab-a02f-c7e6b1009f14> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/c7b78901-c930-41f4-b711-7e8c5dfdfb28> .
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0060041 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI RO:0002296(EMAPA:17168) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy retina;MA:0000276|comment=retinal layers are undulating|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/a8b8ac42-0596-4184-972f-dab070d4eb14> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/ee894481-389b-4146-a0d1-414114ea1a35> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/6a289924-c036-4f08-bb0e-0f525e8feb6b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a743d145-9187-42cb-a1d0-38bbc1d2d1ec> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2019-11-21" ;
     dct:created "2004-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/6c308960-8c51-42d2-a0d5-7e12974a8b82> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/1613754f-cacc-4436-a8c5-c3908eb19062> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/c39971dc-5033-4550-8321-eb3c4cd6ab4a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/ac8b2ee7-4c91-4f30-8400-4506841d00b7> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/d670ffa9-8f71-470f-bcd0-d454d0c70d8a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/2ced2a39-b030-4c8f-bf06-dcd7731d58b3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/fe9efbbe-4f41-4104-92d8-c2f31dd8e9f7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b17b9e33-39a8-4059-b827-7d37548114a6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/31ea617a-a91b-4df4-a149-59386178037b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2019-11-21" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2019-11-21 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2019-11-21|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/635d5c4d-7548-42d7-8bd7-0da8e95637b8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/fdbe7b4b-5b08-42e0-8feb-5023046d589f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/726bf83f-5767-4e01-93e9-3b8b276566c7> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2012-05-08" ;
     dct:created "2012-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0006826 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI BFO:0000066(EMAPA:32888) creation-date=2012-05-08|modification-date=2012-05-08|comment=anatomy tooth enamel organ ; MA:0001604|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/92859f77-6223-4b4c-b61a-74094e13c3a1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/f86c6d5c-8cda-4830-be51-9575c0702eed> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/bac897fe-e341-441b-986e-259408fe06d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/d0282dfc-098f-4d25-b60a-76cfe6a79df8> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/0b72cabb-514a-4f35-b8ff-dde54853d96e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a277d968-a00e-495b-82f7-1acb23da1e14> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2019-11-21" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2019-11-21 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2019-11-21|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/fdbe7b4b-5b08-42e0-8feb-5023046d589f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/5e6857e8-3692-4509-82da-de1fad8ce2ea> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/fc41fc91-0173-4c49-a423-a0d604510b58> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2003-03-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:2450499|PMID:12515806 ECO:0000314   2019-11-21 MGI  creation-date=2003-03-18|modification-date=2019-11-21|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/5e9a4b69-f599-4df4-874a-42a9bbcef8d3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9a8f5b01-1836-4660-b9e3-202632e3e735> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/37266196-4726-4e2b-b920-8cde46c39881> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-01" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0048593 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI  creation-date=2008-10-01|modification-date=2008-10-02|comment=anatomy MA:0000261 TS24\\  eyelid ; EMAP:9222|comment=has_participant(EMAPA:16198 TS28)|comment=has_participant(EMAPA:17829 TS24)|comment=abnormal anterior eye segment morphology;  Microphthalmia; abnormal eyelid morphology; eyelids open at birth; abnormal vitreous body|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/31acf4cd-0e6f-4a71-9bb4-32e36d7bc6a2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/1ef8c958-ee7d-4287-9845-7f0d17e0cd17> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/8993cd4e-6819-4c4a-b667-0048e845b756> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0060041 MGI:MGI:3604842|PMID:15728677 ECO:0000315 MGI:MGI:3605480  2008-10-02 MGI RO:0002296(EMAPA:17168) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy retina;MA:0000276|comment=retinal layers are undulating|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/a8b8ac42-0596-4184-972f-dab070d4eb14> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/b12c6c69-af65-43e7-b33b-7e7a3b0d3e66> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/a26b9225-5326-4137-992d-7747e2d137d3> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:1902414 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI RO:0002313(MGI:MGI:2135608)|RO:0002313(MGI:MGI:2442579) creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0004009 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/1ef53d57-c52d-4f17-8478-5d2ca9aa2ee3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/e68f78eb-28ef-49b0-9ca4-0030fb8703c1> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/14f4b545-e2dc-40ff-add3-8c2d9c6075f5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/9f0a4a55-b04e-4a32-a408-2f0055d07f64> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/ee5d17ea-b022-442d-abd5-a915734c584b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/2a21cdcd-d8d7-4cc6-88f0-9a4f459ba4e3> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0070166 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI  creation-date=2012-05-08|modification-date=2012-05-08|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/b9431b12-cf0f-4b38-9f67-0bd1eb7e8fdb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/086bf65f-8004-44bf-8b6f-2cd3a05c40fd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/1f67a90b-75ed-416f-b85b-74993e3cb528> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2017-08-14" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0098609 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2017-08-14 MGI  creation-date=2012-05-08|modification-date=2017-08-14|comment=cell type amelioblast ; CL:0000059|comment=has_participant(CL:0000059)|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d36d969a-64e6-4511-94c0-3afbb05fb791> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/f8f712a5-dfb6-4282-bcd5-ed0aa06bbadd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/e68d6e9f-5ae9-4374-b345-8c037dd2ca58> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2019-11-21" ;
+    dct:created "2004-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0005912 MGI:MGI:3056026|PMID:15328010 ECO:0000314   2019-11-21 MGI BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17551)|BFO:0000050(CL:0000678),BFO:0000050(EMAPA:17258)|BFO:0000050(CL:0000117),BFO:0000050(EMAPA:17258) creation-date=2004-11-19|modification-date=2019-11-21|comment=anatomy TS20\\ floor plate\\ medulla oblongata; EMAP:4191 TS20\\ floor plate\\ metencephalon; EMAP:4204|comment=cell type commisural_neuron ; CL:0000678 CNS_neuron_(sensu_Vertebrata) ; CL:0000117|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/5b791572-17cb-47a9-806e-ba51144808f6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/206a7717-13f8-483d-a66b-2d352906cf98> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/5e181824-164c-49ef-8d6a-7dd80e132ab8> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2012-05-09" ;
     dct:created "2012-05-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002934 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-09 MGI  creation-date=2012-05-09|modification-date=2012-05-09|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/61959b04-0cd6-4bac-810d-b5f84378a3c9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/498a9301-8e24-4b3b-ba63-055cfb9a98e6> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/7e247311-ab24-43f1-8653-3b31ffb6c153> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/abcc5b31-2114-419b-bb81-01ee6af3388c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/276a112c-2677-413a-96dd-2dbb92e301f2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/ca6de966-8c20-460a-a9d8-6de7cc9de096> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-08" ;
+    dct:created "2012-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0006826 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-08 MGI BFO:0000066(EMAPA:32888) creation-date=2012-05-08|modification-date=2012-05-08|comment=anatomy tooth enamel organ ; MA:0001604|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/bac897fe-e341-441b-986e-259408fe06d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/6b1a47b1-54a5-462e-9796-da0f15f1de17> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/ad62dc80-bf84-45a5-8c9e-ee8af4e61691> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
     dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1926483  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/d959ff1e-b318-4f16-a3e4-ba4b13d366e4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/46fb5e82-7326-4bee-8a58-71e541a93c2c> .
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/07fe08f4-e757-4557-a518-e3c40ecdd2e4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/35e2a7c5-33a2-49cc-9a89-4968ad874066> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1926483/417d415d-5e7d-4948-9364-857ed191cd05> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2012-05-09" ;
+    dct:created "2012-05-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1926483  RO:0002264 GO:0002934 MGI:MGI:3814115|PMID:18703497 ECO:0000315 MGI:MGI:3814719  2012-05-09 MGI  creation-date=2012-05-09|modification-date=2012-05-09|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1926483/7e247311-ab24-43f1-8653-3b31ffb6c153> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1926483/dc6fbfbf-f3df-4fb1-a2a1-3789361b2fe3> .
 

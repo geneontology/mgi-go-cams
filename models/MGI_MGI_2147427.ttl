@@ -37,12 +37,21 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-09-11" ;
     dc:title "Wdr74 (MGI:MGI:2147427)" ;
     dct:created "2008-12-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2147427> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2147427/0862d411-c711-4a1d-896b-b99fb87e2341> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2147427/05804d03-8f26-4e12-a0ec-1facc2ef1fb8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/c4f035eb-af66-4be8-9089-3f65514675ba> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2008-12-02" ;
+    dct:created "2008-12-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/08ab0167-8cb6-4de9-8289-1c5676a13513> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
@@ -51,16 +60,42 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy compacted morula ; EMAP:13" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/182750f6-40d4-4f81-b3d7-6a30d9554ae2> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2147427/118bb179-308c-431d-858e-db952d133f0b> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/627e1cc1-6043-4eb5-bde3-c29f4fba9084> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2008-12-02" ;
-    dct:created "2008-12-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dc:source "PMID:21799883" ;
+    dct:created "2012-03-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy compacted morula ; EMAP:13" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/4b5c8dd5-9b88-43b2-b380-b4e11b68cc2e> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2018-09-11" ;
+    dc:source "PMID:27869233" ;
+    dct:created "2018-09-11" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/39b5e128-f388-49fa-b738-ea97b3060e87> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2147427/578cab1c-9ef2-4250-b55b-1b0ebbbad762> a MGI:MGI:2147427,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2147427/f942feb5-a49e-40f7-964e-2bed44921e91> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/5deb85b0-b931-46aa-8acf-9d74e9c2cec3> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dc:source "PMID:21799883" ;
+    dct:created "2012-03-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy compacted morula ; EMAP:13" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/6148dae1-1daf-4242-bdd0-836dc18cd7a4> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
@@ -70,16 +105,27 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy embryo ; EMAP:12",
         "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/42f5ba4b-c8f5-4545-8fc1-f6a2c00424fd> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2147427/77d8a294-e8e0-469f-9e29-fa7cdf37434d> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dc:source "PMID:21799883" ;
     dct:created "2012-03-26" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy compacted morula ; EMAP:13" .
+    rdfs:comment "anatomy embryo ; EMAP:12",
+        "evidence RNAi experiment ; ECO:0000019" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/433bbb97-2394-455f-a5f7-f46a68515b36> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2147427/8f7a0308-8386-45e5-9004-247720be29a3> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dc:source "PMID:21799883" ;
+    dct:created "2012-03-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy embryo ; EMAP:12",
+        "evidence RNAi experiment ; ECO:0000019" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/a05961c3-f5f1-49d4-8ddd-29a0141afe9d> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2018-09-11" ;
@@ -87,7 +133,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2018-09-11" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/5f006e1a-7791-4d08-9af7-9dfc9f4b8a21> a ECO:0000307,
+<http://model.geneontology.org/MGI_MGI_2147427/b6f9b1c7-7773-4793-b399-20e5217ff706> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2008-12-02" ;
@@ -95,36 +141,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2008-12-02" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/621328be-7a0b-47da-ba98-b49bfd1bdb1b> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dc:source "PMID:21799883" ;
-    dct:created "2012-03-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy embryo ; EMAP:12",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/63d5577f-b13d-4e32-a97c-742173fec156> a MGI:MGI:2147427,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2147427/98da555a-70ea-4da3-8877-792731fb1683> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/6861b39b-a0cf-472c-b382-618b9c231f6d> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dc:source "PMID:21799883" ;
-    dct:created "2012-03-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy embryo ; EMAP:12",
-        "evidence RNAi experiment ; ECO:0000019" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/6bba5424-5a45-40bb-a41b-cc82a62dfc8e> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2147427/d6d74ae9-3e0a-4674-b165-65164ecda04c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
@@ -133,24 +150,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy compacted morula ; EMAP:13" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/9cfbced3-9b69-4207-aba3-9fc541ba0179> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dc:source "PMID:21799883" ;
-    dct:created "2012-03-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy compacted morula ; EMAP:13" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/e195515c-6cd1-4f91-9a47-650daf91293e> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2018-09-11" ;
-    dc:source "PMID:27869233" ;
-    dct:created "2018-09-11" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/f1f8433e-245f-48a0-9bc8-56cfcc0ae813> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2147427/e96b3bd4-1cd7-49ac-959b-cd869ce47f93> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
@@ -167,125 +167,125 @@ obo:RO_0001025 a owl:ObjectProperty .
 
 obo:RO_0002297 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2147427/00aaa864-96ac-43ce-86d3-f38c7b0cf1cd> a MGI:MGI:2147427,
+<http://model.geneontology.org/MGI_MGI_2147427/1012cb79-ed58-4c63-81c0-b41afbc1ce07> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/71ad5683-8acc-4336-b1a4-79078d233261> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/a30d6fa5-093a-46d4-ad15-e7304ec7b1dd> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/303c36fe-14ae-42f8-a8dc-3f070f06fa74> a MGI:MGI:2147427,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/65f1f5c8-7d32-4167-a781-b6104b78a208> a EMAPA:16040,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/68c3c636-a1a9-4c79-b30f-c55c7fe30cd6> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/945b6351-f461-4a97-8e20-ea81673844aa> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/83799a52-9349-4634-b161-3e15f75b55aa> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2018-09-11" ;
+    dct:created "2018-09-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/71ad5683-8acc-4336-b1a4-79078d233261> a MGI:MGI:2147427,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/83799a52-9349-4634-b161-3e15f75b55aa> a GO:0001825,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2018-09-11" ;
     dct:created "2018-09-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/03ca12a6-69f1-4981-ae4f-bf9cf61a41f3> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2147427/945b6351-f461-4a97-8e20-ea81673844aa> a MGI:MGI:2147427,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/0a832a10-fc00-4f11-81d2-54efcb2a1428> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/55f2a7d1-9dfa-4351-b119-0b17b578b8b9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/0a832a10-fc00-4f11-81d2-54efcb2a1428> a MGI:MGI:2147427,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/17218aa3-e7fe-4f96-9def-6f24920f42c1> a MGI:MGI:2147427,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/18fc6976-5be1-4bc6-bb97-8c4d23fad191> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/00aaa864-96ac-43ce-86d3-f38c7b0cf1cd> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/95b45b4e-ddb6-46c3-bee6-7c1fe0c212a7> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2018-09-11" ;
     dct:created "2018-09-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/627e1cc1-6043-4eb5-bde3-c29f4fba9084> a MGI:MGI:2147427,
+<http://model.geneontology.org/MGI_MGI_2147427/c19a0639-665b-497a-a2f0-b634c4574a9d> a EMAPA:16040,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/c4f035eb-af66-4be8-9089-3f65514675ba> a MGI:MGI:2147427,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2008-12-02" ;
     dct:created "2008-12-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/788b823d-2128-4c66-b727-6244203986c8> a EMAPA:16040,
+<http://model.geneontology.org/MGI_MGI_2147427/f7970000-7bf8-4371-a51a-41dd8543a33e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/303c36fe-14ae-42f8-a8dc-3f070f06fa74> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/22a9c162-8882-4d19-9b74-1f3d9037c077> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2147427/fc54925e-79c9-4d1d-8be0-656ede0d87db> a EMAPA:16039,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/903c03c5-e8a4-4b44-aa24-e4cde52e71e5> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2147427/22a9c162-8882-4d19-9b74-1f3d9037c077> a GO:0001825,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2147427/17218aa3-e7fe-4f96-9def-6f24920f42c1> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2147427/5afd2b67-bfe0-473f-acb5-1af61a377eca> ;
+    obo:RO_0002297 <http://model.geneontology.org/MGI_MGI_2147427/fc54925e-79c9-4d1d-8be0-656ede0d87db> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/95b45b4e-ddb6-46c3-bee6-7c1fe0c212a7> a GO:0001825,
+<http://model.geneontology.org/MGI_MGI_2147427/a30d6fa5-093a-46d4-ad15-e7304ec7b1dd> a GO:0016070,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2018-09-11" ;
-    dct:created "2018-09-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/9a5fbf15-8dcf-411a-b309-5ace422ec48d> a EMAPA:16040,
-        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2147427/65f1f5c8-7d32-4167-a781-b6104b78a208> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2147427/d4d03797-8220-4625-9d48-b9fe914f8c48> a EMAPA:16039,
+<http://model.geneontology.org/MGI_MGI_2147427/f942feb5-a49e-40f7-964e-2bed44921e91> a GO:0005634,
         owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2147427/c19a0639-665b-497a-a2f0-b634c4574a9d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/55f2a7d1-9dfa-4351-b119-0b17b578b8b9> a GO:0001825,
-        owl:NamedIndividual ;
-    obo:RO_0002297 <http://model.geneontology.org/MGI_MGI_2147427/d4d03797-8220-4625-9d48-b9fe914f8c48> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/5afd2b67-bfe0-473f-acb5-1af61a377eca> a GO:0016070,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2147427/9a5fbf15-8dcf-411a-b309-5ace422ec48d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2147427/98da555a-70ea-4da3-8877-792731fb1683> a GO:0005634,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2147427/788b823d-2128-4c66-b727-6244203986c8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -293,134 +293,134 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/39b5e128-f388-49fa-b738-ea97b3060e87> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/118bb179-308c-431d-858e-db952d133f0b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002297 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/55f2a7d1-9dfa-4351-b119-0b17b578b8b9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/d4d03797-8220-4625-9d48-b9fe914f8c48> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/621328be-7a0b-47da-ba98-b49bfd1bdb1b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/03ca12a6-69f1-4981-ae4f-bf9cf61a41f3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/55f2a7d1-9dfa-4351-b119-0b17b578b8b9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/42f5ba4b-c8f5-4545-8fc1-f6a2c00424fd> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0016070 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI BFO:0000066(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/903c03c5-e8a4-4b44-aa24-e4cde52e71e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/17218aa3-e7fe-4f96-9def-6f24920f42c1> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/6bba5424-5a45-40bb-a41b-cc82a62dfc8e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0016070 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI BFO:0000066(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/903c03c5-e8a4-4b44-aa24-e4cde52e71e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/5afd2b67-bfe0-473f-acb5-1af61a377eca> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/9cfbced3-9b69-4207-aba3-9fc541ba0179> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0001025 GO:0005634 MGI:MGI:5287298|PMID:21799883 ECO:0000314   2012-03-26 MGI BFO:0000050(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/63d5577f-b13d-4e32-a97c-742173fec156> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/98da555a-70ea-4da3-8877-792731fb1683> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/f1f8433e-245f-48a0-9bc8-56cfcc0ae813> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0016070 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI BFO:0000066(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/5afd2b67-bfe0-473f-acb5-1af61a377eca> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/9a5fbf15-8dcf-411a-b309-5ace422ec48d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/a30d6fa5-093a-46d4-ad15-e7304ec7b1dd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/65f1f5c8-7d32-4167-a781-b6104b78a208> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/433bbb97-2394-455f-a5f7-f46a68515b36> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2018-09-11" ;
-    dct:created "2018-09-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5913376|PMID:27869233 ECO:0000315   2018-09-11 MGI  creation-date=2018-09-11|modification-date=2018-09-11|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/18fc6976-5be1-4bc6-bb97-8c4d23fad191> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/00aaa864-96ac-43ce-86d3-f38c7b0cf1cd> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/6861b39b-a0cf-472c-b382-618b9c231f6d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/08ab0167-8cb6-4de9-8289-1c5676a13513> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2012-03-26" ;
     dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0016070 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI BFO:0000066(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/03ca12a6-69f1-4981-ae4f-bf9cf61a41f3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/0a832a10-fc00-4f11-81d2-54efcb2a1428> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/1012cb79-ed58-4c63-81c0-b41afbc1ce07> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/71ad5683-8acc-4336-b1a4-79078d233261> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/0862d411-c711-4a1d-896b-b99fb87e2341> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2012-03-26" ;
-    dct:created "2012-03-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0001025 GO:0005634 MGI:MGI:5287298|PMID:21799883 ECO:0000314   2012-03-26 MGI BFO:0000050(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/98da555a-70ea-4da3-8877-792731fb1683> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/788b823d-2128-4c66-b727-6244203986c8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/5f006e1a-7791-4d08-9af7-9dfc9f4b8a21> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2008-12-02" ;
-    dct:created "2008-12-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2147427  RO:0002327 GO:0003674 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2008-12-02 MGI  creation-date=2008-12-02|modification-date=2008-12-02|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/182750f6-40d4-4f81-b3d7-6a30d9554ae2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/627e1cc1-6043-4eb5-bde3-c29f4fba9084> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/e195515c-6cd1-4f91-9a47-650daf91293e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/a05961c3-f5f1-49d4-8ddd-29a0141afe9d> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2018-09-11" ;
     dct:created "2018-09-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5913376|PMID:27869233 ECO:0000315   2018-09-11 MGI  creation-date=2018-09-11|modification-date=2018-09-11|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/18fc6976-5be1-4bc6-bb97-8c4d23fad191> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/95b45b4e-ddb6-46c3-bee6-7c1fe0c212a7> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/68c3c636-a1a9-4c79-b30f-c55c7fe30cd6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/83799a52-9349-4634-b161-3e15f75b55aa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/6148dae1-1daf-4242-bdd0-836dc18cd7a4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/f7970000-7bf8-4371-a51a-41dd8543a33e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/303c36fe-14ae-42f8-a8dc-3f070f06fa74> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/d6d74ae9-3e0a-4674-b165-65164ecda04c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0001025 GO:0005634 MGI:MGI:5287298|PMID:21799883 ECO:0000314   2012-03-26 MGI BFO:0000050(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/f942feb5-a49e-40f7-964e-2bed44921e91> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/c19a0639-665b-497a-a2f0-b634c4574a9d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/5deb85b0-b931-46aa-8acf-9d74e9c2cec3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0001025 GO:0005634 MGI:MGI:5287298|PMID:21799883 ECO:0000314   2012-03-26 MGI BFO:0000050(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/578cab1c-9ef2-4250-b55b-1b0ebbbad762> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/f942feb5-a49e-40f7-964e-2bed44921e91> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/8f7a0308-8386-45e5-9004-247720be29a3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/f7970000-7bf8-4371-a51a-41dd8543a33e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/22a9c162-8882-4d19-9b74-1f3d9037c077> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/b6f9b1c7-7773-4793-b399-20e5217ff706> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2008-12-02" ;
+    dct:created "2008-12-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002327 GO:0003674 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2008-12-02 MGI  creation-date=2008-12-02|modification-date=2008-12-02|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/05804d03-8f26-4e12-a0ec-1facc2ef1fb8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/c4f035eb-af66-4be8-9089-3f65514675ba> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/4b5c8dd5-9b88-43b2-b380-b4e11b68cc2e> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2018-09-11" ;
+    dct:created "2018-09-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5913376|PMID:27869233 ECO:0000315   2018-09-11 MGI  creation-date=2018-09-11|modification-date=2018-09-11|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/68c3c636-a1a9-4c79-b30f-c55c7fe30cd6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/945b6351-f461-4a97-8e20-ea81673844aa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/77d8a294-e8e0-469f-9e29-fa7cdf37434d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0001825 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI RO:0002297(EMAPA:16039) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy embryo ; EMAP:12|comment=evidence RNAi experiment ; ECO:0000019|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002297 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/22a9c162-8882-4d19-9b74-1f3d9037c077> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/fc54925e-79c9-4d1d-8be0-656ede0d87db> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2147427/e96b3bd4-1cd7-49ac-959b-cd869ce47f93> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2012-03-26" ;
+    dct:created "2012-03-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2147427  RO:0002264 GO:0016070 MGI:MGI:5287298|PMID:21799883 ECO:0000315   2012-03-26 MGI BFO:0000066(EMAPA:16040) creation-date=2012-03-26|modification-date=2012-03-26|comment=anatomy compacted morula ; EMAP:13|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2147427/1012cb79-ed58-4c63-81c0-b41afbc1ce07> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2147427/a30d6fa5-093a-46d4-ad15-e7304ec7b1dd> .
 

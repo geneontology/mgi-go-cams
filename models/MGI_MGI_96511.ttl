@@ -34,12 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-06-06" ;
     dc:title "Igk-V28 (MGI:MGI:96511)" ;
     dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_96511> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_96511/25b63246-8b57-4d38-b95a-5201db0be7ec> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_96511/b0575b83-4a06-4fda-9b5a-1433b731024c> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
@@ -48,7 +48,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "Lactobacillus paracasei CNCM I-3689" .
 
-<http://model.geneontology.org/MGI_MGI_96511/d5558463-f6b9-4488-93ab-08736cc666d5> a ECO:0000270,
+<http://model.geneontology.org/MGI_MGI_96511/b51ca72a-ffa1-4082-8185-1d7b35044f53> a ECO:0000270,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
@@ -61,53 +61,53 @@ obo:RO_0002333 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_96511/80198926-5819-425e-ab5f-2f76c2a6d44e> a GO:0009617,
+<http://model.geneontology.org/MGI_MGI_96511/0fc58759-80b8-4b75-9ee7-e65bd708b96a> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96511/cedae5b3-1af9-45a9-a2fa-d9453480a8ea> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96511/fb73f18b-0ef5-4e15-bf02-c4c0ee5bbe37> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
     dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96511/e12f88a3-d63f-4aa6-9448-990ff639bfcd> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_96511/cedae5b3-1af9-45a9-a2fa-d9453480a8ea> a MGI:MGI:96511,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_96511/fbf28bce-f580-4547-8fa9-f57e79c7ed3a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_96511/80198926-5819-425e-ab5f-2f76c2a6d44e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
     dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_96511/fbf28bce-f580-4547-8fa9-f57e79c7ed3a> a MGI:MGI:96511,
+<http://model.geneontology.org/MGI_MGI_96511/fb73f18b-0ef5-4e15-bf02-c4c0ee5bbe37> a GO:0009617,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
     dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96511/d5558463-f6b9-4488-93ab-08736cc666d5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96511/b0575b83-4a06-4fda-9b5a-1433b731024c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-06-06" ;
     dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:96511  RO:0002264 GO:0009617 MGI:MGI:5448596|PMID:23012479 ECO:0000270   2018-06-06 MGI  creation-date=2018-06-06|modification-date=2018-06-06|comment=Lactobacillus paracasei CNCM I-3689|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96511/e12f88a3-d63f-4aa6-9448-990ff639bfcd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96511/80198926-5819-425e-ab5f-2f76c2a6d44e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_96511/25b63246-8b57-4d38-b95a-5201db0be7ec> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-06-06" ;
-    dct:created "2018-06-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:96511  RO:0002264 GO:0009617 MGI:MGI:5448596|PMID:23012479 ECO:0000270   2018-06-06 MGI  creation-date=2018-06-06|modification-date=2018-06-06|comment=Lactobacillus paracasei CNCM I-3689|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96511/e12f88a3-d63f-4aa6-9448-990ff639bfcd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96511/fbf28bce-f580-4547-8fa9-f57e79c7ed3a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96511/0fc58759-80b8-4b75-9ee7-e65bd708b96a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96511/cedae5b3-1af9-45a9-a2fa-d9453480a8ea> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_96511/b51ca72a-ffa1-4082-8185-1d7b35044f53> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-06-06" ;
+    dct:created "2018-06-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:96511  RO:0002264 GO:0009617 MGI:MGI:5448596|PMID:23012479 ECO:0000270   2018-06-06 MGI  creation-date=2018-06-06|modification-date=2018-06-06|comment=Lactobacillus paracasei CNCM I-3689|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_96511/0fc58759-80b8-4b75-9ee7-e65bd708b96a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_96511/fb73f18b-0ef5-4e15-bf02-c4c0ee5bbe37> .
 

@@ -35,23 +35,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2006-01-11" ;
     dc:title "Kcnk15 (MGI:MGI:2675209)" ;
     dct:created "2005-08-10" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2675209> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2675209/9edf13b3-61d0-4dfe-8e35-54378841d6f3> a [ a owl:Class ;
-            owl:complementOf GO:0005267 ],
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2675209/21eb73a1-a2be-47ff-9ed6-b96f86793d28> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-11" ;
-    dct:created "2005-08-10" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2675209/d97c1df8-6606-4fb3-961b-80a102cdc6b8> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_2675209/2e332001-e3fe-4f99-a41b-8420f5f4710b> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "RefSeq:NM_022358" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -64,27 +53,38 @@ ns2:providedBy a owl:AnnotationProperty .
         "external ref PMID:11409881 IDA",
         "external ref PMID:1143149 IDA" .
 
+<http://model.geneontology.org/MGI_MGI_2675209/934ce589-3ebe-4998-84bc-be5a667edd09> a [ a owl:Class ;
+            owl:complementOf GO:0005267 ],
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2675209/e33c0675-0d26-496e-b6bd-a84d686141d0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-11" ;
+    dct:created "2005-08-10" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2675209/21eb73a1-a2be-47ff-9ed6-b96f86793d28> a MGI:MGI:2675209,
+<http://model.geneontology.org/MGI_MGI_2675209/e33c0675-0d26-496e-b6bd-a84d686141d0> a MGI:MGI:2675209,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-11" ;
     dct:created "2005-08-10" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2675209/d97c1df8-6606-4fb3-961b-80a102cdc6b8> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2675209/2e332001-e3fe-4f99-a41b-8420f5f4710b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-11" ;
     dct:created "2005-08-10" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2675209 NOT RO:0002327 GO:0005267 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 RefSeq:NM_022358  2006-01-11 MGI  creation-date=2005-08-10|modification-date=2006-01-11|comment=external ref PMID:11409881 IDA|comment=external ref PMID:1143149 IDA|comment=The seqid that the first  paper reports  AI690321  appears in GenBank with a note that it contains TAR1.t1  the   TAR1 repetitive element|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2675209/9edf13b3-61d0-4dfe-8e35-54378841d6f3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2675209/21eb73a1-a2be-47ff-9ed6-b96f86793d28> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2675209/934ce589-3ebe-4998-84bc-be5a667edd09> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2675209/e33c0675-0d26-496e-b6bd-a84d686141d0> .
 

@@ -42,12 +42,21 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2019-01-28" ;
     dc:title "Cys1 (MGI:MGI:2177632)" ;
     dct:created "2002-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2177632> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2177632/0c5b479c-551f-4593-a237-d899ce47ad73> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/02c37916-bbab-410d-a464-8e795cce5131> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/befcb1f9-2d36-4a5e-970e-0f0be2091ea8> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/0cdaaea9-fd6b-4610-b9f3-174ccd8dba32> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
@@ -58,82 +67,18 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type IMCD ; ATCC:CRL-2123",
         "evidence in vitro transcription assay evidence ; ECO:0001071" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/0d0449ac-3bb8-4556-93c4-c119f01df6c0> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/165c4f3d-1320-4284-aaf7-6111d93d79ba> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-26" ;
-    dc:source "PMID:11854326" ;
-    dct:created "2002-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 mCCD",
-        "evidence IF following transfection with reporter tag" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0d1d3121-2ccd-4bab-a39f-a2f506d2e597> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/33fdd403-f2bb-4469-b211-206bf441f4a5> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0d3fc898-086d-4608-9d42-ff440b7e081a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2019-01-28" ;
+    dc:date "2015-04-28" ;
     dc:source "PMID:24349431" ;
     dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0e3e62a2-a947-4dee-8528-ebb81d1111d0> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/0e834f9d-2ebc-4dee-873a-f6d6385ecc0e> a PR:000035652,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/669be495-b9a6-4313-8432-cdd51b662731> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/19ab27f7-d6f4-46c1-92ec-a9eabe1db478> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/2a8d70db-20f0-454c-990f-5537c075f8bb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/2c2fba21-021c-49ba-93a4-1f1c459c4679> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/2dc5b51a-0317-44be-a204-22294442c977> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2177632/18cc7cfd-f7ff-40b3-909f-d7c93b0e70c2> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:1856831" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -143,16 +88,296 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy inner ear ; MA:0000237" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/3222f6d3-ecb8-42d9-8bf2-8747f8cb5446> a PR:000035652,
+<http://model.geneontology.org/MGI_MGI_2177632/2940d445-555b-4972-944f-54439c7776a3> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/54ad83aa-a9c2-4a70-8389-951623017ca2> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/366874c2-3b7c-41b6-8931-ff7d83d52b00> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/36da91a4-e9c3-418a-a39f-04429344a40c> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/04504ffc-8276-48f7-9327-1db6428a6616> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-26" ;
+    dct:created "2002-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/35e49213-d508-4089-90e9-e4abc60291ea> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/36fd8ca0-4449-4345-92fc-f447b68b7ba1> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856831" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dc:source "PMID:18829740" ;
+    dct:created "2012-12-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy kidney ; MA:0000368" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/37990a2e-e677-4bed-9f10-ec1f739ffa30> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P25233" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence co-immunoprecipitation evidence ; ECO:0000070",
+        "evidence yeast 2-hybrid evidence ; ECO:0000068" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/4034639e-fd06-438d-9e6c-1d305efcee1e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/40c707fe-7ba0-4a30-9825-a38cd6135fce> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/55413cbb-f18e-4553-a609-c93346054415> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/5854b680-7e91-4ebd-a5e8-45525ae87450> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/596fc78b-67d3-49e8-be65-53f523dd9d8d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/5c65f634-e04a-4dbe-a279-5fecf8d1d9a2> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/5dab64e1-bfba-43f4-85fa-4a5a9c2a761b> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/63762da2-c906-49ad-b7cc-6ec41da09748> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/63f61578-5b62-411a-bba3-ad7b498ac82d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2019-01-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/647f44b6-3e77-47a5-9227-5835f3dcfbc4> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-07-26" ;
+    dc:source "PMID:11854326" ;
+    dct:created "2002-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent_cell_line ; CLO:0000019 mCCD",
+        "evidence IF following transfection with reporter tag" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6c974bd8-f3cb-4a8c-b05f-d63d895f3321> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6e5348be-5996-4766-9fa3-43f39b24ce23> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6f217bee-2e9f-4dd6-9a0a-52554b6cdce3> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P25233" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence co-immunoprecipitation evidence ; ECO:0000070",
+        "evidence yeast 2-hybrid evidence ; ECO:0000068" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/72046783-749d-457c-ba01-ad516e601d49> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence cell fractionation data ; ECO:0000004" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/77ad1b6a-417d-474e-a253-efbeff2ba1c1> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/8d5fdc9c-2d66-45ee-b927-050d0442b898> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/7ebe2b82-72e5-4a81-b476-32441bd9c487> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/81283fe8-7099-4049-b8fb-55d591e65257> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 IMCD ; ATCC:0000026",
+        "comparison of localization in IMCD cells transfected with either wt Cys1 or one of two mutant forms lacking the myristoylation site: delta 1-20 and G2A",
+        "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/85eb8e17-61e5-47ac-afc9-6c866b83837c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856831" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:1952600" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy inner ear ; MA:0000237" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/97517053-40c7-449a-a3c6-644370fb04ed> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/9f907760-f94d-41f1-895b-f88bf9c30e1f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856831" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dc:source "PMID:1952600" ;
+    dct:created "2012-12-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy inner ear ; MA:0000237" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a06334c7-f6b2-46ab-a22d-409a8fc26f1f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:1856831" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dc:source "PMID:18829740" ;
+    dct:created "2012-12-26" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy kidney ; MA:0000368" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a480372f-8349-4206-8d7d-0449e86f4a99> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a8ca28c7-1930-401c-b48c-c674a827a09d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/b006a774-3cb1-4031-8f71-d4861f37ce2d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/b361a522-ea13-4b2f-ad99-393215bd691f> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0001-9990-8331" ;
@@ -165,28 +390,26 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence in vitro culture assay evidence ; ECO:0000182",
         "only minor staining seen compared to that in the cilium axoneme" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/4d6561e7-1a77-47c2-8304-48a7aa294167> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/b4e4c638-2c22-4505-92df-d5ac98a2c4a7> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
+    dc:date "2012-12-20" ;
+    dc:source "PMID:19850956" ;
+    dct:created "2012-12-20" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/52ab41ac-939a-4873-afe6-e17feed3345f> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/badb5324-02d8-4b00-b3c1-40992a28a791> a MGI:MGI:2177632,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/8d868616-c71b-44db-b4b7-22c04c8fc94a> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/138ca6e0-5b0d-4e2b-958f-b43da061048e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2013-12-17" ;
     dct:created "2004-12-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/556fdeaf-c368-4970-a716-aacfd62043af> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/bc49f13a-3003-49b2-af98-2b5efcf20842> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
@@ -196,66 +419,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
         "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/5b52f6e8-8f4a-4033-91de-b3a7f456e94d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/5c982bb1-2df0-4751-8da3-2821c60367b2> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856831" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:1952600" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy inner ear ; MA:0000237" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/6773eba6-3f05-441f-938b-f8df3e8dd14f> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P25233" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence co-immunoprecipitation evidence ; ECO:0000070",
-        "evidence yeast 2-hybrid evidence ; ECO:0000068" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/6cdf2229-d4d2-4e9f-8823-e6979ddb224c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/6f709e04-96bb-42b0-aead-854d883aecf2> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/ad0249d7-234d-4793-813b-5503922b30a6> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/774ab6ec-3158-48b8-9a67-6c2551ae908d> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence cell fractionation data ; ECO:0000004" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/7b1395cf-3faf-42e4-bd2b-324b8bae3d32> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/c3f99547-a73b-440a-98a1-281c08127877> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-2689-5511" ;
@@ -264,96 +428,53 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2015-04-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/7e47df48-3a31-4a1d-9621-a763f9e06acf> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/ca6556df-b39b-481d-8ab6-77d2a05df2c2> a MGI:MGI:2177632,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/7ed380c2-bcb3-40d9-8b20-02ae52e56c6c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/81d28afb-1d8c-426d-893a-6f9a6184db56> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/8900d860-429e-4186-a358-766b1177c572> a ECO:0000314,
-        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/39609fec-3e41-4b9d-88c4-56d561be97e8> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
     dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/8dbebcf9-9f09-43e5-b4da-361f3cf6a85f> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P25233" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence co-immunoprecipitation evidence ; ECO:0000070",
-        "evidence yeast 2-hybrid evidence ; ECO:0000068" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/9805a8f2-d1d3-496d-b32d-254588c68a5f> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/9906ed6a-9ca2-4693-8484-ebd16da65690> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/9aba3e55-ae7d-4946-8f3e-a55ed9a6b6f0> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/9b224f60-aa02-4eb9-8ba1-7b0f621996d0> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/5546f1ff-7b51-4e56-897e-cc8307f2a6e5> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/9ec0eee7-e836-4395-ac54-84fa37af7daa> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/cb58c73f-e774-474f-89f5-7b03b1c4a9df> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/4462aa18-a8dd-4017-9134-5b4346f63131> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/d22e8628-04bc-4f2d-97a4-a2d865867868> a PR:000035652,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/3e1c9c09-ba69-448d-a132-90dcfaf0457e> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/d2bab6b0-534d-47cd-8a65-db583dd5b0c3> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
+        "evidence fractionation evidence ; ECO:0000100" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/d8f71d9c-fee9-4e8d-822d-6603098fbdda> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/69f0e6e9-d5fc-40af-b0f0-4a271b64cb97> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/da366945-bec9-433f-8ecb-4d056685a23c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
@@ -364,7 +485,38 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type IMCD ; ATCC:CRL-2123",
         "evidence in vitro transcription assay evidence ; ECO:0001071" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/a27c52a7-878e-484e-bb17-3355b0bfe7ff> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/dcdcc4b9-b3c0-4fe2-828e-cf50fe9f0a90> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/dd755866-9ee9-40a5-8869-96550e28f76a> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dc:source "PMID:24349431" ;
+    dct:created "2015-04-24" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "P1 promoter of Myc gene",
+        "cell type IMCD ; ATCC:CRL-2123",
+        "evidence in vitro transcription assay evidence ; ECO:0001071" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/e493e69c-20fb-41f4-98d1-4dfb2ada8c7b> a PR:000035652,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/1c173063-7863-4ecd-a94e-082097d651cc> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/ec1dd173-0a59-493d-b702-9d1ff60cd894> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
@@ -374,7 +526,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
         "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/a48af26f-1850-4b1f-81d9-858d3c201536> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_2177632/f3ad7eec-5967-43cb-85c2-ae1d2371bf57> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:1856831" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -384,593 +536,441 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy kidney ; MA:0000368" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/aabce68f-66de-4c6e-a2a9-4e9f4c92392d> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/f88fcb0c-b629-44fa-8c84-12b4ef4b0767> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
+    dct:created "2015-04-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "P1 promoter of Myc gene",
         "cell type IMCD ; ATCC:CRL-2123",
         "evidence in vitro transcription assay evidence ; ECO:0001071" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/ab697f25-c681-48e4-bf7c-df35904f1f8b> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/04504ffc-8276-48f7-9327-1db6428a6616> a GO:0005930,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/9facc7a2-7885-4e6e-9fb5-54d12f3403e6> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/b9257280-2869-482f-bbdf-da8f40075815> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/d07d99a1-668d-4e9e-8aa8-5f58227f4a74> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-26" ;
     dct:created "2002-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/bcfce2ce-4827-4cca-8c58-891bf6d27041> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2177632/0505b366-bdc6-456c-b1a4-aa57bc3b1ca9> a GO:0003674,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/c2f86588-d2e5-452a-9bdf-1dcd897c46d0> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/dac95f66-2a0d-412f-bec3-8c7c18be1863> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/db0e8195-c868-4c51-b07e-a14814740c4f> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856831" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dc:source "PMID:18829740" ;
-    dct:created "2012-12-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy kidney ; MA:0000368" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/e26cd426-c540-488b-b057-bc5b2b3f2925> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856831" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dc:source "PMID:18829740" ;
-    dct:created "2012-12-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy kidney ; MA:0000368" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/e6ee59c5-9414-478f-8ead-4e1a0bb1e1f1> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-24" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence fractionation evidence ; ECO:0000100" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/e8fee99c-8af8-43fa-ba90-5b8dcd29a736> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-26" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell ; CLO:0000019 IMCD ; ATCC:0000026",
-        "comparison of localization in IMCD cells transfected with either wt Cys1 or one of two mutant forms lacking the myristoylation site: delta 1-20 and G2A",
-        "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/e953120a-0457-4617-8dfc-46201acc2be1> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:1856831" ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dc:source "PMID:1952600" ;
-    dct:created "2012-12-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy inner ear ; MA:0000237" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/ec6046a7-b3b9-4111-82ec-5c700c3624ce> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_2177632/5506814c-c8c5-4d22-8789-0ba174b9ea7e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/f3fafaaf-6cb3-4e60-a14a-b09f62c2f1ae> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/f74c7718-ff79-447e-a261-e730f1585b2e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dc:source "PMID:19850956" ;
-    dct:created "2012-12-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence analysis ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/f909a47d-aedc-4ff3-a707-b50575a5a32b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type IMCD ; ATCC:CRL-2123",
-        "evidence chromatin immunoprecipitation evidence ; ECO:0000226" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/fa94ee7a-b732-4c15-bb33-582eea64027b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dc:source "PMID:24349431" ;
-    dct:created "2015-04-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "P1 promoter of Myc gene",
-        "cell type IMCD ; ATCC:CRL-2123",
-        "evidence in vitro transcription assay evidence ; ECO:0001071" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0110a593-90f8-4460-8c04-b12d37a7b6d6> a MGI:MGI:97250,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/07251aba-c0b5-483b-a0ba-ff349c661bec> a SO:0000167,
-        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/35f3dfce-53fc-48db-b26e-cacbd050f8eb> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/078d2cfd-5229-4363-b8f6-34adc16b073b> a EMAPA:27782,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0b1e4a5b-9019-419f-ac22-21aeb44c19c3> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/0e69f7c9-ecd7-48d6-a035-ca793812942b> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/0ca52f7a-05b5-4382-adbb-36fc3e712f64> a CL:1001225,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-24" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/1eb5ac58-f442-4457-b6e8-e306bf09708b> a CL:1001225,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/3fbb50cd-7352-4218-8b70-f3f998c4c170> a SO:0000167,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/46d24b00-1a44-4c1e-8323-197a3ddae342> a CL:1001225,
+<http://model.geneontology.org/MGI_MGI_2177632/135cab8e-1669-4383-9f2a-7c1a9dde0c6d> a MGI:MGI:97250,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/508ad4e7-505b-4104-892c-620e492d69aa> a EMAPA:16194,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/54ad83aa-a9c2-4a70-8389-951623017ca2> a GO:0045121,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/58e461f3-f129-4691-ac8f-11363d97a218> a MGI:MGI:97250,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/5cb3be1e-8fc2-42e1-93f8-9c2649cb801e> a CL:1001225,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/5e1e8de3-bbf2-4730-81e3-5181de3c26cd> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/669be495-b9a6-4313-8432-cdd51b662731> a GO:0005930,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/66bdf79d-dd70-44e6-883e-c50b7a516398> a MGI:MGI:97250,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2019-01-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/6c198dbb-5284-4b54-a6ed-bc744fbfcc2c> a PR:P25233,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/77817ff8-d32c-43f0-90d4-dca1b06b9076> a MGI:MGI:2177632,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/89ff7ac9-086a-4c54-806a-a30c753146c5> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/6c198dbb-5284-4b54-a6ed-bc744fbfcc2c> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/0e69f7c9-ecd7-48d6-a035-ca793812942b> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/8bc6d34f-b4a2-42eb-bc79-1ec20355a29c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/a00b6f16-0259-49ed-9507-b053dcdcb3d7> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/75cecb5a-a8ae-4576-b77d-54e72ef9ff81> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/8d868616-c71b-44db-b4b7-22c04c8fc94a> a GO:0036064,
+<http://model.geneontology.org/MGI_MGI_2177632/138ca6e0-5b0d-4e2b-958f-b43da061048e> a GO:0036064,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2013-12-17" ;
     dct:created "2004-12-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/9bce070a-91ed-48ae-9fd1-7b859dadb27d> a GO:0003714,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/66bdf79d-dd70-44e6-883e-c50b7a516398> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/bc10f90e-0714-4fd7-afeb-357ab8ac7a1b> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2019-01-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/a00b6f16-0259-49ed-9507-b053dcdcb3d7> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/176c3bac-4bcb-44e2-a9b3-02fa41a5ea1e> a CL:1001225,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/a0ede04b-1270-451b-bea0-e08182ae2cfc> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/5e1e8de3-bbf2-4730-81e3-5181de3c26cd> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/144d9410-dfcc-4753-ad9a-98dea2daf665> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/a0fecfbf-0e93-472e-97e1-9aca730ebd0c> a EMAPA:17373,
+<http://model.geneontology.org/MGI_MGI_2177632/1c173063-7863-4ecd-a94e-082097d651cc> a GO:0005930,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-26" ;
     dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/a3bc6985-ad1b-47b6-907e-2abd0424e65e> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/318f24f2-7773-45f0-ac2d-752e3d9d1dff> a EMAPA:17373,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/35f3dfce-53fc-48db-b26e-cacbd050f8eb> a MGI:MGI:2177632,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/a7f8bc78-956d-4e30-b40e-a2acef8d4f08> a CL:1001225,
+<http://model.geneontology.org/MGI_MGI_2177632/3d39a990-9976-45a3-9b6b-23d694806183> a SO:0000167,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
+    dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/aca62913-703d-4fc6-97d5-14ef05fdfdf8> a EMAPA:18976,
+<http://model.geneontology.org/MGI_MGI_2177632/3e1c9c09-ba69-448d-a132-90dcfaf0457e> a GO:0045121,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/b898838d-da78-4ee4-bffe-f0b29eaec305> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_2177632/3f318514-278f-4920-92a9-ad8d8c802e14> a MGI:MGI:2177632,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/0b1e4a5b-9019-419f-ac22-21aeb44c19c3> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/bc10f90e-0714-4fd7-afeb-357ab8ac7a1b> a MGI:MGI:2177632,
+<http://model.geneontology.org/MGI_MGI_2177632/4a33dbb0-37c1-4be1-b9e2-432e737ac20c> a SO:0000167,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/4f018664-e279-4ec7-9874-6935739a854e> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/527cbd30-1bd0-4e5f-896c-f0d67691d1f6> a CL:1001225,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/56e8807e-7ccd-47e9-9fe9-08a3f14f2197> a CL:1001225,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6090a4f2-cae5-4137-a676-fb7f497aad97> a SO:0000167,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/60fe1a1d-3814-440d-8725-b22d02dc026a> a EMAPA:27782,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6291ab1e-f871-479a-9b10-9a9f76ef94dc> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/6d23d417-7a45-47ba-8248-e3ced35fb24e> a MGI:MGI:97250,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/77bec133-5f58-416f-adca-4770129db476> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/80bfef20-852d-4735-896b-c012c3dc5301> a GO:0003714,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/d36fbe10-50e5-4a74-aa9f-4f5a04df78ce> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/d8dc272a-16e8-4529-b3ab-cf03abcf600c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2019-01-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/89a59020-196a-456d-9203-e3f51ec22e21> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/a55fcd9a-ca52-4f36-ab12-c0e6a8598e8d> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/c2bcaefb-f6c8-430b-a00d-a8445d97d1c6> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/9db78e75-f600-4cee-ab4e-04c74af36df6> a EMAPA:16194,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/9ee6f5de-b152-4c06-8288-e184acb17a17> a UniProtKB:P25233,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a0dba9d4-5437-4f25-9503-49e6d298df86> a CL:1001225,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a5315b3b-9375-4876-9489-61eea3846b7c> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/3f318514-278f-4920-92a9-ad8d8c802e14> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/a55fcd9a-ca52-4f36-ab12-c0e6a8598e8d> a PR:P25233,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/c2bcaefb-f6c8-430b-a00d-a8445d97d1c6> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/c506d6aa-9f51-41ab-b1a5-33a4f282a5b4> a EMAPA:18976,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/d36fbe10-50e5-4a74-aa9f-4f5a04df78ce> a MGI:MGI:97250,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2019-01-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/c077083c-67d6-4a6e-98f1-1c9854accb75> a MGI:MGI:97250,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/cfb6b1ab-270b-43d4-a578-9b2cfe94fe05> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/77817ff8-d32c-43f0-90d4-dca1b06b9076> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/d07d99a1-668d-4e9e-8aa8-5f58227f4a74> a GO:0005930,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-07-26" ;
-    dct:created "2002-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/d847b282-4eee-4b65-b065-c3b53dc9123e> a CL:1001225,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/dc21bef8-1630-409f-8bc4-a336a909feb3> a UniProtKB:P25233,
+<http://model.geneontology.org/MGI_MGI_2177632/d3724181-5812-4bc6-8b1e-504b27297414> a MGI:MGI:97250,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/e5d799a5-f127-4b0c-a2e8-5df060ae46c5> a CL:1001225,
+<http://model.geneontology.org/MGI_MGI_2177632/d44ba856-e44c-4344-bb29-82db8e616a0e> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/77bec133-5f58-416f-adca-4770129db476> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/e424236b-b3dc-4ca1-922f-61fda1404d91> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/fcfa1b66-7105-48de-8069-149f323556aa> a SO:0000167,
+<http://model.geneontology.org/MGI_MGI_2177632/d8dc272a-16e8-4529-b3ab-cf03abcf600c> a MGI:MGI:2177632,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2019-01-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/f48cf8d6-68c3-4441-9a37-78ebee37e211> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/6291ab1e-f871-479a-9b10-9a9f76ef94dc> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2177632/9521568d-5320-473f-9f80-14f072e89d34> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/fa2235a8-820d-4e6d-9f16-8cf369fa0efd> a CL:1001225,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002296 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2177632/0bde7da1-9cac-4d7e-8165-a75dc1e5a9f4> a CL:1000494,
+<http://model.geneontology.org/MGI_MGI_2177632/39609fec-3e41-4b9d-88c4-56d561be97e8> a GO:0005930,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/078d2cfd-5229-4363-b8f6-34adc16b073b> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/e7d89952-aa66-459a-8767-141af7fd8cc9> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/144d9410-dfcc-4753-ad9a-98dea2daf665> a GO:0001822,
+<http://model.geneontology.org/MGI_MGI_2177632/4462aa18-a8dd-4017-9134-5b4346f63131> a GO:0005634,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2177632/a0fecfbf-0e93-472e-97e1-9aca730ebd0c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/33fdd403-f2bb-4469-b211-206bf441f4a5> a GO:0005930,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/0bde7da1-9cac-4d7e-8165-a75dc1e5a9f4> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2177632/5506814c-c8c5-4d22-8789-0ba174b9ea7e> a GO:0016020,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/a7f8bc78-956d-4e30-b40e-a2acef8d4f08> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/0ca52f7a-05b5-4382-adbb-36fc3e712f64> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-24" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/5546f1ff-7b51-4e56-897e-cc8307f2a6e5> a GO:0005829,
+<http://model.geneontology.org/MGI_MGI_2177632/69f0e6e9-d5fc-40af-b0f0-4a271b64cb97> a GO:0016020,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/e5d799a5-f127-4b0c-a2e8-5df060ae46c5> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/527cbd30-1bd0-4e5f-896c-f0d67691d1f6> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-24" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/75cecb5a-a8ae-4576-b77d-54e72ef9ff81> a GO:0048839,
+<http://model.geneontology.org/MGI_MGI_2177632/8d5fdc9c-2d66-45ee-b927-050d0442b898> a GO:0005829,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2177632/508ad4e7-505b-4104-892c-620e492d69aa> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/56e8807e-7ccd-47e9-9fe9-08a3f14f2197> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/9521568d-5320-473f-9f80-14f072e89d34> a GO:0048839,
+        owl:NamedIndividual ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2177632/9db78e75-f600-4cee-ab4e-04c74af36df6> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-19" ;
     dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/8ba06722-be2c-495e-bee9-8607a42f407b> a CL:1000494,
+<http://model.geneontology.org/MGI_MGI_2177632/b575b16d-ce6b-4da5-b63d-ec44ca4e2775> a CL:1000494,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/aca62913-703d-4fc6-97d5-14ef05fdfdf8> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/60fe1a1d-3814-440d-8725-b22d02dc026a> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/9facc7a2-7885-4e6e-9fb5-54d12f3403e6> a GO:0005930,
+<http://model.geneontology.org/MGI_MGI_2177632/befcb1f9-2d36-4a5e-970e-0f0be2091ea8> a GO:0005930,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/8ba06722-be2c-495e-bee9-8607a42f407b> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/b575b16d-ce6b-4da5-b63d-ec44ca4e2775> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/ad0249d7-234d-4793-813b-5503922b30a6> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_2177632/e424236b-b3dc-4ca1-922f-61fda1404d91> a GO:0001822,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/5cb3be1e-8fc2-42e1-93f8-9c2649cb801e> ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_2177632/318f24f2-7773-45f0-ac2d-752e3d9d1dff> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2177632/e7d89952-aa66-459a-8767-141af7fd8cc9> a CL:1000494,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_2177632/c506d6aa-9f51-41ab-b1a5-33a4f282a5b4> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2177632/41398134-726a-4492-9a9e-e27616effcbc> a GO:0003682,
+<http://model.geneontology.org/MGI_MGI_2177632/461916cc-7c89-4919-8438-4466c753009f> a GO:0003682,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/46d24b00-1a44-4c1e-8323-197a3ddae342> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/07251aba-c0b5-483b-a0ba-ff349c661bec>,
-        <http://model.geneontology.org/MGI_MGI_2177632/58e461f3-f129-4691-ac8f-11363d97a218> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/a3bc6985-ad1b-47b6-907e-2abd0424e65e> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/a0dba9d4-5437-4f25-9503-49e6d298df86> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/135cab8e-1669-4383-9f2a-7c1a9dde0c6d>,
+        <http://model.geneontology.org/MGI_MGI_2177632/6090a4f2-cae5-4137-a676-fb7f497aad97> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2177632/4f018664-e279-4ec7-9874-6935739a854e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> a GO:0045944,
+<http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> a GO:0045944,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/d847b282-4eee-4b65-b065-c3b53dc9123e> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/c077083c-67d6-4a6e-98f1-1c9854accb75>,
-        <http://model.geneontology.org/MGI_MGI_2177632/fcfa1b66-7105-48de-8069-149f323556aa> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/fa2235a8-820d-4e6d-9f16-8cf369fa0efd> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/4a33dbb0-37c1-4be1-b9e2-432e737ac20c>,
+        <http://model.geneontology.org/MGI_MGI_2177632/6d23d417-7a45-47ba-8248-e3ced35fb24e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> a GO:0043433,
+<http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> a GO:0043433,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/1eb5ac58-f442-4457-b6e8-e306bf09708b> ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/0110a593-90f8-4460-8c04-b12d37a7b6d6>,
-        <http://model.geneontology.org/MGI_MGI_2177632/3fbb50cd-7352-4218-8b70-f3f998c4c170>,
-        <http://model.geneontology.org/MGI_MGI_2177632/dc21bef8-1630-409f-8bc4-a336a909feb3> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_2177632/176c3bac-4bcb-44e2-a9b3-02fa41a5ea1e> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_2177632/3d39a990-9976-45a3-9b6b-23d694806183>,
+        <http://model.geneontology.org/MGI_MGI_2177632/9ee6f5de-b152-4c06-8288-e184acb17a17>,
+        <http://model.geneontology.org/MGI_MGI_2177632/d3724181-5812-4bc6-8b1e-504b27297414> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -982,497 +982,497 @@ obo:RO_0001025 a owl:ObjectProperty .
 obo:RO_0002233 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/c2f86588-d2e5-452a-9bdf-1dcd897c46d0> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/b898838d-da78-4ee4-bffe-f0b29eaec305> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/0c5b479c-551f-4593-a237-d899ce47ad73> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/c077083c-67d6-4a6e-98f1-1c9854accb75> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/774ab6ec-3158-48b8-9a67-6c2551ae908d> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:000035652  RO:0001025 GO:0045121 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI  creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence cell fractionation data ; ECO:0000004|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/3222f6d3-ecb8-42d9-8bf2-8747f8cb5446> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/54ad83aa-a9c2-4a70-8389-951623017ca2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/9aba3e55-ae7d-4946-8f3e-a55ed9a6b6f0> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0016020 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/5506814c-c8c5-4d22-8789-0ba174b9ea7e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a7f8bc78-956d-4e30-b40e-a2acef8d4f08> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/a27c52a7-878e-484e-bb17-3355b0bfe7ff> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/41398134-726a-4492-9a9e-e27616effcbc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a3bc6985-ad1b-47b6-907e-2abd0424e65e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/7e47df48-3a31-4a1d-9621-a763f9e06acf> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/41398134-726a-4492-9a9e-e27616effcbc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/58e461f3-f129-4691-ac8f-11363d97a218> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/5c982bb1-2df0-4751-8da3-2821c60367b2> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/8bc6d34f-b4a2-42eb-bc79-1ec20355a29c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/75cecb5a-a8ae-4576-b77d-54e72ef9ff81> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/9805a8f2-d1d3-496d-b32d-254588c68a5f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/0d1d3121-2ccd-4bab-a39f-a2f506d2e597> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/33fdd403-f2bb-4469-b211-206bf441f4a5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/9906ed6a-9ca2-4693-8484-ebd16da65690> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005829 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/5546f1ff-7b51-4e56-897e-cc8307f2a6e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/e5d799a5-f127-4b0c-a2e8-5df060ae46c5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/0d0449ac-3bb8-4556-93c4-c119f01df6c0> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/647f44b6-3e77-47a5-9227-5835f3dcfbc4> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-07-26" ;
     dct:created "2002-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:2158985|PMID:11854326 ECO:0000314   2006-07-26 MGI  creation-date=2002-03-14|modification-date=2006-07-26|comment=cell type permanent_cell_line ; CLO:0000019 mCCD|comment=evidence IF following transfection with reporter tag|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/b9257280-2869-482f-bbdf-da8f40075815> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/d07d99a1-668d-4e9e-8aa8-5f58227f4a74> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/36da91a4-e9c3-418a-a39f-04429344a40c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/04504ffc-8276-48f7-9327-1db6428a6616> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/2dc5b51a-0317-44be-a204-22294442c977> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/2940d445-555b-4972-944f-54439c7776a3> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/8bc6d34f-b4a2-42eb-bc79-1ec20355a29c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a00b6f16-0259-49ed-9507-b053dcdcb3d7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/8dbebcf9-9f09-43e5-b4da-361f3cf6a85f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
+    dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0005515 MGI:MGI:5574157|PMID:24349431 ECO:0000353 PR:P25233  2015-04-24 MGI  creation-date=2015-04-24|modification-date=2015-04-24|comment=evidence co-immunoprecipitation evidence ; ECO:0000070|comment=evidence yeast 2-hybrid evidence ; ECO:0000068|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/89ff7ac9-086a-4c54-806a-a30c753146c5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/6c198dbb-5284-4b54-a6ed-bc744fbfcc2c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/3d39a990-9976-45a3-9b6b-23d694806183> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/8900d860-429e-4186-a358-766b1177c572> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/b006a774-3cb1-4031-8f71-d4861f37ce2d> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/8ba06722-be2c-495e-bee9-8607a42f407b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/aca62913-703d-4fc6-97d5-14ef05fdfdf8> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/befcb1f9-2d36-4a5e-970e-0f0be2091ea8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/b575b16d-ce6b-4da5-b63d-ec44ca4e2775> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/dac95f66-2a0d-412f-bec3-8c7c18be1863> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cfb6b1ab-270b-43d4-a578-9b2cfe94fe05> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/77817ff8-d32c-43f0-90d4-dca1b06b9076> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/db0e8195-c868-4c51-b07e-a14814740c4f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/144d9410-dfcc-4753-ad9a-98dea2daf665> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a0fecfbf-0e93-472e-97e1-9aca730ebd0c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/aabce68f-66de-4c6e-a2a9-4e9f4c92392d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/dd755866-9ee9-40a5-8869-96550e28f76a> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/9ee6f5de-b152-4c06-8288-e184acb17a17> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/dcdcc4b9-b3c0-4fe2-828e-cf50fe9f0a90> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/b898838d-da78-4ee4-bffe-f0b29eaec305> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/0b1e4a5b-9019-419f-ac22-21aeb44c19c3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/a5315b3b-9375-4876-9489-61eea3846b7c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/3f318514-278f-4920-92a9-ad8d8c802e14> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/556fdeaf-c368-4970-a716-aacfd62043af> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/bc49f13a-3003-49b2-af98-2b5efcf20842> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/41398134-726a-4492-9a9e-e27616effcbc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/07251aba-c0b5-483b-a0ba-ff349c661bec> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/461916cc-7c89-4919-8438-4466c753009f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/4f018664-e279-4ec7-9874-6935739a854e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/81d28afb-1d8c-426d-893a-6f9a6184db56> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/1eb5ac58-f442-4457-b6e8-e306bf09708b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/e6ee59c5-9414-478f-8ead-4e1a0bb1e1f1> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/37990a2e-e677-4bed-9f10-ec1f739ffa30> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-24" ;
     dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005829 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/9b224f60-aa02-4eb9-8ba1-7b0f621996d0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/5546f1ff-7b51-4e56-897e-cc8307f2a6e5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/6773eba6-3f05-441f-938b-f8df3e8dd14f> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0005515 MGI:MGI:5574157|PMID:24349431 ECO:0000353 PR:P25233  2015-04-24 MGI  creation-date=2015-04-24|modification-date=2015-04-24|comment=evidence co-immunoprecipitation evidence ; ECO:0000070|comment=evidence yeast 2-hybrid evidence ; ECO:0000068|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/89ff7ac9-086a-4c54-806a-a30c753146c5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/0e69f7c9-ecd7-48d6-a035-ca793812942b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/a48af26f-1850-4b1f-81d9-858d3c201536> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/a0ede04b-1270-451b-bea0-e08182ae2cfc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/5e1e8de3-bbf2-4730-81e3-5181de3c26cd> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/f74c7718-ff79-447e-a261-e730f1585b2e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/ab697f25-c681-48e4-bf7c-df35904f1f8b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/9facc7a2-7885-4e6e-9fb5-54d12f3403e6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/e8fee99c-8af8-43fa-ba90-5b8dcd29a736> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:000035652  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000315   2012-12-26 MGI  creation-date=2012-12-26|modification-date=2012-12-26|comment=cell type permanent cell line cell ; CLO:0000019 IMCD ; ATCC:0000026|comment=evidence immunofluorescence analysis ; ECO:0000007|comment=comparison of localization in IMCD cells transfected with either wt Cys1 or one of two mutant forms lacking the myristoylation site: delta 1-20 and G2A|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/0e834f9d-2ebc-4dee-873a-f6d6385ecc0e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/669be495-b9a6-4313-8432-cdd51b662731> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/5b52f6e8-8f4a-4033-91de-b3a7f456e94d> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/0110a593-90f8-4460-8c04-b12d37a7b6d6> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/89a59020-196a-456d-9203-e3f51ec22e21> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a55fcd9a-ca52-4f36-ab12-c0e6a8598e8d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/e953120a-0457-4617-8dfc-46201acc2be1> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-19" ;
-    dct:created "2012-12-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/75cecb5a-a8ae-4576-b77d-54e72ef9ff81> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/508ad4e7-505b-4104-892c-620e492d69aa> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/bcfce2ce-4827-4cca-8c58-891bf6d27041> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cfb6b1ab-270b-43d4-a578-9b2cfe94fe05> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/7ed380c2-bcb3-40d9-8b20-02ae52e56c6c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0016020 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/ec6046a7-b3b9-4111-82ec-5c700c3624ce> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/5506814c-c8c5-4d22-8789-0ba174b9ea7e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/2a8d70db-20f0-454c-990f-5537c075f8bb> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005634 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/ad0249d7-234d-4793-813b-5503922b30a6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/5cb3be1e-8fc2-42e1-93f8-9c2649cb801e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/6cdf2229-d4d2-4e9f-8823-e6979ddb224c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/9facc7a2-7885-4e6e-9fb5-54d12f3403e6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/8ba06722-be2c-495e-bee9-8607a42f407b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/0d3fc898-086d-4608-9d42-ff440b7e081a> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2019-01-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003714 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2019-01-28 MGI RO:0002233(MGI:MGI:97250) creation-date=2015-04-28|modification-date=2019-01-28|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/9bce070a-91ed-48ae-9fd1-7b859dadb27d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/bc10f90e-0714-4fd7-afeb-357ab8ac7a1b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/2c2fba21-021c-49ba-93a4-1f1c459c4679> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-20" ;
-    dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/33fdd403-f2bb-4469-b211-206bf441f4a5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/0bde7da1-9cac-4d7e-8165-a75dc1e5a9f4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/19ab27f7-d6f4-46c1-92ec-a9eabe1db478> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-24" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005634 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/6f709e04-96bb-42b0-aead-854d883aecf2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/ad0249d7-234d-4793-813b-5503922b30a6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/7b1395cf-3faf-42e4-bd2b-324b8bae3d32> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2019-01-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003714 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2019-01-28 MGI RO:0002233(MGI:MGI:97250) creation-date=2015-04-28|modification-date=2019-01-28|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/9bce070a-91ed-48ae-9fd1-7b859dadb27d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/66bdf79d-dd70-44e6-883e-c50b7a516398> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/35e49213-d508-4089-90e9-e4abc60291ea> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/b361a522-ea13-4b2f-ad99-393215bd691f> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2013-12-17" ;
     dct:created "2004-12-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0036064 MGI:MGI:2158985|PMID:11854326 ECO:0000314   2013-12-17 MGI  creation-date=2004-12-15|modification-date=2013-12-17|comment=cell type permanent_cell_line ; CLO:0000019 mCCD|comment=evidence immunofluorescence evidence ; ECO:0000007|comment=evidence in vitro culture assay evidence ; ECO:0000182|comment=only minor staining seen compared to that in the cilium axoneme|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/52ab41ac-939a-4873-afe6-e17feed3345f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/8d868616-c71b-44db-b4b7-22c04c8fc94a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/badb5324-02d8-4b00-b3c1-40992a28a791> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/138ca6e0-5b0d-4e2b-958f-b43da061048e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/fa94ee7a-b732-4c15-bb33-582eea64027b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/596fc78b-67d3-49e8-be65-53f523dd9d8d> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
     dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/d847b282-4eee-4b65-b065-c3b53dc9123e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/4d6561e7-1a77-47c2-8304-48a7aa294167> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/3fbb50cd-7352-4218-8b70-f3f998c4c170> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/e26cd426-c540-488b-b057-bc5b2b3f2925> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-26" ;
-    dct:created "2012-12-26" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/a0ede04b-1270-451b-bea0-e08182ae2cfc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/144d9410-dfcc-4753-ad9a-98dea2daf665> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/f909a47d-aedc-4ff3-a707-b50575a5a32b> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/41398134-726a-4492-9a9e-e27616effcbc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/46d24b00-1a44-4c1e-8323-197a3ddae342> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/f3fafaaf-6cb3-4e60-a14a-b09f62c2f1ae> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2015-04-28" ;
-    dct:created "2015-04-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/36923324-cb5b-49dc-9b53-99cc5b44b563> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/fcfa1b66-7105-48de-8069-149f323556aa> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/4a33dbb0-37c1-4be1-b9e2-432e737ac20c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/9ec0eee7-e836-4395-ac54-84fa37af7daa> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/f88fcb0c-b629-44fa-8c84-12b4ef4b0767> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2015-04-28" ;
-    dct:created "2015-04-24" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/bec272aa-c172-40a5-827a-821c402255ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/dc21bef8-1630-409f-8bc4-a336a909feb3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/6d23d417-7a45-47ba-8248-e3ced35fb24e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/0e3e62a2-a947-4dee-8528-ebb81d1111d0> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/4034639e-fd06-438d-9e6c-1d305efcee1e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-20" ;
     dct:created "2012-12-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/ca6556df-b39b-481d-8ab6-77d2a05df2c2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/39609fec-3e41-4b9d-88c4-56d561be97e8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/ec1dd173-0a59-493d-b702-9d1ff60cd894> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/461916cc-7c89-4919-8438-4466c753009f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/6090a4f2-cae5-4137-a676-fb7f497aad97> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/9f907760-f94d-41f1-895b-f88bf9c30e1f> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/f48cf8d6-68c3-4441-9a37-78ebee37e211> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/9521568d-5320-473f-9f80-14f072e89d34> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/6e5348be-5996-4766-9fa3-43f39b24ce23> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0016020 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/d8f71d9c-fee9-4e8d-822d-6603098fbdda> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/69f0e6e9-d5fc-40af-b0f0-4a271b64cb97> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/165c4f3d-1320-4284-aaf7-6111d93d79ba> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/0505b366-bdc6-456c-b1a4-aa57bc3b1ca9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/55413cbb-f18e-4553-a609-c93346054415> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/461916cc-7c89-4919-8438-4466c753009f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/a0dba9d4-5437-4f25-9503-49e6d298df86> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/18cc7cfd-f7ff-40b3-909f-d7c93b0e70c2> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002296 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/9521568d-5320-473f-9f80-14f072e89d34> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/9db78e75-f600-4cee-ab4e-04c74af36df6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/b4e4c638-2c22-4505-92df-d5ac98a2c4a7> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/0bde7da1-9cac-4d7e-8165-a75dc1e5a9f4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/078d2cfd-5229-4363-b8f6-34adc16b073b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/39609fec-3e41-4b9d-88c4-56d561be97e8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/e7d89952-aa66-459a-8767-141af7fd8cc9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/5c65f634-e04a-4dbe-a279-5fecf8d1d9a2> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/e7d89952-aa66-459a-8767-141af7fd8cc9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/c506d6aa-9f51-41ab-b1a5-33a4f282a5b4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/a06334c7-f6b2-46ab-a22d-409a8fc26f1f> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/d44ba856-e44c-4344-bb29-82db8e616a0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/e424236b-b3dc-4ca1-922f-61fda1404d91> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/7ebe2b82-72e5-4a81-b476-32441bd9c487> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005829 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/77ad1b6a-417d-474e-a253-efbeff2ba1c1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/8d5fdc9c-2d66-45ee-b927-050d0442b898> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/d2bab6b0-534d-47cd-8a65-db583dd5b0c3> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005634 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cb58c73f-e774-474f-89f5-7b03b1c4a9df> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/4462aa18-a8dd-4017-9134-5b4346f63131> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/40c707fe-7ba0-4a30-9825-a38cd6135fce> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/0505b366-bdc6-456c-b1a4-aa57bc3b1ca9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/35f3dfce-53fc-48db-b26e-cacbd050f8eb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/85eb8e17-61e5-47ac-afc9-6c866b83837c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-19" ;
+    dct:created "2012-12-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0048839 MGI:MGI:49533|PMID:1952600 ECO:0000315 MGI:MGI:1856831  2012-12-19 MGI RO:0002296(EMAPA:16194) creation-date=2012-12-19|modification-date=2012-12-19|comment=anatomy inner ear ; MA:0000237|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/f48cf8d6-68c3-4441-9a37-78ebee37e211> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/6291ab1e-f871-479a-9b10-9a9f76ef94dc> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/97517053-40c7-449a-a3c6-644370fb04ed> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003682 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence chromatin immunoprecipitation evidence ; ECO:0000226|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/461916cc-7c89-4919-8438-4466c753009f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/135cab8e-1669-4383-9f2a-7c1a9dde0c6d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/a8ca28c7-1930-401c-b48c-c674a827a09d> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/b575b16d-ce6b-4da5-b63d-ec44ca4e2775> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/60fe1a1d-3814-440d-8725-b22d02dc026a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/a480372f-8349-4206-8d7d-0449e86f4a99> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0016020 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/69f0e6e9-d5fc-40af-b0f0-4a271b64cb97> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/527cbd30-1bd0-4e5f-896c-f0d67691d1f6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/366874c2-3b7c-41b6-8931-ff7d83d52b00> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/176c3bac-4bcb-44e2-a9b3-02fa41a5ea1e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/da366945-bec9-433f-8ecb-4d056685a23c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/d3724181-5812-4bc6-8b1e-504b27297414> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/5dab64e1-bfba-43f4-85fa-4a5a9c2a761b> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005634 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/4462aa18-a8dd-4017-9134-5b4346f63131> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/0ca52f7a-05b5-4382-adbb-36fc3e712f64> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/0cdaaea9-fd6b-4610-b9f3-174ccd8dba32> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0045944 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167) creation-date=2015-04-28|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/cf97fb81-01f5-45b4-a80d-a9104c85c49e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/fa2235a8-820d-4e6d-9f16-8cf369fa0efd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/63762da2-c906-49ad-b7cc-6ec41da09748> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-28" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0043433 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-28 MGI BFO:0000066(CL:1001225),RO:0002233(MGI:MGI:97250),RO:0002233(SO:0000167),RO:0002233(UniProtKB:P25233) creation-date=2015-04-24|modification-date=2015-04-28|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence in vitro transcription assay evidence ; ECO:0001071|comment=P1 promoter of Myc gene|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/a5315b3b-9375-4876-9489-61eea3846b7c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/147cf91e-e8ed-4239-9563-3dd508d90401> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/f3ad7eec-5967-43cb-85c2-ae1d2371bf57> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002296 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/e424236b-b3dc-4ca1-922f-61fda1404d91> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/318f24f2-7773-45f0-ac2d-752e3d9d1dff> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/81283fe8-7099-4049-b8fb-55d591e65257> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:000035652  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000315   2012-12-26 MGI  creation-date=2012-12-26|modification-date=2012-12-26|comment=cell type permanent cell line cell ; CLO:0000019 IMCD ; ATCC:0000026|comment=evidence immunofluorescence analysis ; ECO:0000007|comment=comparison of localization in IMCD cells transfected with either wt Cys1 or one of two mutant forms lacking the myristoylation site: delta 1-20 and G2A|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/e493e69c-20fb-41f4-98d1-4dfb2ada8c7b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/1c173063-7863-4ecd-a94e-082097d651cc> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/72046783-749d-457c-ba01-ad516e601d49> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:000035652  RO:0001025 GO:0045121 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI  creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence cell fractionation data ; ECO:0000004|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/d22e8628-04bc-4f2d-97a4-a2d865867868> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/3e1c9c09-ba69-448d-a132-90dcfaf0457e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/6f217bee-2e9f-4dd6-9a0a-52554b6cdce3> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0005515 MGI:MGI:5574157|PMID:24349431 ECO:0000353 PR:P25233  2015-04-24 MGI  creation-date=2015-04-24|modification-date=2015-04-24|comment=evidence co-immunoprecipitation evidence ; ECO:0000070|comment=evidence yeast 2-hybrid evidence ; ECO:0000068|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/89a59020-196a-456d-9203-e3f51ec22e21> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/c2bcaefb-f6c8-430b-a00d-a8445d97d1c6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/36fd8ca0-4449-4345-92fc-f447b68b7ba1> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-26" ;
+    dct:created "2012-12-26" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002264 GO:0001822 MGI:MGI:3822216|PMID:18829740 ECO:0000315 MGI:MGI:1856831  2012-12-26 MGI RO:0002296(EMAPA:17373) creation-date=2012-12-26|modification-date=2012-12-26|comment=anatomy kidney ; MA:0000368|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/d44ba856-e44c-4344-bb29-82db8e616a0e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/77bec133-5f58-416f-adca-4770129db476> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/c3f99547-a73b-440a-98a1-281c08127877> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2019-01-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003714 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2019-01-28 MGI RO:0002233(MGI:MGI:97250) creation-date=2015-04-28|modification-date=2019-01-28|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/80bfef20-852d-4735-896b-c012c3dc5301> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/d36fbe10-50e5-4a74-aa9f-4f5a04df78ce> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/6c974bd8-f3cb-4a8c-b05f-d63d895f3321> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2015-04-24" ;
+    dct:created "2015-04-24" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005829 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2015-04-24 MGI BFO:0000050(CL:1001225) creation-date=2015-04-24|modification-date=2015-04-24|comment=cell type IMCD ; ATCC:CRL-2123|comment=evidence fractionation evidence ; ECO:0000100|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/8d5fdc9c-2d66-45ee-b927-050d0442b898> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/56e8807e-7ccd-47e9-9fe9-08a3f14f2197> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/5854b680-7e91-4ebd-a5e8-45525ae87450> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-20" ;
+    dct:created "2012-12-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0001025 GO:0005930 MGI:MGI:4461844|PMID:19850956 ECO:0000314   2012-12-20 MGI BFO:0000050(CL:1000494),BFO:0000050(EMAPA:18976)|BFO:0000050(CL:1000494),BFO:0000050(EMAPA:27782) creation-date=2012-12-20|modification-date=2012-12-20|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/02c37916-bbab-410d-a464-8e795cce5131> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/befcb1f9-2d36-4a5e-970e-0f0be2091ea8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2177632/63f61578-5b62-411a-bba3-ad7b498ac82d> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2019-01-28" ;
+    dct:created "2015-04-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2177632  RO:0002327 GO:0003714 MGI:MGI:5574157|PMID:24349431 ECO:0000314   2019-01-28 MGI RO:0002233(MGI:MGI:97250) creation-date=2015-04-28|modification-date=2019-01-28|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2177632/80bfef20-852d-4735-896b-c012c3dc5301> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2177632/d8dc272a-16e8-4529-b3ab-cf03abcf600c> .
 

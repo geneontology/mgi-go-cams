@@ -39,233 +39,89 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2011-02-03" ;
     dc:title "Il11 (MGI:MGI:107613)" ;
     dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_107613> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_107613/0bde27e0-af76-49b2-a3a9-6da0d3826199> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_107613/02d06b00-4138-4a4c-b87a-1a8d1c6d5b86> a MGI:MGI:107613,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/119d01dc-6c29-410f-a92e-dc6d70e053ac> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence pp90rsk activity assay",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/29cce12e-1180-44b9-b2ba-defe78c8036e> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence northern blot",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/2a89377d-aad3-41e4-9b2a-26e4cc1e9fcf> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/2e21cf4f-2b39-4f70-8db5-c2b0ad955551> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence northern blot",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/3713c042-9c23-44e0-a884-c39129508569> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-02-03" ;
-    dc:source "PMID:11737071" ;
-    dct:created "2011-02-03" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000386 ; placenta",
-        "columns of the labyrinth",
-        "evidence ECO:0000040 ; inferred from immunological assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/417509e4-48d5-446a-9652-df6a6eceb972> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2007-05-08" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2007-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy placenta ; MA:0000386",
-        "cell type primary cell line cell ; CL:0000001",
-        "external ref PMID:7867561 IDA",
-        "target Ghrh ; MGI:95709" .
-
-<http://model.geneontology.org/MGI_MGI_107613/4e57ad07-a16f-411b-a4d7-e7c2e567ec22> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence IB",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/586e7040-0bfb-4dd6-be11-b30d26c3ae17> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence IB",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/62e001a2-2260-4019-8679-7a438a1e64e8> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-02-03" ;
-    dc:source "PMID:11737071" ;
-    dct:created "2011-02-03" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000386 ; placenta",
-        "columns of the labyrinth",
-        "evidence ECO:0000040 ; inferred from immunological assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/913ece07-98f4-4735-a7f1-029fd2eec10b> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q64385" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence Scatchard analysis" .
-
-<http://model.geneontology.org/MGI_MGI_107613/9b33bb65-dfd3-41a4-a9d6-03bbb181dfef> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/9b531ba8-d304-4d30-b96a-53a164441b61> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-02-28" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
-        "evidence MAPK activity assays",
-        "external ref PMID:7508917 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_107613/a107f0bb-d251-4230-a645-99bd7bc49491> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q64385" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence Scatchard analysis" .
-
-<http://model.geneontology.org/MGI_MGI_107613/b6e16da0-0b13-49e3-80f0-a207c3a94421> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/c12803fd-8bf2-444a-bc99-4ecd1e0b5636> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/cd11815c-72f7-4d05-8048-a0c1d5b09fc1> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dc:source "PMID:7957045" ;
-    dct:created "2008-02-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
-        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
-        "evidence cell proliferation assay" .
-
-<http://model.geneontology.org/MGI_MGI_107613/d39712d8-35fe-4759-9ff3-b2fb5b75434d> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:P20809" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2007-05-08" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2007-05-08" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy placenta ; MA:0000386",
-        "cell type primary cell line cell ; CL:0000001",
-        "external ref PMID:7867561 IDA",
-        "target Ghrh ; MGI:95709" .
-
-<http://model.geneontology.org/MGI_MGI_107613/d860d9b9-0d55-4be2-98f4-b2ba6a5cefb8> a MGI:MGI:107613,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107613/6f1826ff-51e9-41c4-aa6b-8cf94289531f> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107613/5ce1cc1c-aa56-4ca1-8e7b-d71deca043fe> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-02-03" ;
     dct:created "2011-02-03" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/d8a51122-7f4e-4b56-b84c-faf78feafca9> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_107613/06e6ef7e-0a4a-4981-a735-2ec528de6017> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/09b5d6a4-6640-4fa0-afad-16f5608e8b09> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/0d2e9918-193a-4848-8c22-f6e6982252ed> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q64385" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence Scatchard analysis" .
+
+<http://model.geneontology.org/MGI_MGI_107613/14f0be88-70fe-4c9d-9e58-e0c7b0223c14> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence IB",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/196536e9-18f9-4e9b-9c5d-55a567c08952> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q64385" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence Scatchard analysis" .
+
+<http://model.geneontology.org/MGI_MGI_107613/272e8257-d78f-4967-afec-78a5d7eada8e> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2007-05-08" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2007-05-08" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy placenta ; MA:0000386",
+        "cell type primary cell line cell ; CL:0000001",
+        "external ref PMID:7867561 IDA",
+        "target Ghrh ; MGI:95709" .
+
+<http://model.geneontology.org/MGI_MGI_107613/30cd4067-ed85-4359-a844-4562b588ebb1> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:P20809" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -278,7 +134,57 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence pp90rsk activity assay",
         "external ref PMID:7508917 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_107613/f7b6d246-7a10-46f1-9934-fabc0117ba9e> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_107613/330971ab-23e8-40c3-9f8e-238878183cd2> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence pp90rsk activity assay",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/38fddf1f-8b27-40e2-aa06-fe5cc2b2adde> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/5bf5c912-f057-4f80-9fb0-f061c531a338> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2007-05-08" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2007-05-08" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy placenta ; MA:0000386",
+        "cell type primary cell line cell ; CL:0000001",
+        "external ref PMID:7867561 IDA",
+        "target Ghrh ; MGI:95709" .
+
+<http://model.geneontology.org/MGI_MGI_107613/60064dbb-2f4f-47a7-8b76-814cdcf4b9f9> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence northern blot",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/673929c5-5107-496b-aac6-ab499b044836> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "UniProtKB:P20809" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -290,6 +196,100 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
         "evidence MAPK activity assays",
         "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/8833d179-be28-42d1-84c1-ebb58bc642d4> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/8f0a3b54-d963-48d6-87ea-dc591a14905e> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence IB",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/a3d978a2-9879-4636-b52c-30fcaac916e9> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/b489933c-3086-4e62-9f4b-5867188f5301> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence MAPK activity assays",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/d3c2e172-40c0-438f-b67e-8232ae24f2ee> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-02-03" ;
+    dc:source "PMID:11737071" ;
+    dct:created "2011-02-03" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000386 ; placenta",
+        "columns of the labyrinth",
+        "evidence ECO:0000040 ; inferred from immunological assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/dd2b0ed9-f80c-4d5c-92f3-59a0f31a3741> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:P20809" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-02-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658",
+        "evidence northern blot",
+        "external ref PMID:7508917 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_107613/df8cec35-b851-46b5-98e4-fab3e937ed9f> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dc:source "PMID:7957045" ;
+    dct:created "2008-02-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)",
+        "cells were transfected with mouse Il11ra1 and treated with mouse IL-11",
+        "evidence cell proliferation assay" .
+
+<http://model.geneontology.org/MGI_MGI_107613/f21d5c18-28b2-4e2c-a4a5-94da285c968d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-02-03" ;
+    dc:source "PMID:11737071" ;
+    dct:created "2011-02-03" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000386 ; placenta",
+        "columns of the labyrinth",
+        "evidence ECO:0000040 ; inferred from immunological assay" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
@@ -303,259 +303,259 @@ obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_107613/0cafde77-60b1-48ce-b841-714b7b76efb4> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/6657cb90-b56c-420e-8750-a9eba4481fb4> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/c3d9e47a-7708-4e32-b536-70449aed426e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/0ef220cc-0fe1-451e-a76f-eaea5f3f3c4d> a GO:0005125,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_107613/50bced6c-3659-4390-87f9-0bf17a01aec4> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/5d49a541-01bf-42a8-9254-d6abf269d692> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/20d5392d-c4b8-4487-87f6-06bedeb97c6b> a GO:0045944,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/379d0f8b-868b-46b1-b841-6df017993457> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/5108de77-4706-474f-9725-778011cd163c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/55dd809f-239c-4b8a-b2eb-538461d5d97e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2007-05-08" ;
-    dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/4557dd30-8100-4c6e-ba5a-61adfb52ae60> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/b22622d1-78bb-498f-8a55-600299c63dd2> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/ae99b6ad-aa29-475f-bda7-60ad21852aa2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/4d1df3b9-e895-40d3-a21b-6ef1d852897b> a GO:0050731,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/50bced6c-3659-4390-87f9-0bf17a01aec4> a CL:0000826,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/5108de77-4706-474f-9725-778011cd163c> a MGI:MGI:107613,
+<http://model.geneontology.org/MGI_MGI_107613/15c8f7af-0095-48eb-a247-1df7a73e1137> a MGI:MGI:107613,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2007-05-08" ;
     dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/55c8fcb1-20e4-44c4-b083-117f64599821> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_107613/27d9fa3a-c651-42fb-82a4-7d77ecbcc9f9> a GO:0045944,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/d1d7ebe7-801e-4a5e-a540-efecb53e21c2> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/4d1df3b9-e895-40d3-a21b-6ef1d852897b> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/55dd809f-239c-4b8a-b2eb-538461d5d97e> a GO:0046888,
+<http://model.geneontology.org/MGI_MGI_107613/28f72f2b-46d5-4b64-8025-e01cc52794cd> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/ac537bf3-e44b-4891-8749-2aa4fc48f2de> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/972b4606-719e-4938-a1fd-f92bc8b45de0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/37708862-7d19-4d94-8f1c-5ba0fd8c0ae5> a MGI:MGI:107613,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/38b0b8e9-3a5c-40b4-8534-1cd5b21e83e1> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/be17416d-29ec-4aaa-8047-e12a0cfdd080> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/a6d308fb-1036-4971-9566-e5d384469a18> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/3ce00aee-8369-4165-95d0-bdc86378011d> a GO:0033138,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/51a8c1dc-5c32-41c1-b167-d6e05013f355> a CL:0000826,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/5364a554-a8fe-4cdb-b89c-b98268b2e237> a GO:0046888,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2007-05-08" ;
     dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/5d49a541-01bf-42a8-9254-d6abf269d692> a MGI:MGI:107613,
+<http://model.geneontology.org/MGI_MGI_107613/5bbe9f37-65b1-471c-8f46-4b69b1abb410> a GO:0005142,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107613/a3af74ae-281f-44d3-bbba-36eb9bae2c50> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/6e12fe86-4233-4bc6-b286-db8c0e829bc3> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/6e12fe86-4233-4bc6-b286-db8c0e829bc3> a MGI:MGI:107613,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-12" ;
     dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/6657cb90-b56c-420e-8750-a9eba4481fb4> a MGI:MGI:107613,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/7af402c2-75df-4040-9f32-1d665685dbad> a MGI:MGI:107613,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/7c74dfec-ef38-44ab-a4ee-82ffd9e908e4> a CL:0000826,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/7c9b795b-12aa-4e45-95d3-4fb7379b94ce> a MGI:MGI:107613,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/8cdd5b14-e37f-45c6-bb15-63a5d01b650e> a EMAPA:35689,
+<http://model.geneontology.org/MGI_MGI_107613/6ff81e6f-2407-408f-9a81-1cec63d68db4> a EMAPA:35689,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-02-03" ;
     dct:created "2011-02-03" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/ae99b6ad-aa29-475f-bda7-60ad21852aa2> a GO:0043410,
+<http://model.geneontology.org/MGI_MGI_107613/8348071c-85a2-43ba-976b-ecacb5ee8359> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/edeeb6de-e299-4316-a64c-0264ad13599b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/27d9fa3a-c651-42fb-82a4-7d77ecbcc9f9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/85a89c09-3889-4812-ac63-a335671a3338> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/aace2276-53e8-46e9-aa0a-58cb0d649c53> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/3ce00aee-8369-4165-95d0-bdc86378011d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/87e3f4b3-9373-48a2-a961-6e0890d20560> a CL:0000826,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/9113d8b5-6956-4885-923b-db69eddbfcbc> a MGI:MGI:107613,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/972b4606-719e-4938-a1fd-f92bc8b45de0> a GO:0043410,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/b22622d1-78bb-498f-8a55-600299c63dd2> a MGI:MGI:107613,
+<http://model.geneontology.org/MGI_MGI_107613/a0ace37e-ea1b-4d64-92e8-154ca0b265f1> a GO:0005125,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_107613/51a8c1dc-5c32-41c1-b167-d6e05013f355> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/37708862-7d19-4d94-8f1c-5ba0fd8c0ae5> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/a3af74ae-281f-44d3-bbba-36eb9bae2c50> a PR:Q64385,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/a6d308fb-1036-4971-9566-e5d384469a18> a GO:0050731,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/c065621b-7e1c-4817-80eb-8d07fd86a8ca> a MGI:MGI:107613,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/c3d9e47a-7708-4e32-b536-70449aed426e> a GO:0033138,
+<http://model.geneontology.org/MGI_MGI_107613/aace2276-53e8-46e9-aa0a-58cb0d649c53> a MGI:MGI:107613,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/c7be953b-1a91-427b-9674-ff8ddb5a57ee> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/7c9b795b-12aa-4e45-95d3-4fb7379b94ce> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/20d5392d-c4b8-4487-87f6-06bedeb97c6b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/cfd1ce69-d5c3-46e0-8b7a-8cb13b4b86c3> a GO:0005142,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107613/e6bb1d56-f21f-44b9-9540-4087d787e4fb> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/c065621b-7e1c-4817-80eb-8d07fd86a8ca> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107613/d1d7ebe7-801e-4a5e-a540-efecb53e21c2> a MGI:MGI:107613,
+<http://model.geneontology.org/MGI_MGI_107613/ac537bf3-e44b-4891-8749-2aa4fc48f2de> a MGI:MGI:107613,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/e6bb1d56-f21f-44b9-9540-4087d787e4fb> a PR:Q64385,
+<http://model.geneontology.org/MGI_MGI_107613/be17416d-29ec-4aaa-8047-e12a0cfdd080> a MGI:MGI:107613,
         owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/cb0e2321-6d2d-4a10-9f16-9dd90225dd46> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/9113d8b5-6956-4885-923b-db69eddbfcbc> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/5fcf9e31-3685-4a34-891b-80134f3065de> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-12" ;
     dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/ef1f2d2b-65ea-4e4a-9380-3e69d69adb60> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_107613/e28dfb74-4985-4dab-b923-67b33dff9170> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/7af402c2-75df-4040-9f32-1d665685dbad> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/344072bd-9c4c-41c1-b727-7e1931b41ab3> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107613/15c8f7af-0095-48eb-a247-1df7a73e1137> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107613/5364a554-a8fe-4cdb-b89c-b98268b2e237> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2007-05-08" ;
+    dct:created "2007-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/344072bd-9c4c-41c1-b727-7e1931b41ab3> a GO:0008284,
+<http://model.geneontology.org/MGI_MGI_107613/edeeb6de-e299-4316-a64c-0264ad13599b> a MGI:MGI:107613,
         owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_107613/da67a972-bc01-43b4-b7b4-f071feab74d5> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/6f1826ff-51e9-41c4-aa6b-8cf94289531f> a GO:0005737,
+<http://model.geneontology.org/MGI_MGI_107613/5ce1cc1c-aa56-4ca1-8e7b-d71deca043fe> a GO:0005737,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_107613/8cdd5b14-e37f-45c6-bb15-63a5d01b650e> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_107613/6ff81e6f-2407-408f-9a81-1cec63d68db4> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-02-03" ;
     dct:created "2011-02-03" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107613/da67a972-bc01-43b4-b7b4-f071feab74d5> a GO:0008283,
+<http://model.geneontology.org/MGI_MGI_107613/5fcf9e31-3685-4a34-891b-80134f3065de> a GO:0008284,
         owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_107613/7c74dfec-ef38-44ab-a4ee-82ffd9e908e4> ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_107613/d30811ea-5f28-4a3c-b5ff-9904ee23863a> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-12" ;
     dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107613/d30811ea-5f28-4a3c-b5ff-9904ee23863a> a GO:0008283,
+        owl:NamedIndividual ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_107613/87e3f4b3-9373-48a2-a961-6e0890d20560> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -563,250 +563,250 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/0bde27e0-af76-49b2-a3a9-6da0d3826199> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/df8cec35-b851-46b5-98e4-fab3e937ed9f> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-12" ;
     dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/ef1f2d2b-65ea-4e4a-9380-3e69d69adb60> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/7af402c2-75df-4040-9f32-1d665685dbad> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/b6e16da0-0b13-49e3-80f0-a207c3a94421> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/ef1f2d2b-65ea-4e4a-9380-3e69d69adb60> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/344072bd-9c4c-41c1-b727-7e1931b41ab3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/2a89377d-aad3-41e4-9b2a-26e4cc1e9fcf> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005125 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI BFO:0000066(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/0ef220cc-0fe1-451e-a76f-eaea5f3f3c4d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/5d49a541-01bf-42a8-9254-d6abf269d692> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/913ece07-98f4-4735-a7f1-029fd2eec10b> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005142 MGI:MGI:69257|PMID:7957045 ECO:0000353 PR:Q64385  2008-02-12 MGI  creation-date=2008-02-12|modification-date=2008-02-12|comment=evidence Scatchard analysis|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/cfd1ce69-d5c3-46e0-8b7a-8cb13b4b86c3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/c065621b-7e1c-4817-80eb-8d07fd86a8ca> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/f7b6d246-7a10-46f1-9934-fabc0117ba9e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0043410 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence MAPK activity assays|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/4557dd30-8100-4c6e-ba5a-61adfb52ae60> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/b22622d1-78bb-498f-8a55-600299c63dd2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/586e7040-0bfb-4dd6-be11-b30d26c3ae17> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0050731 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence IB|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/55c8fcb1-20e4-44c4-b083-117f64599821> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/4d1df3b9-e895-40d3-a21b-6ef1d852897b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/d39712d8-35fe-4759-9ff3-b2fb5b75434d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2007-05-08" ;
-    dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0046888 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2007-05-08 MGI  creation-date=2007-05-08|modification-date=2007-05-08|comment=anatomy placenta ; MA:0000386|comment=cell type primary cell line cell ; CL:0000001|comment=external ref PMID:7867561 IDA|comment=target Ghrh ; MGI:95709|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/379d0f8b-868b-46b1-b841-6df017993457> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/5108de77-4706-474f-9725-778011cd163c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/62e001a2-2260-4019-8679-7a438a1e64e8> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-02-03" ;
-    dct:created "2011-02-03" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0001025 GO:0005737 MGI:MGI:2155044|PMID:11737071 ECO:0000314   2011-02-03 MGI BFO:0000050(EMAPA:35689) creation-date=2011-02-03|modification-date=2011-02-03|comment=anatomy MA:0000386 ; placenta|comment=evidence ECO:0000040 ; inferred from immunological assay|comment=columns of the labyrinth|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/6f1826ff-51e9-41c4-aa6b-8cf94289531f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/8cdd5b14-e37f-45c6-bb15-63a5d01b650e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/cd11815c-72f7-4d05-8048-a0c1d5b09fc1> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/344072bd-9c4c-41c1-b727-7e1931b41ab3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/da67a972-bc01-43b4-b7b4-f071feab74d5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/2e21cf4f-2b39-4f70-8db5-c2b0ad955551> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0045944 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence northern blot|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/c7be953b-1a91-427b-9674-ff8ddb5a57ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/7c9b795b-12aa-4e45-95d3-4fb7379b94ce> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/d8a51122-7f4e-4b56-b84c-faf78feafca9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0033138 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence pp90rsk activity assay|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/0cafde77-60b1-48ce-b841-714b7b76efb4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/c3d9e47a-7708-4e32-b536-70449aed426e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/c12803fd-8bf2-444a-bc99-4ecd1e0b5636> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005125 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI BFO:0000066(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/0ef220cc-0fe1-451e-a76f-eaea5f3f3c4d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/50bced6c-3659-4390-87f9-0bf17a01aec4> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/a0ace37e-ea1b-4d64-92e8-154ca0b265f1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/51a8c1dc-5c32-41c1-b167-d6e05013f355> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/9b531ba8-d304-4d30-b96a-53a164441b61> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/30cd4067-ed85-4359-a844-4562b588ebb1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0043410 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence MAPK activity assays|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/4557dd30-8100-4c6e-ba5a-61adfb52ae60> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/ae99b6ad-aa29-475f-bda7-60ad21852aa2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/119d01dc-6c29-410f-a92e-dc6d70e053ac> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0033138 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence pp90rsk activity assay|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/0cafde77-60b1-48ce-b841-714b7b76efb4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/6657cb90-b56c-420e-8750-a9eba4481fb4> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/85a89c09-3889-4812-ac63-a335671a3338> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/aace2276-53e8-46e9-aa0a-58cb0d649c53> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/9b33bb65-dfd3-41a4-a9d6-03bbb181dfef> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-12" ;
-    dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/da67a972-bc01-43b4-b7b4-f071feab74d5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/7c74dfec-ef38-44ab-a4ee-82ffd9e908e4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/29cce12e-1180-44b9-b2ba-defe78c8036e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2010-11-04" ;
-    dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0045944 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence northern blot|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/c7be953b-1a91-427b-9674-ff8ddb5a57ee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/20d5392d-c4b8-4487-87f6-06bedeb97c6b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/417509e4-48d5-446a-9652-df6a6eceb972> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/5bf5c912-f057-4f80-9fb0-f061c531a338> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2007-05-08" ;
     dct:created "2007-05-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0046888 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2007-05-08 MGI  creation-date=2007-05-08|modification-date=2007-05-08|comment=anatomy placenta ; MA:0000386|comment=cell type primary cell line cell ; CL:0000001|comment=external ref PMID:7867561 IDA|comment=target Ghrh ; MGI:95709|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/379d0f8b-868b-46b1-b841-6df017993457> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/55dd809f-239c-4b8a-b2eb-538461d5d97e> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/e28dfb74-4985-4dab-b923-67b33dff9170> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/15c8f7af-0095-48eb-a247-1df7a73e1137> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/3713c042-9c23-44e0-a884-c39129508569> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-02-03" ;
-    dct:created "2011-02-03" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/8833d179-be28-42d1-84c1-ebb58bc642d4> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0001025 GO:0005737 MGI:MGI:2155044|PMID:11737071 ECO:0000314   2011-02-03 MGI BFO:0000050(EMAPA:35689) creation-date=2011-02-03|modification-date=2011-02-03|comment=anatomy MA:0000386 ; placenta|comment=evidence ECO:0000040 ; inferred from immunological assay|comment=columns of the labyrinth|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/d860d9b9-0d55-4be2-98f4-b2ba6a5cefb8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/6f1826ff-51e9-41c4-aa6b-8cf94289531f> .
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/cb0e2321-6d2d-4a10-9f16-9dd90225dd46> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/9113d8b5-6956-4885-923b-db69eddbfcbc> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/4e57ad07-a16f-411b-a4d7-e7c2e567ec22> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/a3d978a2-9879-4636-b52c-30fcaac916e9> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005125 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI BFO:0000066(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/a0ace37e-ea1b-4d64-92e8-154ca0b265f1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/37708862-7d19-4d94-8f1c-5ba0fd8c0ae5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/673929c5-5107-496b-aac6-ab499b044836> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2010-11-04" ;
     dct:created "2008-02-28" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0050731 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence IB|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0043410 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence MAPK activity assays|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/55c8fcb1-20e4-44c4-b083-117f64599821> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/d1d7ebe7-801e-4a5e-a540-efecb53e21c2> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/28f72f2b-46d5-4b64-8025-e01cc52794cd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/ac537bf3-e44b-4891-8749-2aa4fc48f2de> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/a107f0bb-d251-4230-a645-99bd7bc49491> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/dd2b0ed9-f80c-4d5c-92f3-59a0f31a3741> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0045944 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence northern blot|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/8348071c-85a2-43ba-976b-ecacb5ee8359> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/edeeb6de-e299-4316-a64c-0264ad13599b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/196536e9-18f9-4e9b-9c5d-55a567c08952> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-12" ;
     dct:created "2008-02-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005142 MGI:MGI:69257|PMID:7957045 ECO:0000353 PR:Q64385  2008-02-12 MGI  creation-date=2008-02-12|modification-date=2008-02-12|comment=evidence Scatchard analysis|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/5bbe9f37-65b1-471c-8f46-4b69b1abb410> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/6e12fe86-4233-4bc6-b286-db8c0e829bc3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/38fddf1f-8b27-40e2-aa06-fe5cc2b2adde> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/5fcf9e31-3685-4a34-891b-80134f3065de> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/d30811ea-5f28-4a3c-b5ff-9904ee23863a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/8f0a3b54-d963-48d6-87ea-dc591a14905e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0050731 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence IB|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/38b0b8e9-3a5c-40b4-8534-1cd5b21e83e1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/be17416d-29ec-4aaa-8047-e12a0cfdd080> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/b489933c-3086-4e62-9f4b-5867188f5301> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0043410 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence MAPK activity assays|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/28f72f2b-46d5-4b64-8025-e01cc52794cd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/972b4606-719e-4938-a1fd-f92bc8b45de0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/0d2e9918-193a-4848-8c22-f6e6982252ed> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107613  RO:0002327 GO:0005142 MGI:MGI:69257|PMID:7957045 ECO:0000353 PR:Q64385  2008-02-12 MGI  creation-date=2008-02-12|modification-date=2008-02-12|comment=evidence Scatchard analysis|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/cfd1ce69-d5c3-46e0-8b7a-8cb13b4b86c3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/e6bb1d56-f21f-44b9-9540-4087d787e4fb> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/5bbe9f37-65b1-471c-8f46-4b69b1abb410> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/a3af74ae-281f-44d3-bbba-36eb9bae2c50> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/272e8257-d78f-4967-afec-78a5d7eada8e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2007-05-08" ;
+    dct:created "2007-05-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0046888 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2007-05-08 MGI  creation-date=2007-05-08|modification-date=2007-05-08|comment=anatomy placenta ; MA:0000386|comment=cell type primary cell line cell ; CL:0000001|comment=external ref PMID:7867561 IDA|comment=target Ghrh ; MGI:95709|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/e28dfb74-4985-4dab-b923-67b33dff9170> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/5364a554-a8fe-4cdb-b89c-b98268b2e237> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/f21d5c18-28b2-4e2c-a4a5-94da285c968d> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-02-03" ;
+    dct:created "2011-02-03" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0001025 GO:0005737 MGI:MGI:2155044|PMID:11737071 ECO:0000314   2011-02-03 MGI BFO:0000050(EMAPA:35689) creation-date=2011-02-03|modification-date=2011-02-03|comment=anatomy MA:0000386 ; placenta|comment=evidence ECO:0000040 ; inferred from immunological assay|comment=columns of the labyrinth|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/02d06b00-4138-4a4c-b87a-1a8d1c6d5b86> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/5ce1cc1c-aa56-4ca1-8e7b-d71deca043fe> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/09b5d6a4-6640-4fa0-afad-16f5608e8b09> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/d30811ea-5f28-4a3c-b5ff-9904ee23863a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/87e3f4b3-9373-48a2-a961-6e0890d20560> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/14f0be88-70fe-4c9d-9e58-e0c7b0223c14> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0050731 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence IB|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/38b0b8e9-3a5c-40b4-8534-1cd5b21e83e1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/a6d308fb-1036-4971-9566-e5d384469a18> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/60064dbb-2f4f-47a7-8b76-814cdcf4b9f9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0045944 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence northern blot|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/8348071c-85a2-43ba-976b-ecacb5ee8359> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/27d9fa3a-c651-42fb-82a4-7d77ecbcc9f9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/330971ab-23e8-40c3-9f8e-238878183cd2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2010-11-04" ;
+    dct:created "2008-02-28" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0033138 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:P20809  2010-11-04 MGI  creation-date=2008-02-28|modification-date=2010-11-04|comment=cell type permanent cell line ; CLO:0000019 fibroblast ; CL:0000057 NIH/3T3 ; ATCC:CRL-1658|comment=evidence pp90rsk activity assay|comment=external ref PMID:7508917 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/85a89c09-3889-4812-ac63-a335671a3338> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/3ce00aee-8369-4165-95d0-bdc86378011d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/d3c2e172-40c0-438f-b67e-8232ae24f2ee> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-02-03" ;
+    dct:created "2011-02-03" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0001025 GO:0005737 MGI:MGI:2155044|PMID:11737071 ECO:0000314   2011-02-03 MGI BFO:0000050(EMAPA:35689) creation-date=2011-02-03|modification-date=2011-02-03|comment=anatomy MA:0000386 ; placenta|comment=evidence ECO:0000040 ; inferred from immunological assay|comment=columns of the labyrinth|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/5ce1cc1c-aa56-4ca1-8e7b-d71deca043fe> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/6ff81e6f-2407-408f-9a81-1cec63d68db4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107613/06e6ef7e-0a4a-4981-a735-2ec528de6017> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-12" ;
+    dct:created "2008-02-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107613  RO:0002264 GO:0008284 MGI:MGI:69257|PMID:7957045 ECO:0000314   2008-02-12 MGI GOREL:0001008(CL:0000826) creation-date=2008-02-12|modification-date=2008-02-12|comment=cell type permanent cell line ; CLO:0000019 pro-B cell  ; CL:0000826 cell_line:Ba/F3 (Baf3)|comment=evidence cell proliferation assay|comment=cells were transfected with mouse Il11ra1 and treated with mouse IL-11|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107613/cb0e2321-6d2d-4a10-9f16-9dd90225dd46> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107613/5fcf9e31-3685-4a34-891b-80134f3065de> .
 

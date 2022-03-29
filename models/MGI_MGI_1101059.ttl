@@ -40,21 +40,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-06-06" ;
     dc:title "Tnfrsf9 (MGI:MGI:1101059)" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1101059> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1101059/04b6121f-b9d5-44e7-a6d7-349f036bc44a> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dc:source "PMID:18640726" ;
-    dct:created "2012-12-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/09ddd405-1c35-4512-b596-4cbd060b0f4e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/0e749518-0dcb-4019-b5b8-bda53caa024a> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
@@ -64,7 +55,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
         "evidence immunological assay evidence ; ECO:0000040" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/0b940fde-cbf5-408b-ad80-aed3ba1601e6> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1101059/0ebbbf5a-ae46-437b-a351-56182a701a2d> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P41274" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -74,16 +65,19 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/14405b1e-5654-44a0-adac-c6ad64ccf39e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/11e1fb73-1262-4f39-840e-e0697b4936b1> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dc:source "PMID:8405064" ;
-    dct:created "2009-12-18" ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:19008373" ;
+    dct:created "2011-01-11" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type thymocyte ; CL:0000893" .
+    rdfs:comment "anatomy MA:0000141 ; spleen",
+        "cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell",
+        "evidence flow cytometry" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/2426f513-7db9-42b6-bb94-cfbf0ddc1267> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/12758276-0b4c-4afe-9c80-62f8c7bdc4e1> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
@@ -92,16 +86,16 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/3eec2e31-c36c-410c-bcb1-173a7efdcbc8> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1101059/1c912052-2661-479c-85fc-7e019e678128> a PR:Q8R037,
         owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/0f8e7664-e418-430f-b931-2990dddff81e> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dc:source "PMID:18640726" ;
+    dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/499217fa-7b1f-469c-87f2-6fbc8a83783a> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1101059/2d770076-56ea-4c4b-9c72-0580e5880402> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P41274" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -110,19 +104,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2009-12-18" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/534e262e-e790-4341-b7da-f30a5aff8b98> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-17" ;
-    dc:source "PMID:19008373" ;
-    dct:created "2011-01-11" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000141 ; spleen",
-        "cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell",
-        "evidence flow cytometry" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/575cb186-cbe4-41d6-9244-29dc68b390a1> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/3dfc0831-dda1-4c0e-96a1-d6c1a1c20935> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
@@ -131,7 +113,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/63d5e6f6-ca15-441b-be86-fa49e295f30e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/49c0854b-87a7-4194-a401-497c75bb24f1> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-3394-9805" ;
@@ -143,34 +125,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell",
         "evidence flow cytometry" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/66762320-b125-44d1-8354-5e5e35b76d94> a PR:Q8R037,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/c24e922b-86ab-4f1b-aeb6-7ff9ac96e610> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/721941d2-3458-4e77-802c-9ba25ef3a038> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dc:source "PMID:8405064" ;
-    dct:created "2009-12-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type thymocyte ; CL:0000893" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/74bd5174-a705-418f-b8f8-a465c54be843> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dc:source "PMID:8405064" ;
-    dct:created "2009-12-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type thymocyte ; CL:0000893" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/7598642a-0ac9-4238-b602-89ffb56b937a> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1101059/4ff8a211-d960-4e44-a59d-b1fb685ef5da> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8R037" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
@@ -182,62 +137,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence chromatography evidence ; ECO:0000325",
         "size exclusion chromatography from splenocyte supernatant" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/783d5eb8-ebae-4fc0-8fb4-ee1fa4d2a665> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dc:source "PMID:18640726" ;
-    dct:created "2012-12-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/79af5aa4-d250-49f4-96ae-d10980a32e6c> a PR:P20334-1,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/14b41076-01b3-448a-b507-770ab91f7d72> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/806cc91c-ab4b-4130-b38e-117cd086772a> a PR:P20334-1,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/c3657ebc-910e-4a60-8053-76a1ec70d698> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-17" ;
-    dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/842b8288-b95c-4dfe-9576-911fbd75c98e> a GO:0038023,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/198209ad-8d53-4f20-ac7e-4fb34fca62ba> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/85f6113a-ecbd-4ae4-a393-4a22b6c0c330> a PR:Q8R037,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/28bdaf3f-4363-40d1-be98-f54d72ac43e5> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/8c912aa3-1dac-4a57-a85a-1f4f5e630d7a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dc:source "PMID:8405064" ;
-    dct:created "2009-12-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type thymocyte ; CL:0000893" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/9a8583c6-3f86-4e83-8bd1-37606cea27a4> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/5052fc86-2560-4883-b812-aa67c6d91d1c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
@@ -247,34 +147,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
         "evidence immunological assay evidence ; ECO:0000040" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/a4a0b31e-03c9-4e1e-858f-a955f5afda0b> a PR:P20334-1,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/57f9debd-9892-4627-a0e2-20fc4e7aad0c> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/acb61926-df44-490e-872c-69543d52a995> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dc:source "PMID:18640726" ;
-    dct:created "2012-12-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/b2008286-3d98-4c26-b171-e1bf3690ed43> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dc:source "PMID:18640726" ;
-    dct:created "2012-12-17" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/bc30bef9-968c-4b98-bea6-8762681f813f> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1101059/5096e304-e2d2-4c41-9e51-c91ded8d3f79> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P41274" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
@@ -284,7 +157,35 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/d3a1142a-960e-4497-a08d-e1298ce3ad8d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1101059/50aecfe3-efd6-46ee-b662-bd9cffd8a2a5> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:18640726" ;
+    dct:created "2012-12-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/5aeb5c52-4e91-41d4-848b-a90fbe1c9f3c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:18640726" ;
+    dct:created "2012-12-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
+        "evidence immunological assay evidence ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/6116d17f-bf45-4a34-8264-6b41c6f496af> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dc:source "PMID:8405064" ;
+    dct:created "2009-12-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type thymocyte ; CL:0000893" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/68dcad93-c6a2-4671-8fb6-ad15d91d8bb8> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-06-06" ;
@@ -293,27 +194,92 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/d4fb6fda-1ca7-43ea-bffb-b85967f938a6> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/6972fa8f-aae6-4d7b-8426-9e188c24205e> a PR:Q8R037,
         owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/5d051695-38de-4cbb-97c4-80a3581bd7c4> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/6c1dbd41-ad8e-4691-9259-5c12d3a0b867> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
     dc:source "PMID:18640726" ;
     dct:created "2012-12-17" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
-        "evidence immunological assay evidence ; ECO:0000040" .
+    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/eb5b022b-976a-42fc-9e02-f0b46c103350> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/6c86a5e0-a876-4df6-98e1-adcdbb389651> a GO:0038023,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/9f5b4654-57c3-4a02-a46c-7d409ab185ed> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/8476c921-6570-4272-9307-94c3ba072aff> a PR:P20334-1,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/2d214544-63e8-4e52-9b0d-2359a488f448> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-17" ;
+    dct:created "2011-01-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/860f421b-5613-49f1-aef9-1d7fe291316f> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
+    dc:date "2020-06-06" ;
     dc:source "PMID:18640726" ;
     dct:created "2012-12-17" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
-        "evidence immunological assay evidence ; ECO:0000040" .
+    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/f7170db7-915a-47e3-a976-f623e9879969> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1101059/86907acb-3e0d-4103-ad3a-fd943992b728> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dc:source "PMID:8405064" ;
+    dct:created "2009-12-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type thymocyte ; CL:0000893" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/a3b101b9-4d45-4913-ba7b-85b9a18a1449> a PR:P20334-1,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/9391111d-9118-4fc4-a515-71d9dfbd0cbd> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/a782b9b5-bb52-4ba9-97b8-f324f30c5810> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:19008373" ;
+    dct:created "2011-01-11" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000141 ; spleen",
+        "cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell",
+        "evidence flow cytometry" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/bd480d2a-364b-4527-aa6e-be4b0831664e> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dc:source "PMID:18640726" ;
+    dct:created "2012-12-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/bfd96b22-8b48-4acc-bdc0-df3af9441d3b> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q8R037" ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
@@ -325,278 +291,312 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence chromatography evidence ; ECO:0000325",
         "size exclusion chromatography from splenocyte supernatant" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/fbfeb311-42b1-4876-bfb3-258101f541e4> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1101059/d28c18ee-3938-42e7-abcb-0d07d8d7be30> a ECO:0000314,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-17" ;
-    dc:source "PMID:19008373" ;
-    dct:created "2011-01-11" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dc:source "PMID:8405064" ;
+    dct:created "2009-12-18" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000141 ; spleen",
-        "cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell",
-        "evidence flow cytometry" .
+    rdfs:comment "cell type thymocyte ; CL:0000893" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/e0e2b3bf-320e-47ae-96ec-bac662bc618d> a PR:P20334-1,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1101059/a73f6f6e-6564-4f9e-a885-445e31cce7a7> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/ee03ede8-369d-4749-9b08-bb4b02541b02> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dc:source "PMID:8405064" ;
+    dct:created "2009-12-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type thymocyte ; CL:0000893" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/ee3d6300-efa3-4dab-a76a-88ef6f906d1c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:18640726" ;
+    dct:created "2012-12-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence flow cytometry evidence ; ECO:0000268",
+        "evidence immunological assay evidence ; ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/f2e4640d-59ba-4643-a862-2977d3599cbe> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dc:source "PMID:18640726" ;
+    dct:created "2012-12-17" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267" .
 
 obo:RO_0002211 a owl:ObjectProperty .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1101059/05ee2a19-823c-4ae4-af27-2e25fc48cd87> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/13a7848c-6736-4376-9eda-2de64cf28c1a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/fd1b85be-968f-4da2-8e7b-a26edba03296> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/13a7848c-6736-4376-9eda-2de64cf28c1a> a PR:Q8R037,
+<http://model.geneontology.org/MGI_MGI_1101059/0893d61b-a915-4b1d-b974-7a9b2591a4c3> a PR:Q8R037,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-06-06" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/18116315-d02f-480c-944e-3307cb8d5435> a CL:0000625,
+<http://model.geneontology.org/MGI_MGI_1101059/0f28926e-5dde-4c67-a9eb-b9410aa549a6> a GO:0032695,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/12ccbd03-9894-4f27-81fd-5637afce0228> a GO:0019955,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1101059/ecef2ab8-01c7-4cc1-abf3-08f71179dfad> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/f12dd64e-2cb6-49b8-b2e8-242f68da8dee> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/1861fde7-9fa7-45e0-9fa3-429491d7cb2c> a CL:0000624,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/198209ad-8d53-4f20-ac7e-4fb34fca62ba> a MGI:MGI:1101059,
+<http://model.geneontology.org/MGI_MGI_1101059/1b1a16e9-ad90-49a8-9f5e-145a6d61a7c3> a CL:0000625,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/2058b699-af26-497c-8a08-4cb27d9cf897> a GO:0042802,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1101059/83d40604-9c0c-4a59-9ee8-393b2dabfca9> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/6086f466-5dc2-4472-88db-ba399ab875ea> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2019-07-10" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/2bdaec01-30ed-49e6-a1c3-a47d3634bdab> a PR:Q8R037,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/2f7f58a0-5440-438e-a611-5e87cd550279> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/0893d61b-a915-4b1d-b974-7a9b2591a4c3> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/0f28926e-5dde-4c67-a9eb-b9410aa549a6> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/6086f466-5dc2-4472-88db-ba399ab875ea> a PR:Q8R037,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2019-07-10" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/66589131-3cb2-4523-8356-310a2e79a9df> a CL:0000624,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/6fef0a97-3564-42da-af05-b43b41a2ea27> a MGI:MGI:1101059,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/83d40604-9c0c-4a59-9ee8-393b2dabfca9> a PR:Q8R037,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2019-07-10" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/871c69ca-d4d7-4c68-8857-701fc5828c2e> a CL:0000893,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/8cd17184-67df-46d3-912e-6e100ccd8025> a CL:0000625,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/977b2922-809a-439c-a0c9-4a7e3b138c07> a EMAPA:18767,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-17" ;
+    dct:created "2011-01-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/9f5b4654-57c3-4a02-a46c-7d409ab185ed> a MGI:MGI:1101059,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/2aeab102-bb8b-452f-99ed-fb5b894a56e6> a PR:Q8R037,
+<http://model.geneontology.org/MGI_MGI_1101059/b1b21b07-2fb7-4197-9d42-89b10bbc0000> a GO:0032693,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-06-06" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/2f8bf815-0912-42ea-95c5-70ae4685d572> a MGI:MGI:1101059,
+<http://model.geneontology.org/MGI_MGI_1101059/cc28600c-2b63-4f09-9fef-f495cd568729> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/6fef0a97-3564-42da-af05-b43b41a2ea27> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/5a8ef4cd-9579-4a3c-aa42-09a85f1c33f5> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2009-12-18" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/3405f28f-1022-4b76-bb51-23f00745b309> a PR:Q8R037,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2019-07-10" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/37886136-859d-479b-abc0-a418a177f9f0> a PR:Q8R037,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2019-07-10" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/4ec01afe-ff52-45cc-946d-03f4d1d680a2> a CL:0000893,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/50f8471d-b490-4f65-86ba-7d5afe0d2ed6> a PR:P41274,
+<http://model.geneontology.org/MGI_MGI_1101059/ecef2ab8-01c7-4cc1-abf3-08f71179dfad> a PR:P41274,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/5f2d2c29-bba3-4768-afdb-78095b4863dd> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1101059/ee2862a2-22bd-4ed7-b222-5a5d0cca5eeb> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/2aeab102-bb8b-452f-99ed-fb5b894a56e6> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/80b4b3d7-e8ee-457a-a85e-9e093b5531f5> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/2bdaec01-30ed-49e6-a1c3-a47d3634bdab> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/b1b21b07-2fb7-4197-9d42-89b10bbc0000> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-06-06" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/60c3e439-89b7-4eba-aca1-52f67d697df3> a GO:0042802,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1101059/37886136-859d-479b-abc0-a418a177f9f0> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/3405f28f-1022-4b76-bb51-23f00745b309> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2019-07-10" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/68d21a2a-a406-48b5-b539-d117dd9eb0af> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/2f8bf815-0912-42ea-95c5-70ae4685d572> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1101059/e9c3b956-3692-4971-a25b-2968a1c4c954> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/80b4b3d7-e8ee-457a-a85e-9e093b5531f5> a GO:0032693,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/9d55b274-6597-4e4e-adb4-7f689187d363> a GO:0019955,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1101059/50f8471d-b490-4f65-86ba-7d5afe0d2ed6> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1101059/b92afb5f-7d7b-421a-82f7-82b0bf2212d0> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/9d59ab38-fcef-4451-9540-487bfc6ccda0> a CL:0000624,
+<http://model.geneontology.org/MGI_MGI_1101059/f12dd64e-2cb6-49b8-b2e8-242f68da8dee> a PR:Q8R037,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/b92afb5f-7d7b-421a-82f7-82b0bf2212d0> a PR:Q8R037,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/c1b60413-08d6-4a1a-bcfe-b9bdff642e8e> a CL:0000625,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/da841413-455d-48af-a421-3b8e31652e19> a EMAPA:18767,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-17" ;
-    dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/fbf1422b-b5ee-4af7-a673-df8be89800fd> a CL:0000624,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/fd1b85be-968f-4da2-8e7b-a26edba03296> a GO:0032695,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1101059/14b41076-01b3-448a-b507-770ab91f7d72> a GO:0009897,
+<http://model.geneontology.org/MGI_MGI_1101059/0f8e7664-e418-430f-b931-2990dddff81e> a GO:0005615,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/c1b60413-08d6-4a1a-bcfe-b9bdff642e8e> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/8cd17184-67df-46d3-912e-6e100ccd8025> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/28bdaf3f-4363-40d1-be98-f54d72ac43e5> a GO:0005615,
+<http://model.geneontology.org/MGI_MGI_1101059/2d214544-63e8-4e52-9b0d-2359a488f448> a GO:0009897,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/9d59ab38-fcef-4451-9540-487bfc6ccda0> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/4d759a6e-c023-48c9-acd4-962a1fc59735> a CL:0000084,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/da841413-455d-48af-a421-3b8e31652e19> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/38e0de25-3387-43c8-95f9-60d708b2467d> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-17" ;
     dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/57f9debd-9892-4627-a0e2-20fc4e7aad0c> a GO:0009897,
+<http://model.geneontology.org/MGI_MGI_1101059/38e0de25-3387-43c8-95f9-60d708b2467d> a CL:0000084,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/fbf1422b-b5ee-4af7-a673-df8be89800fd> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/7dee8139-b7a8-4063-8b40-3f648e0e465f> a GO:0008283,
-        owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1101059/4ec01afe-ff52-45cc-946d-03f4d1d680a2> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/c24e922b-86ab-4f1b-aeb6-7ff9ac96e610> a GO:0005615,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/18116315-d02f-480c-944e-3307cb8d5435> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1101059/c3657ebc-910e-4a60-8053-76a1ec70d698> a GO:0009897,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/4d759a6e-c023-48c9-acd4-962a1fc59735> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/977b2922-809a-439c-a0c9-4a7e3b138c07> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-17" ;
     dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1101059/e9c3b956-3692-4971-a25b-2968a1c4c954> a GO:0042127,
+<http://model.geneontology.org/MGI_MGI_1101059/5a8ef4cd-9579-4a3c-aa42-09a85f1c33f5> a GO:0042127,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1101059/7dee8139-b7a8-4063-8b40-3f648e0e465f> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1101059/f0fbc6b2-9792-45d6-a331-f441258cdc12> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2009-12-18" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/5d051695-38de-4cbb-97c4-80a3581bd7c4> a GO:0005615,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/66589131-3cb2-4523-8356-310a2e79a9df> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/9391111d-9118-4fc4-a515-71d9dfbd0cbd> a GO:0009897,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/1861fde7-9fa7-45e0-9fa3-429491d7cb2c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/a73f6f6e-6564-4f9e-a885-445e31cce7a7> a GO:0009897,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1101059/1b1a16e9-ad90-49a8-9f5e-145a6d61a7c3> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1101059/f0fbc6b2-9792-45d6-a331-f441258cdc12> a GO:0008283,
+        owl:NamedIndividual ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1101059/871c69ca-d4d7-4c68-8857-701fc5828c2e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -608,295 +608,295 @@ obo:BFO_0000050 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/63d5e6f6-ca15-441b-be86-fa49e295f30e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2012-12-17" ;
-    dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3818206|PMID:19008373 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000084),BFO:0000050(EMAPA:18767) creation-date=2011-01-11|modification-date=2012-12-17|comment=anatomy MA:0000141 ; spleen|comment=cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell|comment=evidence flow cytometry|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/c3657ebc-910e-4a60-8053-76a1ec70d698> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/4d759a6e-c023-48c9-acd4-962a1fc59735> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/783d5eb8-ebae-4fc0-8fb4-ee1fa4d2a665> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/5aeb5c52-4e91-41d4-848b-a90fbe1c9f3c> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/66762320-b125-44d1-8354-5e5e35b76d94> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/c24e922b-86ab-4f1b-aeb6-7ff9ac96e610> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/a3b101b9-4d45-4913-ba7b-85b9a18a1449> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/9391111d-9118-4fc4-a515-71d9dfbd0cbd> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/b2008286-3d98-4c26-b171-e1bf3690ed43> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032695 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/05ee2a19-823c-4ae4-af27-2e25fc48cd87> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/fd1b85be-968f-4da2-8e7b-a26edba03296> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/f7170db7-915a-47e3-a976-f623e9879969> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X",
-        "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2019-07-10" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002327 GO:0042802 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:Q8R037  2019-07-10 MGI  creation-date=2012-12-17|modification-date=2019-07-10|comment=evidence chromatography evidence ; ECO:0000325|comment=size exclusion chromatography from splenocyte supernatant|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/60c3e439-89b7-4eba-aca1-52f67d697df3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/3405f28f-1022-4b76-bb51-23f00745b309> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/499217fa-7b1f-469c-87f2-6fbc8a83783a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/2d770076-56ea-4c4b-9c72-0580e5880402> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1101059  RO:0002327 GO:0038023 MGI:MGI:63416|PMID:8405064 ECO:0000353 PR:P41274  2018-03-05 MGI  creation-date=2009-12-18|modification-date=2018-03-05|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/842b8288-b95c-4dfe-9576-911fbd75c98e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/198209ad-8d53-4f20-ac7e-4fb34fca62ba> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/6c86a5e0-a876-4df6-98e1-adcdbb389651> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/9f5b4654-57c3-4a02-a46c-7d409ab185ed> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/14405b1e-5654-44a0-adac-c6ad64ccf39e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/d28c18ee-3938-42e7-abcb-0d07d8d7be30> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2009-12-18" ;
     dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/f0fbc6b2-9792-45d6-a331-f441258cdc12> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/871c69ca-d4d7-4c68-8857-701fc5828c2e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/5052fc86-2560-4883-b812-aa67c6d91d1c> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/9391111d-9118-4fc4-a515-71d9dfbd0cbd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/1861fde7-9fa7-45e0-9fa3-429491d7cb2c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/ee03ede8-369d-4749-9b08-bb4b02541b02> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/e9c3b956-3692-4971-a25b-2968a1c4c954> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/7dee8139-b7a8-4063-8b40-3f648e0e465f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/5a8ef4cd-9579-4a3c-aa42-09a85f1c33f5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/f0fbc6b2-9792-45d6-a331-f441258cdc12> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/fbfeb311-42b1-4876-bfb3-258101f541e4> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/49c0854b-87a7-4194-a401-497c75bb24f1> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-17" ;
     dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3818206|PMID:19008373 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000084),BFO:0000050(EMAPA:18767) creation-date=2011-01-11|modification-date=2012-12-17|comment=anatomy MA:0000141 ; spleen|comment=cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell|comment=evidence flow cytometry|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/4d759a6e-c023-48c9-acd4-962a1fc59735> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/da841413-455d-48af-a421-3b8e31652e19> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/2d214544-63e8-4e52-9b0d-2359a488f448> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/38e0de25-3387-43c8-95f9-60d708b2467d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/bc30bef9-968c-4b98-bea6-8762681f813f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/a782b9b5-bb52-4ba9-97b8-f324f30c5810> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2012-12-17" ;
+    dct:created "2011-01-11" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3818206|PMID:19008373 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000084),BFO:0000050(EMAPA:18767) creation-date=2011-01-11|modification-date=2012-12-17|comment=anatomy MA:0000141 ; spleen|comment=cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell|comment=evidence flow cytometry|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/38e0de25-3387-43c8-95f9-60d708b2467d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/977b2922-809a-439c-a0c9-4a7e3b138c07> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/ee3d6300-efa3-4dab-a76a-88ef6f906d1c> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002327 GO:0019955 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:P41274  2012-12-17 MGI  creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/9d55b274-6597-4e4e-adb4-7f689187d363> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/50f8471d-b490-4f65-86ba-7d5afe0d2ed6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/74bd5174-a705-418f-b8f8-a465c54be843> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/68d21a2a-a406-48b5-b539-d117dd9eb0af> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/2f8bf815-0912-42ea-95c5-70ae4685d572> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/09ddd405-1c35-4512-b596-4cbd060b0f4e> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/14b41076-01b3-448a-b507-770ab91f7d72> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/c1b60413-08d6-4a1a-bcfe-b9bdff642e8e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/a73f6f6e-6564-4f9e-a885-445e31cce7a7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/1b1a16e9-ad90-49a8-9f5e-145a6d61a7c3> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/3eec2e31-c36c-410c-bcb1-173a7efdcbc8> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032693 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/5f2d2c29-bba3-4768-afdb-78095b4863dd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/2aeab102-bb8b-452f-99ed-fb5b894a56e6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/2426f513-7db9-42b6-bb94-cfbf0ddc1267> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/85f6113a-ecbd-4ae4-a393-4a22b6c0c330> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/28bdaf3f-4363-40d1-be98-f54d72ac43e5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/575cb186-cbe4-41d6-9244-29dc68b390a1> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/c24e922b-86ab-4f1b-aeb6-7ff9ac96e610> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/18116315-d02f-480c-944e-3307cb8d5435> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/eb5b022b-976a-42fc-9e02-f0b46c103350> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/57f9debd-9892-4627-a0e2-20fc4e7aad0c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/fbf1422b-b5ee-4af7-a673-df8be89800fd> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/721941d2-3458-4e77-802c-9ba25ef3a038> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/68d21a2a-a406-48b5-b539-d117dd9eb0af> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/e9c3b956-3692-4971-a25b-2968a1c4c954> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/04b6121f-b9d5-44e7-a6d7-349f036bc44a> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032695 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/05ee2a19-823c-4ae4-af27-2e25fc48cd87> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/13a7848c-6736-4376-9eda-2de64cf28c1a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/9a8583c6-3f86-4e83-8bd1-37606cea27a4> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/a4a0b31e-03c9-4e1e-858f-a955f5afda0b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/57f9debd-9892-4627-a0e2-20fc4e7aad0c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/acb61926-df44-490e-872c-69543d52a995> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/28bdaf3f-4363-40d1-be98-f54d72ac43e5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/9d59ab38-fcef-4451-9540-487bfc6ccda0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/d4fb6fda-1ca7-43ea-bffb-b85967f938a6> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2012-12-17" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/79af5aa4-d250-49f4-96ae-d10980a32e6c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/14b41076-01b3-448a-b507-770ab91f7d72> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/8c912aa3-1dac-4a57-a85a-1f4f5e630d7a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2009-12-18" ;
-    dct:created "2009-12-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/7dee8139-b7a8-4063-8b40-3f648e0e465f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/4ec01afe-ff52-45cc-946d-03f4d1d680a2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/7598642a-0ac9-4238-b602-89ffb56b937a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/4ff8a211-d960-4e44-a59d-b1fb685ef5da> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2019-07-10" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:Q8R037  RO:0002327 GO:0042802 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:Q8R037  2019-07-10 MGI  creation-date=2012-12-17|modification-date=2019-07-10|comment=evidence chromatography evidence ; ECO:0000325|comment=size exclusion chromatography from splenocyte supernatant|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/60c3e439-89b7-4eba-aca1-52f67d697df3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/37886136-859d-479b-abc0-a418a177f9f0> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/2058b699-af26-497c-8a08-4cb27d9cf897> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/83d40604-9c0c-4a59-9ee8-393b2dabfca9> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/d3a1142a-960e-4497-a08d-e1298ce3ad8d> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-06-06" ;
-    dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032693 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/5f2d2c29-bba3-4768-afdb-78095b4863dd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/80b4b3d7-e8ee-457a-a85e-9e093b5531f5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/0b940fde-cbf5-408b-ad80-aed3ba1601e6> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/3dfc0831-dda1-4c0e-96a1-d6c1a1c20935> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2012-12-17" ;
     dct:created "2012-12-17" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PR:Q8R037  RO:0002327 GO:0019955 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:P41274  2012-12-17 MGI  creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/9d55b274-6597-4e4e-adb4-7f689187d363> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/b92afb5f-7d7b-421a-82f7-82b0bf2212d0> .
+    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/1c912052-2661-479c-85fc-7e019e678128> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/0f8e7664-e418-430f-b931-2990dddff81e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/534e262e-e790-4341-b7da-f30a5aff8b98> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/50aecfe3-efd6-46ee-b662-bd9cffd8a2a5> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/5d051695-38de-4cbb-97c4-80a3581bd7c4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/66589131-3cb2-4523-8356-310a2e79a9df> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/6c1dbd41-ad8e-4691-9259-5c12d3a0b867> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032693 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/ee2862a2-22bd-4ed7-b222-5a5d0cca5eeb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/b1b21b07-2fb7-4197-9d42-89b10bbc0000> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/68dcad93-c6a2-4671-8fb6-ad15d91d8bb8> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032695 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/2f7f58a0-5440-438e-a611-5e87cd550279> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/0893d61b-a915-4b1d-b974-7a9b2591a4c3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/0ebbbf5a-ae46-437b-a351-56182a701a2d> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002327 GO:0019955 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:P41274  2012-12-17 MGI  creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/12ccbd03-9894-4f27-81fd-5637afce0228> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/ecef2ab8-01c7-4cc1-abf3-08f71179dfad> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/11e1fb73-1262-4f39-840e-e0697b4936b1> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2012-12-17" ;
     dct:created "2011-01-11" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3818206|PMID:19008373 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000084),BFO:0000050(EMAPA:18767) creation-date=2011-01-11|modification-date=2012-12-17|comment=anatomy MA:0000141 ; spleen|comment=cell type CL:0000084 ; T cell   CL:0000001 ; primary cell line cell|comment=evidence flow cytometry|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/806cc91c-ab4b-4130-b38e-117cd086772a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/c3657ebc-910e-4a60-8053-76a1ec70d698> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/8476c921-6570-4272-9307-94c3ba072aff> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/2d214544-63e8-4e52-9b0d-2359a488f448> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/860f421b-5613-49f1-aef9-1d7fe291316f> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032695 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/2f7f58a0-5440-438e-a611-5e87cd550279> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/0f28926e-5dde-4c67-a9eb-b9410aa549a6> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/bfd96b22-8b48-4acc-bdc0-df3af9441d3b> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X",
+        "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2019-07-10" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002327 GO:0042802 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:Q8R037  2019-07-10 MGI  creation-date=2012-12-17|modification-date=2019-07-10|comment=evidence chromatography evidence ; ECO:0000325|comment=size exclusion chromatography from splenocyte supernatant|contributor-id=https://orcid.org/0000-0001-5501-853X|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/2058b699-af26-497c-8a08-4cb27d9cf897> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/6086f466-5dc2-4472-88db-ba399ab875ea> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/bd480d2a-364b-4527-aa6e-be4b0831664e> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-06-06" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002264 GO:0032693 MGI:MGI:3807131|PMID:18640726 ECO:0000315   2020-06-06 MGI  creation-date=2012-12-17|modification-date=2020-06-06|comment=immunodepletion from splenocyte culture medium using anti-CD137 (aka Tnfrsf9) antibodies|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/ee2862a2-22bd-4ed7-b222-5a5d0cca5eeb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/2bdaec01-30ed-49e6-a1c3-a47d3634bdab> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/86907acb-3e0d-4103-ad3a-fd943992b728> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/cc28600c-2b63-4f09-9fef-f495cd568729> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/6fef0a97-3564-42da-af05-b43b41a2ea27> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/f2e4640d-59ba-4643-a862-2977d3599cbe> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/0f8e7664-e418-430f-b931-2990dddff81e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/8cd17184-67df-46d3-912e-6e100ccd8025> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/6116d17f-bf45-4a34-8264-6b41c6f496af> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2009-12-18" ;
+    dct:created "2009-12-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1101059  RO:0002264 GO:0042127 MGI:MGI:63416|PMID:8405064 ECO:0000314   2009-12-18 MGI GOREL:0001008(CL:0000893) creation-date=2009-12-18|modification-date=2009-12-18|comment=cell type thymocyte ; CL:0000893|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/cc28600c-2b63-4f09-9fef-f495cd568729> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/5a8ef4cd-9579-4a3c-aa42-09a85f1c33f5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/5096e304-e2d2-4c41-9e51-c91ded8d3f79> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0002327 GO:0019955 MGI:MGI:3807131|PMID:18640726 ECO:0000353 PR:P41274  2012-12-17 MGI  creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/12ccbd03-9894-4f27-81fd-5637afce0228> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/f12dd64e-2cb6-49b8-b2e8-242f68da8dee> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/0e749518-0dcb-4019-b5b8-bda53caa024a> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:P20334-1  RO:0001025 GO:0009897 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence flow cytometry evidence ; ECO:0000268|comment=evidence immunological assay evidence ; ECO:0000040|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/e0e2b3bf-320e-47ae-96ec-bac662bc618d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/a73f6f6e-6564-4f9e-a885-445e31cce7a7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1101059/12758276-0b4c-4afe-9c80-62f8c7bdc4e1> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2012-12-17" ;
+    dct:created "2012-12-17" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PR:Q8R037  RO:0001025 GO:0005615 MGI:MGI:3807131|PMID:18640726 ECO:0000314   2012-12-17 MGI BFO:0000050(CL:0000624)|BFO:0000050(CL:0000625) creation-date=2012-12-17|modification-date=2012-12-17|comment=evidence enzyme-linked immunoabsorbent assay evidence ; ECO:0000267|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1101059/6972fa8f-aae6-4d7b-8426-9e188c24205e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1101059/5d051695-38de-4cbb-97c4-80a3581bd7c4> .
 

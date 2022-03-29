@@ -36,22 +36,32 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2008-09-12" ;
     dc:title "Terf2 (MGI:MGI:1195972)" ;
     dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1195972> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1195972/0177f4c1-cf19-4967-a413-3bc053b1ea17> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/035bced5-a579-4ab0-8a3a-4b7070ef9f65> a MGI:MGI:1195972,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/b72b7a09-764b-49d8-a144-b4762ad82785> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/049e76a9-bbd3-45fd-bfcf-30173fb0ac59> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dc:source "PMID:17696610" ;
-    dct:created "2008-09-12" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type spermatocyte ; CL:0000017",
-        "evidence IF" .
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/0ae60f51-c87e-44d2-8823-f1d0c57497ae> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1195972/13acbfb3-a81f-45c5-8d1d-ff782ff6ff5f> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3619525" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
@@ -63,7 +73,91 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence FISH",
         "mouse embryonic fibroblasts used" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/129439c8-1bca-4338-a05c-7117e4d1f772> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/228ad247-34ee-4cd3-994e-ecfe735c2573> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dc:source "PMID:17696610" ;
+    dct:created "2008-09-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type spermatocyte ; CL:0000017",
+        "evidence IF" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/2e3ad7c8-9ba7-4a8d-9d6c-fe3f121e3398> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/31264394-5bfd-4418-9e24-fbe3ef50348f> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/51edb0df-88ac-4603-a100-873bb38f6f22> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dc:source "PMID:17696610" ;
+    dct:created "2008-09-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type spermatocyte ; CL:0000017",
+        "evidence IF" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/57a6bb82-03b1-4d22-ba91-76304a112cf8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type fibroblast ; CL:0000057",
+        "evidence FISH",
+        "mouse embryonic fibroblasts used" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/5d6104e4-143d-4a1d-bf84-c9a4d575a00b> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-01-19" ;
+    dc:source "PMID:15010310" ;
+    dct:created "2005-01-19" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/82a8acea-168f-4d41-bed1-00ffbf4d757b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type fibroblast ; CL:0000057",
+        "evidence FISH",
+        "mouse embryonic fibroblasts used" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/870498c3-8da8-4ad8-bede-c8de7621a11a> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dc:source "PMID:17696610" ;
+    dct:created "2008-09-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type spermatocyte ; CL:0000017",
+        "evidence IF" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/8a2d322b-2e31-4e9b-811f-4bb3f16f7d85> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
@@ -74,68 +168,55 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence IF",
         "mouse embryonic fibroblasts used" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/1383ebcf-a2df-4b70-b815-a720834245f3> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/8d79446a-a15e-4871-8a61-45a466d34c10> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dc:source "PMID:17696610" ;
-    dct:created "2008-09-12" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type spermatocyte ; CL:0000017",
-        "evidence IF" .
+    rdfs:comment "evidence numbers of live births observed" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/2196f08e-1e1c-4000-b582-59d19b79ff35> a MGI:MGI:1195972,
+<http://model.geneontology.org/MGI_MGI_1195972/9e8eb44a-1f5c-423f-a9f7-14e1be7adf56> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/56b1a4a4-5fa6-4c0d-be89-2badb1c769a0> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/a1e89c96-46d6-4e50-ba83-fb9a24e6041a> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-01-19" ;
+    dc:source "PMID:15010310" ;
+    dct:created "2005-01-19" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/21e7561c-81ff-423c-8254-cc11ce07090b> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/a4175576-bcb2-46de-a98a-9839d67bb79a> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dc:source "PMID:15968270" ;
     dct:created "2008-02-04" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
+    rdfs:comment "evidence numbers of live births observed" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/2ab601a5-38ac-4fd2-9d43-3e1d089394ff> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/b5c4525e-b045-415b-9740-7520d3c89a55> a MGI:MGI:1195972,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/2d532fca-e051-4d9e-8dca-ae6ab725d767> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/428412d8-729b-45ab-b0f8-7b5d353f302e> a MGI:MGI:1195972,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/57bc239d-83f9-444a-b2d1-73e9ad4e9acc> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/a135589f-955e-44b7-bbb4-5050f61bd3d1> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-09-12" ;
     dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/43fb6ae2-1b8a-4247-afa4-1d2df1694d52> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/c01af40f-a1da-4ac2-87f4-5ec0612a771c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
@@ -146,7 +227,28 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type fibroblast ; CL:0000057",
         "evidence FISH" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/4e61464a-0a29-464e-9669-3185890dba2f> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1195972/c751227c-b4e3-4a10-ae51-3b73f759f9f9> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type fibroblast ; CL:0000057",
+        "evidence FISH",
+        "mouse embryonic fibroblasts used" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/ca87a510-6a6b-450b-8982-680adc828dfa> a MGI:MGI:1195972,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/123f0911-ec59-4f7f-9a0d-d2b63287d4ef> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dct:created "2008-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/d86f7192-6401-436a-881a-80d5f2342b04> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3619525" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
@@ -158,133 +260,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type fibroblast ; CL:0000057",
         "evidence FISH" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/6857c759-45d9-401a-a91d-47e88c74b643> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-01-19" ;
-    dc:source "PMID:15010310" ;
-    dct:created "2005-01-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/6efab3c4-127d-4c59-86a0-60f7528f0066> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dc:source "PMID:17696610" ;
-    dct:created "2008-09-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type spermatocyte ; CL:0000017",
-        "evidence IF" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/7fc2579e-548b-4a4a-b123-0657e23e1d99> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts used",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/903cf051-c87e-43e5-a011-bcd443599827> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type fibroblast ; CL:0000057",
-        "evidence FISH",
-        "mouse embryonic fibroblasts used" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/98af730d-187b-416c-827d-3d83ce8c3aba> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-01-19" ;
-    dc:source "PMID:15010310" ;
-    dct:created "2005-01-19" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/9ed92aa5-81ac-416f-a50e-aecf748d6357> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence numbers of live births observed" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/a22e5a7c-df2a-4e24-bf67-26d47d0a02b0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type fibroblast ; CL:0000057",
-        "evidence FISH",
-        "mouse embryonic fibroblasts used" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/c259e2a8-8b94-4942-bf47-2e57df6b266b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dc:source "PMID:17696610" ;
-    dct:created "2008-09-12" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type spermatocyte ; CL:0000017",
-        "evidence IF" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/d181b327-3ea0-4dcf-8bdc-02c1ef75b6e2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/d32fdee5-86ce-4650-a4cc-8938e13de19a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/ded234c1-bdae-4a33-b332-6d44d761f63d> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type fibroblast ; CL:0000057",
-        "evidence FISH",
-        "mouse embryonic fibroblasts used" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/dfb829ee-eae8-4323-838b-3fa0e5782f1b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3619525" ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence numbers of live births observed" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/f28e42fd-7bdf-4aff-bc73-9e674022d327> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1195972/da2a83bb-ec92-4380-8513-32ea689fca02> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
@@ -295,27 +271,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence IF",
         "mouse embryonic fibroblasts used" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/f2ea9cf8-0b8a-4766-8c82-e9a0678e24c1> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dc:source "PMID:15968270" ;
-    dct:created "2008-02-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
-        "cell type fibroblast ; CL:0000057",
-        "evidence FISH" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/fa79f326-252d-40ff-b091-23e118b13253> a MGI:MGI:1195972,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1195972/4ce74c53-94b3-4207-bb8f-a2021a5b81ad> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/fc4e403c-087d-4bc5-9bdb-ba4f02ffcb3a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1195972/da78f1e1-c444-48dc-b800-7210af271a7f> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3619525" ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
@@ -326,191 +282,235 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "Terf2 -/- mouse embryonic fibroblasts used",
         "cell type fibroblast ; CL:0000057",
         "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/ddbc2007-a434-498e-9130-d5e3c9fa5743> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/ddc6c539-1074-4ace-9f5a-c597f400f786> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3619525" ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts used",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/e22cb745-fa9a-4f85-a948-38b5a4bf90a2> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dc:source "PMID:15968270" ;
+    dct:created "2008-02-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2",
+        "cell type fibroblast ; CL:0000057",
+        "evidence FISH" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/f639d2ef-ac4c-4fbb-b8ca-f3eb547b0aa3> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dc:source "PMID:17696610" ;
+    dct:created "2008-09-12" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type spermatocyte ; CL:0000017",
+        "evidence IF" .
 
 obo:RO_0002213 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1195972/053e31f1-96ec-4ac3-95e8-54a305572481> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/4ffdb552-d50f-4bd9-acfc-184b331ea67c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/7476c2a2-6ca2-47a0-bd6e-a3283d967f7c> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-01-19" ;
-    dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/22c6c20e-6e43-4683-9830-70bd8567a810> a CL:0000017,
+<http://model.geneontology.org/MGI_MGI_1195972/00104bd0-7748-4459-a792-80035d193214> a CL:0000017,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-09-12" ;
     dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/386f2e51-14ea-462d-87ae-0b7790dd76c6> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1195972/0a590de8-c2a5-49de-85cd-36729704fa0a> a MGI:MGI:1195972,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/665fc345-8e1c-42a6-a6db-0b0e2148b0d9> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/e3b780f2-f981-4ed1-b226-b0f5c220e15a> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/4ffdb552-d50f-4bd9-acfc-184b331ea67c> a MGI:MGI:1195972,
+<http://model.geneontology.org/MGI_MGI_1195972/20dec6c2-c216-412a-b7d9-eb0f0444ff2d> a CL:0000057,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/3e7fd5bc-485f-4f45-8901-8eb39628effe> a MGI:MGI:1195972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-01-19" ;
     dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/57f580bb-90ed-439c-94b5-096cc8c1aedd> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/7c189249-853f-4ccf-b1ee-113c09007478> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/93403116-67b3-4632-9144-7382d3f06fd3> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/589ce230-ff7a-4be4-a603-70d6384ef94a> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/c0b8feff-fefa-47b1-a27b-44974929c5b9> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/edce88ed-af24-4e24-b82b-608cdb1e9cd1> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/665fc345-8e1c-42a6-a6db-0b0e2148b0d9> a MGI:MGI:1195972,
+<http://model.geneontology.org/MGI_MGI_1195972/41d6efdf-b3f0-4feb-94b3-c797b7da4dad> a CL:0000057,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/7476c2a2-6ca2-47a0-bd6e-a3283d967f7c> a GO:0000723,
+<http://model.geneontology.org/MGI_MGI_1195972/53cbf668-8419-44c3-9965-de67839ac199> a GO:0000723,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-01-19" ;
     dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/7c189249-853f-4ccf-b1ee-113c09007478> a MGI:MGI:1195972,
+<http://model.geneontology.org/MGI_MGI_1195972/9afc0865-da97-4a84-9e79-02ee8b99fcad> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/3e7fd5bc-485f-4f45-8901-8eb39628effe> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/53cbf668-8419-44c3-9965-de67839ac199> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-01-19" ;
+    dct:created "2005-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/b6536d28-a8b7-46e2-80c6-dfe46a294c89> a CL:0000057,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/93403116-67b3-4632-9144-7382d3f06fd3> a GO:0001701,
+<http://model.geneontology.org/MGI_MGI_1195972/bdcd183b-486f-4eeb-b6fa-0d8f61f7ac2a> a MGI:MGI:1195972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/af44c44d-8243-4242-b0f6-f03dc89ce8d2> a CL:0000057,
+<http://model.geneontology.org/MGI_MGI_1195972/c49b5cb3-cee6-443d-beeb-fe2cef46d798> a MGI:MGI:1195972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/c0b8feff-fefa-47b1-a27b-44974929c5b9> a MGI:MGI:1195972,
+<http://model.geneontology.org/MGI_MGI_1195972/d0332fac-b3b8-4efd-9d20-b66744da89a9> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/0a590de8-c2a5-49de-85cd-36729704fa0a> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/7b5e1d9c-d740-4df3-a06c-bd648a9d539e> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/d12e7dd0-1856-4960-8074-738de465be72> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/bdcd183b-486f-4eeb-b6fa-0d8f61f7ac2a> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/9f4bdda5-329b-4f03-8b0b-bd49bf2a2e47> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/efed4543-ef23-472d-8bc9-df15607aeb57> a GO:0001701,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/f0f02c8e-7137-4891-b7c7-72862554348d> a CL:0000017,
+<http://model.geneontology.org/MGI_MGI_1195972/f3b160d3-ff34-46f4-8689-b01e48bca8f7> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1195972/c49b5cb3-cee6-443d-beeb-fe2cef46d798> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1195972/efed4543-ef23-472d-8bc9-df15607aeb57> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/ff15ec98-5319-4ff4-9774-cfa8bcf6c7c5> a CL:0000017,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-09-12" ;
     dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/f4c02180-16e9-4f7e-8ec9-1bc6f223c95e> a CL:0000057,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/f4e31d55-a2be-4375-9257-b85302a98da8> a CL:0000057,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1195972/4ce74c53-94b3-4207-bb8f-a2021a5b81ad> a GO:0000781,
+<http://model.geneontology.org/MGI_MGI_1195972/123f0911-ec59-4f7f-9a0d-d2b63287d4ef> a GO:0000781,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/af44c44d-8243-4242-b0f6-f03dc89ce8d2> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/56b1a4a4-5fa6-4c0d-be89-2badb1c769a0> a GO:0001673,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/f0f02c8e-7137-4891-b7c7-72862554348d> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/ff15ec98-5319-4ff4-9774-cfa8bcf6c7c5> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-09-12" ;
     dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/57bc239d-83f9-444a-b2d1-73e9ad4e9acc> a GO:0000781,
+<http://model.geneontology.org/MGI_MGI_1195972/7b5e1d9c-d740-4df3-a06c-bd648a9d539e> a GO:0031848,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/22c6c20e-6e43-4683-9830-70bd8567a810> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1195972/41d6efdf-b3f0-4feb-94b3-c797b7da4dad> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/986e76d2-e451-43c4-a7f9-6c330480fc0c> a GO:0000723,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1195972/b6536d28-a8b7-46e2-80c6-dfe46a294c89> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/9f4bdda5-329b-4f03-8b0b-bd49bf2a2e47> a GO:0032206,
+        owl:NamedIndividual ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1195972/986e76d2-e451-43c4-a7f9-6c330480fc0c> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1195972/a135589f-955e-44b7-bbb4-5050f61bd3d1> a GO:0001673,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/00104bd0-7748-4459-a792-80035d193214> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-09-12" ;
     dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1195972/73d0c7bf-de2e-4916-8284-86f812d56f28> a GO:0000723,
+<http://model.geneontology.org/MGI_MGI_1195972/b72b7a09-764b-49d8-a144-b4762ad82785> a GO:0000781,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1195972/f4c02180-16e9-4f7e-8ec9-1bc6f223c95e> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1195972/20dec6c2-c216-412a-b7d9-eb0f0444ff2d> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/e3b780f2-f981-4ed1-b226-b0f5c220e15a> a GO:0032206,
-        owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1195972/73d0c7bf-de2e-4916-8284-86f812d56f28> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1195972/edce88ed-af24-4e24-b82b-608cdb1e9cd1> a GO:0031848,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1195972/f4e31d55-a2be-4375-9257-b85302a98da8> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -522,220 +522,220 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0002418 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/6857c759-45d9-401a-a91d-47e88c74b643> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-01-19" ;
-    dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0000723 MGI:MGI:3034120|PMID:15010310 ECO:0000315   2005-01-19 MGI  creation-date=2005-01-19|modification-date=2005-01-19|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/053e31f1-96ec-4ac3-95e8-54a305572481> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/7476c2a2-6ca2-47a0-bd6e-a3283d967f7c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/129439c8-1bca-4338-a05c-7117e4d1f772> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/8a2d322b-2e31-4e9b-811f-4bb3f16f7d85> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000050(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence IF|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/4ce74c53-94b3-4207-bb8f-a2021a5b81ad> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/af44c44d-8243-4242-b0f6-f03dc89ce8d2> .
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/035bced5-a579-4ab0-8a3a-4b7070ef9f65> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/b72b7a09-764b-49d8-a144-b4762ad82785> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/98af730d-187b-416c-827d-3d83ce8c3aba> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-01-19" ;
-    dct:created "2005-01-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0000723 MGI:MGI:3034120|PMID:15010310 ECO:0000315   2005-01-19 MGI  creation-date=2005-01-19|modification-date=2005-01-19|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/053e31f1-96ec-4ac3-95e8-54a305572481> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/4ffdb552-d50f-4bd9-acfc-184b331ea67c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/0177f4c1-cf19-4967-a413-3bc053b1ea17> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0001673 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/56b1a4a4-5fa6-4c0d-be89-2badb1c769a0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/f0f02c8e-7137-4891-b7c7-72862554348d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/4e61464a-0a29-464e-9669-3185890dba2f>,
-        <http://model.geneontology.org/MGI_MGI_1195972/d181b327-3ea0-4dcf-8bdc-02c1ef75b6e2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/a4175576-bcb2-46de-a98a-9839d67bb79a> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0001701 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI  creation-date=2008-02-04|modification-date=2008-02-04|comment=evidence numbers of live births observed|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/f3b160d3-ff34-46f4-8689-b01e48bca8f7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/efed4543-ef23-472d-8bc9-df15607aeb57> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/d86f7192-6401-436a-881a-80d5f2342b04>,
+        <http://model.geneontology.org/MGI_MGI_1195972/ddbc2007-a434-498e-9130-d5e3c9fa5743> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
         "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/589ce230-ff7a-4be4-a603-70d6384ef94a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/c0b8feff-fefa-47b1-a27b-44974929c5b9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/dfb829ee-eae8-4323-838b-3fa0e5782f1b> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0001701 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI  creation-date=2008-02-04|modification-date=2008-02-04|comment=evidence numbers of live births observed|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/57f580bb-90ed-439c-94b5-096cc8c1aedd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/93403116-67b3-4632-9144-7382d3f06fd3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/d0332fac-b3b8-4efd-9d20-b66744da89a9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/7b5e1d9c-d740-4df3-a06c-bd648a9d539e> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/9ed92aa5-81ac-416f-a50e-aecf748d6357> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/82a8acea-168f-4d41-bed1-00ffbf4d757b>,
+        <http://model.geneontology.org/MGI_MGI_1195972/9e8eb44a-1f5c-423f-a9f7-14e1be7adf56> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0001701 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI  creation-date=2008-02-04|modification-date=2008-02-04|comment=evidence numbers of live births observed|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/57f580bb-90ed-439c-94b5-096cc8c1aedd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/7c189249-853f-4ccf-b1ee-113c09007478> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/1383ebcf-a2df-4b70-b815-a720834245f3> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/428412d8-729b-45ab-b0f8-7b5d353f302e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/57bc239d-83f9-444a-b2d1-73e9ad4e9acc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/f28e42fd-7bdf-4aff-bc73-9e674022d327> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000050(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence IF|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/fa79f326-252d-40ff-b091-23e118b13253> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/4ce74c53-94b3-4207-bb8f-a2021a5b81ad> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/903cf051-c87e-43e5-a011-bcd443599827>,
-        <http://model.geneontology.org/MGI_MGI_1195972/f2ea9cf8-0b8a-4766-8c82-e9a0678e24c1> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
         "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/386f2e51-14ea-462d-87ae-0b7790dd76c6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/e3b780f2-f981-4ed1-b226-b0f5c220e15a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/d12e7dd0-1856-4960-8074-738de465be72> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/9f4bdda5-329b-4f03-8b0b-bd49bf2a2e47> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/43fb6ae2-1b8a-4247-afa4-1d2df1694d52>,
-        <http://model.geneontology.org/MGI_MGI_1195972/ded234c1-bdae-4a33-b332-6d44d761f63d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/c01af40f-a1da-4ac2-87f4-5ec0612a771c>,
+        <http://model.geneontology.org/MGI_MGI_1195972/c751227c-b4e3-4a10-ae51-3b73f759f9f9> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
-        "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/73d0c7bf-de2e-4916-8284-86f812d56f28> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/f4c02180-16e9-4f7e-8ec9-1bc6f223c95e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/2d532fca-e051-4d9e-8dca-ae6ab725d767>,
-        <http://model.geneontology.org/MGI_MGI_1195972/a22e5a7c-df2a-4e24-bf67-26d47d0a02b0> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
-        "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/386f2e51-14ea-462d-87ae-0b7790dd76c6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/665fc345-8e1c-42a6-a6db-0b0e2148b0d9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/c259e2a8-8b94-4942-bf47-2e57df6b266b> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/57bc239d-83f9-444a-b2d1-73e9ad4e9acc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/22c6c20e-6e43-4683-9830-70bd8567a810> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/0ae60f51-c87e-44d2-8823-f1d0c57497ae>,
-        <http://model.geneontology.org/MGI_MGI_1195972/d32fdee5-86ce-4650-a4cc-8938e13de19a> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-02-04" ;
-    dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
         "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/e3b780f2-f981-4ed1-b226-b0f5c220e15a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/73d0c7bf-de2e-4916-8284-86f812d56f28> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/9f4bdda5-329b-4f03-8b0b-bd49bf2a2e47> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/986e76d2-e451-43c4-a7f9-6c330480fc0c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/21e7561c-81ff-423c-8254-cc11ce07090b>,
-        <http://model.geneontology.org/MGI_MGI_1195972/fc4e403c-087d-4bc5-9bdb-ba4f02ffcb3a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/a1e89c96-46d6-4e50-ba83-fb9a24e6041a> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-01-19" ;
+    dct:created "2005-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0000723 MGI:MGI:3034120|PMID:15010310 ECO:0000315   2005-01-19 MGI  creation-date=2005-01-19|modification-date=2005-01-19|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/9afc0865-da97-4a84-9e79-02ee8b99fcad> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/53cbf668-8419-44c3-9965-de67839ac199> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/da2a83bb-ec92-4380-8513-32ea689fca02> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000050(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence IF|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/b72b7a09-764b-49d8-a144-b4762ad82785> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/20dec6c2-c216-412a-b7d9-eb0f0444ff2d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/228ad247-34ee-4cd3-994e-ecfe735c2573> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dct:created "2008-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0001673 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/a135589f-955e-44b7-bbb4-5050f61bd3d1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/00104bd0-7748-4459-a792-80035d193214> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/2e3ad7c8-9ba7-4a8d-9d6c-fe3f121e3398>,
+        <http://model.geneontology.org/MGI_MGI_1195972/57a6bb82-03b1-4d22-ba91-76304a112cf8> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
+        "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/986e76d2-e451-43c4-a7f9-6c330480fc0c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/b6536d28-a8b7-46e2-80c6-dfe46a294c89> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/f639d2ef-ac4c-4fbb-b8ca-f3eb547b0aa3> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dct:created "2008-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0001673 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/b5c4525e-b045-415b-9740-7520d3c89a55> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/a135589f-955e-44b7-bbb4-5050f61bd3d1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/51edb0df-88ac-4603-a100-873bb38f6f22> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dct:created "2008-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/ca87a510-6a6b-450b-8982-680adc828dfa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/123f0911-ec59-4f7f-9a0d-d2b63287d4ef> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/da78f1e1-c444-48dc-b800-7210af271a7f>,
+        <http://model.geneontology.org/MGI_MGI_1195972/e22cb745-fa9a-4f85-a948-38b5a4bf90a2> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
         "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/edce88ed-af24-4e24-b82b-608cdb1e9cd1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/f4e31d55-a2be-4375-9257-b85302a98da8> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/7b5e1d9c-d740-4df3-a06c-bd648a9d539e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/41d6efdf-b3f0-4feb-94b3-c797b7da4dad> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/6efab3c4-127d-4c59-86a0-60f7528f0066> ;
-    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
-    dc:date "2008-09-12" ;
-    dct:created "2008-09-12" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0001673 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/2196f08e-1e1c-4000-b582-59d19b79ff35> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/56b1a4a4-5fa6-4c0d-be89-2badb1c769a0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/2ab601a5-38ac-4fd2-9d43-3e1d089394ff>,
-        <http://model.geneontology.org/MGI_MGI_1195972/7fc2579e-548b-4a4a-b123-0657e23e1d99> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/31264394-5bfd-4418-9e24-fbe3ef50348f>,
+        <http://model.geneontology.org/MGI_MGI_1195972/ddc6c539-1074-4ace-9f5a-c597f400f786> ;
     dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
     dc:date "2008-02-04" ;
     dct:created "2008-02-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
         "MGI:MGI:1195972  RO:0002264 GO:0031848 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI BFO:0000066(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/589ce230-ff7a-4be4-a603-70d6384ef94a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/edce88ed-af24-4e24-b82b-608cdb1e9cd1> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/d0332fac-b3b8-4efd-9d20-b66744da89a9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/0a590de8-c2a5-49de-85cd-36729704fa0a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/8d79446a-a15e-4871-8a61-45a466d34c10> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0001701 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI  creation-date=2008-02-04|modification-date=2008-02-04|comment=evidence numbers of live births observed|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/f3b160d3-ff34-46f4-8689-b01e48bca8f7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/c49b5cb3-cee6-443d-beeb-fe2cef46d798> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/5d6104e4-143d-4a1d-bf84-c9a4d575a00b> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-01-19" ;
+    dct:created "2005-01-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0000723 MGI:MGI:3034120|PMID:15010310 ECO:0000315   2005-01-19 MGI  creation-date=2005-01-19|modification-date=2005-01-19|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/9afc0865-da97-4a84-9e79-02ee8b99fcad> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/3e7fd5bc-485f-4f45-8901-8eb39628effe> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/049e76a9-bbd3-45fd-bfcf-30173fb0ac59>,
+        <http://model.geneontology.org/MGI_MGI_1195972/13acbfb3-a81f-45c5-8d1d-ff782ff6ff5f> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-02-04" ;
+    dct:created "2008-02-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000314   2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=Terf2 -/- mouse embryonic fibroblasts complemented by transfected mouse Terf2|contributor-id=https://orcid.org/0000-0001-9990-8331",
+        "MGI:MGI:1195972  RO:0002264 GO:0032206 MGI:MGI:3615734|PMID:15968270 ECO:0000315 MGI:MGI:3619525  2008-02-04 MGI GOREL:0001004(CL:0000057) creation-date=2008-02-04|modification-date=2008-02-04|comment=cell type fibroblast ; CL:0000057|comment=evidence FISH|comment=mouse embryonic fibroblasts used|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/d12e7dd0-1856-4960-8074-738de465be72> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/bdcd183b-486f-4eeb-b6fa-0d8f61f7ac2a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1195972/870498c3-8da8-4ad8-bede-c8de7621a11a> ;
+    dc:contributor "https://orcid.org/0000-0001-9990-8331" ;
+    dc:date "2008-09-12" ;
+    dct:created "2008-09-12" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1195972  RO:0001025 GO:0000781 MGI:MGI:3719060|PMID:17696610 ECO:0000314   2008-09-12 MGI BFO:0000050(CL:0000017) creation-date=2008-09-12|modification-date=2008-09-12|comment=cell type spermatocyte ; CL:0000017|comment=evidence IF|contributor-id=https://orcid.org/0000-0001-9990-8331" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1195972/123f0911-ec59-4f7f-9a0d-d2b63287d4ef> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1195972/ff15ec98-5319-4ff4-9774-cfa8bcf6c7c5> .
 

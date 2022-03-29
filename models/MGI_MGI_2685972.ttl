@@ -34,20 +34,30 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2015-04-08" ;
     dc:title "Susd5 (MGI:MGI:2685972)" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_2685972> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_2685972/1eaab4fa-dd54-4266-bff1-6801d61dc062> a ECO:0000307,
+<http://model.geneontology.org/MGI_MGI_2685972/1ed1ddb4-f0c2-426a-a80c-f7b09e508cb4> a MGI:MGI:2685972,
         owl:NamedIndividual ;
+    obo:RO_0002432 <http://model.geneontology.org/MGI_MGI_2685972/0d60f6e0-26e9-4f8f-b032-c89dd04f295f> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
-    dc:source "GO_REF:0000015" ;
     dct:created "2010-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2685972/3dcd9602-21a3-4cce-9d8c-eb09affb8d51> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2685972/2af2f9bc-c94c-471f-9dd5-c2dc2c248a8c> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2685972/645447bc-3479-4a88-92e1-adc65fb7ec51> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-02" ;
+    dct:created "2010-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2685972/7eea3515-f1bf-41b6-9e3b-7cecda0aec83> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-04-08" ;
@@ -56,25 +66,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy middle caudal artery ; MA:0002006" .
 
-<http://model.geneontology.org/MGI_MGI_2685972/69b4330d-f01d-4913-8bf8-ed360a8a3e3d> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2685972/eb238fe7-0982-4511-9794-4625fec7fd24> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-02" ;
-    dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2685972/7b03295c-c705-4863-a4cb-2efeb9c8b645> a MGI:MGI:2685972,
-        owl:NamedIndividual ;
-    obo:RO_0002432 <http://model.geneontology.org/MGI_MGI_2685972/b0acbe95-168f-43e1-a740-2963c0abe21e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-02" ;
-    dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2685972/835fca87-fd36-40a5-99fc-77cffa524794> a ECO:0000307,
+<http://model.geneontology.org/MGI_MGI_2685972/8a78aedc-877b-42cb-91b9-41f151ea048c> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
@@ -82,7 +74,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2010-02-02" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2685972/86bd76c9-5c08-451a-a9f4-22219db379c1> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_2685972/8cafad95-51f0-47d0-a00e-f2ca1479a7c0> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-04-08" ;
@@ -90,100 +82,108 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2015-04-08" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy middle caudal artery ; MA:0002006" .
+
+<http://model.geneontology.org/MGI_MGI_2685972/b4c869c2-95fc-4fa6-9804-928e25cc33fd> a ECO:0000307,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-02" ;
+    dc:source "GO_REF:0000015" ;
+    dct:created "2010-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
 obo:RO_0002432 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_2685972/6524113f-e6d4-456c-942b-2c58ab450d05> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2685972/f99a2290-a96c-476e-8671-0ed02f09c72c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2685972/ae226339-8c4b-4bed-8242-40ae629082b2> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-04-08" ;
-    dct:created "2015-04-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2685972/ae226339-8c4b-4bed-8242-40ae629082b2> a GO:0007219,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-04-08" ;
-    dct:created "2015-04-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2685972/b0acbe95-168f-43e1-a740-2963c0abe21e> a GO:0005575,
+<http://model.geneontology.org/MGI_MGI_2685972/0d60f6e0-26e9-4f8f-b032-c89dd04f295f> a GO:0005575,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_2685972/eb238fe7-0982-4511-9794-4625fec7fd24> a MGI:MGI:2685972,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-02" ;
-    dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_2685972/f99a2290-a96c-476e-8671-0ed02f09c72c> a MGI:MGI:2685972,
+<http://model.geneontology.org/MGI_MGI_2685972/0eb04049-30bc-41e5-9233-163cd70dcaf9> a MGI:MGI:2685972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2015-04-08" ;
     dct:created "2015-04-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2685972/5c70d9cf-2fb3-480f-bcb9-ac7c8b6fcc87> a GO:0007219,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-04-08" ;
+    dct:created "2015-04-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2685972/645447bc-3479-4a88-92e1-adc65fb7ec51> a MGI:MGI:2685972,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-02" ;
+    dct:created "2010-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_2685972/6bf037d4-46c6-497f-aed3-a8d7a6bd81d5> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_2685972/0eb04049-30bc-41e5-9233-163cd70dcaf9> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_2685972/5c70d9cf-2fb3-480f-bcb9-ac7c8b6fcc87> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-04-08" ;
+    dct:created "2015-04-08" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/835fca87-fd36-40a5-99fc-77cffa524794> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/b4c869c2-95fc-4fa6-9804-928e25cc33fd> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-02" ;
     dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2685972  RO:0002432 GO:0005575 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2010-02-02 MGI  creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002432 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/7b03295c-c705-4863-a4cb-2efeb9c8b645> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/b0acbe95-168f-43e1-a740-2963c0abe21e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/86bd76c9-5c08-451a-a9f4-22219db379c1> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-04-08" ;
-    dct:created "2015-04-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2685972  RO:0002264 GO:0007219 MGI:MGI:5609934|PMID:23117660 ECO:0000314   2015-04-08 MGI  creation-date=2015-04-08|modification-date=2015-04-08|comment=anatomy middle caudal artery ; MA:0002006|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/6524113f-e6d4-456c-942b-2c58ab450d05> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/f99a2290-a96c-476e-8671-0ed02f09c72c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/3dcd9602-21a3-4cce-9d8c-eb09affb8d51> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2015-04-08" ;
-    dct:created "2015-04-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:2685972  RO:0002264 GO:0007219 MGI:MGI:5609934|PMID:23117660 ECO:0000314   2015-04-08 MGI  creation-date=2015-04-08|modification-date=2015-04-08|comment=anatomy middle caudal artery ; MA:0002006|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/6524113f-e6d4-456c-942b-2c58ab450d05> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/ae226339-8c4b-4bed-8242-40ae629082b2> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/1eaab4fa-dd54-4266-bff1-6801d61dc062> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-02" ;
-    dct:created "2010-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:2685972  RO:0002327 GO:0003674 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2010-02-02 MGI  creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/69b4330d-f01d-4913-8bf8-ed360a8a3e3d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/eb238fe7-0982-4511-9794-4625fec7fd24> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/2af2f9bc-c94c-471f-9dd5-c2dc2c248a8c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/645447bc-3479-4a88-92e1-adc65fb7ec51> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/8a78aedc-877b-42cb-91b9-41f151ea048c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-02" ;
+    dct:created "2010-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2685972  RO:0002432 GO:0005575 MGI:MGI:2156816|GO_REF:0000015 ECO:0000307   2010-02-02 MGI  creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002432 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/1ed1ddb4-f0c2-426a-a80c-f7b09e508cb4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/0d60f6e0-26e9-4f8f-b032-c89dd04f295f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/7eea3515-f1bf-41b6-9e3b-7cecda0aec83> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-04-08" ;
+    dct:created "2015-04-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2685972  RO:0002264 GO:0007219 MGI:MGI:5609934|PMID:23117660 ECO:0000314   2015-04-08 MGI  creation-date=2015-04-08|modification-date=2015-04-08|comment=anatomy middle caudal artery ; MA:0002006|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/6bf037d4-46c6-497f-aed3-a8d7a6bd81d5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/5c70d9cf-2fb3-480f-bcb9-ac7c8b6fcc87> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_2685972/8cafad95-51f0-47d0-a00e-f2ca1479a7c0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2015-04-08" ;
+    dct:created "2015-04-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:2685972  RO:0002264 GO:0007219 MGI:MGI:5609934|PMID:23117660 ECO:0000314   2015-04-08 MGI  creation-date=2015-04-08|modification-date=2015-04-08|comment=anatomy middle caudal artery ; MA:0002006|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_2685972/6bf037d4-46c6-497f-aed3-a8d7a6bd81d5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_2685972/0eb04049-30bc-41e5-9233-163cd70dcaf9> .
 

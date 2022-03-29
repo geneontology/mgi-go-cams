@@ -34,12 +34,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2011-08-09" ;
     dc:title "H2-Q1 (MGI:MGI:95928)" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_95928> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_95928/39b0fcc9-fb18-480d-966d-f1b41383856f> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_95928/72011f49-a79a-444b-9c7c-fd0f76e05b43> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
@@ -48,7 +48,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence specific protein inhibition experiment ; ECO:0000020" .
 
-<http://model.geneontology.org/MGI_MGI_95928/67598576-2614-40f6-a3a0-75216ec22191> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_95928/d77bdfd0-7b74-492e-b1ac-e92667466790> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
@@ -61,53 +61,53 @@ obo:RO_0002333 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_95928/7596845a-e2a1-4109-9239-48ea465bad12> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_95928/034d3ddd-d208-4389-875b-c11e9d76dca0> a GO:0019882,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95928/d45bbc68-57e5-4cb9-8166-036e3f245ba0> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95928/fbda126e-d779-459f-896c-42269e925a8e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95928/d45bbc68-57e5-4cb9-8166-036e3f245ba0> a MGI:MGI:95928,
+<http://model.geneontology.org/MGI_MGI_95928/8282b372-73fa-4b30-9b68-3f0710e16877> a MGI:MGI:95928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_95928/fbda126e-d779-459f-896c-42269e925a8e> a GO:0019882,
+<http://model.geneontology.org/MGI_MGI_95928/efe78c0a-3b7c-4a00-9148-430d5a3d78a3> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_95928/8282b372-73fa-4b30-9b68-3f0710e16877> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_95928/034d3ddd-d208-4389-875b-c11e9d76dca0> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95928/67598576-2614-40f6-a3a0-75216ec22191> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95928/72011f49-a79a-444b-9c7c-fd0f76e05b43> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95928  RO:0002264 GO:0019882 MGI:MGI:4421465|PMID:20038604 ECO:0000315   2011-08-09 MGI  creation-date=2011-08-09|modification-date=2011-08-09|comment=evidence specific protein inhibition experiment ; ECO:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95928/7596845a-e2a1-4109-9239-48ea465bad12> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95928/fbda126e-d779-459f-896c-42269e925a8e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95928/efe78c0a-3b7c-4a00-9148-430d5a3d78a3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95928/034d3ddd-d208-4389-875b-c11e9d76dca0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_95928/39b0fcc9-fb18-480d-966d-f1b41383856f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_95928/d77bdfd0-7b74-492e-b1ac-e92667466790> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2011-08-09" ;
     dct:created "2011-08-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:95928  RO:0002264 GO:0019882 MGI:MGI:4421465|PMID:20038604 ECO:0000315   2011-08-09 MGI  creation-date=2011-08-09|modification-date=2011-08-09|comment=evidence specific protein inhibition experiment ; ECO:0000020|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95928/7596845a-e2a1-4109-9239-48ea465bad12> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95928/d45bbc68-57e5-4cb9-8166-036e3f245ba0> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_95928/efe78c0a-3b7c-4a00-9148-430d5a3d78a3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_95928/8282b372-73fa-4b30-9b68-3f0710e16877> .
 

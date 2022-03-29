@@ -38,21 +38,53 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-03-05" ;
     dc:title "Prdx1 (MGI:MGI:99523)" ;
     dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_99523> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_99523/0155f967-0275-4162-986d-4938b001c8e9> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/11c6c2ac-dabb-4df0-8744-2552b4e8e872> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/7c430e1c-b050-478f-8819-ccc88f589266> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/1cc716de-4c16-4b57-8724-e7f44b5f09dc> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q06830" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:11986303 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/1da8eb66-f27c-4a37-9db5-56a3f746b054> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2670538" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:12891360" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MEF",
+        "cell type CL:0000057; fibroblast" .
+
+<http://model.geneontology.org/MGI_MGI_99523/2d58211e-bc61-48ba-bd2b-8753a95aea31> a MGI:MGI:99523,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/bd149707-4ff4-4829-a85c-82d583fcd14b> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/057f7d02-a9e4-4a51-9b85-3da9298047b3> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/3921f8c8-a8dd-41a2-9608-e532eeb84678> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-06-07" ;
@@ -65,45 +97,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(CL:0000134)",
         "has_participant(EMAPA:17478 TS20)" .
 
-<http://model.geneontology.org/MGI_MGI_99523/083eed57-758a-45f3-a68b-22e4d25e4e21> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3611932" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16170382" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/0b310517-ff32-4012-a238-4afaff06279a> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16880205" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
-        "evidence ECO:0000019; inferred from RNAi" .
-
-<http://model.geneontology.org/MGI_MGI_99523/11555268-d2bb-4dd4-81d4-c20a01fa59f8> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q06830" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:17603937 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/1247dd4d-edd6-4803-b9bf-afd6264e0300> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3611932" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16297875" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/143ecf10-b3bb-44c9-8a7a-3d799d3069d7> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/3bd46a8f-56c2-4d9e-a5e5-e6f5b888335c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3611932" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -113,107 +107,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "demonstrate ROS accumulation in mutant" .
 
-<http://model.geneontology.org/MGI_MGI_99523/18aa1f7e-1015-439b-8068-2a41d82ae8a8> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16880205" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
-        "evidence ECO:0000019; inferred from RNAi" .
-
-<http://model.geneontology.org/MGI_MGI_99523/219f7867-5e14-468d-a272-5de10c92eb4d> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/24d8637c-fc95-4517-96ad-8018e3d6d9fd> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/2abf3770-f163-4a03-b088-cae58b3c632c> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/30b3974e-a88f-41ec-b77e-2968e2005b35> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3611932" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16297875" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/3f17dc55-0fe1-4179-bf7c-18f3dbf8b009> a GO:0004601,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/2a4d25bb-ada5-4de9-a5ec-3428cc050fca> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/43a59d5a-2bc8-4a4a-9ac4-8f7da6a0c098> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q06830" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:11986303 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/4acc21f8-7557-4984-a875-604c67389a30> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q06830" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:11986303 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/54168e64-b42e-4eb3-8425-166afc50956a> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q06830" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:11986303 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/568e1875-81be-4aba-854b-8b33d0c6e303> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2670538" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:12891360" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/6252304b-2ae2-4e67-bc4e-b72726da458d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/43dd5459-d791-487a-9cbb-3a79f3e5600f> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2670538" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -223,16 +117,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "mutation results in development of anemia  most likely due to" .
 
-<http://model.geneontology.org/MGI_MGI_99523/77423c4d-e622-45a6-826f-4713c3290f69> a MGI:MGI:99523,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/a0cdcc5e-6292-445d-b5d2-92751618b0aa> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-09-23" ;
-    dct:created "2009-09-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/9105b724-70f6-4a18-8aed-6ec475799d72> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/44eea4b7-f96a-4932-9b8f-7365cafb22bf> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2670538" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -243,57 +128,122 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "MEF",
         "cell type CL:0000057; fibroblast" .
 
-<http://model.geneontology.org/MGI_MGI_99523/a13ac921-0fa7-4165-94a6-61a84ba8c277> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_99523/46c80238-1049-4838-83f9-eb874e41aede> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "UniProtKB:Q06830" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "GO_REF:0000008" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:17603937 IDA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/a2c74db8-c81f-4e99-9702-53a6d955462b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2670538" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:12891360" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "mutation results in development of anemia  most likely due to" .
-
-<http://model.geneontology.org/MGI_MGI_99523/a6fc2fca-0ffe-4658-890c-48da50c34af4> a MGI:MGI:99523,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/fec3a04e-f97a-4fb3-bdc4-51f251bb8249> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:contributor "GOC:tc" ;
+    dc:date "2000-08-14" ;
+    dc:source "PMID:8360158" ;
+    dct:created "2000-08-14" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/a7ae89b0-c714-48f1-ac55-05fa4db371a1> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/499cb817-11c7-44de-91b8-ef806d42a147> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2670538" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dc:source "PMID:12891360" ;
     dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MEF",
-        "cell type CL:0000057; fibroblast" .
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/a8151635-e790-449b-aa92-b3ef480cbd28> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/4a903a67-0360-4410-ae0c-525e09440842> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3611932" ;
+    dc:contributor "GOC:tc" ;
+    dc:date "2000-08-14" ;
+    dc:source "PMID:8360158" ;
+    dct:created "2000-08-14" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/4c4d866d-1530-460c-9d4d-f8667f9fb7f1> a ECO:0000315,
+        owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
-    dc:source "PMID:16170382" ;
+    dc:source "PMID:16880205" ;
     dct:created "2008-05-29" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "demonstrate ROS accumulation in mutant" .
+    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
+        "evidence ECO:0000019; inferred from RNAi" .
 
-<http://model.geneontology.org/MGI_MGI_99523/aa6d543b-c195-4465-ae73-5cff00d66f45> a ECO:0007005,
+<http://model.geneontology.org/MGI_MGI_99523/50503056-43fb-4c86-bd8f-41b97b251963> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2670538" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:12891360" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/6b1960b8-0069-4b75-9433-d19da922e789> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16880205" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
+        "evidence ECO:0000019; inferred from RNAi" .
+
+<http://model.geneontology.org/MGI_MGI_99523/702240b3-fcb7-4fb4-8366-a075d03eb648> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/70d6df30-2855-4e62-960e-be6b96762790> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2670538" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:12891360" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/751473f0-816d-401e-bd97-2dc86d518cee> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16880205" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
+        "evidence ECO:0000019; inferred from RNAi" .
+
+<http://model.geneontology.org/MGI_MGI_99523/79345221-925c-4e23-8e2f-aa3fc616905c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2670538" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:12891360" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/7a22842f-3760-4ef6-b125-6d7fc442e7f9> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/841c091c-44f6-4da2-85c1-300ee72ae311> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/8c61688d-7669-4502-bd46-cde6df2410ae> a ECO:0007005,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-09-23" ;
@@ -302,46 +252,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "RefSeq:NP_035164" .
 
-<http://model.geneontology.org/MGI_MGI_99523/b542373f-50c8-4bc2-9560-c28ce4e2e66a> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/c19cf391-c0eb-423c-8048-a852f08fa49d> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2670538" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:12891360" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/dc77894c-e9c8-4723-9c6c-4f6f5a83fe59> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/e05fb199-82c9-4c1f-a096-ac00bc5b2504> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "GOC:tc" ;
-    dc:date "2000-08-14" ;
-    dc:source "PMID:8360158" ;
-    dct:created "2000-08-14" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/e48b69cc-a2f0-4354-aef5-a32923f8a4df> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/8cd8f4e6-a1a5-44bf-9730-e93c80f14dcf> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3611932" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
@@ -350,66 +261,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2008-05-29" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/efb68eee-b964-4ee8-8bff-f8c5ada6ba1a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2670538" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:12891360" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/f411be15-20f0-45ca-ae42-3ba85ccc0c26> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16880205" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
-        "evidence ECO:0000019; inferred from RNAi" .
-
-<http://model.geneontology.org/MGI_MGI_99523/f41b28dc-45b2-45d3-92a6-339f01560ad7> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dc:source "PMID:15858817" ;
-    dct:created "2005-06-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
-        "cell type mesenchymal_cell ; CL:0000134",
-        "evidence Si-RNA" .
-
-<http://model.geneontology.org/MGI_MGI_99523/f4e60d80-6d6d-4543-b53d-8de83d2f578c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "GOC:tc" ;
-    dc:date "2000-08-14" ;
-    dc:source "PMID:8360158" ;
-    dct:created "2000-08-14" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/f61eb4fb-9096-4015-a23b-ebcab4396198> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2670538" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:12891360" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MEF",
-        "cell type CL:0000057; fibroblast" .
-
-<http://model.geneontology.org/MGI_MGI_99523/f6f42658-1b33-4eee-8faa-a95d1ab22042> a ECO:0000315,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dc:source "PMID:16880205" ;
-    dct:created "2008-05-29" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
-        "evidence ECO:0000019; inferred from RNAi" .
-
-<http://model.geneontology.org/MGI_MGI_99523/fa3dd5b2-6971-466a-bd3d-fdaab537dc31> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/97c47d6d-6cff-48a5-9406-5b00d2079580> a ECO:0000315,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-06-07" ;
@@ -422,335 +274,483 @@ ns2:providedBy a owl:AnnotationProperty .
         "has_participant(CL:0000134)",
         "has_participant(EMAPA:17478 TS20)" .
 
-<http://model.geneontology.org/MGI_MGI_99523/fc1ab6a6-f44e-4710-9ae9-2d63ff4b59f0> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_99523/a3ffa0c7-b13c-43ca-8327-31248ded9321> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q06830" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:17603937 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/a4905000-e499-4119-86e7-7e00736fd3a0> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16880205" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67",
+        "evidence ECO:0000019; inferred from RNAi" .
+
+<http://model.geneontology.org/MGI_MGI_99523/a705309d-ae33-4aaf-9f3d-a5c427baedd8> a MGI:MGI:99523,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/b233871b-1583-42f4-aabe-9fdd7229e051> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-09-23" ;
+    dct:created "2009-09-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/b24968ca-c1d3-45d4-b596-f53317e7f3ed> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q06830" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:11986303 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/be8731f4-1a82-494f-b7b7-1a3e17a7eda2> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q06830" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:17603937 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/c25bf9d8-921b-400a-a8b8-a7ceed94113e> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2670538" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dc:source "PMID:12891360" ;
     dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "mutation results in development of anemia  most likely due to" .
+
+<http://model.geneontology.org/MGI_MGI_99523/d23c8d80-1f7a-46c8-b010-25ed4fee0e8d> a MGI:MGI:99523,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_99523/36b69d7c-d7cf-4c91-a8bb-8ea321594e02> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/d29b6b93-8995-45db-8e4c-a8c473de918d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2670538" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:12891360" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MEF",
+        "cell type CL:0000057; fibroblast" .
+
+<http://model.geneontology.org/MGI_MGI_99523/d7405c44-89dc-4513-8656-4e97f72bf371> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "UniProtKB:Q06830" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "external ref PMID:11986303 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/d7b859aa-de69-4c8f-b66c-847f096d2cb8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3611932" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16297875" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/da47ea84-ec67-4f05-9461-337510dad579> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/dd6f7003-8570-458c-9628-1414f196af7a> a GO:0004601,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/33d249af-bffa-4cd9-9d5d-72ebb9c70866> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/e9055d3f-a327-4cac-b0d6-ebeb201ce3f8> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3611932" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16297875" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/ec7757c8-45ad-44eb-9dc6-e6ca27a9c33a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3611932" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16170382" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/f43cd5cb-2ca1-4b8e-a030-7165cde8f336> a ECO:0000315,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dc:source "PMID:15858817" ;
+    dct:created "2005-06-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078",
+        "cell type mesenchymal_cell ; CL:0000134",
+        "evidence Si-RNA" .
+
+<http://model.geneontology.org/MGI_MGI_99523/ff70b3bf-7b72-4784-a1e4-0af07dfbaa36> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3611932" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dc:source "PMID:16170382" ;
+    dct:created "2008-05-29" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "demonstrate ROS accumulation in mutant" .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_99523/051b5668-edd3-487a-9ec1-8f06a453d236> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/099ce2ad-b250-4a11-b2d1-3a54279b68c1> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/097a8941-da61-4f24-9d14-3d076dfcad54> a CL:0000134,
+<http://model.geneontology.org/MGI_MGI_99523/11f260ae-aa54-4d57-b864-b66352c380ea> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/c2b8e818-4495-4a7a-9164-775a119a0b8f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/c7469c63-a584-4823-9dde-b271b59dd270> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/14ab0753-7f5d-4989-bfc5-8ac53ec42a03> a CL:0000134,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/1f19c4c2-e190-43cc-a34b-1d1ab2c49084> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/1565d4a7-e506-40a9-976a-cdf09345a97f> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/524a3ce1-3dd5-42ac-bfdf-072b7b5a5eb0> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/cc85aba0-1ef0-4852-8bc2-2b364303b9ae> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/272ca460-ac53-4447-8127-1faf120e0e8e> a GO:0042744,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/2a4d25bb-ada5-4de9-a5ec-3428cc050fca> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/2ed50e02-362d-4da1-9fc8-3d05ad304728> a GO:0034101,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/323b2fca-cff6-4899-b8c3-1a7595a28e2e> a GO:0042267,
+<http://model.geneontology.org/MGI_MGI_99523/321137d0-f415-496a-a48c-77365ed7163d> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/dca5d837-ba5e-461f-9a7e-1a47cb7ddb9b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/272ca460-ac53-4447-8127-1faf120e0e8e> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/33d249af-bffa-4cd9-9d5d-72ebb9c70866> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/4f633ad5-c4ce-4bf1-a78b-f1eff3363fd3> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/34254968-61ba-4ec6-a3b6-0f020a7ea143> a CL:0000057,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/36b69d7c-d7cf-4c91-a8bb-8ea321594e02> a GO:0005634,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/40d04f1b-3baa-4b07-a2fa-adbc9c2ef223> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/a8246dd0-fcb4-47d9-bf0a-ba6abd0139a2> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/9d2db962-7997-434b-b952-69297d979166> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/46cb0c31-9b97-4105-a100-becf137c8596> a GO:0042267,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/5246d855-a08c-4133-98ec-95b28dd0b819> a GO:0006979,
         owl:NamedIndividual ;
     dc:contributor "GOC:tc",
         "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-06-07" ;
     dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/6ab18b7a-964a-4e89-bdf3-70267f6cf901> a MGI:MGI:99523,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/6fd4bc5f-7387-4515-9d74-3de985205634> a EMAPA:17478,
+<http://model.geneontology.org/MGI_MGI_99523/524a3ce1-3dd5-42ac-bfdf-072b7b5a5eb0> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/770bcdd3-60ce-4082-915c-f081530955f7> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_99523/57840b74-41fa-43d6-8182-8d092281b87f> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/8378a95f-3d52-4680-9778-4659bce2d8c5> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/9e5aed6e-e61a-48df-b357-7cbb4103c925> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/099ce2ad-b250-4a11-b2d1-3a54279b68c1> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/2ed50e02-362d-4da1-9fc8-3d05ad304728> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/7c430e1c-b050-478f-8819-ccc88f589266> a GO:0005737,
+<http://model.geneontology.org/MGI_MGI_99523/57ec3457-5709-44de-9753-261a34aaea77> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/f2e3259b-ceb4-4b8d-9cec-660dda7c8f4b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/46cb0c31-9b97-4105-a100-becf137c8596> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/8378a95f-3d52-4680-9778-4659bce2d8c5> a MGI:MGI:99523,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/911c0f04-f94a-4325-9eca-d411d0c1037b> a GO:0006979,
+<http://model.geneontology.org/MGI_MGI_99523/68cf4089-c56e-4a81-8af1-1acfb57fcd29> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "GOC:tc",
         "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-06-07" ;
     dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/97a97966-fb75-4bf8-9282-662ec9b3d188> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_99523/8232c33d-f983-4dcc-be41-caf7c06979c5> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/9f7df815-4344-4225-8ebe-15a61dd6fa21> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/633ee009-5ad0-4891-8eb5-ae4b41dde770> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/68cf4089-c56e-4a81-8af1-1acfb57fcd29> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/5246d855-a08c-4133-98ec-95b28dd0b819> ;
+    dc:contributor "GOC:tc",
+        "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-06-07" ;
+    dct:created "2000-08-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/8f4eec36-b32a-45ad-a5b0-64650241063d> a EMAPA:17478,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/93d0e23f-bc69-4719-9b41-29498c52a92e> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/a8dfa0bf-14ae-4723-9e2e-e31655edcbab> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/ee06ce9c-b457-4de1-9de3-aa6362eed636> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/9e5aed6e-e61a-48df-b357-7cbb4103c925> a GO:0032872,
+<http://model.geneontology.org/MGI_MGI_99523/9d2db962-7997-434b-b952-69297d979166> a GO:0032872,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/9f7df815-4344-4225-8ebe-15a61dd6fa21> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/a8246dd0-fcb4-47d9-bf0a-ba6abd0139a2> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/a0cdcc5e-6292-445d-b5d2-92751618b0aa> a GO:0005739,
+<http://model.geneontology.org/MGI_MGI_99523/a8dfa0bf-14ae-4723-9e2e-e31655edcbab> a MGI:MGI:99523,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_99523/b233871b-1583-42f4-aabe-9fdd7229e051> a GO:0005739,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2009-09-23" ;
     dct:created "2009-09-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/a67becf9-a8fd-4ea0-8dde-020cddc7f7d3> a MGI:MGI:99523,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/a81bd584-33c7-42b5-a432-aafba2b80c8d> a GO:0019430,
+<http://model.geneontology.org/MGI_MGI_99523/bd149707-4ff4-4829-a85c-82d583fcd14b> a GO:0005737,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/b20345e9-cb12-4e77-8fae-15393904fc9a> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/a67becf9-a8fd-4ea0-8dde-020cddc7f7d3> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/0268f14e-ab4a-4143-805f-61a1584b7f5a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/b6291c1e-936b-46b0-a2a4-b70ee4c22435> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/051b5668-edd3-487a-9ec1-8f06a453d236> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/a81bd584-33c7-42b5-a432-aafba2b80c8d> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/c1a90e65-6dcc-4de7-a2cc-61cd12835464> a GO:0042744,
+<http://model.geneontology.org/MGI_MGI_99523/c2b8e818-4495-4a7a-9164-775a119a0b8f> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/c40408e5-34bb-4850-b08c-1c2653e20a06> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/c7469c63-a584-4823-9dde-b271b59dd270> a GO:0000302,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/c8d7acfa-3659-4c5e-951b-887289170b3b> a MGI:MGI:99523,
+<http://model.geneontology.org/MGI_MGI_99523/dca5d837-ba5e-461f-9a7e-1a47cb7ddb9b> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/d22d4254-4f04-4433-ae7b-0ad7f82dbdcb> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_99523/e58af83f-a3c6-409d-a5a3-f59ee6968fd6> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/4f633ad5-c4ce-4bf1-a78b-f1eff3363fd3> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/911c0f04-f94a-4325-9eca-d411d0c1037b> ;
-    dc:contributor "GOC:tc",
-        "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-06-07" ;
-    dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/d24de0cc-0237-4b60-b92e-251076b606dd> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/c40408e5-34bb-4850-b08c-1c2653e20a06> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/323b2fca-cff6-4899-b8c3-1a7595a28e2e> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/f51d54d1-c5db-4250-a10c-39a36176b0af> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/0e849738-b837-4af2-bcc2-4db89630c6a8> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/d4c50491-46e5-4356-ad6d-177d58f9d4d7> a CL:0000057,
+<http://model.geneontology.org/MGI_MGI_99523/ee06ce9c-b457-4de1-9de3-aa6362eed636> a GO:0019430,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/dcf5aaf7-daa3-43e0-8543-04576a524810> a GO:0034101,
+<http://model.geneontology.org/MGI_MGI_99523/f2e3259b-ceb4-4b8d-9cec-660dda7c8f4b> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/e6030a2a-8cfb-4a71-861a-2fd3ea08a41b> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/1f19c4c2-e190-43cc-a34b-1d1ab2c49084> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/dcf5aaf7-daa3-43e0-8543-04576a524810> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/e784cd35-ddc0-43bc-abc9-b5892bc456e3> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/6ab18b7a-964a-4e89-bdf3-70267f6cf901> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/c1a90e65-6dcc-4de7-a2cc-61cd12835464> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/eef6c6c9-ac13-47aa-a3ad-e4ead462e35e> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_99523/c8d7acfa-3659-4c5e-951b-887289170b3b> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_99523/fc6f9300-aa19-487e-abc2-e86b4cb24eac> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/fc6f9300-aa19-487e-abc2-e86b4cb24eac> a GO:0000302,
+<http://model.geneontology.org/MGI_MGI_99523/f51d54d1-c5db-4250-a10c-39a36176b0af> a MGI:MGI:99523,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_99523/fec3a04e-f97a-4fb3-bdc4-51f251bb8249> a GO:0005634,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
 obo:RO_0002211 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_99523/633ee009-5ad0-4891-8eb5-ae4b41dde770> a GO:0008283,
+<http://model.geneontology.org/MGI_MGI_99523/0e849738-b837-4af2-bcc2-4db89630c6a8> a GO:0008283,
         owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_99523/d4c50491-46e5-4356-ad6d-177d58f9d4d7> ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_99523/34254968-61ba-4ec6-a3b6-0f020a7ea143> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/8dbc0191-3a34-4c8b-a000-9e2473ab1c15> a GO:0038061,
+<http://model.geneontology.org/MGI_MGI_99523/35740531-4914-40e3-bece-e1f6f48b5bf8> a GO:0038061,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_99523/097a8941-da61-4f24-9d14-3d076dfcad54> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_99523/8f4eec36-b32a-45ad-a5b0-64650241063d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_99523/f528aaad-424b-4444-abf4-c252a6e7696b> a GO:0038061,
+<http://model.geneontology.org/MGI_MGI_99523/8e935c16-78c5-4a02-a632-5adcffa69689> a GO:0038061,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_99523/6fd4bc5f-7387-4515-9d74-3de985205634> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_99523/14ab0753-7f5d-4989-bfc5-8ac53ec42a03> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_99523/0268f14e-ab4a-4143-805f-61a1584b7f5a> a GO:1901222,
+<http://model.geneontology.org/MGI_MGI_99523/cc85aba0-1ef0-4852-8bc2-2b364303b9ae> a GO:1901222,
         owl:NamedIndividual ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_99523/8dbc0191-3a34-4c8b-a000-9e2473ab1c15>,
-        <http://model.geneontology.org/MGI_MGI_99523/f528aaad-424b-4444-abf4-c252a6e7696b> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_99523/35740531-4914-40e3-bece-e1f6f48b5bf8>,
+        <http://model.geneontology.org/MGI_MGI_99523/8e935c16-78c5-4a02-a632-5adcffa69689> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -758,344 +758,344 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/143ecf10-b3bb-44c9-8a7a-3d799d3069d7>,
-        <http://model.geneontology.org/MGI_MGI_99523/f411be15-20f0-45ca-ae42-3ba85ccc0c26> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/d7405c44-89dc-4513-8656-4e97f72bf371> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=demonstrate ROS accumulation in mutant|contributor-id=https://orcid.org/0000-0003-2689-5511",
-        "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/b6291c1e-936b-46b0-a2a4-b70ee4c22435> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/a81bd584-33c7-42b5-a432-aafba2b80c8d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/057f7d02-a9e4-4a51-9b85-3da9298047b3>,
-        <http://model.geneontology.org/MGI_MGI_99523/e05fb199-82c9-4c1f-a096-ac00bc5b2504> ;
-    dc:contributor "GOC:tc",
-        "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-06-07" ;
-    dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2005-06-07 MGI  creation-date=2005-06-07|modification-date=2005-06-07|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|comment=has_participant(CL:0000134)|comment=has_participant(EMAPA:17478 TS20)|contributor-id=https://orcid.org/0000-0001-7476-6306",
-        "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:62862|PMID:8360158 ECO:0000314   2000-08-14 MGI  creation-date=2000-08-14|modification-date=2000-08-14|contributor-id=GOC:tc" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/d22d4254-4f04-4433-ae7b-0ad7f82dbdcb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/911c0f04-f94a-4325-9eca-d411d0c1037b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/083eed57-758a-45f3-a68b-22e4d25e4e21>,
-        <http://model.geneontology.org/MGI_MGI_99523/30b3974e-a88f-41ec-b77e-2968e2005b35>,
-        <http://model.geneontology.org/MGI_MGI_99523/568e1875-81be-4aba-854b-8b33d0c6e303> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
-        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3610856|PMID:16297875 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
-        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042744 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:11986303 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/eef6c6c9-ac13-47aa-a3ad-e4ead462e35e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/c8d7acfa-3659-4c5e-951b-887289170b3b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/321137d0-f415-496a-a48c-77365ed7163d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/dca5d837-ba5e-461f-9a7e-1a47cb7ddb9b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/54168e64-b42e-4eb3-8425-166afc50956a> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002327 GO:0004601 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:11986303 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/3f17dc55-0fe1-4179-bf7c-18f3dbf8b009> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/2a4d25bb-ada5-4de9-a5ec-3428cc050fca> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/2abf3770-f163-4a03-b088-cae58b3c632c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/da47ea84-ec67-4f05-9461-337510dad579> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2018-03-05" ;
     dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/8dbc0191-3a34-4c8b-a000-9e2473ab1c15> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/097a8941-da61-4f24-9d14-3d076dfcad54> .
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/cc85aba0-1ef0-4852-8bc2-2b364303b9ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/35740531-4914-40e3-bece-e1f6f48b5bf8> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/efb68eee-b964-4ee8-8bff-f8c5ada6ba1a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a3ffa0c7-b13c-43ca-8327-31248ded9321> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042267 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/d24de0cc-0237-4b60-b92e-251076b606dd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/c40408e5-34bb-4850-b08c-1c2653e20a06> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/aa6d543b-c195-4465-ae73-5cff00d66f45> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2009-09-23" ;
-    dct:created "2009-09-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0001025 GO:0005739 MGI:MGI:3852644|PMID:18614015 ECO:0007005   2009-09-23 MGI  creation-date=2009-09-23|modification-date=2009-09-23|comment=RefSeq:NP_035164|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/77423c4d-e622-45a6-826f-4713c3290f69> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/a0cdcc5e-6292-445d-b5d2-92751618b0aa> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/dc77894c-e9c8-4723-9c6c-4f6f5a83fe59> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/b20345e9-cb12-4e77-8fae-15393904fc9a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/0268f14e-ab4a-4143-805f-61a1584b7f5a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/6252304b-2ae2-4e67-bc4e-b72726da458d> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0034101 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=mutation results in development of anemia  most likely due to|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e6030a2a-8cfb-4a71-861a-2fd3ea08a41b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/dcf5aaf7-daa3-43e0-8543-04576a524810> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/1247dd4d-edd6-4803-b9bf-afd6264e0300>,
-        <http://model.geneontology.org/MGI_MGI_99523/e48b69cc-a2f0-4354-aef5-a32923f8a4df>,
-        <http://model.geneontology.org/MGI_MGI_99523/fc1ab6a6-f44e-4710-9ae9-2d63ff4b59f0> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
-        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3610856|PMID:16297875 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
-        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/eef6c6c9-ac13-47aa-a3ad-e4ead462e35e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/fc6f9300-aa19-487e-abc2-e86b4cb24eac> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/11555268-d2bb-4dd4-81d4-c20a01fa59f8> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0001025 GO:0005634 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:17603937 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/a6fc2fca-0ffe-4658-890c-48da50c34af4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/fec3a04e-f97a-4fb3-bdc4-51f251bb8249> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a13ac921-0fa7-4165-94a6-61a84ba8c277> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0001025 GO:0005737 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:17603937 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/0155f967-0275-4162-986d-4938b001c8e9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/7c430e1c-b050-478f-8819-ccc88f589266> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/2d58211e-bc61-48ba-bd2b-8753a95aea31> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/bd149707-4ff4-4829-a85c-82d583fcd14b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/9105b724-70f6-4a18-8aed-6ec475799d72> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/8c61688d-7669-4502-bd46-cde6df2410ae> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2009-09-23" ;
+    dct:created "2009-09-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0001025 GO:0005739 MGI:MGI:3852644|PMID:18614015 ECO:0007005   2009-09-23 MGI  creation-date=2009-09-23|modification-date=2009-09-23|comment=RefSeq:NP_035164|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/a705309d-ae33-4aaf-9f3d-a5c427baedd8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/b233871b-1583-42f4-aabe-9fdd7229e051> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/4c4d866d-1530-460c-9d4d-f8667f9fb7f1> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0008283 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI RO:0012003(CL:0000057) creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CL:0000057; fibroblast|comment=MEF|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/97a97966-fb75-4bf8-9282-662ec9b3d188> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/633ee009-5ad0-4891-8eb5-ae4b41dde770> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/0b310517-ff32-4012-a238-4afaff06279a> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0032872 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/770bcdd3-60ce-4082-915c-f081530955f7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/9e5aed6e-e61a-48df-b357-7cbb4103c925> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/24d8637c-fc95-4517-96ad-8018e3d6d9fd> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/b20345e9-cb12-4e77-8fae-15393904fc9a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/a67becf9-a8fd-4ea0-8dde-020cddc7f7d3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a2c74db8-c81f-4e99-9702-53a6d955462b> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0034101 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=mutation results in development of anemia  most likely due to|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e6030a2a-8cfb-4a71-861a-2fd3ea08a41b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/1f19c4c2-e190-43cc-a34b-1d1ab2c49084> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/f41b28dc-45b2-45d3-92a6-339f01560ad7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/0268f14e-ab4a-4143-805f-61a1584b7f5a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/8dbc0191-3a34-4c8b-a000-9e2473ab1c15> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/f4e60d80-6d6d-4543-b53d-8de83d2f578c>,
-        <http://model.geneontology.org/MGI_MGI_99523/fa3dd5b2-6971-466a-bd3d-fdaab537dc31> ;
-    dc:contributor "GOC:tc",
-        "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-06-07" ;
-    dct:created "2000-08-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2005-06-07 MGI  creation-date=2005-06-07|modification-date=2005-06-07|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|comment=has_participant(CL:0000134)|comment=has_participant(EMAPA:17478 TS20)|contributor-id=https://orcid.org/0000-0001-7476-6306",
-        "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:62862|PMID:8360158 ECO:0000314   2000-08-14 MGI  creation-date=2000-08-14|modification-date=2000-08-14|contributor-id=GOC:tc" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/d22d4254-4f04-4433-ae7b-0ad7f82dbdcb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/4f633ad5-c4ce-4bf1-a78b-f1eff3363fd3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/18aa1f7e-1015-439b-8068-2a41d82ae8a8> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0032872 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/770bcdd3-60ce-4082-915c-f081530955f7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/8378a95f-3d52-4680-9778-4659bce2d8c5> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/40d04f1b-3baa-4b07-a2fa-adbc9c2ef223> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/a8246dd0-fcb4-47d9-bf0a-ba6abd0139a2> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/b542373f-50c8-4bc2-9560-c28ce4e2e66a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/0268f14e-ab4a-4143-805f-61a1584b7f5a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/f528aaad-424b-4444-abf4-c252a6e7696b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/f61eb4fb-9096-4015-a23b-ebcab4396198> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/d29b6b93-8995-45db-8e4c-a8c473de918d> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0008283 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI RO:0012003(CL:0000057) creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CL:0000057; fibroblast|comment=MEF|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/633ee009-5ad0-4891-8eb5-ae4b41dde770> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/d4c50491-46e5-4356-ad6d-177d58f9d4d7> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/0e849738-b837-4af2-bcc2-4db89630c6a8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/34254968-61ba-4ec6-a3b6-0f020a7ea143> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/c19cf391-c0eb-423c-8048-a852f08fa49d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a4905000-e499-4119-86e7-7e00736fd3a0> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042267 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0032872 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/d24de0cc-0237-4b60-b92e-251076b606dd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/323b2fca-cff6-4899-b8c3-1a7595a28e2e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/40d04f1b-3baa-4b07-a2fa-adbc9c2ef223> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/9d2db962-7997-434b-b952-69297d979166> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/219f7867-5e14-468d-a272-5de10c92eb4d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2018-03-05" ;
-    dct:created "2005-06-07" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/f528aaad-424b-4444-abf4-c252a6e7696b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/6fd4bc5f-7387-4515-9d74-3de985205634> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/4acc21f8-7557-4984-a875-604c67389a30> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/3bd46a8f-56c2-4d9e-a5e5-e6f5b888335c>,
+        <http://model.geneontology.org/MGI_MGI_99523/6b1960b8-0069-4b75-9433-d19da922e789> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042744 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:11986303 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e784cd35-ddc0-43bc-abc9-b5892bc456e3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/6ab18b7a-964a-4e89-bdf3-70267f6cf901> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a8151635-e790-449b-aa92-b3ef480cbd28>,
-        <http://model.geneontology.org/MGI_MGI_99523/f6f42658-1b33-4eee-8faa-a95d1ab22042> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2008-05-29" ;
-    dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=demonstrate ROS accumulation in mutant|contributor-id=https://orcid.org/0000-0003-2689-5511",
         "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/b6291c1e-936b-46b0-a2a4-b70ee4c22435> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/051b5668-edd3-487a-9ec1-8f06a453d236> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/93d0e23f-bc69-4719-9b41-29498c52a92e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/a8dfa0bf-14ae-4723-9e2e-e31655edcbab> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/a7ae89b0-c714-48f1-ac55-05fa4db371a1> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/841c091c-44f6-4da2-85c1-300ee72ae311> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002211 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/cc85aba0-1ef0-4852-8bc2-2b364303b9ae> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/8e935c16-78c5-4a02-a632-5adcffa69689> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/b24968ca-c1d3-45d4-b596-f53317e7f3ed> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002327 GO:0004601 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:11986303 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/dd6f7003-8570-458c-9628-1414f196af7a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/33d249af-bffa-4cd9-9d5d-72ebb9c70866> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/70d6df30-2855-4e62-960e-be6b96762790>,
+        <http://model.geneontology.org/MGI_MGI_99523/d7b859aa-de69-4c8f-b66c-847f096d2cb8>,
+        <http://model.geneontology.org/MGI_MGI_99523/ec7757c8-45ad-44eb-9dc6-e6ca27a9c33a> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
+        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3610856|PMID:16297875 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
+        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/11f260ae-aa54-4d57-b864-b66352c380ea> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/c2b8e818-4495-4a7a-9164-775a119a0b8f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/be8731f4-1a82-494f-b7b7-1a3e17a7eda2> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0001025 GO:0005634 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:17603937 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/d23c8d80-1f7a-46c8-b010-25ed4fee0e8d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/36b69d7c-d7cf-4c91-a8bb-8ea321594e02> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/3921f8c8-a8dd-41a2-9608-e532eeb84678>,
+        <http://model.geneontology.org/MGI_MGI_99523/46c80238-1049-4838-83f9-eb874e41aede> ;
+    dc:contributor "GOC:tc",
+        "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-06-07" ;
+    dct:created "2000-08-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2005-06-07 MGI  creation-date=2005-06-07|modification-date=2005-06-07|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|comment=has_participant(CL:0000134)|comment=has_participant(EMAPA:17478 TS20)|contributor-id=https://orcid.org/0000-0001-7476-6306",
+        "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:62862|PMID:8360158 ECO:0000314   2000-08-14 MGI  creation-date=2000-08-14|modification-date=2000-08-14|contributor-id=GOC:tc" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/8232c33d-f983-4dcc-be41-caf7c06979c5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/5246d855-a08c-4133-98ec-95b28dd0b819> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/499cb817-11c7-44de-91b8-ef806d42a147> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042267 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/57ec3457-5709-44de-9753-261a34aaea77> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/46cb0c31-9b97-4105-a100-becf137c8596> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/1da8eb66-f27c-4a37-9db5-56a3f746b054> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0008283 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI RO:0012003(CL:0000057) creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CL:0000057; fibroblast|comment=MEF|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e58af83f-a3c6-409d-a5a3-f59ee6968fd6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/0e849738-b837-4af2-bcc2-4db89630c6a8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/4a903a67-0360-4410-ae0c-525e09440842>,
+        <http://model.geneontology.org/MGI_MGI_99523/97c47d6d-6cff-48a5-9406-5b00d2079580> ;
+    dc:contributor "GOC:tc",
+        "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-06-07" ;
+    dct:created "2000-08-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2005-06-07 MGI  creation-date=2005-06-07|modification-date=2005-06-07|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|comment=has_participant(CL:0000134)|comment=has_participant(EMAPA:17478 TS20)|contributor-id=https://orcid.org/0000-0001-7476-6306",
+        "MGI:MGI:99523  RO:0002264 GO:0006979 MGI:MGI:62862|PMID:8360158 ECO:0000314   2000-08-14 MGI  creation-date=2000-08-14|modification-date=2000-08-14|contributor-id=GOC:tc" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/8232c33d-f983-4dcc-be41-caf7c06979c5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/68cf4089-c56e-4a81-8af1-1acfb57fcd29> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/702240b3-fcb7-4fb4-8366-a075d03eb648> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/8e935c16-78c5-4a02-a632-5adcffa69689> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/14ab0753-7f5d-4989-bfc5-8ac53ec42a03> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/44eea4b7-f96a-4932-9b8f-7365cafb22bf> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0008283 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI RO:0012003(CL:0000057) creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CL:0000057; fibroblast|comment=MEF|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/97a97966-fb75-4bf8-9282-662ec9b3d188> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/9f7df815-4344-4225-8ebe-15a61dd6fa21> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e58af83f-a3c6-409d-a5a3-f59ee6968fd6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/f51d54d1-c5db-4250-a10c-39a36176b0af> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/43a59d5a-2bc8-4a4a-9ac4-8f7da6a0c098> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/7a22842f-3760-4ef6-b125-6d7fc442e7f9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/1565d4a7-e506-40a9-976a-cdf09345a97f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/cc85aba0-1ef0-4852-8bc2-2b364303b9ae> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/751473f0-816d-401e-bd97-2dc86d518cee>,
+        <http://model.geneontology.org/MGI_MGI_99523/ff70b3bf-7b72-4784-a1e4-0af07dfbaa36> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2008-05-29" ;
     dct:created "2008-05-29" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=demonstrate ROS accumulation in mutant|contributor-id=https://orcid.org/0000-0003-2689-5511",
+        "MGI:MGI:99523  RO:0002264 GO:0019430 MGI:MGI:3695235|PMID:16880205 ECO:0000315   2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=cell type CLO:0000019;  permanent cell lline; ATCC:TIB-67|comment=evidence ECO:0000019; inferred from RNAi|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/93d0e23f-bc69-4719-9b41-29498c52a92e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/ee06ce9c-b457-4de1-9de3-aa6362eed636> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/79345221-925c-4e23-8e2f-aa3fc616905c>,
+        <http://model.geneontology.org/MGI_MGI_99523/8cd8f4e6-a1a5-44bf-9730-e93c80f14dcf>,
+        <http://model.geneontology.org/MGI_MGI_99523/e9055d3f-a327-4cac-b0d6-ebeb201ce3f8> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
+        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3610856|PMID:16297875 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511",
+        "MGI:MGI:99523  RO:0002264 GO:0000302 MGI:MGI:3611115|PMID:16170382 ECO:0000315 MGI:MGI:3611932  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/11f260ae-aa54-4d57-b864-b66352c380ea> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/c7469c63-a584-4823-9dde-b271b59dd270> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/1cc716de-4c16-4b57-8724-e7f44b5f09dc> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042744 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 UniProtKB:Q06830  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=external ref PMID:11986303 IDA|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/e784cd35-ddc0-43bc-abc9-b5892bc456e3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/c1a90e65-6dcc-4de7-a2cc-61cd12835464> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/321137d0-f415-496a-a48c-77365ed7163d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/272ca460-ac53-4447-8127-1faf120e0e8e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/c25bf9d8-921b-400a-a8b8-a7ceed94113e> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0034101 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=mutation results in development of anemia  most likely due to|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/57840b74-41fa-43d6-8182-8d092281b87f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/2ed50e02-362d-4da1-9fc8-3d05ad304728> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/11c6c2ac-dabb-4df0-8744-2552b4e8e872> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/35740531-4914-40e3-bece-e1f6f48b5bf8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/8f4eec36-b32a-45ad-a5b0-64650241063d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/f43cd5cb-2ca1-4b8e-a030-7165cde8f336> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2018-03-05" ;
+    dct:created "2005-06-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:1901222 MGI:MGI:3578073|PMID:15858817 ECO:0000315   2018-03-05 MGI GOREL:0001004(CL:0000134),GOREL:0001004(EMAPA:17478) creation-date=2005-06-07|modification-date=2018-03-05|comment=anatomy TS20\\ mesenchyme\\ interdigital region between digits 1 and 2\\ footplate; EMAP:4078|comment=cell type mesenchymal_cell ; CL:0000134|comment=evidence Si-RNA|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/1565d4a7-e506-40a9-976a-cdf09345a97f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/524a3ce1-3dd5-42ac-bfdf-072b7b5a5eb0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/43dd5459-d791-487a-9cbb-3a79f3e5600f> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0034101 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|comment=mutation results in development of anemia  most likely due to|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/57840b74-41fa-43d6-8182-8d092281b87f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/099ce2ad-b250-4a11-b2d1-3a54279b68c1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_99523/50503056-43fb-4c86-bd8f-41b97b251963> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2008-05-29" ;
+    dct:created "2008-05-29" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:99523  RO:0002264 GO:0042267 MGI:MGI:2669020|PMID:12891360 ECO:0000315 MGI:MGI:2670538  2008-05-29 MGI  creation-date=2008-05-29|modification-date=2008-05-29|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_99523/57ec3457-5709-44de-9753-261a34aaea77> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_99523/f2e3259b-ceb4-4b8d-9cec-660dda7c8f4b> .
 

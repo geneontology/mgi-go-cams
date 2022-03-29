@@ -36,12 +36,51 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-12-15" ;
     dc:title "Smtnl1 (MGI:MGI:1915928)" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1915928> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1915928/00005ee9-2886-4973-be40-4e9c0b23267f> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1915928/00c09192-5690-4b7d-890d-16439a811d2b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal skeletal muscle fiber morphology" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/0171e840-7abd-437b-a1a1-8ab94944c524> a MGI:MGI:1915928,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/b11d5888-1351-4f82-9d34-d4dac2ad1e35> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/0468b16a-9430-42b8-b36d-d0dd8cdbd9fd> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
+        "anatomy MA:0002888" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/0e2ba17a-cbaa-406e-9e05-d827fbf9a598> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000166 MA:0002438",
+        "immunohistochemical analysis" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/0ecaa9be-e87c-435a-9930-c981586baa82> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "RefSeq:XP_001069604" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -52,7 +91,47 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence ECO:0000181",
         "target UniProtKB:P79279" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/0008b604-9b6b-4120-942b-c1c5f62ddf3e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1915928/28bbfd44-4411-42c5-874e-3725fff586ea> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "increased vasodilation" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/2fdc85b9-e3cd-4d60-a781-e2dc94685276> a MGI:MGI:1915928,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/526a7e2f-19fa-4917-92f9-62ab300d221b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/31c7d642-e6fb-46fe-a5c3-69a8b4b81e37> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000166 MA:0002438",
+        "immunohistochemical analysis" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/4b0cce58-e468-4b68-befd-bb8743980f98> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "decreased vasoconstriction" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/666a0f7d-1a1c-466c-8421-dfa331114f83> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
@@ -62,7 +141,124 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
         "anatomy MA:0002888" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/17a72409-21cb-4cab-9365-71f681deb0a3> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1915928/6aa61807-6998-45da-a598-3d257966a1fc> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0002438",
+        "evidence ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/6c92c77e-20c7-4dfb-b975-1a06c020b703> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000166 MA:0002438",
+        "immunohistochemical analysis" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/6f8317a1-3e69-4ac1-8252-30f4ed322886> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
+        "anatomy MA:0002888" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/824f744d-c2b3-4bd0-b73d-403a6d65f154> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0002438",
+        "evidence ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/8449e62c-070a-4968-951f-d8f0daa44fe8> a GO:0004864,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/42d6a22c-6734-4a75-a505-8f34340eae49> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/875d1ab0-5e80-4c7e-a570-f6d80a8dab22> a GO:0017020,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/09319aa8-55c9-4633-b3b5-facbfd91bbe3> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/8c1ec328-aa4b-4425-b141-68fccc577168> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
+        "anatomy MA:0002888" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/93b6bf48-ddb8-4eef-914f-fe2ea3d23169> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "decreased vasoconstriction" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/9be486fb-f5b4-4c74-bf3d-9820962caad6> a MGI:MGI:1915928,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/856a7be7-4ccd-4de2-a885-8ee852dfb468> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/a8da092c-7d20-452a-9f44-49e557da0b8a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal skeletal muscle fiber morphology" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/ad79d7af-db07-4161-853f-123708330683> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0000166 MA:0002438",
+        "immunohistochemical analysis" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/b2ba1254-1fc8-462a-84ab-dd0e4f5c939d> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy MA:0002438",
+        "evidence ECO:0000040" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/b42ea666-3809-40ea-a8d1-9cadf89c08d5> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3796616" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -72,66 +268,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "abnormal exercise endurance" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/2c2a6a1a-8818-49fe-9602-39c1f856eb8b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal skeletal muscle fiber morphology" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/2fce3fd6-d67c-4d5a-84fd-0a3abc493beb> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "increased vasodilation" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/40586583-5c69-4fda-80f8-3142b009159b> a MGI:MGI:1915928,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/268e348f-a9d9-4d81-a00c-40d3cace640e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/4177558f-2856-4768-864c-c19c6af1f2b5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0002438",
-        "evidence ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/41cd9eb2-961f-4ebc-b023-1bd62f2342aa> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000166 MA:0002438",
-        "immunohistochemical analysis" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/422af643-3b2a-47c1-ac51-0766912ef2c8> a MGI:MGI:1915928,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/526c5eec-169f-4c54-adc1-49756e00c76d> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/42a79e71-3def-4a9a-a76f-b9576b928171> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1915928/c0104290-68db-4cd0-b20b-95a31506abdf> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
@@ -141,135 +278,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
         "anatomy MA:0002888" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/462ba7f9-1751-4a00-90a8-575e58462398> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0002438",
-        "evidence ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/49576cff-37cd-4194-884a-f501e53bf8e2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000166 MA:0002438",
-        "immunohistochemical analysis" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/56cd7301-6b90-4cf4-b195-bae1b8abdc9e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "increased vasodilation" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/6b23c44c-2a51-44c9-b52d-e5adabae2abc> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "decreased vasoconstriction" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/79559ccd-5eeb-47c0-a2da-189e3c0e396b> a GO:0017020,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/ffb72b49-22f9-409b-9748-234a3a82fa55> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/7f9092aa-3ec1-437d-82fb-aa48c3c2a6e6> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
-        "anatomy MA:0002888" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/84cbd564-1bf5-400e-aa7b-4f1fb614b9d2> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000166 MA:0002438",
-        "immunohistochemical analysis" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/8b58ccc1-bdcc-4383-837d-ee4ba37e6ba4> a MGI:MGI:1915928,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/219d0f80-941f-473a-b538-3a2063234f4a> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/8d0a50aa-1050-4b6f-b016-1954fd7648f5> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
-        "anatomy MA:0002888" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/9439d4f2-caa3-493b-966b-5cd65dcc5c22> a GO:0004864,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/dbc60e73-44de-4c0d-b34e-914362535832> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/b7da1938-3c91-4a46-9b40-ae7685ce404e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal skeletal muscle fiber morphology" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/bc4c9f71-8935-4152-aace-cb7d5bfb0e5c> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0000166 MA:0002438",
-        "immunohistochemical analysis" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/c196845e-bb35-4fab-bcb3-7a3a5ffed729> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3796616" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "decreased vasoconstriction" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/c86771fa-7279-4203-ac0a-6b6ba91ce41a> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1915928/c76f596b-720d-41aa-b6e7-d534af7bcc06> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "RefSeq:XP_001069604" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -280,27 +289,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "evidence ECO:0000181",
         "target UniProtKB:P79279" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/cc5e5ce2-8689-4db9-8d1b-587cf49bea13> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy MA:0002438",
-        "evidence ECO:0000040" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/d31e8a4e-1dc3-4845-8cfa-b34ccff13cdb> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dc:source "PMID:18310078" ;
-    dct:created "2008-11-18" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
-        "anatomy MA:0002888" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/d996122b-a849-47b9-a39f-34eb6ccab173> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1915928/ea46f08f-1b1e-46eb-aed0-97899f85fd7c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3796616" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -310,17 +299,18 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "abnormal exercise endurance" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/dd623fa4-c3e7-4650-aafa-870857a5b6da> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1915928/ed08a233-4b03-4431-9aa1-eb9797f893d4> a ECO:0000315,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
+    ns1:evidence-with "MGI:MGI:3796616" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
     dc:source "PMID:18310078" ;
     dct:created "2008-11-18" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
-        "anatomy MA:0002888" .
+    rdfs:comment "increased vasodilation" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/fb824b3b-c879-480b-94c5-96e543dc6179> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1915928/f63dd799-4864-4df8-ba59-d7dc8c0d4513> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
@@ -330,276 +320,286 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy MA:0002438",
         "evidence ECO:0000040" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/fc6855bd-a20a-4201-a62c-98d4b92419d0> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/f69cd4d6-4522-423f-9f70-67c1de7a1b4a> a MGI:MGI:1915928,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/d1382226-5c6a-49c6-91ab-4e2abb09add6> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1915928/4d5cfb9e-598e-4eb0-8574-0b63a56553c5> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/197b0c93-eaca-4a0b-9a3b-04b15b23fa87> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1915928/f9361613-f67c-4128-a0a4-1413cda26d3a> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/5356d912-5cbc-49d3-9f03-7d847e5d47b6> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/da30e208-003e-4868-9ef9-b3bb95b903c9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dc:source "PMID:18310078" ;
+    dct:created "2008-11-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals",
+        "anatomy MA:0002888" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/09319aa8-55c9-4633-b3b5-facbfd91bbe3> a MGI:MGI:1915928,
+        owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/2aad9f3d-f61b-4ee8-a1a3-eb0807c1cbaf> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/fd439bbf-178b-4d49-b645-f3d9e00a50bd> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/d811d88b-af5d-41de-8290-7ed60d8a10e6> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/33e542b1-2d0d-43ac-80af-ea3fbfb4c67f> a EMAPA:36390,
+<http://model.geneontology.org/MGI_MGI_1915928/0bbc400a-f8b4-4f89-ba19-338a9e9c8a99> a EMAPA:36390,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/5356d912-5cbc-49d3-9f03-7d847e5d47b6> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/0d0cdc81-2e6e-487a-9dd0-a7c3f3d7838d> a MGI:MGI:1915928,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/1389e5f2-2096-4682-a697-0e8d907c3488> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/c6bf8902-fee4-4782-b4eb-7febb04ba4f2> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/2e330234-cd19-4572-b5e9-910a95f9f4b5> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/19a66c14-413a-448b-93b1-0b78a4e487af> a GO:0042310,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/2281c56b-f23d-4c4a-8b96-cf0cd285f0b7> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/b3c9040a-d64d-4bfe-9010-7bfee2541e74> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/999fe4c0-970e-4d13-916d-ffb6165ac8bd> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/33300529-3f18-4cd0-8bc2-3a2c2ce376ba> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/5acba2f7-7b09-4784-a271-a901df2d93ba> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/42d6a22c-6734-4a75-a505-8f34340eae49> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/5d51367b-b34b-4017-b664-1b4e3557add3> a EMAPA:35578,
+<http://model.geneontology.org/MGI_MGI_1915928/466fde75-cf51-4bac-b806-8cd0ed39147b> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/949f4934-33e2-43eb-ad84-cd20f9a21e34> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/80bee107-5a73-444c-8a3b-a1b91cc11a52> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/6fb197d6-1a84-48d9-bbe3-8fce5ab2262a> a MGI:MGI:1915928,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/70f93b95-2202-48f5-9d97-84be1804f683> a EMAPA:36390,
+<http://model.geneontology.org/MGI_MGI_1915928/5a79c143-d2a5-4c0a-874e-c0896e9b70c1> a EMAPA:32717,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/74746296-fdb2-4b9b-8a8e-26788dbd4c87> a MGI:MGI:1915928,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/7c364b3c-e28f-4776-a8ec-35ef3bc25437> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/5acba2f7-7b09-4784-a271-a901df2d93ba> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/af6aeb1d-37c0-446a-a3ee-d1ebde378b65> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/7d73b4a1-2b68-4907-913d-500821aa721a> a GO:0042310,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/873c4e7d-0856-43f2-b59b-65499f043e6b> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/6fb197d6-1a84-48d9-bbe3-8fce5ab2262a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/e8a48c2f-e291-496e-bb1b-95012d0f55b1> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/9362669c-5897-4a30-af01-5009ef085409> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/74746296-fdb2-4b9b-8a8e-26788dbd4c87> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/7d73b4a1-2b68-4907-913d-500821aa721a> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/af6aeb1d-37c0-446a-a3ee-d1ebde378b65> a GO:0014823,
+<http://model.geneontology.org/MGI_MGI_1915928/5aa14325-698c-41d3-b52f-7d01a6baa6a9> a EMAPA:35578,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/ba7be484-85e9-43be-9b08-867847d72fa6> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/ea03899f-bbfe-4222-b0c9-4b30143f196e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/e27573d8-d83d-4dd2-ac56-ca5a7ff56755> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/ba99bb85-26d5-4c17-8f6a-b44dde7771cf> a EMAPA:32717,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/c7a5d037-4e7e-4afe-8dcc-118769c7116a> a EMAPA:35578,
+<http://model.geneontology.org/MGI_MGI_1915928/6b67942a-e521-4b1f-aed8-73f69e3febf5> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/cf0cc202-0132-4602-a495-68e279bb3eeb> a EMAPA:36390,
+<http://model.geneontology.org/MGI_MGI_1915928/7a618235-8e0b-4fa9-aa25-7094922d0cf9> a EMAPA:36390,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/d811d88b-af5d-41de-8290-7ed60d8a10e6> a GO:0048644,
+<http://model.geneontology.org/MGI_MGI_1915928/80bee107-5a73-444c-8a3b-a1b91cc11a52> a GO:0048644,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/dbc60e73-44de-4c0d-b34e-914362535832> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/949f4934-33e2-43eb-ad84-cd20f9a21e34> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/e27573d8-d83d-4dd2-ac56-ca5a7ff56755> a GO:0045907,
+<http://model.geneontology.org/MGI_MGI_1915928/999fe4c0-970e-4d13-916d-ffb6165ac8bd> a GO:0045907,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/ea03899f-bbfe-4222-b0c9-4b30143f196e> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/a6c0063b-44ac-4ab3-8cd5-8361efec93b0> a EMAPA:36390,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/ae325830-5160-4822-90eb-f0c45d441b7c> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/33300529-3f18-4cd0-8bc2-3a2c2ce376ba> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/5ebc8bbf-f357-46e0-9068-654692d2e246> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/b3c9040a-d64d-4bfe-9010-7bfee2541e74> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/fd439bbf-178b-4d49-b645-f3d9e00a50bd> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/c1393703-6a0e-4ed8-8ea2-d04358947644> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/6b67942a-e521-4b1f-aed8-73f69e3febf5> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/fd944422-c1ca-4aae-b804-7bdb27fcc2e9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/c6bf8902-fee4-4782-b4eb-7febb04ba4f2> a MGI:MGI:1915928,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/ffb72b49-22f9-409b-9748-234a3a82fa55> a MGI:MGI:1915928,
+<http://model.geneontology.org/MGI_MGI_1915928/cf26c122-2e92-4eb0-8c7e-43a587ac6d2b> a EMAPA:35578,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/e64b821b-17ae-4833-baea-86c8314af519> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1915928/0d0cdc81-2e6e-487a-9dd0-a7c3f3d7838d> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1915928/19a66c14-413a-448b-93b1-0b78a4e487af> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/fd944422-c1ca-4aae-b804-7bdb27fcc2e9> a GO:0014823,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1915928/219d0f80-941f-473a-b538-3a2063234f4a> a GO:0031430,
+<http://model.geneontology.org/MGI_MGI_1915928/2e330234-cd19-4572-b5e9-910a95f9f4b5> a GO:0009410,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/33e542b1-2d0d-43ac-80af-ea3fbfb4c67f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/268e348f-a9d9-4d81-a00c-40d3cace640e> a GO:0043292,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/ba99bb85-26d5-4c17-8f6a-b44dde7771cf> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/526c5eec-169f-4c54-adc1-49756e00c76d> a GO:0031674,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/cf0cc202-0132-4602-a495-68e279bb3eeb> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/d1382226-5c6a-49c6-91ab-4e2abb09add6> a GO:0043292,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/70f93b95-2202-48f5-9d97-84be1804f683> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1915928/da30e208-003e-4868-9ef9-b3bb95b903c9> a GO:0018105,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1915928/5d51367b-b34b-4017-b664-1b4e3557add3> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1915928/cf26c122-2e92-4eb0-8c7e-43a587ac6d2b> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1915928/e8a48c2f-e291-496e-bb1b-95012d0f55b1> a GO:0009410,
+<http://model.geneontology.org/MGI_MGI_1915928/4d5cfb9e-598e-4eb0-8574-0b63a56553c5> a GO:0031674,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1915928/c7a5d037-4e7e-4afe-8dcc-118769c7116a> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/0bbc400a-f8b4-4f89-ba19-338a9e9c8a99> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/526a7e2f-19fa-4917-92f9-62ab300d221b> a GO:0043292,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/a6c0063b-44ac-4ab3-8cd5-8361efec93b0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/5ebc8bbf-f357-46e0-9068-654692d2e246> a GO:0018105,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1915928/5aa14325-698c-41d3-b52f-7d01a6baa6a9> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/856a7be7-4ccd-4de2-a885-8ee852dfb468> a GO:0043292,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/5a79c143-d2a5-4c0a-874e-c0896e9b70c1> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1915928/b11d5888-1351-4f82-9d34-d4dac2ad1e35> a GO:0031430,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1915928/7a618235-8e0b-4fa9-aa25-7094922d0cf9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -611,292 +611,292 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/d996122b-a849-47b9-a39f-34eb6ccab173> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/f9361613-f67c-4128-a0a4-1413cda26d3a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0014823 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal exercise endurance|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/7c364b3c-e28f-4776-a8ec-35ef3bc25437> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5acba2f7-7b09-4784-a271-a901df2d93ba> .
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0018105 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/ae325830-5160-4822-90eb-f0c45d441b7c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5ebc8bbf-f357-46e0-9068-654692d2e246> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/bc4c9f71-8935-4152-aace-cb7d5bfb0e5c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/6aa61807-6998-45da-a598-3d257966a1fc> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031674 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/4d5cfb9e-598e-4eb0-8574-0b63a56553c5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/0bbc400a-f8b4-4f89-ba19-338a9e9c8a99> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/6f8317a1-3e69-4ac1-8252-30f4ed322886> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0009410 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/1389e5f2-2096-4682-a697-0e8d907c3488> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/2e330234-cd19-4572-b5e9-910a95f9f4b5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/93b6bf48-ddb8-4eef-914f-fe2ea3d23169> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0045907 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=decreased vasoconstriction|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2281c56b-f23d-4c4a-8b96-cf0cd285f0b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/999fe4c0-970e-4d13-916d-ffb6165ac8bd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/0e2ba17a-cbaa-406e-9e05-d827fbf9a598> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/268e348f-a9d9-4d81-a00c-40d3cace640e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/ba99bb85-26d5-4c17-8f6a-b44dde7771cf> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/526a7e2f-19fa-4917-92f9-62ab300d221b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/a6c0063b-44ac-4ab3-8cd5-8361efec93b0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/7f9092aa-3ec1-437d-82fb-aa48c3c2a6e6> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/8c1ec328-aa4b-4425-b141-68fccc577168> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0009410 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/873c4e7d-0856-43f2-b59b-65499f043e6b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/6fb197d6-1a84-48d9-bbe3-8fce5ab2262a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/d31e8a4e-1dc3-4845-8cfa-b34ccff13cdb> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0009410 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/e8a48c2f-e291-496e-bb1b-95012d0f55b1> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/c7a5d037-4e7e-4afe-8dcc-118769c7116a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2e330234-cd19-4572-b5e9-910a95f9f4b5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/cf26c122-2e92-4eb0-8c7e-43a587ac6d2b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/0008b604-9b6b-4120-942b-c1c5f62ddf3e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/a8da092c-7d20-452a-9f44-49e557da0b8a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0048644 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal skeletal muscle fiber morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/466fde75-cf51-4bac-b806-8cd0ed39147b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/949f4934-33e2-43eb-ad84-cd20f9a21e34> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/00c09192-5690-4b7d-890d-16439a811d2b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0048644 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal skeletal muscle fiber morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/466fde75-cf51-4bac-b806-8cd0ed39147b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/80bee107-5a73-444c-8a3b-a1b91cc11a52> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/824f744d-c2b3-4bd0-b73d-403a6d65f154> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031430 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/0171e840-7abd-437b-a1a1-8ab94944c524> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/b11d5888-1351-4f82-9d34-d4dac2ad1e35> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/ea46f08f-1b1e-46eb-aed0-97899f85fd7c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0014823 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal exercise endurance|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/c1393703-6a0e-4ed8-8ea2-d04358947644> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/6b67942a-e521-4b1f-aed8-73f69e3febf5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/c0104290-68db-4cd0-b20b-95a31506abdf> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0018105 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/da30e208-003e-4868-9ef9-b3bb95b903c9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5d51367b-b34b-4017-b664-1b4e3557add3> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/5ebc8bbf-f357-46e0-9068-654692d2e246> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5aa14325-698c-41d3-b52f-7d01a6baa6a9> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/56cd7301-6b90-4cf4-b195-bae1b8abdc9e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/b42ea666-3809-40ea-a8d1-9cadf89c08d5> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-18" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0014823 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal exercise endurance|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/c1393703-6a0e-4ed8-8ea2-d04358947644> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/fd944422-c1ca-4aae-b804-7bdb27fcc2e9> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/31c7d642-e6fb-46fe-a5c3-69a8b4b81e37> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-11-19" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/856a7be7-4ccd-4de2-a885-8ee852dfb468> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5a79c143-d2a5-4c0a-874e-c0896e9b70c1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/ed08a233-4b03-4431-9aa1-eb9797f893d4> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-12-15" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0042310 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2020-12-15 MGI  creation-date=2008-11-18|modification-date=2020-12-15|comment=increased vasodilation|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/9362669c-5897-4a30-af01-5009ef085409> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/7d73b4a1-2b68-4907-913d-500821aa721a> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/e64b821b-17ae-4833-baea-86c8314af519> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/0d0cdc81-2e6e-487a-9dd0-a7c3f3d7838d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/cc5e5ce2-8689-4db9-8d1b-587cf49bea13> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031430 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/8b58ccc1-bdcc-4383-837d-ee4ba37e6ba4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/219d0f80-941f-473a-b538-3a2063234f4a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/49576cff-37cd-4194-884a-f501e53bf8e2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/ad79d7af-db07-4161-853f-123708330683> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/40586583-5c69-4fda-80f8-3142b009159b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/268e348f-a9d9-4d81-a00c-40d3cace640e> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2fdc85b9-e3cd-4d60-a781-e2dc94685276> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/526a7e2f-19fa-4917-92f9-62ab300d221b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/c196845e-bb35-4fab-bcb3-7a3a5ffed729> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0045907 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=decreased vasoconstriction|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/ba7be484-85e9-43be-9b08-867847d72fa6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/ea03899f-bbfe-4222-b0c9-4b30143f196e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/6b23c44c-2a51-44c9-b52d-e5adabae2abc> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0045907 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=decreased vasoconstriction|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/ba7be484-85e9-43be-9b08-867847d72fa6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/e27573d8-d83d-4dd2-ac56-ca5a7ff56755> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/462ba7f9-1751-4a00-90a8-575e58462398> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/f63dd799-4864-4df8-ba59-d7dc8c0d4513> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031430 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/219d0f80-941f-473a-b538-3a2063234f4a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/33e542b1-2d0d-43ac-80af-ea3fbfb4c67f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/b11d5888-1351-4f82-9d34-d4dac2ad1e35> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/7a618235-8e0b-4fa9-aa25-7094922d0cf9> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/00005ee9-2886-4973-be40-4e9c0b23267f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/666a0f7d-1a1c-466c-8421-dfa331114f83> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002327 GO:0017020 MGI:MGI:3796498|PMID:18310078 ECO:0000266 RefSeq:XP_001069604  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=evidence ECO:0000181|comment=target UniProtKB:P79279|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/79559ccd-5eeb-47c0-a2da-189e3c0e396b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/ffb72b49-22f9-409b-9748-234a3a82fa55> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/8d0a50aa-1050-4b6f-b016-1954fd7648f5> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0009410 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/873c4e7d-0856-43f2-b59b-65499f043e6b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/e8a48c2f-e291-496e-bb1b-95012d0f55b1> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/1389e5f2-2096-4682-a697-0e8d907c3488> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/c6bf8902-fee4-4782-b4eb-7febb04ba4f2> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/17a72409-21cb-4cab-9365-71f681deb0a3> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/28bbfd44-4411-42c5-874e-3725fff586ea> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-12-15" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0042310 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2020-12-15 MGI  creation-date=2008-11-18|modification-date=2020-12-15|comment=increased vasodilation|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/e64b821b-17ae-4833-baea-86c8314af519> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/19a66c14-413a-448b-93b1-0b78a4e487af> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/0468b16a-9430-42b8-b36d-d0dd8cdbd9fd> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0014823 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal exercise endurance|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/7c364b3c-e28f-4776-a8ec-35ef3bc25437> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/af6aeb1d-37c0-446a-a3ee-d1ebde378b65> .
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0018105 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/ae325830-5160-4822-90eb-f0c45d441b7c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/33300529-3f18-4cd0-8bc2-3a2c2ce376ba> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/fb824b3b-c879-480b-94c5-96e543dc6179> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/6c92c77e-20c7-4dfb-b975-1a06c020b703> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
-    dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:created "2008-11-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031674 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/422af643-3b2a-47c1-ac51-0766912ef2c8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/526c5eec-169f-4c54-adc1-49756e00c76d> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/9be486fb-f5b4-4c74-bf3d-9820962caad6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/856a7be7-4ccd-4de2-a885-8ee852dfb468> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/c86771fa-7279-4203-ac0a-6b6ba91ce41a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/c76f596b-720d-41aa-b6e7-d534af7bcc06> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0002327 GO:0004864 MGI:MGI:3796498|PMID:18310078 ECO:0000266 RefSeq:XP_001069604  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=evidence ECO:0000181|comment=target UniProtKB:P79279|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/9439d4f2-caa3-493b-966b-5cd65dcc5c22> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/dbc60e73-44de-4c0d-b34e-914362535832> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/8449e62c-070a-4968-951f-d8f0daa44fe8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/42d6a22c-6734-4a75-a505-8f34340eae49> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/84cbd564-1bf5-400e-aa7b-4f1fb614b9d2> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/fc6855bd-a20a-4201-a62c-98d4b92419d0> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/d1382226-5c6a-49c6-91ab-4e2abb09add6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/2c2a6a1a-8818-49fe-9602-39c1f856eb8b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/0ecaa9be-e87c-435a-9930-c981586baa82> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0048644 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal skeletal muscle fiber morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002327 GO:0017020 MGI:MGI:3796498|PMID:18310078 ECO:0000266 RefSeq:XP_001069604  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=evidence ECO:0000181|comment=target UniProtKB:P79279|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2aad9f3d-f61b-4ee8-a1a3-eb0807c1cbaf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/fd439bbf-178b-4d49-b645-f3d9e00a50bd> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/875d1ab0-5e80-4c7e-a570-f6d80a8dab22> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/09319aa8-55c9-4633-b3b5-facbfd91bbe3> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/4177558f-2856-4768-864c-c19c6af1f2b5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/b2ba1254-1fc8-462a-84ab-dd0e4f5c939d> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-19" ;
     dct:created "2008-11-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0031674 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:36390) creation-date=2008-11-19|modification-date=2008-11-19|comment=anatomy MA:0002438|comment=evidence ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/526c5eec-169f-4c54-adc1-49756e00c76d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/cf0cc202-0132-4602-a495-68e279bb3eeb> .
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/f69cd4d6-4522-423f-9f70-67c1de7a1b4a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/4d5cfb9e-598e-4eb0-8574-0b63a56553c5> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/41cd9eb2-961f-4ebc-b023-1bd62f2342aa> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-19" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0001025 GO:0043292 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-19 MGI BFO:0000050(EMAPA:32717)|BFO:0000050(EMAPA:36390) creation-date=2008-11-18|modification-date=2008-11-19|comment=anatomy MA:0000166 MA:0002438|comment=immunohistochemical analysis|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/d1382226-5c6a-49c6-91ab-4e2abb09add6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/70f93b95-2202-48f5-9d97-84be1804f683> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/b7da1938-3c91-4a46-9b40-ae7685ce404e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/4b0cce58-e468-4b68-befd-bb8743980f98> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-11-18" ;
     dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0048644 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=abnormal skeletal muscle fiber morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2aad9f3d-f61b-4ee8-a1a3-eb0807c1cbaf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/d811d88b-af5d-41de-8290-7ed60d8a10e6> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/42a79e71-3def-4a9a-a76f-b9576b928171> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0018105 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/197b0c93-eaca-4a0b-9a3b-04b15b23fa87> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/da30e208-003e-4868-9ef9-b3bb95b903c9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/2fce3fd6-d67c-4d5a-84fd-0a3abc493beb> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-12-15" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0042310 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2020-12-15 MGI  creation-date=2008-11-18|modification-date=2020-12-15|comment=increased vasodilation|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0045907 MGI:MGI:3796498|PMID:18310078 ECO:0000315 MGI:MGI:3796616  2008-11-18 MGI  creation-date=2008-11-18|modification-date=2008-11-18|comment=decreased vasoconstriction|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/9362669c-5897-4a30-af01-5009ef085409> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/74746296-fdb2-4b9b-8a8e-26788dbd4c87> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1915928/dd623fa4-c3e7-4650-aafa-870857a5b6da> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-11-18" ;
-    dct:created "2008-11-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1915928  RO:0002264 GO:0018105 MGI:MGI:3796498|PMID:18310078 ECO:0000314   2008-11-18 MGI BFO:0000066(EMAPA:35578) creation-date=2008-11-18|modification-date=2008-11-18|comment=anatomy MA:0002888|comment=SMTNL1is phosphorylated at Ser-301 in response to adrenergic signals|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/197b0c93-eaca-4a0b-9a3b-04b15b23fa87> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/5356d912-5cbc-49d3-9f03-7d847e5d47b6> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1915928/2281c56b-f23d-4c4a-8b96-cf0cd285f0b7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1915928/b3c9040a-d64d-4bfe-9010-7bfee2541e74> .
 

@@ -34,12 +34,21 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2007-07-20" ;
     dc:title "Map6 (MGI:MGI:1201690)" ;
     dct:created "2007-07-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1201690> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1201690/049b052e-cda8-4e2f-9c91-8b80329da3f2> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1201690/8eaf2922-3fb8-47ff-911e-2d5140a6fd85> a GO:0008017,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1201690/5bee9779-8a5f-42c7-a0f6-de2560253080> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2007-07-20" ;
+    dct:created "2007-07-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1201690/fa628f8d-6e40-4521-bfda-35375e9dab01> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-07-20" ;
@@ -48,34 +57,25 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence inferred from in vitro binding assay ; ECO:0000148" .
 
-<http://model.geneontology.org/MGI_MGI_1201690/f1de6260-0ed9-4d6c-ac7b-1b33d437218e> a GO:0008017,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1201690/4e37b2d5-bd02-4cc4-bd96-ce3871512b9b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2007-07-20" ;
-    dct:created "2007-07-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
 obo:RO_0002333 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1201690/4e37b2d5-bd02-4cc4-bd96-ce3871512b9b> a MGI:MGI:1201690,
+<http://model.geneontology.org/MGI_MGI_1201690/5bee9779-8a5f-42c7-a0f6-de2560253080> a MGI:MGI:1201690,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-07-20" ;
     dct:created "2007-07-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1201690/049b052e-cda8-4e2f-9c91-8b80329da3f2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1201690/fa628f8d-6e40-4521-bfda-35375e9dab01> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2007-07-20" ;
     dct:created "2007-07-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1201690  RO:0002327 GO:0008017 MGI:MGI:3695226|PMID:16837464 ECO:0000314   2007-07-20 MGI  creation-date=2007-07-20|modification-date=2007-07-20|comment=evidence inferred from in vitro binding assay ; ECO:0000148|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1201690/f1de6260-0ed9-4d6c-ac7b-1b33d437218e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1201690/4e37b2d5-bd02-4cc4-bd96-ce3871512b9b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1201690/8eaf2922-3fb8-47ff-911e-2d5140a6fd85> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1201690/5bee9779-8a5f-42c7-a0f6-de2560253080> .
 

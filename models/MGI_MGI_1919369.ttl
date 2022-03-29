@@ -38,31 +38,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-10-12" ;
     dc:title "Tpx2 (MGI:MGI:1919369)" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1919369> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1919369/23a9c3d4-67ac-423b-9815-1221e65cc57d> a MGI:MGI:1919369,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/c9d3df9c-13bd-4c40-b501-b66b9b315054> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-10-12" ;
-    dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/44cb4b2b-ca48-4c39-887c-e834bfb00dfc> a MGI:MGI:1919369,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/c83ea61d-c203-4af6-8fb2-977037240702> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/4aa7963f-b257-402c-962a-c14a55c4c9cc> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1919369/06adfd51-84c0-4c2a-8402-522a32e5a7fc> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
@@ -72,19 +53,38 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy dorsal root ganglion ; MA:0000232",
         "cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/50a56a47-ea5c-4ce6-8114-eecc8e2e9872> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1919369/1f3a5953-912d-4277-baeb-e6d3e029c2d9> a GO:0019901,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/fba67a5c-f696-41aa-afc4-81ff7d907fd7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-07-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/25686e5a-1925-483d-85c8-7e4a49a79aa1> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dc:source "PMID:19668197" ;
+    dct:created "2013-09-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dorsal root ganglion ; MA:0000232",
+        "cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/4741adf9-5a23-4276-8fbf-7e733f54e310> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AF244547" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
+    dc:date "2020-10-12" ;
     dc:source "GO_REF:0000008" ;
-    dct:created "2005-07-18" ;
+    dct:created "2005-07-19" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "PMID:12389033",
-        "external ref PMID:12389033 IDA" .
+    rdfs:comment "external ref PMID:12477396 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/58f24a3a-f26a-4a52-bdc2-c32089b1b436> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1919369/4da3519a-2c88-4a68-834a-1c3bc745fb9e> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AF244547" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -97,7 +97,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence ECO:0000070",
         "external ref PMID:1217704 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/658f2a91-3e0c-409b-9062-19583b0944f6> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1919369/5bd32312-8100-413a-bcda-8d1e583e0668> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AF244547" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -109,17 +109,17 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "PMID:12389033",
         "external ref PMID:12389033 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/72cc81e4-ff00-48fe-b6b8-df5056240373> a MGI:MGI:1919369,
+<http://model.geneontology.org/MGI_MGI_1919369/6acaef69-9a23-4264-adf9-a747aa933aea> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/8d4e95d4-b622-499c-96ce-2bb8d49291af> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dc:source "PMID:19668197" ;
+    dct:created "2013-09-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy dorsal root ganglion ; MA:0000232",
+        "cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/84115deb-3726-472a-885a-4f585b754ee8> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1919369/6f5d2e57-79e4-4690-8037-7f969444af77> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AF244547" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -131,7 +131,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "PMID:12389033",
         "external ref PMID:12389033 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/87a1f94f-a646-40ff-a850-846801531b2f> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1919369/7003ab94-c0f4-4004-b2a3-eab2f7f5e7db> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P97477" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -140,7 +140,26 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2013-09-20" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/89e8f1ad-a256-4d27-b8d3-c948c1895f6b> a ECO:0000266,
+<http://model.geneontology.org/MGI_MGI_1919369/71154c73-787e-4b97-bdf6-4ab0203ecedc> a MGI:MGI:1919369,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/9382b081-ed35-4f50-8bf2-d12491bf7ba4> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/7880f3c1-79de-454b-aadb-4d88ece4a11d> a MGI:MGI:1919369,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/51bf7857-cc6c-4de3-b42f-b96b757537d2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-07-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/83ac9cad-d62a-4062-ac1a-57dca4713be8> a ECO:0000266,
         owl:NamedIndividual ;
     ns1:evidence-with "EMBL:AF244547" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
@@ -153,58 +172,17 @@ ns2:providedBy a owl:AnnotationProperty .
         "external ref PMID:12389033 IDA",
         "external ref PMID:12477396 IDA" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/9021cb63-42c8-4033-a09d-1d75a26ef344> a GO:0019901,
+<http://model.geneontology.org/MGI_MGI_1919369/8f5f927a-db51-424d-9fd5-f6a9976b9fd6> a MGI:MGI:1919369,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/ec4d04eb-6bbe-4dda-8b94-e221d82bd613> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/92354b2f-05d0-4565-a890-c5e2010af23b> a MGI:MGI:1919369,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/e50b57c8-7902-43c4-a42a-bc1f49529ee4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/9ee54ef1-caec-419b-b549-fbb50864a961> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dc:source "PMID:19668197" ;
-    dct:created "2013-09-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dorsal root ganglion ; MA:0000232",
-        "cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/a9fd38bc-847f-4459-82ea-db8e59a91490> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dc:source "PMID:19668197" ;
-    dct:created "2013-09-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy dorsal root ganglion ; MA:0000232",
-        "cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/d82c4cb6-e368-480e-9a74-d972f7c6621b> a ECO:0000266,
-        owl:NamedIndividual ;
-    ns1:evidence-with "EMBL:AF244547" ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/a7590513-c281-4165-b7c9-f0319e145906> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2020-10-12" ;
-    dc:source "GO_REF:0000008" ;
     dct:created "2005-07-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "external ref PMID:12477396 IDA" .
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/f0250073-8562-40bf-abf7-995f89da3ae3> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_1919369/aca90b63-d677-4fd7-84c2-c5a6883ae4b6> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P97477" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -213,127 +191,149 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2013-09-20" ;
     ns2:providedBy "http://informatics.jax.org" .
 
+<http://model.geneontology.org/MGI_MGI_1919369/b0e04da6-9694-44b9-98e5-06b700b53c49> a ECO:0000266,
+        owl:NamedIndividual ;
+    ns1:evidence-with "EMBL:AF244547" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dc:source "GO_REF:0000008" ;
+    dct:created "2005-07-18" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "PMID:12389033",
+        "external ref PMID:12389033 IDA" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/c321f5ac-4d6d-49ad-98f1-2216041cfa33> a MGI:MGI:1919369,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1919369/484c8fb5-2f68-4540-ba55-de09a43e35ef> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-07-18" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
 obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0002418 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1919369/4ec487e3-7b10-4208-a196-851130698e9e> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1919369/a0b9e3e5-a5c5-4299-98d7-2daa1c27fe9f> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/7b43bb24-7b43-40d0-be10-df4888791867> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/53ba07e2-ceeb-4661-869b-4319cc81cebc> a GO:0051225,
+<http://model.geneontology.org/MGI_MGI_1919369/023fd9a1-4772-47be-85cc-dc3af542c6d0> a MGI:MGI:1919369,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/7b43bb24-7b43-40d0-be10-df4888791867> a MGI:MGI:1919369,
+<http://model.geneontology.org/MGI_MGI_1919369/22c70de5-44ea-4679-9c3e-96d33571e26c> a GO:0005515,
         owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1919369/dfd5f8a9-c2ea-4ba0-bc85-a7c8830e7821> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/a6da15de-1396-4652-9a4c-5800082346d0> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/8d4e95d4-b622-499c-96ce-2bb8d49291af> a GO:0005634,
+<http://model.geneontology.org/MGI_MGI_1919369/484c8fb5-2f68-4540-ba55-de09a43e35ef> a GO:0005634,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/a0b9e3e5-a5c5-4299-98d7-2daa1c27fe9f> a PR:P97477,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/c6e963ab-2921-4e8f-8cd7-8706107cca95> a MGI:MGI:1919369,
+<http://model.geneontology.org/MGI_MGI_1919369/51bf7857-cc6c-4de3-b42f-b96b757537d2> a GO:0005818,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/c9d3df9c-13bd-4c40-b501-b66b9b315054> a GO:0072686,
+<http://model.geneontology.org/MGI_MGI_1919369/9fac42a5-6658-4250-bb93-9e15f2186054> a EMAPA:16668,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/a6da15de-1396-4652-9a4c-5800082346d0> a MGI:MGI:1919369,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/a7590513-c281-4165-b7c9-f0319e145906> a GO:0072686,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2020-10-12" ;
     dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/d9c638c0-9cd8-45d3-a3b1-d581f4430ae5> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1919369/ac17c712-b7a9-454c-b8d7-691e8e351ae9> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/c6e963ab-2921-4e8f-8cd7-8706107cca95> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1919369/53ba07e2-ceeb-4661-869b-4319cc81cebc> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1919369/023fd9a1-4772-47be-85cc-dc3af542c6d0> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1919369/d3cc67a3-b794-4ff6-869c-6995433ee39c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/e50b57c8-7902-43c4-a42a-bc1f49529ee4> a GO:0005818,
+<http://model.geneontology.org/MGI_MGI_1919369/d3cc67a3-b794-4ff6-869c-6995433ee39c> a GO:0051225,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/ec4d04eb-6bbe-4dda-8b94-e221d82bd613> a MGI:MGI:1919369,
+<http://model.geneontology.org/MGI_MGI_1919369/dfd5f8a9-c2ea-4ba0-bc85-a7c8830e7821> a PR:P97477,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1919369/fba67a5c-f696-41aa-afc4-81ff7d907fd7> a MGI:MGI:1919369,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1919369/ef5ed985-2b29-47db-a80f-48bddf55c775> a EMAPA:16668,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1919369/4befa008-6108-4cda-be26-7d5943fc82be> a CL:0000540,
+<http://model.geneontology.org/MGI_MGI_1919369/9382b081-ed35-4f50-8bf2-d12491bf7ba4> a GO:0043203,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1919369/ef5ed985-2b29-47db-a80f-48bddf55c775> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1919369/ffe81457-5ae2-48e8-82f9-a3fabfd67338> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1919369/c83ea61d-c203-4af6-8fb2-977037240702> a GO:0043203,
+<http://model.geneontology.org/MGI_MGI_1919369/ffe81457-5ae2-48e8-82f9-a3fabfd67338> a CL:0000540,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1919369/4befa008-6108-4cda-be26-7d5943fc82be> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_1919369/9fac42a5-6658-4250-bb93-9e15f2186054> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
@@ -341,140 +341,140 @@ obo:RO_0002333 a owl:ObjectProperty .
 obo:RO_0001025 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/4aa7963f-b257-402c-962a-c14a55c4c9cc> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/25686e5a-1925-483d-85c8-7e4a49a79aa1> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0043203 MGI:MGI:4438131|PMID:19668197 ECO:0000314   2013-09-20 MGI BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668) creation-date=2013-09-20|modification-date=2013-09-20|comment=anatomy dorsal root ganglion ; MA:0000232|comment=cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/44cb4b2b-ca48-4c39-887c-e834bfb00dfc> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/c83ea61d-c203-4af6-8fb2-977037240702> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/71154c73-787e-4b97-bdf6-4ab0203ecedc> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/9382b081-ed35-4f50-8bf2-d12491bf7ba4> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/89e8f1ad-a256-4d27-b8d3-c948c1895f6b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/06adfd51-84c0-4c2a-8402-522a32e5a7fc> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0043203 MGI:MGI:4438131|PMID:19668197 ECO:0000314   2013-09-20 MGI BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668) creation-date=2013-09-20|modification-date=2013-09-20|comment=anatomy dorsal root ganglion ; MA:0000232|comment=cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/9382b081-ed35-4f50-8bf2-d12491bf7ba4> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/ffe81457-5ae2-48e8-82f9-a3fabfd67338> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/6f5d2e57-79e4-4690-8037-7f969444af77> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1919369  RO:0002264 GO:0051225 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=PMID:12389033|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/ac17c712-b7a9-454c-b8d7-691e8e351ae9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/023fd9a1-4772-47be-85cc-dc3af542c6d0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/83ac9cad-d62a-4062-ac1a-57dca4713be8> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-07-18" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0005634 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=external ref PMID:12477396 IDA|comment=PMID:12389033 PMID:12477396interphase cells|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/72cc81e4-ff00-48fe-b6b8-df5056240373> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/8d4e95d4-b622-499c-96ce-2bb8d49291af> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/c321f5ac-4d6d-49ad-98f1-2216041cfa33> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/484c8fb5-2f68-4540-ba55-de09a43e35ef> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/f0250073-8562-40bf-abf7-995f89da3ae3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/4da3519a-2c88-4a68-834a-1c3bc745fb9e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2006-01-12" ;
+    dct:created "2005-07-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0002327 GO:0005515 MGI:MGI:4438131|PMID:19668197 ECO:0000353 PR:P97477  2013-09-20 MGI  creation-date=2013-09-20|modification-date=2013-09-20|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:1919369  RO:0002327 GO:0019901 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-19|modification-date=2006-01-12|comment=evidence ECO:0000070|comment=external ref PMID:1217704 IDA|comment=TPX2 binds Aurora kinase  and is phosphorylated by the kinase. However  it binds independently of kinase activity.|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/4ec487e3-7b10-4208-a196-851130698e9e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/7b43bb24-7b43-40d0-be10-df4888791867> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/1f3a5953-912d-4277-baeb-e6d3e029c2d9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/fba67a5c-f696-41aa-afc4-81ff7d907fd7> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/a9fd38bc-847f-4459-82ea-db8e59a91490> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2013-09-20" ;
-    dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0043203 MGI:MGI:4438131|PMID:19668197 ECO:0000314   2013-09-20 MGI BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668) creation-date=2013-09-20|modification-date=2013-09-20|comment=anatomy dorsal root ganglion ; MA:0000232|comment=cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/4befa008-6108-4cda-be26-7d5943fc82be> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/ef5ed985-2b29-47db-a80f-48bddf55c775> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/50a56a47-ea5c-4ce6-8114-eecc8e2e9872> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/b0e04da6-9694-44b9-98e5-06b700b53c49> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0005818 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=PMID:12389033|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/92354b2f-05d0-4565-a890-c5e2010af23b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/e50b57c8-7902-43c4-a42a-bc1f49529ee4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/84115deb-3726-472a-885a-4f585b754ee8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1919369  RO:0002264 GO:0051225 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=PMID:12389033|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/d9c638c0-9cd8-45d3-a3b1-d581f4430ae5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/53ba07e2-ceeb-4661-869b-4319cc81cebc> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/ac17c712-b7a9-454c-b8d7-691e8e351ae9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/d3cc67a3-b794-4ff6-869c-6995433ee39c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/9ee54ef1-caec-419b-b549-fbb50864a961> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/7003ab94-c0f4-4004-b2a3-eab2f7f5e7db> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0043203 MGI:MGI:4438131|PMID:19668197 ECO:0000314   2013-09-20 MGI BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668) creation-date=2013-09-20|modification-date=2013-09-20|comment=anatomy dorsal root ganglion ; MA:0000232|comment=cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/c83ea61d-c203-4af6-8fb2-977037240702> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/4befa008-6108-4cda-be26-7d5943fc82be> .
+    rdfs:comment "MGI:MGI:1919369  RO:0002327 GO:0005515 MGI:MGI:4438131|PMID:19668197 ECO:0000353 PR:P97477  2013-09-20 MGI  creation-date=2013-09-20|modification-date=2013-09-20|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/22c70de5-44ea-4679-9c3e-96d33571e26c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/dfd5f8a9-c2ea-4ba0-bc85-a7c8830e7821> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/d82c4cb6-e368-480e-9a74-d972f7c6621b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/4741adf9-5a23-4276-8fbf-7e733f54e310> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2020-10-12" ;
     dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0072686 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2020-10-12 MGI  creation-date=2005-07-19|modification-date=2020-10-12|comment=external ref PMID:12477396 IDA|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/23a9c3d4-67ac-423b-9815-1221e65cc57d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/c9d3df9c-13bd-4c40-b501-b66b9b315054> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/8f5f927a-db51-424d-9fd5-f6a9976b9fd6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/a7590513-c281-4165-b7c9-f0319e145906> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/87a1f94f-a646-40ff-a850-846801531b2f> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/aca90b63-d677-4fd7-84c2-c5a6883ae4b6> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2013-09-20" ;
     dct:created "2013-09-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1919369  RO:0002327 GO:0005515 MGI:MGI:4438131|PMID:19668197 ECO:0000353 PR:P97477  2013-09-20 MGI  creation-date=2013-09-20|modification-date=2013-09-20|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/4ec487e3-7b10-4208-a196-851130698e9e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/a0b9e3e5-a5c5-4299-98d7-2daa1c27fe9f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/58f24a3a-f26a-4a52-bdc2-c32089b1b436> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2006-01-12" ;
-    dct:created "2005-07-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0002327 GO:0019901 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-19|modification-date=2006-01-12|comment=evidence ECO:0000070|comment=external ref PMID:1217704 IDA|comment=TPX2 binds Aurora kinase  and is phosphorylated by the kinase. However  it binds independently of kinase activity.|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/9021cb63-42c8-4033-a09d-1d75a26ef344> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/ec4d04eb-6bbe-4dda-8b94-e221d82bd613> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/22c70de5-44ea-4679-9c3e-96d33571e26c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/a6da15de-1396-4652-9a4c-5800082346d0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/658f2a91-3e0c-409b-9062-19583b0944f6> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/5bd32312-8100-413a-bcda-8d1e583e0668> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2006-01-12" ;
     dct:created "2005-07-18" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1919369  RO:0002264 GO:0051225 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=PMID:12389033|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/d9c638c0-9cd8-45d3-a3b1-d581f4430ae5> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/c6e963ab-2921-4e8f-8cd7-8706107cca95> .
+    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0005818 MGI:MGI:2154458|GO_REF:0000008 ECO:0000266 EMBL:AF244547  2006-01-12 MGI  creation-date=2005-07-18|modification-date=2006-01-12|comment=external ref PMID:12389033 IDA|comment=PMID:12389033|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/7880f3c1-79de-454b-aadb-4d88ece4a11d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/51bf7857-cc6c-4de3-b42f-b96b757537d2> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1919369/6acaef69-9a23-4264-adf9-a747aa933aea> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2013-09-20" ;
+    dct:created "2013-09-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1919369  RO:0001025 GO:0043203 MGI:MGI:4438131|PMID:19668197 ECO:0000314   2013-09-20 MGI BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668) creation-date=2013-09-20|modification-date=2013-09-20|comment=anatomy dorsal root ganglion ; MA:0000232|comment=cell type primary cell line cell ; CL:0000001 neuron ; CL:0000540|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1919369/ffe81457-5ae2-48e8-82f9-a3fabfd67338> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1919369/9fac42a5-6658-4250-bb93-9e15f2186054> .
 

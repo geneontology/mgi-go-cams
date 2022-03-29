@@ -41,12 +41,22 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-04-01" ;
     dc:title "Nectin2 (MGI:MGI:97822)" ;
     dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_97822> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_97822/0044e064-d571-4759-b843-396ef3887b9d> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/08616e35-140e-4fc5-b211-820d3f069a0e> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q9JLB9" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2020-04-01" ;
+    dc:source "PMID:12759359" ;
+    dct:created "2004-09-08" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/106a2520-b236-432b-9932-1d616efa95f9> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -54,22 +64,10 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10733589" ;
     dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "nuclei with irregular shapes and prominent vesicles are observed",
-        "the sperm nucleus appear heterogeneous" .
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "defective localization of mitochodria in mutants" .
 
-<http://model.geneontology.org/MGI_MGI_97822/0ea2a23c-9ef3-4e3d-b74f-d440514db274> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
-        "evidence ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_97822/10954307-27dc-4f88-b822-49ba8466a0b3> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/2478f5aa-f766-4982-8924-f4e23e593afa> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
@@ -81,29 +79,16 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "abnormal sperm flagellum morphology",
         "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_97822/138b0780-4544-4978-9a28-2b4e26ba3a54> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/25d371da-bef9-4008-974f-24883517a640> a MGI:MGI:97822,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/7be95e05-ed7b-4a8c-a1cf-87c4e6b60620> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-10-06" ;
+    dct:created "2005-10-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/153c7a97-7a47-45a6-ae62-315726193833> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/1628dfb3-e277-4cc1-8e5d-1c367a57586f> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/270eb7de-3032-4182-9f3f-cab333ebf265> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -113,7 +98,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_97822/1922404b-3e7a-431d-9e5f-19b92ea8447b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/2c538ec9-e60d-4462-9626-dc7f011e6a68> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -121,29 +106,22 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10733589" ;
     dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "defective localization of mitochodria in mutants" .
+
+<http://model.geneontology.org/MGI_MGI_97822/35875363-1cd3-4a01-86b3-747b5b8b09d5> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-12" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal sperm flagellum morphology",
         "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_97822/1b4aaedf-a736-43af-9003-790446b7694e> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/f0a2a79d-0865-4427-9417-7bee055155ea> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/325a0a1a-085a-449e-bf85-95907144f062> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dc:source "PMID:15728677" ;
-    dct:created "2008-10-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
-        "evidence ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_97822/36c6c167-ccbd-4d6c-9586-0adc49c8f2c6> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/35d0ee81-cbf0-4ca6-b973-10a060f5fa96> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -151,62 +129,10 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10733589" ;
     dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "defective localization of mitochodria in mutants" .
+    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
 
-<http://model.geneontology.org/MGI_MGI_97822/44356a7b-410f-4a9f-a116-6f7a869cc111> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q9JLB9" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-04-01" ;
-    dc:source "PMID:12759359" ;
-    dct:created "2004-09-08" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/50ce1b8d-0515-4494-9112-afd767dfd7db> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "defective localization of mitochodria in mutants" .
-
-<http://model.geneontology.org/MGI_MGI_97822/50eef0e5-444c-4b9b-a156-26a3a4183d3e> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dc:source "PMID:22512338" ;
-    dct:created "2016-06-22" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/5f0b63f3-ed2a-4857-9968-b4f9a13d234c> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q9JLB9" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-04-01" ;
-    dc:source "PMID:12759359" ;
-    dct:created "2004-09-08" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/6b9be1b0-ba00-44fa-a2c2-18d9be568ab4> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "nuclei with irregular shapes and prominent vesicles are observed",
-        "the sperm nucleus appear heterogeneous" .
-
-<http://model.geneontology.org/MGI_MGI_97822/6dcb4a9c-28a1-4dfa-9360-5747a706b789> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_97822/3896f046-62c4-4e08-9279-d11f32a6a837> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
@@ -215,42 +141,17 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_97822/718acd1d-4fea-446e-9244-e47b6af5ce88> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/3c85a88e-5fde-4230-9b6b-cd5ddf20914f> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "nuclei with irregular shapes and prominent vesicles are observed",
-        "the sperm nucleus appear heterogeneous" .
+    ns1:evidence-with "PR:Q9JLB9" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2020-04-01" ;
+    dc:source "PMID:12759359" ;
+    dct:created "2004-09-08" ;
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/77def443-f3e0-423b-b5ed-27739af60b59> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/8858922a-1dbc-4d63-86e6-ed76701639b2> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-12" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm flagellum morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/96f49b7b-1384-426d-975c-d08c56d2e05a> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/462a3534-73aa-4db7-840b-5001cadb492e> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -262,7 +163,30 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
         "the mitochondrial sheath of the middle piece is disorganized" .
 
-<http://model.geneontology.org/MGI_MGI_97822/978b0890-8a1d-4197-ba9a-a596585522d1> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_97822/49386f10-1029-459d-a36a-0941ded2fc12> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "nuclei with irregular shapes and prominent vesicles are observed",
+        "the sperm nucleus appear heterogeneous" .
+
+<http://model.geneontology.org/MGI_MGI_97822/4ac636c6-ede3-4a8d-aad3-61c5d2edb89b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/52284afd-72b1-4cfb-9497-0443bb29e281> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
@@ -271,7 +195,7 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_97822/9b271c88-26ee-41b8-96cc-a89f8ecdab9c> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/538a4c11-96c9-4404-ba55-5d1dcefb523c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -279,12 +203,63 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10733589" ;
     dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "has_participant(CL:0000019)",
-        "homozygous mutant males are infertile",
-        "in contrast  female fertility is unaffected" .
+    rdfs:comment "abnormal sperm mitochondrial sheath morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "the mitochondrial sheath of the middle piece is disorganized" .
 
-<http://model.geneontology.org/MGI_MGI_97822/a552281c-e388-40a0-997e-f73a89cdc30a> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_97822/5a4b1131-ed60-4d5e-8022-10374ed3423b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/607b6c55-e501-43c6-8a6b-6687432c9d7b> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q8K4F0" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dc:source "PMID:15752754" ;
+    dct:created "2005-12-09" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "CD226" .
+
+<http://model.geneontology.org/MGI_MGI_97822/70da1023-a9dc-4d8d-bdd2-62f22766e960> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/7bd43bcd-5e2b-44bc-b5d6-24160aac6b42> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal sperm mitochondrial sheath morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "the mitochondrial sheath of the middle piece is disorganized" .
+
+<http://model.geneontology.org/MGI_MGI_97822/8e9f0333-002c-47c5-b9bf-94faf5aba182> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/e944987f-f464-46dd-a0b7-894b19daeff8> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dct:created "2016-06-22" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/8f445345-9a99-45a9-a4c9-ecc0e246556a> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-10-06" ;
@@ -292,120 +267,17 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2005-10-06" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/aa480648-d89b-4b3c-a579-10661e6a74a0> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/9c8eb0f9-4826-4253-a855-e47617d906be> a ECO:0000314,
         owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm mitochondrial sheath morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "the mitochondrial sheath of the middle piece is disorganized" .
-
-<http://model.geneontology.org/MGI_MGI_97822/b2198ea9-19ae-4ecc-9ab5-98905b65fe37> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-12" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm flagellum morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/b237e64c-4b3b-46bb-99bc-9cef22a7b768> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dc:source "PMID:23533177" ;
-    dct:created "2016-05-27" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_97822/bddfbb36-4030-4834-8907-41cb374cfd51> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "defective localization of mitochodria in mutants" .
-
-<http://model.geneontology.org/MGI_MGI_97822/c3901f88-3359-4928-8667-1f4e2b9e1021> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/c5de594c-4e9f-4551-8fdd-3b938024de96> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/db81f5cb-3beb-4997-b4f7-a2e3984ee276> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/dbb1ea4f-bfec-4b05-a3a0-c64862c15ca6> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8K4F0" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dc:source "PMID:15752754" ;
-    dct:created "2005-12-09" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "CD226" .
-
-<http://model.geneontology.org/MGI_MGI_97822/dd60a510-888f-4a30-90bb-118dd3a717d3> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/2e19f822-8ab7-442a-97fe-9c002d76d45e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
+    dc:source "PMID:15728677" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/deb4906c-2e69-4390-8786-ccb2cea92727> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
+        "evidence ECO:0000007" .
 
-<http://model.geneontology.org/MGI_MGI_97822/e99a78f9-964c-4959-8ccb-ee8ed17f50c5> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8K4F0" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dc:source "PMID:15752754" ;
-    dct:created "2005-12-09" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "CD226" .
-
-<http://model.geneontology.org/MGI_MGI_97822/eb283bde-3d2b-47dd-abc2-d42593d670fd> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/a5662f8a-c876-4c12-8905-08962f09b275> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -418,7 +290,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "homozygous mutant males are infertile",
         "in contrast  female fertility is unaffected" .
 
-<http://model.geneontology.org/MGI_MGI_97822/eb687451-b596-44e8-ae46-260ef6606703> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_97822/a94ca789-e63b-4b7b-ae0c-b25871713e0c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:2183405" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -426,485 +298,613 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:10733589" ;
     dct:created "2011-01-13" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "defective localization of mitochodria in mutants" .
 
-<http://model.geneontology.org/MGI_MGI_97822/f07b5147-8e62-42a7-8135-00090d07ff13> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm mitochondrial sheath morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
-        "the mitochondrial sheath of the middle piece is disorganized" .
-
-<http://model.geneontology.org/MGI_MGI_97822/f2548191-4fc6-4ada-a32d-b6521a45a4dd> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/fc776bc5-676f-48dd-846c-ac9687876b83> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/e350ccf5-f8c9-4b17-b1cb-bb51c933d6ec> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-10-06" ;
-    dct:created "2005-10-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/fdcaf82d-7bd1-4426-a7d9-6b76d85c7947> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:2183405" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dc:source "PMID:10733589" ;
-    dct:created "2011-01-13" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
-        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
-
-<http://model.geneontology.org/MGI_MGI_97822/fe4c4a97-a4b1-4d66-9de8-2667244013fb> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/fd72c338-a7cf-414a-a274-5f59da10339a> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2016-06-22" ;
-    dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/18e8cddd-0c1e-44f9-a86b-9ee05879b355> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_97822/bc369726-a8ba-4243-95c7-21483b70e89f> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/550f8f82-710a-4667-933e-043e1e04a559> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dct:created "2005-12-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/1f507039-866f-4bff-bb15-4dd8f553b8cd> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/2a1bf840-8861-441c-b70d-968784f67e43> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/36910c97-5e55-4824-b740-63817e696c44> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/3821a095-8321-41e7-bf7a-e0c9eedc7fb6> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/7da08ee1-1c6c-4298-81fe-10d13d646f62> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/474277be-accc-4ee9-a119-7968f78ec414> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/3f34def9-81b1-4563-9c76-d395a5e5f520> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/402d9966-6881-48ba-ae1b-a6117337d78e> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/475f4e47-33bd-453a-bd95-eaf829cdaaff> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-12" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/4d48709f-b4ff-4e61-aec9-8b17445a4ae4> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/b329b626-be16-425d-89ac-db43c9554e68> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/a59f980e-6b8d-4f30-98cd-fccf9225ea44> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/550f8f82-710a-4667-933e-043e1e04a559> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dct:created "2005-12-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/61426933-caef-4028-a269-03fe0d6103be> a EMAPA:35239,
+<http://model.geneontology.org/MGI_MGI_97822/aa9aae4e-c2b8-4520-ad24-0de686e967a9> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-10-02" ;
+    dc:source "PMID:15728677" ;
     dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy ciliary epithelium;MA:0001238",
+        "evidence ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_97822/b005efc9-f6ed-465b-a5d9-2f938fc2f60f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/b76292f6-52ca-421c-808b-97328c51dd26> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2016-06-22" ;
+    dc:source "PMID:22512338" ;
+    dct:created "2016-06-22" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/6306ff0f-d0e4-4979-a9f7-35dbfafd9e34> a MGI:MGI:97822,
+<http://model.geneontology.org/MGI_MGI_97822/b9b7bcd9-b0cc-4130-bc64-02102eda7d1c> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q8K4F0" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dc:source "PMID:15752754" ;
+    dct:created "2005-12-09" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "CD226" .
+
+<http://model.geneontology.org/MGI_MGI_97822/baaa48f4-31d4-4c75-ba7c-1deee58dfe29> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/f0702b24-c3ad-4d5f-a519-d534e0296c28> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/c09999ca-5a85-44dd-af09-3de1bfa66748> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_97822/8e4a1dc8-9597-437a-96d5-fd8dc55a9eee> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/c42fa275-0cd9-4cc8-bff2-688d9da0ad80> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/c9931dc4-2079-4a9e-92b7-4ee51f242728> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/d44ecb43-75a4-4bb2-baa2-ad5870f32a00> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/d94cbd9f-7409-4725-8f4e-c369d888acfe> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "has_participant(CL:0000019)",
+        "homozygous mutant males are infertile",
+        "in contrast  female fertility is unaffected" .
+
+<http://model.geneontology.org/MGI_MGI_97822/df836f85-50e9-403f-827a-c88bd5e00c2a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/e7417ec3-1f6f-4e6d-a38b-99dcd1b37f92> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "nuclei with irregular shapes and prominent vesicles are observed",
+        "the sperm nucleus appear heterogeneous" .
+
+<http://model.geneontology.org/MGI_MGI_97822/ea07168f-2e5f-4bd3-8b70-3729095b5b50> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell",
+        "nuclei with irregular shapes and prominent vesicles are observed",
+        "the sperm nucleus appear heterogeneous" .
+
+<http://model.geneontology.org/MGI_MGI_97822/eb83d9b1-c70c-4ef9-8557-14ef27938be4> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/ebcc4fe2-799a-4d19-be66-229a9c4f9c98> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-12" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal sperm flagellum morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/ec221f38-056d-4dc0-b344-8bbff9d94a10> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dc:source "PMID:23533177" ;
+    dct:created "2016-05-27" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence immunofluorescence evidence ; ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f29ffab8-5c37-4cae-8965-54f94b468506> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:2183405" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dc:source "PMID:10733589" ;
+    dct:created "2011-01-13" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology",
+        "cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell" .
+
+<http://model.geneontology.org/MGI_MGI_97822/0a4e7825-935a-4623-b331-2a73753230aa> a PR:Q9JLB9,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2020-04-01" ;
+    dct:created "2004-09-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/17ea9b6a-757c-4fe7-9fe9-15e6f2fc47be> a GO:0009566,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/210be514-cd71-4ffe-afea-c13e4765031f> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/282c0a7c-6f2b-46ce-9ac5-e8c3c9385fa1> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/342a7960-bede-4d80-b321-d45dafdf2ce0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/26b87f0f-5782-4531-aa43-d79dedc1c9d8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/b8f456ff-0305-4c86-bc42-4e869436529b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/1e5ba46e-2101-443e-866d-a858bc9f63aa> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/282c0a7c-6f2b-46ce-9ac5-e8c3c9385fa1> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/2a095c56-77fe-4c89-98fd-f429e3d22dc3> a PR:Q8K4F0,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dct:created "2005-12-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/2ec748a0-294b-46e1-92ab-d2d0d8674924> a CL:0000019,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/312fab5f-26f6-4a09-8535-f2dccfa60c82> a CL:0000019,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-12" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/6f83a218-bf16-484d-abfd-2df5c13dddad> a CL:0000019,
+<http://model.geneontology.org/MGI_MGI_97822/31540a88-36b1-4a3d-b4ab-07be4a5d0890> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/bfc2493b-eb89-4a42-a0e9-29b070986f82> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/588af128-ddd6-405e-9d15-8710fad5dc4c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/356c9882-ffde-4a2a-baa3-1c010eb3a237> a CL:0000019,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/788dd464-6b33-4483-a4bb-4dfb542726cd> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/f5cb100a-81ca-48ef-9c03-0ea36ecaaea5> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/17936550-7af4-447d-aaaa-1b1e432eeac7> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/7da08ee1-1c6c-4298-81fe-10d13d646f62> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/84b8538c-6d4b-4ce9-a2ad-b5fcb8876671> a GO:0009566,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/881fc305-5f86-4b0c-ba6b-289610f10195> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/89fc85b0-db33-41db-a590-c1f2fe26d279> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/1f507039-866f-4bff-bb15-4dd8f553b8cd> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/84853827-8014-45d0-83ba-6d38e9699ed4> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/8da1f426-6792-4d6e-a837-38d7354ad09f> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/6306ff0f-d0e4-4979-a9f7-35dbfafd9e34> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/a2aa4815-7e49-43e9-981f-779944c1ab35> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-12" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/9a8d118b-51a5-4aed-b5c0-ff2950d419e7> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/9ab13ba8-8ffc-4d26-b453-0bbb1287a0da> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/402d9966-6881-48ba-ae1b-a6117337d78e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/84b8538c-6d4b-4ce9-a2ad-b5fcb8876671> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/9ae060f8-e04b-443e-90f8-7c8b90f03b68> a EMAPA:19061,
+<http://model.geneontology.org/MGI_MGI_97822/50aa4b11-2948-4a41-9f38-8ae212b0a88c> a EMAPA:19061,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
     dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/a22bbe70-df57-4a1f-8a70-c406399420d8> a MGI:MGI:97822,
+<http://model.geneontology.org/MGI_MGI_97822/5adada22-cafa-45ba-9dd1-7bd74dd3bd2f> a GO:0005515,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/b329b626-be16-425d-89ac-db43c9554e68> a MGI:MGI:97822,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/b98486db-672a-4504-addd-d2e5ea7e74ca> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/bc369726-a8ba-4243-95c7-21483b70e89f> a PR:Q8K4F0,
-        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_97822/2a095c56-77fe-4c89-98fd-f429e3d22dc3> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/cfc93444-5eba-44cd-a6d8-f036b29a4a58> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-12-09" ;
     dct:created "2005-12-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/c012641a-3821-4eab-a364-4d54b3d07673> a MGI:MGI:97822,
+<http://model.geneontology.org/MGI_MGI_97822/64578074-97b5-4cd1-b4b7-c30d37a0df72> a MGI:MGI:97822,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-04-01" ;
-    dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/cdab8b12-3e41-4145-b9a9-4fbe3b226960> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-12" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/d4932652-9910-4b2a-bf16-8f00a531af4b> a CL:0000019,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/d7621cc2-71a1-40bf-9244-b15bc6bbaadb> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/2a1bf840-8861-441c-b70d-968784f67e43> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/066ab069-aecd-4c32-8025-1c0369303854> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/e350ccf5-f8c9-4b17-b1cb-bb51c933d6ec> a GO:0005911,
+<http://model.geneontology.org/MGI_MGI_97822/7be95e05-ed7b-4a8c-a1cf-87c4e6b60620> a GO:0005911,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-10-06" ;
     dct:created "2005-10-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/e67daf40-3456-432e-9c1c-e046f241075a> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_97822/7e67a067-cc13-4b7b-9ff3-ab9462861728> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/36910c97-5e55-4824-b740-63817e696c44> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/c19e59a5-4334-4ec3-9272-2fcfc7261f41> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/c5643281-3892-45f0-a2c0-039406a921ef> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/65d105b5-5a6b-44c2-850f-cd2b0a0c2de5> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/efc13f8d-df47-4828-aef7-a7147308dc9a> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/a22bbe70-df57-4a1f-8a70-c406399420d8> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/de36de06-b203-477a-8e2d-3f0c1d42cde4> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/f5cb100a-81ca-48ef-9c03-0ea36ecaaea5> a MGI:MGI:97822,
+<http://model.geneontology.org/MGI_MGI_97822/883eff65-4be2-4676-b045-95ac13fdbb81> a CL:0000019,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/f957ace7-04c0-432d-b897-75d8256e5922> a PR:Q9JLB9,
+<http://model.geneontology.org/MGI_MGI_97822/98be8f62-e2de-4ee9-a53a-7f114ddc7b1b> a CL:0000019,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/999c3b98-3edb-4f49-ad3e-776490b3d231> a CL:0000019,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/9c95962c-d97c-41a8-8c0a-7d9361555d29> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/b37b636e-e5db-40d4-87bf-1b503d86dcf8> a MGI:MGI:97822,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2020-04-01" ;
     dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/fc227d13-87b8-4e34-9652-c8f1397e96d8> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_97822/b8f456ff-0305-4c86-bc42-4e869436529b> a MGI:MGI:97822,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_97822/f957ace7-04c0-432d-b897-75d8256e5922> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/c012641a-3821-4eab-a364-4d54b3d07673> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/b9e76b17-aa50-4266-bd5d-f4a78b08599e> a CL:0000019,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/bfc2493b-eb89-4a42-a0e9-29b070986f82> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/c323f782-c3e7-44b6-995e-0f1ff3e89d58> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_97822/0a4e7825-935a-4623-b331-2a73753230aa> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/b37b636e-e5db-40d4-87bf-1b503d86dcf8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306",
         "https://orcid.org/0000-0003-2689-5511" ;
     dc:date "2020-04-01" ;
     dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/fd72c338-a7cf-414a-a274-5f59da10339a> a GO:0043296,
+<http://model.geneontology.org/MGI_MGI_97822/c3a4f4ca-73b7-4497-9362-e49a67c6bcbe> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/c5643281-3892-45f0-a2c0-039406a921ef> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/cfc93444-5eba-44cd-a6d8-f036b29a4a58> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dct:created "2005-12-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/d6bc36d5-9a28-4839-a4b6-d2f26959add0> a CL:0000019,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/d87e5561-ef53-4f69-817e-7b2c6530b695> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/f68fb47f-7ec2-438a-8187-110e7986679e> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/17ea9b6a-757c-4fe7-9fe9-15e6f2fc47be> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/d9ca5992-28bd-4d3f-b943-2cba244be598> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/9c95962c-d97c-41a8-8c0a-7d9361555d29> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/5009d428-b8a4-4669-ab7d-fa99c4147441> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/e9286020-9c1b-45d9-9611-1697fed7aa8d> a EMAPA:35239,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/e944987f-f464-46dd-a0b7-894b19daeff8> a GO:0043296,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/ec846893-3540-4b66-88fe-9e4c32b2cc1f> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f47d2c0d-0730-48bc-86ce-f5c0cdf0227d> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/64578074-97b5-4cd1-b4b7-c30d37a0df72> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/183503e8-34b2-4b85-a57c-896022de2a04> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-12" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f55b4e06-a999-4a07-ad8d-af23c161230c> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/ec846893-3540-4b66-88fe-9e4c32b2cc1f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/8aaf5b7b-cf79-4799-a1b5-27c2e771ddad> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f68fb47f-7ec2-438a-8187-110e7986679e> a MGI:MGI:97822,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f93c49c3-924f-4a0e-a3b8-7c5645597db1> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_97822/c3a4f4ca-73b7-4497-9362-e49a67c6bcbe> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_97822/24567d6b-ffd2-4e13-aff0-1990114bce0b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_97822/066ab069-aecd-4c32-8025-1c0369303854> a GO:0007289,
+<http://model.geneontology.org/MGI_MGI_97822/183503e8-34b2-4b85-a57c-896022de2a04> a GO:0044782,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/3f34def9-81b1-4563-9c76-d395a5e5f520> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/17936550-7af4-447d-aaaa-1b1e432eeac7> a GO:0032990,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/b98486db-672a-4504-addd-d2e5ea7e74ca> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/2e19f822-8ab7-442a-97fe-9c002d76d45e> a GO:0005911,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/61426933-caef-4028-a269-03fe0d6103be> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/474277be-accc-4ee9-a119-7968f78ec414> a GO:0007010,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/cdab8b12-3e41-4145-b9a9-4fbe3b226960> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/84853827-8014-45d0-83ba-6d38e9699ed4> a GO:0007286,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/6f83a218-bf16-484d-abfd-2df5c13dddad> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/88238680-9045-4430-8891-93acbf847518> a CL:0000589,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/9ae060f8-e04b-443e-90f8-7c8b90f03b68> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_97822/a2aa4815-7e49-43e9-981f-779944c1ab35> a GO:0044782,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/475f4e47-33bd-453a-bd95-eaf829cdaaff> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/312fab5f-26f6-4a09-8535-f2dccfa60c82> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-12" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/a59f980e-6b8d-4f30-98cd-fccf9225ea44> a GO:0051654,
+<http://model.geneontology.org/MGI_MGI_97822/1e5ba46e-2101-443e-866d-a858bc9f63aa> a GO:0007010,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/9a8d118b-51a5-4aed-b5c0-ff2950d419e7> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/d6bc36d5-9a28-4839-a4b6-d2f26959add0> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/c19e59a5-4334-4ec3-9272-2fcfc7261f41> a GO:0030382,
+<http://model.geneontology.org/MGI_MGI_97822/24567d6b-ffd2-4e13-aff0-1990114bce0b> a GO:0001675,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/881fc305-5f86-4b0c-ba6b-289610f10195> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/2ec748a0-294b-46e1-92ab-d2d0d8674924> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/de36de06-b203-477a-8e2d-3f0c1d42cde4> a GO:0001675,
+<http://model.geneontology.org/MGI_MGI_97822/342a7960-bede-4d80-b321-d45dafdf2ce0> a GO:0030382,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/d4932652-9910-4b2a-bf16-8f00a531af4b> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/883eff65-4be2-4676-b045-95ac13fdbb81> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_97822/f0a2a79d-0865-4427-9417-7bee055155ea> a GO:0044291,
+<http://model.geneontology.org/MGI_MGI_97822/5009d428-b8a4-4669-ab7d-fa99c4147441> a GO:0007289,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/88238680-9045-4430-8891-93acbf847518> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/b9e76b17-aa50-4266-bd5d-f4a78b08599e> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/588af128-ddd6-405e-9d15-8710fad5dc4c> a GO:0051654,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/999c3b98-3edb-4f49-ad3e-776490b3d231> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/65d105b5-5a6b-44c2-850f-cd2b0a0c2de5> a GO:0007286,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/356c9882-ffde-4a2a-baa3-1c010eb3a237> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/7b436f34-8a5b-4ed2-b8e6-6167256076dd> a CL:0000589,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/50aa4b11-2948-4a41-9f38-8ae212b0a88c> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2016-05-27" ;
     dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/8aaf5b7b-cf79-4799-a1b5-27c2e771ddad> a GO:0032990,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_97822/98be8f62-e2de-4ee9-a53a-7f114ddc7b1b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/8e4a1dc8-9597-437a-96d5-fd8dc55a9eee> a GO:0005911,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/e9286020-9c1b-45d9-9611-1697fed7aa8d> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_97822/f0702b24-c3ad-4d5f-a519-d534e0296c28> a GO:0044291,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_97822/7b436f34-8a5b-4ed2-b8e6-6167256076dd> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
@@ -918,451 +918,451 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/eb687451-b596-44e8-ae46-260ef6606703> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/35d0ee81-cbf0-4ca6-b973-10a060f5fa96> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0032990 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/788dd464-6b33-4483-a4bb-4dfb542726cd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/f5cb100a-81ca-48ef-9c03-0ea36ecaaea5> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f55b4e06-a999-4a07-ad8d-af23c161230c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/ec846893-3540-4b66-88fe-9e4c32b2cc1f> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/6dcb4a9c-28a1-4dfa-9360-5747a706b789> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f0a2a79d-0865-4427-9417-7bee055155ea> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/88238680-9045-4430-8891-93acbf847518> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/0ea2a23c-9ef3-4e3d-b74f-d440514db274> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0005911 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2008-10-02 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/2e19f822-8ab7-442a-97fe-9c002d76d45e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/61426933-caef-4028-a269-03fe0d6103be> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/978b0890-8a1d-4197-ba9a-a596585522d1> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/88238680-9045-4430-8891-93acbf847518> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/9ae060f8-e04b-443e-90f8-7c8b90f03b68> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/1922404b-3e7a-431d-9e5f-19b92ea8447b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/d44ecb43-75a4-4bb2-baa2-ad5870f32a00> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007286 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/89fc85b0-db33-41db-a590-c1f2fe26d279> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/1f507039-866f-4bff-bb15-4dd8f553b8cd> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f93c49c3-924f-4a0e-a3b8-7c5645597db1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/c3a4f4ca-73b7-4497-9362-e49a67c6bcbe> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/50ce1b8d-0515-4494-9112-afd767dfd7db> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/eb83d9b1-c70c-4ef9-8557-14ef27938be4> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/a59f980e-6b8d-4f30-98cd-fccf9225ea44> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/9a8d118b-51a5-4aed-b5c0-ff2950d419e7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/e99a78f9-964c-4959-8ccb-ee8ed17f50c5> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dct:created "2005-12-09" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:3575493|PMID:15752754 ECO:0000353 PR:Q8K4F0  2005-12-09 MGI  creation-date=2005-12-09|modification-date=2005-12-09|comment=CD226|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/18e8cddd-0c1e-44f9-a86b-9ee05879b355> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/bc369726-a8ba-4243-95c7-21483b70e89f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/b237e64c-4b3b-46bb-99bc-9cef22a7b768> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2016-05-27" ;
-    dct:created "2016-05-27" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/1b4aaedf-a736-43af-9003-790446b7694e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/f0a2a79d-0865-4427-9417-7bee055155ea> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/153c7a97-7a47-45a6-ae62-315726193833> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007286 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/84853827-8014-45d0-83ba-6d38e9699ed4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/6f83a218-bf16-484d-abfd-2df5c13dddad> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/36c6c167-ccbd-4d6c-9586-0adc49c8f2c6> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/4d48709f-b4ff-4e61-aec9-8b17445a4ae4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/a59f980e-6b8d-4f30-98cd-fccf9225ea44> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/eb283bde-3d2b-47dd-abc2-d42593d670fd> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0009566 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI  creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=has_participant(CL:0000019)|comment=homozygous mutant males are infertile|comment=in contrast  female fertility is unaffected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/9ab13ba8-8ffc-4d26-b453-0bbb1287a0da> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/402d9966-6881-48ba-ae1b-a6117337d78e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/6b9be1b0-ba00-44fa-a2c2-18d9be568ab4> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007289 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|comment=nuclei with irregular shapes and prominent vesicles are observed|comment=the sperm nucleus appear heterogeneous|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d7621cc2-71a1-40bf-9244-b15bc6bbaadb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/2a1bf840-8861-441c-b70d-968784f67e43> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/bddfbb36-4030-4834-8907-41cb374cfd51> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/4d48709f-b4ff-4e61-aec9-8b17445a4ae4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/b329b626-be16-425d-89ac-db43c9554e68> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/44356a7b-410f-4a9f-a116-6f7a869cc111> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-04-01" ;
-    dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:2670514|PMID:12759359 ECO:0000353 PR:Q9JLB9  2020-04-01 MGI  creation-date=2004-09-08|modification-date=2020-04-01|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/fc227d13-87b8-4e34-9652-c8f1397e96d8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/f957ace7-04c0-432d-b897-75d8256e5922> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/138b0780-4544-4978-9a28-2b4e26ba3a54> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007286 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/89fc85b0-db33-41db-a590-c1f2fe26d279> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/84853827-8014-45d0-83ba-6d38e9699ed4> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/7e67a067-cc13-4b7b-9ff3-ab9462861728> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/65d105b5-5a6b-44c2-850f-cd2b0a0c2de5> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/f07b5147-8e62-42a7-8135-00090d07ff13> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0030382 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm mitochondrial sheath morphology|comment=the mitochondrial sheath of the middle piece is disorganized|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/c19e59a5-4334-4ec3-9272-2fcfc7261f41> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/881fc305-5f86-4b0c-ba6b-289610f10195> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/8858922a-1dbc-4d63-86e6-ed76701639b2> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/35875363-1cd3-4a01-86b3-747b5b8b09d5> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-12" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0044782 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2013-06-12 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2013-06-12|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm flagellum morphology|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/8da1f426-6792-4d6e-a837-38d7354ad09f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/a2aa4815-7e49-43e9-981f-779944c1ab35> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f47d2c0d-0730-48bc-86ce-f5c0cdf0227d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/183503e8-34b2-4b85-a57c-896022de2a04> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/dbb1ea4f-bfec-4b05-a3a0-c64862c15ca6> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2005-12-09" ;
-    dct:created "2005-12-09" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/c42fa275-0cd9-4cc8-bff2-688d9da0ad80> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:3575493|PMID:15752754 ECO:0000353 PR:Q8K4F0  2005-12-09 MGI  creation-date=2005-12-09|modification-date=2005-12-09|comment=CD226|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/24567d6b-ffd2-4e13-aff0-1990114bce0b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/2ec748a0-294b-46e1-92ab-d2d0d8674924> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/ebcc4fe2-799a-4d19-be66-229a9c4f9c98> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2013-06-12" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0044782 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2013-06-12 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2013-06-12|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm flagellum morphology|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/18e8cddd-0c1e-44f9-a86b-9ee05879b355> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/550f8f82-710a-4667-933e-043e1e04a559> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f47d2c0d-0730-48bc-86ce-f5c0cdf0227d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/64578074-97b5-4cd1-b4b7-c30d37a0df72> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/9b271c88-26ee-41b8-96cc-a89f8ecdab9c> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/2c538ec9-e60d-4462-9626-dc7f011e6a68> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0009566 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI  creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=has_participant(CL:0000019)|comment=homozygous mutant males are infertile|comment=in contrast  female fertility is unaffected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/9ab13ba8-8ffc-4d26-b453-0bbb1287a0da> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/84b8538c-6d4b-4ce9-a2ad-b5fcb8876671> .
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/588af128-ddd6-405e-9d15-8710fad5dc4c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/999c3b98-3edb-4f49-ad3e-776490b3d231> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/325a0a1a-085a-449e-bf85-95907144f062> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-10-02" ;
-    dct:created "2008-10-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0005911 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2008-10-02 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/dd60a510-888f-4a30-90bb-118dd3a717d3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/2e19f822-8ab7-442a-97fe-9c002d76d45e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/77def443-f3e0-423b-b5ed-27739af60b59> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/270eb7de-3032-4182-9f3f-cab333ebf265> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007010 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/3821a095-8321-41e7-bf7a-e0c9eedc7fb6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/474277be-accc-4ee9-a119-7968f78ec414> .
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/1e5ba46e-2101-443e-866d-a858bc9f63aa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/d6bc36d5-9a28-4839-a4b6-d2f26959add0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/b2198ea9-19ae-4ecc-9ab5-98905b65fe37> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/2478f5aa-f766-4982-8924-f4e23e593afa> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2013-06-12" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0044782 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2013-06-12 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2013-06-12|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm flagellum morphology|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/a2aa4815-7e49-43e9-981f-779944c1ab35> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/475f4e47-33bd-453a-bd95-eaf829cdaaff> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/183503e8-34b2-4b85-a57c-896022de2a04> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/312fab5f-26f6-4a09-8535-f2dccfa60c82> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/c5de594c-4e9f-4551-8fdd-3b938024de96> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/efc13f8d-df47-4828-aef7-a7147308dc9a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/a22bbe70-df57-4a1f-8a70-c406399420d8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/db81f5cb-3beb-4997-b4f7-a2e3984ee276> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/efc13f8d-df47-4828-aef7-a7147308dc9a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/de36de06-b203-477a-8e2d-3f0c1d42cde4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/aa480648-d89b-4b3c-a579-10661e6a74a0> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0030382 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm mitochondrial sheath morphology|comment=the mitochondrial sheath of the middle piece is disorganized|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/e67daf40-3456-432e-9c1c-e046f241075a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/c19e59a5-4334-4ec3-9272-2fcfc7261f41> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/f2548191-4fc6-4ada-a32d-b6521a45a4dd> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0032990 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/788dd464-6b33-4483-a4bb-4dfb542726cd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/17936550-7af4-447d-aaaa-1b1e432eeac7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/10954307-27dc-4f88-b822-49ba8466a0b3> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2013-06-12" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0044782 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2013-06-12 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2013-06-12|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm flagellum morphology|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/8da1f426-6792-4d6e-a837-38d7354ad09f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/6306ff0f-d0e4-4979-a9f7-35dbfafd9e34> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/5f0b63f3-ed2a-4857-9968-b4f9a13d234c> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306",
-        "https://orcid.org/0000-0003-2689-5511" ;
-    dc:date "2020-04-01" ;
-    dct:created "2004-09-08" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:2670514|PMID:12759359 ECO:0000353 PR:Q9JLB9  2020-04-01 MGI  creation-date=2004-09-08|modification-date=2020-04-01|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/fc227d13-87b8-4e34-9652-c8f1397e96d8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/c012641a-3821-4eab-a364-4d54b3d07673> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/c3901f88-3359-4928-8667-1f4e2b9e1021> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/de36de06-b203-477a-8e2d-3f0c1d42cde4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/d4932652-9910-4b2a-bf16-8f00a531af4b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/0044e064-d571-4759-b843-396ef3887b9d> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007289 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|comment=nuclei with irregular shapes and prominent vesicles are observed|comment=the sperm nucleus appear heterogeneous|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/066ab069-aecd-4c32-8025-1c0369303854> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/3f34def9-81b1-4563-9c76-d395a5e5f520> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/fdcaf82d-7bd1-4426-a7d9-6b76d85c7947> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0032990 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/17936550-7af4-447d-aaaa-1b1e432eeac7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/b98486db-672a-4504-addd-d2e5ea7e74ca> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/50eef0e5-444c-4b9b-a156-26a3a4183d3e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/b76292f6-52ca-421c-808b-97328c51dd26> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2016-06-22" ;
     dct:created "2016-06-22" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0043296 MGI:MGI:5586967|PMID:22512338 ECO:0000314   2016-06-22 MGI  creation-date=2016-06-22|modification-date=2016-06-22|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/fe4c4a97-a4b1-4d66-9de8-2667244013fb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/fd72c338-a7cf-414a-a274-5f59da10339a> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/8e9f0333-002c-47c5-b9bf-94faf5aba182> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/e944987f-f464-46dd-a0b7-894b19daeff8> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/96f49b7b-1384-426d-975c-d08c56d2e05a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/462a3534-73aa-4db7-840b-5001cadb492e> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0030382 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm mitochondrial sheath morphology|comment=the mitochondrial sheath of the middle piece is disorganized|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/210be514-cd71-4ffe-afea-c13e4765031f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/342a7960-bede-4d80-b321-d45dafdf2ce0> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/d94cbd9f-7409-4725-8f4e-c369d888acfe> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0009566 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI  creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=has_participant(CL:0000019)|comment=homozygous mutant males are infertile|comment=in contrast  female fertility is unaffected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d87e5561-ef53-4f69-817e-7b2c6530b695> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/17ea9b6a-757c-4fe7-9fe9-15e6f2fc47be> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/49386f10-1029-459d-a36a-0941ded2fc12> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007289 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|comment=nuclei with irregular shapes and prominent vesicles are observed|comment=the sperm nucleus appear heterogeneous|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/5009d428-b8a4-4669-ab7d-fa99c4147441> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/b9e76b17-aa50-4266-bd5d-f4a78b08599e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/ea07168f-2e5f-4bd3-8b70-3729095b5b50> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007289 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|comment=nuclei with irregular shapes and prominent vesicles are observed|comment=the sperm nucleus appear heterogeneous|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d9ca5992-28bd-4d3f-b943-2cba244be598> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/9c95962c-d97c-41a8-8c0a-7d9361555d29> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/4ac636c6-ede3-4a8d-aad3-61c5d2edb89b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007010 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/26b87f0f-5782-4531-aa43-d79dedc1c9d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/b8f456ff-0305-4c86-bc42-4e869436529b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/b005efc9-f6ed-465b-a5d9-2f938fc2f60f> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007286 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/7e67a067-cc13-4b7b-9ff3-ab9462861728> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/c5643281-3892-45f0-a2c0-039406a921ef> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/df836f85-50e9-403f-827a-c88bd5e00c2a> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007010 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/26b87f0f-5782-4531-aa43-d79dedc1c9d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/1e5ba46e-2101-443e-866d-a858bc9f63aa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/538a4c11-96c9-4404-ba55-5d1dcefb523c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0030382 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm mitochondrial sheath morphology|comment=the mitochondrial sheath of the middle piece is disorganized|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/e67daf40-3456-432e-9c1c-e046f241075a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/36910c97-5e55-4824-b740-63817e696c44> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/210be514-cd71-4ffe-afea-c13e4765031f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/282c0a7c-6f2b-46ce-9ac5-e8c3c9385fa1> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/718acd1d-4fea-446e-9244-e47b6af5ce88> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/7bd43bcd-5e2b-44bc-b5d6-24160aac6b42> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2011-01-13" ;
     dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0030382 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm mitochondrial sheath morphology|comment=the mitochondrial sheath of the middle piece is disorganized|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/342a7960-bede-4d80-b321-d45dafdf2ce0> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/883eff65-4be2-4676-b045-95ac13fdbb81> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/3c85a88e-5fde-4230-9b6b-cd5ddf20914f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2020-04-01" ;
+    dct:created "2004-09-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:2670514|PMID:12759359 ECO:0000353 PR:Q9JLB9  2020-04-01 MGI  creation-date=2004-09-08|modification-date=2020-04-01|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/c323f782-c3e7-44b6-995e-0f1ff3e89d58> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/b37b636e-e5db-40d4-87bf-1b503d86dcf8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/ec221f38-056d-4dc0-b344-8bbff9d94a10> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/baaa48f4-31d4-4c75-ba7c-1deee58dfe29> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/f0702b24-c3ad-4d5f-a519-d534e0296c28> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/a5662f8a-c876-4c12-8905-08962f09b275> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0009566 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI  creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=has_participant(CL:0000019)|comment=homozygous mutant males are infertile|comment=in contrast  female fertility is unaffected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d87e5561-ef53-4f69-817e-7b2c6530b695> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/f68fb47f-7ec2-438a-8187-110e7986679e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/b9b7bcd9-b0cc-4130-bc64-02102eda7d1c> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dct:created "2005-12-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:3575493|PMID:15752754 ECO:0000353 PR:Q8K4F0  2005-12-09 MGI  creation-date=2005-12-09|modification-date=2005-12-09|comment=CD226|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/5adada22-cafa-45ba-9dd1-7bd74dd3bd2f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/cfc93444-5eba-44cd-a6d8-f036b29a4a58> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/52284afd-72b1-4cfb-9497-0443bb29e281> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/7b436f34-8a5b-4ed2-b8e6-6167256076dd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/50aa4b11-2948-4a41-9f38-8ae212b0a88c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/f29ffab8-5c37-4cae-8965-54f94b468506> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0032990 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f55b4e06-a999-4a07-ad8d-af23c161230c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/8aaf5b7b-cf79-4799-a1b5-27c2e771ddad> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/3896f046-62c4-4e08-9279-d11f32a6a837> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2016-05-27" ;
+    dct:created "2016-05-27" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0044291 MGI:MGI:5477842|PMID:23533177 ECO:0000314   2016-05-27 MGI BFO:0000050(CL:0000589),BFO:0000050(EMAPA:19061) creation-date=2016-05-27|modification-date=2016-05-27|comment=evidence immunofluorescence evidence ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f0702b24-c3ad-4d5f-a519-d534e0296c28> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/7b436f34-8a5b-4ed2-b8e6-6167256076dd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/aa9aae4e-c2b8-4520-ad24-0de686e967a9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0005911 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2008-10-02 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/c09999ca-5a85-44dd-af09-3de1bfa66748> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/8e4a1dc8-9597-437a-96d5-fd8dc55a9eee> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/a94ca789-e63b-4b7b-ae0c-b25871713e0c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/31540a88-36b1-4a3d-b4ab-07be4a5d0890> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/bfc2493b-eb89-4a42-a0e9-29b070986f82> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/607b6c55-e501-43c6-8a6b-6687432c9d7b> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2005-12-09" ;
+    dct:created "2005-12-09" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:3575493|PMID:15752754 ECO:0000353 PR:Q8K4F0  2005-12-09 MGI  creation-date=2005-12-09|modification-date=2005-12-09|comment=CD226|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/5adada22-cafa-45ba-9dd1-7bd74dd3bd2f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/2a095c56-77fe-4c89-98fd-f429e3d22dc3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/c9931dc4-2079-4a9e-92b7-4ee51f242728> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007286 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/65d105b5-5a6b-44c2-850f-cd2b0a0c2de5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/356c9882-ffde-4a2a-baa3-1c010eb3a237> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/5a4b1131-ed60-4d5e-8022-10374ed3423b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0001675 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/f93c49c3-924f-4a0e-a3b8-7c5645597db1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/24567d6b-ffd2-4e13-aff0-1990114bce0b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/9c8eb0f9-4826-4253-a855-e47617d906be> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-10-02" ;
+    dct:created "2008-10-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0005911 MGI:MGI:3604842|PMID:15728677 ECO:0000314   2008-10-02 MGI BFO:0000050(EMAPA:35239) creation-date=2008-10-02|modification-date=2008-10-02|comment=anatomy ciliary epithelium;MA:0001238|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000050 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/8e4a1dc8-9597-437a-96d5-fd8dc55a9eee> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/e9286020-9c1b-45d9-9611-1697fed7aa8d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/106a2520-b236-432b-9932-1d616efa95f9> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0051654 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=defective localization of mitochodria in mutants|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/31540a88-36b1-4a3d-b4ab-07be4a5d0890> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/588af128-ddd6-405e-9d15-8710fad5dc4c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/e7417ec3-1f6f-4e6d-a38b-99dcd1b37f92> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007289 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=at steps 11 to 16 of spermiogenesis  all nuclei show shape irregularities and prominent translucent vesicles|comment=nuclei with irregular shapes and prominent vesicles are observed|comment=the sperm nucleus appear heterogeneous|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d7621cc2-71a1-40bf-9244-b15bc6bbaadb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/066ab069-aecd-4c32-8025-1c0369303854> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/d9ca5992-28bd-4d3f-b943-2cba244be598> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/5009d428-b8a4-4669-ab7d-fa99c4147441> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/a552281c-e388-40a0-997e-f73a89cdc30a> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/08616e35-140e-4fc5-b211-820d3f069a0e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306",
+        "https://orcid.org/0000-0003-2689-5511" ;
+    dc:date "2020-04-01" ;
+    dct:created "2004-09-08" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002327 GO:0005515 MGI:MGI:2670514|PMID:12759359 ECO:0000353 PR:Q9JLB9  2020-04-01 MGI  creation-date=2004-09-08|modification-date=2020-04-01|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/c323f782-c3e7-44b6-995e-0f1ff3e89d58> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/0a4e7825-935a-4623-b331-2a73753230aa> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/70da1023-a9dc-4d8d-bdd2-62f22766e960> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2011-01-13" ;
+    dct:created "2011-01-13" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0032990 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|comment=abnormal sperm head morphology ; abnormal acrosome morphology ; abnormal sperm nucleus morphology|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/8aaf5b7b-cf79-4799-a1b5-27c2e771ddad> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/98be8f62-e2de-4ee9-a53a-7f114ddc7b1b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/8f445345-9a99-45a9-a4c9-ecc0e246556a> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2005-10-06" ;
     dct:created "2005-10-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:97822  RO:0001025 GO:0005911 MGI:MGI:3529739|PMID:15660130 ECO:0000314   2005-10-06 MGI  creation-date=2005-10-06|modification-date=2005-10-06|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/fc776bc5-676f-48dd-846c-ac9687876b83> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/e350ccf5-f8c9-4b17-b1cb-bb51c933d6ec> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/1628dfb3-e277-4cc1-8e5d-1c367a57586f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007010 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/474277be-accc-4ee9-a119-7968f78ec414> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/cdab8b12-3e41-4145-b9a9-4fbe3b226960> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_97822/deb4906c-2e69-4390-8786-ccb2cea92727> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2011-01-13" ;
-    dct:created "2011-01-13" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:97822  RO:0002264 GO:0007010 MGI:MGI:1354802|PMID:10733589 ECO:0000315 MGI:MGI:2183405  2011-01-13 MGI BFO:0000066(CL:0000019) creation-date=2011-01-13|modification-date=2011-01-13|comment=cell type CL:0000019 ; sperm   CL:0000001 ; primary cell line cell|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/3821a095-8321-41e7-bf7a-e0c9eedc7fb6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/7da08ee1-1c6c-4298-81fe-10d13d646f62> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_97822/25d371da-bef9-4008-974f-24883517a640> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_97822/7be95e05-ed7b-4a8c-a1cf-87c4e6b60620> .
 

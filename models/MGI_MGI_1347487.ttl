@@ -38,12 +38,23 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-05-01" ;
     dc:title "Foxm1 (MGI:MGI:1347487)" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_1347487> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_1347487/00c00e2c-880b-4c14-aea6-e0a25d4eda33> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/008feb3b-6598-4fc8-9df5-1193f29ffb98> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/017c6abd-7baf-4c15-9dc2-92bd2a544c8c> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -56,59 +67,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
         "has_participant(CL:0000055)" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/060028ff-f87d-42dc-8dde-8951bd5a3ea7> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Lama4 ; MGI:109321" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/13ea9fe7-abfd-4823-86df-77aea12a58d7> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/1abcc11a-20c8-4082-8ced-f1192816556b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "anatomy TS25\\ common bile duct; EMAP:10861",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
-        "has_participant(CL:0000055)" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/1d8d804e-013c-4ed8-8426-6120e0279b60> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dc:source "PMID:17261592" ;
-    dct:created "2010-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/202afaf2-1a75-43c6-8c81-3717b812dba3> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/213c2f41-5ee2-4c35-b486-9094df2ad0a7> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1347487/0285f85e-2928-45bd-a82f-6b8fd72e802c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-23" ;
@@ -118,7 +77,101 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected",
         "target Itgb3 ; MGI:96612" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/2c931ec7-99c9-4353-b737-48788b2197fa> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/04362003-3f3f-46bd-83de-94bc7c064349> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/04e31652-5cfd-4924-b8bf-44b3835a8f01> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/069c386b-831f-4c41-9746-f0e90b0666f2> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/0b84b24a-beb1-4c36-a4f5-050b133be43b> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/18236ba8-6f90-468d-8a6a-30215a36dc3c> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dc:source "PMID:17261592" ;
+    dct:created "2010-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/3387a81f-8441-48c1-9bb1-62f55b948d4f> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/5745af0b-1753-43f1-bf30-f71f558c9e4b> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1347487/f3981af0-c4f5-45c7-9830-60b7c54ab469> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/6150ebc9-d396-4a2c-a611-e46d026b156a> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/62803ed2-ab0d-43b9-a717-fdc84ef6526c> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/691bf5e3-9dd0-4f2b-a4bd-950969c57d50> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -131,16 +184,97 @@ ns2:providedBy a owl:AnnotationProperty .
         "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
         "has_participant(CL:0000055)" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/366a3619-8008-4056-aebc-3cb82687b6a9> a MGI:MGI:1347487,
+<http://model.geneontology.org/MGI_MGI_1347487/71efbb5a-9c66-4eb4-a4be-084b94897523> a ECO:0000315,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_1347487/50c8d44e-dace-4825-a8de-4643c18296cc> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/37d4fb2c-d8b5-44d7-944b-163b64ba7ed6> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1347487/7380bd94-3fe4-4f44-8a5e-8045732f8ff0> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "anatomy TS25\\ common bile duct; EMAP:10861",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
+        "has_participant(CL:0000055)" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/79ce4e8b-a082-47f3-b9c9-f0dd42913394> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/7a5a1867-5773-49b8-8cb1-5fd3ca14a727> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "anatomy TS25\\ common bile duct; EMAP:10861",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
+        "has_participant(CL:0000055)" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/8b0a856c-7e27-4472-a5e1-848ae98182b7> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Lama4 ; MGI:109321" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/8eb36b81-44fa-4896-bdfc-9fe3fd78c816> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/94141516-3be5-4b04-87dd-4238b697dbb6> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/a26ecae4-d8c7-41c8-8539-8876789b7b33> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
+        "cell type mesenchymal cell ; CL:0000134" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/a27a5407-acd4-4732-bd9b-c43d5b407235> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
@@ -151,7 +285,26 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter",
         "target Itgb3 ; MGI:96612" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/4572289c-1c8a-4e23-ae5f-e96678fb639f> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/a9332ce9-44be-4d30-a1c7-1c76821ff5a3> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Lama4 ; MGI:109321" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/ae3ce86f-303d-4f15-be61-3caafe42cd56> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/b3475f5d-a908-4b76-b5cc-af5ff1cf2c4b> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -160,9 +313,83 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2005-03-14" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
+        "anatomy TS25\\ common bile duct; EMAP:10861",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
+        "has_participant(CL:0000055)" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/4b8ecb96-de18-4469-b24b-f681f118a6e9> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/bd9fe9ee-6a1b-43e1-b2c0-c5b177b4b340> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dc:source "PMID:15531365" ;
+    dct:created "2005-03-14" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
+        "anatomy TS25\\ common bile duct; EMAP:10861",
+        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
+        "has_participant(CL:0000055)" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/c142bcab-abe9-4568-9152-d4954b13b276> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "target Lama4 ; MGI:109321" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/c5d51db9-b6ef-4624-a35f-dc9d2161f5d2> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dc:source "PMID:17261592" ;
+    dct:created "2010-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected",
+        "target Itgb3 ; MGI:96612" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/c9b802b6-3e99-478b-819d-9efcea23914e> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dc:source "PMID:17261592" ;
+    dct:created "2010-02-23" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected",
+        "target Itgb3 ; MGI:96612" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/d520b1d4-4905-47e5-9895-072654b6ec33> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/d7799fe4-4725-4b2f-9090-18592263640e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/d8c36135-0255-4da2-8b71-454f947d26bc> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/dc7924c8-4983-43d0-bea0-520b392a4aa5> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -173,38 +400,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
         "cell type mesenchymal cell ; CL:0000134" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/4e337491-279d-49ac-993b-6ac7d5a08a80> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dc:source "PMID:17261592" ;
-    dct:created "2010-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected",
-        "target Itgb3 ; MGI:96612" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/521553ec-3fb8-410c-b3a7-1f812bbe9022> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dc:source "PMID:17261592" ;
-    dct:created "2010-02-23" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected",
-        "target Itgb3 ; MGI:96612" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/5f5a92f9-8275-421a-a6f7-c1a07c1896e1> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/6de33ffd-a606-4891-a016-fd7867c08ece> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1347487/e05b207d-0afa-447e-9230-6c450e2fa8fc> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
@@ -215,70 +411,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter",
         "target Itgb3 ; MGI:96612" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/766624ba-a3a2-4b8f-afc1-c54ec92c7c12> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/7dc5f7d0-ed28-4605-8cef-f48aaa6195dc> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Lama4 ; MGI:109321" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/7ecc732e-179e-4e73-8f46-33267dd1b664> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/80075a23-6400-444d-af66-a118d430113e> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/807408f6-b01f-4705-b9e1-1502390cbd6b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/852c13c7-3056-48bd-bf8b-0fa80596e527> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/859d78d5-26e5-4c9c-b22e-0f6b4ec2ea08> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/ea65d02b-8bef-43c2-8750-19d5d0943962> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -289,83 +422,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
         "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/8bd01382-e27c-4dc9-8327-92991c4bf930> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/907ed534-236e-4c33-80fe-63736f3b230b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/93d58082-4803-4068-bfd9-87f34a4a38d6> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/94842d7b-9162-4ded-b456-e38f85d45f6d> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "anatomy TS25\\ common bile duct; EMAP:10861",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
-        "has_participant(CL:0000055)" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/94a2edfb-b521-4c87-b0b0-6b00525018e0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/9aae4ca6-b015-4618-a728-fea95aa45f01> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "anatomy TS25\\ common bile duct; EMAP:10861",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
-        "has_participant(CL:0000055)" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/9fe316b1-2d79-4bb4-8276-88eb86804a76> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/a8427aa3-d8f5-419b-be42-544188c325c0> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/ecd0dbf6-1f96-4608-87b3-166b829bfd98> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -376,16 +433,27 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
         "cell type mesenchymal cell ; CL:0000134" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/ac6175d5-7020-470e-ae60-d5dcf06ca565> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_1347487/f3aeb984-748e-4f7d-a9d1-13d895628ea9> a ECO:0000315,
         owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dc:source "PMID:15817462" ;
     dct:created "2006-02-02" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "target Lama4 ; MGI:109321" .
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/ba6d1e84-65f1-4848-8d11-e6d2fda13e4b> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_1347487/fb949c66-281a-4854-b3bc-371c7fb76c3d> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3522201" ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dc:source "PMID:15817462" ;
+    dct:created "2006-02-02" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/fcf85b76-0223-4a51-857f-dff718a32f48> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3522201" ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
@@ -395,507 +463,439 @@ ns2:providedBy a owl:AnnotationProperty .
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
         "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/bba5b06c-7c8d-4097-9d5b-90443dafdb2a> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/bca533de-c316-4e43-9183-5a11019424ee> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/cd35d1a2-a6a0-4123-ba51-cc1dc96b8b29> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dc:source "PMID:15531365" ;
-    dct:created "2005-03-14" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ liver; EMAP:8200",
-        "anatomy TS25\\ common bile duct; EMAP:10861",
-        "cell type non-terminally_differentiated_(blast)_cell ; CL:0000055",
-        "has_participant(CL:0000055)" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/cdcad8b3-100d-42ee-847f-aafe397850ec> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/cf507b5d-4805-4313-a265-941e6922eda0> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/ff3489f9-fef5-469d-a3ae-b152f64894db> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3522201" ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dc:source "PMID:15817462" ;
-    dct:created "2006-02-02" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301",
-        "cell type mesenchymal cell ; CL:0000134" .
 
 obo:RO_0001025 a owl:ObjectProperty .
 
 obo:RO_0002211 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1347487/15896b34-4447-4bd2-9e1c-a82bd736fc36> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_1347487/0284ad42-3db7-4420-825a-b25f77cd6720> a GO:0003674,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/1932529f-c335-4af7-9903-199b7811f364> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/4cfdd3c2-fdb0-40b4-b3c2-f7dcde06a149> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/2a518561-4916-4788-8d9b-66563dd620b4> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/05d59102-9185-4c5c-8cc1-a9a59b0b1278> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-03-14" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/1932529f-c335-4af7-9903-199b7811f364> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/1a2744e7-90e1-456b-ba3c-6c0f7195055c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/5ec8fb58-f5c6-4c15-acf9-b6212523a367> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/2d19b964-ad9e-4f8b-9061-e237fffbe4c4> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/1b402ecd-2572-421a-b4e7-9f17c278b2e7> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/7669de59-7e92-49e6-80a3-49de8c44627c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/0329ba52-33b6-4558-9490-be6d820dd75b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/1fd9a2e6-6339-44ee-8fac-98f6c546bbd4> a MGI:MGI:96612,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/2fec06e4-0100-4208-874a-cde1621fe677> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/36250d7e-58e5-4e3a-943c-f5ef4665f532> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/3b04510f-2682-4082-99e6-75d3fb07317e> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/36250d7e-58e5-4e3a-943c-f5ef4665f532> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/207ccdc1-1b59-467c-bfb3-abe68afd91e6> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/3d3cd63f-cbca-4c06-803b-8d8f56cc66ce> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/bdfb0dc4-02f7-4d03-bf4d-d23ef86a651d> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/fefe6e9e-30d6-4878-9a49-96a6e8640af7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/3fbb67a9-c345-40e2-b1c1-79c372733790> a CL:0000055,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/50c8d44e-dace-4825-a8de-4643c18296cc> a GO:0005634,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/5ec8fb58-f5c6-4c15-acf9-b6212523a367> a MGI:MGI:1347487,
+<http://model.geneontology.org/MGI_MGI_1347487/0be85508-e6c4-4ac8-a914-afaaceaa35ff> a EMAPA:17654,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/6d1bae8e-0b77-4ce3-85b7-c55b04cc0abb> a CL:0000134,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/7669de59-7e92-49e6-80a3-49de8c44627c> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/8c19abc4-5044-4c18-95fc-620d2f9951cf> a GO:0000976,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/a0734316-e7e8-4b1c-8e74-61006430be53> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/dd3dfa8e-ca34-495b-b111-b88afe73a264> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-05-01" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/96dcbbab-85ac-4d5c-a554-9e9e96951aba> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/2fec06e4-0100-4208-874a-cde1621fe677> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/1eedff6f-65c9-46ef-8616-0c5a50da444d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/96f917bf-6814-4780-b553-fbf83b496406> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/9b0f3fd3-60e1-41cf-8d95-602bba02c43d> a EMAPA:17662,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/a0734316-e7e8-4b1c-8e74-61006430be53> a MGI:MGI:96612,
+<http://model.geneontology.org/MGI_MGI_1347487/11f4b2db-3888-461f-91ab-c0922ab23722> a MGI:MGI:1347487,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-05-01" ;
     dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/a823c67c-7fff-4d11-84d7-54b067bb997f> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/c5a57e3f-ba75-4015-8650-3053b687d253> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/80a0c40d-d315-4cb5-b995-bc48b7322e8b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/aadde115-03e7-450b-980f-e4977069cd20> a EMAPA:17201,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/ae5a0490-3204-4a7d-bd23-b7a7df3010ce> a EMAPA:17660,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/b22d69c1-93bf-458d-b0f9-3105c9e9b086> a EMAPA:16846,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/bdfb0dc4-02f7-4d03-bf4d-d23ef86a651d> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/bf9b2113-8771-46b6-a75f-85004d8c3092> a MGI:MGI:109321,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/c5a57e3f-ba75-4015-8650-3053b687d253> a MGI:MGI:1347487,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/d57d339f-7722-4dd3-92dc-b0b0c2823d3f> a EMAPA:16846,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/db03cc7c-4d9e-4fa7-835b-241975547307> a EMAPA:17654,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/dbda979f-44fd-4aab-a0fc-9933affab64c> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/96f917bf-6814-4780-b553-fbf83b496406> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/ac631e61-ce8e-48d7-bbc2-77829b44e877> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/dd3dfa8e-ca34-495b-b111-b88afe73a264> a MGI:MGI:1347487,
+<http://model.geneontology.org/MGI_MGI_1347487/15e7ae2f-bb18-4b73-a92b-001308467677> a MGI:MGI:96612,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2020-05-01" ;
     dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/e0d4b742-eef3-41a1-8a2c-9ec16653d8e5> a MGI:MGI:1347487,
+<http://model.geneontology.org/MGI_MGI_1347487/19634158-50bd-4a5e-8cf9-fcc51f2100da> a MGI:MGI:1347487,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/e0ed6cf0-665b-4995-bc12-d6b5fb5291f2> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/e0d4b742-eef3-41a1-8a2c-9ec16653d8e5> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/213d1d20-5848-4433-baad-c60c54a2d5cb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/e69b5939-ca71-481c-b398-39bce1872c63> a EMAPA:17668,
+<http://model.geneontology.org/MGI_MGI_1347487/20c7231a-9c87-4e91-8442-f353f216bc70> a EMAPA:17660,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/e90b4b7f-865a-4d50-8062-cdf900e999f8> a CL:0000134,
+<http://model.geneontology.org/MGI_MGI_1347487/28c4893b-9220-4a1b-ab0c-b08ca2095d4e> a EMAPA:17662,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/2a518561-4916-4788-8d9b-66563dd620b4> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/2f059f74-f373-408e-b234-efd9cdff1470> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/ac16ef29-12a0-4754-abfe-6fda43814358> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/18f97baa-262a-46d7-a94a-0548c780aa63> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/45928a0d-926a-4b87-ae3b-65f26fd13cca> a MGI:MGI:96612,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/58b89b8b-7ac3-4913-8bcc-7c84fbbafaf8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/7845daa8-ff0b-41b9-8a99-356174160340> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/a499cfc0-5751-487e-86f6-8344b92f47bb> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/5ba916c7-35bd-4379-85e7-f4b4ee378b4c> a EMAPA:16846,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/6098c121-8323-4bc0-a4af-221c76670c5e> a EMAPA:17201,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/6ef5b7ed-292e-4f5f-8113-07f3b19f602d> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/6f79b522-b0de-4f7e-a85d-a44a2475cdf8> a GO:0000976,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/15e7ae2f-bb18-4b73-a92b-001308467677> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/11f4b2db-3888-461f-91ab-c0922ab23722> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-05-01" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/7845daa8-ff0b-41b9-8a99-356174160340> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/890d4d1f-0dd0-4056-b26f-c1dd132172db> a EMAPA:17668,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/8d272a45-96cf-431d-b8c7-b9fae8dfde69> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/b69c1722-ded5-4d6c-84ab-92970841ef9a> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/d42a64ce-c6b6-44a6-adc9-e9a622fb4043> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/8eb5b159-2460-4487-b043-90aa647bf4a8> a CL:0000134,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/ac16ef29-12a0-4754-abfe-6fda43814358> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/aee79374-57d4-44ae-bdb2-4e6c92122119> a EMAPA:16846,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/b3c1ff74-d006-4031-b039-cc4ca63d790b> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/b69c1722-ded5-4d6c-84ab-92970841ef9a> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/b9ef8d25-bc88-468d-bdf0-cdd0abe3a9b9> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/ee8b134a-53ba-4ce8-a2bf-f0e20a49367c> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/2dae6dab-ae7d-4881-9b0f-ac02d3fba2c5> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/c2372b8d-8dab-42a8-adc8-408c58059509> a CL:0000134,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/c8600545-905e-42a6-8773-2c681d7df3bb> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/dccd1dce-7123-47e4-8941-51301fabc572> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/b3c1ff74-d006-4031-b039-cc4ca63d790b> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/1d77cc3e-daa0-4b23-8a2d-8cc8872f2625> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/ec446c37-56c3-4e78-b121-d937062a85d8> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/c8600545-905e-42a6-8773-2c681d7df3bb> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/860017b1-c1dd-4ecb-a080-47e4deca7016> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/ee8b134a-53ba-4ce8-a2bf-f0e20a49367c> a MGI:MGI:1347487,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/eec365fe-4354-4a2c-bff5-53527d524fb2> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/19634158-50bd-4a5e-8cf9-fcc51f2100da> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/a3c66d76-29e1-4486-960a-44ede9e10bf7> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/f3981af0-c4f5-45c7-9830-60b7c54ab469> a GO:0005634,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/fd6d1c9f-cb65-44e8-834d-55100e6011d1> a MGI:MGI:109321,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/fdcea4a3-afff-4dc1-810e-7542f84c5fcf> a CL:0000055,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/ff44e71a-40e7-46a5-a489-65c9b0de51dd> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_1347487/6ef5b7ed-292e-4f5f-8113-07f3b19f602d> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_1347487/52ea7efc-e993-406c-a514-71652ad1387a> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002296 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1347487/0329ba52-33b6-4558-9490-be6d820dd75b> a GO:0001570,
+<http://model.geneontology.org/MGI_MGI_1347487/18f97baa-262a-46d7-a94a-0548c780aa63> a GO:0001570,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/e69b5939-ca71-481c-b398-39bce1872c63> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/20c7231a-9c87-4e91-8442-f353f216bc70> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/207ccdc1-1b59-467c-bfb3-abe68afd91e6> a GO:0045944,
+<http://model.geneontology.org/MGI_MGI_1347487/1d77cc3e-daa0-4b23-8a2d-8cc8872f2625> a GO:0045944,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/1fd9a2e6-6339-44ee-8fac-98f6c546bbd4> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/fd6d1c9f-cb65-44e8-834d-55100e6011d1> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/2dae6dab-ae7d-4881-9b0f-ac02d3fba2c5> a GO:0001570,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/890d4d1f-0dd0-4056-b26f-c1dd132172db> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/2f5f94e1-4e20-4246-81f5-0238816b764a> a GO:0008283,
+        owl:NamedIndividual ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/0be85508-e6c4-4ac8-a914-afaaceaa35ff> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/320248b7-79d0-4bdd-bb86-fb8b1911c41d> a GO:0008283,
+        owl:NamedIndividual ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/fdcea4a3-afff-4dc1-810e-7542f84c5fcf> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/52ea7efc-e993-406c-a514-71652ad1387a> a GO:0001889,
+        owl:NamedIndividual ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1347487/6098c121-8323-4bc0-a4af-221c76670c5e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/860017b1-c1dd-4ecb-a080-47e4deca7016> a GO:0045944,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/45928a0d-926a-4b87-ae3b-65f26fd13cca> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-23" ;
     dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/28e4e3f6-141c-4931-a695-c7e686a08e5f> a GO:0008283,
+<http://model.geneontology.org/MGI_MGI_1347487/9c267655-cb5a-4353-ad40-751fbac4cd36> a GO:0008283,
         owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/3fbb67a9-c345-40e2-b1c1-79c372733790> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/28c4893b-9220-4a1b-ab0c-b08ca2095d4e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_1347487/a499cfc0-5751-487e-86f6-8344b92f47bb> a GO:0001889,
+        owl:NamedIndividual ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1347487/5ba916c7-35bd-4379-85e7-f4b4ee378b4c> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-03-14" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/2d19b964-ad9e-4f8b-9061-e237fffbe4c4> a GO:0001570,
+<http://model.geneontology.org/MGI_MGI_1347487/c48167f7-13f1-4f94-bcfe-d237c419d41f> a GO:0008283,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/ae5a0490-3204-4a7d-bd23-b7a7df3010ce> ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/c2372b8d-8dab-42a8-adc8-408c58059509> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/3ddd3f38-51e7-4dbb-8565-237250b22bd9> a GO:0008283,
+<http://model.geneontology.org/MGI_MGI_1347487/ed57592a-061c-456b-94d9-a353b85c1d4e> a GO:0008283,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/db03cc7c-4d9e-4fa7-835b-241975547307> ;
+    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/8eb5b159-2460-4487-b043-90aa647bf4a8> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/4cfdd3c2-fdb0-40b4-b3c2-f7dcde06a149> a GO:0001889,
-        owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1347487/d57d339f-7722-4dd3-92dc-b0b0c2823d3f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/ac631e61-ce8e-48d7-bbc2-77829b44e877> a GO:0001889,
-        owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_1347487/aadde115-03e7-450b-980f-e4977069cd20> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/c44f3307-5158-4a5d-9207-7dc97fe69070> a GO:0008283,
-        owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/9b0f3fd3-60e1-41cf-8d95-602bba02c43d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/c6f17c79-f8db-42a4-8423-fba7181142c9> a GO:0008283,
-        owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/6d1bae8e-0b77-4ce3-85b7-c55b04cc0abb> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/dd2ee62f-0ae9-412d-83da-8e882f8a82eb> a GO:0008283,
-        owl:NamedIndividual ;
-    obo:RO_0012003 <http://model.geneontology.org/MGI_MGI_1347487/e90b4b7f-865a-4d50-8062-cdf900e999f8> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_1347487/fefe6e9e-30d6-4878-9a49-96a6e8640af7> a GO:0045944,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_1347487/bf9b2113-8771-46b6-a75f-85004d8c3092> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
 
 obo:RO_0012003 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_1347487/1eedff6f-65c9-46ef-8616-0c5a50da444d> a GO:0042127,
+<http://model.geneontology.org/MGI_MGI_1347487/05d59102-9185-4c5c-8cc1-a9a59b0b1278> a GO:0042127,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/b22d69c1-93bf-458d-b0f9-3105c9e9b086> ;
-    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1347487/28e4e3f6-141c-4931-a695-c7e686a08e5f> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_1347487/aee79374-57d4-44ae-bdb2-4e6c92122119> ;
+    obo:RO_0002211 <http://model.geneontology.org/MGI_MGI_1347487/320248b7-79d0-4bdd-bb86-fb8b1911c41d> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-03-14" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/213d1d20-5848-4433-baad-c60c54a2d5cb> a GO:0008284,
+<http://model.geneontology.org/MGI_MGI_1347487/a3c66d76-29e1-4486-960a-44ede9e10bf7> a GO:0008284,
         owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1347487/3ddd3f38-51e7-4dbb-8565-237250b22bd9>,
-        <http://model.geneontology.org/MGI_MGI_1347487/c6f17c79-f8db-42a4-8423-fba7181142c9> ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1347487/2f5f94e1-4e20-4246-81f5-0238816b764a>,
+        <http://model.geneontology.org/MGI_MGI_1347487/c48167f7-13f1-4f94-bcfe-d237c419d41f> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_1347487/80a0c40d-d315-4cb5-b995-bc48b7322e8b> a GO:0008284,
+<http://model.geneontology.org/MGI_MGI_1347487/d42a64ce-c6b6-44a6-adc9-e9a622fb4043> a GO:0008284,
         owl:NamedIndividual ;
-    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1347487/c44f3307-5158-4a5d-9207-7dc97fe69070>,
-        <http://model.geneontology.org/MGI_MGI_1347487/dd2ee62f-0ae9-412d-83da-8e882f8a82eb> ;
+    obo:RO_0002213 <http://model.geneontology.org/MGI_MGI_1347487/9c267655-cb5a-4353-ad40-751fbac4cd36>,
+        <http://model.geneontology.org/MGI_MGI_1347487/ed57592a-061c-456b-94d9-a353b85c1d4e> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002213 a owl:ObjectProperty .
@@ -907,460 +907,460 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/00c00e2c-880b-4c14-aea6-e0a25d4eda33> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/4cfdd3c2-fdb0-40b4-b3c2-f7dcde06a149> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/d57d339f-7722-4dd3-92dc-b0b0c2823d3f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/859d78d5-26e5-4c9c-b22e-0f6b4ec2ea08> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/96dcbbab-85ac-4d5c-a554-9e9e96951aba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/2fec06e4-0100-4208-874a-cde1621fe677> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/7ecc732e-179e-4e73-8f46-33267dd1b664> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/79ce4e8b-a082-47f3-b9c9-f0dd42913394> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/a823c67c-7fff-4d11-84d7-54b067bb997f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c5a57e3f-ba75-4015-8650-3053b687d253> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/cdcad8b3-100d-42ee-847f-aafe397850ec> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/dd2ee62f-0ae9-412d-83da-8e882f8a82eb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/e90b4b7f-865a-4d50-8062-cdf900e999f8> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/bba5b06c-7c8d-4097-9d5b-90443dafdb2a> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/96dcbbab-85ac-4d5c-a554-9e9e96951aba> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/1eedff6f-65c9-46ef-8616-0c5a50da444d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/6de33ffd-a606-4891-a016-fd7867c08ece> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-05-01" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002327 GO:0000976 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2020-05-01 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2020-05-01|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/8c19abc4-5044-4c18-95fc-620d2f9951cf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/a0734316-e7e8-4b1c-8e74-61006430be53> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/202afaf2-1a75-43c6-8c81-3717b812dba3> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/a823c67c-7fff-4d11-84d7-54b067bb997f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/80a0c40d-d315-4cb5-b995-bc48b7322e8b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/1abcc11a-20c8-4082-8ced-f1192816556b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/15896b34-4447-4bd2-9e1c-a82bd736fc36> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/1932529f-c335-4af7-9903-199b7811f364> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/7dc5f7d0-ed28-4605-8cef-f48aaa6195dc> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3587543|PMID:15817462 ECO:0000314   2006-02-02 MGI RO:0002233(MGI:MGI:109321) creation-date=2006-02-02|modification-date=2006-02-02|comment=target Lama4 ; MGI:109321|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/3d3cd63f-cbca-4c06-803b-8d8f56cc66ce> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/fefe6e9e-30d6-4878-9a49-96a6e8640af7> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/2c931ec7-99c9-4353-b737-48788b2197fa> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/dbda979f-44fd-4aab-a0fc-9933affab64c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/96f917bf-6814-4780-b553-fbf83b496406> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/a8427aa3-d8f5-419b-be42-544188c325c0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/e0ed6cf0-665b-4995-bc12-d6b5fb5291f2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/213d1d20-5848-4433-baad-c60c54a2d5cb> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/93d58082-4803-4068-bfd9-87f34a4a38d6> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1a2744e7-90e1-456b-ba3c-6c0f7195055c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/2d19b964-ad9e-4f8b-9061-e237fffbe4c4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/80075a23-6400-444d-af66-a118d430113e> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/3ddd3f38-51e7-4dbb-8565-237250b22bd9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/db03cc7c-4d9e-4fa7-835b-241975547307> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/cf507b5d-4805-4313-a265-941e6922eda0> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/e0ed6cf0-665b-4995-bc12-d6b5fb5291f2> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/e0d4b742-eef3-41a1-8a2c-9ec16653d8e5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/94842d7b-9162-4ded-b456-e38f85d45f6d> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/15896b34-4447-4bd2-9e1c-a82bd736fc36> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/4cfdd3c2-fdb0-40b4-b3c2-f7dcde06a149> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/8bd01382-e27c-4dc9-8327-92991c4bf930> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1a2744e7-90e1-456b-ba3c-6c0f7195055c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/5ec8fb58-f5c6-4c15-acf9-b6212523a367> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/4b8ecb96-de18-4469-b24b-f681f118a6e9> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/213d1d20-5848-4433-baad-c60c54a2d5cb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/3ddd3f38-51e7-4dbb-8565-237250b22bd9> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/a3c66d76-29e1-4486-960a-44ede9e10bf7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/2f5f94e1-4e20-4246-81f5-0238816b764a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/213c2f41-5ee2-4c35-b486-9094df2ad0a7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/069c386b-831f-4c41-9746-f0e90b0666f2> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/9c267655-cb5a-4353-ad40-751fbac4cd36> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/28c4893b-9220-4a1b-ab0c-b08ca2095d4e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/017c6abd-7baf-4c15-9dc2-92bd2a544c8c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/58b89b8b-7ac3-4913-8bcc-7c84fbbafaf8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/7845daa8-ff0b-41b9-8a99-356174160340> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/c142bcab-abe9-4568-9152-d4954b13b276> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3587543|PMID:15817462 ECO:0000314   2006-02-02 MGI RO:0002233(MGI:MGI:109321) creation-date=2006-02-02|modification-date=2006-02-02|comment=target Lama4 ; MGI:109321|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1d77cc3e-daa0-4b23-8a2d-8cc8872f2625> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/fd6d1c9f-cb65-44e8-834d-55100e6011d1> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/18236ba8-6f90-468d-8a6a-30215a36dc3c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-23" ;
     dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2010-02-23|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/3b04510f-2682-4082-99e6-75d3fb07317e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/36250d7e-58e5-4e3a-943c-f5ef4665f532> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/37d4fb2c-d8b5-44d7-944b-163b64ba7ed6> ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2020-05-01" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002327 GO:0000976 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2020-05-01 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2020-05-01|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/8c19abc4-5044-4c18-95fc-620d2f9951cf> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/dd3dfa8e-ca34-495b-b111-b88afe73a264> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/1d8d804e-013c-4ed8-8426-6120e0279b60> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0001025 GO:0005634 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI  creation-date=2010-02-23|modification-date=2010-02-23|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/366a3619-8008-4056-aebc-3cb82687b6a9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/50c8d44e-dace-4825-a8de-4643c18296cc> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/5745af0b-1753-43f1-bf30-f71f558c9e4b> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/f3981af0-c4f5-45c7-9830-60b7c54ab469> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/94a2edfb-b521-4c87-b0b0-6b00525018e0> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/d520b1d4-4905-47e5-9895-072654b6ec33> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1b402ecd-2572-421a-b4e7-9f17c278b2e7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/7669de59-7e92-49e6-80a3-49de8c44627c> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/2f059f74-f373-408e-b234-efd9cdff1470> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/18f97baa-262a-46d7-a94a-0548c780aa63> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/4572289c-1c8a-4e23-ae5f-e96678fb639f> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/e05b207d-0afa-447e-9230-6c450e2fa8fc> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-05-01" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1eedff6f-65c9-46ef-8616-0c5a50da444d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/b22d69c1-93bf-458d-b0f9-3105c9e9b086> .
+    rdfs:comment "MGI:MGI:1347487  RO:0002327 GO:0000976 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2020-05-01 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2020-05-01|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/6f79b522-b0de-4f7e-a85d-a44a2475cdf8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/15e7ae2f-bb18-4b73-a92b-001308467677> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/766624ba-a3a2-4b8f-afc1-c54ec92c7c12> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/6150ebc9-d396-4a2c-a611-e46d026b156a> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/80a0c40d-d315-4cb5-b995-bc48b7322e8b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/dd2ee62f-0ae9-412d-83da-8e882f8a82eb> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/9fe316b1-2d79-4bb4-8276-88eb86804a76> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/2d19b964-ad9e-4f8b-9061-e237fffbe4c4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/ae5a0490-3204-4a7d-bd23-b7a7df3010ce> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/2f5f94e1-4e20-4246-81f5-0238816b764a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/0be85508-e6c4-4ac8-a914-afaaceaa35ff> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/060028ff-f87d-42dc-8dde-8951bd5a3ea7> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/8b0a856c-7e27-4472-a5e1-848ae98182b7> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3587543|PMID:15817462 ECO:0000314   2006-02-02 MGI RO:0002233(MGI:MGI:109321) creation-date=2006-02-02|modification-date=2006-02-02|comment=target Lama4 ; MGI:109321|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/3d3cd63f-cbca-4c06-803b-8d8f56cc66ce> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/bdfb0dc4-02f7-4d03-bf4d-d23ef86a651d> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/dccd1dce-7123-47e4-8941-51301fabc572> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/1d77cc3e-daa0-4b23-8a2d-8cc8872f2625> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/907ed534-236e-4c33-80fe-63736f3b230b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/0329ba52-33b6-4558-9490-be6d820dd75b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/e69b5939-ca71-481c-b398-39bce1872c63> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/13ea9fe7-abfd-4823-86df-77aea12a58d7> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/c6f17c79-f8db-42a4-8423-fba7181142c9> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/6d1bae8e-0b77-4ce3-85b7-c55b04cc0abb> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ff3489f9-fef5-469d-a3ae-b152f64894db> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/c44f3307-5158-4a5d-9207-7dc97fe69070> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/9b0f3fd3-60e1-41cf-8d95-602bba02c43d> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/521553ec-3fb8-410c-b3a7-1f812bbe9022> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/0285f85e-2928-45bd-a82f-6b8fd72e802c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2010-02-23" ;
     dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2010-02-23|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/3b04510f-2682-4082-99e6-75d3fb07317e> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/207ccdc1-1b59-467c-bfb3-abe68afd91e6> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ec446c37-56c3-4e78-b121-d937062a85d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/860017b1-c1dd-4ecb-a080-47e4deca7016> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/5f5a92f9-8275-421a-a6f7-c1a07c1896e1> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/213d1d20-5848-4433-baad-c60c54a2d5cb> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c6f17c79-f8db-42a4-8423-fba7181142c9> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/9aae4ca6-b015-4618-a728-fea95aa45f01> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/008feb3b-6598-4fc8-9df5-1193f29ffb98> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-03-14" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ac631e61-ce8e-48d7-bbc2-77829b44e877> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/aadde115-03e7-450b-980f-e4977069cd20> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ba6d1e84-65f1-4848-8d11-e6d2fda13e4b> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0012003 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/28e4e3f6-141c-4931-a695-c7e686a08e5f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/3fbb67a9-c345-40e2-b1c1-79c372733790> .
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/0284ad42-3db7-4420-825a-b25f77cd6720> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/05d59102-9185-4c5c-8cc1-a9a59b0b1278> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/852c13c7-3056-48bd-bf8b-0fa80596e527> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ecd0dbf6-1f96-4608-87b3-166b829bfd98> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1b402ecd-2572-421a-b4e7-9f17c278b2e7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/0329ba52-33b6-4558-9490-be6d820dd75b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/eec365fe-4354-4a2c-bff5-53527d524fb2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/a3c66d76-29e1-4486-960a-44ede9e10bf7> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/4e337491-279d-49ac-993b-6ac7d5a08a80> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2010-02-23" ;
-    dct:created "2010-02-23" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2010-02-23|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/207ccdc1-1b59-467c-bfb3-abe68afd91e6> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/1fd9a2e6-6339-44ee-8fac-98f6c546bbd4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ac6175d5-7020-470e-ae60-d5dcf06ca565> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2006-02-02" ;
-    dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3587543|PMID:15817462 ECO:0000314   2006-02-02 MGI RO:0002233(MGI:MGI:109321) creation-date=2006-02-02|modification-date=2006-02-02|comment=target Lama4 ; MGI:109321|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/fefe6e9e-30d6-4878-9a49-96a6e8640af7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/bf9b2113-8771-46b6-a75f-85004d8c3092> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/cd35d1a2-a6a0-4123-ba51-cc1dc96b8b29> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/fcf85b76-0223-4a51-857f-dff718a32f48> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2005-03-14" ;
     dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/dbda979f-44fd-4aab-a0fc-9933affab64c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/ac631e61-ce8e-48d7-bbc2-77829b44e877> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/bca533de-c316-4e43-9183-5a11019424ee> ;
-    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
-    dc:date "2005-03-14" ;
-    dct:created "2005-03-14" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002211 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/1eedff6f-65c9-46ef-8616-0c5a50da444d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/28e4e3f6-141c-4931-a695-c7e686a08e5f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/05d59102-9185-4c5c-8cc1-a9a59b0b1278> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/320248b7-79d0-4bdd-bb86-fb8b1911c41d> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/807408f6-b01f-4705-b9e1-1502390cbd6b> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/dc7924c8-4983-43d0-bea0-520b392a4aa5> ;
     dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
     dc:date "2006-02-02" ;
     dct:created "2006-02-02" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/8d272a45-96cf-431d-b8c7-b9fae8dfde69> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/b69c1722-ded5-4d6c-84ab-92970841ef9a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ae3ce86f-303d-4f15-be61-3caafe42cd56> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/18f97baa-262a-46d7-a94a-0548c780aa63> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/20c7231a-9c87-4e91-8442-f353f216bc70> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/d8c36135-0255-4da2-8b71-454f947d26bc> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/b9ef8d25-bc88-468d-bdf0-cdd0abe3a9b9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/ee8b134a-53ba-4ce8-a2bf-f0e20a49367c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/62803ed2-ab0d-43b9-a717-fdc84ef6526c> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/eec365fe-4354-4a2c-bff5-53527d524fb2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/19634158-50bd-4a5e-8cf9-fcc51f2100da> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/7380bd94-3fe4-4f44-8a5e-8045732f8ff0> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/58b89b8b-7ac3-4913-8bcc-7c84fbbafaf8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/a499cfc0-5751-487e-86f6-8344b92f47bb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/bd9fe9ee-6a1b-43e1-b2c0-c5b177b4b340> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002296 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/52ea7efc-e993-406c-a514-71652ad1387a> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/6098c121-8323-4bc0-a4af-221c76670c5e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/c5d51db9-b6ef-4624-a35f-dc9d2161f5d2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2010-02-23|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/860017b1-c1dd-4ecb-a080-47e4deca7016> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/45928a0d-926a-4b87-ae3b-65f26fd13cca> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/a9332ce9-44be-4d30-a1c7-1c76821ff5a3> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3587543|PMID:15817462 ECO:0000314   2006-02-02 MGI RO:0002233(MGI:MGI:109321) creation-date=2006-02-02|modification-date=2006-02-02|comment=target Lama4 ; MGI:109321|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/dccd1dce-7123-47e4-8941-51301fabc572> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/b3c1ff74-d006-4031-b039-cc4ca63d790b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/c9b802b6-3e99-478b-819d-9efcea23914e> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2010-02-23" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0045944 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2010-02-23 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2010-02-23|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ec446c37-56c3-4e78-b121-d937062a85d8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c8600545-905e-42a6-8773-2c681d7df3bb> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/ea65d02b-8bef-43c2-8750-19d5d0943962> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/05d59102-9185-4c5c-8cc1-a9a59b0b1278> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/aee79374-57d4-44ae-bdb2-4e6c92122119> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/d7799fe4-4725-4b2f-9090-18592263640e> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/2f059f74-f373-408e-b234-efd9cdff1470> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/ac16ef29-12a0-4754-abfe-6fda43814358> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/3387a81f-8441-48c1-9bb1-62f55b948d4f> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
     owl:annotatedProperty obo:RO_0002213 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/80a0c40d-d315-4cb5-b995-bc48b7322e8b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c44f3307-5158-4a5d-9207-7dc97fe69070> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/a3c66d76-29e1-4486-960a-44ede9e10bf7> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c48167f7-13f1-4f94-bcfe-d237c419d41f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/a26ecae4-d8c7-41c8-8539-8876789b7b33> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/8d272a45-96cf-431d-b8c7-b9fae8dfde69> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/d42a64ce-c6b6-44a6-adc9-e9a622fb4043> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/fb949c66-281a-4854-b3bc-371c7fb76c3d> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:BFO_0000066 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/2dae6dab-ae7d-4881-9b0f-ac02d3fba2c5> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/890d4d1f-0dd0-4056-b26f-c1dd132172db> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/b3475f5d-a908-4b76-b5cc-af5ff1cf2c4b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ff44e71a-40e7-46a5-a489-65c9b0de51dd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/6ef5b7ed-292e-4f5f-8113-07f3b19f602d> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/94141516-3be5-4b04-87dd-4238b697dbb6> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/320248b7-79d0-4bdd-bb86-fb8b1911c41d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/fdcea4a3-afff-4dc1-810e-7542f84c5fcf> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/a27a5407-acd4-4732-bd9b-c43d5b407235> ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2020-05-01" ;
+    dct:created "2010-02-23" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002327 GO:0000976 MGI:MGI:3709924|PMID:17261592 ECO:0000314   2020-05-01 MGI RO:0002233(MGI:MGI:96612) creation-date=2010-02-23|modification-date=2020-05-01|comment=target Itgb3 ; MGI:96612|comment=fetal lung mesenchymal cells (MFLM-4 and MFLM-91U)  ChIP assay   Itgb3 promoter|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/6f79b522-b0de-4f7e-a85d-a44a2475cdf8> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/11f4b2db-3888-461f-91ab-c0922ab23722> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/8eb36b81-44fa-4896-bdfc-9fe3fd78c816> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/d42a64ce-c6b6-44a6-adc9-e9a622fb4043> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/ed57592a-061c-456b-94d9-a353b85c1d4e> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/0b84b24a-beb1-4c36-a4f5-050b133be43b> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ed57592a-061c-456b-94d9-a353b85c1d4e> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/8eb5b159-2460-4487-b043-90aa647bf4a8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/04362003-3f3f-46bd-83de-94bc7c064349> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002213 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/d42a64ce-c6b6-44a6-adc9-e9a622fb4043> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/9c267655-cb5a-4353-ad40-751fbac4cd36> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/71efbb5a-9c66-4eb4-a4be-084b94897523> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0008284 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI GOREL:0001004(EMAPA:17654),GOREL:0001008(CL:0000134)|GOREL:0001004(EMAPA:17662),GOREL:0001008(CL:0000134) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS23\\ associated mesenchyme\\ left lung; EMAP:8287 TS23\\ associated mesenchyme\\ right lung; EMAP:8301|comment=cell type mesenchymal cell ; CL:0000134|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0012003 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/c48167f7-13f1-4f94-bcfe-d237c419d41f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/c2372b8d-8dab-42a8-adc8-408c58059509> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/f3aeb984-748e-4f7d-a9d1-13d895628ea9> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2006-02-02" ;
+    dct:created "2006-02-02" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001570 MGI:MGI:3587543|PMID:15817462 ECO:0000315 MGI:MGI:3522201  2006-02-02 MGI BFO:0000066(EMAPA:17660)|BFO:0000066(EMAPA:17668) creation-date=2006-02-02|modification-date=2006-02-02|comment=anatomy TS25\\ vascular element\\ left lung; EMAP:10974 TS25\\ vascular element\\ right lung; EMAP:11003|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/b9ef8d25-bc88-468d-bdf0-cdd0abe3a9b9> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/2dae6dab-ae7d-4881-9b0f-ac02d3fba2c5> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/691bf5e3-9dd0-4f2b-a4bd-950969c57d50> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/ff44e71a-40e7-46a5-a489-65c9b0de51dd> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/52ea7efc-e993-406c-a514-71652ad1387a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/04e31652-5cfd-4924-b8bf-44b3835a8f01> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0042127 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI BFO:0000066(EMAPA:16846),GOREL:0001008(CL:0000055) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/0284ad42-3db7-4420-825a-b25f77cd6720> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/2a518561-4916-4788-8d9b-66563dd620b4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_1347487/7a5a1867-5773-49b8-8cb1-5fd3ca14a727> ;
+    dc:contributor "https://orcid.org/0000-0001-7476-6306" ;
+    dc:date "2005-03-14" ;
+    dct:created "2005-03-14" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:1347487  RO:0002264 GO:0001889 MGI:MGI:3522012|PMID:15531365 ECO:0000315 MGI:MGI:3522201  2005-03-14 MGI RO:0002296(EMAPA:16846)|RO:0002296(EMAPA:17201) creation-date=2005-03-14|modification-date=2005-03-14|comment=anatomy TS23\\ liver; EMAP:8200|comment=anatomy TS25\\ common bile duct; EMAP:10861|comment=cell type non-terminally_differentiated_(blast)_cell ; CL:0000055|comment=has_participant(CL:0000055)|contributor-id=https://orcid.org/0000-0001-7476-6306" ;
+    owl:annotatedProperty obo:RO_0002296 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_1347487/a499cfc0-5751-487e-86f6-8344b92f47bb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_1347487/5ba916c7-35bd-4379-85e7-f4b4ee378b4c> .
 

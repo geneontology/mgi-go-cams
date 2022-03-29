@@ -37,12 +37,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2012-05-30" ;
     dc:title "Mnat1 (MGI:MGI:106207)" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_106207> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_106207/1cedc6fa-f0be-4bb9-acd0-676359ff72ba> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/07f05af7-56a3-44e2-b5a4-0d5ce5c19670> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -50,11 +50,42 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:source "PMID:17276355" ;
     dct:created "2008-03-19" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Cardiac metabolic defects",
-        "anatomy heart;MA:0000072",
-        "fatal heart failure ensued at 6-8 weeks" .
+    rdfs:comment "Impaired contractile responses to Ca2+ in isolated mouse heart",
+        "anatomy heart;MA:0000072" .
 
-<http://model.geneontology.org/MGI_MGI_106207/3e2e8d7e-4a45-439f-ad1e-fe8e9d9983b5> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_106207/0a94203d-af78-44db-81f6-cae05c672d3e> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3707001" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Impaired contractile responses to Ca2+ in isolated mouse heart",
+        "anatomy heart;MA:0000072" .
+
+<http://model.geneontology.org/MGI_MGI_106207/1f2692fc-ab36-4928-9922-487fd4361a9c> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q8VHJ7" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-04" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+
+<http://model.geneontology.org/MGI_MGI_106207/211d2cdf-bbe5-4e7a-bce1-5eb7eebeb5ea> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3707001" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "anatomy heart;MA:0000072",
+        "prevention of ventricular remodeling." .
+
+<http://model.geneontology.org/MGI_MGI_106207/257d54b1-28d8-4618-8bc3-22b7d8329b4b> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:Q03147" ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
@@ -63,28 +94,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2012-05-30" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/4bd51a3d-2f66-4ff7-a092-cd6b25dc1e5f> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:O70343" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-20" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
-
-<http://model.geneontology.org/MGI_MGI_106207/521d87e1-3027-4231-b6f8-841afcf1acaf> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3707001" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Impaired contractile responses to Ca2+ in isolated mouse heart",
-        "anatomy heart;MA:0000072" .
-
-<http://model.geneontology.org/MGI_MGI_106207/592e950f-b93d-4b3a-aa1a-c51038c1f65e> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/27b2f4b8-ed3c-4019-8c65-59f461239aea> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -96,17 +106,7 @@ ns2:providedBy a owl:AnnotationProperty .
         "anatomy heart;MA:0000072",
         "fatal heart failure ensued at 6-8 weeks" .
 
-<http://model.geneontology.org/MGI_MGI_106207/607a9f53-5c2b-47ff-b0cb-9fa8910c2af5> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8VHJ7" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-04" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
-
-<http://model.geneontology.org/MGI_MGI_106207/683acd40-3836-4c2a-a8bd-d38b5748ed78> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/2e3a493d-50e6-496c-8346-949fb2e364bf> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -117,7 +117,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy heart;MA:0000072",
         "prevention of ventricular remodeling." .
 
-<http://model.geneontology.org/MGI_MGI_106207/7829a1e1-edc9-4246-acb5-c0223634c914> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/5da6585e-912e-4fd7-87be-4c0a744ed9a2> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -128,51 +128,7 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "Impaired contractile responses to Ca2+ in isolated mouse heart",
         "anatomy heart;MA:0000072" .
 
-<http://model.geneontology.org/MGI_MGI_106207/90c26559-0ff6-44fb-9f3f-c2db3eef5944> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3707001" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Cardiac metabolic defects",
-        "anatomy heart;MA:0000072",
-        "fatal heart failure ensued at 6-8 weeks" .
-
-<http://model.geneontology.org/MGI_MGI_106207/9ec5e108-dc50-49ee-9a17-9aa802640136> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q8VHJ7" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-04" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-20" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
-
-<http://model.geneontology.org/MGI_MGI_106207/ae1d204b-40b2-4d7b-9b94-1a2f37b7ea5b> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3707001" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "anatomy heart;MA:0000072",
-        "prevention of ventricular remodeling." .
-
-<http://model.geneontology.org/MGI_MGI_106207/b57e930c-0355-46a9-a07c-8ccb1f9e8548> a ECO:0000315,
-        owl:NamedIndividual ;
-    ns1:evidence-with "MGI:MGI:3707001" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dc:source "PMID:17276355" ;
-    dct:created "2008-03-19" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "Impaired contractile responses to Ca2+ in isolated mouse heart",
-        "anatomy heart;MA:0000072" .
-
-<http://model.geneontology.org/MGI_MGI_106207/be762b88-a50e-4ef8-8964-6fe218b6bcfe> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/61f8e6d4-285f-4b8a-88b0-215be75eb6f0> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -185,7 +141,16 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence inferred from level of transcript expression determined by RT-PCR;ECO:0000108",
         "genes for energy metabolism were found to be suppressed selectively  including targets of peroxisome proliferator-activated receptor g coactivator 1 (PGC-1)." .
 
-<http://model.geneontology.org/MGI_MGI_106207/d17b9cfb-cf1b-4d5e-a385-3ecefdbd3d60> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/623b6e1f-d30d-4b0e-a9a0-8c4b836b6866> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:Q03147" ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-05-30" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2012-05-30" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/761dc15d-6cb7-47d4-80f3-89b05a6e8967> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -198,16 +163,37 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence inferred from level of transcript expression determined by RT-PCR;ECO:0000108",
         "genes for energy metabolism were found to be suppressed selectively  including targets of peroxisome proliferator-activated receptor g coactivator 1 (PGC-1)." .
 
-<http://model.geneontology.org/MGI_MGI_106207/dc704fcd-ed0a-4ea3-94d7-3175294f07c9> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_106207/b2a4a5ca-e290-4418-84e1-1cbcb166af19> a ECO:0000353,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:Q03147" ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-05-30" ;
+    ns1:evidence-with "PR:Q8VHJ7" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-04" ;
     dc:source "PMID:17276355" ;
-    dct:created "2012-05-30" ;
-    ns2:providedBy "http://informatics.jax.org" .
+    dct:created "2008-03-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
 
-<http://model.geneontology.org/MGI_MGI_106207/dc86142e-3a29-45bf-aa07-5f44a5903faa> a ECO:0000315,
+<http://model.geneontology.org/MGI_MGI_106207/b8e84eb2-a4b3-4e90-a76b-56d0d0e80119> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:O70343" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-20" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+
+<http://model.geneontology.org/MGI_MGI_106207/bf487f82-dbb6-41d9-982d-78bfa55b852b> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:O70343" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-20" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-20" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+
+<http://model.geneontology.org/MGI_MGI_106207/dfd1c6cd-2ea6-497c-a79c-9abee8f43933> a ECO:0000315,
         owl:NamedIndividual ;
     ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -218,227 +204,241 @@ ns2:providedBy a owl:AnnotationProperty .
     rdfs:comment "anatomy heart;MA:0000072",
         "prevention of ventricular remodeling." .
 
-<http://model.geneontology.org/MGI_MGI_106207/fb9664c1-d61b-4672-8455-190fd71c129e> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_106207/ee61fed5-6226-4536-9309-edee3ef01bc4> a ECO:0000315,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:O70343" ;
+    ns1:evidence-with "MGI:MGI:3707001" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-20" ;
+    dc:date "2008-03-19" ;
     dc:source "PMID:17276355" ;
-    dct:created "2008-03-20" ;
+    dct:created "2008-03-19" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from co-immunoprecipitation;ECO:0000070" .
+    rdfs:comment "Cardiac metabolic defects",
+        "anatomy heart;MA:0000072",
+        "fatal heart failure ensued at 6-8 weeks" .
+
+<http://model.geneontology.org/MGI_MGI_106207/fdadcf9f-2241-45a7-a5c6-7fe2b02a9650> a ECO:0000315,
+        owl:NamedIndividual ;
+    ns1:evidence-with "MGI:MGI:3707001" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dc:source "PMID:17276355" ;
+    dct:created "2008-03-19" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "Cardiac metabolic defects",
+        "anatomy heart;MA:0000072",
+        "fatal heart failure ensued at 6-8 weeks" .
 
 obo:BFO_0000066 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_106207/02a76166-acc5-4b14-b3e6-df460835e572> a EMAPA:16105,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/0966259b-53c3-4044-8fd0-9ad8d146deb4> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/2b5146c5-e640-411b-b0fb-bed58f4c7320> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/730e97e3-a1c8-4f3c-ab06-f577eb8edf5d> ;
-    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
-    dc:date "2012-05-30" ;
-    dct:created "2012-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/15a0a336-8e8c-4f8d-b1eb-b1ab1fdd9da4> a MGI:MGI:106207,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/19e0273e-8769-4bed-8d90-a4cb80e5f22f> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/783126f1-b94a-4a95-acc9-99c92c68613b> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/72896db5-3ff4-49c3-bf64-fab063870d69> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/23f72cfc-f8a8-4be7-9412-b5994ac29d88> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/f9d1b026-d986-44c9-999a-32dfe2fe4c6e> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/fbdc418b-4e15-4a61-8690-b4e2aa7efb78> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/2b5146c5-e640-411b-b0fb-bed58f4c7320> a PR:Q03147,
+<http://model.geneontology.org/MGI_MGI_106207/05497ad0-ffbd-4a05-a7bd-dabdb24221d1> a PR:Q03147,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-05-30" ;
     dct:created "2012-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/3d4dc21c-9b17-4e8a-b536-1458098bef8c> a MGI:MGI:106207,
+<http://model.geneontology.org/MGI_MGI_106207/1403232a-edd1-4f32-92ff-72276a5e1115> a GO:0003674,
         owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/ae4ce9d5-dd85-47ea-9ad9-dc6ee7f8b268> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/bf6c38bf-cf7c-4d18-a7da-16699046c529> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/5387f583-974c-45ed-92fd-3a5b86463f14> a MGI:MGI:106207,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-20" ;
-    dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/5e9858cd-ff94-44d4-adf2-3fa592ce1cee> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/15a0a336-8e8c-4f8d-b1eb-b1ab1fdd9da4> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/884490b2-40b6-48fa-bd59-4bebfcc46872> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/730e97e3-a1c8-4f3c-ab06-f577eb8edf5d> a MGI:MGI:106207,
+<http://model.geneontology.org/MGI_MGI_106207/25341168-efaf-466d-a244-505cc66d8f9c> a MGI:MGI:106207,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-05-30" ;
     dct:created "2012-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/783126f1-b94a-4a95-acc9-99c92c68613b> a MGI:MGI:106207,
+<http://model.geneontology.org/MGI_MGI_106207/3dad57ed-79ae-453e-8592-978388efa7fd> a MGI:MGI:106207,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/7a57bea8-4511-4e31-83a7-ddaf9d6b7506> a MGI:MGI:106207,
+<http://model.geneontology.org/MGI_MGI_106207/3e06c059-2843-4f2e-b6a6-1db6bb49437c> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/f6e41ac0-f31c-4019-a642-c7a48bfa341f> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/ce477b4a-e8bf-41e3-a468-69b38693476c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/3e798fc5-9790-497c-94d6-e48702cb3ace> a EMAPA:16105,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/64e7a5e0-1b9e-4a5f-a858-d1b4c0677e9b> a EMAPA:16105,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/65a3421f-4c3d-4920-912b-bc6ca695f46d> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/db2ae0fe-429b-40df-8d41-d28ad3789b84> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/434bddf3-64f9-4c3f-8313-063acb58c1eb> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/7a41b548-f278-4584-b37c-fd2efc1d913f> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/3dad57ed-79ae-453e-8592-978388efa7fd> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/c72c9472-9c70-4d34-8e0f-b4cb05e76e8c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/8178dead-84b8-4dda-bac1-06e5813fa51a> a MGI:MGI:106207,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-04" ;
     dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/84959e13-42ee-45bc-91bc-8fca5a4cdd1c> a GO:0005515,
+<http://model.geneontology.org/MGI_MGI_106207/89b6466e-1eba-46d6-8566-c5625ae812e3> a GO:0005515,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/8957d04c-73a2-4228-94cd-46a61d4b42b5> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/5387f583-974c-45ed-92fd-3a5b86463f14> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/05497ad0-ffbd-4a05-a7bd-dabdb24221d1> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/25341168-efaf-466d-a244-505cc66d8f9c> ;
+    dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
+    dc:date "2012-05-30" ;
+    dct:created "2012-05-30" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/ae4ce9d5-dd85-47ea-9ad9-dc6ee7f8b268> a MGI:MGI:106207,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/bb094670-3c16-47cb-974d-2b235cdee690> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/cdeafeb6-2f68-4e62-a244-2764fcd22d0f> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/c25e1b37-eead-4781-82fb-a9fd5bbfcf20> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-20" ;
     dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/884490b2-40b6-48fa-bd59-4bebfcc46872> a GO:0006355,
+<http://model.geneontology.org/MGI_MGI_106207/bf6c38bf-cf7c-4d18-a7da-16699046c529> a GO:0006355,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/8957d04c-73a2-4228-94cd-46a61d4b42b5> a PR:O70343,
+<http://model.geneontology.org/MGI_MGI_106207/c25e1b37-eead-4781-82fb-a9fd5bbfcf20> a MGI:MGI:106207,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-20" ;
     dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/9f92e3ed-35d0-4721-8851-825b5e8f3b6f> a EMAPA:16105,
+<http://model.geneontology.org/MGI_MGI_106207/c3c057fe-828e-4c22-b642-2ebf8b7f2058> a GO:0005515,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/bcf9eeee-85b3-4f72-9138-9df9c3188d13> a EMAPA:16105,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/d05e6493-067e-4eef-b8ce-6f12e2fdd5fd> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/3d4dc21c-9b17-4e8a-b536-1458098bef8c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_106207/509f57e1-f5a9-4a10-a5ff-2510e946a4f3> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_106207/d251d94b-3353-4f8f-8601-d156af6f66c4> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/d7ba0e7e-92a4-4ba1-9033-4e555aef1ad5> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/7a57bea8-4511-4e31-83a7-ddaf9d6b7506> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_106207/cc53e00b-e8ef-478b-bd35-9f03e2d7950b> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_106207/8178dead-84b8-4dda-bac1-06e5813fa51a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-04" ;
     dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/d7ba0e7e-92a4-4ba1-9033-4e555aef1ad5> a PR:Q8VHJ7,
+<http://model.geneontology.org/MGI_MGI_106207/cc53e00b-e8ef-478b-bd35-9f03e2d7950b> a PR:Q8VHJ7,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-04-04" ;
     dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/f9d1b026-d986-44c9-999a-32dfe2fe4c6e> a MGI:MGI:106207,
+<http://model.geneontology.org/MGI_MGI_106207/cdeafeb6-2f68-4e62-a244-2764fcd22d0f> a PR:O70343,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-20" ;
+    dct:created "2008-03-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/d4b60c77-3e68-450c-9dbe-7cfca2cb5337> a EMAPA:16105,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/db2ae0fe-429b-40df-8d41-d28ad3789b84> a MGI:MGI:106207,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_106207/f6e41ac0-f31c-4019-a642-c7a48bfa341f> a MGI:MGI:106207,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002296 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_106207/509f57e1-f5a9-4a10-a5ff-2510e946a4f3> a GO:0051592,
+<http://model.geneontology.org/MGI_MGI_106207/434bddf3-64f9-4c3f-8313-063acb58c1eb> a GO:0051592,
         owl:NamedIndividual ;
-    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_106207/02a76166-acc5-4b14-b3e6-df460835e572> ;
+    obo:BFO_0000066 <http://model.geneontology.org/MGI_MGI_106207/64e7a5e0-1b9e-4a5f-a858-d1b4c0677e9b> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/72896db5-3ff4-49c3-bf64-fab063870d69> a GO:0007512,
+<http://model.geneontology.org/MGI_MGI_106207/c72c9472-9c70-4d34-8e0f-b4cb05e76e8c> a GO:0021591,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_106207/bcf9eeee-85b3-4f72-9138-9df9c3188d13> ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_106207/d4b60c77-3e68-450c-9dbe-7cfca2cb5337> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_106207/fbdc418b-4e15-4a61-8690-b4e2aa7efb78> a GO:0021591,
+<http://model.geneontology.org/MGI_MGI_106207/ce477b4a-e8bf-41e3-a468-69b38693476c> a GO:0007512,
         owl:NamedIndividual ;
-    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_106207/9f92e3ed-35d0-4721-8851-825b5e8f3b6f> ;
+    obo:RO_0002296 <http://model.geneontology.org/MGI_MGI_106207/3e798fc5-9790-497c-94d6-e48702cb3ace> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002233 a owl:ObjectProperty .
@@ -448,206 +448,206 @@ obo:RO_0002418 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/1cedc6fa-f0be-4bb9-acd0-676359ff72ba> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/07f05af7-56a3-44e2-b5a4-0d5ce5c19670> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0007512 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Cardiac metabolic defects|comment=fatal heart failure ensued at 6-8 weeks|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/19e0273e-8769-4bed-8d90-a4cb80e5f22f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/72896db5-3ff4-49c3-bf64-fab063870d69> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/be762b88-a50e-4ef8-8964-6fe218b6bcfe> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0006355 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI  creation-date=2008-03-19|modification-date=2008-03-19|comment=evidence inferred from array experiment;ECO:0000055|comment=evidence inferred from level of transcript expression determined by RT-PCR;ECO:0000108|comment=evidence inferred from Western blot assay;ECO:0000112|comment=genes for energy metabolism were found to be suppressed selectively  including targets of peroxisome proliferator-activated receptor g coactivator 1 (PGC-1).|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/5e9858cd-ff94-44d4-adf2-3fa592ce1cee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/884490b2-40b6-48fa-bd59-4bebfcc46872> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/683acd40-3836-4c2a-a8bd-d38b5748ed78> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/23f72cfc-f8a8-4be7-9412-b5994ac29d88> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/fbdc418b-4e15-4a61-8690-b4e2aa7efb78> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/b57e930c-0355-46a9-a07c-8ccb1f9e8548> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0051592 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI BFO:0000066(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Impaired contractile responses to Ca2+ in isolated mouse heart|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:BFO_0000066 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/509f57e1-f5a9-4a10-a5ff-2510e946a4f3> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/02a76166-acc5-4b14-b3e6-df460835e572> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/434bddf3-64f9-4c3f-8313-063acb58c1eb> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/64e7a5e0-1b9e-4a5f-a858-d1b4c0677e9b> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/7829a1e1-edc9-4246-acb5-c0223634c914> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/761dc15d-6cb7-47d4-80f3-89b05a6e8967> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0051592 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI BFO:0000066(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Impaired contractile responses to Ca2+ in isolated mouse heart|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/d05e6493-067e-4eef-b8ce-6f12e2fdd5fd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/3d4dc21c-9b17-4e8a-b536-1458098bef8c> .
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0006355 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI  creation-date=2008-03-19|modification-date=2008-03-19|comment=evidence inferred from array experiment;ECO:0000055|comment=evidence inferred from level of transcript expression determined by RT-PCR;ECO:0000108|comment=evidence inferred from Western blot assay;ECO:0000112|comment=genes for energy metabolism were found to be suppressed selectively  including targets of peroxisome proliferator-activated receptor g coactivator 1 (PGC-1).|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/1403232a-edd1-4f32-92ff-72276a5e1115> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/bf6c38bf-cf7c-4d18-a7da-16699046c529> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/dc86142e-3a29-45bf-aa07-5f44a5903faa> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/fdadcf9f-2241-45a7-a5c6-7fe2b02a9650> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/fbdc418b-4e15-4a61-8690-b4e2aa7efb78> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/9f92e3ed-35d0-4721-8851-825b5e8f3b6f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/90c26559-0ff6-44fb-9f3f-c2db3eef5944> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0007512 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Cardiac metabolic defects|comment=fatal heart failure ensued at 6-8 weeks|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002296 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/72896db5-3ff4-49c3-bf64-fab063870d69> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/bcf9eeee-85b3-4f72-9138-9df9c3188d13> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/ce477b4a-e8bf-41e3-a468-69b38693476c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/3e798fc5-9790-497c-94d6-e48702cb3ace> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/3e2e8d7e-4a45-439f-ad1e-fe8e9d9983b5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/623b6e1f-d30d-4b0e-a9a0-8c4b836b6866> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-05-30" ;
     dct:created "2012-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q03147  2012-05-30 MGI  creation-date=2012-05-30|modification-date=2012-05-30|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/0966259b-53c3-4044-8fd0-9ad8d146deb4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/2b5146c5-e640-411b-b0fb-bed58f4c7320> .
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/89b6466e-1eba-46d6-8566-c5625ae812e3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/25341168-efaf-466d-a244-505cc66d8f9c> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/d17b9cfb-cf1b-4d5e-a385-3ecefdbd3d60> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/27b2f4b8-ed3c-4019-8c65-59f461239aea> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0007512 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Cardiac metabolic defects|comment=fatal heart failure ensued at 6-8 weeks|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/3e06c059-2843-4f2e-b6a6-1db6bb49437c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/f6e41ac0-f31c-4019-a642-c7a48bfa341f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/5da6585e-912e-4fd7-87be-4c0a744ed9a2> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0051592 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI BFO:0000066(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Impaired contractile responses to Ca2+ in isolated mouse heart|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/65a3421f-4c3d-4920-912b-bc6ca695f46d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/db2ae0fe-429b-40df-8d41-d28ad3789b84> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/2e3a493d-50e6-496c-8346-949fb2e364bf> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002296 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/c72c9472-9c70-4d34-8e0f-b4cb05e76e8c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/d4b60c77-3e68-450c-9dbe-7cfca2cb5337> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/dfd1c6cd-2ea6-497c-a79c-9abee8f43933> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/7a41b548-f278-4584-b37c-fd2efc1d913f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/c72c9472-9c70-4d34-8e0f-b4cb05e76e8c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/211d2cdf-bbe5-4e7a-bce1-5eb7eebeb5ea> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/7a41b548-f278-4584-b37c-fd2efc1d913f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/3dad57ed-79ae-453e-8592-978388efa7fd> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/b2a4a5ca-e290-4418-84e1-1cbcb166af19> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-04" ;
+    dct:created "2008-03-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q8VHJ7  2008-04-04 MGI  creation-date=2008-03-20|modification-date=2008-04-04|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/c3c057fe-828e-4c22-b642-2ebf8b7f2058> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/cc53e00b-e8ef-478b-bd35-9f03e2d7950b> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/1f2692fc-ab36-4928-9922-487fd4361a9c> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-04-04" ;
+    dct:created "2008-03-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q8VHJ7  2008-04-04 MGI  creation-date=2008-03-20|modification-date=2008-04-04|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/c3c057fe-828e-4c22-b642-2ebf8b7f2058> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/8178dead-84b8-4dda-bac1-06e5813fa51a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/61f8e6d4-285f-4b8a-88b0-215be75eb6f0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0006355 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI  creation-date=2008-03-19|modification-date=2008-03-19|comment=evidence inferred from array experiment;ECO:0000055|comment=evidence inferred from level of transcript expression determined by RT-PCR;ECO:0000108|comment=evidence inferred from Western blot assay;ECO:0000112|comment=genes for energy metabolism were found to be suppressed selectively  including targets of peroxisome proliferator-activated receptor g coactivator 1 (PGC-1).|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/5e9858cd-ff94-44d4-adf2-3fa592ce1cee> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/15a0a336-8e8c-4f8d-b1eb-b1ab1fdd9da4> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/1403232a-edd1-4f32-92ff-72276a5e1115> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/ae4ce9d5-dd85-47ea-9ad9-dc6ee7f8b268> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/dc704fcd-ed0a-4ea3-94d7-3175294f07c9> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/b8e84eb2-a4b3-4e90-a76b-56d0d0e80119> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-20" ;
+    dct:created "2008-03-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:O70343  2008-03-20 MGI  creation-date=2008-03-20|modification-date=2008-03-20|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/bb094670-3c16-47cb-974d-2b235cdee690> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/cdeafeb6-2f68-4e62-a244-2764fcd22d0f> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/257d54b1-28d8-4618-8bc3-22b7d8329b4b> ;
     dc:contributor "https://orcid.org/0000-0002-9796-7693" ;
     dc:date "2012-05-30" ;
     dct:created "2012-05-30" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q03147  2012-05-30 MGI  creation-date=2012-05-30|modification-date=2012-05-30|contributor-id=https://orcid.org/0000-0002-9796-7693" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/0966259b-53c3-4044-8fd0-9ad8d146deb4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/730e97e3-a1c8-4f3c-ab06-f577eb8edf5d> .
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/89b6466e-1eba-46d6-8566-c5625ae812e3> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/05497ad0-ffbd-4a05-a7bd-dabdb24221d1> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/521d87e1-3027-4231-b6f8-841afcf1acaf> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/ee61fed5-6226-4536-9309-edee3ef01bc4> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-19" ;
     dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0007512 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Cardiac metabolic defects|comment=fatal heart failure ensued at 6-8 weeks|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/3e06c059-2843-4f2e-b6a6-1db6bb49437c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/ce477b4a-e8bf-41e3-a468-69b38693476c> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/bf487f82-dbb6-41d9-982d-78bfa55b852b> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-20" ;
+    dct:created "2008-03-20" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:O70343  2008-03-20 MGI  creation-date=2008-03-20|modification-date=2008-03-20|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/bb094670-3c16-47cb-974d-2b235cdee690> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/c25e1b37-eead-4781-82fb-a9fd5bbfcf20> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/0a94203d-af78-44db-81f6-cae05c672d3e> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-19" ;
+    dct:created "2008-03-19" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0051592 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI BFO:0000066(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Impaired contractile responses to Ca2+ in isolated mouse heart|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/d05e6493-067e-4eef-b8ce-6f12e2fdd5fd> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/509f57e1-f5a9-4a10-a5ff-2510e946a4f3> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/607a9f53-5c2b-47ff-b0cb-9fa8910c2af5> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-04" ;
-    dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q8VHJ7  2008-04-04 MGI  creation-date=2008-03-20|modification-date=2008-04-04|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/d251d94b-3353-4f8f-8601-d156af6f66c4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/d7ba0e7e-92a4-4ba1-9033-4e555aef1ad5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/ae1d204b-40b2-4d7b-9b94-1a2f37b7ea5b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0021591 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=prevention of ventricular remodeling.|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/23f72cfc-f8a8-4be7-9412-b5994ac29d88> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/f9d1b026-d986-44c9-999a-32dfe2fe4c6e> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/9ec5e108-dc50-49ee-9a17-9aa802640136> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-04-04" ;
-    dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:Q8VHJ7  2008-04-04 MGI  creation-date=2008-03-20|modification-date=2008-04-04|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/d251d94b-3353-4f8f-8601-d156af6f66c4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/7a57bea8-4511-4e31-83a7-ddaf9d6b7506> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/fb9664c1-d61b-4672-8455-190fd71c129e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-20" ;
-    dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:O70343  2008-03-20 MGI  creation-date=2008-03-20|modification-date=2008-03-20|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/84959e13-42ee-45bc-91bc-8fca5a4cdd1c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/8957d04c-73a2-4228-94cd-46a61d4b42b5> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/4bd51a3d-2f66-4ff7-a092-cd6b25dc1e5f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-20" ;
-    dct:created "2008-03-20" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002327 GO:0005515 MGI:MGI:3770112|PMID:17276355 ECO:0000353 PR:O70343  2008-03-20 MGI  creation-date=2008-03-20|modification-date=2008-03-20|comment=evidence inferred from co-immunoprecipitation;ECO:0000070|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/84959e13-42ee-45bc-91bc-8fca5a4cdd1c> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/5387f583-974c-45ed-92fd-3a5b86463f14> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_106207/592e950f-b93d-4b3a-aa1a-c51038c1f65e> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-19" ;
-    dct:created "2008-03-19" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:106207  RO:0002264 GO:0007512 MGI:MGI:3770112|PMID:17276355 ECO:0000315 MGI:MGI:3707001  2008-03-19 MGI RO:0002296(EMAPA:16105) creation-date=2008-03-19|modification-date=2008-03-19|comment=anatomy heart;MA:0000072|comment=Cardiac metabolic defects|comment=fatal heart failure ensued at 6-8 weeks|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/19e0273e-8769-4bed-8d90-a4cb80e5f22f> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/783126f1-b94a-4a95-acc9-99c92c68613b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_106207/65a3421f-4c3d-4920-912b-bc6ca695f46d> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_106207/434bddf3-64f9-4c3f-8313-063acb58c1eb> .
 

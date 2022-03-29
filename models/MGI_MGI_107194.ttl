@@ -36,12 +36,63 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2018-04-30" ;
     dc:title "Shroom2 (MGI:MGI:107194)" ;
     dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_107194> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_107194/0944c8b8-03fb-46c7-9a5c-e8813a4cfab5> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_107194/0f08fd47-c0e7-4bf5-9027-fb9c8cffad79> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-2689-5511",
+        "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2018-04-30" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/2feba639-4667-49b4-afaf-345418d39053> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "cell type permanent cell line cell;CLO:0000019 HeLa cells",
+        "diffuse cytoplasmic staining",
+        "transfected HeLa cells" .
+
+<http://model.geneontology.org/MGI_MGI_107194/33522653-c7b0-4f7b-b544-423c5313c647> a MGI:MGI:107194,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/99c3ca65-7c40-41f1-9a44-a43150a309f3> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/40846ff9-8a45-410a-9353-9ed122a7946a> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "resisted of F-actin disassembly in the presence of cytochalasin D" .
+
+<http://model.geneontology.org/MGI_MGI_107194/40b458da-c3ee-490e-9de3-01976c1f7acd> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P97479" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "C-terminal FERM domain of myosin VIIa",
+        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
+        "evidence in vitro binding assays",
+        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
+
+<http://model.geneontology.org/MGI_MGI_107194/49747cc2-7df7-44a1-9f93-8e3667d2815c> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-05" ;
@@ -53,120 +104,53 @@ ns2:providedBy a owl:AnnotationProperty .
         "punctate staining throughout cell bodies and also peripheral",
         "transfected" .
 
-<http://model.geneontology.org/MGI_MGI_107194/0d333b9c-85d4-4afc-b2b6-44c7fb5dfe32> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_107194/73a5d476-2f36-4ab7-aa54-7416d47256fa> a MGI:MGI:107194,
         owl:NamedIndividual ;
-    ns1:evidence-with "PR:P39447" ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/80c265a4-ea10-423a-b486-c36a951b744a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
     dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "C-terminal FERM domain of myosin VIIa",
-        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
-        "evidence in vitro binding assays",
-        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
-
-<http://model.geneontology.org/MGI_MGI_107194/1efb18df-85dc-48bc-8944-0fc7c16a0133> a MGI:MGI:107194,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/b15f8f73-d26e-4c0b-b7e3-b27eec6c22c0> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-05" ;
-    dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/2ef092d4-c6e7-43b2-872d-e769d4314313> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/4621da8d-cc1a-4495-ab6b-6e27d9cbac5b> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "resisted of F-actin disassembly in the presence of cytochalasin D" .
-
-<http://model.geneontology.org/MGI_MGI_107194/490c26fb-a97f-4f0a-b419-d25cbbc2933a> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "resisted of F-actin disassembly in the presence of cytochalasin D" .
-
-<http://model.geneontology.org/MGI_MGI_107194/494f2aaf-381d-4a5f-8fc6-0d5106a4a679> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_107194/7483dc4d-8628-4cd9-a9aa-a8cd5c0c395a> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P97479" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
+    dc:date "2008-03-04" ;
     dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
+    dct:created "2008-03-04" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "C-terminal FERM domain of myosin VIIa",
-        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
-        "evidence in vitro binding assays",
-        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
+    rdfs:comment "evidence inferred from yeast 2-hybrid assay;ECO:0000068" .
 
-<http://model.geneontology.org/MGI_MGI_107194/53aad823-1cc0-4943-8efd-4428a2937060> a GO:0051015,
+<http://model.geneontology.org/MGI_MGI_107194/7ada3ba3-604e-475d-b1d6-ce67709559de> a GO:0051015,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/8047ae6c-738a-4dbd-b2a9-1e58cf1b7098> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/a972c589-fd66-4475-9180-740041f57cea> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-04-30" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/5ec2b323-fcb0-4a41-af51-c0d028ec3f2b> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/83b012c9-3fce-431c-b77c-654cd7ce31b2> a MGI:MGI:107194,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/670881bd-75ec-4073-b168-3e3a9dde2287> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/a757adca-e177-4c99-b579-163834ef34d0> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2008-03-05" ;
+    dct:created "2008-03-05" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/6ac35f4b-d2f7-44fa-8bd4-2e9431f94f30> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P97479" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "C-terminal FERM domain of myosin VIIa",
-        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
-        "evidence in vitro binding assays",
-        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
-
-<http://model.geneontology.org/MGI_MGI_107194/77481fea-3507-4356-a28a-e7b88e7f6d69> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_107194/8d2e60c3-5f2f-418c-9acf-e9c2e5f9d5b1> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dc:source "PMID:17666436" ;
     dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from immunofluorescence;ECO:0000007" .
+    ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/84e47f47-99e7-4545-b6f0-8670927ab614> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "cell type permanent cell line cell;CLO:0000019 HeLa cells",
-        "diffuse cytoplasmic staining",
-        "transfected HeLa cells" .
-
-<http://model.geneontology.org/MGI_MGI_107194/9314ef42-e585-4698-98e9-4902df30109d> a ECO:0000353,
+<http://model.geneontology.org/MGI_MGI_107194/92179aea-f650-4ea0-b1d7-65ab2b6b0f73> a ECO:0000353,
         owl:NamedIndividual ;
     ns1:evidence-with "PR:P39447" ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
@@ -179,7 +163,16 @@ ns2:providedBy a owl:AnnotationProperty .
         "evidence in vitro binding assays",
         "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
 
-<http://model.geneontology.org/MGI_MGI_107194/a37e923b-74f1-4d7c-b4f4-f0771f59b26d> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_107194/ab4b6bb4-d336-4e8a-8b57-7fbcc98574dc> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "resisted of F-actin disassembly in the presence of cytochalasin D" .
+
+<http://model.geneontology.org/MGI_MGI_107194/b0e98c2a-1dfd-44e1-8657-6c1241f6c2f4> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
@@ -187,36 +180,7 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2008-03-06" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/a381c8b7-6754-4a6d-a143-2b5678de1652> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P97479" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-04" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from yeast 2-hybrid assay;ECO:0000068" .
-
-<http://model.geneontology.org/MGI_MGI_107194/b358e619-dc6f-480f-931a-a4bcccacd705> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-06" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from immunofluorescence;ECO:0000007" .
-
-<http://model.geneontology.org/MGI_MGI_107194/b78f7f77-bc6a-41c1-8715-52bdedd2fc72> a ECO:0000353,
-        owl:NamedIndividual ;
-    ns1:evidence-with "PR:P97479" ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-04" ;
-    dc:source "PMID:17666436" ;
-    dct:created "2008-03-04" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "evidence inferred from yeast 2-hybrid assay;ECO:0000068" .
-
-<http://model.geneontology.org/MGI_MGI_107194/d31ffcb9-d758-4842-b50d-0d674d8db948> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_107194/bf2a5437-6da0-4e15-b1d7-19e123d54ecf> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-05" ;
@@ -227,219 +191,255 @@ ns2:providedBy a owl:AnnotationProperty .
         "punctate staining throughout cell bodies and also peripheral",
         "transfected" .
 
-<http://model.geneontology.org/MGI_MGI_107194/e6f11342-b2de-4915-b7fe-3026965791ff> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/c8792005-7af2-4ae8-849d-731c9c4acee2> a MGI:MGI:107194,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/ed5d4ab7-3ac4-4711-85ad-ace8f0f4344f> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-05" ;
-    dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/ea60c8c4-a991-45b4-9cd9-ef0e4e93ff4a> a MGI:MGI:107194,
-        owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/bcb29ec4-8535-4186-a4d2-f6dd50c5729b> ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/d68e27db-852f-4393-9e58-608d75ccc182> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/f74d0b09-8d65-4a9d-a15b-842d432a0ec4> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/cb3e5fbb-0e4e-4d17-8bcd-f9e60a8534e0> a ECO:0000314,
         owl:NamedIndividual ;
-    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/3679c95e-bd35-4c01-8876-d8a0717ee3d4> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/ff63cfff-945b-49bb-ba48-424297a67042> a ECO:0000314,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-2689-5511",
-        "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2018-04-30" ;
     dc:source "PMID:17666436" ;
     dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from immunofluorescence;ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_107194/d84a13c8-a925-4a1e-a2c2-5ef4312709e4> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P39447" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "C-terminal FERM domain of myosin VIIa",
+        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
+        "evidence in vitro binding assays",
+        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
+
+<http://model.geneontology.org/MGI_MGI_107194/df2e58f2-eff0-434a-8933-b12fcad30825> a ECO:0000314,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from immunofluorescence;ECO:0000007" .
+
+<http://model.geneontology.org/MGI_MGI_107194/ebd8b4e6-ee42-4b98-a621-b237c19730dc> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P97479" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-04" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-04" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "evidence inferred from yeast 2-hybrid assay;ECO:0000068" .
+
+<http://model.geneontology.org/MGI_MGI_107194/f1563570-9889-41fb-9bb8-36aa23e48720> a ECO:0000353,
+        owl:NamedIndividual ;
+    ns1:evidence-with "PR:P97479" ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dc:source "PMID:17666436" ;
+    dct:created "2008-03-06" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "C-terminal FERM domain of myosin VIIa",
+        "aa 444 - 1015 of ZO-1 containing SH3/GuK domains",
+        "evidence in vitro binding assays",
+        "evidence inferred from yeast 2-hybrid assay;ECO0000068" .
+
+<http://model.geneontology.org/MGI_MGI_107194/f5e02151-d92c-4d51-93bc-449332313d09> a MGI:MGI:107194,
+        owl:NamedIndividual ;
+    obo:RO_0001025 <http://model.geneontology.org/MGI_MGI_107194/668f7dca-041f-48f7-b5e5-3789be85fd84> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-05" ;
+    dct:created "2008-03-05" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/058de04a-8f30-4eb8-a626-283adb1ab664> a GO:0019904,
+<http://model.geneontology.org/MGI_MGI_107194/04aad54c-0a4e-43c9-a629-2811a9ba39cf> a MGI:MGI:107194,
         owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/4e1044a2-f906-471e-9814-9f8f81c045fc> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/84925a0e-0c0b-48ae-bef5-fe815863aa02> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/08371e42-1f9a-4499-bd3c-cef8305ced2d> a GO:0003674,
+<http://model.geneontology.org/MGI_MGI_107194/091e1521-7837-42d3-9cd3-bf6c20edfa1c> a GO:0019904,
         owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/cff48b5d-cbe4-401c-aad4-1b1f7f748c8c> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107194/572d47fd-3bc6-4ccf-a119-a77e4077251c> ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/a6a9b1b5-c920-495a-9f4c-4f9e851560c8> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/fe2013e7-222b-4c7a-ba88-eb4505f44613> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/0ea20419-e280-4e4d-bb00-fdc7f7126b6f> a PR:P97479,
+<http://model.geneontology.org/MGI_MGI_107194/1e258775-9e4e-4087-9955-73fffbe86137> a MGI:MGI:107194,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/30665570-32e2-436e-9648-731c547396c6> a GO:0005515,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/d5568fc2-2de6-4c9b-bc3d-1873efc95334> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/6fe23267-f4f7-415e-a4ac-061c2de395c7> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-04" ;
+    dct:created "2008-03-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/5a3bf527-6513-4c5f-b7f1-8474a9df7e18> a GO:0045217,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/668f7dca-041f-48f7-b5e5-3789be85fd84> a GO:0043025,
+        owl:NamedIndividual ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-05" ;
+    dct:created "2008-03-05" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/6fe23267-f4f7-415e-a4ac-061c2de395c7> a MGI:MGI:107194,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-04" ;
     dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/3679c95e-bd35-4c01-8876-d8a0717ee3d4> a GO:0005911,
+<http://model.geneontology.org/MGI_MGI_107194/7d3579eb-1175-4069-aa04-46a460118bff> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/1e258775-9e4e-4087-9955-73fffbe86137> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107194/5a3bf527-6513-4c5f-b7f1-8474a9df7e18> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/80c265a4-ea10-423a-b486-c36a951b744a> a GO:0043296,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/37ce5c69-541d-4031-ba94-c328e0df2839> a GO:0045217,
+<http://model.geneontology.org/MGI_MGI_107194/99c3ca65-7c40-41f1-9a44-a43150a309f3> a GO:0005911,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/4e1044a2-f906-471e-9814-9f8f81c045fc> a PR:P97479,
+<http://model.geneontology.org/MGI_MGI_107194/a6a9b1b5-c920-495a-9f4c-4f9e851560c8> a PR:P97479,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/572d47fd-3bc6-4ccf-a119-a77e4077251c> a GO:0030835,
+<http://model.geneontology.org/MGI_MGI_107194/a757adca-e177-4c99-b579-163834ef34d0> a GO:0005938,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dc:date "2008-03-05" ;
+    dct:created "2008-03-05" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/670881bd-75ec-4073-b168-3e3a9dde2287> a GO:0043296,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/6c8531cc-0b1c-4416-a7f7-e2033c62ed9a> a MGI:MGI:107194,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/768605db-0ec8-418a-99ef-70f041cf0060> a PR:P39447,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/7f3700f6-bd9d-4602-a726-2108ccfafca7> a GO:0005515,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/0ea20419-e280-4e4d-bb00-fdc7f7126b6f> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/c16a1b53-6d6c-46c1-9565-af6a167c5bec> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-04" ;
-    dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/8047ae6c-738a-4dbd-b2a9-1e58cf1b7098> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/a972c589-fd66-4475-9180-740041f57cea> a MGI:MGI:107194,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-04-30" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/84925a0e-0c0b-48ae-bef5-fe815863aa02> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/ac6a2555-adbf-486d-b415-ef551f0508ee> a PR:P39447,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/9b27521a-0144-4416-9d56-7fe33e1ed118> a GO:0019904,
-        owl:NamedIndividual ;
-    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/768605db-0ec8-418a-99ef-70f041cf0060> ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/d23c31c5-4377-40d6-a528-c7c264160dce> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/b15f8f73-d26e-4c0b-b7e3-b27eec6c22c0> a GO:0043025,
-        owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-05" ;
-    dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/bcb29ec4-8535-4186-a4d2-f6dd50c5729b> a GO:0005737,
+<http://model.geneontology.org/MGI_MGI_107194/c901d4e4-268f-4f6e-9e2b-b64a40bb1d29> a GO:0030835,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/c16a1b53-6d6c-46c1-9565-af6a167c5bec> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/cee08469-d043-4d5e-a602-0da478ed5262> a GO:0019904,
+        owl:NamedIndividual ;
+    obo:RO_0002233 <http://model.geneontology.org/MGI_MGI_107194/ac6a2555-adbf-486d-b415-ef551f0508ee> ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/04aad54c-0a4e-43c9-a629-2811a9ba39cf> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/d5568fc2-2de6-4c9b-bc3d-1873efc95334> a PR:P97479,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-04" ;
     dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/cff48b5d-cbe4-401c-aad4-1b1f7f748c8c> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/d68e27db-852f-4393-9e58-608d75ccc182> a GO:0005737,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/d23c31c5-4377-40d6-a528-c7c264160dce> a MGI:MGI:107194,
+<http://model.geneontology.org/MGI_MGI_107194/e062de2c-0b36-4333-ba44-453022285ba1> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/e8691b68-9d7b-486a-ae1f-4a4d02f1a72a> ;
+    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107194/c901d4e4-268f-4f6e-9e2b-b64a40bb1d29> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_107194/e8691b68-9d7b-486a-ae1f-4a4d02f1a72a> a MGI:MGI:107194,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_107194/ed5d4ab7-3ac4-4711-85ad-ace8f0f4344f> a GO:0005938,
+<http://model.geneontology.org/MGI_MGI_107194/fe2013e7-222b-4c7a-ba88-eb4505f44613> a MGI:MGI:107194,
         owl:NamedIndividual ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-05" ;
-    dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_107194/f19c7830-475f-441d-83bc-e302a347cab8> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/MGI_MGI_107194/6c8531cc-0b1c-4416-a7f7-e2033c62ed9a> ;
-    obo:RO_0002418 <http://model.geneontology.org/MGI_MGI_107194/37ce5c69-541d-4031-ba94-c328e0df2839> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:RO_0002418 a owl:ObjectProperty .
@@ -451,195 +451,195 @@ obo:RO_0001025 a owl:ObjectProperty .
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/2ef092d4-c6e7-43b2-872d-e769d4314313> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0045217 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/f19c7830-475f-441d-83bc-e302a347cab8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/37ce5c69-541d-4031-ba94-c328e0df2839> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/b358e619-dc6f-480f-931a-a4bcccacd705> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0043296 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from immunofluorescence;ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/5ec2b323-fcb0-4a41-af51-c0d028ec3f2b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/670881bd-75ec-4073-b168-3e3a9dde2287> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/0d333b9c-85d4-4afc-b2b6-44c7fb5dfe32> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/9b27521a-0144-4416-9d56-7fe33e1ed118> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/d23c31c5-4377-40d6-a528-c7c264160dce> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/4621da8d-cc1a-4495-ab6b-6e27d9cbac5b> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0030835 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=resisted of F-actin disassembly in the presence of cytochalasin D|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/08371e42-1f9a-4499-bd3c-cef8305ced2d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/cff48b5d-cbe4-401c-aad4-1b1f7f748c8c> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/6ac35f4b-d2f7-44fa-8bd4-2e9431f94f30> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/058de04a-8f30-4eb8-a626-283adb1ab664> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/4e1044a2-f906-471e-9814-9f8f81c045fc> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/0944c8b8-03fb-46c7-9a5c-e8813a4cfab5> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/49747cc2-7df7-44a1-9f93-8e3667d2815c> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-05" ;
     dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0005938 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-05 MGI  creation-date=2008-03-05|modification-date=2008-03-05|comment=cell type permanent cell line cell;CLO:0000019 HeLa cells|comment=cytoplasmic extension.|comment=punctate staining throughout cell bodies and also peripheral|comment=transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/e6f11342-b2de-4915-b7fe-3026965791ff> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/ed5d4ab7-3ac4-4711-85ad-ace8f0f4344f> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/83b012c9-3fce-431c-b77c-654cd7ce31b2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/a757adca-e177-4c99-b579-163834ef34d0> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/9314ef42-e585-4698-98e9-4902df30109d> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/8d2e60c3-5f2f-418c-9acf-e9c2e5f9d5b1> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0045217 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/7d3579eb-1175-4069-aa04-46a460118bff> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/1e258775-9e4e-4087-9955-73fffbe86137> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/92179aea-f650-4ea0-b1d7-65ab2b6b0f73> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/cee08469-d043-4d5e-a602-0da478ed5262> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/04aad54c-0a4e-43c9-a629-2811a9ba39cf> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/cb3e5fbb-0e4e-4d17-8bcd-f9e60a8534e0> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0005911 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from immunofluorescence;ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/33522653-c7b0-4f7b-b544-423c5313c647> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/99c3ca65-7c40-41f1-9a44-a43150a309f3> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/ebd8b4e6-ee42-4b98-a621-b237c19730dc> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-04" ;
+    dct:created "2008-03-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0005515 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479  2008-03-04 MGI  creation-date=2008-03-04|modification-date=2008-03-04|comment=evidence inferred from yeast 2-hybrid assay;ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/30665570-32e2-436e-9648-731c547396c6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/6fe23267-f4f7-415e-a4ac-061c2de395c7> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/d84a13c8-a925-4a1e-a2c2-5ef4312709e4> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/9b27521a-0144-4416-9d56-7fe33e1ed118> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/768605db-0ec8-418a-99ef-70f041cf0060> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/cee08469-d043-4d5e-a602-0da478ed5262> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/ac6a2555-adbf-486d-b415-ef551f0508ee> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/ff63cfff-945b-49bb-ba48-424297a67042> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/40b458da-c3ee-490e-9de3-01976c1f7acd> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/091e1521-7837-42d3-9cd3-bf6c20edfa1c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/a6a9b1b5-c920-495a-9f4c-4f9e851560c8> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/2feba639-4667-49b4-afaf-345418d39053> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0005737 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=cell type permanent cell line cell;CLO:0000019 HeLa cells|comment=diffuse cytoplasmic staining|comment=transfected HeLa cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/c8792005-7af2-4ae8-849d-731c9c4acee2> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/d68e27db-852f-4393-9e58-608d75ccc182> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/df2e58f2-eff0-434a-8933-b12fcad30825> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0043296 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from immunofluorescence;ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/73a5d476-2f36-4ab7-aa54-7416d47256fa> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/80c265a4-ea10-423a-b486-c36a951b744a> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/7483dc4d-8628-4cd9-a9aa-a8cd5c0c395a> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-04" ;
+    dct:created "2008-03-04" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0005515 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479  2008-03-04 MGI  creation-date=2008-03-04|modification-date=2008-03-04|comment=evidence inferred from yeast 2-hybrid assay;ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002233 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/30665570-32e2-436e-9648-731c547396c6> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/d5568fc2-2de6-4c9b-bc3d-1873efc95334> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/bf2a5437-6da0-4e15-b1d7-19e123d54ecf> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-05" ;
+    dct:created "2008-03-05" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0043025 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-05 MGI  creation-date=2008-03-05|modification-date=2008-03-05|comment=cell type permanent cell line cell;CLO:0000019 HeLa cells|comment=punctate staining throughout cell bodies and also peripheral|comment=transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0001025 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/f5e02151-d92c-4d51-93bc-449332313d09> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/668f7dca-041f-48f7-b5e5-3789be85fd84> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/f1563570-9889-41fb-9bb8-36aa23e48720> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/091e1521-7837-42d3-9cd3-bf6c20edfa1c> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/fe2013e7-222b-4c7a-ba88-eb4505f44613> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/b0e98c2a-1dfd-44e1-8657-6c1241f6c2f4> ;
+    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
+    dc:date "2008-03-06" ;
+    dct:created "2008-03-06" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0045217 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    owl:annotatedProperty obo:RO_0002418 ;
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/7d3579eb-1175-4069-aa04-46a460118bff> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/5a3bf527-6513-4c5f-b7f1-8474a9df7e18> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/0f08fd47-c0e7-4bf5-9027-fb9c8cffad79> ;
     dc:contributor "https://orcid.org/0000-0003-2689-5511",
         "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2018-04-30" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0051015 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2018-04-30 MGI  creation-date=2008-03-06|modification-date=2018-04-30|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0003-2689-5511" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/53aad823-1cc0-4943-8efd-4428a2937060> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/8047ae6c-738a-4dbd-b2a9-1e58cf1b7098> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/7ada3ba3-604e-475d-b1d6-ce67709559de> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/a972c589-fd66-4475-9180-740041f57cea> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/84e47f47-99e7-4545-b6f0-8670927ab614> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/ab4b6bb4-d336-4e8a-8b57-7fbcc98574dc> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0005737 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=cell type permanent cell line cell;CLO:0000019 HeLa cells|comment=diffuse cytoplasmic staining|comment=transfected HeLa cells|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/ea60c8c4-a991-45b4-9cd9-ef0e4e93ff4a> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/bcb29ec4-8535-4186-a4d2-f6dd50c5729b> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/d31ffcb9-d758-4842-b50d-0d674d8db948> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-05" ;
-    dct:created "2008-03-05" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0043025 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-05 MGI  creation-date=2008-03-05|modification-date=2008-03-05|comment=cell type permanent cell line cell;CLO:0000019 HeLa cells|comment=punctate staining throughout cell bodies and also peripheral|comment=transfected|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/1efb18df-85dc-48bc-8944-0fc7c16a0133> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/b15f8f73-d26e-4c0b-b7e3-b27eec6c22c0> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/77481fea-3507-4356-a28a-e7b88e7f6d69> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0001025 GO:0005911 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from immunofluorescence;ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0001025 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/f74d0b09-8d65-4a9d-a15b-842d432a0ec4> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/3679c95e-bd35-4c01-8876-d8a0717ee3d4> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/a381c8b7-6754-4a6d-a143-2b5678de1652> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-04" ;
-    dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0005515 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479  2008-03-04 MGI  creation-date=2008-03-04|modification-date=2008-03-04|comment=evidence inferred from yeast 2-hybrid assay;ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
+    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0030835 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=resisted of F-actin disassembly in the presence of cytochalasin D|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/7f3700f6-bd9d-4602-a726-2108ccfafca7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/c16a1b53-6d6c-46c1-9565-af6a167c5bec> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/e062de2c-0b36-4333-ba44-453022285ba1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/e8691b68-9d7b-486a-ae1f-4a4d02f1a72a> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/494f2aaf-381d-4a5f-8fc6-0d5106a4a679> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/40846ff9-8a45-410a-9353-9ed122a7946a> ;
     dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
     dc:date "2008-03-06" ;
     dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0019904 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479|PR:P39447  2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=evidence inferred from yeast 2-hybrid assay;ECO0000068|comment=evidence in vitro binding assays|comment=aa 444 - 1015 of ZO-1 containing SH3/GuK domains|comment=C-terminal FERM domain of myosin VIIa|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/058de04a-8f30-4eb8-a626-283adb1ab664> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/84925a0e-0c0b-48ae-bef5-fe815863aa02> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/a37e923b-74f1-4d7c-b4f4-f0771f59b26d> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0045217 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/f19c7830-475f-441d-83bc-e302a347cab8> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/6c8531cc-0b1c-4416-a7f7-e2033c62ed9a> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/b78f7f77-bc6a-41c1-8715-52bdedd2fc72> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-04" ;
-    dct:created "2008-03-04" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" ;
-    rdfs:comment "MGI:MGI:107194  RO:0002327 GO:0005515 MGI:MGI:3723326|PMID:17666436 ECO:0000353 PR:P97479  2008-03-04 MGI  creation-date=2008-03-04|modification-date=2008-03-04|comment=evidence inferred from yeast 2-hybrid assay;ECO:0000068|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
-    owl:annotatedProperty obo:RO_0002233 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/7f3700f6-bd9d-4602-a726-2108ccfafca7> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/0ea20419-e280-4e4d-bb00-fdc7f7126b6f> .
-
-[] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_107194/490c26fb-a97f-4f0a-b419-d25cbbc2933a> ;
-    dc:contributor "https://orcid.org/0000-0003-3394-9805" ;
-    dc:date "2008-03-06" ;
-    dct:created "2008-03-06" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:107194  RO:0002264 GO:0030835 MGI:MGI:3723326|PMID:17666436 ECO:0000314   2008-03-06 MGI  creation-date=2008-03-06|modification-date=2008-03-06|comment=resisted of F-actin disassembly in the presence of cytochalasin D|contributor-id=https://orcid.org/0000-0003-3394-9805" ;
     owl:annotatedProperty obo:RO_0002418 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/08371e42-1f9a-4499-bd3c-cef8305ced2d> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/572d47fd-3bc6-4ccf-a119-a77e4077251c> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_107194/e062de2c-0b36-4333-ba44-453022285ba1> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_107194/c901d4e4-268f-4f6e-9e2b-b64a40bb1d29> .
 

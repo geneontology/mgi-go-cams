@@ -2,16 +2,16 @@
 
 ## SUMMARY
 
-This report generated on 2022-03-07
+This report generated on 2022-03-28
 
-  * Associations: 129970
-  * Lines in file (incl headers): 129973
+  * Associations: 129965
+  * Lines in file (incl headers): 129968
   * Lines skipped: 0
 ## Header From Original Association File
 
 > !gpa-version: 2.0  
 > !generated-by: MGI  
-> !date-generated: 2022-03-05  
+> !date-generated: 2022-03-26  
 
 ## Contents
 
@@ -36,8 +36,6 @@ This report generated on 2022-03-07
 [gorule-0000018](#gorule-0000018)
 
 [gorule-0000026](#gorule-0000026)
-
-[gorule-0000027](#gorule-0000027)
 
 [gorule-0000028](#gorule-0000028)
 
@@ -81,7 +79,7 @@ This report generated on 2022-03-07
 * total: 0
 ### gorule-0000008
 
-* total: 609
+* total: 608
 #### Messages
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1351617		RO:0002264	GO:0006810	MGI:MGI:2154458|GO_REF:0000008	ECO:0000266	UniProtKB:Q99758		2006-01-10	MGI		creation-date=2000-08-07|modification-date=2006-01-10|comment=external ref PMID:15531465 IDA|comment=PMID: 15531465|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -97,9 +95,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1861453		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933548		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2014-11-12	MGI	BFO:0000050(EMAPA:31857)|BFO:0000050(EMAPA:31858)	creation-date=2014-11-12|modification-date=2014-11-12|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933548		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2015-03-26	MGI		creation-date=2015-03-26|modification-date=2015-03-26|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933548		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2014-11-12	MGI	BFO:0000050(EMAPA:31857)|BFO:0000050(EMAPA:31858)	creation-date=2014-11-12|modification-date=2014-11-12|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:87911		RO:0002264	GO:0009790	MGI:MGI:3043889|PMID:15037318	ECO:0000315	MGI:MGI:2651395|MGI:MGI:2447280		2021-04-13	MGI	RO:0002296(EMAPA:17907)|RO:0002296(EMAPA:17930)	creation-date=2004-09-22|modification-date=2021-04-13|comment=evidence microscopy|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -145,13 +143,13 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:88068		RO:0001025	GO:0005622	MGI:MGI:74600|PMID:8588926	ECO:0000314			2008-08-20	MGI		creation-date=2008-08-20|modification-date=2008-08-20|comment=evidence inferred from immunological assay;ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:5504306|PMID:23785148	ECO:0000314			2017-09-19	MGI		creation-date=2014-07-08|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:5466629|PMID:23129809	ECO:0000314			2017-09-19	MGI	BFO:0000050(CL:0000057)	creation-date=2013-04-15|modification-date=2017-09-19|comment=cell type primary cell culture cell ; CL:0000001 fibroblast ; CL:0000057|comment=evidence immunoprecipitation experiment data ; ECO:0000085|contributor-id=https://orcid.org/0000-0001-5501-853X
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:5504306|PMID:23785148	ECO:0000314			2017-09-19	MGI		creation-date=2014-07-08|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935147		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1926129		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -195,9 +193,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109617		RO:0002264	GO:0042637	MGI:MGI:3573816|PMID:15728386	ECO:0000315	MGI:MGI:3574438		2005-05-05	MGI	BFO:0000066(EMAPA:35246)	creation-date=2005-05-05|modification-date=2005-05-05|comment=anatomy coat hair follicle ; MA:0000160|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99702		RO:0001025	GO:0005622	MGI:MGI:1928555|PMID:11146504	ECO:0000314			2008-04-29	MGI		creation-date=2008-04-29|modification-date=2008-04-29|comment=evidence inferred from immunofluorescence;ECO:0000007|comment=myotubes|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99702		RO:0001025	GO:0005622	MGI:MGI:85084|PMID:9008714	ECO:0000314			2008-03-19	MGI	BFO:0000050(CL:0000138)	creation-date=2008-03-19|modification-date=2008-03-19|comment=cell type chondrocyte;CL:0000138 primary cell line cell;CL:0000001|comment=evidence inferred from immunofluorescence;ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99702		RO:0001025	GO:0005622	MGI:MGI:1928555|PMID:11146504	ECO:0000314			2008-04-29	MGI		creation-date=2008-04-29|modification-date=2008-04-29|comment=evidence inferred from immunofluorescence;ECO:0000007|comment=myotubes|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1929913		RO:0001025	GO:0005622	MGI:MGI:3793380|PMID:18255031	ECO:0000314			2008-08-27	MGI	BFO:0000050(EMAPA:35588)	creation-date=2008-08-27|modification-date=2008-08-27|comment=anatomy MA:0000186|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -229,15 +227,15 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1100510		RO:0002264	GO:0071174	MGI:MGI:3790365|PMID:17938250	ECO:0000315	MGI:MGI:3793294		2013-06-10	MGI	BFO:0000066(CL:0000057)	creation-date=2013-06-10|modification-date=2013-06-10|comment=cell type primary cell culture cell ; CL:0000001 fibroblast ; CL:0000057|comment=evidence immunofluorescence analysis ; ECO:0000007|comment=evidence in vitro culture assay evidence ; ECO:0000182|contributor-id=https://orcid.org/0000-0001-5501-853X
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1913493		RO:0002264	GO:0051347	MGI:MGI:5448092|PMID:22988088	ECO:0000315	MGI:MGI:4459539		2014-06-27	MGI	RO:0002233(MGI:MGI:2151071)	creation-date=2014-06-27|modification-date=2014-06-27|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1913493		RO:0002264	GO:0051347	MGI:MGI:4454199|PMID:20439703	ECO:0000315	MGI:MGI:4459541		2014-06-27	MGI	RO:0002233(MGI:MGI:2151071)	creation-date=2014-06-27|modification-date=2014-06-27|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1913493		RO:0002264	GO:0051347	MGI:MGI:5448092|PMID:22988088	ECO:0000315	MGI:MGI:4459539		2014-06-27	MGI	RO:0002233(MGI:MGI:2151071)	creation-date=2014-06-27|modification-date=2014-06-27|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:88248		RO:0001025	GO:0005622	MGI:MGI:4430439|PMID:20040500	ECO:0000314			2010-07-12	MGI		creation-date=2010-07-12|modification-date=2010-07-12|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2151253		RO:0001025	GO:0005622	MGI:MGI:67883|PMID:7955356	ECO:0000314			2005-03-14	MGI	BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668)	creation-date=2003-10-03|modification-date=2005-03-14|comment=anatomy TS23\ dorsal root ganglion\ ganglion\ spinal\ peripheral nervous system; EMAP:7715|comment=cell type neuron ; CL:0000540|comment=dorsal root ganglion neuronal cell bodies |contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2151253		RO:0001025	GO:0005622	MGI:MGI:2671689|PMID:12888222	ECO:0000314			2005-03-14	MGI	BFO:0000050(CL:0000540)	creation-date=2003-10-03|modification-date=2005-03-14|comment=cell type neuron ; CL:0000540|comment=neuronal cell bodies |contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2151253		RO:0001025	GO:0005622	MGI:MGI:67883|PMID:7955356	ECO:0000314			2005-03-14	MGI	BFO:0000050(CL:0000540),BFO:0000050(EMAPA:16668)	creation-date=2003-10-03|modification-date=2005-03-14|comment=anatomy TS23\ dorsal root ganglion\ ganglion\ spinal\ peripheral nervous system; EMAP:7715|comment=cell type neuron ; CL:0000540|comment=dorsal root ganglion neuronal cell bodies |contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2135957		RO:0002327	GO:0008134	MGI:MGI:2154458|GO_REF:0000008	ECO:0000266	UniProtKB:O94983		2009-09-14	MGI		creation-date=2009-09-14|modification-date=2009-09-14|comment=external ref PMID:16678093 IGI UniProtKB:P52952|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -323,9 +321,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:106210		RO:0001025	GO:0005622	MGI:MGI:3057099|PMID:15452149	ECO:0000314			2005-01-24	MGI	BFO:0000050(CL:0000007),BFO:0000050(EMAPA:16041)	creation-date=2005-01-24|modification-date=2005-01-24|comment=anatomy TS5\ inner cell mass; EMAP:24|comment=cell type early_embryonic_cell ; CL:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933786		RO:0002264	GO:0009790	MGI:MGI:3038061|PMID:14993262	ECO:0000315	MGI:MGI:3040718		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933786		RO:0002264	GO:0009790	MGI:MGI:3612004|PMID:16327803	ECO:0000315	MGI:MGI:3040717,MGI:MGI:2182091		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933786		RO:0002264	GO:0009790	MGI:MGI:3038061|PMID:14993262	ECO:0000315	MGI:MGI:3040718		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109529		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -387,23 +385,23 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1347472		RO:0002327	GO:0008134	MGI:MGI:2154458|GO_REF:0000008	ECO:0000266	UniProtKB:P23512		2009-04-06	MGI		creation-date=2009-04-06|modification-date=2009-04-06|comment=external ref PMID:17220277 IPI UniProtKB:O14956|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1914004		RO:0002264	GO:0009790	MGI:MGI:3710027|PMID:17428829	ECO:0000316	MGI:MGI:2148705		2007-06-05	MGI	RO:0002296(EMAPA:16039)	creation-date=2007-06-05|modification-date=2007-06-05|comment=anatomy TS19\ ; embryo ; EMAP:3322|comment=evidence inferred from visible phenotype ; ECO:0000176|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1914004		RO:0002264	GO:0009790	MGI:MGI:3662963|PMID:16819554	ECO:0000315	MGI:MGI:3711150		2007-06-06	MGI		creation-date=2007-06-06|modification-date=2007-06-06|comment=die at emryonic day 14.5|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1914004		RO:0002264	GO:0009790	MGI:MGI:3710027|PMID:17428829	ECO:0000316	MGI:MGI:2148705		2007-06-05	MGI	RO:0002296(EMAPA:16039)	creation-date=2007-06-05|modification-date=2007-06-05|comment=anatomy TS19\ ; embryo ; EMAP:3322|comment=evidence inferred from visible phenotype ; ECO:0000176|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2148705		RO:0002264	GO:0009790	MGI:MGI:3710027|PMID:17428829	ECO:0000316	MGI:MGI:1914004		2007-06-05	MGI	RO:0002296(EMAPA:16039)	creation-date=2007-06-05|modification-date=2007-06-05|comment=anatomy TS19\ ; embryo ; EMAP:3322|comment=evidence inferred from visible phenotype ; ECO:0000176|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2148705		RO:0002264	GO:0040007	MGI:MGI:3723373|PMID:17619227	ECO:0000315	MGI:MGI:3723630		2018-05-17	MGI		creation-date=2008-02-06|modification-date=2018-05-17|comment=decreased body weight|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:80571|PMID:8566060	ECO:0000315	MGI:MGI:1857034		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:1331533|PMID:10072494	ECO:0000315	MGI:MGI:1857034		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:3575325|PMID:15790681	ECO:0000314			2005-10-21	MGI		creation-date=2005-10-21|modification-date=2005-10-21|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:80571|PMID:8566060	ECO:0000315	MGI:MGI:1857034		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:68932|PMID:7930593	ECO:0000315	MGI:MGI:1857034		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:68932|PMID:7930593	ECO:0000316	MGI:MGI:88335		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0002264	GO:0001816	MGI:MGI:68932|PMID:7930593	ECO:0000315	MGI:MGI:1857034		2006-12-08	MGI		creation-date=2006-12-08|modification-date=2006-12-08|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1891436		RO:0001025	GO:0005622	MGI:MGI:3818191|PMID:19015308	ECO:0000314			2009-03-16	MGI		creation-date=2009-03-16|modification-date=2009-03-16|comment=T cells|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -453,9 +451,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1351340		RO:0002264	GO:0033554	MGI:MGI:6114361|PMID:29024663	ECO:0000314			2018-09-05	MGI		creation-date=2018-09-05|modification-date=2018-09-05|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:3044668		RO:0002264	GO:0042637	MGI:MGI:3510287|PMID:15475261	ECO:0000315	MGI:MGI:3526126		2005-02-18	MGI		creation-date=2005-02-18|modification-date=2005-02-18|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:3044668		RO:0002264	GO:0042637	MGI:MGI:3530424|PMID:15737203	ECO:0000315	MGI:MGI:2385837		2005-05-05	MGI		creation-date=2005-03-31|modification-date=2005-05-05|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:3044668		RO:0002264	GO:0042637	MGI:MGI:3510287|PMID:15475261	ECO:0000315	MGI:MGI:3526126		2005-02-18	MGI		creation-date=2005-02-18|modification-date=2005-02-18|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:3044668		RO:0002264	GO:0042637	MGI:MGI:5445471|PMID:21805153	ECO:0000315	MGI:MGI:4849547		2012-12-19	MGI		creation-date=2012-12-19|modification-date=2012-12-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -475,9 +473,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:95925		RO:0001025	GO:0005622	MGI:MGI:2671681|PMID:9492004	ECO:0000314			2011-06-14	MGI		creation-date=2004-03-30|modification-date=2011-06-14|comment=evidence flow cytometry data ; ECO:0000268|comment=evidence immunofluorescence analysis ; ECO:0000007|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0001-9990-8331
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:103577		RO:0002327	GO:0008134	MGI:MGI:70192|PMID:7814632	ECO:0000353	UniProtKB:P15923		2005-11-09	MGI		creation-date=2005-11-09|modification-date=2005-11-09|comment=target HUMAN E12|contributor-id=https://orcid.org/0000-0003-2689-5511
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:103577		RO:0002327	GO:0008134	MGI:MGI:3830408|PMID:19144722	ECO:0000353	PR:Q08775		2011-09-01	MGI		creation-date=2011-09-01|modification-date=2011-09-01|comment=cell type COS-7 ; ATCC:0000005|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:103577		RO:0002327	GO:0008134	MGI:MGI:70192|PMID:7814632	ECO:0000353	UniProtKB:P15923		2005-11-09	MGI		creation-date=2005-11-09|modification-date=2005-11-09|comment=target HUMAN E12|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:103580		RO:0002327	GO:0008134	MGI:MGI:3830408|PMID:19144722	ECO:0000353	PR:Q08775		2011-09-01	MGI		creation-date=2011-09-01|modification-date=2011-09-01|comment=cell type COS-7 ; ATCC:0000005|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -537,9 +535,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:107936		RO:0002264	GO:0032635	MGI:MGI:3578455|PMID:15843532	ECO:0000314			2017-09-13	MGI	BFO:0000066(CL:0000775)	creation-date=2017-09-13|modification-date=2017-09-13|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:107936		RO:0002264	GO:0035744	MGI:MGI:3578455|PMID:15843532	ECO:0000314			2017-09-13	MGI		creation-date=2017-09-13|modification-date=2017-09-13|comment=Interferon gamma|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:107936		RO:0002264	GO:0035744	MGI:MGI:3578455|PMID:15843532	ECO:0000316	MGI:MGI:96539|MGI:MGI:96540		2017-09-13	MGI		creation-date=2017-09-13|modification-date=2017-09-13|comment=Interferon gamma|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:107936		RO:0002264	GO:0035744	MGI:MGI:3578455|PMID:15843532	ECO:0000314			2017-09-13	MGI		creation-date=2017-09-13|modification-date=2017-09-13|comment=Interferon gamma|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1338888		RO:0002264	GO:0032609	MGI:MGI:3578455|PMID:15843532	ECO:0000315	MGI:MGI:3579137		2017-09-13	MGI	BFO:0000066(CL:2000074),RO:0002092(GO:0071351)	creation-date=2017-09-13|modification-date=2017-09-13|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -590,6 +588,8 @@ This report generated on 2022-03-07
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:96621		RO:0002264	GO:0032633	MGI:MGI:3773943|PMID:18292523	ECO:0000316	MGI:MGI:102960		2010-12-09	MGI	BFO:0000066(EMAPA:18767)	creation-date=2010-12-09|modification-date=2010-12-09|comment=anatomy spleen ; MA:0000141|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:107706		RO:0002264	GO:0002377	MGI:MGI:5613782|PMID:24831988	ECO:0000315	MGI:MGI:5645968		2016-02-03	MGI		creation-date=2016-02-03|modification-date=2016-02-03|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1918614		RO:0002264	GO:1990636	MGI:MGI:5529185|PMID:24006281	ECO:0000315	MGI:MGI:5544070		2015-09-15	MGI		creation-date=2015-09-15|modification-date=2015-09-15|comment=fertility decreases at 3 months of age (7 of 8 animals) and subsequently males become infertile|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1917264		RO:0002264	GO:0009790	MGI:MGI:3835889|PMID:19103755	ECO:0000315	MGI:MGI:3836392		2009-04-08	MGI		creation-date=2009-04-08|modification-date=2009-04-08|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -687,9 +687,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2151839		RO:0002264	GO:0042640	MGI:MGI:3513741|PMID:15550542	ECO:0000315	MGI:MGI:1856847		2005-02-07	MGI	BFO:0000066(EMAPA:18769)	creation-date=2005-02-07|modification-date=2005-02-07|comment=anatomy coat hair ; MA:0000155|comment=cell type melanocyte ; CL:0000148|comment=has_participant(CL:0000148)|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97169		RO:0002327	GO:0008134	MGI:MGI:1095994|PMID:9265625	ECO:0000314			2019-01-29	MGI		creation-date=2011-06-14|modification-date=2019-01-29|comment=binding Gtf2f1|comment=changed from GO:0000989 'transcription factor activity  transcription factor binding|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0003-2689-5511
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97169		RO:0002327	GO:0008134	MGI:MGI:1095994|PMID:9265625	ECO:0000353	PR:Q3THK3		2012-10-26	MGI		creation-date=2011-06-14|modification-date=2012-10-26|comment=binding Gtf2f1|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97169		RO:0002327	GO:0008134	MGI:MGI:1095994|PMID:9265625	ECO:0000314			2019-01-29	MGI		creation-date=2011-06-14|modification-date=2019-01-29|comment=binding Gtf2f1|comment=changed from GO:0000989 'transcription factor activity  transcription factor binding|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97169		RO:0002264	GO:0042640	MGI:MGI:2156258|PMID:11744114	ECO:0000315	MGI:MGI:1926381		2011-06-10	MGI	BFO:0000066(EMAPA:17529)	creation-date=2011-06-10|modification-date=2011-06-10|comment=anatomy vibrissa; MA:0000163|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -719,9 +719,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1339708		RO:0001025	GO:0005622	MGI:MGI:3614320|PMID:15793245	ECO:0000314			2013-03-15	MGI	BFO:0000050(EMAPA:17503)	creation-date=2008-09-25|modification-date=2013-03-15|comment=anatomy TS22\ pancreas ; EMAP:6002|comment=evidence inferred from immunological assay;ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:893591		RO:0001025	GO:0005622	MGI:MGI:3614320|PMID:15793245	ECO:0000314			2013-03-15	MGI	BFO:0000050(EMAPA:17503)	creation-date=2008-09-25|modification-date=2013-03-15|comment=anatomy TS22\ pancreas ; EMAP:6002|comment=evidence inferred from immunological assay;ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:893591		RO:0001025	GO:0005622	MGI:MGI:3706893|PMID:10868931	ECO:0000314			2013-03-15	MGI		creation-date=2009-05-29|modification-date=2013-03-15|comment=evidence inferred from immunofluorescence ;  ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:893591		RO:0001025	GO:0005622	MGI:MGI:3614320|PMID:15793245	ECO:0000314			2013-03-15	MGI	BFO:0000050(EMAPA:17503)	creation-date=2008-09-25|modification-date=2013-03-15|comment=anatomy TS22\ pancreas ; EMAP:6002|comment=evidence inferred from immunological assay;ECO:0000040|contributor-id=https://orcid.org/0000-0003-3394-9805|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:893591		RO:0002264	GO:0007275	MGI:MGI:2181532|PMID:12080087	ECO:0000315	MGI:MGI:2651394		2003-12-18	MGI		creation-date=2003-12-18|modification-date=2003-12-18|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -803,9 +803,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1339639		RO:0001025	GO:0005622	MGI:MGI:1858670|PMID:10801981	ECO:0000304			2000-06-19	MGI		creation-date=2000-06-19|modification-date=2000-06-19|contributor-id=https://orcid.org/0000-0002-2246-3722
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2179720		RO:0002264	GO:0032623	MGI:MGI:3687620|PMID:15184345	ECO:0000353	PR:P20491		2018-03-01	MGI		creation-date=2018-03-01|modification-date=2018-03-01|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2179720		RO:0002264	GO:0032623	MGI:MGI:3687620|PMID:15184345	ECO:0000316	MGI:MGI:88334		2018-03-01	MGI		creation-date=2018-03-01|modification-date=2018-03-01|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2179720		RO:0002264	GO:0032623	MGI:MGI:3687620|PMID:15184345	ECO:0000353	PR:P20491		2018-03-01	MGI		creation-date=2018-03-01|modification-date=2018-03-01|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1859615		RO:0002264	GO:0032625	MGI:MGI:5621075|PMID:25470037	ECO:0000315	MGI:MGI:5752247,MGI:MGI:2386448		2021-03-19	MGI		creation-date=2016-08-17|modification-date=2021-03-19|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -821,9 +821,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1914617		RO:0002327	GO:0008134	MGI:MGI:5447149|PMID:22862948	ECO:0000353	PR:P24610|PR:P47239		2012-12-31	MGI	BFO:0000066(EMAPA:32716)	creation-date=2012-12-31|modification-date=2012-12-31|comment=anatomy skeletal muscle tissue ; MA:0002439|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1923998		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1923998		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000266	UniProtKB:Q86U86		2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=external ref PMID:12368262   IDA|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1923998		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97503		RO:0001025	GO:0005622	MGI:MGI:3619173|PMID:16489008	ECO:0000314			2011-01-05	MGI	BFO:0000050(EMAPA:17528)	creation-date=2011-01-05|modification-date=2011-01-05|comment=anatomy MA:0000153 ; epidermis|comment=evidence ECO:0000007|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -843,9 +843,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109340		RO:0002327	GO:0008134	MGI:MGI:2154458|GO_REF:0000008	ECO:0000266	UniProtKB:Q99697		2006-02-01	MGI		creation-date=2006-02-01|modification-date=2006-02-01|comment=external ref PMID:15385555 IPI UniProt:Q9NP62|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1928897		RO:0002264	GO:0000239	MGI:MGI:5049827|PMID:21539824	ECO:0000316	MGI:MGI:1930036		2015-02-19	MGI		creation-date=2015-02-19|modification-date=2015-02-19|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1928897		RO:0002264	GO:0000239	MGI:MGI:5049827|PMID:21539824	ECO:0000315	MGI:MGI:2182488		2015-02-19	MGI		creation-date=2015-02-19|modification-date=2015-02-19|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1928897		RO:0002264	GO:0000239	MGI:MGI:5049827|PMID:21539824	ECO:0000316	MGI:MGI:1930036		2015-02-19	MGI		creation-date=2015-02-19|modification-date=2015-02-19|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1930036		RO:0002264	GO:0000239	MGI:MGI:5049827|PMID:21539824	ECO:0000315	MGI:MGI:3029596		2015-02-19	MGI		creation-date=2015-02-19|modification-date=2015-02-19|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -881,13 +881,13 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0001025	GO:0005622	MGI:MGI:3526759|PMID:10421573	ECO:0000314			2005-05-02	MGI	BFO:0000050(CL:0000057),BFO:0000050(EMAPA:32662)	creation-date=2005-05-02|modification-date=2005-05-02|comment=anatomy brain meninges ; MA:0000813|comment=cell type primary_cell_line ; CL:0000001 fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:3587130|PMID:16079160	ECO:0000315	MGI:MGI:1857974		2008-01-17	MGI		creation-date=2008-01-17|modification-date=2008-01-17|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:1346745|PMID:10518543	ECO:0000316	MGI:MGI:109284		2007-12-21	MGI		creation-date=2007-12-21|modification-date=2007-12-21|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:1347695|PMID:10557208	ECO:0000316	MGI:MGI:109284		2007-12-21	MGI		creation-date=2007-12-21|modification-date=2007-12-21|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:3051409|PMID:12391611	ECO:0000315	MGI:MGI:3051523		2008-01-25	MGI		creation-date=2008-01-25|modification-date=2008-01-25|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:3587130|PMID:16079160	ECO:0000315	MGI:MGI:1857974		2008-01-17	MGI		creation-date=2008-01-17|modification-date=2008-01-17|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0009790	MGI:MGI:1346745|PMID:10518543	ECO:0000316	MGI:MGI:109284		2007-12-21	MGI		creation-date=2007-12-21|modification-date=2007-12-21|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1202717		RO:0002264	GO:0042640	MGI:MGI:3513219|PMID:15525534	ECO:0000316	MGI:MGI:109284		2005-02-03	MGI	BFO:0000066(EMAPA:32792)	creation-date=2005-02-03|modification-date=2005-02-03|comment=anatomy hair inner root sheath ; MA:0000779|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -895,9 +895,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109284		RO:0002264	GO:0009790	MGI:MGI:1346745|PMID:10518543	ECO:0000316	MGI:MGI:1202717		2007-12-18	MGI		creation-date=2007-12-18|modification-date=2007-12-18|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109284		RO:0002264	GO:0032635	MGI:MGI:4888047|PMID:21206757	ECO:0000316	MGI:MGI:1202717		2020-11-11	MGI	BFO:0000066(CL:0002629)	creation-date=2020-11-11|modification-date=2020-11-11|contributor-id=https://orcid.org/0000-0001-5501-853X
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109284		RO:0002264	GO:0032635	MGI:MGI:4888047|PMID:21206757	ECO:0000315			2020-11-11	MGI	BFO:0000066(CL:0002629)	creation-date=2020-11-11|modification-date=2020-11-11|contributor-id=https://orcid.org/0000-0001-5501-853X
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109284		RO:0002264	GO:0032635	MGI:MGI:4888047|PMID:21206757	ECO:0000316	MGI:MGI:1202717		2020-11-11	MGI	BFO:0000066(CL:0002629)	creation-date=2020-11-11|modification-date=2020-11-11|contributor-id=https://orcid.org/0000-0001-5501-853X
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:109284		RO:0002264	GO:0032640	MGI:MGI:4888047|PMID:21206757	ECO:0000316	MGI:MGI:1202717		2020-11-11	MGI	BFO:0000066(CL:0002629)	creation-date=2020-11-11|modification-date=2020-11-11|contributor-id=https://orcid.org/0000-0001-5501-853X
 `
@@ -933,9 +933,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1861441		RO:0001025	GO:0005622	MGI:MGI:1860659|PMID:10859366	ECO:0000250			2000-08-21	MGI		creation-date=2000-08-21|modification-date=2000-08-21|contributor-id=https://orcid.org/0000-0002-2246-3722
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2385189		RO:0002264	GO:0002534	MGI:MGI:6480257|PMID:26975711	ECO:0000315	MGI:MGI:3613572		2022-02-07	MGI	BFO:0000066(CL:0002548)	creation-date=2021-12-20|modification-date=2022-02-07|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2385189		RO:0002264	GO:0002534	MGI:MGI:6363885|PMID:29921611	ECO:0000315	MGI:MGI:3613572		2021-12-20	MGI		creation-date=2021-12-20|modification-date=2021-12-20|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2385189		RO:0002264	GO:0002534	MGI:MGI:6480257|PMID:26975711	ECO:0000315	MGI:MGI:3613572		2022-02-07	MGI	BFO:0000066(CL:0002548)	creation-date=2021-12-20|modification-date=2022-02-07|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2385189		RO:0002264	GO:0036273	MGI:MGI:6480257|PMID:26975711	ECO:0006052	MGI:MGI:3613572		2022-02-07	MGI		creation-date=2021-12-20|modification-date=2022-02-07|comment=evidence RNAi evidence used in manual assertion ; ECO:0006052|contributor-id=https://orcid.org/0000-0002-9796-7693|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -955,9 +955,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1890564		RO:0002264	GO:0006950	MGI:MGI:3629336|PMID:16648267	ECO:0000315	MGI:MGI:3641540		2014-01-22	MGI		creation-date=2014-01-22|modification-date=2014-01-22|comment=pressure overload|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1858219		RO:0002264	GO:0006950	MGI:MGI:3629336|PMID:16648267	ECO:0000315	MGI:MGI:3641543		2014-01-22	MGI		creation-date=2014-01-22|modification-date=2014-01-22|comment=pressure overload|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1858219		RO:0002264	GO:0006950	MGI:MGI:3629336|PMID:16648267	ECO:0000316	MGI:MGI:1890564		2014-01-22	MGI		creation-date=2014-01-22|modification-date=2014-01-22|comment=pressure overload|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1858219		RO:0002264	GO:0006950	MGI:MGI:3629336|PMID:16648267	ECO:0000315	MGI:MGI:3641543		2014-01-22	MGI		creation-date=2014-01-22|modification-date=2014-01-22|comment=pressure overload|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:97897		RO:0002264	GO:0001816	MGI:MGI:3050756|PMID:15220916	ECO:0000315			2005-11-11	MGI		creation-date=2005-11-11|modification-date=2005-11-11|comment=siRNA|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -1002,10 +1002,6 @@ This report generated on 2022-03-07
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1858417		RO:0002264	GO:0016049	MGI:MGI:5494355|PMID:22375059	ECO:0000266	UniProtKB:P61619		2013-09-09	MGI		creation-date=2013-09-09|modification-date=2013-09-09|comment=external ref PMID:22375059   IMP|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1919374		RO:0002264	GO:0002534	MGI:MGI:4830383|PMID:20824097	ECO:0000315			2013-11-20	MGI		creation-date=2013-11-20|modification-date=2013-11-20|comment=GM-CSF production in response to Staphylococcus aureus|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2445054		RO:0002327	GO:0016929	MGI:MGI:5448615|PMID:22942423	ECO:0000314			2013-01-30	MGI		creation-date=2013-01-30|modification-date=2013-01-30|contributor-id=https://orcid.org/0000-0003-2689-5511
-`
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `PR:Q91ZX6-1		RO:0002327	GO:0016929	MGI:MGI:5433829|PMID:21183956	ECO:0000314			2014-05-23	MGI		creation-date=2014-05-23|modification-date=2014-05-23|comment=evidence cell-free assay data ; ECO:0000183 enzyme assay data ; ECO:0000005|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1920501		RO:0002264	GO:0051348	MGI:MGI:5471848|PMID:23509280	ECO:0000314			2014-11-05	MGI		creation-date=2014-11-05|modification-date=2014-11-05|comment=target Suv39h1 ; MGI:1099440|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -1053,9 +1049,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:102462		RO:0002264	GO:0009790	MGI:MGI:5516546|PMID:23677982	ECO:0000315			2014-03-31	MGI		creation-date=2014-03-31|modification-date=2014-03-31|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99603		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99603		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:99603		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:88192		RO:0002327	GO:0008134	MGI:MGI:3575864|PMID:15767674	ECO:0000353	PR:Q03267		2005-11-23	MGI		creation-date=2005-11-23|modification-date=2005-11-23|comment=ZFPN1A1|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -1065,9 +1061,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1935129		RO:0002264	GO:0009790	MGI:MGI:3653309|PMID:16880268	ECO:0000315			2007-04-13	MGI		creation-date=2007-04-13|modification-date=2007-04-13|comment=evidence RNAi|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328366		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328366		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328366		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1203524		RO:0001025	GO:0005622	MGI:MGI:2153331|PMID:11604513	ECO:0000314			2001-12-19	MGI		creation-date=2001-12-19|modification-date=2001-12-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -1075,9 +1071,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1203524		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1915344		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1915344		BFO:0000050	GO:0070603	MGI:MGI:4419090|PMID:12368262	ECO:0000314			2017-09-19	MGI		creation-date=2015-03-26|modification-date=2017-09-19|comment=anatomy brain ; MA:0000168|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1915344		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1933623		BFO:0000050	GO:0070603	MGI:MGI:5578697|PMID:24335282	ECO:0000314			2017-09-19	MGI	BFO:0000050(EMAPA:16105)|BFO:0000050(EMAPA:31858)|BFO:0000050(EMAPA:31857)	creation-date=2014-11-12|modification-date=2017-09-19|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -1095,9 +1091,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:700013		RO:0002327	GO:0008134	MGI:MGI:3579939|PMID:15734736	ECO:0000353	UniProtKB:P13631		2006-03-28	MGI		creation-date=2006-03-28|modification-date=2006-03-28|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98358		RO:0002327	GO:0008134	MGI:MGI:5489006|PMID:23575864	ECO:0000316	MGI:MGI:1926212		2019-01-29	MGI		creation-date=2013-08-13|modification-date=2019-01-29|comment=target Egr2 ; MGI:95296|comment=changed from GO:0001190|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98358		RO:0002327	GO:0008134	MGI:MGI:3830391|PMID:19179536	ECO:0000314			2014-12-11	MGI	RO:0002233(MGI:MGI:1920431)	creation-date=2014-12-11|modification-date=2014-12-11|contributor-id=https://orcid.org/0000-0001-7476-6306
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98358		RO:0002327	GO:0008134	MGI:MGI:5489006|PMID:23575864	ECO:0000316	MGI:MGI:1926212		2019-01-29	MGI		creation-date=2013-08-13|modification-date=2019-01-29|comment=target Egr2 ; MGI:95296|comment=changed from GO:0001190|contributor-id=https://orcid.org/0000-0003-2689-5511|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:2139806		RO:0002264	GO:0000910	MGI:MGI:5430704|PMID:22619377	ECO:0000315	MGI:MGI:5430946		2012-09-03	MGI	BFO:0000066(CL:0000057)|BFO:0000066(CL:0000138)	creation-date=2012-09-03|modification-date=2012-09-03|comment=cell type chondrocyte ; CL:0000138|comment=cell type primary cell line cell ; CL:0000001 fibroblast ; CL:0000057|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -1139,9 +1135,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98727		RO:0002264	GO:0009790	MGI:MGI:2686855|PMID:14729481	ECO:0000315	MGI:MGI:2158731		2004-10-07	MGI	RO:0002296(EMAPA:17930)	creation-date=2004-09-22|modification-date=2004-10-07|comment=anatomy TS22\ palatal shelf; EMAP:6622|comment=evidence microscopy|contributor-id=https://orcid.org/0000-0001-9990-8331|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98728		RO:0002264	GO:0009790	MGI:MGI:3613125|PMID:16344855	ECO:0000315	MGI:MGI:3613461		2006-09-13	MGI		creation-date=2006-09-13|modification-date=2006-09-13|contributor-id=https://orcid.org/0000-0003-2689-5511
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98728		RO:0002264	GO:0009790	MGI:MGI:2686855|PMID:14729481	ECO:0000315			2004-09-22	MGI	RO:0002296(EMAPA:17930)	creation-date=2004-09-22|modification-date=2004-09-22|comment=anatomy TS22\ palatal shelf; EMAP:6622 (E14 palatal shelf)|comment=evidence microscopy|comment=via adenovirus expression of constituitively active Tgfbr1 (caAlk-5) on Tgfb3 -/- tissue and adenovirus expression of dominant negative Tgfbr1 (dnAlk-5) on wildtype tissue.|contributor-id=https://orcid.org/0000-0001-9990-8331
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98728		RO:0002264	GO:0009790	MGI:MGI:3613125|PMID:16344855	ECO:0000315	MGI:MGI:3613461		2006-09-13	MGI		creation-date=2006-09-13|modification-date=2006-09-13|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98736		RO:0002264	GO:0009790	MGI:MGI:70490|PMID:7846065	ECO:0000315	MGI:MGI:1857983		2002-07-26	MGI		creation-date=2002-07-26|modification-date=2002-07-26|contributor-id=https://orcid.org/0000-0001-7476-6306
 `
@@ -1173,9 +1169,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98797		RO:0002264	GO:0007275	MGI:MGI:63598|PMID:3796661	ECO:0000315			2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98797		RO:0002264	GO:0009790	MGI:MGI:62799|PMID:2693209	ECO:0000315	MGI:MGI:2183490		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98797		RO:0002264	GO:0009790	MGI:MGI:62799|PMID:2693209	ECO:0000315	MGI:MGI:2183489		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98797		RO:0002264	GO:0009790	MGI:MGI:62799|PMID:2693209	ECO:0000315	MGI:MGI:2183490		2008-05-15	MGI		creation-date=2008-05-15|modification-date=2008-05-15|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:98809		RO:0002264	GO:0009790	MGI:MGI:1101530|PMID:9400381	ECO:0000315	MGI:MGI:2385810		2007-03-16	MGI		creation-date=2007-03-16|modification-date=2007-03-16|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
@@ -1195,9 +1191,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328317		RO:0002264	GO:0002381	MGI:MGI:5637600|PMID:25848017	ECO:0000315	MGI:MGI:5751220		2018-10-17	MGI		creation-date=2018-10-17|modification-date=2018-10-17|comment=production of autoantibodies to dsDNA|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328317		RO:0002264	GO:0031323	MGI:MGI:5829115|PMID:28069950	ECO:0000316	MGI:MGI:1919762|MGI:MGI:1929658		2018-10-17	MGI		creation-date=2018-10-17|modification-date=2018-10-17|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328317		RO:0002264	GO:0031323	MGI:MGI:5829115|PMID:28069950	ECO:0000315	MGI:MGI:3052754		2018-10-17	MGI		creation-date=2018-10-17|modification-date=2018-10-17|contributor-id=https://orcid.org/0000-0003-3394-9805
+`
+* WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328317		RO:0002264	GO:0031323	MGI:MGI:5829115|PMID:28069950	ECO:0000316	MGI:MGI:1919762|MGI:MGI:1929658		2018-10-17	MGI		creation-date=2018-10-17|modification-date=2018-10-17|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000008: No annotations should be made to uninformatively high level terms -- `MGI:MGI:1328317		RO:0002264	GO:0032607	MGI:MGI:5554502|PMID:24218451	ECO:0000315	MGI:MGI:3052754		2018-10-17	MGI		creation-date=2018-10-17|modification-date=2018-10-17|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -1325,14 +1321,6 @@ This report generated on 2022-03-07
 ### gorule-0000026
 
 * total: 0
-### gorule-0000027
-
-* total: 2
-#### Messages
-* WARNING - Unknown identifier: Class ID GO:0160021 is not present in the ontology (GO:0160021) -- `MGI:MGI:1860140		RO:0002264	GO:0160021	MGI:MGI:6509513|PMID:32558204	ECO:0000315			2022-02-02	MGI		creation-date=2022-02-02|modification-date=2022-02-02|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
-* WARNING - Unknown identifier: Class ID GO:0160021 is not present in the ontology (GO:0160021) -- `MGI:MGI:2685954		RO:0002264	GO:0160021	MGI:MGI:6509513|PMID:32558204	ECO:0000315	MGI:MGI:6509577		2022-02-02	MGI		creation-date=2022-02-02|modification-date=2022-02-02|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 ### gorule-0000028
 
 * total: 10000
@@ -2777,9 +2765,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922764		RO:0001025	GO:0000785	MGI:MGI:5050596|PMID:21451147	ECO:0000314			2020-09-24	MGI	BFO:0000050(CL:0000023)|BFO:0000050(CL:0000017)	creation-date=2013-11-08|modification-date=2020-09-24|comment=cell type oocyte ; CL:0000023|comment=cell type spermatocyte ; CL:0000017|contributor-id=https://orcid.org/0000-0001-7476-6306|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
-* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922764		RO:0001025	GO:0001741	MGI:MGI:5509253|PMID:23810942	ECO:0000314			2014-05-20	MGI		creation-date=2014-05-20|modification-date=2014-05-20|comment=at pachytene stage|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922764		RO:0001025	GO:0001741	MGI:MGI:5050596|PMID:21451147	ECO:0000314			2013-11-08	MGI	BFO:0000050(CL:0000017)	creation-date=2013-11-08|modification-date=2013-11-08|comment=cell type spermatocyte ; CL:0000017|comment=early pachytene|contributor-id=https://orcid.org/0000-0003-2689-5511
+`
+* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922764		RO:0001025	GO:0001741	MGI:MGI:5509253|PMID:23810942	ECO:0000314			2014-05-20	MGI		creation-date=2014-05-20|modification-date=2014-05-20|comment=at pachytene stage|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922764		RO:0002327	GO:0005515	MGI:MGI:5509253|PMID:23810942	ECO:0000353	PR:Q505B8|PR:Q8CHK4		2014-05-20	MGI		creation-date=2014-05-20|modification-date=2014-05-20|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -5762,8 +5750,6 @@ This report generated on 2022-03-07
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1925891		RO:0002331	GO:0008150	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914614		RO:0002327	GO:0003674	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-09	MGI		creation-date=2010-02-09|modification-date=2010-02-09|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
-* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914614		RO:0002432	GO:0005575	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-09	MGI		creation-date=2010-02-09|modification-date=2010-02-09|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914614		RO:0002331	GO:0008150	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-09	MGI		creation-date=2010-02-09|modification-date=2010-02-09|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
@@ -14519,12 +14505,6 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1922531		RO:0002331	GO:0008150	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-02	MGI		creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805
 `
-* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914906		RO:0002327	GO:0003674	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-02	MGI		creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
-* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914906		RO:0002432	GO:0005575	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-02	MGI		creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
-* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1914906		RO:0002331	GO:0008150	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2010-02-02	MGI		creation-date=2010-02-02|modification-date=2010-02-02|contributor-id=https://orcid.org/0000-0003-3394-9805
-`
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1925293		RO:0002327	GO:0003674	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:1925293		RO:0002432	GO:0005575	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
@@ -21337,6 +21317,14 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:2145469		RO:0002327	GO:0003674	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
 `
+* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:2145469		RO:0002432	GO:0005575	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
+`
+* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:2145469		RO:0002331	GO:0008150	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
+`
+* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:2442084		RO:0002327	GO:0003674	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
+`
+* WARNING - Violates GO Rule: GORULE:0000028: Found violation of: `Aspect can only be one of C, P, F` but was repaired -- `MGI:MGI:2442084		RO:0002432	GO:0005575	MGI:MGI:2156816|GO_REF:0000015	ECO:0000307			2021-04-26	MGI		creation-date=2021-04-26|modification-date=2021-04-26|contributor-id=https://orcid.org/0000-0003-2689-5511
+`
 ### gorule-0000029
 
 * total: 0
@@ -21417,9 +21405,9 @@ This report generated on 2022-03-07
 `
 * WARNING - Violates GO Rule: GORULE:0000046: The ‘with’ field (GAF column 8) must be the same as the gene product (GAF colummn 2) when annotating to ‘self-binding’ terms -- `MGI:MGI:102791		RO:0002327	GO:0042803	MGI:MGI:6305433|PMID:26420485	ECO:0000353	PR:P15499		2020-05-19	MGI		creation-date=2020-05-19|modification-date=2020-05-19|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
-* WARNING - Violates GO Rule: GORULE:0000046: The ‘with’ field (GAF column 8) must be the same as the gene product (GAF colummn 2) when annotating to ‘self-binding’ terms -- `MGI:MGI:102791		RO:0002327	GO:0042803	MGI:MGI:5905515|PMID:28053051	ECO:0000353	PR:P15499		2020-05-19	MGI		creation-date=2020-05-19|modification-date=2020-05-19|contributor-id=https://orcid.org/0000-0002-9796-7693
-`
 * WARNING - Violates GO Rule: GORULE:0000046: The ‘with’ field (GAF column 8) must be the same as the gene product (GAF colummn 2) when annotating to ‘self-binding’ terms -- `MGI:MGI:102791		RO:0002327	GO:0042803	MGI:MGI:4452587|PMID:20055437	ECO:0000353	PR:P15499		2020-05-19	MGI		creation-date=2020-05-19|modification-date=2020-05-19|contributor-id=https://orcid.org/0000-0002-9796-7693
+`
+* WARNING - Violates GO Rule: GORULE:0000046: The ‘with’ field (GAF column 8) must be the same as the gene product (GAF colummn 2) when annotating to ‘self-binding’ terms -- `MGI:MGI:102791		RO:0002327	GO:0042803	MGI:MGI:5905515|PMID:28053051	ECO:0000353	PR:P15499		2020-05-19	MGI		creation-date=2020-05-19|modification-date=2020-05-19|contributor-id=https://orcid.org/0000-0002-9796-7693
 `
 * WARNING - Violates GO Rule: GORULE:0000046: The ‘with’ field (GAF column 8) must be the same as the gene product (GAF colummn 2) when annotating to ‘self-binding’ terms -- `MGI:MGI:102791		RO:0002264	GO:0051260	MGI:MGI:4452587|PMID:20055437	ECO:0000353	PR:P15499		2020-05-19	MGI		creation-date=2020-05-19|modification-date=2020-05-19|contributor-id=https://orcid.org/0000-0002-9796-7693
 `

@@ -35,12 +35,12 @@ ns2:providedBy a owl:AnnotationProperty .
     dc:date "2020-04-15" ;
     dc:title "Phf1 (MGI:MGI:98647)" ;
     dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     owl:versionIRI <http://model.geneontology.org/MGI_MGI_98647> ;
     ns3:in_taxon obo:NCBITaxon_10090 .
 
-<http://model.geneontology.org/MGI_MGI_98647/0837adad-a2fe-4913-b597-f94a27629181> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_98647/55632c4a-eb09-46e6-996c-4e58b44a7e17> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
@@ -48,7 +48,16 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2020-04-15" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_98647/1800ba5e-f60e-44ab-9877-d62091d62e6e> a ECO:0000314,
+<http://model.geneontology.org/MGI_MGI_98647/7b4ef729-94d7-4ad9-a814-af9bfa9fa156> a MGI:MGI:98647,
+        owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_98647/97972093-d704-4ae1-9bd7-59e9930a461f> ;
+    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
+    dc:date "2020-04-15" ;
+    dct:created "2020-04-15" ;
+    dct:dateAccepted "2022-03-28" ;
+    ns2:providedBy "http://informatics.jax.org" .
+
+<http://model.geneontology.org/MGI_MGI_98647/a08bbdf0-0d42-4a22-bf37-f0dab25c55a4> a ECO:0000314,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
@@ -56,55 +65,46 @@ ns2:providedBy a owl:AnnotationProperty .
     dct:created "2020-04-15" ;
     ns2:providedBy "http://informatics.jax.org" .
 
-<http://model.geneontology.org/MGI_MGI_98647/87495fdd-8e6a-4f2e-bddf-f964135c3e6b> a MGI:MGI:98647,
-        owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_98647/d4a4f6b0-3f92-4402-b553-dda38709f9ca> ;
-    dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
-    dc:date "2020-04-15" ;
-    dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
-    ns2:providedBy "http://informatics.jax.org" .
-
-<http://model.geneontology.org/MGI_MGI_98647/4338dd6b-b62e-4fa3-bd56-314aadeb915b> a EMAPA:17972,
+<http://model.geneontology.org/MGI_MGI_98647/256d812a-455d-4424-ac63-4078681c6197> a EMAPA:17972,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
     dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
-<http://model.geneontology.org/MGI_MGI_98647/d4a4f6b0-3f92-4402-b553-dda38709f9ca> a GO:0035098,
+<http://model.geneontology.org/MGI_MGI_98647/97972093-d704-4ae1-9bd7-59e9930a461f> a GO:0035098,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_98647/4338dd6b-b62e-4fa3-bd56-314aadeb915b> ;
+    obo:BFO_0000050 <http://model.geneontology.org/MGI_MGI_98647/256d812a-455d-4424-ac63-4078681c6197> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
     dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_98647/1800ba5e-f60e-44ab-9877-d62091d62e6e> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_98647/a08bbdf0-0d42-4a22-bf37-f0dab25c55a4> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
     dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:98647  BFO:0000050 GO:0035098 MGI:MGI:6362099|PMID:31451685 ECO:0000314   2020-04-15 MGI BFO:0000050(EMAPA:17972) creation-date=2020-04-15|modification-date=2020-04-15|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_98647/87495fdd-8e6a-4f2e-bddf-f964135c3e6b> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_98647/d4a4f6b0-3f92-4402-b553-dda38709f9ca> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_98647/97972093-d704-4ae1-9bd7-59e9930a461f> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_98647/256d812a-455d-4424-ac63-4078681c6197> .
 
 [] a owl:Axiom ;
-    ns1:evidence <http://model.geneontology.org/MGI_MGI_98647/0837adad-a2fe-4913-b597-f94a27629181> ;
+    ns1:evidence <http://model.geneontology.org/MGI_MGI_98647/55632c4a-eb09-46e6-996c-4e58b44a7e17> ;
     dc:contributor "https://orcid.org/0000-0001-5501-853X" ;
     dc:date "2020-04-15" ;
     dct:created "2020-04-15" ;
-    dct:dateAccepted "2022-03-07" ;
+    dct:dateAccepted "2022-03-28" ;
     ns2:providedBy "http://informatics.jax.org" ;
     rdfs:comment "MGI:MGI:98647  BFO:0000050 GO:0035098 MGI:MGI:6362099|PMID:31451685 ECO:0000314   2020-04-15 MGI BFO:0000050(EMAPA:17972) creation-date=2020-04-15|modification-date=2020-04-15|contributor-id=https://orcid.org/0000-0001-5501-853X" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_98647/d4a4f6b0-3f92-4402-b553-dda38709f9ca> ;
-    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_98647/4338dd6b-b62e-4fa3-bd56-314aadeb915b> .
+    owl:annotatedSource <http://model.geneontology.org/MGI_MGI_98647/7b4ef729-94d7-4ad9-a814-af9bfa9fa156> ;
+    owl:annotatedTarget <http://model.geneontology.org/MGI_MGI_98647/97972093-d704-4ae1-9bd7-59e9930a461f> .
 
